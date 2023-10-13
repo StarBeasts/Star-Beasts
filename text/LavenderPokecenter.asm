@@ -1,12 +1,18 @@
 _LavenderPokecenterText2::
-	text "TEAM ROCKET will"
-	line "do anything for"
-	cont "the sake of gold!"
+	text "They sell special"
+	line "SOULs that help"
+	cont "#MON evolve"
+	cont "at the LAVENDER"
+	cont "TOWN #MART!"
 	done
 
 _LavenderPokecenterText3::
-	text "I saw CUBONE's"
-	line "mother die trying"
-	cont "to escape from"
-	cont "TEAM ROCKET!"
+	text "There's some kind"
+	line "of GHOST haunting"
+	cont "#MON TOWER!"
+	
+	para "Apparently, TEAM"
+	line "ROCKET'S LEADER"
+	cont "is searching"
+	cont "for it?"
 	done

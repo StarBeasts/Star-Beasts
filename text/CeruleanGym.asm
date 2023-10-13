@@ -1,20 +1,20 @@
 _MistyPreBattleText::
-	text "Hi, you're a new"
-	line "face!"
+	text "Aloha!"
 
-	para "Trainers who want"
-	line "to turn pro have"
-	cont "to have a policy"
-	cont "about #MON!"
+	para "#MON battles"
+	line "are a lot like"
+	cont "surfing!"
 
-	para "What is your"
-	line "approach when you"
-	cont "catch #MON?"
+	para "You gotta go"
+	line "with the flow!"
 
-	para "My policy is an"
-	line "all-out offensive"
-	cont "with water-type"
-	cont "#MON!"
+	para "Or..."
+
+	para "Get crushed by"
+	line "the tide and"
+	cont "wipe out!"
+
+	para "Let's hang ten!"
 	done
 
 _TM11ExplanationText::
@@ -70,7 +70,7 @@ _CeruleanGymBattleText1::
 	text "I'm more than good"
 	line "enough for you!"
 
-	para "MISTY can wait!"
+	para "MIZU can wait!"
 	done
 
 _CeruleanGymEndBattleText1::
@@ -98,11 +98,11 @@ _CeruleanGymEndBattleText2::
 	prompt
 
 _CeruleanGymAfterBattleText2::
-	text "MISTY is going to"
+	text "MIZU is going to"
 	line "keep improving!"
 
-	para "She won't lose to"
-	line "someone like you!"
+	para "She'll wash you"
+	line "ashore!"
 	done
 
 _CeruleanGymGuidePreBattleText::
@@ -111,7 +111,7 @@ _CeruleanGymGuidePreBattleText::
 
 	para "Here's my advice!"
 
-	para "The LEADER, MISTY,"
+	para "The LEADER, MIZU,"
 	line "is a pro who uses"
 	cont "water #MON!"
 
@@ -124,7 +124,7 @@ _CeruleanGymGuidePreBattleText::
 	done
 
 _CeruleanGymGuidePostBattleText::
-	text "You beat MISTY!"
+	text "You beat MIZU!"
 	line "What'd I tell ya?"
 
 	para "You and me kid,"

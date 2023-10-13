@@ -6,7 +6,7 @@ _ViridianForestEntranceText1::
 	done
 
 _ViridianForestEntranceText2::
-	text "RATTATA may be"
+	text "MULCRUNCH may be"
 	line "small, but its"
 	cont "bite is wicked!"
 	cont "Did you get one?"

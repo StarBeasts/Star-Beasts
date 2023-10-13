@@ -1,39 +1,50 @@
 _SSAnne8Text8::
-	text "WIGGLYTUFF: Puup"
-	line "pupuu!@"
+	text "SPRIGGLE: Sprik!"
+	line "Sprikiki!@"
 	text_end
 
 _SSAnne8BattleText1::
-	text "I travel alone"
-	line "on my journeys!"
+	text "Business trips"
+	line "get rather"
+	cont "lonely..."
 
-	para "My #MON are my"
-	line "only friends!"
+	para "What say we"
+	line "have a battle"
+	cont "to pass the"
+	cont "time?"
 	done
 
 _SSAnne8EndBattleText1::
-	text "My, my"
-	line "friends..."
+	text "Jolly"
+	line "good show!"
 	prompt
 
 _SSAnne8AfterBattleText1::
-	text "You should be"
-	line "nice to friends!"
+	text "I say, what is"
+	line "that terrible"
+	cont "racket in that"
+	cont "room next door?"
 	done
 
 _SSAnne8BattleText2::
-	text "You pup! How dare"
-	line "you barge in!"
+	text "You pup! This"
+	line "room is supposed"
+	cont "to be private!"
 	done
 
 _SSAnne8EndBattleText2::
 	text "Humph!"
-	line "You rude child!"
+	line "How rude!"
 	prompt
 
 _SSAnne8AfterBattleText2::
-	text "I wish to be left"
-	line "alone! Get out!"
+	text "Ignore the woman"
+	line "in the corner."
+	
+	para "I paid good money"
+	line "for her, so she"
+	cont "isn't going"
+	cont "anywhere."
 	done
 
 _SSAnne8BattleText3::
@@ -88,12 +99,13 @@ _SSAnne8Text6::
 
 _SSAnne8Text7::
 	text "I always travel"
-	line "with WIGGLYTUFF!"
+	line "with SPRIGGLE!"
 	done
 
 _SSAnne8Text9::
-	text "We are cruising"
-	line "around the world."
+	text "HELP! HEEEELLP!!!"
+	line "THIS OLD MAN"
+	cont "ABDUCTED ME!"
 	done
 
 _SSAnne8Text11::

@@ -12,8 +12,18 @@ _VermilionPokecenterText2::
 	done
 
 _VermilionPokecenterText3::
-	text "My #MON was"
-	line "poisoned! It"
-	cont "fainted while we"
-	cont "were walking!"
+	text "Some #MON"
+	line "can evolve into"
+	cont "different forms!"
+
+	para "For example,"
+	line "NEEDOLF evolves"
+	cont "into a different"
+	cont "#MON depending"
+	cont "on if you give it"
+	cont "a MOON STONE or"
+	cont "a DARK SOUL!"
+	
+	para "Neat, eh?"
+	
 	done

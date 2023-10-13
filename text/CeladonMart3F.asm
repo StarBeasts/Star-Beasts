@@ -1,6 +1,7 @@
 _TM18PreReceiveText::
 	text "Oh, hi! I finally"
-	line "finished #MON!"
+	line "finished"
+	cont "STAR BEASTS!"
 
 	para "Not done yet?"
 	line "This might be"
@@ -37,25 +38,24 @@ _CeladonMart3Text2::
 	done
 
 _CeladonMart3Text3::
-	text "All right!"
+	text "Just so you know."
 
-	para "My buddy's going"
-	line "to trade me his"
-	cont "KANGASKHAN for my"
-	cont "GRAVELER!"
+	para "You don't need to"
+	line "do any trading to"
+	cont "get all the"
+	cont "#MON in this"
+	cont "game."
 	done
 
 _CeladonMart3Text4::
-	text "Come on GRAVELER!"
+	text "What!?"
 
-	para "I love GRAVELER!"
-	line "I collect them!"
+	para "What do you mean"
+	line "LUZONEN evolves"
+	cont "at level 40!?"
 
-	para "Huh?"
-
-	para "GRAVELER turned"
-	line "into a different"
-	cont "#MON!"
+	para "I hate not being"
+	line "inconvenienced!"
 	done
 
 _CeladonMart3Text5::
@@ -94,6 +94,6 @@ _CeladonMart3Text14::
 	done
 
 _CeladonMart3Text15::
-	text "Red and Blue!"
-	line "Both are #MON!"
+	text "METEOR and COMET!"
+	line "It's STAR BEASTS!"
 	done

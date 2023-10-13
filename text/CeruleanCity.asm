@@ -2,14 +2,14 @@ _CeruleanCityText_19668::
 	text "<RIVAL>: Yo!"
 	line "<PLAYER>!"
 
-	para "You're still"
-	line "struggling along"
+	para "What's taking"
+	line "you so long"
 	cont "back here?"
 
 	para "I'm doing great!"
 	line "I caught a bunch"
-	cont "of strong and"
-	cont "smart #MON!"
+	cont "of really tough"
+	cont "#MON!"
 
 	para "Here, let me see"
 	line "what you caught,"
@@ -32,30 +32,29 @@ _CeruleanCityText_19677::
 	text "<RIVAL>: Hey,"
 	line "guess what?"
 
-	para "I went to BILL's"
-	line "and got him to"
-	cont "show me his rare"
+	para "There's this guy"
+	line "up on the cape"
+	cont "that got turned"
+	cont "into a #MON!"
+
+	para "He kept saying"
+	line "something about"
+	cont "GENE SPLICING."
+
+	para "You ask me, he"
+	line "seems like a"
+	cont "kook!"
+
+	para "Still, it was"
+	line "neat when he"
+	cont "showed me his"
 	cont "#MON!"
 
-	para "That added a lot"
-	line "of pages to my"
-	cont "#DEX!"
+	para "If you're in"
+	line "that area, you"
+	cont "should say hi!"
 
-	para "After all, BILL's"
-	line "world famous as a"
-	cont "#MANIAC!"
-
-	para "He invented the"
-	line "#MON Storage"
-	cont "System on PC!"
-
-	para "Since you're using"
-	line "his system, go"
-	cont "thank him!"
-
-	para "Well, I better"
-	line "get rolling!"
-	cont "Smell ya later!"
+	para "Anyways, see ya!"
 	done
 
 _CeruleanCityText_196d9::
@@ -104,6 +103,10 @@ _CeruleanCityText3::
 	line "too? Collecting,"
 	cont "fighting, it's a"
 	cont "tough life."
+
+	para "Wouldn't trade it"
+	line "for the world,"
+	cont "though."
 	done
 
 _CeruleanCityText4::
@@ -137,20 +140,21 @@ _CeruleanCityText6::
 	done
 
 _CeruleanCityText_19730::
-	text "OK! SLOWBRO!"
-	line "Use SONICBOOM!"
-	cont "Come on, SLOWBRO"
+	text "OK! LAWNCRETE!"
+	line "Use WOOD HAMMER!"
+	cont "LAWNCRETE,"
 	cont "pay attention!"
 	done
 
 _CeruleanCityText_19735::
-	text "SLOWBRO punch!"
-	line "No! You blew it"
+	text "LAWNCRETE, use"
+	line "BRICK BREAK!"
+	cont "No! You blew it"
 	cont "again!"
 	done
 
 _CeruleanCityText_1973a::
-	text "SLOWBRO, WITHDRAW!"
+	text "LAWNCRETE, CUT!"
 	line "No! That's wrong!"
 
 	para "It's so hard to"
@@ -163,32 +167,37 @@ _CeruleanCityText_1973a::
 	done
 
 _CeruleanCityText_1976f::
-	text "SLOWBRO took a"
-	line "snooze..."
+	text "LAWNCRETE is"
+	line "staring off"
+	cont "into space..."
 	done
 
 _CeruleanCityText_19774::
-	text "SLOWBRO is"
-	line "loafing around..."
+	text "LAWNCRETE looks"
+	line "bored..."
 	done
 
 _CeruleanCityText_19779::
-	text "SLOWBRO turned"
-	line "away..."
+	text "LAWNCRETE"
+	line "stretched and"
+	cont "yawned..."
 	done
 
 _CeruleanCityText_1977e::
-	text "SLOWBRO"
-	line "ignored orders..."
+	text "LAWNCRETE"
+	line "doesn't appear"
+	cont "to be paying"
+	cont "attention..."
 	done
 
 _CeruleanCityText9::
-	text "I want a bright"
-	line "red BICYCLE!"
+	text "Oh, to feel the"
+	line "wind rushing"
+	cont "past you..."
 
-	para "I'll keep it at"
-	line "home, so it won't"
-	cont "get dirty!"
+	para "That's a bicycle."
+	line "If only I could"
+	cont "afford one..."
 	done
 
 _CeruleanCityText10::
@@ -228,8 +237,8 @@ _CeruleanCityText16::
 _CeruleanCityText17::
 	text "CERULEAN CITY"
 	line "#MON GYM"
-	cont "LEADER: MISTY"
+	cont "LEADER: MIZU"
 
-	para "The Tomboyish"
-	line "Mermaid!"
+	para "The Surfing"
+	line "Siren!"
 	done

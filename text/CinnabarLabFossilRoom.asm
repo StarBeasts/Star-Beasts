@@ -1,38 +1,43 @@
 _Lab4Text_75dc6::
-	text "Hiya!"
+	text "Greetings!"
 
-	para "I am important"
-	line "doctor!"
+	para "I am a doctor of"
+	line "resurrection!"
 
-	para "I study here rare"
-	line "#MON fossils!"
+	para "Here we solve"
+	line "entropy, one"
+	cont "soul at a time!"
 
-	para "You! Have you a"
-	line "fossil for me?"
+	para "Is there a soul"
+	line "you'd like me"
+	cont "to see?"
 	prompt
 
 _Lab4Text_75dcb::
-	text "No! Is too bad!"
+	text "I see. Too bad."
 	done
 
 _Lab4Text_75dd0::
-	text "I take a little"
-	line "time!"
+	text "Patience, please."
 
-	para "You go for walk a"
-	line "little while!"
+	para "I don't work"
+	line "well under a"
+	cont "timeline."
+
+	para "It'll be done"
+	line "when it's done."
 	done
 
 _Lab4Text_75dd5::
-	text "Where were you?"
+	text "There you are!"
 
-	para "Your fossil is"
-	line "back to life!"
+	para "Your soul was"
+	line "reincarnated!"
 
 	para "It was @"
 	text_ram wStringBuffer
-	text_start
-	line "like I think!"
+	text ","
+	line "of course!"
 	prompt
 
 _Lab4Text_610ae::
@@ -41,7 +46,7 @@ _Lab4Text_610ae::
 	text_ram wcd6d
 	text "!"
 
-	para "It is fossil of"
+	para "It is the soul of"
 	line "@"
 	text_ram wStringBuffer
 	text ", a"
@@ -55,8 +60,9 @@ _Lab4Text_610ae::
 	done
 
 _Lab4Text_610b3::
-	text "So! You hurry and"
-	line "give me that!"
+	text "Alright, just"
+	line "give me that,"
+	cont "and..."
 
 	para "<PLAYER> handed"
 	line "over @"
@@ -65,14 +71,16 @@ _Lab4Text_610b3::
 	prompt
 
 _Lab4Text_610b8::
-	text "I take a little"
-	line "time!"
+	text "This will take"
+	line "a while."
 
-	para "You go for walk a"
-	line "little while!"
+	para "Why don't you"
+	line "step outside,"
+	cont "enjoy the ocean"
+	cont "air for a while?"
 	done
 
 _Lab4Text_610bd::
-	text "Aiyah! You come"
+	text "Please do come"
 	line "again!"
 	done

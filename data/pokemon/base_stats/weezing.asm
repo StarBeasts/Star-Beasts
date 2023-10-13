@@ -1,6 +1,6 @@
 	db DEX_WEEZING ; pokedex id
 
-	db  65,  90, 120,  60,  85
+	db  85, 110, 90,  85,  75
 	;   hp  atk  def  spd  spc
 
 	db POISON, POISON ; type
@@ -19,4 +19,5 @@
 	     REST,         EXPLOSION,    SUBSTITUTE
 	; end
 
-	db 0 ; padding
+	db BANK(WeezingPicFront)
+	assert BANK(WeezingPicFront) == BANK(WeezingPicBack)

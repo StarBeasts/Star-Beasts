@@ -1,7 +1,7 @@
 _Route15BattleText1::
-	text "Let me try out the"
-	line "#MON I just"
-	cont "got in a trade!"
+	text "Hey, you look"
+	line "tough! Let's"
+	cont "battle!"
 	done
 
 _Route15EndBattleText1::
@@ -10,13 +10,14 @@ _Route15EndBattleText1::
 	prompt
 
 _Route15AfterBattleText1::
-	text "You can't change"
-	line "the nickname of"
-	cont "any #MON you"
-	cont "get in a trade."
+	text "I want to talk"
+	line "to the girl by"
+	cont "the gate, but"
+	cont "she's really"
+	cont "scary..."
 
-	para "Only the Original"
-	line "Trainer can."
+	para "Do you know how"
+	line "to talk to girls?"
 	done
 
 _Route15BattleText2::
@@ -31,48 +32,50 @@ _Route15EndBattleText2::
 	prompt
 
 _Route15AfterBattleText2::
-	text "I'm afraid of"
-	line "BIKERs, they look"
-	cont "so ugly and mean!"
+	text "That lady by the"
+	line "gate makes me"
+	cont "nervous..."
 	done
 
 _Route15BattleText3::
-	text "When I whistle, I"
-	line "can summon bird"
-	cont "#MON!"
+	text "Ugh, not another"
+	line "woman..."
 	done
 
 _Route15EndBattleText3::
-	text "Ow!"
-	line "That's tragic!"
+	text "..."
+	line "Wait, you're an..."
+	cont "Enby? What's that?"
 	prompt
 
 _Route15AfterBattleText3::
-	text "Maybe I'm not cut"
-	line "out for battles."
+	text "I'm not sexist, I"
+	line "just don't..."
+	
+	para "Prefer women, you"
+	line "know what I mean?"
 	done
 
 _Route15BattleText4::
-	text "Hmm? My birds are"
-	line "shivering! You're"
-	cont "good, aren't you?"
+	text "Stop right there,"
+	line "criminal scum!"
 	done
 
 _Route15EndBattleText4::
-	text "Just"
-	line "as I thought!"
+	text "Kidding!"
+	line "I'm kidding!"
 	prompt
 
 _Route15AfterBattleText4::
-	text "Did you know moves"
-	line "like EARTHQUAKE"
-	cont "don't have any"
-	cont "effect on birds?"
+	text "Wish I was in"
+	line "the SAFARI ZONE"
+	cont "instead of being"
+	cont "stuck out here..."
 	done
 
 _Route15BattleText5::
 	text "Oh, you're a"
-	line "little cutie!"
+	line "cute face!"
 	done
 
 _Route15EndBattleText5::
@@ -81,8 +84,9 @@ _Route15EndBattleText5::
 	prompt
 
 _Route15AfterBattleText5::
-	text "I forgive you!"
-	line "I can take it!"
+	text "It's just been"
+	line "BIKERs and"
+	cont "OFFICERs, lately."
 	done
 
 _Route15BattleText6::
@@ -104,12 +108,11 @@ _Route15AfterBattleText6::
 
 _Route15BattleText7::
 	text "Hey kid! C'mon!"
-	line "I just got these!"
+	line "I can whip you!"
 	done
 
 _Route15EndBattleText7::
-	text "Why"
-	line "not?"
+	text "Alas..."
 	prompt
 
 _Route15AfterBattleText7::
@@ -127,42 +130,56 @@ _Route15BattleText8::
 
 _Route15EndBattleText8::
 	text "That"
-	line "can't be true!"
+	line "can't be!"
 	prompt
 
 _Route15AfterBattleText8::
-	text "I was just joking"
-	line "about the money!"
+	text "If the cops ask,"
+	line "I was joking."
 	done
 
 _Route15BattleText9::
-	text "What's cool?"
-	line "Trading #MON!"
+	text "Eeek! You're one"
+	line "of those scary"
+	cont "BIKERs!"
 	done
 
 _Route15EndBattleText9::
-	text "I"
-	line "said trade!"
+	text "Nah!"
+	line "You're no BIKER!"
 	prompt
 
 _Route15AfterBattleText9::
-	text "I trade #MON"
-	line "with my friends!"
+	text "I'm hiding from"
+	line "the BIKERs here!"
 	done
 
 _Route15BattleText10::
-	text "Want to play with"
-	line "my #MON?"
+	text "Freeze! This is"
+	line "LORELEI, with the"
+	cont "KANTO POLICE"
+	cont "FORCE! You are"
+	cont "under arrest!"
 	done
 
 _Route15EndBattleText10::
-	text "I was"
-	line "too impatient!"
+	text "..."
+	line "Such skill..."
+	cont "You're not a"
+	cont "BIKER at all,"
+	cont "are you?"
 	prompt
 
 _Route15AfterBattleText10::
-	text "I'll go train with"
-	line "weaker people.@"
+	text "Sorry about"
+	line "that. After"
+	cont "what happened"
+	cont "to SABRINA,"
+	cont "everyone's a"
+	cont "litte on edge."
+	cont "The heat out"
+	cont "here isn't"
+	cont "helping...@"
 	text_end
 
 _Route15Text12::

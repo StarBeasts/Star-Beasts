@@ -1,64 +1,81 @@
 _GiovanniPreBattleText::
-	text "Fwahahaha! This is"
-	line "my hideout!"
+	text "Oh. <PLAYER>."
+	
+	para "Once again, our"
+	line "paths cross."
+
+	para "This is quite"
+	line "fortuitous for"
+	cont "me, actually."
 
 	para "I planned to"
-	line "resurrect TEAM"
-	cont "ROCKET here!"
+	line "hunt you down"
+	cont "and make an"
+	cont "example of you,"
+	cont "but you came"
+	cont "to me, instead!"
 
-	para "But, you have"
-	line "caught me again!"
-	cont "So be it! This"
-	cont "time, I'm not"
-	cont "holding back!"
+	para "No longer will"
+	line "I suffer the"
+	cont "indignity of"
+	cont "having been"
+	cont "defeated by"
+	cont "a mere child!"
 
-	para "Once more, you"
-	line "shall face"
-	cont "GIOVANNI, the"
-	cont "greatest trainer!"
+	para "After this day,"
+	line "the world will"
+	cont "tremble in fear"
+	cont "when it hears"
+	cont "my name..."
+
+	para "LUCIAN!"
 	done
 
 _ReceivedEarthBadgeText::
-	text "Ha!"
-	line "That was a truly"
-	cont "intense fight!"
-	cont "You have won!"
-	cont "As proof, here is"
-	cont "the EARTHBADGE!@"
+	text "..."
+
+	para "And yet..."
+
+	para "Yet again, you"
+	line "win...?"
+
+	para "Very well."
+	line "You may have"
+	cont "the EARTHBADGE.@"
 	text_end
 
 _GiovanniPostBattleAdviceText::
-	text "Having lost, I"
-	line "cannot face my"
-	cont "underlings!"
-	cont "TEAM ROCKET is"
-	cont "finished forever!"
+	text "It's become clear"
+	line "to me that my"
+	cont "time in this"
+	cont "region is over."
 
-	para "I will dedicate my"
-	line "life to the study"
-	cont "of #MON!"
+	para "I will abandon"
+	line "this place and"
+	cont "begin again,"
+	cont "elsewhere."
 
-	para "Let us meet again"
-	line "some day!"
-	cont "Farewell!@"
+	para "Should our paths"
+	line "cross again..."
+
+	para "I look forward"
+	line "to fighting you."
+
+	para "Farewell.@"
 	text_end
 
 _GiovanniEarthBadgeInfoText::
 	text "The EARTHBADGE"
 	line "makes #MON of"
-	cont "any level obey!"
+	cont "any level obey."
 
-	para "It is evidence of"
-	line "your mastery as a"
-	cont "#MON trainer!"
-
-	para "With it, you can"
+	para "With it, you may"
 	line "enter the #MON"
-	cont "LEAGUE!"
+	cont "LEAGUE."
 
-	para "It is my gift for"
-	line "your #MON"
-	cont "LEAGUE challenge!"
+	para "Consider it my"
+	line "parting gift to"
+	cont "you, <PLAYER>."
 	done
 
 _ReceivedTM27Text::
@@ -69,10 +86,10 @@ _ReceivedTM27Text::
 _TM27ExplanationText::
 	text_start
 
-	para "TM27 is FISSURE!"
+	para "TM27 is FISSURE."
 	line "It will take out"
 	cont "#MON with just"
-	cont "one hit!"
+	cont "one hit."
 
 	para "I made it when I"
 	line "ran the GYM here,"
@@ -85,14 +102,15 @@ _TM27NoRoomText::
 	done
 
 _ViridianGymBattleText1::
-	text "Heh! You must be"
-	line "running out of"
-	cont "steam by now!"
+	text "You look pretty"
+	line "harmless. Sure"
+	cont "you're not lost?"
 	done
 
 _ViridianGymEndBattleText1::
-	text "I"
-	line "ran out of gas!"
+	text "Yep!"
+	line "You're in the"
+	cont "right place!"
 	prompt
 
 _ViridianGymAfterBattleText1::
@@ -150,18 +168,21 @@ _ViridianGymAfterBattleText4::
 	done
 
 _ViridianGymBattleText5::
-	text "The truly talented"
-	line "win with style!"
+	text "Sssshh! I'm"
+	line "investigating"
+	cont "this GYM!"
 	done
 
 _ViridianGymEndBattleText5::
-	text "I"
-	line "lost my grip!"
+	text "Agh!"
+	line "OFFICER DOWN!"
+	cont "OFFICER DOWN!"
 	prompt
 
 _ViridianGymAfterBattleText5::
-	text "The LEADER will"
-	line "scold me!"
+	text "I swear I've"
+	line "seen the LEADER"
+	cont "before..."
 	done
 
 _ViridianGymBattleText6::
@@ -181,9 +202,10 @@ _ViridianGymAfterBattleText6::
 	done
 
 _ViridianGymBattleText7::
-	text "Your #MON will"
-	line "cower at the"
-	cont "crack of my whip!"
+	text "The sound of a"
+	line "whipcrack is the"
+	cont "sound of a"
+	cont "sonic boom!"
 	done
 
 _ViridianGymEndBattleText7::
@@ -199,8 +221,10 @@ _ViridianGymAfterBattleText7::
 _ViridianGymBattleText8::
 	text "VIRIDIAN GYM was"
 	line "closed for a long"
-	cont "time, but now our"
-	cont "LEADER is back!"
+	cont "time, but now it's"
+	cont "going to be TEAM"
+	cont "ROCKET's new"
+	cont "headquarters!"
 	done
 
 _ViridianGymEndBattleText8::
@@ -234,7 +258,7 @@ _ViridianGymGuidePreBattleText::
 	done
 
 _ViridianGymGuidePostBattleText::
-	text "Blow me away!"
-	line "GIOVANNI was the"
-	cont "GYM LEADER here?"
+	text "Oh my stars!"
+	line "LUCIAN was the"
+	cont "GYM LEADER here!?"
 	done

@@ -5,9 +5,13 @@ _CinnabarIslandText8::
 
 _CinnabarIslandText1::
 	text "CINNABAR GYM's"
-	line "BLAINE is an odd"
+	line "VELID is an odd"
 	cont "man who has lived"
 	cont "here for decades."
+
+	para "Some people say"
+	line "he's lived here"
+	cont "for centuries!"
 	done
 
 _CinnabarIslandText2::
@@ -30,8 +34,8 @@ _CinnabarIslandText6::
 _CinnabarIslandText7::
 	text "CINNABAR ISLAND"
 	line "#MON GYM"
-	cont "LEADER: BLAINE"
+	cont "LEADER: VELID"
 
-	para "The Hot-Headed"
-	line "Quiz Master!"
+	para "The Pyrotechnic"
+	line "Wizard!"
 	done

@@ -1,29 +1,42 @@
 _RocketHideout4Text_4557a::
-	text "So! I must say, I"
-	line "am impressed you"
-	cont "got here!"
+	text "A mere child?"
+	line "You're the one"
+	cont "causing all"
+	cont "of this trouble?"
+
+	para "Hahaha..."
+	line "Very well."
+
+	para "Let me show you"
+	line "how adults"
+	cont "settle disputes!"
 	done
 
 _RocketHideout4Text_4557f::
-	text "WHAT!"
+	text "HOW!?"
 	line "This cannot be!"
 	prompt
 
 _RocketHideout4Text_45584::
-	text "I see that you"
-	line "raise #MON"
-	cont "with utmost care."
+	text "You're no"
+	line "ordinary child."
+	
+	para "I understand now"
+	line "why my men were"
+	cont "cast aside so"
+	cont "easily."
 
 	para "A child like you"
 	line "would never"
 	cont "understand what I"
 	cont "hope to achieve."
 
-	para "I shall step"
-	line "aside this time!"
+	para "Hmph. I have no"
+	line "further business"
+	cont "with you, either"
+	cont "way."
 
-	para "I hope we meet"
-	line "again..."
+	para "Au revoir."
 	done
 
 _RocketHideout4BattleText2::

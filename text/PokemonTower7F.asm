@@ -8,10 +8,12 @@ _TowerRescueFujiText::
 
 	para "I came to calm"
 	line "the soul of"
-	cont "CUBONE's mother."
+	cont "that child."
 
-	para "I think MAROWAK's"
-	line "spirit has gone"
+	para "I don't know who"
+	line "that child was,"
+	cont "but it seems her"
+	cont "spirit has gone"
 	cont "to the afterlife."
 
 	para "I must thank you"
@@ -39,13 +41,13 @@ _PokemonTower7AfterBattleText1::
 	done
 
 _PokemonTower7BattleText2::
-	text "This old guy came"
-	line "and complained"
-	cont "about us harming"
-	cont "useless #MON!"
+	text "The BOSS man's"
+	line "searching for a"
+	cont "specific GHOST."
 
-	para "We're talking it"
-	line "over as adults!"
+	para "And what the BOSS"
+	line "man wants, the"
+	cont "BOSS man gets!"
 	done
 
 _PokemonTower7EndBattleText2::
@@ -54,25 +56,42 @@ _PokemonTower7EndBattleText2::
 	prompt
 
 _PokemonTower7AfterBattleText2::
-	text "#MON are only"
-	line "good for making"
-	cont "money!"
+	text "Who cares"
+	line "what the BOSS man"
+	cont "wants!?"
 
-	para "Stay out of our"
-	line "business!"
+	para "Just don't hurt"
+	line "me!"
 	done
 
 _PokemonTower7BattleText3::
-	text "You're not saving"
-	line "anyone, kid!"
+	text "...?"
+	
+	para "Have we met"
+	line "before?"
+
+	para "Regardless,"
+	line "I'm afraid you'll"
+	cont "have to wait your"
+	cont "turn..."
+
+	para "I have some"
+	line "questions for the"
+	cont "old man..."
 	done
 
 _PokemonTower7EndBattleText3::
-	text "Don't"
-	line "fight us ROCKETs!"
+	text "..."
 	prompt
 
 _PokemonTower7AfterBattleText3::
-	text "You're not getting"
-	line "away with this!"
+	text "This was a"
+	line "personal matter."
+
+	para "..."
+
+	para "It matters not. I"
+	line "have other, more"
+	cont "pressing concerns"
+	cont "to see to."
 	done

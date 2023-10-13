@@ -143,14 +143,20 @@ SetPal_Overworld:
 	cp CEMETERY
 	jr z, .PokemonTowerOrAgatha
 	cp CAVERN
-	jr z, .caveOrBruno
+	jr z, .blueMon
 	ld a, [wCurMap]
 	cp FIRST_INDOOR_MAP
 	jr c, .townOrRoute
+	cp VIRIDIAN_FOREST
+	jr z, .invertColors
+	cp MT_MOON_1F
+	jr z, .mewMon
 	cp CERULEAN_CAVE_2F
 	jr c, .normalDungeonOrBuilding
 	cp CERULEAN_CAVE_1F + 1
 	jr c, .caveOrBruno
+	cp UNATCO
+	jr z, .mewMon
 	cp LORELEIS_ROOM
 	jr z, .Lorelei
 	cp BRUNOS_ROOM
@@ -178,6 +184,16 @@ SetPal_Overworld:
 .Lorelei
 	xor a
 	jr .town
+.invertColors
+	ld a, PAL_VIRIDWOOD - 1
+	jr .town
+.mewMon
+	ld a, PAL_GREYMON - 1
+	jr .town
+.blueMon
+	ld a, PAL_CYANMON - 1
+	jr .town
+
 
 ; used when a Pokemon is the only thing on the screen
 ; such as evolution, trading and the Hall of Fame

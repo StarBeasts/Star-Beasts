@@ -1,5 +1,5 @@
 _TM35PreReceiveText::
-	text "Tch-tch-tch!"
+	text "Tch-tch-tch-ding!"
 	line "I made a cool TM!"
 
 	para "It can cause all"
@@ -30,8 +30,9 @@ _TM35NoRoomText::
 	done
 
 _Lab3Text2::
-	text "EEVEE can evolve"
-	line "into 1 of 3 kinds"
+	text "UNIQUORN can"
+	line "evolve into 1 of"
+	cont "3 different kinds"
 	cont "of #MON."
 	done
 
@@ -41,10 +42,15 @@ _Lab3Text3::
 
 	para "..."
 
-	para "The 3 legendary"
-	line "bird #MON are"
-	cont "ARTICUNO, ZAPDOS"
-	cont "and MOLTRES."
+	para "The FOUR HOLY"
+	line "REGENTS."
+
+	para "SIVAK, ZAGRUS,"
+	line "AEON, and..."
+
+	para "We have so little"
+	line "data on the last"
+	cont "one..."
 
 	para "Their whereabouts"
 	line "are unknown."

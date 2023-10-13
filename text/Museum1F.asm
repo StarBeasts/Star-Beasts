@@ -26,7 +26,7 @@ _Museum1FText_5c22e::
 
 	para "Oh, whatever!"
 	line "Do you know what"
-	cont "AMBER is?"
+	cont "OBSIDIAN is?"
 	done
 
 _Museum1FText_5c233::
@@ -34,12 +34,12 @@ _Museum1FText_5c233::
 	line "somewhere trying"
 	cont "to resurrect"
 	cont "ancient #MON"
-	cont "from AMBER."
+	cont "from OBSIDIAN."
 	done
 
 _Museum1FText_5c238::
-	text "AMBER is fossil-"
-	line "ized tree sap."
+	text "OBSIDIAN is"
+	line "hardened magma."
 	done
 
 _Museum1FText_5c23d::
@@ -55,19 +55,20 @@ _Museum1FText_5c242::
 _Museum1FText_5c251::
 	text "That is one"
 	line "magnificent"
-	cont "fossil!"
+	cont "gemstone!"
 	done
 
 _Museum1FText_5c28e::
 	text "Ssh! I think that"
 	line "this chunk of"
-	cont "AMBER contains"
-	cont "#MON DNA!"
+	cont "OBSIDIAN contains"
+	cont "the soul of a"
+	cont "#MON!"
 
 	para "It would be great"
-	line "if #MON could"
-	cont "be resurrected"
-	cont "from it!"
+	line "if we could"
+	cont "find a way to"
+	cont "resurrect it!"
 
 	para "But, my colleagues"
 	line "just ignore me!"
@@ -82,12 +83,12 @@ _Museum1FText_5c28e::
 
 _ReceivedOldAmberText::
 	text "<PLAYER> received"
-	line "OLD AMBER!@"
+	line "OBSIDIAN!@"
 	text_end
 
 _Museum1FText_5c299::
-	text "Ssh! Get the OLD"
-	line "AMBER checked!"
+	text "Ssh! Get the"
+	line "OBSIDIAN checked!"
 	done
 
 _Museum1FText_5c29e::
@@ -97,12 +98,13 @@ _Museum1FText_5c29e::
 
 _Museum1FText_5c2ad::
 	text "We are proud of 2"
-	line "fossils of very"
-	cont "rare, prehistoric"
+	line "souls of very"
+	cont "rare, ancient"
 	cont "#MON!"
 	done
 
 _Museum1FText_5c2bc::
-	text "The AMBER is"
-	line "clear and gold!"
+	text "The OBSIDIAN"
+	line "is radiating with"
+	cont "power!"
 	done

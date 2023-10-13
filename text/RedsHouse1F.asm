@@ -1,10 +1,10 @@
 _MomWakeUpText::
 	text "MOM: Right."
-	line "All boys leave"
+	line "All kids leave"
 	cont "home some day."
 	cont "It said so on TV."
 
-	para "PROF.OAK, next"
+	para "PROF.CHERRY, next"
 	line "door, is looking"
 	cont "for you."
 	done
@@ -25,13 +25,17 @@ _MomHealText2::
 
 _StandByMeText::
 	text "There's a movie"
-	line "on TV. Four boys"
-	cont "are walking on"
-	cont "railroad tracks."
+	line "on TV. A child"
+	cont "is attacking a"
+	cont "skeleton wearing"
+	cont "a blue jacket."
 
-	para "I better go too."
+	para "Where have I"
+	line "seen this"
+	cont "before...?"
 	done
 
 _TVWrongSideText::
-	text "Oops, wrong side."
+	text "That's not how"
+	line "you watch a TV."
 	done

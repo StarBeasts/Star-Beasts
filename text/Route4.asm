@@ -1,26 +1,26 @@
 _Route4Text1::
-	text "Ouch! I tripped"
-	line "over a rocky"
-	cont "#MON, GEODUDE!"
+	text "Ouch! I bumped"
+	line "into a metal"
+	cont "#MON, WHIRLIE!"
 	done
 
 _Route4BattleText1::
-	text "I came to get my"
-	line "mushroom #MON!"
+	text "Look at my"
+	line "burning #MON!"
 	done
 
 _Route4EndBattleText1::
-	text "Oh! My cute"
-	line "mushroom #MON!"
+	text "My fabulous"
+	line "burning #MON!"
 	prompt
 
 _Route4AfterBattleText1::
-	text "There might not"
-	line "be any more"
-	cont "mushrooms here."
+	text "I just wish I"
+	line "could burn this"
+	cont "whole place to"
+	cont "the ground..."
 
-	para "I think I got"
-	line "them all."
+	para "Tee-hee!"
 	done
 
 _Route4Text5::

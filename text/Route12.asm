@@ -4,17 +4,17 @@ _Route12Text1::
 	done
 
 _Route12Text13::
-	text "SNORLAX woke up!"
+	text "SLOBBIX woke up!"
 
 	para "It attacked in a"
 	line "grumpy rage!"
 	done
 
 _Route12Text14::
-	text "SNORLAX calmed"
+	text "SLOBBIX calmed"
 	line "down! With a big"
 	cont "yawn, it returned"
-	cont "to the mountains!"
+	cont "to its swamp!"
 	done
 
 _Route12BattleText1::
@@ -44,9 +44,15 @@ _Route12EndBattleText2::
 	prompt
 
 _Route12AfterBattleText2::
-	text "With a better ROD,"
-	line "I could catch"
-	cont "better #MON!"
+	text "They say there's"
+	line "SEA MONSTERS on"
+	cont "ROUTE 23, but"
+	cont "I've never been"
+	cont "able to find one"
+	cont "with my ROD..."
+
+	para "Maybe I need a"
+	line "better one...?"
 	done
 
 _Route12BattleText3::
@@ -70,14 +76,17 @@ _Route12BattleText4::
 	done
 
 _Route12EndBattleText4::
-	text "Unplugged!"
+	text "Oof..."
+	line "Overloaded..."
 	prompt
 
 _Route12AfterBattleText4::
-	text "Water conducts"
-	line "electricity, so"
-	cont "you should zap"
-	cont "sea #MON!"
+	text "What's that?"
+	line "I should use my"
+	cont "bald head as a"
+	cont "solar panel?"
+	
+	para "Piss off, kid!"
 	done
 
 _Route12BattleText5::
@@ -124,9 +133,24 @@ _Route12EndBattleText7::
 	prompt
 
 _Route12AfterBattleText7::
-	text "I catch MAGIKARP"
-	line "all the time, but"
-	cont "they're so weak!"
+	text "Oi! Here's a tip"
+	line "from one FISHER"
+	cont "to another!"
+
+	para "JELLEYE is pretty"
+	line "rare, but you can"
+	cont "find plenty of"
+	cont "em' fishing with"
+	cont "a SUPER ROD in"
+	cont "the SAFARI ZONE."
+
+	para "You can also find"
+	line "JELLYELLY in"
+	cont "ROUTES 19-21 with"
+	cont "a SUPER ROD."
+
+	para "I go there all"
+	line "the time!"
 	done
 
 _Route12Text11::

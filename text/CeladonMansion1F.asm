@@ -1,23 +1,22 @@
 _CeladonMansion1Text1::
-	text "MEOWTH: Meow!@"
+	text "PUMAJIN: Meow!@"
 	text_end
 
 _CeladonMansion1Text2::
 	text "My dear #MON"
 	line "keep me company."
 
-	para "MEOWTH even brings"
-	line "money home!"
+	para "PUMAJIN even"
+	line "brings coin home!"
 	done
 
 _CeladonMansion1Text3::
-	text "CLEFAIRY: Pi"
-	line "pippippi!@"
+	text "DRAGLEAM: Gli"
+	line "hihihi!@"
 	text_end
 
 _CeladonMansion1Text4::
-	text "NIDORAN: Kya"
-	line "kyaoo!@"
+	text "UNIQUORN: Neeeigh!@"
 	text_end
 
 _CeladonMansion1Text5::

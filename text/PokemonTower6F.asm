@@ -1,20 +1,21 @@
 _PokemonTower2Text_60c1f::
-	text "The GHOST was the"
-	line "restless soul of"
-	cont "CUBONE's mother!"
+	text "The malevolent"
+	line "spirit finally"
+	cont "calmed down..."
 	done
 
 _PokemonTower2Text_60c24::
-	text "The mother's soul"
-	line "was calmed."
+	text "The child's"
+	line "spectral form"
+	cont "bid you farewell."
 
-	para "It departed to"
-	line "the afterlife!"
+	para "She departed to"
+	line "the afterlife..."
 	done
 
 _PokemonTower6BattleText1::
-	text "Give...me..."
-	line "blood..."
+	text "Hurry! Your soul!"
+	line "Give it to me!"
 	done
 
 _PokemonTower6EndBattleText1::
@@ -36,9 +37,9 @@ _PokemonTower6EndBattleText2::
 	prompt
 
 _PokemonTower6AfterBattleText2::
-	text "Hair didn't fall"
-	line "out! It was an"
-	cont "evil spirit!"
+	text "A knife...?"
+	line "Where did I get"
+	cont "this from...?"
 	done
 
 _PokemonTower6BattleText3::
@@ -56,6 +57,25 @@ _PokemonTower6AfterBattleText3::
 	done
 
 _PokemonTower6Text6::
-	text "Be gone..."
-	line "Intruders..."
+	text "The mist in the"
+	line "room coalesces"
+	cont "in front of the"
+	cont "staircase."
+
+	para "It takes the"
+	line "form of a ghostly"
+	cont "little girl."
+
+	para "Suddenly, her"
+	line "flesh begins to"
+	cont "fall off of her"
+	cont "face."
+
+	para "She turns toward"
+	line "you, letting out"
+	cont "an ear-piercing"
+	cont "shriek."
+
+	para "GIRL: BE GONE"
+	line "FROM THIS PLACE!"
 	done

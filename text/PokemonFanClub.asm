@@ -1,37 +1,42 @@
 PikachuFanText::
 	text "Won't you admire"
-	line "my PIKACHU's"
+	line "my SHOCHRAN's"
 	cont "adorable tail?"
 	done
 
 PikachuFanBetterText::
-	text "Humph! My PIKACHU"
-	line "is twice as cute"
-	cont "as that one!"
+	text "Hmph! My SHOCHRAN"
+	line "is much cuter"
+	cont "than..."
+	
+	para "Whatever that's"
+	line "supposed to be."
 	done
 
 SeelFanText::
 	text "I just love my"
-	line "SEEL!"
+	line "AQUAMENTUS!"
 
-	para "It squeals when I"
-	line "hug it!"
+	para "It splutters"
+	line "when I hug it!"
 	done
 
 SeelFanBetterText::
 	text "Oh dear!"
 
-	para "My SEEL is far"
-	line "more attractive!"
+	para "My AQUAMENTUS is"
+	line "more attractive"
+	cont "by far!"
 	done
 
 FanClubPikachuText::
-	text "PIKACHU: Chu!"
-	line "Pikachu!"
+	text "SHOCHRAN: Bzzt!"
+	line "Bzzzaarrrk?"
 	done
 
 FanClubSeelText::
-	text "SEEL: Kyuoo!"
+	text "AQUAMENTUS: Nee?"
+	line "Neeeiiiigghhh!"
 	done
 
 FanClubMeetChairText::
@@ -57,7 +62,7 @@ FanClubChairStoryText::
 	line "Then listen up!"
 
 	para "My favorite"
-	line "RAPIDASH..."
+	line "KREMATE..."
 
 	para "It...cute..."
 	line "lovely...smart..."
@@ -95,7 +100,7 @@ ExplainBikeVoucherText::
 	line "a BICYCLE!"
 
 	para "Don't worry, my"
-	line "FEAROW will FLY"
+	line "GRYPHERN will FLY"
 	cont "me anywhere!"
 
 	para "So, I don't need a"

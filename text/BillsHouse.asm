@@ -1,5 +1,16 @@
 _BillsHouseText_1e865::
-	text "Hiya! I'm a"
+	text "Oh, you came"
+	line "back!"
+	cont "..."
+	
+	para "Wait... you're"
+	line "not..."
+
+	para "..."
+
+	para "Ahem."	
+
+	para "Hiya! I'm a"
 	line "#MON..."
 	cont "...No I'm not!"
 
@@ -28,18 +39,19 @@ _BillsHouseText_1e86a::
 	done
 
 _BillsHouseText_1e86f::
-	text "No!? Come on, you"
-	line "gotta help a guy"
-	cont "in deep trouble!"
+	text "Oh no, not you"
+	line "too! Please!?"
+	cont "I'm really in a"
+	cont "BIND here!"
 
-	para "What do you say,"
-	line "chief? Please?"
+	para "C'mon, kid!"
+	line "Pretty please?"
 	cont "OK? All right!"
 	prompt
 
 _BillThankYouText::
-	text "BILL: Yeehah!"
-	line "Thanks, bud! I"
+	text "BILL: Yeehaw!"
+	line "Thanks, kid! I"
 	cont "owe you one!"
 
 	para "So, did you come"
@@ -62,7 +74,7 @@ _SSTicketReceivedText::
 
 _SSTicketNoRoomText::
 	text "You've got too"
-	line "much stuff, bud!"
+	line "much stuff, kid!"
 	done
 
 _BillsHouseText_1e8cb::
@@ -81,7 +93,7 @@ _BillsHouseText_1e8cb::
 	done
 
 _BillsHouseText_1e8da::
-	text "BILL: Look, bud,"
+	text "BILL: Look, kid,"
 	line "just check out"
 	cont "some of my rare"
 	cont "#MON on my PC!"

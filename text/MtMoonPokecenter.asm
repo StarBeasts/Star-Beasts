@@ -22,25 +22,32 @@ _MagikarpSalesmanText1::
 	cont "just for you!"
 
 	para "I'll let you have"
-	line "a swell MAGIKARP"
+	line "this one of a"
+	cont "kind DOG I found" 
 	cont "for just ¥500!"
 	cont "What do you say?"
 	done
 
 _MagikarpSalesmanNoText::
-	text "No? I'm only"
-	line "doing this as a"
-	cont "favor to you!"
+	text "No? Guess I'll"
+	line "just sell it to"
+	cont "the next person"
+	cont "that wants it..."
 	done
 
 _MagikarpSalesmanNoMoneyText::
-	text "You'll need more"
-	line "money than that!"
+	text "This ain't a"
+	line "charity, kid!"
 	done
 
 _MagikarpSalesmanText2::
-	text "MAN: Well, I don't"
-	line "give refunds!"
+	text "MAN: Sorry, kiddo!"
+	line "Only one dog"
+	cont "per customer!"
+	cont "I hear there's"
+	cont "plenty of wild"
+	cont "SLIMOGG out in"
+	cont "the grass!"
 	done
 
 _MtMoonPokecenterText5::

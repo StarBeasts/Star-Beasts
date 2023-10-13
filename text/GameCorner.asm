@@ -91,13 +91,15 @@ _CeladonGameCornerText_48dca::
 	cont "champ in making!"
 
 	para "CELADON GYM's"
-	line "LEADER is ERIKA!"
-	cont "She uses grass-"
-	cont "type #MON!"
+	line "LEADER is the one"
+	cont "and only LISBETH!"
 
-	para "She might appear"
-	line "docile, but don't"
-	cont "be fooled!"
+	para "She uses grass-"
+	line "type #MON!"
+
+	para "Underestimate her,"
+	line "and you'll get CUT"
+	cont "down to size!"
 	done
 
 _CeladonGameCornerText_48dcf::

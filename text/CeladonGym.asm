@@ -1,50 +1,66 @@
 _ErikaPreBattleText::
-	text "Hello. Lovely"
-	line "weather isn't it?"
-	cont "It's so pleasant."
+	text "Wow!"
+	
+	para "Now ain't you a"
+	line "sight fer sore"
+	cont "eyes?"
 
-	para "...Oh dear..."
-	line "I must have dozed"
-	cont "off. Welcome."
+	para "You come here fer"
+	line "gardening advice?"
+	cont "Learnin' to talk"
+	cont "to ladies?"
 
-	para "My name is ERIKA."
-	line "I am the LEADER"
-	cont "of CELADON GYM."
+	para "...?"
 
-	para "I teach the art of"
-	line "flower arranging."
-	cont "My #MON are of"
-	cont "the grass-type."
+	para "GYM LEADER?"
 
-	para "Oh, I'm sorry, I"
-	line "had no idea that"
-	cont "you wished to"
-	cont "challenge me."
+	para "BADGE?"
 
-	para "Very well, but I"
-	line "shall not lose."
+	para "Well, shucks!"
+	line "That's parta my"
+	cont "job description,"
+	cont "ain't it?"
+
+	para "I'm LISBETH."
+	line "When it comes to"
+	cont "cuttin' weeds and"
+	cont "gardenin', I'm"
+	cont "number one!"
+
+	para "And when it comes"
+	line "to battlin'..."
+
+	para "I'm pretty gosh-"
+	line "darned tough, if"
+	cont "I do say so,"
+	cont "myself."
+
+	para "So, if a fight's"
+	line "what you want,"
+	cont "let's see what"
+	cont "yer made of!"
 	done
 
 _ReceivedRainbowBadgeText::
-	text "Oh!"
-	line "I concede defeat."
+	text "Woo-hoo!"
+	line "What a fight!"
 
-	para "You are remarkably"
-	line "strong."
+	para "Yer one tough"
+	line "cookie!"
 
-	para "I must confer you"
-	line "the RAINBOWBADGE."
+	para "I'd say this here"
+	line "RAINBOWBADGE is"
+	cont "yours, now."
 	prompt
 
 _ErikaPostBattleAdviceText::
-	text "You are cataloging"
-	line "#MON? I must"
-	cont "say I'm impressed."
+	text "Don't be a stranger"
+	line "now, y'hear?"
 
-	para "I would never"
-	line "collect #MON"
-	cont "if they were"
-	cont "unattractive."
+	para "I could always use"
+	line "another cute face"
+	cont "like you to"
+	cont "keep me company!"
 	done
 
 _ErikaRainbowBadgeInfoText::
@@ -57,8 +73,8 @@ _ErikaRainbowBadgeInfoText::
 	cont "STRENGTH in and"
 	cont "out of battle."
 
-	para "Please also take"
-	line "this with you."
+	para "Oh, and don't"
+	line "forget this!"
 	done
 
 _ReceivedTM21Text::
@@ -81,15 +97,16 @@ _TM21ExplanationText::
 	done
 
 _TM21NoRoomText::
-	text "You should make"
-	line "room for this."
+	text "You ain't got"
+	line "enough room!"
 	done
 
 _CeladonGymBattleText2::
 	text "Hey!"
 
-	para "You are not"
-	line "allowed in here!"
+	para "If you're not a"
+	line "girl, you're not"
+	cont "allowed in here!"
 	done
 
 _CeladonGymEndBattleText2::
@@ -98,14 +115,15 @@ _CeladonGymEndBattleText2::
 	prompt
 
 _CeladonGymAfterBattleText2::
-	text "Bleaah!"
-	line "I hope ERIKA"
-	cont "wipes you out!"
+	text "Wh-what!?"
+	line "You're nonbinary?"
+	cont "That's just an"
+	cont "excuse to peep!"
 	done
 
 _CeladonGymBattleText3::
-	text "I was getting"
-	line "bored."
+	text "Well, hello"
+	line "there."
 	done
 
 _CeladonGymEndBattleText3::
@@ -135,8 +153,8 @@ _CeladonGymEndBattleText4::
 
 _CeladonGymAfterBattleText4::
 	text "Oh, you weren't"
-	line "peeping? We get a"
-	cont "lot of gawkers!"
+	line "peeping? Lots of"
+	cont "people do!"
 	done
 
 _CeladonGymBattleText5::
@@ -157,14 +175,12 @@ _CeladonGymAfterBattleText5::
 	cont "our GYM!"
 
 	para "We also use them"
-	line "for making flower"
-	cont "arrangements!"
+	line "for gardening!"
 	done
 
 _CeladonGymBattleText6::
-	text "Don't bring any"
-	line "bugs or fire"
-	cont "#MON in here!"
+	text "Hey! Get away from"
+	line "LISBETH!"
 	done
 
 _CeladonGymEndBattleText6::
@@ -173,10 +189,11 @@ _CeladonGymEndBattleText6::
 	prompt
 
 _CeladonGymAfterBattleText6::
-	text "Our LEADER, ERIKA,"
-	line "might be quiet,"
-	cont "but she's also"
-	cont "very skilled!"
+	text "LISBETH's so"
+	line "cool and tough..."
+	
+	para "Sigh... Maybe"
+	line "some day, I'll..."
 	done
 
 _CeladonGymBattleText7::
@@ -191,10 +208,10 @@ _CeladonGymEndBattleText7::
 	prompt
 
 _CeladonGymAfterBattleText7::
-	text "I have a blind"
-	line "date coming up."
-	cont "I have to learn"
-	cont "to be polite."
+	text "LISBETH may be"
+	line "stronger than me,"
+	cont "but I'm definitely"
+	cont "more attractive."
 	done
 
 _CeladonGymBattleText8::
@@ -203,7 +220,7 @@ _CeladonGymBattleText8::
 
 	para "You better not"
 	line "underestimate"
-	cont "girl power!"
+	cont "our power!"
 	done
 
 _CeladonGymEndBattleText8::
@@ -212,9 +229,8 @@ _CeladonGymEndBattleText8::
 	prompt
 
 _CeladonGymAfterBattleText8::
-	text "I didn't bring my"
-	line "best #MON!"
-
-	para "Wait 'til next"
-	line "time!"
+	text "You beat me, but"
+	line "LISBETH is in a"
+	cont "whole different"
+	cont "league."
 	done

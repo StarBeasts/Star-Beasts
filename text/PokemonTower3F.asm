@@ -9,9 +9,10 @@ _PokemonTower3EndBattleText1::
 	prompt
 
 _PokemonTower3AfterBattleText1::
-	text "The GHOSTs can be"
-	line "identified by the"
-	cont "SILPH SCOPE."
+	text "The SILPH SCOPE"
+	line "lets you see the"
+	cont "true form of the"
+	cont "GHOSTs in here."
 	done
 
 _PokemonTower3BattleText2::

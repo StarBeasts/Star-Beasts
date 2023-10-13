@@ -1,9 +1,10 @@
 _FuchsiaMartText2::
-	text "Do you have a"
-	line "SAFARI ZONE flag?"
-
-	para "What about cards"
-	line "or calendars?"
+	text "Hey-hey! If you"
+	line "wanna catch an"
+	cont "EMBRAIN, you can"
+	cont "find 'em in the"
+	cont "WESTERN part of"
+	cont "the SAFARI ZONE!"
 	done
 
 _FuchsiaMartText3::

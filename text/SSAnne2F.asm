@@ -9,30 +9,39 @@ _SSAnne2Text1::
 	done
 
 _SSAnneRivalBeforeBattleText::
-	text "<RIVAL>: Bonjour!"
-	line "<PLAYER>!"
+	text "<RIVAL>: <PLAYER>!"
 
-	para "Imagine seeing"
-	line "you here!"
+	para "Never thought I'd"
+	line "see you here!"
 
-	para "<PLAYER>, were you"
-	line "really invited?"
+	para "There's so many"
+	line "cool people and"
+	cont "#MON onboard!"
 
-	para "So how's your"
-	line "#DEX coming?"
+	para "They're from all"
+	line "around the world!"
+	cont "Can you believe"
+	cont "that!?"
 
-	para "I already caught"
-	line "40 kinds, pal!"
+	para "Not only that,"
+	line "I've been catching"
+	cont "all sorts of new"
+	cont "#MON!"
 
-	para "Different kinds"
-	line "are everywhere!"
+	para "At this rate, I'll"
+	line "have 50 different"
+	cont "kinds tomorrow!"
 
-	para "Crawl around in"
-	line "grassy areas!"
+	para "What about you,"
+	line "<PLAYER>?"
+
+	para "Let's see how"
+	line "your team's"
+	cont "coming along!"
 	done
 
 _SSAnneRivalDefeatedText::
-	text "Humph!"
+	text "Damnit..."
 
 	para "At least you're"
 	line "raising your"
@@ -42,22 +51,24 @@ _SSAnneRivalDefeatedText::
 _SSAnneRivalWonText::
 	text "<PLAYER>! What are"
 	line "you, seasick?"
-
-	para "You should shape"
-	line "up, pal!"
 	prompt
 
 _SSAnneRivalCaptainText::
 	text "<RIVAL>: I heard"
-	line "there was a CUT"
-	cont "master on board."
+	line "there was a guy"
+	cont "that knew how to"
+	cont "CUT onboard."
 
-	para "But, he was just a"
-	line "seasick, old man!"
+	para "But he's puking his"
+	line "guts out, so..."
 
-	para "But, CUT itself is"
-	line "really useful!"
+	para "I wouldn't go in"
+	line "there if I were"
+	cont "you."
 
-	para "You should go see"
-	line "him! Smell ya!"
+	para "Anyways, that's not"
+	line "my problem!"
+
+	para "See you around,"
+	line "<PLAYER>!"
 	done

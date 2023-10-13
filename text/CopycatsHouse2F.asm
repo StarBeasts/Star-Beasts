@@ -54,7 +54,7 @@ _TM31ExplanationText2::
 	cont "my every move?"
 
 	para "COPYCAT: You bet!"
-	line "It's a scream!"
+	line "It's hilarious!"
 	done
 
 _TM31NoRoomText::
@@ -63,7 +63,7 @@ _TM31NoRoomText::
 	text_end
 
 _CopycatsHouse2FText2::
-	text "DODUO: Giiih!"
+	text "CORDATUS: Geeeh!"
 
 	para "MIRROR MIRROR ON"
 	line "THE WALL, WHO IS"
@@ -78,9 +78,10 @@ _CopycatsHouse2FText3::
 	done
 
 _CopycatsHouse2FText6::
-	text "A game with MARIO"
-	line "wearing a bucket"
-	cont "on his head!"
+	text "A game with a man"
+	line "in a bucket"
+	cont "climbing a"
+	cont "mountain!"
 	done
 
 _CopycatsHouse2FText_5cd17::
@@ -92,7 +93,7 @@ _CopycatsHouse2FText_5cd17::
 	line "Hobby: Collecting"
 	cont "dolls!"
 	cont "Favorite #MON:"
-	cont "CLEFAIRY!"
+	cont "SPRIGGLE!"
 	done
 
 _CopycatsHouse2FText_5cd1c::

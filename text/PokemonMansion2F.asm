@@ -16,20 +16,33 @@ _Mansion2AfterBattleText1::
 	done
 
 _Mansion2Text3::
-	text "Diary: July 5"
-	line "Guyana,"
-	cont "South America"
+	text "Log: I saw him."
+	line "SIVAK, the"
+	cont "BLACK DRAGON."
 
-	para "A new #MON was"
-	line "discovered deep"
-	cont "in the jungle."
+	para "He's just as"
+	line "terrifying as"
+	cont "the legends"
+	cont "foretold."
+
+	para "If only we could"
+	line "communicate with"
+	cont "him, learn the"
+	cont "secrets of his"
+	cont "immortality..."
 	done
 
 _Mansion2Text4::
-	text "Diary: July 10"
-	line "We christened the"
-	cont "newly discovered"
-	cont "#MON, MEW."
+	text "Log: AEON's"
+	line "destructive power"
+	cont "is beyond any"
+	cont "horrors I could"
+	cont "ever imagine..."
+
+	para "I fear we may"
+	line "be treading where"
+	cont "mankind mustn't"
+	cont "tread..."
 	done
 
 _Mansion2Text_520c2::

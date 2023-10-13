@@ -2,6 +2,8 @@ _Route25BattleText1::
 	text "Local trainers"
 	line "come here to"
 	cont "practice!"
+
+	para "What about you?"
 	done
 
 _Route25EndBattleText1::
@@ -35,9 +37,9 @@ _Route25AfterBattleText2::
 	done
 
 _Route25BattleText3::
-	text "I'm a cool guy."
-	line "I've got a girl"
-	cont "friend!"
+	text "I must defend"
+	line "the honor of my"
+	cont "fair maiden!"
 	done
 
 _Route25EndBattleText3::
@@ -51,8 +53,12 @@ _Route25AfterBattleText3::
 	done
 
 _Route25BattleText4::
-	text "Hi! My boy"
-	line "friend is cool!"
+	text "Oh, FLINT... why"
+	line "are you like"
+	cont "this...?"
+
+	para "Anyways, how does"
+	line "a battle sound?"
 	done
 
 _Route25EndBattleText4::
@@ -61,7 +67,7 @@ _Route25EndBattleText4::
 	prompt
 
 _Route25AfterBattleText4::
-	text "I wish my guy was"
+	text "I wish FLINT was"
 	line "as good as you!"
 	done
 
@@ -96,24 +102,26 @@ _Route25EndBattleText6::
 _Route25AfterBattleText6::
 	text "You came from MT."
 	line "MOON? May I have"
-	cont "a CLEFAIRY?"
+	cont "a WHIRLIE?"
 	done
 
 _Route25BattleText7::
-	text "I just got down"
-	line "from MT.MOON,"
-	cont "but I'm ready!"
+	text "I'm a FUCHSIA"
+	line "CITY man looking"
+	cont "for a SAFFRON"
+	cont "CITY woman!"
 	done
 
 _Route25EndBattleText7::
 	text "You"
-	line "worked hard!"
+	line "did pretty good!"
 	prompt
 
 _Route25AfterBattleText7::
-	text "Drat!"
-	line "A ZUBAT bit me"
-	cont "back in there."
+	text "Dagnabbit..."
+	line "Why ain't I got"
+	cont "one of them"
+	cont "flying #MON?"
 	done
 
 _Route25BattleText8::

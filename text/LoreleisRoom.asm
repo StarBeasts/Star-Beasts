@@ -1,39 +1,45 @@
 _LoreleiBeforeBattleText::
-	text "Welcome to"
-	line "#MON LEAGUE!"
+	text "Ahem."
 
-	para "I am LORELEI of"
-	line "the ELITE FOUR!"
+	para "Welcome to the"
+	line "#MON LEAGUE."
 
-	para "No one can best"
-	line "me when it comes"
-	cont "to icy #MON!"
+	para "Here, you will"
+	line "face the most"
+	cont "gifted trainers"
+	cont "of a generation."
 
-	para "Freezing moves"
-	line "are powerful!"
+	para "I'm your first"
+	line "obstacle, and"
+	cont "the last one"
+	cont "you will face."
 
-	para "Your #MON will"
-	line "be at my mercy"
-	cont "when they are"
-	cont "frozen solid!"
+	para "I am SABRINA."
 
-	para "Hahaha!"
-	line "Are you ready?"
+	para "My psychic"
+	line "prowess is"
+	cont "without equal,"
+	cont "as is my skill"
+	cont "in battle."
+
+	para "Now..."
+
+	para "Let us begin."
 	done
 
 _LoreleiEndBattleText::
-	text "How"
-	line "dare you!"
+	text "..."
+	line "..."
+	cont "..."
+	cont "Well done."
 	prompt
 
 _LoreleiAfterBattleText::
-	text "You're better"
-	line "than I thought!"
-	cont "Go on ahead!"
+	text "You have power."
 
-	para "You only got a"
-	line "taste of #MON"
-	cont "LEAGUE power!"
+	para "The question is,"
+	line "do you know what"
+	cont "to do with it?"
 	done
 
 _LoreleiDontRunAwayText::

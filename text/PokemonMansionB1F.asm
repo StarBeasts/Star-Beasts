@@ -29,11 +29,15 @@ _Mansion4AfterBattleText2::
 	done
 
 _Mansion4Text7::
-	text "Diary; Sept. 1"
-	line "MEWTWO is far too"
-	cont "powerful."
+	text "Log:"
 
-	para "We have failed to"
-	line "curb its vicious"
-	cont "tendencies..."
+	para "I have seen the"
+	line "face of GOD, and"
+	cont "I do not wish to"
+	cont "see any more."
+
+	para "From this day"
+	line "forward, I am no"
+	cont "longer a man of"
+	cont "science..."
 	done

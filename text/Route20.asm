@@ -25,6 +25,14 @@ _Route20AfterBattleText2::
 	text "There's a huge"
 	line "cavern underneath"
 	cont "this island."
+
+	para "According to the"
+	line "legends, an"
+	cont "ANCIENT DRAGON"
+	cont "lives there."
+
+	para "Definitely a neat"
+	line "story, isn't it?"
 	done
 
 _Route20BattleText3::
@@ -88,23 +96,26 @@ _Route20AfterBattleText6::
 	done
 
 _Route20BattleText7::
-	text "I rode my bird"
-	line "#MON here!"
+	text "I seem to be"
+	line "stuck here..."
 	done
 
 _Route20EndBattleText7::
-	text "Oh"
-	line "no!"
+	text "Oh no!"
+	line "I dropped my dice"
+	cont "into the ocean!"
 	prompt
 
 _Route20AfterBattleText7::
-	text "My birds can't"
-	line "FLY me back!"
+	text "Now just how am I"
+	line "supposed to get"
+	cont "out of this mess?"
 	done
 
 _Route20BattleText8::
-	text "My boy friend gave"
-	line "me big pearls!"
+	text "My boyfriend gave"
+	line "me a pearl"
+	cont "necklace!"
 	done
 
 _Route20EndBattleText8::
@@ -115,7 +126,7 @@ _Route20EndBattleText8::
 _Route20AfterBattleText8::
 	text "Will my pearls"
 	line "grow bigger"
-	cont "inside CLOYSTER?"
+	cont "inside TUSSEL?"
 	done
 
 _Route20BattleText9::

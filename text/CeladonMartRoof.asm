@@ -4,9 +4,9 @@ _CeladonMartRoofText_484ee::
 	done
 
 _CeladonMartRoofText_484f3::
-	text "Yay!"
+	text "Refreshing!"
 
-	para "FRESH WATER!"
+	para "ALOE JUICE!"
 
 	para "Thank you!"
 
@@ -34,14 +34,13 @@ _CeladonMartRoofText_484fe::
 	text_end
 
 _CeladonMartRoofText_48504::
-	text "Yay!"
+	text "Bleck!"
 
-	para "SODA POP!"
+	para "ASH COFFEE..."
 
-	para "Thank you!"
+	para "Whatever."
 
-	para "You can have this"
-	line "from me!@"
+	para "Just take this.@"
 	text_end
 
 _CeladonMartRoofText_4850a::
@@ -64,14 +63,14 @@ _CeladonMartRoofText_4850f::
 	text_end
 
 _CeladonMartRoofText_48515::
-	text "Yay!"
+	text "AUGH! EWW! EWWWW!"
 
-	para "LEMONADE!"
+	para "TABASCODA!"
 
-	para "Thank you!"
+	para "SO GROSS!"
 
-	para "You can have this"
-	line "from me!@"
+	para "AGH, JUST TAKE"
+	line "THIS AND GO AWAY!@"
 	text_end
 
 _ReceivedTM49Text::

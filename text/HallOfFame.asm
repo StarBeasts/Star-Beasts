@@ -1,5 +1,5 @@
 _HallofFameRoomText1::
-	text "OAK: Er-hem!"
+	text "CHERRY: A-hem!"
 	line "Congratulations"
 	cont "<PLAYER>!"
 
@@ -17,8 +17,8 @@ _HallofFameRoomText1::
 	cont "the HALL OF FAME!"
 
 	para "<PLAYER>! You have"
-	line "endeavored hard"
-	cont "to become the new"
+	line "worked hard to"
+	cont "become the new"
 	cont "LEAGUE champion!"
 
 	para "Congratulations,"

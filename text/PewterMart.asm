@@ -1,17 +1,21 @@
 _PewterMartText2::
-	text "A shady, old man"
-	line "got me to buy"
-	cont "this really weird"
-	cont "fish #MON!"
+	text "There's this guy"
+	line "up the road that"
+	cont "catches stray"
+	cont "dogs and sells"
+	cont "them to people"
+	cont "for ¥500!"
 
-	para "It's totally weak"
-	line "and it cost ¥500!"
+	para "Kinda scummy, but"
+	line "at least they're"
+	cont "getting new homes?"
 	done
 
 _PewterMartText3::
-	text "Good things can"
-	line "happen if you"
-	cont "raise #MON"
-	cont "diligently, even"
-	cont "the weak ones!"
+	text "The LIQUID STEEL"
+	line "they sell here"
+	cont "can evolve"
+	cont "ROCKEN, and I"
+	cont "think some bug"
+	cont "#MON, too?"
 	done

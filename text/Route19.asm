@@ -25,7 +25,7 @@ _Route19EndBattleText2::
 
 _Route19AfterBattleText2::
 	text "Watch out for"
-	line "TENTACOOL!"
+	line "BLURCHIN!"
 	done
 
 _Route19BattleText3::
@@ -145,7 +145,7 @@ _Route19EndBattleText10::
 	prompt
 
 _Route19AfterBattleText10::
-	text "LAPRAS is so big,"
+	text "NOCEAN is so big,"
 	line "it must keep you"
 	cont "dry on water."
 	done

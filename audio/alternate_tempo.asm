@@ -43,8 +43,8 @@ Music_Cities1AlternateTempo::
 	ld [wMusicFadeID], a
 	ld c, 100
 	call DelayFrames ; wait for the fade-out to finish
-	ld c, 0 ; BANK(Music_Cities1)
-	ld a, MUSIC_CITIES1
+	ld c, 0 ; BANK(Music_Cities2)
+	ld a, MUSIC_CITIES2
 	call PlayMusic
 	ld hl, wChannel1MusicAddress
 	ld de, Music_Cities1_Ch1_AlternateTempo

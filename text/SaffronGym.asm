@@ -1,58 +1,71 @@
 _SabrinaPreBattleText::
-	text "I had a vision of"
-	line "your arrival!"
+	text "Hnh? The hell are"
+	line "you gawking at?" 
 
-	para "I have had psychic"
-	line "powers since I"
-	cont "was a child."
+	para "I don't like the"
+	line "way you're looking"
+	cont "at me, brat!"
 
-	para "I first learned"
-	line "to bend spoons"
-	cont "with my mind."
+	para "Tell you what."
+	line "Why don't I teach"
+	cont "you some respect?" 
 
-	para "I dislike fight-"
-	line "ing, but if you"
-	cont "wish, I will show"
-	cont "you my powers!"
+	para "Nahaha, yeah! I'll"
+	line "boot you outta"
+	cont "here, just like I"
+	cont "did to the crazy"
+	cont "broad with the"
+	cont "long hair!"
 	done
 
 _ReceivedMarshBadgeText::
-	text "I'm"
-	line "shocked!"
-	cont "But, a loss is a"
-	cont "loss."
+	text "Damnit!"
+	line "How'd I lose to"
+	cont "a kid?!"
 
-	para "I admit I didn't"
-	line "work hard enough"
-	cont "to win!"
+	para "What? A badge?"
+	line "You mean those"
+	cont "pieces of metal"
+	cont "in the corner?"
+	cont "Yeah, screw it."
+	cont "You might as well"
+	cont "take one."
 
 	para "You earned the"
 	line "MARSHBADGE!@"
 	text_end
 
 _SabrinaPostBattleAdviceText::
-	text "Everyone has"
-	line "psychic power!"
-	cont "People just don't"
-	cont "realize it!"
+	text "If you figure out"
+	line "how to get out"
+	cont "of here, please"
+	cont "tell me."
 	done
 
 _KogaMarshBadgeInfoText::
-	text "The MARSHBADGE"
+	text "He pulls out a"
+	line "pieces of paper"
+	cont "and begins"
+	cont "reading from it."
+
+	para "Ahem!"
+
+	para "The MARSHBADGE"
 	line "makes #MON up"
-	cont "to L70 obey you!"
+	cont "to L70 obey you."
 
 	para "Stronger #MON"
 	line "will become wild,"
 	cont "ignoring your"
-	cont "orders in battle!"
+	cont "orders in battle."
 
-	para "Just don't raise"
-	line "your #MON too"
-	cont "much!"
+	para "Huh. Good for you,"
+	line "kid."
 
-	para "Wait, please take"
-	line "this TM with you!"
+	para "Oh yeah, it says"
+	line "I'm supposed to"
+	cont "give you this,"
+	cont "too."
 	done
 
 _ReceivedTM46Text::
@@ -64,78 +77,79 @@ _TM46ExplanationText::
 	text_start
 
 	para "TM46 is PSYWAVE!"
-	line "It uses powerful"
-	cont "psychic waves to"
-	cont "inflict damage!"
+	line "I dunno what it"
+	cont "does, but it's"
+	cont "probably useful!"
 	done
 
 _TM46NoRoomText::
 	text "Your pack is full"
-	line "of other items!"
+	line "of junk, kid!"
 	done
 
 _SaffronGymGuidePreBattleText::
 	text "Yo! Champ in"
 	line "making!"
 
-	para "SABRINA's #MON"
-	line "use psychic power"
-	cont "instead of force!"
+	para "SABRINA's GYM"
+	line "was ransacked by"
+	cont "a BIKER GANG!"
 
-	para "Fighting #MON"
-	line "are weak against"
-	cont "psychic #MON!"
+	para "I have no clue"
+	line "what kind of"
+	cont "#MON they use!"
 
-	para "They get creamed"
-	line "before they can"
-	cont "even aim a punch!"
+	para "Why don't you"
+	line "teach 'em not to"
+	cont "bully people?"
 	done
 
 _SaffronGymGuidePostBattleText::
-	text "Psychic power,"
-	line "huh?"
+	text "Way to go, champ!"
 
-	para "If I had that,"
-	line "I'd make a bundle"
-	cont "at the slots!"
+	para "You really showed"
+	line "that BIKER who's"
+	cont "boss!"
 	done
 
 _SaffronGymBattleText1::
-	text "SABRINA is younger"
-	line "than I, but I"
-	cont "respect her!"
+	text "I picked up some"
+	line "tough #MON in"
+	cont "the SAFARI ZONE!"
 	done
 
 _SaffronGymEndBattleText1::
 	text "Not"
-	line "good enough!"
+	line "tough enough!"
 	prompt
 
 _SaffronGymAfterBattleText1::
-	text "In a battle of"
-	line "equals, the one"
-	cont "with the stronger"
-	cont "will wins!"
+	text "Maybe rare"
+	line "#MON don't"
+	cont "guarantee that"
+	cont "you'll win..."
 
-	para "If you wish"
-	line "to beat SABRINA,"
-	cont "focus on winning!"
+	para "Ah, well!"
+
+	para "I like their"
+	line "company, anyway!"
 	done
 
 _SaffronGymBattleText2::
-	text "Does our unseen"
-	line "power scare you?"
+	text "I'm the genuine"
+	line "article!"
+
+	para "A dyed-in-the-wool"
+	line "badass! Here, let"
+	cont "me show you!"
 	done
 
 _SaffronGymEndBattleText2::
-	text "I never"
-	line "foresaw this!"
+	text "Bastard."
 	prompt
 
 _SaffronGymAfterBattleText2::
-	text "Psychic #MON"
-	line "fear only ghosts"
-	cont "and bugs!"
+	text "I hate it here."
 	done
 
 _SaffronGymBattleText3::
@@ -143,7 +157,7 @@ _SaffronGymBattleText3::
 	line "the appearance of"
 	cont "their trainers."
 
-	para "Your #MON must"
+	para "Your #MON gotta"
 	line "be tough, then!"
 	done
 
@@ -153,15 +167,19 @@ _SaffronGymEndBattleText3::
 	prompt
 
 _SaffronGymAfterBattleText3::
-	text "I must teach"
-	line "better techniques"
-	cont "to my #MON!"
+	text "I know the way"
+	line "outta here, but I"
+	cont "ain't tellin'"
+	cont "SHAYTON."
+	
+	para "It's funnier that"
+	line "way. Heheh!"
 	done
 
 _SaffronGymBattleText4::
-	text "You know that"
-	line "power alone isn't"
-	cont "enough!"
+	text "Ain't no feelin'"
+	line "like crushing"
+	cont "runts in a fight!"
 	done
 
 _SaffronGymEndBattleText4::
@@ -170,62 +188,60 @@ _SaffronGymEndBattleText4::
 	prompt
 
 _SaffronGymAfterBattleText4::
-	text "SABRINA just wiped"
-	line "out the KARATE"
-	cont "MASTER next door!"
+	text "Guess nobody's"
+	line "gonna come and"
+	cont "help us..."
 	done
 
 _SaffronGymBattleText5::
-	text "You and I, our"
-	line "#MON shall"
-	cont "fight!"
+	text "There's strength"
+	line "in numbers, kid!"
 	done
 
 _SaffronGymEndBattleText5::
-	text "I lost"
-	line "after all!"
+	text "Quality"
+	line "over quantity!"
 	prompt
 
 _SaffronGymAfterBattleText5::
-	text "I knew that this"
-	line "was going to take"
-	cont "place."
+	text "Raising a bunch"
+	line "of #MON is"
+	cont "such a drag."
 	done
 
 _SaffronGymBattleText6::
-	text "SABRINA is young,"
-	line "but she's also"
-	cont "our LEADER!"
+	text "Once we get out"
+	line "of here, the"
+	cont "whole region is"
+	cont "our oyster!"
 
-	para "You won't reach"
-	line "her easily!"
+	para "And we'll start"
+	line "with you!"
 	done
 
 _SaffronGymEndBattleText6::
-	text "I lost"
-	line "my concentration!"
+	text "Stalled..."
 	prompt
 
 _SaffronGymAfterBattleText6::
-	text "There used to be"
-	line "2 #MON GYMs in"
-	cont "SAFFRON."
+	text "We took over this"
+	line "GYM, but now we"
+	cont "can't leave."
 
-	para "The FIGHTING DOJO"
-	line "next door lost"
-	cont "its GYM status"
-	cont "when we went and"
-	cont "creamed them!"
+	para "It's because we"
+	line "keep losing track"
+	cont "of where we are"
+	cont "with these damned"
+	cont "tiles!"
 	done
 
 _SaffronGymBattleText7::
-	text "SAFFRON #MON"
-	line "GYM is famous for"
-	cont "its psychics!"
+	text "And who might you"
+	line "be? A psychic,"
+	cont "come for revenge?"
 
-	para "You want to see"
-	line "SABRINA!"
-	cont "I can tell!"
+	para "I'll knock your"
+	line "head off, freak!"
 	done
 
 _SaffronGymEndBattleText7::
@@ -233,7 +249,9 @@ _SaffronGymEndBattleText7::
 	prompt
 
 _SaffronGymAfterBattleText7::
-	text "That's right! I"
-	line "used telepathy to"
-	cont "read your mind!"
+	text "No way..."
+	
+	para "You're way too"
+	line "good to be one of"
+	cont "those dweebs!"
 	done

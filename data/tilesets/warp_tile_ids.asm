@@ -24,6 +24,7 @@ WarpTileIDPointers:
 	dw .ClubWarpTileIDs
 	dw .FacilityWarpTileIDs
 	dw .PlateauWarpTileIDs
+	dw .Overworld2WarpTileIDs
 	assert_table_length NUM_TILESETS
 
 MACRO warp_tiles
@@ -91,4 +92,8 @@ ENDM
 	; fallthrough
 .ShipPortWarpTileIDs:
 .ClubWarpTileIDs:
+
+.Overworld2WarpTileIDs:
+	warp_tiles $1B, $58
+
 	warp_tiles ; end

@@ -1,7 +1,6 @@
 _VictoryRoad1BattleText1::
-	text "I wonder if you"
-	line "are good enough"
-	cont "for me!"
+	text "Do you think"
+	line "you can take me!?"
 	done
 
 _VictoryRoad1EndBattleText1::
@@ -10,8 +9,8 @@ _VictoryRoad1EndBattleText1::
 	prompt
 
 _VictoryRoad1AfterBattleText1::
-	text "I never wanted to"
-	line "lose to anybody!"
+	text "I hate losing"
+	line "to anybody!"
 	done
 
 _VictoryRoad1BattleText2::
@@ -26,6 +25,6 @@ _VictoryRoad1EndBattleText2::
 	prompt
 
 _VictoryRoad1AfterBattleText2::
-	text "I concede, you're"
-	line "better than me!"
+	text "You're definitely"
+	line "CHAMPION material!"
 	done

@@ -19,7 +19,7 @@ _CeruleanTrashedText_1d6b0::
 	line "lost is lost!"
 
 	para "I decided to teach"
-	line "DIGLETT how to"
+	line "CRACTURE how to"
 	cont "DIG without a TM!"
 	done
 
@@ -31,6 +31,5 @@ _CeruleanHouseTrashedText2::
 	done
 
 _CeruleanHouseTrashedText3::
-	text "TEAM ROCKET left"
-	line "a way out!"
+	text "Holey moley..."
 	done

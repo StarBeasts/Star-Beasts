@@ -5,8 +5,10 @@ _KogaPostBattleAdviceText::
 	cont "more as battle"
 	cont "progresses!"
 
-	para "It will surely"
-	line "terrorize foes!"
+	para "It is truly the"
+	line "greatest way to"
+	cont "spread the wrath"
+	cont "of NEPUTAIL!"
 	done
 
 _KogaSoulBadgeInfoText::
@@ -36,26 +38,20 @@ _TM06ExplanationText::
 	para "TM06 contains"
 	line "TOXIC!"
 
-	para "It is a secret"
-	line "technique over"
-	cont "400 years old!"
+	para "It is a magical"
+	line "technique used by"
+	cont "NEPUTAIL in the"
+	cont "olden times!"
 	done
 
 _TM06NoRoomText::
 	text "Make space for"
-	line "this, child!"
+	line "this, fool!"
 	done
 
 _FuchsiaGymBattleText1::
-	text "Strength isn't"
-	line "the key for"
-	cont "#MON!"
-
-	para "It's strategy!"
-
-	para "I'll show you how"
-	line "strategy can beat"
-	cont "brute strength!"
+	text "tlhIngan Hol"
+	line "vIjatlhbe'!"
 	done
 
 _FuchsiaGymEndBattleText1::
@@ -64,77 +60,72 @@ _FuchsiaGymEndBattleText1::
 	prompt
 
 _FuchsiaGymAfterBattleText1::
-	text "So, you mix brawn"
-	line "with brains?"
-	cont "Good strategy!"
+	text "I was speaking the"
+	line "ancient language"
+	cont "of NEPUTAIL!"
 	done
 
 _FuchsiaGymBattleText2::
-	text "I wanted to become"
-	line "a ninja, so I"
-	cont "joined this GYM!"
+	text "Do you accept the"
+	line "glory of NEPUTAIL?"
 	done
 
 _FuchsiaGymEndBattleText2::
-	text "I'm done"
-	line "for!"
+	text "HERETIC!"
 	prompt
 
 _FuchsiaGymAfterBattleText2::
-	text "I will keep on"
-	line "training under"
-	cont "KOGA, my ninja"
-	cont "master!"
+	text "NEPUTAIL's"
+	line "unending love"
+	cont "guides us all"
+	cont "to greatness."
 	done
 
 _FuchsiaGymBattleText3::
-	text "Let's see you"
-	line "beat my special"
-	cont "techniques!"
+	text "IVY speaks for"
+	line "NEPUTAIL, and"
+	cont "she says you"
+	cont "cannot be here!"
 	done
 
 _FuchsiaGymEndBattleText3::
-	text "You"
-	line "had me fooled!"
+	text "Doom!"
+	line "Treachery!"
 	prompt
 
 _FuchsiaGymAfterBattleText3::
-	text "I like poison and"
-	line "sleep techniques,"
-	cont "as they linger"
-	cont "after battle!"
+	text "IVY didn't really"
+	line "say that you"
+	cont "couldn't be here."
+	
+	para "I just made"
+	line "that up."
 	done
 
 _FuchsiaGymBattleText4::
-	text "Stop right there!"
-
-	para "Our invisible"
-	line "walls have you"
-	cont "frustrated?"
+	text "FOR THE GLORY"
+	line "OF NEPUTAIL!"
 	done
 
 _FuchsiaGymEndBattleText4::
-	text "Whoa!"
-	line "He's got it!"
+	text "..."
+	line "NEPUTAIL..."
+	cont "I've failed"
+	cont "you..."
 	prompt
 
 _FuchsiaGymAfterBattleText4::
-	text "You impressed me!"
-	line "Here's a hint!"
-
-	para "Look very closely"
-	line "for gaps in the"
-	cont "invisible walls!"
+	text "NEPUTAIL's wrath"
+	line "is as bottomless"
+	cont "as His love."
 	done
 
 _FuchsiaGymBattleText5::
-	text "I also study the"
-	line "way of the ninja"
-	cont "with master KOGA!"
-
-	para "Ninja have a long"
-	line "history of using"
-	cont "animals!"
+	text "It is said that"
+	line "NEPUTAIL will"
+	cont "steal the Earth's"
+	cont "core, and cleanse"
+	cont "the wickedness!"
 	done
 
 _FuchsiaGymEndBattleText5::
@@ -142,53 +133,48 @@ _FuchsiaGymEndBattleText5::
 	prompt
 
 _FuchsiaGymAfterBattleText5::
-	text "I still have much"
-	line "to learn!"
+	text "NEPUTAIL..."
+	line "Forgive me..."
 	done
 
 _FuchsiaGymBattleText6::
-	text "Master KOGA comes"
-	line "from a long line"
-	cont "of ninjas!"
-
-	para "What did you"
-	line "descend from?"
+	text "Only once in a"
+	line "generation is a"
+	cont "person born that"
+	cont "can speak to"
+	cont "NEPUTAIL..."
 	done
 
 _FuchsiaGymEndBattleText6::
-	text "Dropped"
-	line "my balls!"
+	text "IVY!"
+	line "IVY's that person!"
 	prompt
 
 _FuchsiaGymAfterBattleText6::
-	text "Where there is"
-	line "light, there is"
-	cont "shadow!"
-
-	para "Light and shadow!"
-	line "Which do you"
-	cont "choose?"
+	text "IVY speaks to"
+	line "NEPUTAIL, and"
+	cont "spreads His"
+	cont "word across the"
+	cont "land."
 	done
 
 _FuchsiaGymGuidePreBattleText::
-	text "Yo! Champ in"
+	text "Yo! Champ in the"
 	line "making!"
 
 	para "FUCHSIA GYM is"
-	line "riddled with"
-	cont "invisible walls!"
+	line "a rather grave"
+	cont "maze!"
 
-	para "KOGA might appear"
-	line "close, but he's"
-	cont "blocked off!"
-
-	para "You have to find"
-	line "gaps in the walls"
-	cont "to reach him!"
+	para "To reach IVY,"
+	line "you'll have to"
+	cont "get to her,"
+	cont "first!"
 	done
 
 _FuchsiaGymGuidePostBattleText::
-	text "It's amazing how"
-	line "ninja can terrify"
-	cont "even now!"
+	text "I don't get it..."
+
+	para "What's so special"
+	line "about a rat?"
 	done

@@ -66,8 +66,8 @@ _Route3BattleText4::
 
 _Route3EndBattleText4::
 	text "If I"
-	line "had new #MON I"
-	cont "would've won!"
+	line "had better bugs,"
+	cont "I would've won!"
 	prompt
 
 _Route3AfterBattleText4::
@@ -94,19 +94,21 @@ _Route3AfterBattleText5::
 	done
 
 _Route3BattleText6::
-	text "Hey! You're not"
-	line "wearing shorts!"
+	text "Hey! Stop"
+	line "copying me!"
 	done
 
 _Route3EndBattleText6::
-	text "Lost!"
-	line "Lost! Lost!"
+	text "What?"
+	line "You mean you"
+	cont "weren't"
+	cont "copying me?"
 	prompt
 
 _Route3AfterBattleText6::
-	text "I always wear"
-	line "shorts, even in"
-	cont "winter!"
+	text "PANGLINA can"
+	line "copy almost any"
+	cont "move it sees!"
 	done
 
 _Route3BattleText7::
@@ -120,9 +122,9 @@ _Route3EndBattleText7::
 	prompt
 
 _Route3AfterBattleText7::
-	text "Trained #MON"
+	text "Evolved #MON"
 	line "are stronger than"
-	cont "the wild ones!"
+	cont "basic ones!"
 	done
 
 _Route3BattleText8::
@@ -131,12 +133,13 @@ _Route3BattleText8::
 	done
 
 _Route3EndBattleText8::
-	text "That's it?"
+	text "ROBBY, no..."
 	prompt
 
 _Route3AfterBattleText8::
-	text "ROUTE 4 is at the"
-	line "foot of MT.MOON."
+	text "That ROBBY was a"
+	line "present from my"
+	cont "Mom!"
 	done
 
 _Route3Text10::

@@ -21,21 +21,21 @@ _Museum2FText3::
 	done
 
 _Museum2FText4::
-	text "I want a PIKACHU!"
-	line "It's so cute!"
+	text "I wanna JOLTYBARA!"
+	line "They look cuddly!"
 
 	para "I asked my Daddy"
 	line "to catch me one!"
 	done
 
 _Museum2FText5::
-	text "Yeah, a PIKACHU"
+	text "Yeah, a JOLTYBARA"
 	line "soon, I promise!"
 	done
 
 _Museum2FText6::
 	text "SPACE SHUTTLE"
-	line "COLUMBIA"
+	line "CORINTHIA"
 	done
 
 _Museum2FText7::

@@ -1,21 +1,28 @@
 _Route6BattleText1::
-	text "Who's there?"
+	text "meqlaHbe'."
+	line "ghojwI'pu' tu'lu'."
+	
+	para "Who's there?"
 	line "Quit listening in"
 	cont "on us!"
 	done
 
 _Route6EndBattleText1::
-	text "I"
-	line "just can't win!"
+	text "..."
 	prompt
 
 _Route6AfterBattleText1::
-	text "Whisper..."
-	line "whisper..."
+	text "(Try as you might,"
+	line "you can't seem to"
+	cont "understand what"
+	cont "they're saying...)"
 	done
 
 _Route6BattleText2::
-	text "Excuse me! This"
+	text "jIrInbe',"
+	line "ben ghu' vIrur."
+	
+	para "Excuse me! This"
 	line "is a private"
 	cont "conversation!"
 	done
@@ -42,8 +49,12 @@ _Route6AfterBattleText3::
 	done
 
 _Route6BattleText4::
-	text "Huh? You want"
-	line "to talk to me?"
+	text "Huh? You're not"
+	line "one of those cult"
+	cont "members, are you?"
+	
+	para "Oh? A battle?"
+	line "Hah, you're on!"
 	done
 
 _Route6EndBattleText4::
@@ -52,14 +63,19 @@ _Route6EndBattleText4::
 	prompt
 
 _Route6AfterBattleText4::
-	text "I should carry"
-	line "more #MON with"
-	cont "me for safety."
+	text "Those cultists"
+	line "better stay"
+	cont "away from her..."
 	done
 
 _Route6BattleText5::
-	text "Me? Well, OK."
-	line "I'll play!"
+	text "Euch, that cult"
+	line "girl is copying"
+	cont "my style..."
+	
+	para "Huh? Battle?"
+	line "Well, OK."
+	cont "I'll play!"
 	done
 
 _Route6EndBattleText5::
@@ -68,9 +84,9 @@ _Route6EndBattleText5::
 	prompt
 
 _Route6AfterBattleText5::
-	text "I want to get"
-	line "stronger! What's"
-	cont "your secret?"
+	text "Those two over"
+	line "there give me"
+	cont "the creeps!"
 	done
 
 _Route6BattleText6::
@@ -85,7 +101,7 @@ _Route6EndBattleText6::
 	prompt
 
 _Route6AfterBattleText6::
-	text "Are my #MON"
+	text "Is my #MON"
 	line "weak? Or, am I"
 	cont "just bad?"
 	done

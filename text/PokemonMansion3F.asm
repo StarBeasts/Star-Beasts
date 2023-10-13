@@ -29,9 +29,14 @@ _Mansion3AfterBattleText2::
 	done
 
 _Mansion3Text5::
-	text "Diary: Feb. 6"
-	line "MEW gave birth."
+	text "Log: I narrowly"
+	line "escaped my"
+	cont "encounter with"
+	cont "ZAGRUS."
 
-	para "We named the"
-	line "newborn MEWTWO."
+	para "The rest of my"
+	line "research team..."
+
+	para "They didn't make"
+	line "it..."
 	done

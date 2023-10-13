@@ -9,13 +9,20 @@ _CinnabarPokecenterText2::
 	done
 
 _CinnabarPokecenterText3::
-	text "Do you have any"
-	line "friends?"
+	text "The folks over in"
+	line "that LAB have"
+	cont "UNIQUORNs!"
 
-	para "#MON you get"
-	line "in trades grow"
-	cont "very quickly."
+	para "While I do quite"
+	line "fancy having one,"
+	cont "I can't bother to"
+	cont "fetch whatever"
+	cont "they want to"
+	cont "trade for one!"
 
-	para "I think it's"
-	line "worth a try!"
+	para "A shame, too..."
+
+	para "They're quite"
+	line "hard to find,"
+	cont "otherwise..."
 	done

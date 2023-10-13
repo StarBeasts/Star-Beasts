@@ -1,18 +1,18 @@
 _SafariZoneRestHouse3Text1::
-	text "How many did you"
-	line "catch? I'm bushed"
-	cont "from the work!"
+	text "Phew! Catching"
+	line "#MON is a"
+	cont "real workout!"		
 	done
 
 _SafariZoneRestHouse3Text2::
 	text "I caught a"
-	line "CHANSEY!"
+	line "UMISTME!"
 
 	para "That makes this"
 	line "all worthwhile!"
 	done
 
 _SafariZoneRestHouse3Text3::
-	text "Whew! I'm tired"
-	line "from all the fun!"
+	text "All these police"
+	line "make me nervous..."
 	done

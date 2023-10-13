@@ -366,7 +366,7 @@ DisplayContinueGameInfo:
 	call PrintPlayTime
 	ld a, 1
 	ldh [hAutoBGTransferEnabled], a
-	ld c, 30
+	ld c, 5
 	jp DelayFrames
 
 PrintSaveScreenText:
@@ -555,7 +555,6 @@ DisplayOptionMenu:
 	jp .eraseOldMenuCursor
 .cursorInBattleStyle
 	ld a, [wOptionsBattleStyleCursorX] ; battle style cursor X coordinate
-	xor $0b ; toggle between 1 and 10
 	ld [wOptionsBattleStyleCursorX], a
 	jp .eraseOldMenuCursor
 .pressedLeftInTextSpeed
@@ -585,15 +584,15 @@ DisplayOptionMenu:
 
 TextSpeedOptionText:
 	db   "TEXT SPEED"
-	next " FAST  MEDIUM SLOW@"
+	next " FAST  NORMAL SLOW@"
 
 BattleAnimationOptionText:
 	db   "BATTLE ANIMATION"
 	next " ON       OFF@"
 
 BattleStyleOptionText:
-	db   "BATTLE STYLE"
-	next " SHIFT    SET@"
+	db   "DIFFICULTY"
+	next " YES@"
 
 OptionMenuCancelText:
 	db "CANCEL@"

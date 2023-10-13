@@ -1,57 +1,73 @@
 _PokemonTower2Text_6062d::
-	text "<RIVAL>: Hey,"
-	line "<PLAYER>! What"
-	cont "brings you here?"
-	cont "Your #MON"
-	cont "don't look dead!"
+	text "<RIVAL>: ..."
+	line "<PLAYER>? What"
+	cont "are YOU doing"
+	cont "here?"
+	
+	para "What? You're"
+	line "looking for"
+	cont "GHOSTs?"
 
-	para "I can at least"
-	line "make them faint!"
-	cont "Let's go, pal!"
+	para "Why would you"
+	line "want to..."
+
+	para "..."
+	
+	para "...Whatever."
+
+	para "What? What am I"
+	line "doing here?"
+	
+	para "..."
+	
+	para "That's none of"
+	line "your concern."
+
+	para "Just shut up"
+	line "and fight me."
 	done
 
 _PokemonTower2Text_60632::
-	text "What?"
-	line "You stinker!"
+	text "..."
 
-	para "I took it easy on"
-	line "you too!"
+	para "You think I care"
+	line "that you won?"
 	prompt
 
 _PokemonTower2Text_60637::
-	text "<RIVAL>: Well,"
-	line "look at all your"
-	cont "wimpy #MON!"
+	text "<RIVAL>: Yeah,"
+	line "leave me alone."
 
-	para "Toughen them up a"
-	line "bit more!"
+	para "Seriously."
+	line "Go. Away."
 	prompt
 
 _PokemonTower2Text_6063c::
-	text "How's your #DEX"
-	line "coming, pal?"
-	cont "I just caught a"
-	cont "CUBONE!"
+	text "Tch..."
+	line "This place sucks."
+	cont "Have fun with all"
+	cont "the nutcases and"
+	cont "GHOSTs here."
 
-	para "I can't find the"
-	line "grown-up MAROWAK"
-	cont "yet!"
+	para "I'm out."
 
-	para "I doubt there are"
-	line "any left! Well, I"
-	cont "better get going!"
-	cont "I've got a lot to"
-	cont "accomplish, pal!"
+	para "You better keep"
+	line "training, because"
+	cont "next time, I'm"
+	cont "going to knock"
+	cont "you down."
 
-	para "Smell ya later!"
+	para "Later."
 	done
 
 _PokemonTower2Text2::
-	text "Even we could not"
-	line "identify the"
-	cont "wayward GHOSTs!"
+	text "Beware, child."
+	line "An odd MIST"
+	cont "obscures the"
+	cont "true form of"
+	cont "GHOSTs upstairs."
 
 	para "A SILPH SCOPE"
-	line "might be able to"
-	cont "unmask them."
+	line "might let you"
+	cont "see through it."
 	done

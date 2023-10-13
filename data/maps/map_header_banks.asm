@@ -244,7 +244,7 @@ MapHeaderBanks::
 	db BANK(Colosseum_h)
 	db $11 ; UNUSED_MAP_F1
 	db $11 ; UNUSED_MAP_F2
-	db $11 ; UNUSED_MAP_F3
+	db BANK(Unatco_h)
 	db $11 ; UNUSED_MAP_F4
 	db BANK(LoreleisRoom_h)
 	db BANK(BrunosRoom_h)

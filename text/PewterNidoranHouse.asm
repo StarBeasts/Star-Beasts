@@ -1,9 +1,9 @@
 _PewterHouse1Text1::
-	text "NIDORAN: Bowbow!@"
+	text "NEEDOLF: Grrowr...@"
 	text_end
 
 _PewterHouse1Text2::
-	text "NIDORAN sit!"
+	text "NEEDOLF, sit!"
 	done
 
 _PewterHouse1Text3::
@@ -22,4 +22,11 @@ _PewterHouse1Text3::
 
 	para "If only we had"
 	line "some BADGEs..."
+
+	para "..."
+	line "BAILEY, HOW MANY"
+	cont "TIMES DO I HAVE"
+	cont "TO TELL YOU TO"
+	cont "LEAVE THAT DAMNED"
+	cont "THING ALONE!?"
 	done

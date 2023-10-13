@@ -1,26 +1,46 @@
 _KogaBeforeBattleText::
-	text "KOGA: Fwahahaha!"
+	text "IVY: Welcome to"
+	line "the domain of the"
+	cont "legendary monster"
+	cont "NEPUTAIL!"
 
-	para "A mere child like"
-	line "you dares to"
-	cont "challenge me?"
+	para "His whiskery"
+	line "glory guides us,"
+	cont "even in the"
+	cont "darkest of times!"
 
-	para "Very well, I"
-	line "shall show you"
-	cont "true terror as a"
-	cont "ninja master!"
+	para "Not only that,"
+	line "the power He"
+	cont "grants comes with"
+	cont "many boons!"
 
-	para "You shall feel"
-	line "the despair of"
-	cont "poison and sleep"
-	cont "techniques!"
+	para "His glory is a"
+	line "pathway to many"
+	cont "abilities some"
+	cont "consider to be"
+	cont "unnatural."
+
+	para "But. They. Are."
+
+	para "Blind!"
+	line "Heathens, the lot"
+	cont "of them!"
+
+	para "Behold the glory"
+	line "of NEPUTAIL's"
+	cont "machinations!"
 	done
 
 _ReceivedSoulBadgeText::
-	text "Humph!"
-	line "You have proven"
-	cont "your worth!"
+	text "Doof!"
 
-	para "Here! Take the"
-	line "SOULBADGE!"
+	para "Y-you beat"
+	line "NEPUTAIL just"
+	cont "like that!?"
+
+	para "Uhh..."
+
+	para "Here! Just, uh..."
+	line "Take the"
+	cont "SOULBADGE!"
 	prompt

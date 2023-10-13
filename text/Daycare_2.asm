@@ -1,10 +1,10 @@
 _DayCareAllRightThenText::
-	text "All right then,"
+	text "All right then."
 	line "@"
 	text_end
 
 _DayCareComeAgainText::
-	text "come again."
+	text "Come again."
 	done
 
 _DayCareNoRoomForMonText::

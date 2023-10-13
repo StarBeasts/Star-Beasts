@@ -1,26 +1,36 @@
 _LTSurgePostBattleAdviceText::
-	text "A little word of"
-	line "advice, kid!"
+	text "DISPENSING"
 
-	para "Electricity is"
-	line "sure powerful!"
+	para "AUTOGRAPH"
 
-	para "But, it's useless"
-	line "against ground-"
-	cont "type #MON!"
+	para "..."
+	
+	para "A strange piece"
+	line "of paper comes"
+	cont "out of her"
+	cont "mouth..."
+
+	para "..."
+	
+	para "It's completely"
+	line "blank..."
+
+	para "You decided to"
+	line "throw it away..."
 	done
 
 _LTSurgeThunderBadgeInfoText::
-	text "The THUNDERBADGE"
-	line "cranks up your"
-	cont "#MON's SPEED!"
+	text "THUNDERBADGE"
+	line "WILL:"
+	
+	para "SPEED"
 
-	para "It also lets your"
-	line "#MON FLY any"
-	cont "time, kid!"
+	para "BIRDS WILL:"
 
-	para "You're special,"
-	line "kid! Take this!"
+	para "FLY"
+
+	para "HAVE THIS TOKEN"
+	line "OF GRATITUDE"
 	done
 
 _ReceivedTM24Text::
@@ -33,113 +43,139 @@ _ReceivedTM24Text::
 _TM24ExplanationText::
 	text_start
 
-	para "TM24 contains"
+	para "TM24 IS:"
 	line "THUNDERBOLT!"
 
-	para "Teach it to an"
-	line "electric #MON!"
+	para "SHOCK THEM"
+
+	para "ON THE DANCE"
+	cont "FLOOR"
 	done
 
 _TM24NoRoomText::
-	text "Yo kid, make room"
-	line "in your pack!"
+	text "ITEM ROOM:"
+	line "NOT FOUND"
 	done
 
 _ReceivedThunderBadgeText::
-	text "Whoa!"
+	text "ERROR!"
 
-	para "You're the real"
-	line "deal, kid!"
+	para "PLAYER VICTORY"
+	line "DOES NOT:"
+	
+	para "COMPUTE"
 
-	para "Fine then, take"
-	line "the THUNDERBADGE!"
+	para "PLAYER WILL"
+
+	para "PLAYER WILL"
+
+	para "PLAYER WILL"
+
+	para "THUNDERBADGE!"
 	prompt
 
 _VermilionGymBattleText1::
-	text "When I was in the"
-	line "Army, LT.SURGE"
-	cont "was my strict CO!"
+	text "NO! YOU CAN'T"
+	line "HAVE ELEKSI!"
+	cont "SHE'S MINE!"
 	done
 
 _VermilionGymEndBattleText1::
-	text "Stop!"
-	line "You're very good!"
+	text "Grr..."
+	line "Very well..."
 	prompt
 
 _VermilionGymAfterBattleText1::
-	text "The door won't"
-	line "open?"
-
-	para "LT.SURGE always"
-	line "was cautious!"
+	text "ELEKSI..."
+	
+	para "One day, my"
+	line "sweet..."
+	cont "You'll be mine..."
 	done
 
 _VermilionGymBattleText2::
-	text "I'm a lightweight,"
-	line "but I'm good with"
-	cont "electricity!"
+	text "ELEKSI! ELEKSI!"
+	line "My head!"
+	cont "Autograph me on"
+	cont "my head!"
+	
+	para "Oh, I know!"
+	line "If I beat you,"
+	cont "I'll prove myself"
+	cont "to ELEKSI!"
 	done
 
 _VermilionGymEndBattleText2::
-	text "Fried!"
+	text "Crap..."
 	prompt
 
 _VermilionGymAfterBattleText2::
-	text "OK, I'll talk!"
+	text "ELEKSI..."
 
-	para "LT.SURGE said he"
-	line "hid door switches"
-	cont "inside something!"
+	para "Her songs always"
+	line "brighten up my"
+	cont "day..."
 	done
 
 _VermilionGymBattleText3::
-	text "This is no place"
-	line "for kids!"
+	text "Hey!"
+	line "Get in line, kid!"
 	done
 
 _VermilionGymEndBattleText3::
-	text "Wow!"
-	line "Surprised me!"
+	text "Uh-oh."
 	prompt
 
 _VermilionGymAfterBattleText3::
-	text "LT.SURGE set up"
-	line "double locks!"
-	cont "Here's a hint!"
+	text "Don't tell the"
+	line "BOSS man you"
+	cont "saw me here,"
+	cont "capiche?"
 
-	para "When you open the"
-	line "1st lock, the 2nd"
-	cont "lock is right"
-	cont "next to it!"
+	para "He, uh... doesn't"
+	line "take too kindly"
+	cont "to people that"
+	cont "abandon their"
+	cont "posts..."
 	done
 
 _VermilionGymGuidePreBattleText::
-	text "Yo! Champ in"
+	text "Yo! Champ in the"
 	line "making!"
 
-	para "LT.SURGE has a"
-	line "nickname. People"
-	cont "refer to him as"
-	cont "the Lightning"
-	cont "American!"
+	para "ELEKSI is a"
+	line "supercharged"
+	cont "superstar known"
+	cont "the world over!"
 
-	para "He's an expert on"
-	line "electric #MON!"
+	para "She's also an"
+	line "expert on"
+	cont "electric #MON!"
 
 	para "Birds and water"
 	line "#MON are at"
 	cont "risk! Beware of"
 	cont "paralysis too!"
 
-	para "LT.SURGE is very"
+	para "She's also"
 	line "cautious!"
 
 	para "You'll have to"
 	line "break a code to"
-	cont "get to him!"
+	cont "get to her!"
+
+	para "Find the two"
+	line "switches that"
+	cont "open the lock!"
+
+	para "I'm pretty sure"
+	line "the second switch"
+	cont "is usually right"
+	cont "next to the"
+	cont "first one..."
 	done
 
 _VermilionGymGuidePostBattleText::
-	text "Whew! That match"
-	line "was electric!"
+	text "Whew! What a"
+	line "performance!"
 	done

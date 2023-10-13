@@ -9,12 +9,16 @@ _FuchsiaPokecenterText1::
 	done
 
 _FuchsiaPokecenterText3::
-	text "There's a narrow"
-	line "trail west of"
-	cont "VIRIDIAN CITY."
+	text "If you're like me"
+	line "and you've wanted"
+	cont "a QUINCY for the"
+	cont "longest time, but"
+	cont "can't find one,"
+	cont "don't fret!"
 
-	para "It goes to #MON"
-	line "LEAGUE HQ."
-	cont "The HQ governs"
-	cont "all trainers."
+	para "There's always a"
+	line "few of them in"
+	cont "the grass at the"
+	cont "center of the"
+	cont "SAFARI ZONE!"
 	done

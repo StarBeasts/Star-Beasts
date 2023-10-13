@@ -17,6 +17,8 @@ _Route16GateText_49781::
 	done
 
 _Route16GateText2::
-	text "How'd you get in?"
-	line "Good effort!"
+	text "Use a DARK SOUL"
+	line "on TOMAROC."
+
+	para "Thank me later."
 	done

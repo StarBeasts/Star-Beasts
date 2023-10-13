@@ -1,11 +1,11 @@
 _PewterCityText1::
 	text "It's rumored that"
-	line "CLEFAIRYs came"
-	cont "from the moon!"
+	line "DRAGLEAM came"
+	cont "from the stars!"
 
 	para "They appeared "
-	line "after MOON STONE"
-	cont "fell on MT.MOON."
+	line "after a METEOR"
+	cont "hit the EARTH."
 	done
 
 _PewterCityText2::
@@ -16,8 +16,8 @@ _PewterCityText2::
 	para "They're all like"
 	line "BUG CATCHERs,"
 	cont "but PEWTER GYM's"
-	cont "BROCK is totally"
-	cont "into it!"
+	cont "BIG DAVE is"
+	cont "totally into it!"
 	done
 
 _PewterCityText_193f1::
@@ -27,7 +27,7 @@ _PewterCityText_193f1::
 
 _PewterCityText_193f6::
 	text "Weren't those"
-	line "fossils from MT."
+	line "souls from MT."
 	cont "MOON amazing?"
 	done
 
@@ -64,7 +64,7 @@ _PewterCityText_19431::
 
 _PewterCityText_1945d::
 	text "You're a trainer"
-	line "right? BROCK's"
+	line "right? BIG DAVE's"
 	cont "looking for new"
 	cont "challengers!"
 	cont "Follow me!"
@@ -73,7 +73,7 @@ _PewterCityText_1945d::
 _PewterCityText14::
 	text "If you have the"
 	line "right stuff, go"
-	cont "take on BROCK!"
+	cont "take on BIG DAVE!"
 	done
 
 _PewterCityText6::
@@ -90,7 +90,7 @@ _PewterCityText7::
 
 	para "Thieves have been"
 	line "stealing #MON"
-	cont "fossils at MT."
+	cont "souls at MT."
 	cont "MOON! Please call"
 	cont "PEWTER POLICE"
 	cont "with any info!"
@@ -104,9 +104,9 @@ _PewterCityText10::
 _PewterCityText11::
 	text "PEWTER CITY"
 	line "#MON GYM"
-	cont "LEADER: BROCK"
+	cont "LEADER: BIG DAVE"
 
-	para "The Rock Solid"
+	para "The Hard Rockin'"
 	line "#MON Trainer!"
 	done
 

@@ -1,9 +1,11 @@
 _ViridianForestText1::
-	text "I came here with"
-	line "some friends!"
+	text "Shoosh! I'm"
+	line "trying to find"
+	cont "a DRAGLEAM!"
 
-	para "They're out for"
-	line "#MON fights!"
+	para "They're s'posed"
+	line "to be really"
+	cont "rare and powerful!"
 	done
 
 _ViridianForestBattleText1::
@@ -14,7 +16,7 @@ _ViridianForestBattleText1::
 
 _ViridianForestEndBattleText1::
 	text "No!"
-	line "CATERPIE can't"
+	line "CUPEEDLE can't"
 	cont "cut it!"
 	prompt
 
@@ -36,20 +38,23 @@ _ViridianForestEndBattleText2::
 	prompt
 
 _ViridianFrstAfterBattleText2::
-	text "Darn! I'm going"
-	line "to catch some"
-	cont "stronger ones!"
+	text "Darn! If I had"
+	line "a DRAGLEAM, I"
+	cont "would've won!"
 	done
 
 _ViridianForestBattleText3::
-	text "Hey, wait up!"
-	line "What's the hurry?"
+	text "Lemme show you"
+	line "what I found!"
+	
+	para "Get ready to lose!"
 	done
 
 _ViridianForestEndBattleText3::
-	text "I"
-	line "give! You're good"
-	cont "at this!"
+	text "Ack!"
+	line "You must be crazy"
+	cont "strong if you can"
+	cont "beat DRAGLEAM!"
 	prompt
 
 _ViridianFrstAfterBattleText3::
@@ -63,12 +68,12 @@ _ViridianFrstAfterBattleText3::
 	done
 
 _ViridianForestText8::
-	text "I ran out of #"
-	line "BALLs to catch"
-	cont "#MON with!"
+	text "Oww... my finger"
+	line "is bleeding..."
 
-	para "You should carry"
-	line "extras!"
+	para "Those MULCRUNCH"
+	line "are nasty little"
+	cont "critters!"
 	done
 
 _ViridianForestText9::
@@ -81,15 +86,18 @@ _ViridianForestText9::
 	done
 
 _ViridianForestText10::
-	text "For poison, use"
-	line "ANTIDOTE! Get it"
-	cont "at #MON MARTs!"
+	text "Local trainers"
+	line "report sightings"
+	cont "of an unusually"
+	cont "powerful pink"
+	cont "#MON in"
+	cont "VIRIDIAN FOREST."
 	done
 
 _ViridianForestText11::
 	text "TRAINER TIPS"
 
-	para "Contact PROF.OAK"
+	para "Reach PROF.CHERRY"
 	line "via PC to get"
 	cont "your #DEX"
 	cont "evaluated!"

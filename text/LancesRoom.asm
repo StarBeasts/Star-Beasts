@@ -1,45 +1,72 @@
 _LanceBeforeBattleText::
-	text "Ah! I heard about"
-	line "you <PLAYER>!"
+	text "...Howdy."
 
-	para "I lead the ELITE"
-	line "FOUR! You can"
-	cont "call me LANCE the"
-	cont "dragon trainer!"
+	para "Name's ARCTURUS."
 
-	para "You know that"
-	line "dragons are"
+	para "Former General,"
+	line "dragon tamer, and"
+	cont "the strongest"
+	cont "trainer in this"
+	cont "here region."
+
+	para "And you are...?"
+
+	para "..."
+	
+	para "<PLAYER>, huh?"
+	line "Pleasure to meet"
+	cont "you."
+
+	para "Let's not waste"
+	line "any more time,"
+	cont "because we both"
+	cont "know why you're"
+	cont "here."
+
+	para "So."
+
+	line "Dragons are"
 	cont "mythical #MON!"
 
-	para "They're hard to"
-	line "catch and raise,"
-	cont "but their powers"
-	cont "are superior!"
+	para "Only a true"
+	line "warrior can tame"
+	cont "their incredible"
+	cont "ferocity!"
 
 	para "They're virtually"
-	line "indestructible!"
+	line "indestructible,"
+	cont "just like me!"
 
-	para "Well, are you"
-	line "ready to lose?"
+	para "Sorry to say, kid,"
+	line "but this is where"
+	cont "your winning"
+	cont "streak runs out!"
 
-	para "Your LEAGUE"
-	line "challenge ends"
-	cont "with me, <PLAYER>!"
+	para "Time to put you to"
+	line "the ultimate test!"
 	done
 
 _LanceEndBattleText::
-	text "That's it!"
+	text "That..."
+	
+	para "That was..."
+	
+	para "..."
+	
+	para "Pretty damn"
+	line "spectacular!"
 
-	para "I hate to admit"
-	line "it, but you are a"
-	cont "#MON master!"
+	para "Alright, that"
+	line "settles it."
+	cont "You're a #MON" 
+	cont "master!"
 	prompt
 
 _LanceAfterBattleText::
-	text "I still can't"
-	line "believe my"
-	cont "dragons lost to"
-	cont "you, <PLAYER>!"
+	text "You're something"
+	line "else! You beat a"
+	cont "decorated combat"
+	cont "veteran!"
 
 	para "You are now the"
 	line "#MON LEAGUE"
@@ -47,8 +74,8 @@ _LanceAfterBattleText::
 
 	para "...Or, you would"
 	line "have been, but"
-	cont "you have one more"
-	cont "challenge ahead."
+	cont "one more battle"
+	cont "awaits you."
 
 	para "You have to face"
 	line "another trainer!"
@@ -60,5 +87,8 @@ _LanceAfterBattleText::
 
 	para "He is the real"
 	line "#MON LEAGUE"
-	cont "champion!@"
+	cont "champion!"
+
+	para "Best of luck to"
+	line "ya, kid!@"
 	text_end

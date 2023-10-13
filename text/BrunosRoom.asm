@@ -1,34 +1,45 @@
 _BrunoBeforeBattleText::
-	text "I am BRUNO of"
-	line "the ELITE FOUR!"
+	text "Grorbl..."
+	
+	para "Salut!"
 
-	para "Through rigorous"
-	line "training, people"
-	cont "and #MON can"
-	cont "become stronger!"
+	para "I am REVICHE"
+	line "of the ELITE"
+	cont "FOUR!"
 
-	para "I've weight"
-	line "trained with"
-	cont "my #MON!"
+	para "Grorr..."
+
+	para "With the power"
+	line "of science,"
+	cont "#MON and"
+	cont "trainers become"
+	cont "stronger!"
+
+	para "Our endless"
+	line "fascination is"
+	cont "what unites us,"
+	cont "humanity and"
+	cont "#MON alike!"
 
 	para "<PLAYER>!"
 
-	para "We will grind you"
-	line "down with our"
-	cont "superior power!"
+	para "Can you overcome"
+	line "the awesome power"
+	cont "of science!?"
 
-	para "Hoo hah!"
+	para "Bumomomo!"
+	line "Let's find out!"
 	done
 
 _BrunoEndBattleText::
-	text "Why?"
-	line "How could I lose?"
+	text "St..."
+	line "Stupendous!"
 	prompt
 
 _BrunoAfterBattleText::
-	text "My job is done!"
-	line "Go face your next"
-	cont "challenge!"
+	text "Fantastique!"
+	line "But more trials"
+	cont "yet await you!"
 	done
 
 _BrunoDontRunAwayText::

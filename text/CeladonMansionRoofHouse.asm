@@ -1,10 +1,12 @@
 _CeladonMansion5Text1::
-	text "I know everything"
-	line "about the world"
-	cont "of #MON in"
-	cont "your GAME BOY!"
+	text "Ach! Ze experiment"
+	line "eez a failure!"
+	cont "My dream of zee"
+	cont "supreme veapon..."
 
-	para "Get together with"
-	line "your friends and"
-	cont "trade #MON!"
+	para "All zose yeers"
+	line "gone to vaste..."
+	cont "Now, eet eez good"
+	cont "for nussing but"
+	cont "zee garbage!"
 	done

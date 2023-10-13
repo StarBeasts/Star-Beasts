@@ -492,6 +492,33 @@ SECTION "Pinball Songs 5", ROMX
 INCLUDE "crysaudio/music/pinball/endcredits.asm"
 INCLUDE "crysaudio/music/pinball/nameentry.asm"
 
+SECTION "New Songs", ROMX
+
+INCLUDE "crysaudio/music/new/hometown.asm"
+INCLUDE "crysaudio/music/new/cherry.asm"
+INCLUDE "crysaudio/music/new/rocken.asm"
+INCLUDE "crysaudio/music/new/wacky.asm"
+
+SECTION "New Songs 2", ROMX
+
+INCLUDE "crysaudio/music/new/sadalex.asm"
+INCLUDE "crysaudio/music/new/heroloop.asm"
+INCLUDE "crysaudio/music/new/nuzzles.asm"
+INCLUDE "crysaudio/music/new/wildbeast.asm"
+
+SECTION "New Songs 3", ROMX
+
+INCLUDE "crysaudio/music/new/california.asm"
+INCLUDE "crysaudio/music/new/obla.asm"
+INCLUDE "crysaudio/music/new/pissypamper.asm"
+INCLUDE "crysaudio/music/new/oceanwinter.asm"
+
+SECTION "New Songs 4", ROMX
+
+INCLUDE "crysaudio/music/new/academy.asm"
+INCLUDE "crysaudio/music/new/blue.asm"
+INCLUDE "crysaudio/music/new/unatco.asm"
+
 
 SECTION "Sound Effects", ROMX
 

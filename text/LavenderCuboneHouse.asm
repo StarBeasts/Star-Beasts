@@ -1,17 +1,18 @@
 _LavenderHouse2Text1::
-	text "CUBONE: Kyarugoo!@"
+	text "OWAI: Ooooo...@"
 	text_end
 
 _LavenderHouse2Text_1d9dc::
-	text "I hate those"
-	line "horrible ROCKETs!"
+	text "I wish those"
+	line "horrible ROCKETs"
+	cont "would leave!"
 
-	para "That poor CUBONE's"
-	line "mother..."
+	para "They're desecrating"
+	line "holy land, and"
+	cont "for what?"
 
-	para "It was killed"
-	line "trying to escape"
-	cont "from TEAM ROCKET!"
+	para "Why can't they"
+	line "just leave us be!?"
 	done
 
 _LavenderHouse2Text_1d9e1::

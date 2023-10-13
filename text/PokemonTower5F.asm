@@ -21,8 +21,11 @@ _PokemonTower5AfterBattleText1::
 	done
 
 _PokemonTower5BattleText2::
-	text "You...shall..."
-	line "join...us..."
+	text "This place..."
+	line "..."
+
+	para "WILL BE YOUR"
+	line "GRAVE!"
 	done
 
 _PokemonTower5EndBattleText2::

@@ -59,29 +59,40 @@ _SilphCo11Text2::
 	done
 
 _SilphCo11Text3::
-	text "Ah <PLAYER>!"
-	line "So we meet again!"
+	text "Oh, <PLAYER>."
+	line "It's you."
 
 	para "The PRESIDENT and"
 	line "I are discussing"
 	cont "a vital business"
 	cont "proposition."
 
-	para "Keep your nose"
-	line "out of grown-up"
-	cont "matters..."
+	para "It is much too"
+	line "important to be"
+	cont "thwarted by the"
+	cont "likes of you."
 
-	para "Or, experience a"
-	line "world of pain!"
+	para "This time, I will"
+	line "make you regret"
+	cont "interfering with"
+	cont "our plans."
+
+	para "In fact, I'll make"
+	line "you regret ever"
+	cont "being born!"
 	done
 
 _SilphCo10Text_62330::
-	text "Arrgh!!"
-	line "I lost again!?"
+	text "You..."
+	line "You wretch!"
+	
+	para "How dare you!"
+
+	para "HOW DARE YOU!"
 	prompt
 
 _SilphCo10Text_62335::
-	text "Blast it all!"
+	text "Damn it all!"
 	line "You ruined our"
 	cont "plans for SILPH!"
 
@@ -94,22 +105,27 @@ _SilphCo10Text_62335::
 	cont "for TEAM ROCKET!"
 
 	para "I must go, but I"
-	line "shall return!"
+	line "will return!"
 	done
 
 _SilphCo11BattleText1::
-	text "Stop right there!"
-	line "Don't you move!"
+	text "Youse ain't gettin'"
+	line "to sees the BOSS"
+	cont "unless youse gets"
+	cont "through me, first!"
 	done
 
 _SilphCo11EndBattleText1::
-	text "Don't..."
-	line "Please!"
+	text "Damnit!"
+	line "There goes my"
+	cont "paycheck..."
 	prompt
 
 _SilphCo11AfterBattleText1::
-	text "So, you want to"
-	line "see my BOSS?"
+	text "Yeah, yeah."
+	
+	para "Go ahead and talk"
+	line "to the BOSS, kid."
 	done
 
 _SilphCo11BattleText2::
@@ -124,9 +140,10 @@ _SilphCo11EndBattleText2::
 	prompt
 
 _SilphCo11AfterBattleText2::
-	text "Watch your step,"
-	line "my BOSS likes his"
-	cont "#MON tough!"
+	text "Hah! Even though"
+	line "you beat me, you"
+	cont "can't get to the"
+	cont "BOSS from here!"
 	done
 
 _SilphCo10Text_6237b::

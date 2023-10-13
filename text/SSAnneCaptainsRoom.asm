@@ -52,8 +52,9 @@ _HM01NoRoomText::
 	done
 
 _SSAnne7Text2::
-	text "Yuck! Shouldn't"
-	line "have looked!"
+	text "Oh, gross!"
+	
+	para "It's full of puke!"
 	done
 
 _SSAnne7Text3::

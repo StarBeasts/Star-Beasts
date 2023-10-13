@@ -1,103 +1,111 @@
 _Route14BattleText1::
-	text "You need to use"
-	line "TMs to teach good"
-	cont "moves to #MON!"
+	text "Yawn..."
+	line "Oh, you wanna"
+	cont "battle, kid?"
 	done
 
 _Route14EndBattleText1::
-	text "Not"
-	line "good enough!"
+	text "Grr..."
+	line "Pretty good..."
 	prompt
 
 _Route14AfterBattleText1::
-	text "You have some HMs"
-	line "right? #MON"
-	cont "can't ever forget"
-	cont "those moves."
+	text "We're all stuck"
+	line "here until the"
+	cont "ICE QUEEN lets"
+	cont "us go."
 	done
 
 _Route14BattleText2::
-	text "My bird #MON"
-	line "should be ready"
-	cont "for battle."
+	text "It's a beautiful"
+	line "day outside."
+	
+	para "Birds are singing,"
+	line "flowers are"
+	cont "blooming..."
+
+	para "Days like these,"
+	line "kids like you..."
+
+	para "..."
+	
+	para "Shouldn't be here."
 	done
 
 _Route14EndBattleText2::
-	text "Not"
-	line "ready yet!"
+	text "Well."
 	prompt
 
 _Route14AfterBattleText2::
-	text "They need to learn"
-	line "better moves."
+	text "I'm bored out of"
+	line "my mind."
 	done
 
 _Route14BattleText3::
-	text "TMs are on sale"
-	line "in CELADON!"
-	cont "But, only a few"
-	cont "people have HMs!"
+	text "And just where do"
+	line "you think you're"
+	cont "going?"
 	done
 
 _Route14EndBattleText3::
-	text "Aww,"
-	line "bummer!"
+	text "N-not!"
+	line "Not a BIKER!"
+	cont "NOT A BIKER!"
 	prompt
 
 _Route14AfterBattleText3::
-	text "Teach #MON"
-	line "moves of the same"
-	cont "element type for"
-	cont "more power."
+	text "Move along."
 	done
 
 _Route14BattleText4::
-	text "Have you taught"
-	line "your bird #MON"
-	cont "how to FLY?"
+	text "Mind a battle?"
+	line "My shift's been"
+	cont "boring."
 	done
 
 _Route14EndBattleText4::
-	text "Shot"
-	line "down in flames!"
+	text "Hah!"
 	prompt
 
 _Route14AfterBattleText4::
-	text "Bird #MON are"
-	line "my true love!"
+	text "That got my"
+	line "blood pumping!"
 	done
 
 _Route14BattleText5::
-	text "Have you heard of"
-	line "the legendary"
-	cont "#MON?"
+	text "I'm waiting for"
+	line "this man to"
+	cont "commit a crime."
+
+	para "Battle? Bring"
+	line "it, kid."
 	done
 
 _Route14EndBattleText5::
-	text "Why?"
-	line "Why'd I lose?"
+	text "Tsk..."
 	prompt
 
 _Route14AfterBattleText5::
-	text "The 3 legendary"
-	line "#MON are all"
-	cont "birds of prey."
+	text "After what went"
+	line "down in SAFFRON,"
+	cont "we're taking law"
+	cont "enforcement extra"
+	cont "seriously."
 	done
 
 _Route14BattleText6::
-	text "I'm not into it,"
-	line "but OK! Let's go!"
+	text "You're under arrest"
+	line "for jaywalking!"
 	done
 
 _Route14EndBattleText6::
-	text "I"
-	line "knew it!"
+	text "Joke!"
+	line "It was a joke!"
 	prompt
 
 _Route14AfterBattleText6::
-	text "Winning, losing,"
-	line "it doesn't matter"
-	cont "in the long run!"
+	text "You're pretty"
+	line "tough, kid!"
 	done
 
 _Route14BattleText7::
@@ -112,42 +120,42 @@ _Route14EndBattleText7::
 	prompt
 
 _Route14AfterBattleText7::
-	text "What, what, what?"
-	line "What do you want?"
+	text "Outta my way,"
+	line "stupid kid!"
 	done
 
 _Route14BattleText8::
-	text "Perfect! I need to"
-	line "burn some time!"
+	text "Can't go anywhere"
+	line "with these stupid"
+	cont "cops!"
 	done
 
 _Route14EndBattleText8::
-	text "What?"
-	line "You!?"
+	text "How!?"
 	prompt
 
 _Route14AfterBattleText8::
-	text "Raising #MON"
-	line "is a drag, man."
+	text "#MON battles"
+	line "suck, anyway."
 	done
 
 _Route14BattleText9::
-	text "We ride out here"
-	line "because there's"
-	cont "more room!"
+	text "Cops keep riding"
+	line "my ass, man!"
 	done
 
 _Route14EndBattleText9::
-	text "Wipe out!"
+	text "Got my ass"
+	line "handed to me..."
 	prompt
 
 _Route14AfterBattleText9::
-	text "It's cool you"
-	line "made your #MON"
-	cont "so strong!"
+	text "Man, we can't do"
+	line "nothin' with all"
+	cont "these cops out!"
 
-	para "Might is right!"
-	line "And you know it!"
+	para "SHAYTON, you"
+	line "dumbass!"
 	done
 
 _Route14BattleText10::
@@ -156,14 +164,13 @@ _Route14BattleText10::
 	done
 
 _Route14EndBattleText10::
-	text "Blown"
-	line "away!"
+	text "Whoo!"
 	prompt
 
 _Route14AfterBattleText10::
-	text "You know who'd"
-	line "win, you and me"
-	cont "one on one!"
+	text "Without those"
+	line "#MON, I'd kick"
+	cont "your ass!"
 	done
 
 _Route14Text11::

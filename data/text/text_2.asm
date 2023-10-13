@@ -18,7 +18,7 @@ _AIBattleUseItemText::
 	prompt
 
 _TradeWentToText::
-	text_ram wStringBuffer
+	text_ram wcd6d
 	text " went"
 	line "to @"
 	text_ram wLinkEnemyTrainerName
@@ -28,7 +28,7 @@ _TradeWentToText::
 _TradeForText::
 	text "For <PLAYER>'s"
 	line "@"
-	text_ram wStringBuffer
+	text_ram wcd6d
 	text ","
 	done
 
@@ -70,7 +70,7 @@ _TradeWillTradeText::
 _TradeforText::
 	text "for <PLAYER>'s"
 	line "@"
-	text_ram wStringBuffer
+	text_ram wcd6d
 	text "."
 	done
 
@@ -80,7 +80,7 @@ _PlaySlotMachineText::
 	done
 
 _OutOfCoinsSlotMachineText::
-	text "Darn!"
+	text "Damn!"
 	line "Ran out of coins!"
 	done
 
@@ -106,7 +106,7 @@ _OneMoreGoSlotMachineText::
 _LinedUpText::
 	text " lined up!"
 	line "Scored @"
-	text_ram wStringBuffer
+	text_ram wcd6d
 	text " coins!"
 	done
 
@@ -133,7 +133,7 @@ _DexRatingText::
 _GymStatueText1::
 	text_ram wGymCityName
 	text_start
-	line "#MON GYM"
+	line "# BEAST GYM"
 	cont "LEADER: @"
 	text_ram wGymLeaderName
 	text_start
@@ -145,7 +145,7 @@ _GymStatueText1::
 _GymStatueText2::
 	text_ram wGymCityName
 	text_start
-	line "#MON GYM"
+	line "# BEAST GYM"
 	cont "LEADER: @"
 	text_ram wGymLeaderName
 	text_start
@@ -165,7 +165,7 @@ _ViridianCityPokecenterGuyText::
 _PewterCityPokecenterGuyText::
 	text "Yawn!"
 
-	para "When JIGGLYPUFF"
+	para "When ROCKEN"
 	line "sings, #MON"
 	cont "get drowsy..."
 
@@ -182,11 +182,13 @@ _CeruleanPokecenterGuyText::
 	done
 
 _LavenderPokecenterGuyText::
-	text "CUBONEs wear"
-	line "skulls, right?"
+	text "TRAPESTRY comes"
+	line "from some kind"
+	cont "of book, right?"
 
-	para "People will pay a"
-	line "lot for one!"
+	para "Man, wonder where"
+	line "you could find"
+	cont "that..."
 	done
 
 _MtMoonPokecenterBenchGuyText::
@@ -338,38 +340,41 @@ _CinnabarGymQuizIntroText::
 	prompt
 
 _CinnabarQuizQuestionsText1::
-	text "CATERPIE evolves"
-	line "into BUTTERFREE?"
+	text "CUPEEDLE evolves"
+	line "into VELOCIFLEA?"
 	done
 
 _CinnabarQuizQuestionsText2::
-	text "There are 9"
-	line "certified #MON"
-	cont "LEAGUE BADGEs?"
+	text "Does our soul"
+	line "resurrection"
+	cont "technology"
+	cont "work on humans?"
 	done
 
 _CinnabarQuizQuestionsText3::
-	text "POLIWAG evolves 3"
-	line "times?"
+	text "The FOUR"
+	line "HOLY REGENTS"
+	cont "did NOT create"
+	cont "this world?"
 	done
 
 _CinnabarQuizQuestionsText4::
-	text "Are thunder moves"
-	line "effective against"
-	cont "ground element-"
-	cont "type #MON?"
+	text "Is VELID NOT"
+	line "over two hundred"
+	cont "years old?"
 	done
 
 _CinnabarQuizQuestionsText5::
-	text "#MON of the"
-	line "same kind and"
-	cont "level are not"
-	cont "identical?"
+	text "Is VELID one of"
+	line "the very last"
+	cont "WIZARDs alive"
+	cont "today?"
 	done
 
 _CinnabarQuizQuestionsText6::
-	text "TM28 contains"
-	line "TOMBSTONER?"
+	text "Do you believe"
+	line "that Hell isn't"
+	cont "real?"
 	done
 
 _CinnabarGymQuizCorrectText::
@@ -380,7 +385,8 @@ _CinnabarGymQuizCorrectText::
 	text_end
 
 _CinnabarGymQuizIncorrectText::
-	text "Sorry! Bad call!"
+	text "Sorry, that is"
+	line "not correct!"
 	prompt
 
 _MagazinesText::
@@ -435,7 +441,7 @@ _OakLabEmailText::
 	para "#MON LEAGUE HQ"
 	line "INDIGO PLATEAU"
 
-	para "PS: PROF.OAK,"
+	para "PS: PROF.CHERRY,"
 	line "please visit us!"
 	cont "..."
 	done
@@ -556,17 +562,23 @@ _ViridianSchoolNotebookText4::
 	prompt
 
 _EnemiesOnEverySideText::
-	text "Enemies on every"
-	line "side!"
+	text "Purity of heart"
+	line "matters more"
+	cont "than purity of"
+	cont "purpose."
 	done
 
 _WhatGoesAroundComesAroundText::
-	text "What goes around"
-	line "comes around!"
+	text "If you must lie"
+	line "to protect those"
+	cont "you love, then"
+	cont "lie with your"
+	cont "love for them"
+	cont "in your heart."
 	done
 
 _FightingDojoText::
-	text "FIGHTING DOJO"
+	text "YIN-YANG DOJO"
 	done
 
 _IndigoPlateauHQText::
@@ -585,67 +597,105 @@ _Route15UpstairsBinocularsText::
 	text "Looked into the"
 	line "binoculars..."
 
-	para "A large, shining"
-	line "bird is flying"
+	para "A skeletal black"
+	line "dragon is flying"
 	cont "toward the sea."
 	done
 
 _AerodactylFossilText::
-	text "AERODACTYL Fossil"
-	line "A primitive and"
-	cont "rare #MON."
+	text "It's a gleaming"
+	line "gemstone that"
+	cont "has an odd glow"
+	cont "to it..."
 	done
 
 _KabutopsFossilText::
-	text "KABUTOPS Fossil"
-	line "A primitive and"
-	cont "rare #MON."
+	text "Huh...? For some"
+	line "reason, there's"
+	cont "a strange stuffed"
+	cont "animal here."
+
+	para "Somehow, you get"
+	line "the feeling its"
+	cont "eyes are watching"
+	cont "your every move."
+
+	para "You felt a chill"
+	line "down your spine..."
+	done
+
+_GetHandsText::
+	text "It's a gleaming"
+	line "gemstone that"
+	cont "has an odd glow"
+	cont "to it..."
 	done
 
 _LinkCableHelpText1::
-	text "TRAINER TIPS"
+	text "PROTOTYPE:"
 
-	para "Using a Game Link"
-	line "Cable"
+	para "Revolutionary"
+	line "Combat Android"
+	cont "Model 229, Mark I"
+
+	para "Equipped with"
+	line "military grade"
+	cont "Technique"
+	cont "Analysis System"
+	cont "(TAS)"
 	prompt
 
 _LinkCableHelpText2::
-	text "Which heading do"
-	line "you want to read?"
+	text "It's a bunch of"
+	line "odd notes..."
 	done
 
 _LinkCableInfoText1::
-	text "When you have"
-	line "linked your GAME"
-	cont "BOY with another"
-	cont "GAME BOY, talk to"
-	cont "the attendant on"
-	cont "the right in any"
-	cont "#MON CENTER."
+	text "The C-229 Mark I"
+	line "model android is"
+	cont "capable of using"
+	cont "nearly every"
+	cont "standard TM and"
+	cont "HM."
 	prompt
 
 _LinkCableInfoText2::
-	text "COLOSSEUM lets"
-	line "you play against"
-	cont "a friend."
+	text "C-229 has several"
+	line "adaptable defense"
+	cont "mechanisms,"
+	cont "including the"
+	cont "ability to change"
+	cont "its ELEMENT TYPE"
+	cont "on command."
 	prompt
 
 _LinkCableInfoText3::
-	text "TRADE CENTER is"
-	line "used for trading"
-	cont "#MON."
+	text "The amount of"
+	line "resources needed"
+	cont "to create this"
+	cont "functional"
+	cont "prototype make"
+	cont "mass production"
+	cont "an impossibility."
+
+	para "Need more funding."
+
+	para "But..."
+
+	para "More funding isn't"
+	line "going to happen."
 	prompt
 
 _ViridianSchoolBlackboardText1::
-	text "The blackboard"
-	line "describes #MON"
-	cont "STATUS changes"
-	cont "during battles."
+	text "???"
+
+	para "Something's"
+	line "scribbled here..."
 	prompt
 
 _ViridianSchoolBlackboardText2::
-	text "Which heading do"
-	line "you want to read?"
+	text "REASONS WHY JUSTIN"
+	line "IS JUST THE CUTEST"
 	done
 
 _ViridianBlackboardSleepText::
@@ -804,7 +854,7 @@ _PokemonBooksText::
 
 _DiglettSculptureText::
 	text "It's a sculpture"
-	line "of DIGLETT."
+	line "of MAGUSAND."
 	done
 
 _ElevatorText::
@@ -889,8 +939,8 @@ _UseNextMonText::
 	done
 
 _Rival1WinText::
-	text "<RIVAL>: Yeah! Am"
-	line "I great or what?"
+	text "<RIVAL>: See!? Mine"
+	line "is better!"
 	prompt
 
 _PlayerBlackedOutText2::
@@ -1095,7 +1145,7 @@ _InsteadText::
 	text_end
 
 _MoveNameText::
-	text_ram wStringBuffer
+	text_ram wcd6d
 	text "@"
 
 _ExclamationPoint1Text::
@@ -1559,7 +1609,7 @@ _DepositWhichMonText::
 	done
 
 _MonWasStoredText::
-	text_ram wStringBuffer
+	text_ram wcd6d
 	text " was"
 	line "stored in Box @"
 	text_ram wBoxNumString
@@ -1577,11 +1627,11 @@ _BoxFullText::
 	prompt
 
 _MonIsTakenOutText::
-	text_ram wStringBuffer
+	text_ram wcd6d
 	text " is"
 	line "taken out."
 	cont "Got @"
-	text_ram wStringBuffer
+	text_ram wcd6d
 	text "."
 	prompt
 
@@ -1606,17 +1656,19 @@ _ReleaseWhichMonText::
 _OnceReleasedText::
 	text "Once released,"
 	line "@"
-	text_ram wStringBuffer
+	text_ram wcd6d
 	text " is"
 	cont "gone forever. OK?"
 	done
 
 _MonWasReleasedText::
-	text_ram wStringBuffer
+	text_ram wcd6d
 	text " was"
 	line "released outside."
 	cont "Bye @"
-	text_ram wStringBuffer
+
+_CF4BExclamationText::
+	text_ram wcd6d
 	text "!"
 	prompt
 
@@ -1667,12 +1719,12 @@ _GetDexRatedText::
 
 _ClosedOaksPCText::
 	text "Closed link to"
-	line "PROF.OAK's PC.@"
+	line "CHERRY's PC.@"
 	text_end
 
 _AccessedOaksPCText::
 	text "Accessed PROF."
-	line "OAK's PC."
+	line "CHERRY's PC."
 
 	para "Accessed #DEX"
 	line "Rating System."
@@ -1694,61 +1746,67 @@ _LinkCanceledText::
 	done
 
 _OakSpeechText1::
-	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #MON!"
+	text "Hey there!"
+	line "Welcome to #"
+	cont "BEASTS world!"
 
-	para "My name is OAK!"
+	para "My name's CHERRY!"
 	line "People call me"
-	cont "the #MON PROF!"
+	cont "the #BIE PROF!"
 	prompt
 
 _OakSpeechText2A::
 	text "This world is"
 	line "inhabited by"
 	cont "creatures called"
-	cont "#MON!@"
+	cont "STAR BEASTS, but"
+	cont "most just call"
+	cont "them #BIEs!@"
 	text_end
 
 _OakSpeechText2B::
 	text_start
 
 	para "For some people,"
-	line "#MON are"
+	line "# BEASTS are"
 	cont "pets. Others use"
 	cont "them for fights."
 
-	para "Myself..."
+	para "But me...?"
 
-	para "I study #MON"
-	line "as a profession."
+	para "I study #BEASTS"
+	line "for a living!"
+	
+	para "It's the best"
+	line "job in the world!"
 	prompt
 
 _IntroducePlayerText::
-	text "First, what is"
-	line "your name?"
+	text "So, what do you"
+	line "call yourself?"
 	prompt
 
 _IntroduceRivalText::
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
+	text "This here is my"
+	line "nephew. He's been"
+	cont "your rival for"
+	cont "as long as I"
+	cont "can remember."
 
-	para "...Erm, what is"
-	line "his name again?"
+	para "These days, he"
+	line "calls himself..."
 	prompt
 
 _OakSpeechText3::
 	text "<PLAYER>!"
 
 	para "Your very own"
-	line "#MON legend is"
+	line "#BIE legend is"
 	cont "about to unfold!"
 
 	para "A world of dreams"
 	line "and adventures"
-	cont "with #MON"
+	cont "with # BEASTS"
 	cont "awaits! Let's go!"
 	done
 
@@ -1761,14 +1819,14 @@ _DoYouWantToNicknameText::
 	done
 
 _YourNameIsText::
-	text "Right! So your"
+	text "Oh, duh. Your"
 	line "name is <PLAYER>!"
 	prompt
 
 _HisNameIsText::
-	text "That's right! I"
-	line "remember now! His"
-	cont "name is <RIVAL>!"
+	text "Is <RIVAL> really"
+	line "what he's calling"
+	cont "himself, now...?"
 	prompt
 
 _WillBeTradedText::

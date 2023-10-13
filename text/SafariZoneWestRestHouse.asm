@@ -13,7 +13,12 @@ _SafariZoneRestHouse2Text2::
 	done
 
 _SafariZoneRestHouse2Text3::
-	text "I hiked a lot, but"
-	line "I didn't see any"
-	cont "#MON I wanted."
+	text "I mostly use this"
+	line "place as a nature"
+	cont "trail for"
+	cont "exercising."
+
+	para "The #MON are"
+	line "just a bonus,"
+	cont "honest!"
 	done

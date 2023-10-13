@@ -24,5 +24,5 @@ _Route11AfterBattleText10::
 	done
 
 _Route11Text11::
-	text "DIGLETT's CAVE"
+	text "CRACTURE CHASM"
 	done

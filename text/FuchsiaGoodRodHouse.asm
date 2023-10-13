@@ -34,6 +34,16 @@ _FuchsiaHouse3Text_56217::
 
 	para "How are the fish"
 	line "biting?"
+
+	para "Did you know the"
+	line "WARDEN breeds"
+	cont "DRAGONs in the"
+	cont "pond outside?"
+
+	para "A GOOD ROD might"
+	line "not be sturdy"
+	cont "enough to hook"
+	cont "them, however."
 	done
 
 _FuchsiaHouse3Text_5621c::

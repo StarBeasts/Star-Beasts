@@ -9,7 +9,7 @@ _VictoryRoad3EndBattleText2::
 	prompt
 
 _VictoryRoad3AfterBattleText2::
-	text "You beat GIOVANNI"
+	text "You beat LUCIAN"
 	line "of TEAM ROCKET?"
 	done
 
@@ -46,9 +46,9 @@ _VictoryRoad3AfterBattleText4::
 	done
 
 _VictoryRoad3BattleText5::
-	text "Trainers live to"
-	line "seek stronger"
-	cont "opponents!"
+	text "Trainers live for"
+	line "the thrill of"
+	cont "combat!"
 	done
 
 _VictoryRoad3EndBattleText5::

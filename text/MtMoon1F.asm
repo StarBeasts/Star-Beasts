@@ -75,7 +75,7 @@ _MtMoon1EndBattleText6::
 _MtMoon1AfterBattleText6::
 	text "I heard there are"
 	line "some very rare"
-	cont "fossils here."
+	cont "souls here."
 	done
 
 _MtMoon1BattleText7::
@@ -107,13 +107,17 @@ _MtMoon1EndBattleText8::
 	prompt
 
 _MtMoon1AfterBattleText8::
-	text "ZUBAT is tough!"
+	text "WHIRLIE is tough!"
 	line "But, it can be"
 	cont "useful if you"
 	cont "catch one."
 	done
 
 _MtMoon1Text14::
-	text "Beware! ZUBAT is"
-	line "a blood sucker!"
+	text "Beware!"
+	line "EPILEPSIA have"
+	cont "been known to"
+	cont "attack both"
+	cont "trainers and"
+	cont "#MON alike!"
 	done

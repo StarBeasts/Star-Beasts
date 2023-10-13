@@ -34,12 +34,17 @@ _ViridianCityText_19152::
 	done
 
 _ViridianCityText_19157::
-	text "CATERPIE has no"
-	line "poison, but"
-	cont "WEEDLE does."
+	text "MULCRUNCH eats"
+	line "meat, while"
+	cont "CUPEEDLE doesn't."
+	cont "CUPEEDLE is fast"
+	cont "but a bit flimsy."
+	cont "MULCRUNCH is"
+	cont "stronger, but its"
+	cont "also slower."
 
-	para "Watch out for its"
-	line "POISON STING!"
+	para "They're both"
+	line "really useful!"
 	done
 
 _ViridianCityText_19175::
@@ -71,7 +76,7 @@ _ViridianCityText_191ca::
 	cont "off in the sun."
 
 	para "I had this dream"
-	line "about a DROWZEE"
+	line "about a BAGAVOND"
 	cont "eating my dream."
 	cont "What's this?"
 	cont "Where did this TM"

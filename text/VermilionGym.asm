@@ -1,21 +1,34 @@
 _LTSurgePreBattleText::
-	text "Hey, kid! What do"
-	line "you think you're"
-	cont "doing here?"
+	text "You hear an"
+	line "odd whirring"
+	cont "noise as ELEKSI"
+	cont "turns toward you."
 
-	para "You won't live"
-	line "long in combat!"
-	cont "That's for sure!"
+	para "ACKNOWLEDGMENT"
+	
+	para "YOU ARE ARE A:"
+	
+	para "TRUE FAN"
 
-	para "I tell you kid,"
-	line "electric #MON"
-	cont "saved me during"
-	cont "the war!"
+	para "SHOCKING, FLASHY"
 
-	para "They zapped my"
-	line "enemies into"
-	cont "paralysis!"
+	para "THAT'S"
 
-	para "The same as I'll"
-	line "do to you!"
+	para "ELEKSI"
+
+	para "NOW YOU WILL:"
+
+	para "DEFEAT"
+	
+	para "LET'S"
+
+	para "LET'S"
+	
+	para "LET'S"
+
+	para "You gotta hold on"
+	line "to your dream..."
+
+	para "If you wanna be"
+	line "a pop-star!"
 	done

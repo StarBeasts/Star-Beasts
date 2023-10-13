@@ -11,9 +11,9 @@ _GraphicArtistText::
 
 _WriterText::
 	text "I wrote the story!"
-	line "Isn't ERIKA cute?"
+	line "Isn't IVY cute?"
 
-	para "I like MISTY a"
+	para "I like MIZU a"
 	line "lot too!"
 
 	para "Oh, and SABRINA,"
@@ -62,6 +62,6 @@ _CeladonMansion3Text7::
 	done
 
 _CeladonMansion3Text8::
-	text "GAME FREAK"
+	text "SOUL VALOR"
 	line "Development Room"
 	done

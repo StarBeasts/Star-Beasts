@@ -76,8 +76,12 @@ _HM04NoRoomText::
 	done
 
 _FuchsiaHouse2Text_75176::
-	text "#MON photos"
-	line "and fossils."
+	text "It's a photo of"
+	line "the WARDEN with"
+	cont "a man in a fancy"
+	cont "suit."
+
+	para "They look happy."
 	done
 
 _FuchsiaHouse2Text_7517b::

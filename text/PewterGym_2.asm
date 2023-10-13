@@ -52,8 +52,8 @@ _TM34NoRoomText::
 	done
 
 _ReceivedBoulderBadgeText::
-	text "I took"
-	line "you for granted."
+	text "Far out,"
+	line "little dude."
 
 	para "As proof of your"
 	line "victory, here's"
@@ -85,7 +85,7 @@ _PewterGymBattleText1::
 
 	para "You're still light"
 	line "years from facing"
-	cont "BROCK!"
+	cont "BIG DAVE!"
 	done
 
 _PewterGymEndBattleText1::
@@ -97,9 +97,9 @@ _PewterGymEndBattleText1::
 	prompt
 
 _PewterGymAfterBattleText1::
-	text "You're pretty hot,"
-	line "but not as hot"
-	cont "as BROCK!"
+	text "You're pretty rad,"
+	line "but not as rad"
+	cont "as BIG DAVE!"
 	done
 
 _PewterGymGuidePreAdviceText::

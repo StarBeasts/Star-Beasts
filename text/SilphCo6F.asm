@@ -1,7 +1,12 @@
 _SilphCo6Text_1a24a::
-	text "The ROCKETs came"
-	line "and took over the"
-	cont "building!"
+	text "Urff... I snuck"
+	line "up to the 11F to"
+	cont "try and stop this" 
+	cont "madness, but the"
+	cont "fat man guarding"
+	cont "the door is"
+	cont "unbelievably"
+	cont "strong..."
 	done
 
 _SilphCo6Text_1a24f::
@@ -72,22 +77,30 @@ _SilphCo6AfterBattleText2::
 	done
 
 _SilphCo6BattleText3::
-	text "That rotten"
-	line "PRESIDENT!"
+	text "Oh no! Oh no!"
+	line "Help me!"
 
-	para "He shouldn't have"
-	line "sent me to the"
-	cont "TIKSI BRANCH!"
+	para "..."
+
+	para "NOT!"
+
+	para "I'm working for"
+	line "TEAM ROCKET,"
+	cont "sucker!"
 	done
 
 _SilphCo6EndBattleText3::
-	text "Shoot!"
+	text "Oh,"
+	line "crap!"
 	prompt
 
 _SilphCo6AfterBattleText3::
-	text "TIKSI BRANCH?"
-	line "It's in Russian"
-	cont "no man's land!"
+	text "Aww, and here I"
+	line "thought my damsel"
+	cont "-in-distress"
+	cont "routine would get"
+	cont "you to drop your"
+	cont "guard..."
 	done
 
 _SilphCo6BattleText4::

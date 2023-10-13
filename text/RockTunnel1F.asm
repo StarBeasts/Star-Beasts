@@ -9,9 +9,10 @@ _RockTunnel1EndBattleText1::
 	prompt
 
 _RockTunnel1AfterBattleText1::
-	text "Watch for ONIX!"
-	line "It can put the"
-	cont "squeeze on you!"
+	text "Careful!"
+	line "The SMASHBERRIES"
+	cont "in here are"
+	cont "ornery as hell!"
 	done
 
 _RockTunnel1BattleText2::
@@ -59,7 +60,8 @@ _RockTunnel1EndBattleText4::
 
 _RockTunnel1AfterBattleText4::
 	text "Oh well, I'll get"
-	line "a ZUBAT as I go!"
+	line "an EPILEPSIA as I"
+	cont "go!"
 	done
 
 _RockTunnel1BattleText5::
@@ -74,7 +76,7 @@ _RockTunnel1EndBattleText5::
 	prompt
 
 _RockTunnel1AfterBattleText5::
-	text "I saw a MACHOP"
+	text "I saw a CROMAG"
 	line "in this tunnel!"
 	done
 

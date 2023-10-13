@@ -1,7 +1,6 @@
 _Route18BattleText1::
-	text "I always check"
-	line "every grassy area"
-	cont "for new #MON."
+	text "Get out of here,"
+	line "citizen."
 	done
 
 _Route18EndBattleText1::
@@ -9,30 +8,30 @@ _Route18EndBattleText1::
 	prompt
 
 _Route18AfterBattleText1::
-	text "I wish I had a"
-	line "BIKE!"
+	text "We're hiding from"
+	line "the ICE QUEEN,"
+	cont "our new boss."
 	done
 
 _Route18BattleText2::
-	text "Kurukkoo!"
-	line "How do you like"
-	cont "my bird call?"
+	text "Go away!"
+	line "Leave us alone!"
 	done
 
 _Route18EndBattleText2::
-	text "I"
-	line "had to bug you!"
+	text "Shoot."
 	prompt
 
 _Route18AfterBattleText2::
-	text "I also collect sea"
-	line "#MON on"
-	cont "weekends!"
+	text "I hate the new"
+	line "boss! She forces"
+	cont "us to actually"
+	cont "do our jobs!"
 	done
 
 _Route18BattleText3::
-	text "This is my turf!"
-	line "Get out of here!"
+	text "Oh, crap!"
+	line "We're busted!"
 	done
 
 _Route18EndBattleText3::
@@ -40,9 +39,9 @@ _Route18EndBattleText3::
 	prompt
 
 _Route18AfterBattleText3::
-	text "This is my fave"
-	line "#MON hunting"
-	cont "area!"
+	text "Don't tell the"
+	line "ICE QUEEN you"
+	cont "saw us here!"
 	done
 
 _Route18Text4::

@@ -30,7 +30,7 @@ _SSAnne9Text_61c1f::
 	done
 
 _SSAnne9Text_61c2e::
-	text "Me and my Daddy"
+	text "Me and my Grandpa"
 	line "think the SAFARI"
 	cont "ZONE is awesome!"
 	done

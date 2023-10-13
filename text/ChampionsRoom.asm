@@ -1,52 +1,63 @@
 _GaryChampionIntroText::
-	text "<RIVAL>: Hey!"
+	text "<RIVAL>: <PLAYER>!"
 
-	para "I was looking"
-	line "forward to seeing"
-	cont "you, <PLAYER>!"
+	para "Never thought I'd"
+	line "get to see you"
+	cont "here!"
 
-	para "My rival should"
-	line "be strong to keep"
-	cont "me sharp!"
-
-	para "While working on"
-	line "#DEX, I looked"
-	cont "all over for"
-	cont "powerful #MON!"
-
-	para "Not only that, I"
-	line "assembled teams"
-	cont "that would beat"
-	cont "any #MON type!"
-
-	para "And now!"
-
+	para "Can you believe"
+	line "it, <PLAYER>?"
+	
 	para "I'm the #MON"
-	line "LEAGUE champion!"
+	line "LEAGUE CHAMPION!"
 
-	para "<PLAYER>! Do you"
-	line "know what that"
-	cont "means?"
+	para "The greatest"
+	line "trainer in the"
+	cont "entire world!"
 
-	para "I'll tell you!"
+	para "My whole life"
+	line "has been building"
+	cont "to this moment!"
 
-	para "I am the most"
-	line "powerful trainer"
-	cont "in the world!"
+	para "I'm not a nobody,"
+	line "any more! I'm a"
+	cont "legend! Everybody"
+	cont "will know my name,"
+	cont "now!"
+
+	para "But there's still"
+	line "one thing I have"
+	cont "left to do."
+
+	para "I can't be the"
+	line "champion if I"
+	cont "can't prove my"
+	cont "superiority."
+
+	para "So!"
+
+	para "<PLAYER>!"
+
+	para "For the title"
+	line "of the greatest"
+	cont "#MON trainer"
+	cont "in the world, I"
+	cont "accept your"
+	cont "challenge!"
 	done
 
 _GaryDefeatedText::
 	text "NO!"
-	line "That can't be!"
-	cont "You beat my best!"
+	line "It's impossible!"
+	cont "M-my best..."
+	cont "My best wasn't"
+	cont "good enough!?"
 
-	para "After all that"
-	line "work to become"
-	cont "LEAGUE champ?"
+	para "I..."
 
-	para "My reign is over"
-	line "already?"
-	cont "It's not fair!"
+	para "I..."
+
+	para "..."
 	prompt
 
 _GaryVictoryText::
@@ -61,36 +72,37 @@ _GaryVictoryText::
 	cont "<RIVAL>, the"
 	cont "#MON genius!"
 
-	para "Nice try, loser!"
+	para "Nice try, though!"
 	line "Hahaha!"
 	prompt
 
 _GaryText_76103::
-	text "Why?"
-	line "Why did I lose?"
+	text "..."
+	line "..."
 
-	para "I never made any"
-	line "mistakes raising"
-	cont "my #MON..."
+	para "MOM... DAD..."
+	line "I..."
+	cont "I..."
 
-	para "Darn it! You're"
-	line "the new #MON"
-	cont "LEAGUE champion!"
+	para "The only dream"
+	line "I ever had, and"
+	cont "I..."
 
-	para "Although I don't"
-	line "like to admit it."
+	para "I had it and I..."
+
+	para "I lost..."
 	done
 
 _GaryText2::
-	text "OAK: <PLAYER>!"
+	text "CHERRY: <PLAYER>!"
 	done
 
 _GaryText_76120::
-	text "OAK: So, you won!"
+	text "CHERRY: You won!"
 	line "Congratulations!"
 	cont "You're the new"
 	cont "#MON LEAGUE"
-	cont "champion!"
+	cont "CHAMPION!"
 
 	para "You've grown up so"
 	line "much since you"
@@ -100,46 +112,60 @@ _GaryText_76120::
 	text "!"
 
 	para "<PLAYER>, you have"
-	line "come of age!"
+	line "become a legend!"
 	done
 
 _GaryText_76125::
-	text "OAK: <RIVAL>! I'm"
-	line "disappointed!"
+	text "CHERRY: <RIVAL>..."
+	
+	para "You look so sad..."
 
-	para "I came when I"
-	line "heard you beat"
-	cont "the ELITE FOUR!"
+	para "Don't be sad,"
+	line "<RIVAL>. Think of"
+	cont "all you've seen!"
 
-	para "But, when I got"
-	line "here, you had"
-	cont "already lost!"
+	para "All of the things"
+	line "you accomplished!"
 
-	para "<RIVAL>! Do you"
-	line "understand why"
-	cont "you lost?"
+	para "It doesn't matter"
+	line "if you're the"
+	cont "CHAMPION or not."
 
-	para "You have forgotten"
-	line "to treat your"
-	cont "#MON with"
-	cont "trust and love!"
+	para "What matters is"
+	line "everything you"
+	cont "experienced"
+	cont "along the way!"
 
-	para "Without them, you"
-	line "will never become"
-	cont "a champ again!"
+	para "..."
+
+	para "<RIVAL>: Sniff..."
+	
+	para "Th-thanks..."
+	
+	para "..."
+
+	para "And  I guess I"
+	line "should thank"
+	cont "<PLAYER>, for"
+	cont "showing me how"
+	cont "far I still have"
+	cont "to go!"
+
+	para "CHERRY: See?"
+	line "That's the spirit!"
 	done
 
 _GaryText_7612a::
-	text "OAK: <PLAYER>!"
+	text "CHERRY: <PLAYER>!"
 
 	para "You understand"
 	line "that your victory"
-	cont "was not just your"
+	cont "wasn't just your"
 	cont "own doing!"
 
 	para "The bond you share"
 	line "with your #MON"
-	cont "is marvelous!"
+	cont "is incredible!"
 
 	para "<PLAYER>!"
 	line "Come with me!"

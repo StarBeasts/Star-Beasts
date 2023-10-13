@@ -1,21 +1,52 @@
 _BlainePreBattleText::
-	text "Hah!"
+	text "Fwa-hey!"
+	
+	para "A new contestant!"
+	line "How did you like"
+	cont "the quizzes?"
+	
+	para "What's that?"
 
-	para "I am BLAINE! I"
-	line "am the LEADER of"
-	cont "CINNABAR GYM!"
+	para "The LEADER of"
+	line "CINNABAR GYM...?"
+	
+	para "That's yours"
+	line "truly!"
 
-	para "My fiery #MON"
-	line "will incinerate"
-	cont "all challengers!"
+	para "Introducing..."
+	line "The one..."
+	cont "The only..."
+	
+	para "Fwooosh!"
+	
+	para "VELID!"
+	
+	para "Fwa-ha-ha-hey!"
+	line "Wanna see a"
+	cont "magic trick?"
+	
+	para "Well, it's not"
+	line "every day you"
+	cont "see a pyromancer!"
+	
+	para "So, for my next"
+	line "act, I'll make"
+	cont "your #MON"
+	cont "disappear!"
 
-	para "Hah! You better"
-	line "have BURN HEAL!"
+	para "Fwa-ha-ha!"
+	line "Nothing's gonna"
+	cont "stop my blaze"
+	cont "of glory!"
+	
+	para "Not even"
+	line "BURN HEAL!"
 	done
 
 _ReceivedVolcanoBadgeText::
-	text "I have"
-	line "burnt out!"
+	text "Hah!"
+	line "I like your"
+	cont "style, kid!"
 
 	para "You have earned"
 	line "the VOLCANOBADGE!@"
@@ -31,7 +62,7 @@ _BlainePostBattleAdviceText::
 	done
 
 _BlaineVolcanoBadgeInfoText::
-	text "Hah!"
+	text "Fwa-ha-ha-ha-ha!"
 
 	para "The VOLCANOBADGE"
 	line "heightens the"
@@ -58,8 +89,8 @@ _TM38ExplanationText::
 	para "Teach it to fire-"
 	line "type #MON!"
 
-	para "CHARMELEON or"
-	line "PONYTA would be"
+	para "CANGHOULIT or"
+	line "KREMATE would be"
 	cont "good bets!"
 	done
 
@@ -69,29 +100,38 @@ _TM38NoRoomText::
 	done
 
 _CinnabarGymBattleText2::
-	text "Do you know how"
-	line "hot #MON fire"
-	cont "breath can get?"
+	text "Have you ever"
+	line "heard the story"
+	cont "of SIVAK, the"
+	cont "BLACK DRAGON?"
 	done
 
 _CinnabarGymEndBattleText2::
-	text "Yow!"
-	line "Hot, hot, hot!"
+	text "Ok!"
+	line "Okay!"
+	cont "I'll tell you!"
 	prompt
 
 _CinnabarGymAfterBattleText2::
-	text "Fire, or to be"
-	line "more precise,"
-	cont "combustion..."
+	text "SIVAK wanted to"
+	line "be free from"
+	cont "entropy, so he"
+	cont "betrayed the"
+	cont "other three"
+	cont "HOLY REGENTS."
 
-	para "Blah, blah, blah,"
-	line "blah..."
+	para "They say he was"
+	line "so ashamed over"
+	cont "what he had done,"
+	cont "that he hid away"
+	cont "from them,"
+	cont "forever."
 	done
 
 _CinnabarGymBattleText1::
-	text "I was a thief, but"
-	line "I became straight"
-	cont "as a trainer!"
+	text "I heard VELID met"
+	line "all of the HOLY"
+	cont "REGENTS!"
 	done
 
 _CinnabarGymEndBattleText1::
@@ -100,31 +140,36 @@ _CinnabarGymEndBattleText1::
 	prompt
 
 _CinnabarGymAfterBattleText1::
-	text "I can't help"
-	line "stealing other"
-	cont "people's #MON!"
+	text "Imagine, though!"
+	line "Meeting things"
+	cont "out of legends..."
 	done
 
 _CinnabarGymBattleText3::
-	text "You can't win!"
-	line "I have studied"
-	cont "#MON totally!"
+	text "Everybody's heard"
+	line "of the FOUR HOLY"
+	cont "REGENTS!"
 	done
 
 _CinnabarGymEndBattleText3::
 	text "Waah!"
-	line "My studies!"
+	line "REGENTS, help me!"
 	prompt
 
 _CinnabarGymAfterBattleText3::
-	text "My theories are"
-	line "too complicated"
-	cont "for you!"
+	text "Nobody really"
+	line "knows what the"
+	cont "FOUR REGENTS"
+	cont "are..."
 	done
 
 _CinnabarGymBattleText4::
-	text "I just like using"
-	line "fire #MON!"
+	text "FOUR REGENTS"
+	line "created our"
+	cont "world?"
+
+	para "Sounds like a"
+	line "scam to me!"
 	done
 
 _CinnabarGymEndBattleText4::
@@ -133,14 +178,15 @@ _CinnabarGymEndBattleText4::
 	prompt
 
 _CinnabarGymAfterBattleText4::
-	text "I wish there was"
-	line "a thief #MON!"
-	cont "I'd use that!"
+	text "I bet they're"
+	line "not even real!"
 	done
 
 _CinnabarGymBattleText5::
-	text "I know why BLAINE"
-	line "became a trainer!"
+	text "VELID used to be"
+	line "an ALCHEMIST,"
+	cont "a man of both"
+	cont "science and magic!"
 	done
 
 _CinnabarGymEndBattleText5::
@@ -148,20 +194,25 @@ _CinnabarGymEndBattleText5::
 	prompt
 
 _CinnabarGymAfterBattleText5::
-	text "BLAINE was lost"
-	line "in the mountains"
-	cont "when a fiery bird"
-	cont "#MON appeared."
+	text "VELID devoted his"
+	line "life to helping"
+	cont "others with his"
+	cont "research, but"
+	cont "then he saw..."
 
-	para "Its light enabled"
-	line "BLAINE to find"
-	cont "his way down!"
+	para "Something."
+
+	para "And legends say"
+	line "he was never the"
+	cont "same, after that."
 	done
 
 _CinnabarGymBattleText6::
-	text "I've been to many"
-	line "GYMs, but this is"
-	cont "my favorite!"
+	text "I know VELID's"
+	line "secret, but I"
+	cont "won't tell you"
+	cont "unless you beat"
+	cont "me!"
 	done
 
 _CinnabarGymEndBattleText6::
@@ -170,25 +221,39 @@ _CinnabarGymEndBattleText6::
 	prompt
 
 _CinnabarGymAfterBattleText6::
-	text "Us fire #MON"
-	line "fans like PONYTA"
-	cont "and NINETALES!"
+	text "VELID was trying"
+	line "to find out how"
+	cont "to make humans"
+	cont "like us immortal!"
+	
+	para "That's why he"
+	line "spent so much of"
+	cont "his life looking"
+	cont "for the FOUR HOLY"
+	cont "REGENTS."
 	done
 
 _CinnabarGymBattleText7::
-	text "Fire is weak"
-	line "against H2O!"
+	text "Hell is real."
+	line "VELID's seen it."
 	done
 
 _CinnabarGymEndBattleText7::
-	text "Oh!"
-	line "Snuffed out!"
+	text "Oh,"
+	line "hell!"
 	prompt
 
 _CinnabarGymAfterBattleText7::
-	text "Water beats fire!"
-	line "But, fire melts"
-	cont "ice #MON!"
+	text "Every once in a"
+	line "while, VELID will"
+	cont "wake up screaming"
+	cont "about the things"
+	cont "he saw, ages ago."
+
+	para "There isn't really"
+	line "anything any of"
+	cont "us can do to help"
+	cont "him, sadly."
 	done
 
 _CinnabarGymGuidePreBattleText::
@@ -196,7 +261,7 @@ _CinnabarGymGuidePreBattleText::
 	line "making!"
 
 	para "The hot-headed"
-	line "BLAINE is a fire"
+	line "VELID is a fire"
 	cont "#MON pro!"
 
 	para "Douse his spirits"

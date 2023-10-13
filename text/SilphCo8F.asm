@@ -19,9 +19,9 @@ _SilphCo8EndBattleText1::
 	prompt
 
 _SilphCo8AfterBattleText1::
-	text "If you don't turn"
-	line "back, I'll call"
-	cont "for backup!"
+	text "You'll never beat"
+	line "the BOSS's bouncer"
+	cont "on 11F!"
 	done
 
 _SilphCo8BattleText2::

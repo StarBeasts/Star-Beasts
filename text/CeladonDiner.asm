@@ -29,16 +29,15 @@ _CeladonDinerText4::
 _CeladonDinerText_491a7::
 	text "Go ahead! Laugh!"
 
-	para "I'm flat out"
-	line "busted!"
+	para "I lost all my"
+	line "savings!"
 
-	para "No more slots for"
-	line "me! I'm going"
-	cont "straight!"
+	para "Thanks to these"
+	line "stupid slots, I"
+	cont "can't retire, now!"
 
-	para "Here! I won't be"
-	line "needing this any-"
-	cont "more!"
+	para "Just take this"
+	line "stupid thing!"
 	prompt
 
 _ReceivedCoinCaseText::
@@ -54,7 +53,6 @@ _CoinCaseNoRoomText::
 	done
 
 _CeladonDinerText_491b7::
-	text "I always thought"
-	line "I was going to"
-	cont "win it back..."
+	text "What am I gonna"
+	line "do, now...?"
 	done

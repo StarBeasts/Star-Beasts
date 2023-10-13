@@ -3,48 +3,62 @@
 Music:
 ; entries correspond to MUSIC_* constants
 	dba Music_Nothing
-	dba Music_RBYPalletTown
-	dba Music_Pokecenter
-	dba Music_RBYGym
-	dba Music_Cities1
-	dba Music_Cities2
-	dba Music_Celadon
+	dba Music_Hometown
+	dba Music_Pokedex
+	dba Music_Club3
+	dba Music_SeelStage
+	dba Music_Club2
+	dba Music_BlueField
 	dba Music_Cinnabar
-	dba Music_Vermilion
+	dba Music_RedField
 	dba Music_Lavender
-	dba Music_SSAnne
-	dba Music_MeetProfOak
-	dba Music_MeetRival
+	dba Music_Obla
 	dba Music_MuseumGuy
-	dba Music_SafariZone
+	dba Music_MeetRival
+	dba Music_SurfingPikachu
+	dba Music_CardPop
 	dba Music_PkmnHealed
-	dba Music_Routes1
-	dba Music_Routes2
-	dba Music_Routes3
-	dba Music_Routes4
-	dba Music_RBYIndigoPlateau
-	dba Music_GymLeaderBattle
-	dba Music_TrainerBattle
-	dba Music_WildBattle
-	dba Music_FinalBattle
-	dba Music_DefeatedTrainer
-	dba Music_DefeatedWildMon
-	dba Music_DefeatedGymLeader
-	dba Music_RBYTitleScreen
+	dba Music_Overworld
+	dba Music_Ishihara
+	dba Music_GRBlimp
+	dba Music_GROverworld
+	dba Music_Fort2
+	dba Music_DuelTheme2
+	dba Music_WildBeast
+	dba Music_CatchEmBlue
+	dba Music_Nuzzles
+	dba Music_MatchVictory
+	dba Music_BoosterPack
+	dba Music_EndCredits
+	dba Music_SadAlex
 	dba Music_RBYCredits
-	dba Music_RBYHallOfFame
-	dba Music_OaksLab
-	dba Music_JigglypuffSong
-	dba Music_BikeRiding
-	dba Music_Surfing
-	dba Music_RBYGameCorner
-	dba Music_IntroBattle
-	dba Music_Dungeon1
-	dba Music_Dungeon2
-	dba Music_Dungeon3
-	dba Music_CinnabarMansion
-	dba Music_PokemonTower
-	dba Music_SilphCo
+	dba Music_NameEntry
+	dba Music_Cherry
+	dba Music_Rocken
+	dba Music_TCG2GameCorner
+	dba Music_Surf
+	dba Music_Club1
+	dba Music_Wacky
+	dba Music_GRCastle
+	dba Music_PissyPamper
+	dba Music_OceanWinter
+	dba Music_California
+	dba Music_GastlyInTheGraveyard
+	dba Music_HereComesGR
 	dba Music_MeetEvilTrainer
 	dba Music_MeetFemaleTrainer
 	dba Music_MeetMaleTrainer
+	dba Music_Blue
+	dba Music_Ronald
+	dba Music_RocketBattle
+	dba Music_MeowthStage
+	dba Music_Imakuni2
+	dba Music_DuelTheme1
+	dba Music_DuelTheme3
+	dba Music_Hero
+	dba Music_Academy
+	dba Music_Unatco
+	dba Music_SadAlex
+	dba Music_KantoGymBattle
+
+

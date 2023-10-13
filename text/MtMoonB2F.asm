@@ -1,11 +1,11 @@
 _MtMoon3Text_49f24::
 	text "You want the"
-	line "DOME FOSSIL?"
+	line "BIRDMAN SOUL?"
 	done
 
 _MtMoon3Text_49f64::
 	text "You want the"
-	line "HELIX FOSSIL?"
+	line "FIEND SOUL?"
 	done
 
 _MtMoon3Text_49f6f::
@@ -24,7 +24,7 @@ _MtMoon3Text_49f85::
 	text "Hey, stop!"
 
 	para "I found these"
-	line "fossils! They're"
+	line "souls! They're"
 	cont "both mine!"
 	done
 
@@ -46,8 +46,8 @@ _MtMoon3Text_49f94::
 	cont "LAB."
 
 	para "They do research"
-	line "on regenerating"
-	cont "fossils."
+	line "on reincarnating"
+	cont "souls."
 	done
 
 _MtMoon3Text_49f99::
@@ -57,7 +57,7 @@ _MtMoon3Text_49f99::
 
 _MtMoon3BattleText2::
 	text "TEAM ROCKET will"
-	line "find the fossils,"
+	line "find the souls,"
 	cont "revive and sell"
 	cont "them for cash!"
 	done
@@ -103,14 +103,15 @@ _MtMoon3EndBattleText4::
 
 _MtMoon3AfterBattleText4::
 	text "If you find a"
-	line "fossil, give it"
+	line "soul, give it"
 	cont "to me and scram!"
 	done
 
 _MtMoon3BattleText5::
-	text "Little kids"
-	line "should leave"
-	cont "grown-ups alone!"
+	text "You're somewhere"
+	line "you shouldn't be."
+
+	para "Sic 'em, boy!"
 	done
 
 _MtMoon3EndBattleText5::

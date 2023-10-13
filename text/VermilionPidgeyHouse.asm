@@ -1,16 +1,16 @@
 _VermilionHouse1Text1::
 	text "I'm getting my"
-	line "PIDGEY to fly a"
-	cont "letter to SAFFRON"
-	cont "in the north!"
+	line "THUNDRHAWK to fly"
+	cont "a letter to"
+	cont "SAFFRON!"
 	done
 
 _VermilionHouse1Text2::
-	text "PIDGEY: Kurukkoo!@"
+	text "THUNDRHAWK: Reaah!@"
 	text_end
 
 _VermilionHouse1Text3::
-	text "Dear PIPPI, I hope"
+	text "Dear GRACE, I hope"
 	line "to see you soon."
 
 	para "I heard SAFFRON"

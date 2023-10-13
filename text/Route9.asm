@@ -16,18 +16,17 @@ _Route9AfterBattleText1::
 	done
 
 _Route9BattleText2::
-	text "Who's that walking"
-	line "with those good"
-	cont "looking #MON?"
+	text "Nice hat. Mind if"
+	line "I have it?"
 	done
 
 _Route9EndBattleText2::
-	text "Out"
-	line "like a light!"
+	text "Swing"
+	line "and a miss!"
 	prompt
 
 _Route9AfterBattleText2::
-	text "Keep walking!"
+	text "Guess not, huh?"
 	done
 
 _Route9BattleText3::
@@ -119,19 +118,25 @@ _Route9AfterBattleText7::
 	done
 
 _Route9BattleText8::
-	text "Hahahaha!"
-	line "Come on, dude!"
+	text "Aaaah!"
+	line "B-b-boss!"
+	cont "I-I was just..."
 	done
 
 _Route9EndBattleText8::
-	text "Hahahaha!"
-	line "You beat me fair!"
+	text "Wait..."
+	line "You're not my"
+	cont "boss..."
 	prompt
 
 _Route9AfterBattleText8::
-	text "Hahahaha!"
-	line "Us hearty guys"
-	cont "always laugh!"
+	text "I was hired to"
+	line "fix ELEKSI, but"
+	cont "I couldn't do it!"
+
+	para "Now I'm hiding"
+	line "out here hoping"
+	cont "she'll fix herself!"
 	done
 
 _Route9BattleText9::

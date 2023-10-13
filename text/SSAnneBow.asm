@@ -1,19 +1,21 @@
 _SSAnne5Text1::
-	text "The party's over."
+	text "Party's over."
 	line "The ship will be"
 	cont "departing soon."
 	done
 
 _SSAnne5Text2::
-	text "Scrubbing decks"
+	text "Whew!"
+
+	para "Scrubbing decks"
 	line "is hard work!"
 	done
 
 _SSAnne5Text3::
-	text "Urf. I feel ill."
-
-	para "I stepped out to"
-	line "get some air."
+	text "Sssh! I'm here to"
+	line "investigate"
+	cont "reports of human"
+	cont "trafficking!"
 	done
 
 _SSAnne5BattleText1::
@@ -36,7 +38,7 @@ _SSAnne5AfterBattleText1::
 
 _SSAnne5BattleText2::
 	text "Ahoy there!"
-	line "Are you seasick?"
+	line "Ye be seasick?"
 	done
 
 _SSAnne5EndBattleText2::

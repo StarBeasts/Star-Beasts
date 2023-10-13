@@ -26,8 +26,9 @@ _Route1Text_1caee::
 	done
 
 _Route1Text_1caf3::
-	text "You have too much"
-	line "stuff with you!"
+	text "How do you have"
+	line "this much stuff"
+	cont "already?!"
 	done
 
 _Route1Text2::

@@ -1,5 +1,31 @@
 _MoltresBattleText::
-	text "Gyaoo!@"
+	text "The demon stirs,"
+	line "disturbed by"
+	cont "your presence."
+
+	para "The light in the"
+	line "cave fades,"
+	cont "until all you"
+	cont "see is the demon,"
+	cont "crackling with"
+	cont "power, hatred"
+	cont "etched on its"
+	cont "face."
+
+	para "It raises its"
+	line "hand, and an"
+	cont "energy orb"
+	cont "of pure darkness"
+	cont "forms in it."
+
+	para "The shockwaves"
+	line "from its power"
+	cont "cause the entire"
+	cont "cave to tremble,"
+	cont "but you stand,"
+	cont "unafraid."
+	
+	para "Welcome to Hell.@"
 	text_end
 
 _VictoryRoad2BattleText1::
@@ -30,8 +56,10 @@ _VictoryRoad2EndBattleText2::
 	prompt
 
 _VictoryRoad2AfterBattleText2::
-	text "<RIVAL> also came"
-	line "through here!"
+	text "Some guy calling"
+	line "himself <RIVAL>"
+	cont "also came through"
+	cont "here!"
 	done
 
 _VictoryRoad2BattleText3::
@@ -45,9 +73,11 @@ _VictoryRoad2EndBattleText3::
 	prompt
 
 _VictoryRoad2AfterBattleText3::
-	text "You earned the"
-	line "right to be on"
-	cont "VICTORY ROAD!"
+	text "There's some"
+	line "kind of DEMON"
+	cont "in here, but"
+	cont "we're all giving"
+	cont "it a wide berth."
 	done
 
 _VictoryRoad2BattleText4::

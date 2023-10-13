@@ -1,16 +1,19 @@
 _CeladonCityText1::
-	text "I got my KOFFING"
+	text "I got my NEEDOLF"
 	line "in CINNABAR!"
 
 	para "It's nice, but it"
-	line "breathes poison"
-	cont "when it's angry!"
+	line "makes me itchy"
+	cont "when I pet it!"
 	done
 
 _CeladonCityText2::
-	text "Heheh! This GYM"
-	line "is great! It's"
-	cont "full of women!"
+	text "Damned lesbians."
+	line "Whatever happened"
+	cont "to liking men?"
+	
+	para "Mumble, back in my"
+	line "day, grumble..."
 	done
 
 _CeladonCityText3::
@@ -20,12 +23,19 @@ _CeladonCityText3::
 	done
 
 _CeladonCityText4::
-	text "Moan! I blew it"
-	line "all at the slots!"
+	text "Did you know?"
 
-	para "I knew I should"
-	line "have cashed in my"
-	cont "coins for prizes!"
+	para "Some #MON"
+	line "evolve in two"
+	cont "different ways!"
+	
+	para "For example,"
+	line "ROCKEN evolves"
+	cont "into a different"
+	cont "#MON depending"
+	cont "on if it's given"
+	cont "LIQUID STEEL or a"
+	cont "HOLY SOUL."
 	done
 
 _TM41PreText::
@@ -50,11 +60,14 @@ _TM41ExplanationText::
 	text "TM41 teaches"
 	line "SOFTBOILED!"
 
-	para "Only one #MON"
+	para "Only a few #MON"
 	line "can use it!"
 
-	para "That #MON is"
-	line "CHANSEY!"
+	para "Now, which ones"
+	line "were those...?"
+
+	para "I know DRAGLEAM"
+	line "was one of 'em..."
 	done
 
 _TM41NoRoomText::
@@ -64,26 +77,29 @@ _TM41NoRoomText::
 
 _CeladonCityText6::
 	text "This is my trusted"
-	line "pal, POLIWRATH!"
+	line "pal, SCORPHIRO!"
 
 	para "It evolved from"
-	line "POLIWHIRL when I"
-	cont "used WATER STONE!"
+	line "SCORPSY when I"
+	cont "used LIQUID STEEL!"
 	done
 
 _CeladonCityText7::
-	text "POLIWRATH: Ribi"
-	line "ribit!@"
+	text "SCORPHIRO: Klakk!"
+	line "Kliik klaak!@"
 	text_end
 
 _CeladonCityText8::
-	text "What are you"
-	line "staring at?"
+	text "The hell you"
+	line "lookin' at?"
 	done
 
 _CeladonCityText9::
-	text "Keep out of TEAM"
-	line "ROCKET's way!"
+	text "Gambling's legal"
+	line "here, kid!"
+	
+	para "Go play at the"
+	line "GAME CORNER!"
 	done
 
 _CeladonCityText10::
@@ -111,10 +127,10 @@ _CeladonCityText11::
 _CeladonCityText13::
 	text "CELADON CITY"
 	line "#MON GYM"
-	cont "LEADER: ERIKA"
+	cont "LEADER: LISBETH"
 
-	para "The Nature Loving"
-	line "Princess!"
+	para "The Rough, Tough"
+	line "Gardening Buff!"
 	done
 
 _CeladonCityText14::
@@ -149,6 +165,6 @@ _CeladonCityText17::
 
 _CeladonCityText18::
 	text "ROCKET GAME CORNER"
-	line "The playground"
-	cont "for grown-ups!"
+	line "Forget your woes"
+	cont "and come have fun!"
 	done

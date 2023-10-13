@@ -1,50 +1,53 @@
 _OaksLabGaryText1::
 	text "<RIVAL>: Yo"
-	line "<PLAYER>! Gramps"
-	cont "isn't around!"
+	line "<PLAYER>! My aunt's"
+	cont "taking her sweet"
+	cont "time, isn't she?"
 	done
 
 _OaksLabText40::
-	text "<RIVAL>: Heh, I"
-	line "don't need to be"
-	cont "greedy like you!"
+	text "<RIVAL>: Nope."
+	line "You first. I want"
+	cont "to see which one"
+	cont "you're picking."
+	
 
 	para "Go ahead and"
-	line "choose, <PLAYER>!"
+	line "choose, <PLAYER>."
 	done
 
 _OaksLabText41::
 	text "<RIVAL>: My"
-	line "#MON looks a"
+	line "#BIE looks a"
 	cont "lot stronger."
 	done
 
 _OaksLabText39::
 	text "Those are #"
 	line "BALLs. They"
-	cont "contain #MON!"
+	cont "contain #BIEs!"
 	done
 
 _OaksLabCharmanderText::
-	text "So! You want the"
-	line "fire #MON,"
-	cont "CHARMANDER?"
+	text "Ah! You want the"
+	line "fire #BIE,"
+	cont "EMBRAIN?"
 	done
 
 _OaksLabSquirtleText::
-	text "So! You want the"
-	line "water #MON,"
-	cont "SQUIRTLE?"
+	text "Ah! You want the"
+	line "water #BIE,"
+	cont "JELLEYE?"
 	done
 
 _OaksLabBulbasaurText::
-	text "So! You want the"
-	line "plant #MON,"
-	cont "BULBASAUR?"
+	text "Ah! You want the"
+	line "plant #BIE,"
+	cont "QUINCY?"
 	done
 
 _OaksLabMonEnergeticText::
-	text "This #MON is"
+	text "This #BIE is"
 	line "really energetic!"
 	prompt
 
@@ -56,48 +59,51 @@ _OaksLabReceivedMonText::
 	text_end
 
 _OaksLabLastMonText::
-	text "That's PROF.OAK's"
-	line "last #MON!"
+	text "It's PROF.CHERRY's"
+	line "last #BIE!"
 	done
 
 _OaksLabText_1d2f0::
-	text "OAK: Now, <PLAYER>,"
-	line "which #MON do"
-	cont "you want?"
+	text "CHERRY: So,"
+	line "<PLAYER>..."
+	
+	para "Which #BIE do"
+	line "you want?"
 	done
 
 _OaksLabText_1d2f5::
-	text "OAK: If a wild"
-	line "#MON appears,"
-	cont "your #MON can"
+	text "CHERRY: If a wild"
+	line "#BIE appears,"
+	cont "your #BIE can"
 	cont "fight against it!"
 	done
 
 _OaksLabText_1d2fa::
-	text "OAK: <PLAYER>,"
-	line "raise your young"
-	cont "#MON by making"
-	cont "it fight!"
+	text "CHERRY: Hmm..."
+	line "I feel like I'm"
+	cont "forgetting"
+	cont "something..."
 	done
 
 _OaksLabDeliverParcelText1::
-	text "OAK: Oh, <PLAYER>!"
+	text "CHERRY: <PLAYER>!"
 
-	para "How is my old"
-	line "#MON?"
+	para "How is my #BIE"
+	line "doing?"
 
-	para "Well, it seems to"
-	line "like you a lot."
+	para "Oh, wow! It looks"
+	line "like it likes you"
+	cont "a lot, already!"
 
 	para "You must be"
 	line "talented as a"
-	cont "#MON trainer!"
+	cont "#BIE trainer!"
 
 	para "What? You have"
 	line "something for me?"
 
 	para "<PLAYER> delivered"
-	line "OAK's PARCEL.@"
+	line "CHERRY's PARCEL.@"
 	text_end
 
 _OaksLabDeliverParcelText2::
@@ -105,50 +111,50 @@ _OaksLabDeliverParcelText2::
 	para "Ah! This is the"
 	line "custom # BALL"
 	cont "I ordered!"
-	cont "Thank you!"
+	cont "Thanks!"
 	done
 
 _OaksLabAroundWorldText::
-	text "#MON around the"
+	text "#BIEs around the"
 	line "world wait for"
 	cont "you, <PLAYER>!"
 	done
 
 _OaksLabGivePokeballsText1::
-	text "OAK: You can't get"
-	line "detailed data on"
-	cont "#MON by just"
-	cont "seeing them."
+	text "CHERRY: You can't"
+	line "get detailed data"
+	cont "on #BIEs just"
+	cont "by seeing them."
 
-	para "You must catch"
+	para "You have to catch"
 	line "them! Use these"
 	cont "to capture wild"
-	cont "#MON."
+	cont "#BIE."
 
-	para "<PLAYER> got 5"
-	line "# BALLs!@"
-	text_end
+	para "<PLAYER> got a box"
+	line "of 30 # BALLS!"
+	done
 
 _OaksLabGivePokeballsText2::
 	text_start
 	para "When a wild"
-	line "#MON appears,"
+	line "#BIE appears,"
 	cont "it's fair game."
 
 	para "Just throw a #"
-	line "BALL at it and try"
-	line "to catch it!"
+	line "BALL at it and"
+	cont "try to catch it!"
 
 	para "This won't always"
 	line "work, though."
 
-	para "A healthy #MON"
+	para "A healthy #BIE"
 	line "could escape. You"
 	cont "have to be lucky!"
 	done
 
 _OaksLabPleaseVisitText::
-	text "OAK: Come see me"
+	text "CHERRY: Come visit"
 	line "sometimes."
 
 	para "I want to know how"
@@ -157,10 +163,10 @@ _OaksLabPleaseVisitText::
 	done
 
 _OaksLabText_1d31d::
-	text "OAK: Good to see "
-	line "you! How is your "
+	text "CHERRY: Oh, hiya!"
+	line "How is your "
 	cont "#DEX coming? "
-	cont "Here, let me take"
+	cont "Here, let's take"
 	cont "a look!"
 	prompt
 
@@ -175,69 +181,83 @@ _OaksLabText8::
 	done
 
 _OaksLabText_1d340::
-	text "PROF.OAK is the"
+	text "PROF.CHERRY is the"
 	line "authority on"
-	cont "#MON!"
+	cont "#BIEs!"
 
-	para "Many #MON"
-	line "trainers hold him"
+	para "Many #BIE"
+	line "trainers hold her"
 	cont "in high regard!"
 	done
 
 _OaksLabRivalWaitingText::
-	text "<RIVAL>: Gramps!"
-	line "I'm fed up with"
-	cont "waiting!"
+	text "<RIVAL>: CHERRY!"
+	line "Are we just gonna"
+	cont "stand around all"
+	cont "day, or what!?"
 	done
 
 _OaksLabChooseMonText::
-	text "OAK: <RIVAL>?"
-	line "Let me think..."
+	text "CHERRY: Jeez..."
+	line "Eager, aren't we?"
 
-	para "Oh, that's right,"
-	line "I told you to"
-	cont "come! Just wait!"
+	para "Don't worry! I"
+	line "was just out in"
+	cont "the field!"
 
-	para "Here, <PLAYER>!"
+	para "I didn't forget!"
+
+	para "Anyways!"
+
+	para "<PLAYER>!"
 
 	para "There are 3"
-	line "#MON here!"
+	line "#BIEs here!"
 
 	para "Haha!"
 
 	para "They are inside"
-	line "the # BALLs."
+	line "# BALLs!"
 
-	para "When I was young,"
+	para "When I was a kid,"
 	line "I was a serious"
-	cont "#MON trainer!"
+	cont "#BIE trainer!"
 
-	para "In my old age, I"
-	line "have only 3 left,"
-	cont "but you can have"
-	cont "one! Choose!"
+	para "Now, I'm too busy!"
+	line "So, I'll give you"
+	cont "a #BIE of your"
+	cont "very own!"
 	done
 
 _OaksLabRivalInterjectionText::
 	text "<RIVAL>: Hey!"
-	line "Gramps! What"
-	cont "about me?"
+	line "You said I was"
+	cont "gonna get one"
+	cont "today, too!"
 	done
 
 _OaksLabBePatientText::
-	text "OAK: Be patient!"
+	text "CHERRY: Just wait!"
 	line "<RIVAL>, you can"
 	cont "have one too!"
+	
+	para "Jeez, pushy much?"
 	done
 
 _OaksLabLeavingText::
-	text "OAK: Hey! Don't go"
-	line "away yet!"
+	text "CHERRY: Hey!"
+	line "Where you going!?"
 	done
 
 _OaksLabRivalPickingMonText::
-	text "<RIVAL>: I'll take"
-	line "this one, then!"
+	text "<RIVAL>: Hmm..."
+	
+	para "This one beats"
+	line "that one, right?"
+	
+	para "Then..."
+	
+	para "I'll take this one!"
 	done
 
 _OaksLabRivalReceivedMonText::
@@ -251,36 +271,35 @@ _OaksLabRivalChallengeText::
 	text "<RIVAL>: Wait"
 	line "<PLAYER>!"
 	cont "Let's check out"
-	cont "our #MON!"
+	cont "our #BIEs!"
 
-	para "Come on, I'll take"
-	line "you on!"
+	para "I bet mine's way"
+	line "better than yours!"
 	done
 
 _OaksLabText_1d3be::
 	text "WHAT?"
-	line "Unbelievable!"
-	cont "I picked the"
-	cont "wrong #MON!"
+	line "I thought yours"
+	cont "was weak to mine!"
 	prompt
 
 _OaksLabText_1d3c3::
-	text "<RIVAL>: Yeah! Am"
-	line "I great or what?"
+	text "<RIVAL>: See!? I"
+	line "knew mine was better!"
 	prompt
 
 _OaksLabRivalToughenUpText::
 	text "<RIVAL>: Okay!"
 	line "I'll make my"
-	cont "#MON fight to"
+	cont "#BIE fight to"
 	cont "toughen it up!"
 
-	para "<PLAYER>! Gramps!"
-	line "Smell you later!"
+	para "<PLAYER>! CHERRY!"
+	line "I'll be seeing ya!"
 	done
 
 _OaksLabText21::
-	text "<RIVAL>: Gramps!"
+	text "<RIVAL>: CHERRY!"
 	done
 
 _OaksLabText22::
@@ -289,9 +308,9 @@ _OaksLabText22::
 	done
 
 _OaksLabText23::
-	text "OAK: Oh right! I"
-	line "have a request"
-	cont "of you two."
+	text "CHERRY: Oh, yeah!"
+	line "I need you two to"
+	cont "do me a favor..."
 	done
 
 _OaksLabText24::
@@ -301,7 +320,7 @@ _OaksLabText24::
 
 	para "It automatically"
 	line "records data on"
-	cont "#MON you've"
+	cont "#BIEs you've"
 	cont "seen or caught!"
 
 	para "It's a hi-tech"
@@ -309,56 +328,178 @@ _OaksLabText24::
 	done
 
 _OaksLabText25::
-	text "OAK: <PLAYER> and"
-	line "<RIVAL>! Take"
+	text "CHERRY: <PLAYER>"
+	line "and <RIVAL>! Take"
 	cont "these with you!"
 
-	para "<PLAYER> got"
-	line "#DEX from OAK!@"
+	para "<PLAYER> got #DEX"
+	line "from CHERRY!@"
 	text_end
 
 _OaksLabText26::
 	text "To make a complete"
 	line "guide on all the"
-	cont "#MON in the"
+	cont "#BIEs in the"
 	cont "world..."
 
-	para "That was my dream!"
+	para "It's something I've"
+	line "always dreamt of!"
 
-	para "But, I'm too old!"
-	line "I can't do it!"
+	para "But I've got my"
+	line "hands full, here."
+	cont "I can't do it!"
 
 	para "So, I want you two"
 	line "to fulfill my"
 	cont "dream for me!"
 
-	para "Get moving, you"
+	para "Get going, you"
 	line "two!"
 
 	para "This is a great"
 	line "undertaking in"
-	cont "#MON history!"
+	cont "#BIE history!"
 	done
 
 _OaksLabText27::
-	text "<RIVAL>: Alright"
-	line "Gramps! Leave it"
-	cont "all to me!"
+	text "<RIVAL>: Don't"
+	line "worry! Your"
+	cont "favorite nephew"
+	cont "is on the case!"
 
 	para "<PLAYER>, I hate to"
 	line "say it, but I"
 	cont "don't need you!"
 
-	para "I know! I'll"
-	line "borrow a TOWN MAP"
-	cont "from my sis!"
+	para "There's a whole"
+	line "world out there"
+	cont "for me to see!"
 
-	para "I'll tell her not"
-	line "to lend you one,"
-	cont "<PLAYER>! Hahaha!"
+	para "<PLAYER>! CHERRY!"
+	line "I'm outta here!"
+	cont "I'm gonna be a"
+	cont "#BIE master!"
 	done
 
 _OaksLabText_1d405::
-	text "I study #MON as"
-	line "PROF.OAK's AIDE."
+	text "I study #BIEs as"
+	line "PROF.CHERRY's AIDE."
+	done
+
+_OaksLabText_441cc::
+	text "#DEX comp-"
+	line "letion is:"
+
+	para "@"
+	text_decimal hDexRatingNumMonsSeen, 1, 3
+	text " #BIEs seen"
+	line "@"
+	text_decimal hDexRatingNumMonsOwned, 1, 3
+	text " #BIEs owned"
+
+	para "PROF.CHERRY's"
+	line "Rating:"
+	prompt
+
+_OaksLabText_44201::
+	text "You still have"
+	line "lots to do."
+	cont "Look for #BIEs"
+	cont "in grassy areas!"
+	done
+
+_OaksLabText_44206::
+	text "You're on the"
+	line "right track! "
+	cont "Get a FLASH HM"
+	cont "from my AIDE!"
+	done
+
+_OaksLabText_4420b::
+	text "You still need"
+	line "more #BIEs!"
+	cont "Try to catch"
+	cont "other species!"
+	done
+
+_OaksLabText_44210::
+	text "Good, you're"
+	line "trying hard!"
+	cont "Get an ITEMFINDER"
+	cont "from my AIDE!"
+	done
+
+_OaksLabText_44215::
+	text "Looking good!"
+	line "Go find my AIDE"
+	cont "when you get 50!"
+	done
+
+_OaksLabText_4421a::
+	text "You finally got at"
+	line "least 50 species!"
+	cont "Be sure to get"
+	cont "EXP.ALL from my"
+	cont "AIDE!"
+	done
+
+_OaksLabText_4421f::
+	text "Ha! This is geting"
+	line "even better!"
+	done
+
+_OaksLabText_44224::
+	text "Amazing!"
+	line "Go fish for some"
+	cont "marine #BIEs!"
+	done
+
+_OaksLabText_44229::
+	text "Wonderful!"
+	line "Do you like to"
+	cont "collect things?"
+	done
+
+_OaksLabText_4422e::
+	text "I'm impressed!"
+	line "It must have been"
+	cont "super hard to do!"
+	done
+
+_OaksLabText_44233::
+	text "You finally got at"
+	line "least 100 species!"
+	cont "You're really"
+	cont "getting good!"
+	done
+
+_OaksLabText_44238::
+	text "You even have the"
+	line "evolved forms of"
+	cont "#BIEs! Super!"
+	done
+
+_OaksLabText_4423d::
+	text "Excellent! Trade"
+	line "with friends to"
+	cont "get some more!"
+	done
+
+_OaksLabText_44242::
+	text "Outstanding!"
+	line "You've become a"
+	cont "real pro at this!"
+	done
+
+_OaksLabText_44247::
+	text "I have nothing"
+	line "left to say!"
+	cont "You know almost"
+	cont "as much as I do!"
+	done
+
+_OaksLabText_4424c::
+	text "Your #DEX is"
+	line "entirely complete!"
+	cont "Congratulations!"
 	done

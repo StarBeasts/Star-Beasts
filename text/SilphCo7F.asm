@@ -10,7 +10,7 @@ _MeetLaprasGuyText::
 	prompt
 
 _HeresYourLaprasText::
-	text "It's LAPRAS. It's"
+	text "It's NOCEAN. It's"
 	line "very intelligent."
 
 	para "We kept it in our"
@@ -20,10 +20,10 @@ _HeresYourLaprasText::
 
 	para "I think you will"
 	line "be a good trainer"
-	cont "for LAPRAS!"
+	cont "for NOCEAN!"
 
 	para "It's a good"
-	line "swimmer. It'll"
+	line "transport. It'll"
 	cont "give you a lift!"
 	done
 
@@ -150,26 +150,38 @@ _SilphCo7Text_51ebe::
 	done
 
 _SilphCo7Text_51ec3::
-	text "<RIVAL>: Hahaha!"
-	line "I thought you'd"
-	cont "turn up if I"
-	cont "waited here!"
+	text "<RIVAL>: Yo!"
+	line "I was wondering"
+	cont "when you'd show"
+	cont "up!"
 
-	para "I guess TEAM"
-	line "ROCKET slowed you"
-	cont "down! Not that I"
-	cont "care!"
+	para "This place is"
+	line "crawling with"
+	cont "criminals, but"
+	cont "they're all"
+	cont "pushovers!"
 
-	para "I saw you in"
-	line "SAFFRON, so I"
-	cont "decided to see if"
-	cont "you got better!"
+	para "I bet they barely"
+	line "even slowed you"
+	cont "down..."
+
+	para "Hahaha! I'm right,"
+	line "aren't I?"
+
+	para "Yeah..."
+
+	para "I've been itching"
+	line "for a REAL"
+	cont "challenge, so"
+	cont "you better be"
+	cont "ready!"
 	done
 
 _SilphCo7Text_51ec8::
-	text "Oh ho!"
-	line "So, you are ready"
-	cont "for BOSS ROCKET!"
+	text "Hot damn!"
+	line "Yeah, these guys"
+	cont "are nothing"
+	cont "compared to you!"
 	prompt
 
 _SilphCo7Text_51ecd::
@@ -182,28 +194,33 @@ _SilphCo7Text_51ecd::
 	prompt
 
 _SilphCo7Text_51ed2::
-	text "Well, <PLAYER>!"
+	text "You're not bad!"
 
-	para "I'm moving on up"
-	line "and ahead!"
+	para "Way I see it,"
+	line "this just means"
+	cont "I need to train"
+	cont "harder!"
 
-	para "By checking my"
-	line "#DEX, I'm"
-	cont "starting to see"
-	cont "what's strong and"
-	cont "how they evolve!"
+	para "Yeah! One day,"
+	line "you'll wonder how"
+	cont "you ever managed"
+	cont "to beat me!"
 
-	para "I'm going to the"
-	line "#MON LEAGUE"
-	cont "to boot out the"
-	cont "ELITE FOUR!"
+	para "I'll go to the"
+	line "#MON LEAGUE,"
+	cont "take on the"
+	cont "ELITE FOUR..."
 
-	para "I'll become the"
-	line "world's most"
-	cont "powerful trainer!"
+	para "And then..."
 
-	para "<PLAYER>, well"
-	line "good luck to you!"
-	cont "Don't sweat it!"
-	cont "Smell ya!"
+	para "I'll be the"
+	line "very best, like"
+	cont "no one ever was!"
+
+	para "<PLAYER>, I hope"
+	line "you're watching,"
+	cont "because you'll"
+	cont "be seeing me"
+	cont "again real soon!"
+
 	done

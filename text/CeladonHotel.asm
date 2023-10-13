@@ -16,6 +16,11 @@ _CeladonHotelText2::
 	done
 
 _CeladonHotelText3::
-	text "Why did she bring"
-	line "her brother?"
+	text "She brought her"
+	line "brother..."
+
+	para "..."
+
+	para "HOW AM I GONNA GET"
+	line "LUCKY, NOW!?"
 	done

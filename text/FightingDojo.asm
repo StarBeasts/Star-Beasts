@@ -1,13 +1,14 @@
 _FightingDojoText_5ce8e::
-	text "Grunt!"
+	text "The light and"
+	line "the darkness..."
 
-	para "I am the KARATE"
-	line "MASTER! I am the"
-	cont "LEADER here!"
+	para "Separate, they"
+	line "are weak, but"
+	cont "united, they"
+	cont "are strong!"
 
-	para "You wish to"
-	line "challenge us?"
-	cont "Expect no mercy!"
+	para "Allow me to show"
+	line "you!"
 
 	para "Fwaaa!"
 	done
@@ -27,23 +28,24 @@ _FightingDojoText_5ce98::
 	cont "your trophy!"
 
 	para "In return, I will"
-	line "give you a prized"
-	cont "fighting #MON!"
+	line "give you an agent"
+	cont "of the light or"
+	cont "the darkness."
 
 	para "Choose whichever"
-	line "one you like!"
+	line "suits you best!"
 	done
 
 _FightingDojoText_5ce9d::
-	text "Ho!"
-
-	para "Stay and train at"
-	line "Karate with us!"
+	text "Always keep the"
+	line "light and dark"
+	cont "in your heart in"
+	cont "perfect harmony!"
 	done
 
 _FightingDojoBattleText1::
-	text "Hoargh! Take your"
-	line "shoes off!"
+	text "Walk towards the"
+	line "light!"
 	done
 
 _FightingDojoEndBattleText1::
@@ -52,53 +54,51 @@ _FightingDojoEndBattleText1::
 	prompt
 
 _FightingDojoAfterBattleText1::
-	text "You wait 'til you"
-	line "see our Master!"
+	text "Once our Master"
+	line "is through with"
+	cont "you, you'll..."
 
-	para "I'm a small fry"
-	line "compared to him!"
+	para "Well, you'll go"
+	line "to heaven!"
 	done
 
 _FightingDojoBattleText2::
-	text "I hear you're"
-	line "good! Show me!"
+	text "In the light,"
+	line "there must be"
+	cont "darkness!"
 	done
 
 _FightingDojoEndBattleText2::
-	text "Judge!"
-	line "1 point!"
+	text "Who"
+	line "turned out the"
+	cont "lights!?"
 	prompt
 
 _FightingDojoAfterBattleText2::
-	text "Our Master is a"
-	line "pro fighter!"
+	text "Don't be afraid,"
+	line "even in the dark!"
 	done
 
 _FightingDojoBattleText3::
-	text "Nothing tough"
-	line "frightens me!"
-
-	para "I break boulders"
-	line "for training!"
+	text "The dark doesn't"
+	line "frighten me!"
 	done
 
 _FightingDojoEndBattleText3::
-	text "Yow!"
-	line "Stubbed fingers!"
+	text "You!"
+	line "You, however,"
+	cont "DO frighten me!"
 	prompt
 
 _FightingDojoAfterBattleText3::
-	text "The only thing"
-	line "that frightens us"
-	cont "is psychic power!"
+	text "You're really"
+	line "tough! What's"
+	cont "your secret?"
 	done
 
 _FightingDojoBattleText4::
-	text "Hoohah!"
-
-	para "You're trespassing"
-	line "in our FIGHTING"
-	cont "DOJO!"
+	text "In the dark, there"
+	line "must be light!"
 	done
 
 _FightingDojoEndBattleText4::
@@ -107,21 +107,21 @@ _FightingDojoEndBattleText4::
 	prompt
 
 _FightingDojoAfterBattleText4::
-	text "The prime fighters"
-	line "across the land"
-	cont "train here."
+	text "You have a bright"
+	line "future ahead of"
+	cont "you."
 	done
 
 _WantHitmonleeText::
 	text "You want the"
-	line "hard kicking"
-	cont "HITMONLEE?"
+	line "lord of creation,"
+	cont "MAKER?"
 	done
 
 _WantHitmonchanText::
 	text "You want the"
-	line "piston punching"
-	cont "HITMONCHAN?"
+	line "lord of darkness,"
+	cont "DESTROYER?"
 	done
 
 _OtherHitmonText::

@@ -120,11 +120,11 @@ _Route11EndBattleText8::
 _Route11AfterBattleText8::
 	text "There's a fat"
 	line "#MON that"
-	cont "comes down from"
-	cont "the mountains."
+	cont "comes from the"
+	cont "swamplands."
 
-	para "It's strong if"
-	line "you can get it."
+	para "It's supposed to"
+	line "be really strong."
 	done
 
 _Route11BattleText9::

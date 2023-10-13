@@ -1,43 +1,50 @@
 _OakAppearsText::
-	text "OAK: Hey! Wait!"
-	line "Don't go out!@"
+	text "CHERRY: Wait!"
+	line "WAIT! Nonono!@"
 	text_end
 
 _OakWalksUpText::
-	text "OAK: It's unsafe!"
-	line "Wild #MON live"
-	cont "in tall grass!"
+	text "CHERRY: Jeez!"
+	line "You're always"
+	cont "getting into"
+	cont "trouble..."
 
-	para "You need your own"
-	line "#MON for your"
-	cont "protection."
-	cont "I know!"
+	para "You can't go out"
+	line "there without a"
+	cont "#MON!"
+	cont "It's dangerous!"
+
+	para "..."
+	line "I know!"
 
 	para "Here, come with"
 	line "me!"
 	done
 
 _PalletTownText2::
-	text "I'm raising"
-	line "#MON too!"
+	text "Oh, <PLAYER>!"
+	line "Are you well?"
 
-	para "When they get"
-	line "strong, they can"
-	cont "protect me!"
+	para "Did you ever find"
+	line "your dog? I hope"
+	cont "the poor thing is"
+	cont "doing alright..."
 	done
 
 _PalletTownText3::
 	text "Technology is"
 	line "incredible!"
 
-	para "You can now store"
-	line "and recall items"
-	cont "and #MON as"
-	cont "data via PC!"
+	para "You can now hold"
+	line "the B button to"
+	cont "move faster!"
+	
+	para "Think of how much"
+	line "time you'll save!"
 	done
 
 _PalletTownText4::
-	text "OAK #MON"
+	text "CHERRY #MON"
 	line "RESEARCH LAB"
 	done
 

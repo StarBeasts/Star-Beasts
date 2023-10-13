@@ -7,7 +7,7 @@ _LavenderHouse1Text_1d8d1::
 _LavenderHouse1Text_1d8d6::
 	text "MR.FUJI had been"
 	line "praying alone for"
-	cont "CUBONE's mother."
+	cont "the departed."
 	done
 
 _LavenderHouse1Text_1d8f4::
@@ -28,11 +28,11 @@ _LavenderHouse1Text_1d8f9::
 	done
 
 _LavenderHouse1Text3::
-	text "PSYDUCK: Gwappa!@"
+	text "INFERNEO: Eeeeaa!@"
 	text_end
 
 _LavenderHouse1Text4::
-	text "NIDORINO: Gaoo!@"
+	text "WHIRLIE: Whrrr...@"
 	text_end
 
 _LavenderHouse1Text_1d94c::

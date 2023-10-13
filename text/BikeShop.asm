@@ -50,13 +50,13 @@ _BikeShopText_1d834::
 	done
 
 _BikeShopText_1d843::
-	text "A plain city BIKE"
-	line "is good enough"
-	cont "for me!"
+	text "I heard there's"
+	line "a BIKE out there"
+	cont "that can write!"
 
-	para "You can't put a"
-	line "shopping basket"
-	cont "on an MTB!"
+	para "Can you imagine?"
+	line "A bicycle writing"
+	cont "fanfiction?"
 	done
 
 _BikeShopText_1d85c::

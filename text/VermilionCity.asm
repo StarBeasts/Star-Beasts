@@ -2,9 +2,9 @@ _VermilionCityText1::
 	text "We're careful"
 	line "about pollution!"
 
-	para "We've heard GRIMER"
-	line "multiplies in"
-	cont "toxic sludge!"
+	para "We've heard toxic"
+	line "sludge attracts"
+	cont "slime monsters!"
 	done
 
 _VermilionCityTextDidYouSee::
@@ -67,24 +67,28 @@ _VermilionCityText4::
 	done
 
 _VermilionCityText5::
-	text "MACHOP: Guoh!"
-	line "Gogogoh!@"
+	text "CROMAG: Ooog!"
+	line "Ooga chaka!@"
 	text_end
 
 _VermilionCityText14::
 	text_start
-	para "A MACHOP is"
+	para "A CROMAG is"
 	line "stomping the land"
 	cont "flat."
 	done
 
 _VermilionCityText6::
-	text "S.S.ANNE is a"
-	line "famous luxury"
-	cont "cruise ship."
+	text "I came here all"
+	line "the way from"
+	cont "CINNABAR to see"
+	cont "ELEKSI perform,"
+	cont "only to find that"
+	cont "she's on the fritz"
+	cont "again!"
 
-	para "We visit VERMILION"
-	line "once a year."
+	para "I took a week off"
+	line "work for nothing!"
 	done
 
 _VermilionCityText7::
@@ -116,10 +120,10 @@ _VermilionCityText11::
 _VermilionCityText12::
 	text "VERMILION CITY"
 	line "#MON GYM"
-	cont "LEADER: LT.SURGE"
+	cont "LEADER: ELEKSI"
 
 	para "The Lightning "
-	line "American!"
+	line "Idol!"
 	done
 
 _VermilionCityText13::

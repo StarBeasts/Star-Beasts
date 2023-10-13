@@ -1,93 +1,108 @@
 _Route16BattleText1::
-	text "What do you want?"
+	text "No, SABRINA!"
+	line "I'll be good!"
 	done
 
 _Route16EndBattleText1::
-	text "Don't you"
-	line "dare laugh!"
+	text "Wait..."
+	line "you said you're"
+	cont "NOT SABRINA?"
 	prompt
 
 _Route16AfterBattleText1::
-	text "We like just"
-	line "hanging here,"
-	cont "what's it to you?"
+	text "All I did was"
+	line "try to show"
+	cont "LORELEI my GHOSTs"
+	cont "and now SABRINA"
+	cont "has it out for me!"
 	done
 
 _Route16BattleText2::
-	text "Nice BIKE!"
-	line "Hand it over!"
+	text "VAMPIRE! BURN IT!"
+	line "BURN THE VAMPIRE!"
 	done
 
 _Route16EndBattleText2::
-	text "Knock"
-	line "out!"
+	text "Don't"
+	line "take my blood..."
 	prompt
 
 _Route16AfterBattleText2::
-	text "Forget it, who"
-	line "needs your BIKE!"
+	text "Wait, if you're a"
+	line "vampire, how are"
+	cont "you out here?"
+
+	para "Does that mean you"
+	line "are a daywalker?"
 	done
 
 _Route16BattleText3::
-	text "Come out and play,"
-	line "little mouse!"
+	text "Hey man, you have"
+	line "any psychedelics?"
 	done
 
 _Route16EndBattleText3::
-	text "You"
-	line "little rat!"
+	text "I'm"
+	line "guessing that's"
+	cont "a no, then?"
 	prompt
 
 _Route16AfterBattleText3::
-	text "I hate losing!"
-	line "Get away from me!"
+	text "Being sober isn't"
+	line "fun at all."
 	done
 
 _Route16BattleText4::
-	text "Hey, you just"
-	line "bumped me!"
+	text "Disco dance, Disco"
+	line "Dance, DISCO"
+	cont "DANCE!!!"
 	done
 
 _Route16EndBattleText4::
-	text "Kaboom!"
+	text "FREAK!"
 	prompt
 
 _Route16AfterBattleText4::
-	text "You can also get"
-	line "to FUCHSIA from"
-	cont "VERMILION using a"
-	cont "coastal road."
+	text "Pizza, pizza,"
+	line "yeah... SABRINA,"
+	cont "when are we gonna"
+	cont "get pizza again?"
 	done
 
 _Route16BattleText5::
-	text "I'm feeling"
-	line "hungry and mean!"
+	text "OH NO!"
+	line "DEEEEMMMOONN!!!"
 	done
 
 _Route16EndBattleText5::
-	text "Bad,"
-	line "bad, bad!"
+	text "Demon!"
+	line "You're..."
+	cont "You're..."
+
+	para "Oh god, what?"
 	prompt
 
 _Route16AfterBattleText5::
-	text "I like my #MON"
-	line "ferocious! They"
-	cont "tear up enemies!"
+	text "I don't feel so"
+	line "good... I think"
+	cont "I need sleep..."
 	done
 
 _Route16BattleText6::
-	text "Sure, I'll go!"
+	text "Let us strip and"
+	line "dance in blood!"
 	done
 
 _Route16EndBattleText6::
-	text "Don't make"
-	line "me mad!"
+	text "It's"
+	line "over."
 	prompt
 
 _Route16AfterBattleText6::
-	text "I like harassing"
-	line "people with my"
-	cont "vicious #MON!"
+	text "I wish I had a"
+	line "boyfriend to"
+	cont "perform occult"
+	cont "rituals with..."
 	done
 
 _Route16Text7::
@@ -96,7 +111,7 @@ _Route16Text7::
 	done
 
 _Route16Text10::
-	text "SNORLAX woke up!"
+	text "SLOBBIX woke up!"
 
 	para "It attacked in a"
 	line "grumpy rage!"
@@ -104,8 +119,8 @@ _Route16Text10::
 
 _Route16Text11::
 	text "With a big yawn,"
-	line "SNORLAX returned"
-	cont "to the mountains!"
+	line "SLOBBIX returned"
+	cont "to its swamp!"
 	done
 
 _Route16Text8::

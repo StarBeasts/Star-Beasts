@@ -1,11 +1,11 @@
 _ViridianForestExitText1::
-	text "Many #MON live"
-	line "only in forests "
-	cont "and caves."
+	text "A magical pink"
+	line "creature that"
+	cont "lives in the"
+	cont "forest?"
 
-	para "You need to look"
-	line "everywhere to get"
-	cont "different kinds!"
+	para "Pish-posh. Just a"
+	line "bunch of hogwash."
 	done
 
 _ViridianForestExitText2::

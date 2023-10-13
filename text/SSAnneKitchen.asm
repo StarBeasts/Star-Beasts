@@ -10,8 +10,11 @@ _SSAnne6Text2::
 	done
 
 _SSAnne6Text3::
-	text "I'm so busy I'm"
-	line "getting dizzy!"
+	text "One of our crew"
+	line "is missing..."
+
+	para "Where did he run"
+	line "off to...?"
 	done
 
 _SSAnne6Text4::
@@ -25,7 +28,7 @@ _SSAnne6Text4::
 
 _SSAnne6Text5::
 	text "Did you hear about"
-	line "SNORLAX?"
+	line "SLOBBIX?"
 
 	para "All it does is"
 	line "eat and sleep!"

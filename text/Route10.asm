@@ -21,15 +21,15 @@ _Route10BattleText2::
 
 _Route10EndBattleText2::
 	text "Ha-haha!"
-	line "Not laughing!"
-	cont "Ha-hay fever!"
-	cont "Haha-ha-choo!"
+	line "Yer funny!"
+	cont "What kinda"
+	cont "hat is that?"
 	prompt
 
 _Route10AfterBattleText2::
-	text "Haha-ha-choo!"
-	line "Ha-choo!"
-	cont "Snort! Snivel!"
+	text "Haha-ha-haa!"
+	line "Ha-ha-haaaah!"
+	cont "God, I love weed!"
 	done
 
 _Route10BattleText3::
@@ -66,18 +66,25 @@ _Route10AfterBattleText4::
 	done
 
 _Route10BattleText5::
-	text "Ah! This mountain"
-	line "air is delicious!"
+	text "Bwahahaha!"
+	line "Yer just in time!"
+
+	para "Lookit what"
+	line "I caught!"
 	done
 
 _Route10EndBattleText5::
-	text "That"
-	line "cleared my head!"
+	text "Ah, well..."
+	line "Ya win some,"
+	cont "ya lose some..."
 	prompt
 
 _Route10AfterBattleText5::
-	text "I feel bloated on"
-	line "mountain air!"
+	text "If yeh've gotta"
+	line "SUPER ROD, ya can"
+	cont "find coffee 'n"
+	cont "slime monsters in"
+	cont "this here river!"
 	done
 
 _Route10BattleText6::
@@ -95,8 +102,8 @@ _Route10AfterBattleText6::
 	text "The #MON here"
 	line "are so chunky!"
 	cont "There should be a"
-	cont "pink one with a"
-	cont "floral pattern!"
+	cont "blue one with a"
+	cont "cute fan!"
 	done
 
 _Route10Text9::

@@ -1,33 +1,35 @@
 _Route13BattleText2::
-	text "My bird #MON"
-	line "want to scrap!"
+	text "Finally! Something"
+	line "interesting to do!"
 	done
 
 _Route13EndBattleText2::
-	text "My"
-	line "bird combo lost?"
+	text "Ah, hell."
 	prompt
 
 _Route13AfterBattleText2::
-	text "My #MON look"
-	line "happy even though"
-	cont "they lost."
+	text "This girl keeps"
+	line "clinging to me!"
+
+	para "I have a wife and"
+	line "kids at home!"
 	done
 
 _Route13BattleText3::
-	text "I'm told I'm good"
-	line "for a kid!"
+	text "Ooh, let's battle!"
+
+	para "I wanna impress"
+	line "this OFFICER!"
 	done
 
 _Route13EndBattleText3::
-	text "Ohh!"
-	line "I lost!"
+	text "No..."
 	prompt
 
 _Route13AfterBattleText3::
-	text "I want to become"
-	line "a good trainer."
-	cont "I'll train hard."
+	text "You're so strong"
+	line "and cool, mister"
+	cont "POLICE OFFICER..."
 	done
 
 _Route13BattleText4::
@@ -64,39 +66,41 @@ _Route13AfterBattleText5::
 	done
 
 _Route13BattleText6::
-	text "I found CARBOS in"
-	line "a cave once."
+	text "My friend won't"
+	line "stop fawning over"
+	cont "that OFFICER..." 
 	done
 
 _Route13EndBattleText6::
-	text "Just"
-	line "messed up!"
+	text "Yeah,"
+	line "yeah..."
 	prompt
 
 _Route13AfterBattleText6::
-	text "CARBOS boosted"
-	line "the SPEED of my"
-	cont "#MON."
+	text "Really, BECKY?"
+	line "You're being so"
+	cont "stupid, I swear..."
 	done
 
 _Route13BattleText7::
-	text "The wind's blowing"
-	line "my way!"
+	text "You're not up to"
+	line "any trouble, are"
+	cont "you, kid?"
 	done
 
 _Route13EndBattleText7::
-	text "The"
-	line "wind turned!"
+	text "..."
+	line "You're free to go."
 	prompt
 
 _Route13AfterBattleText7::
-	text "I'm beat. I guess"
-	line "I'll FLY home."
+	text "What are you doing"
+	line "out here, anyway?"
 	done
 
 _Route13BattleText8::
-	text "Sure, I'll play"
-	line "with you!"
+	text "BIKERs are totally"
+	line "hot, right?"
 	done
 
 _Route13EndBattleText8::
@@ -105,14 +109,19 @@ _Route13EndBattleText8::
 	prompt
 
 _Route13AfterBattleText8::
-	text "I wonder which is"
-	line "stronger, male or"
-	cont "female #MON?"
+	text "My friend over"
+	line "here thinks those"
+	cont "stuffy OFFICERs"
+	cont "are cute..."
+
+	para "Can you believe"
+	line "that!?"
 	done
 
 _Route13BattleText9::
-	text "Do you want to"
-	line "#MON with me?"
+	text "OFFICERS are"
+	line "something else,"
+	cont "aren't they?"
 	done
 
 _Route13EndBattleText9::
@@ -121,10 +130,13 @@ _Route13EndBattleText9::
 	prompt
 
 _Route13AfterBattleText9::
-	text "I don't know"
-	line "anything about"
-	cont "#MON. I just"
-	cont "like cool ones!"
+	text "My friend over"
+	line "here thinks those"
+	cont "mean BIKERs are"
+	cont "hot..."
+
+	para "Some people just"
+	line "have no taste..."
 	done
 
 _Route13BattleText10::
@@ -142,19 +154,20 @@ _Route13AfterBattleText10::
 	done
 
 _Route13BattleText11::
-	text "I always go with"
-	line "bird #MON!"
+	text "I'm the toughest"
+	line "OFFICER on the"
+	cont "FORCE, kid!"
 	done
 
 _Route13EndBattleText11::
-	text "Out"
-	line "of power!"
+	text "Me and"
+	line "my big mouth..."
 	prompt
 
 _Route13AfterBattleText11::
-	text "I wish I could"
-	line "fly like PIDGEY"
-	cont "and PIDGEOTTO..."
+	text "Okay, maybe I"
+	line "exaggerated a"
+	cont "little..."
 	done
 
 _Route13Text11::

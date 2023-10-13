@@ -9,4 +9,9 @@ _CeladonPokecenterText3::
 	text "I rode uphill on"
 	line "CYCLING ROAD from"
 	cont "FUCHSIA!"
+
+	para "There's certainly"
+	line "some colorful"
+	cont "characters there,"
+	cont "nowadays!"
 	done

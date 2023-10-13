@@ -7,13 +7,18 @@ _ItemUseBallText00::
 	prompt
 
 _ItemUseBallText01::
-	text "You missed the"
-	line "#MON!"
+	text "It dodged the"
+	line "thrown BALL!"
+	
+	para "No good!"
+
+	para "Distract or"
+	line "weaken it more!"
 	prompt
 
 _ItemUseBallText02::
-	text "Darn! The #MON"
-	line "broke free!"
+	text "No! It broke"
+	line "out of the BALL!"
 	prompt
 
 _ItemUseBallText03::
@@ -22,12 +27,12 @@ _ItemUseBallText03::
 	prompt
 
 _ItemUseBallText04::
-	text "Shoot! It was so"
+	text "Argh! It was so"
 	line "close too!"
 	prompt
 
 _ItemUseBallText05::
-	text "All right!"
+	text "Awesome!"
 	line "@"
 	text_ram wEnemyMonNick
 	text " was"
@@ -188,7 +193,7 @@ _MonCannotLearnMachineMoveText::
 	prompt
 
 _ItemUseNotTimeText::
-	text "OAK: <PLAYER>!"
+	text "CHERRY: <PLAYER>!"
 	line "This isn't the"
 	cont "time to use that! "
 	prompt
@@ -213,8 +218,8 @@ _ThrowBallAtTrainerMonText2::
 	prompt
 
 _NoCyclingAllowedHereText::
-	text "No cycling"
-	next "allowed here."
+	text "You can't ride"
+	next "a BIKE here."
 	prompt
 
 _NoSurfingHereText::
@@ -225,7 +230,7 @@ _NoSurfingHereText::
 	prompt
 
 _BoxFullCannotThrowBallText::
-	text "The #MON BOX"
+	text "The BST BOX"
 	line "is full! Can't"
 	cont "use that item!"
 	prompt

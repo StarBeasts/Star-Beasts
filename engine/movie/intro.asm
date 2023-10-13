@@ -309,7 +309,7 @@ PlayShootingStar:
 	farcall LoadCopyrightAndTextBoxTiles
 	ldpal a, SHADE_BLACK, SHADE_DARK, SHADE_LIGHT, SHADE_WHITE
 	ldh [rBGP], a
-	ld c, 180
+	ld c, 5
 	call DelayFrames
 	call ClearScreen
 	call DisableLCD
@@ -327,6 +327,15 @@ PlayShootingStar:
 	push af
 	pop af
 	jr c, .next ; skip the delay if the user interrupted the animation
+       hlcoord 7, 11   ; starting coordinate
+       ld a, $67       ; starting tile ID
+       ld c, $06       ; number of tiles
+ .loop
+       ld [hli], a
+       inc a
+       dec c
+       jr nz, .loop
+
 	ld c, 40
 	call DelayFrames
 .next

@@ -2,39 +2,45 @@ _Route22RivalBeforeBattleText1::
 	text "<RIVAL>: Hey!"
 	line "<PLAYER>!"
 
-	para "You're going to"
-	line "#MON LEAGUE?"
+	para "See that big"
+	line "building over"
+	cont "there?"
 
-	para "Forget it! You"
-	line "probably don't"
-	cont "have any BADGEs!"
+	para "That's the"
+	line "entrance to the"
+	cont "#MON LEAGUE!"
 
-	para "The guard won't"
-	line "let you through!"
+	para "The guard says"
+	line "you can't go in"
+	cont "unless you have"
+	cont "eight BADGEs."
 
-	para "By the way, did"
-	line "your #MON"
-	cont "get any stronger?"
+	para "By the way, how's"
+	line "your training"
+	cont "going?"
 	done
 
 _Route22RivalAfterBattleText1::
-	text "I heard #MON"
-	line "LEAGUE has many"
-	cont "tough trainers!"
+	text "I heard the first"
+	line "BADGE is in"
+	cont "PEWTER CITY, so"
+	cont "that's where I'm"
+	cont "headed." 
 
-	para "I have to figure"
-	line "out how to get"
-	cont "past them!"
+	para "Heh. I bet that"
+	line "I'll get all the"
+	cont "BADGEs before"
+	cont "you do!"
 
-	para "You should quit"
-	line "dawdling and get"
-	cont "a move on!"
+	para "See you later,"
+	line "<PLAYER>! I've got"
+	cont "battles to win!"
 	done
 
 _Route22RivalDefeatedText1::
-	text "Awww!"
-	line "You just lucked"
-	cont "out!"
+	text "Aw, c'mon!"
+	line "You just got"
+	cont "lucky!"
 	prompt
 
 _Route22Text_511bc::
@@ -59,25 +65,27 @@ _Route22RivalBeforeBattleText2::
 	line "the BADGEs too?"
 	cont "That's cool!"
 
-	para "Then I'll whip you"
-	line "<PLAYER> as a"
-	cont "warm up for"
-	cont "#MON LEAGUE!"
+	para "Then let's see"
+	line "who gets to go"
+	cont "through VICTORY"
+	cont "ROAD first,"
+	cont "<PLAYER>!"
 
-	para "Come on!"
+	para "Let's go!"
 	done
 
 _Route22RivalAfterBattleText2::
-	text "That loosened me"
-	line "up! I'm ready for"
+	text "That got me going!"
+	line "I'm ready for the"
 	cont "#MON LEAGUE!"
 
-	para "<PLAYER>, you need"
-	line "more practice!"
+	para "You're pretty"
+	line "good, <PLAYER>."
 
-	para "But hey, you know"
-	line "that! I'm out of"
-	cont "here. Smell ya!"
+	para "But I'm even"
+	line "better! Hah!"
+	cont "See you in the"
+	cont "HALL OF FAME!"
 	done
 
 _Route22RivalDefeatedText2::
@@ -92,10 +100,12 @@ _Route22Text_511d0::
 	line "<PLAYER>! That's"
 	cont "your best? You're"
 	cont "nowhere near as"
-	cont "good as me, pal!"
+	cont "good as me!"
 
 	para "Go train some"
-	line "more! You loser!"
+	line "more!"
+	cont "You gotta pick"
+	cont "it up!"
 	prompt
 
 _Route22FrontGateText::

@@ -1,6 +1,6 @@
 _PokemonTower4BattleText1::
-	text "GHOST! No!"
-	line "Kwaaah!"
+	text "WHAT!?"
+	line "A GHOST!?"
 	done
 
 _PokemonTower4EndBattleText1::
@@ -14,8 +14,8 @@ _PokemonTower4AfterBattleText1::
 	done
 
 _PokemonTower4BattleText2::
-	text "Be cursed with"
-	line "me! Kwaaah!"
+	text "COME WITH ME"
+	line "TO HELLLLL!"
 	done
 
 _PokemonTower4EndBattleText2::
@@ -23,14 +23,15 @@ _PokemonTower4EndBattleText2::
 	prompt
 
 _PokemonTower4AfterBattleText2::
-	text "We can't crack"
-	line "the identity of"
-	cont "the GHOSTs."
+	text "Where's all this"
+	line "MIST coming"
+	cont "from, anyway?"
 	done
 
 _PokemonTower4BattleText3::
 	text "Huhuhu..."
-	line "Beat me not!"
+	line "As a moth to the"
+	cont "flame..."
 	done
 
 _PokemonTower4EndBattleText3::

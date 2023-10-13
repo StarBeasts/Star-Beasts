@@ -13,8 +13,8 @@ _RocketHideout1EndBattleText2::
 	prompt
 
 _RocketHideout1AfterBattleTxt2::
-	text "Are you dissing"
-	line "TEAM ROCKET?"
+	text "Who the hell are"
+	line "you, kid?"
 	done
 
 _RocketHideout1BattleText3::
@@ -48,17 +48,17 @@ _RocketHideout1AfterBattleTxt4::
 	done
 
 _RocketHideout1BattleText5::
-	text "Why did you come"
-	line "here?"
+	text "Set loose the"
+	line "hounds!"
 	done
 
 _RocketHideout1EndBattleText5::
-	text "This"
-	line "won't do!"
+	text "No more!"
+	line "No more!"
 	prompt
 
 _RocketHideout1AfterBattleTxt5::
-	text "OK, I'll talk!"
+	text "Stop, I'll talk!"
 	line "Take the elevator"
 	cont "to see my BOSS!"
 	done

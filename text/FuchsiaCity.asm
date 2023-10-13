@@ -6,13 +6,13 @@ _FuchsiaCityText1::
 	done
 
 _FuchsiaCityText2::
-	text "SAFARI ZONE has a"
-	line "zoo in front of"
-	cont "the entrance."
+	text "Good day, citizen."
 
-	para "Out back is the"
-	line "SAFARI GAME for"
-	cont "catching #MON."
+	para "If you have the"
+	line "time and money,"
+	cont "you should try"
+	cont "out our famous"
+	cont "SAFARI ZONE."
 	done
 
 _FuchsiaCityText3::
@@ -22,9 +22,8 @@ _FuchsiaCityText3::
 	done
 
 _FuchsiaCityText4::
-	text "That item ball in"
-	line "there is really a"
-	cont "#MON."
+	text "Wooowww, it's so"
+	line "sparkly..."
 	done
 
 _FuchsiaCityText5::
@@ -53,65 +52,78 @@ _FuchsiaCityText17::
 	done
 
 _FuchsiaCityText18::
-	text "FUCHSIA CITY"
-	line "#MON GYM"
-	cont "LEADER: KOGA"
+	text "TEMPLE OF"
+	line "NEPUTAIL"
 
-	para "The Poisonous"
-	line "Ninja Master"
+	para "In smaller text,"
+	line "it reads:"
+
+	para "Formerly FUCHSIA"
+	line "CITY GYM."
+
+	para "LEADER: IVY"
+
+	para "The Rat Queen"
+
 	done
 
 _FuchsiaCityChanseyText::
-	text "Name: CHANSEY"
+	text "Name: UMISTME"
 
-	para "Catching one is"
-	line "all up to chance."
+	para "This is one"
+	line "#MON you won't"
+	cont "want to miss!"
 	prompt
 
 _FuchsiaCityVoltorbText::
-	text "Name: VOLTORB"
+	text "Name: KURAYAMI"
 
-	para "The very image of"
-	line "a # BALL."
+	para "It loves to"
+	line "sunbathe!"
 	prompt
 
 _FuchsiaCityKangaskhanText::
-	text "Name: KANGASKHAN"
+	text "Name: VULTURNUS"
 
-	para "A maternal #MON"
-	line "that raises its"
-	cont "young in a pouch"
-	cont "on its belly."
+	para "The fastest"
+	line "#MON in the"
+	cont "world!"
+
+	para "It can throw over"
+	line "a hundred punches"
+	cont "in the blink of"
+	cont "an eye!"
 	prompt
 
 _FuchsiaCitySlowpokeText::
-	text "Name: SLOWPOKE"
+	text "Name: TONGORON"
 
-	para "Friendly and very"
-	line "slow moving."
+	para "Friendly, but not"
+	line "too bright."
 	prompt
 
 _FuchsiaCityLaprasText::
-	text "Name: LAPRAS"
+	text "Name: NOCEAN"
 
-	para "A.K.A. the king"
-	line "of the seas."
+	para "Nothing beats it"
+	line "when it comes to"
+	cont "sailing the seas!"
 	prompt
 
 _FuchsiaCityOmanyteText::
-	text "Name: OMANYTE"
+	text "Name: DRAEMON"
 
 	para "A #MON that"
 	line "was resurrected"
-	cont "from a fossil."
+	cont "from a soul."
 	prompt
 
 _FuchsiaCityKabutoText::
-	text "Name: KABUTO"
+	text "Name: GERBIRD"
 
 	para "A #MON that"
 	line "was resurrected"
-	cont "from a fossil."
+	cont "from a soul."
 	prompt
 
 _FuchsiaCityText_19b2a::

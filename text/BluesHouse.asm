@@ -1,14 +1,27 @@
 _DaisyInitialText::
-	text "Hi <PLAYER>!"
+	text "Hello, <PLAYER>!"
 	line "<RIVAL> is out at"
-	cont "Grandpa's lab."
+	cont "CHERRY's lab."
+
+	para "He's certainly"
+	line "energetic today,"
+	cont "isn't he?"
+	
+	para "Ah, to be young"
+	line "again..."
 	done
 
 _DaisyOfferMapText::
-	text "Grandpa asked you"
-	line "to run an errand?"
-	cont "Here, this will"
-	cont "help you!"
+	text "Err, <PLAYER>..."
+	line "Could you be so"
+	cont "kind and take"
+	cont "this MAP to"
+	cont "my grandson?"
+
+	para "He was so excited"
+	line "to get going that"
+	cont "he barely even"
+	cont "said goodbye..."
 	prompt
 
 _GotMapText::
@@ -19,14 +32,32 @@ _GotMapText::
 	text_end
 
 _DaisyBagFullText::
-	text "You have too much"
-	line "stuff with you."
+	text "I know you're"
+	line "eager, but your"
+	cont "BAG is too full!"
 	done
 
 _DaisyUseMapText::
-	text "Use the TOWN MAP"
-	line "to find out where"
-	cont "you are."
+	text "Oh, <RIVAL>..."
+	line "Where have you"
+	cont "gone off to...?"
+	
+	para "Your mother would"
+	line "never forgive me"
+	cont "for letting you"
+	cont "go like this..."
+
+	para "But if it's your"
+	line "dream, it's your"
+	cont "dream..."
+	
+	para "..."
+
+	para "Go get em',"
+	line "<RIVAL>..."
+	
+	para "Your grandpappy"
+	line "believes in you..."
 	done
 
 _BluesHouseDaisyWalkingText::

@@ -9,8 +9,11 @@ _SaffronCityText2::
 	done
 
 _SaffronCityText3::
-	text "Get out of the"
-	line "way!"
+	text "There's some real"
+	line "mean looking"
+	cont "bastards in here,"
+	cont "so I'm keeping"
+	cont "the door blocked."
 	done
 
 _SaffronCityText4::
@@ -56,7 +59,7 @@ _SaffronCityText10::
 
 _SaffronCityText11::
 	text "I flew here on my"
-	line "PIDGEOT when I"
+	line "GRYPHERN when I"
 	cont "read about SILPH."
 
 	para "It's already over?"
@@ -65,7 +68,7 @@ _SaffronCityText11::
 	done
 
 _SaffronCityText12::
-	text "PIDGEOT: Bi bibii!@"
+	text "GRYPHERN: Griii!@"
 	text_end
 
 _SaffronCityText13::
@@ -97,7 +100,7 @@ _SaffronCityText16::
 	done
 
 _SaffronCityText17::
-	text "FIGHTING DOJO"
+	text "YIN-YANG DOJO"
 	done
 
 _SaffronCityText18::

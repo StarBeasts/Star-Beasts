@@ -1,26 +1,28 @@
 _FuchsiaMeetingRoomText1::
 	text "We nicknamed the"
-	line "WARDEN SLOWPOKE."
+	line "WARDEN TONGORON."
 
-	para "He and SLOWPOKE"
+	para "He and TONGORON"
 	line "both look vacant!"
 	done
 
 _FuchsiaMeetingRoomText2::
-	text "SLOWPOKE is very"
+	text "TONGORON is very"
 	line "knowledgeable"
 	cont "about #MON!"
 
 	para "He even has some"
-	line "fossils of rare,"
+	line "souls of rare,"
 	cont "extinct #MON!"
 	done
 
 _FuchsiaMeetingRoomText3::
-	text "SLOWPOKE came in,"
+	text "TONGORON came in,"
 	line "but I couldn't"
 	cont "understand him."
 
-	para "I think he's got"
-	line "a speech problem!"
+	para "Guess he's got"
+	line "the whole tongue"
+	cont "thing in common"
+	cont "with it now, too!"
 	done

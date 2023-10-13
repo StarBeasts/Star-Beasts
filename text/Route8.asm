@@ -40,13 +40,13 @@ _Route8EndBattleText3::
 	prompt
 
 _Route8AfterBattleText3::
-	text "Go with GRIMER"
+	text "Go with EGGEROT"
 	line "first...and..."
 	cont "...and...then..."
 	done
 
 _Route8BattleText4::
-	text "I like NIDORAN, so"
+	text "I like SLIMOGG, so"
 	line "I collect them!"
 	done
 
@@ -78,17 +78,17 @@ _Route8AfterBattleText5::
 	done
 
 _Route8BattleText6::
-	text "MEOWTH is so cute,"
-	line "meow, meow, meow!"
+	text "ZAPODI is so cute,"
+	line "zappity zap zap!"
 	done
 
 _Route8EndBattleText6::
-	text "Meow!"
+	text "Zapped..."
 	prompt
 
 _Route8AfterBattleText6::
-	text "I think PIDGEY"
-	line "and RATTATA"
+	text "I think ROC"
+	line "and SPRIGGLE"
 	cont "are cute too!"
 	done
 
@@ -129,7 +129,7 @@ _Route8AfterBattleText8::
 
 _Route8BattleText9::
 	text "What's a cute,"
-	line "round and fluffy"
+	line "round and tough"
 	cont "#MON?"
 	done
 
@@ -137,14 +137,15 @@ _Route8EndBattleText9::
 	text "Stop!"
 
 	para "Don't be so mean"
-	line "to my CLEFAIRY!"
+	line "to my SPRIGGLE!"
 	prompt
 
 _Route8AfterBattleText9::
 	text "I heard that"
-	line "CLEFAIRY evolves"
+	line "SPRIGGLE evolves"
 	cont "when it's exposed"
-	cont "to a MOON STONE."
+	cont "to a HOLY SOUL"
+	cont "or a DARK SOUL."
 	done
 
 _Route8Text10::

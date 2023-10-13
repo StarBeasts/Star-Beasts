@@ -1,6 +1,6 @@
 _SSAnne10Text8::
-	text "MACHOKE: Gwoh!"
-	line "Goggoh!@"
+	text "LUZONEN: Me lift"
+	line "heavy thing.@"
 	text_end
 
 _SSAnne10BattleText1::
@@ -36,19 +36,35 @@ _SSAnne10AfterBattleText2::
 	done
 
 _SSAnne10BattleText3::
-	text "Us sailors have"
-	line "#MON too!"
+	text "HAH! GOTCHA!"
+
+	para "GIMME ALL YOUR"
+	line "MONEY, CHUMP!"
 	done
 
 _SSAnne10EndBattleText3::
-	text "OK, "
-	line "you're not bad."
+	text "..."
+	line "This never"
+	cont "happened."
 	prompt
 
 _SSAnne10AfterBattleText3::
-	text "We caught all our"
-	line "#MON while"
-	cont "out at sea!"
+	text "Work as a CHEF"
+	line "barely pays at"
+	cont "all, and there"
+	cont "are so many"
+	cont "dumb rich idiots"
+	cont "onboard!"
+	
+	para "Can you blame me"
+	line "for trying to"
+	cont "take money from"
+	cont "the rich and"
+	cont "give it to the"
+	cont "poor?"
+
+	para "The poor being"
+	line "me?"
 	done
 
 _SSAnne10BattleText4::
@@ -57,14 +73,15 @@ _SSAnne10BattleText4::
 	text_end
 
 _SSAnne10EndBattleText4::
-	text "Argh!"
-	line "Lost it!"
+	text "Hah!"
+	line "Feisty AND"
+	cont "strong!"
 	prompt
 
 _SSAnne10AfterBattleText4::
-	text "Sea #MON live"
-	line "in deep water."
-	cont "You'll need a ROD!"
+	text "Get back to me"
+	line "when you're a few"
+	cont "years older, kid!"
 	done
 
 _SSAnne10BattleText5::
@@ -79,7 +96,7 @@ _SSAnne10EndBattleText5::
 	prompt
 
 _SSAnne10AfterBattleText5::
-	text "Jellyfish some-"
+	text "Urchins some-"
 	line "times drift into"
 	cont "the ship."
 	done
@@ -105,7 +122,7 @@ _SSAnne10AfterBattleText6::
 	done
 
 _SSAnne10Text7::
-	text "My buddy, MACHOKE,"
+	text "My buddy, LUZONEN,"
 	line "is super strong!"
 
 	para "He has enough"

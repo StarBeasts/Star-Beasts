@@ -17,7 +17,7 @@ _CeladonMart1Text2::
 
 	para "3F: TV GAME SHOP"
 
-	para "4F: WISEMAN GIFTS"
+	para "4F: ELFMAN GIFTS"
 
 	para "5F: DRUG STORE"
 

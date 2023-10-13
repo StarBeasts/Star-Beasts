@@ -11,7 +11,7 @@ _SecretHouseText_4a350::
 	cont "campaign prize."
 
 	para "Congratulations!"
-	line "You have won!"
+	line "You won!"
 	prompt
 
 _ReceivedHM03Text::
