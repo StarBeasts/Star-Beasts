@@ -1,6 +1,6 @@
 	db DEX_CHARMANDER ; pokedex id
 
-	db  39,  52,  43,  65,  50
+	db  56,  30,  30,  65,  80
 	;   hp  atk  def  spd  spc
 
 	db FIRE, FIRE ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/charmander.pic", 0, 1 ; sprite dimensions
 	dw CharmanderPicFront, CharmanderPicBack
 
-	db SCRATCH, GROWL, NO_MOVE, NO_MOVE ; level 1 learnset
+	db POUND, SMOKESCREEN, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
