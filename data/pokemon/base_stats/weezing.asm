@@ -3,14 +3,14 @@
 	db  85, 110, 90,  85,  75
 	;   hp  atk  def  spd  spc
 
-	db POISON, POISON ; type
+	db POISON, FIGHTING ; type
 	db 60 ; catch rate
 	db 173 ; base exp
 
 	INCBIN "gfx/pokemon/front/weezing.pic", 0, 1 ; sprite dimensions
 	dw WeezingPicFront, WeezingPicBack
 
-	db TACKLE, SMOG, SLUDGE, NO_MOVE ; level 1 learnset
+	db BITE, SLASH, LEER, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

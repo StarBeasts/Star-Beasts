@@ -1159,13 +1159,13 @@ _ClefableDexEntry::
 	dex
 
 _WeezingDexEntry::
-	text "It shoves its"
-	next "victim's innards"
-	next "down its throat,"
+	text "The power of the"
+	next "MOON mutated it,"
+	next "making its venom"
 
-	page "howling hungrily"
-	next "as blood drips"
-	next "from its maw"
+	page "weaker, but also"
+	next "allowing it to"
+	next "fight on 2 legs"
 	dex
 
 _PersianDexEntry::
