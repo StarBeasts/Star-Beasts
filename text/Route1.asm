@@ -1,6 +1,6 @@
 _Route1ViridianMartSampleText::
 	text "Hi! I work at a"
-	line "#MON MART."
+	line "BEAST MART."
 
 	para "It's a convenient"
 	line "shop, so please"
@@ -22,7 +22,7 @@ _Route1Text_1cae8::
 _Route1Text_1caee::
 	text "We also carry"
 	line "# BALLs for"
-	cont "catching #MON!"
+	cont "catching BEASTS!"
 	done
 
 _Route1Text_1caf3::

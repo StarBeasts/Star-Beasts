@@ -28,7 +28,7 @@ _TM18NoRoomText::
 	done
 
 _CeladonMart3Text2::
-	text "Captured #MON"
+	text "Captured BEASTS"
 	line "are registered"
 	cont "with an ID No."
 	cont "and OT, the name"
@@ -43,7 +43,7 @@ _CeladonMart3Text3::
 	para "You don't need to"
 	line "do any trading to"
 	cont "get all the"
-	cont "#MON in this"
+	cont "BEASTS in this"
 	cont "game."
 	done
 
@@ -60,7 +60,7 @@ _CeladonMart3Text4::
 
 _CeladonMart3Text5::
 	text "You can identify"
-	line "#MON you got"
+	line "BEASTS you got"
 	cont "in trades by"
 	cont "their ID Numbers!"
 	done
@@ -70,12 +70,12 @@ _CeladonMart3Text6::
 	done
 
 _CeladonMart3Text7::
-	text "An RPG! There's"
-	line "no time for that!"
+	text "An RPG! Nope!"
+	line "You're too busy!"
 	done
 
 _CeladonMart3Text9::
-	text "A sports game!"
+	text "A shooting game!"
 	line "Dad'll like that!"
 	done
 
@@ -86,7 +86,7 @@ _CeladonMart3Text11::
 
 _CeladonMart3Text13::
 	text "A fighting game!"
-	line "Looks tough!"
+	line "Nice graphics!"
 	done
 
 _CeladonMart3Text14::
@@ -94,6 +94,6 @@ _CeladonMart3Text14::
 	done
 
 _CeladonMart3Text15::
-	text "METEOR and COMET!"
+	text "ASTEROID VERSION!"
 	line "It's STAR BEASTS!"
 	done

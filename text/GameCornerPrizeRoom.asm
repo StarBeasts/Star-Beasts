@@ -9,6 +9,11 @@ _CeladonPrizeRoomText1::
 
 _CeladonPrizeRoomText2::
 	text "I need me one of"
-	line "them combat robots"
+	line "them combat robot"
 	cont "they're selling!"
+
+	para "What?"
+	line "It's 'robots'?"
+	
+	para "Like I care!"
 	done

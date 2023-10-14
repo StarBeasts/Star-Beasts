@@ -36,7 +36,7 @@ _SilphCo10Text_6231c::
 	cont "BALL!"
 
 	para "It will catch any"
-	line "#MON without"
+	line "# BEAST without"
 	cont "fail!"
 
 	para "You should be"
@@ -101,7 +101,7 @@ _SilphCo10Text_62335::
 
 	para "<PLAYER>! Never"
 	line "forget that all"
-	cont "#MON exist"
+	cont "# BEASTS exist"
 	cont "for TEAM ROCKET!"
 
 	para "I must go, but I"
@@ -148,5 +148,5 @@ _SilphCo11AfterBattleText2::
 
 _SilphCo10Text_6237b::
 	text "The monitor has"
-	line "#MON on it!"
+	line "#BEASTS on it!"
 	done

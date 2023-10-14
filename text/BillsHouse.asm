@@ -11,12 +11,12 @@ _BillsHouseText_1e865::
 	para "Ahem."	
 
 	para "Hiya! I'm a"
-	line "#MON..."
+	line "BEAST..."
 	cont "...No I'm not!"
 
 	para "Call me BILL!"
 	line "I'm a true blue"
-	cont "#MANIAC! Hey!"
+	cont "COLLECTOR! Hey!"
 	cont "What's with that"
 	cont "skeptical look?"
 
@@ -24,7 +24,7 @@ _BillsHouseText_1e865::
 	line "you, I screwed up"
 	cont "an experiment and"
 	cont "got combined with"
-	cont "a #MON!"
+	cont "a BEAST!"
 
 	para "So, how about it?"
 	line "Help me out here!"
@@ -55,7 +55,7 @@ _BillThankYouText::
 	cont "owe you one!"
 
 	para "So, did you come"
-	line "to see my #MON"
+	line "to see my BEAST"
 	cont "collection?"
 	cont "You didn't?"
 	cont "That's a bummer."
@@ -87,7 +87,7 @@ _BillsHouseText_1e8cb::
 	para "They invited me"
 	line "to their party,"
 	cont "but I can't stand"
-	cont "fancy do's. Why"
+	cont "rich folks. Why"
 	cont "don't you go"
 	cont "instead of me?"
 	done
@@ -96,5 +96,5 @@ _BillsHouseText_1e8da::
 	text "BILL: Look, kid,"
 	line "just check out"
 	cont "some of my rare"
-	cont "#MON on my PC!"
+	cont "BEASTS on my PC!"
 	done

@@ -1,7 +1,7 @@
 _MistyPreBattleText::
 	text "Aloha!"
 
-	para "#MON battles"
+	para "BEAST battles"
 	line "are a lot like"
 	cont "surfing!"
 
@@ -22,12 +22,12 @@ _TM11ExplanationText::
 	line "BUBBLEBEAM!"
 
 	para "Use it on an"
-	line "aquatic #MON!"
+	line "aquatic BEAST!"
 	done
 
 _MistyCascadeBadgeInfoText::
 	text "The CASCADEBADGE"
-	line "makes all #MON"
+	line "makes all BEASTS"
 	cont "up to L30 obey!"
 
 	para "That includes"
@@ -51,8 +51,10 @@ _ReceivedTM11Text::
 	text_end
 
 _TM11NoRoomText::
-	text "You better make"
-	line "room for this!"
+	text "WOAH!"
+	line "How do you carry"
+	cont "that much stuff"
+	cont "around, anyway?"
 	done
 
 _ReceivedCascadeBadgeText::
@@ -113,13 +115,13 @@ _CeruleanGymGuidePreBattleText::
 
 	para "The LEADER, MIZU,"
 	line "is a pro who uses"
-	cont "water #MON!"
+	cont "water BEASTS!"
 
 	para "You can drain all"
 	line "their water with"
-	cont "plant #MON!"
+	cont "plant BEASTS!"
 
-	para "Or, zap them with"
+	para "Or, zap 'em with"
 	line "electricity!"
 	done
 

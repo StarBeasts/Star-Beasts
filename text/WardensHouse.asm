@@ -54,7 +54,7 @@ _HM04ExplanationText::
 	text "WARDEN: HM04"
 	line "teaches STRENGTH!"
 
-	para "It lets #MON"
+	para "It lets BEASTS"
 	line "move boulders"
 	cont "when you're out-"
 	cont "side of battle."
@@ -85,6 +85,6 @@ _FuchsiaHouse2Text_75176::
 	done
 
 _FuchsiaHouse2Text_7517b::
-	text "Old #MON"
+	text "Old # BEASTS"
 	line "merchandise."
 	done

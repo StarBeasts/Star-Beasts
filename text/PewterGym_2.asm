@@ -3,9 +3,9 @@ _BrockPostBattleAdviceText::
 	line "kinds of trainers"
 	cont "in the world!"
 
-	para "You appear to be"
-	line "very gifted as a"
-	cont "#MON trainer!"
+	para "You got the stuff"
+	line "to go real far"
+	cont "as a trainer!"
 
 	para "Go to the GYM in"
 	line "CERULEAN and test"
@@ -28,27 +28,27 @@ _TM34ExplanationText::
 	para "A TM contains a"
 	line "technique that"
 	cont "can be taught to"
-	cont "#MON!"
+	cont "BEASTS!"
 
 	para "A TM is good only"
 	line "once! So when you"
 	cont "use one to teach"
 	cont "a new technique,"
-	cont "pick the #MON"
+	cont "pick the BEAST"
 	cont "carefully!"
 
 	para "TM34 contains"
 	line "BIDE!"
 
-	para "Your #MON will"
-	line "absorb damage in"
-	cont "battle then pay"
+	para "Your BEAST will"
+	line "take a wicked"
+	cont "beating then pay"
 	cont "it back double!"
 	done
 
 _TM34NoRoomText::
-	text "You don't have"
-	line "room for this!"
+	text "Make some room,"
+	line "little dude!"
 	done
 
 _ReceivedBoulderBadgeText::
@@ -67,11 +67,11 @@ _BrockBoulerBadgeInfoText::
 	text_start
 
 	para "That's an official"
-	line "#MON LEAGUE"
+	line "STAR BEAST LEAGUE"
 	cont "BADGE!"
 
 	para "Its bearer's"
-	line "#MON become"
+	line "BEASTS become"
 	cont "more powerful!"
 
 	para "The technique"
@@ -89,7 +89,7 @@ _PewterGymBattleText1::
 	done
 
 _PewterGymEndBattleText1::
-	text "Darn!"
+	text "Dang!"
 
 	para "Light years isn't"
 	line "time! It measures"
@@ -106,7 +106,7 @@ _PewterGymGuidePreAdviceText::
 	text "Hiya! I can tell"
 	line "you have what it"
 	cont "takes to become a"
-	cont "#MON champ!"
+	cont "STAR BEAST champ!"
 
 	para "I'm no trainer,"
 	line "but I can tell"
@@ -122,13 +122,13 @@ _PewterGymGuideBeginAdviceText::
 	prompt
 
 _PewterGymGuideAdviceText::
-	text "The 1st #MON"
+	text "The 1st BEAST"
 	line "out in a match is"
 	cont "at the top of the"
-	cont "#MON LIST!"
+	cont "BEAST LIST!"
 
 	para "By changing the"
-	line "order of #MON,"
+	line "order of BEASTS,"
 	cont "matches could be"
 	cont "made easier!"
 	done
@@ -141,6 +141,6 @@ _PewterGymText_5c524::
 
 _PewterGymGuidePostBattleText::
 	text "Just as I thought!"
-	line "You're #MON"
+	line "You're STAR BEAST"
 	cont "champ material!"
 	done

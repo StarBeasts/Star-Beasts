@@ -65,11 +65,11 @@ _ErikaPostBattleAdviceText::
 
 _ErikaRainbowBadgeInfoText::
 	text "The RAINBOWBADGE"
-	line "will make #MON"
+	line "will make BEASTS"
 	cont "up to L50 obey."
 
 	para "It also allows"
-	line "#MON to use"
+	line "BEASTS to use"
 	cont "STRENGTH in and"
 	cont "out of battle."
 
@@ -93,7 +93,7 @@ _TM21ExplanationText::
 	para "Half the damage"
 	line "it inflicts is"
 	cont "drained to heal"
-	cont "your #MON!"
+	cont "your BEASTS!"
 	done
 
 _TM21NoRoomText::
@@ -132,18 +132,18 @@ _CeladonGymEndBattleText3::
 	prompt
 
 _CeladonGymAfterBattleText3::
-	text "Grass-type #MON"
+	text "Grass-type BEASTS"
 	line "are tough against"
 	cont "the water-type!"
 
 	para "They also have an"
 	line "edge on rock and"
-	cont "ground #MON!"
+	cont "ground BEASTS!"
 	done
 
 _CeladonGymBattleText4::
-	text "Aren't you the"
-	line "peeping Tom?"
+	text "Jeepers creepers,"
+	line "we have a peeper!"
 	done
 
 _CeladonGymEndBattleText4::
@@ -159,7 +159,7 @@ _CeladonGymAfterBattleText4::
 
 _CeladonGymBattleText5::
 	text "Look at my grass"
-	line "#MON!"
+	line "# BEASTS!"
 
 	para "They're so easy"
 	line "to raise!"
@@ -171,7 +171,7 @@ _CeladonGymEndBattleText5::
 
 _CeladonGymAfterBattleText5::
 	text "We only use grass-"
-	line "type #MON at"
+	line "type BEASTS at"
 	cont "our GYM!"
 
 	para "We also use them"
@@ -199,7 +199,7 @@ _CeladonGymAfterBattleText6::
 _CeladonGymBattleText7::
 	text "Pleased to meet"
 	line "you. My hobby is"
-	cont "#MON training."
+	cont "BEAST training."
 	done
 
 _CeladonGymEndBattleText7::

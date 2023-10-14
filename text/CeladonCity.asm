@@ -25,14 +25,14 @@ _CeladonCityText3::
 _CeladonCityText4::
 	text "Did you know?"
 
-	para "Some #MON"
+	para "Some BEASTS"
 	line "evolve in two"
 	cont "different ways!"
 	
 	para "For example,"
 	line "ROCKEN evolves"
 	cont "into a different"
-	cont "#MON depending"
+	cont "BEAST depending"
 	cont "on if it's given"
 	cont "LIQUID STEEL or a"
 	cont "HOLY SOUL."
@@ -60,7 +60,7 @@ _TM41ExplanationText::
 	text "TM41 teaches"
 	line "SOFTBOILED!"
 
-	para "Only a few #MON"
+	para "Only a few BEASTS"
 	line "can use it!"
 
 	para "Now, which ones"
@@ -126,7 +126,7 @@ _CeladonCityText11::
 
 _CeladonCityText13::
 	text "CELADON CITY"
-	line "#MON GYM"
+	line "# BEAST GYM"
 	cont "LEADER: LISBETH"
 
 	para "The Rough, Tough"
@@ -147,7 +147,7 @@ _CeladonCityText16::
 	text "TRAINER TIPS"
 
 	para "GUARD SPEC."
-	line "protects #MON"
+	line "protects BEASTS"
 	cont "against SPECIAL"
 	cont "attacks such as"
 	cont "fire and water!"

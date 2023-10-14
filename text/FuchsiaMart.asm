@@ -10,6 +10,6 @@ _FuchsiaMartText2::
 _FuchsiaMartText3::
 	text "Did you try X"
 	line "SPEED? It speeds"
-	cont "up a #MON in"
+	cont "up a BEAST in"
 	cont "battle!"
 	done

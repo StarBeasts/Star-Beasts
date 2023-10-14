@@ -22,7 +22,7 @@ _Lab4Text_75dd0::
 
 	para "I don't work"
 	line "well under a"
-	cont "timeline."
+	cont "time crunch."
 
 	para "It'll be done"
 	line "when it's done."
@@ -50,12 +50,12 @@ _Lab4Text_610ae::
 	line "@"
 	text_ram wStringBuffer
 	text ", a"
-	cont "#MON that is"
+	cont "BEAST that is"
 	cont "already extinct!"
 
 	para "My Resurrection"
 	line "Machine will make"
-	cont "that #MON live"
+	cont "that BEAST live"
 	cont "again!"
 	done
 

@@ -26,7 +26,7 @@ _ReceivingHM01Text::
 	line "have this!"
 
 	para "Teach it to your"
-	line "#MON and you"
+	line "BEAST and you"
 	cont "can see it CUT"
 	cont "any time!"
 	prompt
@@ -58,8 +58,8 @@ _SSAnne7Text2::
 	done
 
 _SSAnne7Text3::
-	text "How to Conquer"
-	line "Seasickness..."
+	text "Seasickness and"
+	line "you, a Guide..."
 	cont "The CAPTAIN's"
 	cont "reading this!"
 	done

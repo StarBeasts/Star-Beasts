@@ -5,7 +5,7 @@ TrainerNames::
 	db "SAILOR@"
 	db "JR.TRAINER♂@"
 	db "JR.TRAINER♀@"
-	db "POKéMANIAC@"
+	db "COLLECTOR@"
 	db "SUPER NERD@"
 	db "HIKER@"
 	db "BIKER@"

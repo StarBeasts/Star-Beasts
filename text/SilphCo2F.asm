@@ -21,7 +21,7 @@ _TM36ExplanationText::
 	line "SELFDESTRUCT!"
 
 	para "It's powerful, but"
-	line "the #MON that"
+	line "the BEAST that"
 	cont "uses it faints!"
 	cont "Be careful."
 	done
@@ -43,14 +43,16 @@ _SilphCo2EndBattleText1::
 	prompt
 
 _SilphCo2AfterBattleText1::
-	text "I work for both"
-	line "SILPH and TEAM"
-	cont "ROCKET!"
+	text "I'm a contract"
+	line "worker! I play"
+	cont "both sides!"
 	done
 
 _SilphCo2BattleText2::
-	text "It's off limits"
-	line "here! Go home!"
+	text "Hey, kid. It"
+	line "ain't bring"
+	cont "your daughter"
+	cont "to work day!"
 	done
 
 _SilphCo2EndBattleText2::
@@ -59,8 +61,9 @@ _SilphCo2EndBattleText2::
 	prompt
 
 _SilphCo2AfterBattleText2::
-	text "Can you solve the"
-	line "maze in here?"
+	text "Whatever. Not"
+	line "paid enough"
+	cont "to care."
 	done
 
 _SilphCo2BattleText3::

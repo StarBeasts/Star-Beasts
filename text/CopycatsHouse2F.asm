@@ -1,12 +1,13 @@
 _CopycatsHouse2FText_5ccd4::
 	text "<PLAYER>: Hi! Do"
-	line "you like #MON?"
+	line "you like BEASTs?"
 
-	para "<PLAYER>: Uh no, I"
-	line "just asked you."
+	para "<PLAYER>: What"
+	line "are you doing?"
 
 	para "<PLAYER>: Huh?"
-	line "You're strange!"
+	line "What're YOU"
+	cont "doing?"
 
 	para "COPYCAT: Hmm?"
 	line "Quit mimicking?"
@@ -40,7 +41,7 @@ _TM31ExplanationText1::
 	line "favorite, MIMIC!"
 
 	para "Use it on a good"
-	line "#MON!@"
+	line "BEAST!@"
 	text_end
 
 _TM31ExplanationText2::
@@ -49,12 +50,11 @@ _TM31ExplanationText2::
 
 	para "<PLAYER>: Pardon?"
 
-	para "<PLAYER>: Is it"
-	line "that fun to mimic"
-	cont "my every move?"
+	para "<PLAYER>: I DIDN'T"
+	line "SAY THAT!"
 
-	para "COPYCAT: You bet!"
-	line "It's hilarious!"
+	para "COPYCAT: Aww,"
+	line "you're no fun!"
 	done
 
 _TM31NoRoomText::
@@ -63,25 +63,24 @@ _TM31NoRoomText::
 	text_end
 
 _CopycatsHouse2FText2::
-	text "CORDATUS: Geeeh!"
+	text "CORDATUS: Kiiih!"
 
-	para "MIRROR MIRROR ON"
-	line "THE WALL, WHO IS"
-	cont "THE FAIREST ONE"
-	cont "OF ALL?"
+	para "PLEASE PLAY WITH"
+	line "MY MASTER."
+	
+	para "SHE LOVES COMPANY."
 	done
 
 _CopycatsHouse2FText3::
 	text "This is a rare"
-	line "#MON! Huh?"
+	line "BEAST! Huh?"
 	cont "It's only a doll!"
 	done
 
 _CopycatsHouse2FText6::
-	text "A game with a man"
-	line "in a bucket"
-	cont "climbing a"
-	cont "mountain!"
+	text "A game about"
+	line "raising and"
+	cont "taming dragons!"
 	done
 
 _CopycatsHouse2FText_5cd17::
@@ -92,7 +91,7 @@ _CopycatsHouse2FText_5cd17::
 	para "Skill: Mimicry!"
 	line "Hobby: Collecting"
 	cont "dolls!"
-	cont "Favorite #MON:"
+	cont "Favorite BEAST:"
 	cont "SPRIGGLE!"
 	done
 

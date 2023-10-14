@@ -19,7 +19,7 @@ _TM35ExplanationText::
 	cont "of a METRONOME!"
 
 	para "It tweaks your"
-	line "#MON's brain"
+	line "BEAST's brain"
 	cont "into using moves"
 	cont "it doesn't know!"
 	done
@@ -33,7 +33,7 @@ _Lab3Text2::
 	text "UNIQUORN can"
 	line "evolve into 1 of"
 	cont "3 different kinds"
-	cont "of #MON."
+	cont "of BEAST."
 	done
 
 _Lab3Text3::
@@ -59,7 +59,7 @@ _Lab3Text3::
 	line "the cavern close"
 	cont "to CERULEAN."
 
-	para "From: #MON"
+	para "From: # BEAST"
 	line "RESEARCH TEAM"
 
 	para "..."

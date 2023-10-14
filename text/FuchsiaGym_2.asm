@@ -1,6 +1,6 @@
 _KogaPostBattleAdviceText::
 	text "When afflicted by"
-	line "TOXIC, #MON"
+	line "TOXIC, BEASTS"
 	cont "suffer more and"
 	cont "more as battle"
 	cont "progresses!"
@@ -15,7 +15,7 @@ _KogaSoulBadgeInfoText::
 	text "Now that you have"
 	line "the SOULBADGE,"
 	cont "the DEFENSE of"
-	cont "your #MON"
+	cont "your BEASTS"
 	cont "increases!"
 
 	para "It also lets you"

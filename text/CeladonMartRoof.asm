@@ -102,7 +102,7 @@ _CeladonMartRoofText1::
 	cont "it or not."
 
 	para "But, she's so"
-	line "immature, she"
+	line "whiny, she"
 	cont "drives me nuts!"
 	done
 

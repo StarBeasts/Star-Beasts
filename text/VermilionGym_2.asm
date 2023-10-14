@@ -150,10 +150,10 @@ _VermilionGymGuidePreBattleText::
 
 	para "She's also an"
 	line "expert on"
-	cont "electric #MON!"
+	cont "electric BEASTS!"
 
 	para "Birds and water"
-	line "#MON are at"
+	line "BEASTS are at"
 	cont "risk! Beware of"
 	cont "paralysis too!"
 

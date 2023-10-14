@@ -15,7 +15,7 @@ _BrockPreBattleText::
 	cont "free your soul!"
 
 	para "That's why my"
-	line "#MON are all"
+	line "BEASTS are all"
 	cont "the rock-type!"
 
 	para "Do you still want"

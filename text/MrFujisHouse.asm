@@ -18,12 +18,12 @@ _LavenderHouse1Text_1d8f4::
 
 	para "He looks after"
 	line "abandoned and"
-	cont "orphaned #MON!"
+	cont "orphaned BEASTS!"
 	done
 
 _LavenderHouse1Text_1d8f9::
 	text "It's so warm!"
-	line "#MON are so"
+	line "BEASTS are so"
 	cont "nice to hug!"
 	done
 
@@ -41,7 +41,7 @@ _LavenderHouse1Text_1d94c::
 	para "Your #DEX quest"
 	line "may fail without"
 	cont "love for your"
-	cont "#MON."
+	cont "# BEASTS."
 
 	para "I think this may"
 	line "help your quest."
@@ -59,11 +59,11 @@ _FluteExplanationText::
 
 	para "Upon hearing #"
 	line "FLUTE, sleeping"
-	cont "#MON will"
+	cont "# BEASTS will"
 	cont "spring awake."
 
 	para "It works on all"
-	line "sleeping #MON."
+	line "sleeping BEASTS."
 	done
 
 _FluteNoRoomText::
@@ -77,7 +77,7 @@ _MrFujiAfterFluteText::
 	done
 
 _LavenderHouse1Text6::
-	text "#MON Monthly"
+	text "STRBST Monthly"
 	line "Grand Prize"
 	cont "Drawing!"
 

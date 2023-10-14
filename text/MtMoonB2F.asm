@@ -42,7 +42,7 @@ _MtMoon3Text_49f8f::
 _MtMoon3Text_49f94::
 	text "Far away, on"
 	line "CINNABAR ISLAND,"
-	cont "there's a #MON"
+	cont "there's a BEAST"
 	cont "LAB."
 
 	para "They do research"
@@ -75,7 +75,7 @@ _MtMoon3AfterBattleText2::
 
 _MtMoon3BattleText3::
 	text "We, TEAM ROCKET,"
-	line "are #MON"
+	line "are # BEAST"
 	cont "gangsters!"
 	done
 
@@ -85,7 +85,7 @@ _MtMoon3EndBattleText3::
 	prompt
 
 _MtMoon3AfterBattleText3::
-	text "Darn it all! My"
+	text "Damn it all! My"
 	line "associates won't"
 	cont "stand for this!"
 	done
@@ -115,12 +115,12 @@ _MtMoon3BattleText5::
 	done
 
 _MtMoon3EndBattleText5::
-	text "I'm"
-	line "steamed!"
+	text "D'oh!"
+	line "My NEEDOLF!"
 	prompt
 
 _MtMoon3AfterBattleText5::
-	text "#MON lived"
+	text "# BEASTS lived"
 	line "here long before"
 	cont "people came."
 	done

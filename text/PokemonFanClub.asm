@@ -41,20 +41,21 @@ FanClubSeelText::
 
 FanClubMeetChairText::
 	text "I chair the"
-	line "#MON Fan Club!"
+	line "STAR BEAST"
+	cont "Fan Club!"
 
 	para "I have collected"
-	line "over 100 #MON!"
+	line "over 100 BEASTS!"
 
 	para "I'm very fussy"
 	line "when it comes to"
-	cont "#MON!"
+	cont "# BEASTS!"
 
 	para "So..."
 
 	para "Did you come"
 	line "visit to hear"
-	cont "about my #MON?"
+	cont "about my BEASTS?"
 	done
 
 FanClubChairStoryText::
@@ -121,7 +122,7 @@ FanClubChairFinalText::
 
 	para "Did you come see"
 	line "me about my"
-	cont "#MON again?"
+	cont "BEASTS again?"
 
 	para "No? Too bad!"
 	done
@@ -134,7 +135,7 @@ FanClubBagFullText::
 _FanClubText6::
 	text "Our Chairman is"
 	line "very vocal about"
-	cont "#MON."
+	cont "# BEASTS."
 	done
 
 _FanClubText7::

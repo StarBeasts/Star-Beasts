@@ -1,6 +1,6 @@
 _Route10BattleText1::
 	text "Wow, are you a"
-	line "#MANIAC too?"
+	line "COLLECTOR too?"
 	cont "Want to see my"
 	cont "collection?"
 	done
@@ -12,7 +12,7 @@ _Route10EndBattleText1::
 
 _Route10AfterBattleText1::
 	text "I have more rare"
-	line "#MON at home!"
+	line "BEASTS at home!"
 	done
 
 _Route10BattleText2::
@@ -34,34 +34,36 @@ _Route10AfterBattleText2::
 
 _Route10BattleText3::
 	text "Hi kid, want to"
-	line "see my #MON?"
+	line "see my team?"
 	done
 
 _Route10EndBattleText3::
 	text "Oh no!"
-	line "My #MON!"
+	line "My BEASTS!"
 	prompt
 
 _Route10AfterBattleText3::
-	text "I don't like you"
-	line "for beating me!"
+	text "You're a jerk!"
+
+	para "Beating up my"
+	line "BEASTS..."
 	done
 
 _Route10BattleText4::
 	text "I've been to a"
-	line "#MON GYM a few"
+	line "BEAST GYM a few"
 	cont "times. But, I"
 	cont "lost each time."
 	done
 
 _Route10EndBattleText4::
 	text "Ohh!"
-	line "Blew it again!"
+	line "Darnit, not again!"
 	prompt
 
 _Route10AfterBattleText4::
 	text "I noticed some"
-	line "#MANIACs"
+	line "COLLECTORs"
 	cont "prowling around."
 	done
 
@@ -88,9 +90,9 @@ _Route10AfterBattleText5::
 	done
 
 _Route10BattleText6::
-	text "I'm feeling a bit"
-	line "faint from this"
-	cont "tough hike."
+	text "Whew. Hiking"
+	line "here takes a"
+	cont "lot outta you."
 	done
 
 _Route10EndBattleText6::
@@ -99,7 +101,7 @@ _Route10EndBattleText6::
 	prompt
 
 _Route10AfterBattleText6::
-	text "The #MON here"
+	text "The BEASTS here"
 	line "are so chunky!"
 	cont "There should be a"
 	cont "blue one with a"
