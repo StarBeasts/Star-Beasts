@@ -156,17 +156,17 @@ _GymStatueText2::
 	done
 
 _ViridianCityPokecenterGuyText::
-	text "#MON CENTERs"
+	text "# BEAST CENTERs"
 	line "heal your tired,"
 	cont "hurt or fainted"
-	cont "#MON!"
+	cont "# BEASTS!"
 	done
 
 _PewterCityPokecenterGuyText::
 	text "Yawn!"
 
 	para "When ROCKEN"
-	line "sings, #MON"
+	line "sings, BEASTS"
 	cont "get drowsy..."
 
 	para "...Me too..."
@@ -175,7 +175,7 @@ _PewterCityPokecenterGuyText::
 
 _CeruleanPokecenterGuyText::
 	text "BILL has lots of"
-	line "#MON!"
+	line "# BEASTS!"
 
 	para "He collects rare"
 	line "ones too!"
@@ -193,7 +193,7 @@ _LavenderPokecenterGuyText::
 
 _MtMoonPokecenterBenchGuyText::
 	text "If you have too"
-	line "many #MON, you"
+	line "many BEASTS, you"
 	cont "should store them"
 	cont "via PC!"
 	done
@@ -206,7 +206,7 @@ _RockTunnelPokecenterGuyText::
 
 _UnusedBenchGuyText1::
 	text "I wish I could"
-	line "catch #MON."
+	line "catch # BEASTS."
 	done
 
 _UnusedBenchGuyText2::
@@ -223,17 +223,17 @@ _UnusedBenchGuyText3::
 _VermilionPokecenterGuyText::
 	text "It is true that a"
 	line "higher level"
-	cont "#MON will be"
+	cont "BEASTS will be"
 	cont "more powerful..."
 
-	para "But, all #MON"
+	para "But, all BEASTS"
 	line "will have weak"
 	cont "points against"
 	cont "specific types."
 
 	para "So, there is no"
 	line "universally"
-	cont "strong #MON."
+	cont "strong BEAST."
 	done
 
 _CeladonCityPokecenterGuyText::
@@ -244,15 +244,15 @@ _CeladonCityPokecenterGuyText::
 
 _FuchsiaCityPokecenterGuyText::
 	text "If you're studying "
-	line "#MON, visit"
+	line "# BEASTS, visit"
 	cont "the SAFARI ZONE."
 
 	para "It has all sorts"
-	line "of rare #MON."
+	line "of rare BEASTS."
 	done
 
 _CinnabarPokecenterGuyText::
-	text "#MON can still"
+	text "BEASTS can still"
 	line "learn techniques"
 	cont "after canceling"
 	cont "evolution."
@@ -283,7 +283,7 @@ _CeladonCityHotelText::
 
 _BookcaseText::
 	text "Crammed full of"
-	line "#MON books!"
+	line "# BEASTS books!"
 	done
 
 _NewBicycleText::
@@ -303,7 +303,7 @@ _SaveOptionText::
 	done
 
 _StrengthsAndWeaknessesText::
-	text "All #MON types"
+	text "All BEAST types"
 	line "have strong and"
 	cont "weak points"
 	cont "against others."
@@ -321,7 +321,7 @@ _GameOverText::
 	done
 
 _CinnabarGymQuizIntroText::
-	text "#MON Quiz!"
+	text "# BEASTS Quiz!"
 
 	para "Get it right and"
 	line "the door opens to"
@@ -332,7 +332,7 @@ _CinnabarGymQuizIntroText::
 
 	para "If you want to"
 	line "conserve your"
-	cont "#MON for the"
+	cont "BEASTS for the"
 	cont "GYM LEADER..."
 
 	para "Then get it right!"
@@ -390,11 +390,11 @@ _CinnabarGymQuizIncorrectText::
 	prompt
 
 _MagazinesText::
-	text "#MON magazines!"
+	text "#BIE magazines!"
 
-	para "#MON notebooks!"
+	para "#BIE notebooks!"
 
-	para "#MON graphs!"
+	para "#BIE graphs!"
 	done
 
 _BillsHouseMonitorText::
@@ -411,11 +411,11 @@ _BillsHouseInitiatedText::
 
 _BillsHousePokemonListText1::
 	text "BILL's favorite"
-	line "#MON list!"
+	line "# BEAST list!"
 	prompt
 
 _BillsHousePokemonListText2::
-	text "Which #MON do"
+	text "Which BEAST do"
 	line "you want to see?"
 	done
 
@@ -426,19 +426,19 @@ _OakLabEmailText::
 	para "..."
 
 	para "Calling all"
-	line "#MON trainers!"
+	line "BEAST trainers!"
 
 	para "The elite trainers"
-	line "of #MON LEAGUE"
+	line "of STRBST LEAGUE"
 	cont "are ready to take"
 	cont "on all comers!"
 
 	para "Bring your best"
-	line "#MON and see"
+	line "BEASTS and see"
 	cont "how you rate as a"
 	cont "trainer!"
 
-	para "#MON LEAGUE HQ"
+	para "STRBST LEAGUE HQ"
 	line "INDIGO PLATEAU"
 
 	para "PS: PROF.CHERRY,"
@@ -508,21 +508,21 @@ _ViridianSchoolNotebookText1::
 
 	para "# BALLs are"
 	line "used to catch"
-	cont "#MON."
+	cont "# BEASTS."
 
-	para "Up to 6 #MON"
+	para "Up to 6 BEASTS"
 	line "can be carried."
 
 	para "People who raise"
-	line "and make #MON"
+	line "and make STRBSTS"
 	cont "fight are called"
-	cont "#MON trainers."
+	cont "BEAST trainers."
 	prompt
 
 _ViridianSchoolNotebookText2::
 	text "Second page..."
 
-	para "A healthy #MON"
+	para "A healthy BEAST"
 	line "may be hard to"
 	cont "catch, so weaken"
 	cont "it first!"
@@ -535,30 +535,30 @@ _ViridianSchoolNotebookText2::
 _ViridianSchoolNotebookText3::
 	text "Third page..."
 
-	para "#MON trainers"
+	para "STRBST trainers"
 	line "seek others to"
-	cont "engage in #MON"
+	cont "engage in BEAST"
 	cont "fights."
 
 	para "Battles are"
 	line "constantly fought"
-	cont "at #MON GYMs."
+	cont "at STRBST GYMs."
 	prompt
 
 _ViridianSchoolNotebookText4::
 	text "Fourth page..."
 
 	para "The goal for"
-	line "#MON trainers"
+	line "STRBST trainers"
 	cont "is to beat the "
-	cont "top 8 #MON"
+	cont "top 8 BEAST"
 	cont "GYM LEADERs."
 
 	para "Do so to earn the"
 	line "right to face..."
 
 	para "The ELITE FOUR of"
-	line "#MON LEAGUE!"
+	line "STRBST LEAGUE!"
 	prompt
 
 _EnemiesOnEverySideText::
@@ -583,7 +583,7 @@ _FightingDojoText::
 
 _IndigoPlateauHQText::
 	text "INDIGO PLATEAU"
-	line "#MON LEAGUE HQ"
+	line "STRBST LEAGUE HQ"
 	done
 
 _RedBedroomSNESText::
@@ -699,11 +699,11 @@ _ViridianSchoolBlackboardText2::
 	done
 
 _ViridianBlackboardSleepText::
-	text "A #MON can't"
+	text "A BEAST can't"
 	line "attack if it's"
 	cont "asleep!"
 
-	para "#MON will stay"
+	para "BEASTS will stay"
 	line "asleep even after"
 	cont "battles."
 
@@ -713,7 +713,7 @@ _ViridianBlackboardSleepText::
 
 _ViridianBlackboardPoisonText::
 	text "When poisoned, a"
-	line "#MON's health"
+	line "BEAST's health"
 	cont "steadily drops."
 
 	para "Poison lingers"
@@ -725,7 +725,7 @@ _ViridianBlackboardPoisonText::
 
 _ViridianBlackboardPrlzText::
 	text "Paralysis could"
-	line "make #MON"
+	line "make BEAST"
 	cont "moves misfire!"
 
 	para "Paralysis remains"
@@ -750,7 +750,7 @@ _ViridianBlackboardBurnText::
 
 _ViridianBlackboardFrozenText::
 	text "If frozen, a"
-	line "#MON becomes"
+	line "BEAST becomes"
 	cont "totally immobile!"
 
 	para "It stays frozen"
@@ -758,7 +758,7 @@ _ViridianBlackboardFrozenText::
 	cont "battle ends."
 
 	para "Use ICE HEAL to"
-	line "thaw out #MON!"
+	line "thaw out BEASTS!"
 	prompt
 
 _VermilionGymTrashText::
@@ -838,18 +838,18 @@ _IndigoPlateauStatuesText1::
 _IndigoPlateauStatuesText2::
 	text "The ultimate goal"
 	line "of trainers!"
-	cont "#MON LEAGUE HQ"
+	cont "STRBST LEAGUE HQ"
 	done
 
 _IndigoPlateauStatuesText3::
 	text "The highest"
-	line "#MON authority"
-	cont "#MON LEAGUE HQ"
+	line "BEAST authority"
+	cont "STRBST LEAGUE HQ"
 	done
 
 _PokemonBooksText::
 	text "Crammed full of"
-	line "#MON books!"
+	line "# BEASTS books!"
 	done
 
 _DiglettSculptureText::
@@ -868,7 +868,7 @@ _TownMapText::
 
 _PokemonStuffText::
 	text "Wow! Tons of"
-	line "#MON stuff!"
+	line "#BIE stuff!"
 	done
 
 _OutOfSafariBallsText::
@@ -935,7 +935,7 @@ _PlayerMonFaintedText::
 	prompt
 
 _UseNextMonText::
-	text "Use next #MON?"
+	text "Use next BEAST?"
 	done
 
 _Rival1WinText::
@@ -945,7 +945,7 @@ _Rival1WinText::
 
 _PlayerBlackedOutText2::
 	text "<PLAYER> is out of"
-	line "useable #MON!"
+	line "useable BEASTS!"
 
 	para "<PLAYER> blacked"
 	line "out!"
@@ -967,7 +967,7 @@ _TrainerAboutToUseText::
 	text "!"
 
 	para "Will <PLAYER>"
-	line "change #MON?"
+	line "change BEASTS?"
 	done
 
 _TrainerSentOutText::
@@ -1408,26 +1408,26 @@ _WhichFloorText::
 	done
 
 _PartyMenuNormalText::
-	text "Choose a #MON."
+	text "Choose a BEAST."
 	done
 
 _PartyMenuItemUseText::
 	text "Use item on which"
-	line "#MON?"
+	line "BEAST?"
 	done
 
 _PartyMenuBattleText::
 	text "Bring out which"
-	line "#MON?"
+	line "BEAST?"
 	done
 
 _PartyMenuUseTMText::
 	text "Use TM on which"
-	line "#MON?"
+	line "BEAST?"
 	done
 
 _PartyMenuSwapMonText::
-	text "Move #MON"
+	text "Move BEAST"
 	line "where?"
 	done
 
@@ -1498,7 +1498,7 @@ _AccessedBillsPCText::
 	text "Accessed BILL's"
 	line "PC."
 
-	para "Accessed #MON"
+	para "Accessed BEAST"
 	line "Storage System."
 	prompt
 
@@ -1506,7 +1506,7 @@ _AccessedSomeonesPCText::
 	text "Accessed someone's"
 	line "PC."
 
-	para "Accessed #MON"
+	para "Accessed BEAST"
 	line "Storage System."
 	prompt
 
@@ -1588,7 +1588,7 @@ _TossHowManyText::
 	done
 
 _AccessedHoFPCText::
-	text "Accessed #MON"
+	text "Accessed STRBST"
 	line "LEAGUE's site."
 
 	para "Accessed the HALL"
@@ -1605,7 +1605,7 @@ _WhatText::
 
 _DepositWhichMonText::
 	text "Deposit which"
-	line "#MON?"
+	line "BEAST?"
 	done
 
 _MonWasStoredText::
@@ -1618,12 +1618,12 @@ _MonWasStoredText::
 
 _CantDepositLastMonText::
 	text "You can't deposit"
-	line "the last #MON!"
+	line "the last BEAST!"
 	prompt
 
 _BoxFullText::
 	text "Oops! This Box is"
-	line "full of #MON."
+	line "full of BEASTS."
 	prompt
 
 _MonIsTakenOutText::
@@ -1637,20 +1637,20 @@ _MonIsTakenOutText::
 
 _NoMonText::
 	text "What? There are"
-	line "no #MON here!"
+	line "no BEASTS here!"
 	prompt
 
 _CantTakeMonText::
 	text "You can't take"
-	line "any more #MON."
+	line "any more BEASTS."
 
-	para "Deposit #MON"
+	para "Deposit BEASTS"
 	line "first."
 	prompt
 
 _ReleaseWhichMonText::
 	text "Release which"
-	line "#MON?"
+	line "BEAST?"
 	done
 
 _OnceReleasedText::
@@ -1747,8 +1747,9 @@ _LinkCanceledText::
 
 _OakSpeechText1::
 	text "Hey there!"
-	line "Welcome to #"
-	cont "BEASTS world!"
+	line "Welcome to"
+	cont "the world of"
+	cont "# BEASTS!"
 
 	para "My name's CHERRY!"
 	line "People call me"
@@ -1787,7 +1788,7 @@ _IntroducePlayerText::
 	prompt
 
 _IntroduceRivalText::
-	text "This here is my"
+	text "This here's my"
 	line "nephew. He's been"
 	cont "your rival for"
 	cont "as long as I"
@@ -1801,7 +1802,7 @@ _OakSpeechText3::
 	text "<PLAYER>!"
 
 	para "Your very own"
-	line "#BIE legend is"
+	line "#BIE story is"
 	cont "about to unfold!"
 
 	para "A world of dreams"
