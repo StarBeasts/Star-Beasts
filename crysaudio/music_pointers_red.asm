@@ -18,7 +18,7 @@ Music:
 	dba Music_SurfingPikachu
 	dba Music_CardPop
 	dba Music_PkmnHealed
-	dba Music_Overworld
+	dba Music_Blue
 	dba Music_Ishihara
 	dba Music_GRBlimp
 	dba Music_GROverworld
@@ -42,7 +42,7 @@ Music:
 	dba Music_GRCastle
 	dba Music_PissyPamper
 	dba Music_OceanWinter
-	dba Music_California
+	dba Music_SonicBoom
 	dba Music_GastlyInTheGraveyard
 	dba Music_HereComesGR
 	dba Music_MeetEvilTrainer
@@ -59,6 +59,5 @@ Music:
 	dba Music_Academy
 	dba Music_Unatco
 	dba Music_SadAlex
-	dba Music_KantoGymBattle
-
+	dba Music_PinkFlash
 

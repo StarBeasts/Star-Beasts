@@ -35,6 +35,8 @@ PlayBattleMusic::
 	jr z, .rocketbattle
 	cp OPP_BIKER
 	jr z, .rocketbattle
+	cp OPP_TAMER
+	jr z, .sonicboom
 	cp OPP_GIOVANNI
 	jr z, .rocketbattle
 	cp OPP_BIRD_KEEPER
@@ -64,7 +66,10 @@ PlayBattleMusic::
 	ld a, MUSIC_ROCKET_BATTLE
 	jr .playSong
 .coptheme
-	ld a, MUSIC_KANTO_GYM_BATTLE
+	ld a, MUSIC_PINK_FLASH
+	jr .playSong
+.sonicboom
+	ld a, MUSIC_CINNABAR_MANSION
 	jr .playSong
 .gymLeaderBattle
 	ld a, MUSIC_GYM_LEADER_BATTLE

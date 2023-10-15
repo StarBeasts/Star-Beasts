@@ -504,11 +504,11 @@ SECTION "New Songs 2", ROMX
 INCLUDE "crysaudio/music/new/sadalex.asm"
 INCLUDE "crysaudio/music/new/heroloop.asm"
 INCLUDE "crysaudio/music/new/nuzzles.asm"
-INCLUDE "crysaudio/music/new/wildbeast.asm"
+INCLUDE "crysaudio/music/new/pinkflash.asm"
 
 SECTION "New Songs 3", ROMX
 
-INCLUDE "crysaudio/music/new/california.asm"
+INCLUDE "crysaudio/music/new/sonicboom.asm"
 INCLUDE "crysaudio/music/new/obla.asm"
 INCLUDE "crysaudio/music/new/pissypamper.asm"
 INCLUDE "crysaudio/music/new/oceanwinter.asm"
@@ -518,6 +518,7 @@ SECTION "New Songs 4", ROMX
 INCLUDE "crysaudio/music/new/academy.asm"
 INCLUDE "crysaudio/music/new/blue.asm"
 INCLUDE "crysaudio/music/new/unatco.asm"
+INCLUDE "crysaudio/music/new/wildbeast.asm"
 
 
 SECTION "Sound Effects", ROMX
