@@ -54,7 +54,7 @@ ChooseRivalName:
 	call ClearScreen
 	call Delay3
 	ld de, Rival1Pic
-	ld b, $13
+	lb bc, BANK(Rival1Pic), $00
 	call IntroDisplayPicCenteredOrUpperRight
 .done
 	ld hl, HisNameIsText
