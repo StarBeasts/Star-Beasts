@@ -29,6 +29,8 @@ PlayBattleMusic::
 	jr z, .easybattle
 	cp OPP_YOUNGSTER
 	jr z, .easybattle
+	cp OPP_ROCKER
+	jr z, .gymLeaderBattle
 	cp OPP_ROCKET
 	jr z, .rocketbattle
 	cp OPP_BIKER
@@ -37,6 +39,14 @@ PlayBattleMusic::
 	jr z, .rocketbattle
 	cp OPP_BIRD_KEEPER
 	jr z, .coptheme
+	cp OPP_LORELEI
+	jr z, .gymLeaderBattle
+	cp OPP_SABRINA
+	jr z, .elite4battle
+	cp OPP_BRUNO
+	jr z, .elite4battle
+	cp OPP_AGATHA
+	jr z, .elite4battle
 	cp OPP_LANCE
 	jr nz, .normalTrainerBattle
 	ld a, MUSIC_HERO; lance also plays gym leader theme
@@ -47,11 +57,17 @@ PlayBattleMusic::
 .easybattle
 	ld a, MUSIC_DUEL_THEME_1
 	jr .playSong
+.elite4battle
+	ld a, MUSIC_DUEL_THEME_3
+	jr .playSong
 .rocketbattle
 	ld a, MUSIC_ROCKET_BATTLE
 	jr .playSong
 .coptheme
 	ld a, MUSIC_KANTO_GYM_BATTLE
+	jr .playSong
+.gymLeaderBattle
+	ld a, MUSIC_GYM_LEADER_BATTLE
 	jr .playSong
 .finalBattle
 	ld a, MUSIC_FINAL_BATTLE
