@@ -30,7 +30,7 @@ Music:
 	dba Music_MatchVictory
 	dba Music_BoosterPack
 	dba Music_EndCredits
-	dba Music_SlowMoon
+	dba Music_ChallengeHall
 	dba Music_RBYCredits
 	dba Music_NameEntry
 	dba Music_Cherry
