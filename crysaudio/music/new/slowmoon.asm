@@ -5,14 +5,14 @@
 
 ; ============================================================================================================
 
-Music_Placeholder:
+Music_SlowMoon:
 	channel_count 4
-	channel 1, Music_Placeholder_Ch1
-	channel 2, Music_Placeholder_Ch2
-	channel 3, Music_Placeholder_Ch3
-	channel 4, Music_Placeholder_Ch4
+	channel 1, Music_SlowMoon_Ch1
+	channel 2, Music_SlowMoon_Ch2
+	channel 3, Music_SlowMoon_Ch3
+	channel 4, Music_SlowMoon_Ch4
 
-Music_Placeholder_Ch1:
+Music_SlowMoon_Ch1:
 	volume 7, 7
 	duty_cycle 2
 	note_type 12, 10, 7
@@ -23,7 +23,7 @@ Music_Placeholder_Ch1:
 	rest 16
 	rest 16
 ;Bar 5
-	octave 3
+	octave 4
 	volume_envelope 9, 7
 	note D_, 16
 	note D_, 16
@@ -37,21 +37,21 @@ Music_Placeholder_Ch1:
 	;note F_, 0 | WARNING: Rounded down to 0
 	note C_, 1
 	;note D_, 0 | WARNING: Rounded down to 0
-	octave 2
-	note A_, 1
 	octave 3
+	note A_, 1
+	octave 4
 	;note A_, 0 | WARNING: Rounded down to 0
 	note D_, 1
 	;note G_, 0 | WARNING: Rounded down to 0
 	note C_, 9
 ;Bar 10
-	octave 4
+	octave 5
 	;note C_, 0 | WARNING: Rounded down to 0
-	octave 3
-	note G_, 4
 	octave 4
+	note G_, 4
+	octave 5
 	;note D_, 0 | WARNING: Rounded down to 0
-	octave 3
+	octave 4
 	note A_, 3
 	;note A_, 0 | WARNING: Rounded down to 0
 	note D_, 13
@@ -59,51 +59,51 @@ Music_Placeholder_Ch1:
 	;note F_, 0 | WARNING: Rounded down to 0
 	note C_, 1
 	;note D_, 0 | WARNING: Rounded down to 0
-	octave 2
-	note A_, 1
 	octave 3
+	note A_, 1
+	octave 4
 	;note A_, 0 | WARNING: Rounded down to 0
 	note D_, 1
 	;note G_, 0 | WARNING: Rounded down to 0
 	note C_, 7
 ;Bar 12
 	;note C_, 0 | WARNING: Rounded down to 0
-	octave 2
+	octave 3
 	note G_, 6
-	octave 3
+	octave 4
 	;note E_, 0 | WARNING: Rounded down to 0
-	octave 2
-	note B_, 1
 	octave 3
+	note B_, 1
+	octave 4
 	;note F_, 0 | WARNING: Rounded down to 0
 	note C_, 1
 	;note G_, 0 | WARNING: Rounded down to 0
 	note D_, 1
 	;note C_, 0 | WARNING: Rounded down to 0
-	octave 2
+	octave 3
 	note G_, 1
 ;Bar 13
-	octave 3
+	octave 4
 	;note A_, 0 | WARNING: Rounded down to 0
 	note D_, 12 ; WARNING: Auto-Sync says: Rounded up!
 	;note F_, 0 | WARNING: Rounded down to 0
 	note C_, 1
 	;note D_, 0 | WARNING: Rounded down to 0
-	octave 2
-	note A_, 1
 	octave 3
+	note A_, 1
+	octave 4
 	;note A_, 0 | WARNING: Rounded down to 0
 	note D_, 1
 	;note G_, 0 | WARNING: Rounded down to 0
 	note C_, 9
 ;Bar 14
-	octave 4
+	octave 5
 	;note C_, 0 | WARNING: Rounded down to 0
-	octave 3
-	note G_, 4
 	octave 4
+	note G_, 4
+	octave 5
 	;note D_, 0 | WARNING: Rounded down to 0
-	octave 3
+	octave 4
 	note A_, 3
 	;note A_, 0 | WARNING: Rounded down to 0
 	note D_, 13
@@ -114,9 +114,9 @@ Music_Placeholder_Ch1:
 	note D_, 1
 	;note A_, 0 | WARNING: Rounded down to 0
 	note E_, 1
-	octave 4
+	octave 5
 	;note C_, 0 | WARNING: Rounded down to 0
-	octave 3
+	octave 4
 	note G_, 4
 ;Bar 16
 	;note G_, 0 | WARNING: Rounded down to 0
@@ -132,7 +132,7 @@ Music_Placeholder_Ch1:
 	;note F_, 0 | WARNING: Rounded down to 0
 	note C_, 1
 	;note C_, 0 | WARNING: Rounded down to 0
-	octave 2
+	octave 3
 	note G_, 1
 ;Bar 17
 	rest 16
@@ -140,11 +140,11 @@ Music_Placeholder_Ch1:
 	rest 16
 	rest 16
 ;Bar 21
-	octave 3
+	octave 4
 	note D_, 12
 	note C_, 4
 ;Bar 22
-	octave 2
+	octave 3
 	note A#, 8
 	note A_, 8
 ;Bar 23
@@ -156,12 +156,12 @@ Music_Placeholder_Ch1:
 	note A#, 4
 	note A_, 2
 	note B_, 1
-	octave 3
+	octave 4
 	;note C_, 0 | WARNING: Rounded down to 0
 	note E_, 1
 ;Bar 25
 	;note F_, 0 | WARNING: Rounded down to 0
-	octave 4
+	octave 5
 	note A_, 16
 	note A_, 16
 	note A_, 8
@@ -176,7 +176,7 @@ Music_Placeholder_Ch1:
 	rest 16
 	rest 16
 ;Bar 33
-	octave 3
+	octave 4
 	volume_envelope 9, 7
 	note D_, 16
 	note D_, 16
@@ -190,21 +190,21 @@ Music_Placeholder_Ch1:
 	;note F_, 0 | WARNING: Rounded down to 0
 	note C_, 1
 	;note D_, 0 | WARNING: Rounded down to 0
-	octave 2
-	note A_, 1
 	octave 3
+	note A_, 1
+	octave 4
 	;note A_, 0 | WARNING: Rounded down to 0
 	note D_, 1
 	;note G_, 0 | WARNING: Rounded down to 0
 	note C_, 9
 ;Bar 38
-	octave 4
+	octave 5
 	;note C_, 0 | WARNING: Rounded down to 0
-	octave 3
-	note G_, 4
 	octave 4
+	note G_, 4
+	octave 5
 	;note D_, 0 | WARNING: Rounded down to 0
-	octave 3
+	octave 4
 	note A_, 3
 	;note A_, 0 | WARNING: Rounded down to 0
 	note D_, 13
@@ -212,51 +212,51 @@ Music_Placeholder_Ch1:
 	;note F_, 0 | WARNING: Rounded down to 0
 	note C_, 1
 	;note D_, 0 | WARNING: Rounded down to 0
-	octave 2
-	note A_, 1
 	octave 3
+	note A_, 1
+	octave 4
 	;note A_, 0 | WARNING: Rounded down to 0
 	note D_, 1
 	;note G_, 0 | WARNING: Rounded down to 0
 	note C_, 7
 ;Bar 40
 	;note C_, 0 | WARNING: Rounded down to 0
-	octave 2
+	octave 3
 	note G_, 6
-	octave 3
+	octave 4
 	;note E_, 0 | WARNING: Rounded down to 0
-	octave 2
-	note B_, 1
 	octave 3
+	note B_, 1
+	octave 4
 	;note F_, 0 | WARNING: Rounded down to 0
 	note C_, 1
 	;note G_, 0 | WARNING: Rounded down to 0
 	note D_, 1
 	;note C_, 0 | WARNING: Rounded down to 0
-	octave 2
+	octave 3
 	note G_, 1
 ;Bar 41
-	octave 3
+	octave 4
 	;note A_, 0 | WARNING: Rounded down to 0
 	note D_, 12
 	;note F_, 0 | WARNING: Rounded down to 0
 	note C_, 1
 	;note D_, 0 | WARNING: Rounded down to 0
-	octave 2
-	note A_, 1
 	octave 3
+	note A_, 1
+	octave 4
 	;note A_, 0 | WARNING: Rounded down to 0
 	note D_, 1
 	;note G_, 0 | WARNING: Rounded down to 0
 	note C_, 9
 ;Bar 42
-	octave 4
+	octave 5
 	;note C_, 0 | WARNING: Rounded down to 0
-	octave 3
-	note G_, 4
 	octave 4
+	note G_, 4
+	octave 5
 	;note D_, 0 | WARNING: Rounded down to 0
-	octave 3
+	octave 4
 	note A_, 3
 	;note A_, 0 | WARNING: Rounded down to 0
 	note D_, 13
@@ -267,9 +267,9 @@ Music_Placeholder_Ch1:
 	note D_, 1
 	;note A_, 0 | WARNING: Rounded down to 0
 	note E_, 1
-	octave 4
+	octave 5
 	;note C_, 0 | WARNING: Rounded down to 0
-	octave 3
+	octave 4
 	note G_, 4
 ;Bar 44
 	;note G_, 0 | WARNING: Rounded down to 0
@@ -285,7 +285,7 @@ Music_Placeholder_Ch1:
 	;note F_, 0 | WARNING: Rounded down to 0
 	note C_, 1
 	;note C_, 0 | WARNING: Rounded down to 0
-	octave 2
+	octave 3
 	note G_, 1
 ;Bar 45
 	rest 16
@@ -293,11 +293,11 @@ Music_Placeholder_Ch1:
 	rest 16
 	rest 16
 ;Bar 49
-	octave 3
+	octave 4
 	note D_, 12
 	note C_, 4
 ;Bar 50
-	octave 2
+	octave 3
 	note A#, 8
 	note A_, 8
 ;Bar 51
@@ -309,12 +309,12 @@ Music_Placeholder_Ch1:
 	note A#, 4
 	note A_, 2
 	note B_, 1
-	octave 3
+	octave 4
 	;note C_, 0 | WARNING: Rounded down to 0
 	note E_, 1
 ;Bar 53
 	;note F_, 0 | WARNING: Rounded down to 0
-	octave 4
+	octave 5
 	note A_, 16
 	note A_, 16
 	note A_, 8
@@ -323,11 +323,11 @@ Music_Placeholder_Ch1:
 	note C_, 4
 ;Bar 56
 	note D_, 16
-	sound_ret
+	sound_loop 0, Music_SlowMoon_Ch1
 
 ; ============================================================================================================
 
-Music_Placeholder_Ch2:
+Music_SlowMoon_Ch2:
 	duty_cycle 1
 	note_type 12, 10, 7
 ;Bar 1
@@ -1110,11 +1110,11 @@ Music_Placeholder_Ch2:
 	rest 1
 	;note G_, 0 | WARNING: Rounded down to 0
 	note D_, 9
-	sound_ret
+	sound_loop 0, Music_SlowMoon_Ch2
 
 ; ============================================================================================================
 
-Music_Placeholder_Ch3:
+Music_SlowMoon_Ch3:
 	note_type 12, 1, 0
 ;Bar 1
 	octave 2
@@ -2115,11 +2115,11 @@ Music_Placeholder_Ch3:
 	note A_, 1
 	rest 1
 	note A_, 1
-	sound_ret
+	sound_loop 0, Music_SlowMoon_Ch3
 
 ; ============================================================================================================
 
-Music_Placeholder_Ch4:
+Music_SlowMoon_Ch4:
 	toggle_noise 1
 	drum_speed 12
 ;Bar 1
@@ -2944,7 +2944,7 @@ Music_Placeholder_Ch4:
 	;note F#, 0 | WARNING: Rounded down to 0
 	drum_note 3, 3
 	drum_note 1, 1
-	sound_ret
+	sound_loop 0, Music_SlowMoon_Ch4
 
 ; ============================================================================================================
 

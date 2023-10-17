@@ -1,9 +1,9 @@
 TitleMons:
 ; mons on the title screen are randomly chosen from here
 IF DEF(_RED)
+	db STARTER3
 	db STARTER2
 	db STARTER1
-	db STARTER3
 	db POLIWAG
 	db PONYTA
 	db MANKEY
@@ -19,9 +19,9 @@ IF DEF(_RED)
 	db MAGNETON
 ENDC
 IF DEF(_BLUE)
+	db STARTER3
 	db STARTER2
 	db STARTER1
-	db STARTER3
 	db MANKEY
 	db HITMONLEE
 	db VULPIX

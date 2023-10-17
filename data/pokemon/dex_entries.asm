@@ -351,7 +351,7 @@ GyaradosDexEntry:
 	text_end
 
 ShellderDexEntry:
-	db "JACKNIFE@"
+	db "JACKKNIFE@"
 	db 1,3
 	dw 230
 	text_far _ShellderDexEntry
@@ -1072,7 +1072,7 @@ StarmieDexEntry:
 	text_end
 
 BulbasaurDexEntry:
-	db "ROOKIE@"
+	db "PEAR PLANT@"
 	db 2,4
 	dw 150
 	text_far _BulbasaurDexEntry

@@ -79,15 +79,14 @@ _SlowbroDexEntry::
 	dex
 
 _IvysaurDexEntry::
-	text "After a rough"
-	next "childhood, it took"
-	next "up martial arts."
+    text "Competitive by"
+    next "nature, they"
+    next "fight for mates."
 
-	page "Its armor is made"
-	next "from buildings it"
-	next "smashed to pieces"
-	dex
-
+    page "The ones with"
+    next "hardier bricks"
+    next "usually win"
+    dex
 _ExeggutorDexEntry::
 	text "Thanks for buying"
 	next "our latest"
@@ -269,14 +268,14 @@ _StaryuDexEntry::
 	dex
 
 _BlastoiseDexEntry::
-	text "Said to be a"
-	next "demon hailing"
-	next "from the abyss."
+    text "They are rarely"
+    next "seen in the wild,"
+    next "lurking in dark."
 
-	page "Anything that it"
-	next "touches suffers"
-	next "agonizing pain"
-	dex
+    page "Those who find one"
+    next "scarcely live to"
+    next "tell the tale"
+    dex
 
 _PinsirDexEntry::
 	text "These rats are"
@@ -1249,24 +1248,24 @@ _StarmieDexEntry::
 	dex
 
 _BulbasaurDexEntry::
-	text "An odd plant with"
-	next "legs that enjoys"
-	next "helping others."
+     text "A cheerful plant"
+     next "with a pep in"
+     next "its step."
 
-	page "It cheers its"
-	next "allies on in"
-	next "battle"
-	dex
+     page "It likes to groom"
+     next "its leaves often"
+     next "until shiny"
+     dex
 
 _VenusaurDexEntry::
-	text "The effort needed"
-	next "to lug its massive"
-	next "frame around has"
+    text "A gentle giant,"
+    next "it only moves"
+    next "for sunlight."
 
-	page "made it fearsomely"
-	next "strong. Plants"
-	next "adorn its body"
-	dex
+    page "Many creatures"
+    next "stow away in the"
+    next "trees on its head"
+    dex
 
 _TentacruelDexEntry::
 	text "With its magical"
@@ -1399,54 +1398,54 @@ _MagnemiteDexEntry::
 	dex
 
 _CharmanderDexEntry::
-	text "Uses the gem"
-	next "on its forehead to"
-	next "control its body."
+    text "The wisps above"
+    next "its head are"
+    next "made by its gem."
 
-	page "It uses its mind "
-	next "to create roaring"
-	next "blazes of fire"
-	dex
+    page "Depending on its"
+    next "mood, the colors"
+    next "can vary"
+    dex
 
 _SquirtleDexEntry::
-	text "Hunted to near"
-	next "extinction, only"
-	next "a few remain."
+	text "The same toxins"
+	next "they use for"
+	next "protection also"
 
-	page "Able to down foes"
-	next "twice its size"
-	next "with its toxins"
+	page "make them a"
+	next "common target for"
+	next "poachers"
 	dex
 
 _CharmeleonDexEntry::
-	text "It can mold its"
-	next "fiery tail into"
-	next "any shape."
+    text "It has a feisty"
+    next "personality in"
+    next "the wild."
 
-	page "It mimics larger"
-	next "beasts to ward"
-	next "off predators"
-	dex
+    page "When angered,"
+    next "its flames burn"
+    next "fiercely hot"
+    dex
 
 _WartortleDexEntry::
-	text "Its body has"
-	next "become much more"
-	next "powerful."
+    text "It detects ocean"
+    next "currents to travel"
+    next "stormy waters."
 
-	page "It can immobilize"
-	next "nearly anything"
-	next "with its poison"
-	dex
+    page "A smack of them"
+    next "can take down"
+    next "a single TUSSEL"
+    dex
 
 _CharizardDexEntry::
-	text "Despite its size,"
-	next "it possesses"
-	next "incredible power."
+    text "Mischievous and"
+    next "powerful, it loves"
+    next "to pull pranks."
 
-	page "It uses its"
-	next "pyrokinesis to"
-	next "guard its master"
-	dex
+    page "Despite this, it"
+    next "is undyingly loyal"
+    next "to its trainer"	
+    dex
 
 _OddishDexEntry::
 	text "It never lives in"

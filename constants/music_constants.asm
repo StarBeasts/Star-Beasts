@@ -67,6 +67,7 @@
 	const MUSIC_UNATCO
 	const MUSIC_SADALEX
 	const MUSIC_PINK_FLASH
+	const MUSIC_SLOW_MOON
 
 	const NUM_SONGS
 
