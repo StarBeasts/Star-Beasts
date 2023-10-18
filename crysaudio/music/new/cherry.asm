@@ -17,10 +17,10 @@ Music_Cherry_Ch1:
 	duty_cycle 1
 	note_type 12, 10, 7
 	tempo 127
+.mainloop
 ;Bar 1
 	octave 2
 	volume_envelope 8, 7
-.mainloop
 	note D_, 4
 	octave 4
 	;note F_, 0 | WARNING: Rounded down to 0

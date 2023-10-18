@@ -58,13 +58,18 @@ _ViridianForestEndBattleText3::
 	prompt
 
 _ViridianFrstAfterBattleText3::
-	text "Sometimes, you"
-	line "can find stuff on"
-	cont "the ground!"
+	text "Spent a long time"
+	line "looking for that"
+	cont "thing, I did!"
 
-	para "I'm looking for"
-	line "the stuff I"
-	cont "dropped!"
+	para "Actually, I think"
+	line "I dropped one of"
+	cont "my BALLs..."
+
+	para "The BALLs you"
+	line "use to catch"
+	cont "STAR BEASTS,"
+	cont "that is."
 	done
 
 _ViridianForestText8::

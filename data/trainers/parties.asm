@@ -211,6 +211,8 @@ PokemaniacData:
 	db 40, CHARMELEON, LAPRAS, LICKITUNG, 0
 ; Rock Tunnel 1F
 	db 23, CUBONE, SLOWPOKE, 0
+; Viridian Forest
+	db 9, VENONAT, 0
 
 SuperNerdData:
 ; Mt. Moon 1F
