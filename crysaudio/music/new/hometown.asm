@@ -10,10 +10,10 @@ Music_Hometown_Ch1:
 	duty_cycle 1
 	note_type 12, 8, 7
 	tempo 212
-	rest 3
 	rest 5
 	octave 4
 	volume_envelope 13, 7
+.mainloop
 	note F#, 2
 	note E_, 1
 	note F#, 2
@@ -348,13 +348,16 @@ Music_Hometown_Ch1:
 	note E_, 2
 	note F#, 1
 	note D_, 13
-	sound_loop 0, Music_Hometown_Ch1
+	rest 10
+	rest 10
+	rest 5
+	sound_loop 0, .mainloop
 
 Music_Hometown_Ch2:
 	duty_cycle 0
 	note_type 12, 8, 7
 	volume_envelope 11, 7
-	rest 3
+.mainloop
 	rest 1
 	octave 1
 	volume_envelope 8, 7
@@ -733,12 +736,12 @@ Music_Hometown_Ch2:
 	note A_, 4
 	octave 1
 	note D_, 16
-	sound_loop 0, Music_Hometown_Ch2
+	sound_loop 0, .mainloop
 
 Music_Hometown_Ch3:
 	note_type 12, 1, 0
 	volume_envelope 2, 0
-	rest 3
+.mainloop
 	rest 1
 	octave 3
 	volume_envelope 1, 0
@@ -1299,12 +1302,13 @@ Music_Hometown_Ch3:
 	note F#, 6
 	note A_, 4
 	note D_, 16
-	sound_loop 0, Music_Hometown_Ch3
+	sound_loop 0, .mainloop
 
 Music_Hometown_Ch4:
 	toggle_noise 1
 	drum_speed 12
-	rest 4
+.mainloop
+	rest 1
 	drum_note 10, 2
 	drum_note 3, 2
 	drum_note 10, 2
@@ -1537,4 +1541,4 @@ Music_Hometown_Ch4:
 	drum_note 10, 12
 	drum_note 7, 4
 	drum_note 3, 16
-	sound_loop 0, Music_Hometown_Ch4
+	sound_loop 0, .mainloop
