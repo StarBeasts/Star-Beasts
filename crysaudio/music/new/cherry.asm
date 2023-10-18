@@ -20,6 +20,7 @@ Music_Cherry_Ch1:
 ;Bar 1
 	octave 2
 	volume_envelope 8, 7
+.mainloop
 	note D_, 4
 	octave 4
 	;note F_, 0 | WARNING: Rounded down to 0
@@ -737,13 +738,14 @@ Music_Cherry_Ch1:
 	note F_, 4
 	volume_envelope 7, 7
 	note E_, 4
-	sound_loop 0, Music_Cherry_Ch1
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
 Music_Cherry_Ch2:
 	duty_cycle 1
 	note_type 12, 10, 7
+.mainloop
 ;Bar 1
 	volume_envelope 6, 7
 	rest 4
@@ -1111,12 +1113,14 @@ Music_Cherry_Ch2:
 	rest 2
 	note D_, 2
 	;note E_, 0 | WARNING: Rounded down to 0
-	sound_loop 0, Music_Cherry_Ch2
+	rest 2
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
 Music_Cherry_Ch3:
 	note_type 12, 1, 0
+.mainloop
 ;Bar 1
 	octave 2
 	volume_envelope 2, 0
@@ -1321,13 +1325,15 @@ Music_Cherry_Ch3:
 	note D_, 6
 	rest 2
 	note C_, 2
-	sound_loop 0, Music_Cherry_Ch3
+	rest 2
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
 Music_Cherry_Ch4:
-	toggle_noise 1
+	toggle_noise 0
 	drum_speed 12
+.mainloop
 ;Bar 1
 	rest 8
 	drum_note 7, 12
@@ -1425,7 +1431,7 @@ Music_Cherry_Ch4:
 	drum_note 7, 12
 ;Bar 48
 	drum_note 7, 1
-	sound_loop 0, Music_Cherry_Ch4
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
