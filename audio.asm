@@ -513,6 +513,7 @@ INCLUDE "crysaudio/music/new/sonicboom.asm"
 INCLUDE "crysaudio/music/new/obla.asm"
 INCLUDE "crysaudio/music/new/pissypamper.asm"
 INCLUDE "crysaudio/music/new/oceanwinter.asm"
+INCLUDE "crysaudio/music/new/routenew.asm"
 
 SECTION "New Songs 4", ROMX
 

@@ -18,9 +18,9 @@ Music:
 	dba Music_SurfingPikachu
 	dba Music_CardPop
 	dba Music_PkmnHealed
-	dba Music_Blue
+	dba Music_RouteNew
 	dba Music_Ishihara
-	dba Music_GRBlimp
+	dba Music_BattleTowerTheme
 	dba Music_GROverworld
 	dba Music_Fort2
 	dba Music_DuelTheme2
