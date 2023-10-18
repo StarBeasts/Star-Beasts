@@ -11,6 +11,7 @@ Music_Obla_Ch1:
 	tempo 163
 	rest 16
 	rest 16
+.mainloop
 	rest 16
 	octave 3
 	note A_, 1
@@ -764,11 +765,16 @@ Music_Obla_Ch1:
 	rest 1
 	volume_envelope 13, 7
 	note F_, 16
-	sound_loop 0, Music_Obla_Ch1
+	rest 10
+	rest 5
+	rest 5
+	rest 5
+	sound_loop 0, .mainloop
 
 Music_Obla_Ch2:
 	duty_cycle 1
 	note_type 12, 10, 7
+.mainloop
 	octave 3
 	volume_envelope 11, 7
 	octave 4
@@ -3839,11 +3845,12 @@ Music_Obla_Ch2:
 	volume_envelope 11, 7
 	octave 2
 	note F_, 5
-	sound_loop 0, Music_Obla_Ch2
+	sound_loop 0, .mainloop
 
 Music_Obla_Ch3:
 	note_type 12, 1, 0
 	volume_envelope 1, 0
+.mainloop
 	rest 16
 	rest 16
 	rest 16
@@ -4361,11 +4368,13 @@ Music_Obla_Ch3:
 	octave 4
 	note F_, 16
 	note F_, 10
-	sound_loop 0, Music_Obla_Ch3
+	rest 5
+	sound_loop 0, .mainloop
 
 Music_Obla_Ch4:
 	toggle_noise 1
 	drum_speed 12
+.mainloop
 	rest 16
 	drum_note 2, 2
 	drum_note 7, 2
@@ -5050,4 +5059,5 @@ Music_Obla_Ch4:
 	drum_note 7, 2
 	drum_note 7, 4
 	drum_note 2, 2
-	sound_loop 0, Music_Obla_Ch4
+	rest 3
+	sound_loop 0, .mainloop
