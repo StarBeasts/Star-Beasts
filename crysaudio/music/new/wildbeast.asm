@@ -1,3 +1,10 @@
+;Coverted using MIDI2ASM
+;Code by TriteHexagon
+;Version 5.2.0 (16-Nov-2022)
+;Visit github.com/TriteHexagon/Midi2ASM-Converter for up-to-date versions.
+
+; ============================================================================================================
+
 Music_WildBeast:
 	channel_count 4
 	channel 1, Music_WildBeast_Ch1
@@ -9,15 +16,16 @@ Music_WildBeast_Ch1:
 	volume 7, 7
 	duty_cycle 1
 	note_type 12, 10, 7
-	tempo 104
+	tempo 106
 ;Bar 1
 	rest 16
+.mainloop
 	rest 16
 	rest 16
 	rest 16
 ;Bar 5
 	octave 3
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	octave 4
 	note E_, 2
@@ -1257,385 +1265,388 @@ Music_WildBeast_Ch1:
 	note D#, 1
 	note E_, 16
 	note E_, 15
-	sound_loop 0, Music_WildBeast_Ch1
+	rest 5
+	rest 5
+	rest 5
+	rest 1
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
 Music_WildBeast_Ch2:
-	duty_cycle 1
+	duty_cycle 0
 	note_type 12, 10, 7
+.mainloop
 ;Bar 1
 	octave 1
-	volume_envelope 7, 10
+	volume_envelope 11, 7
 	note A_, 2
-	volume_envelope 6, 10
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 10
+	volume_envelope 11, 7
 	note C_, 2
 	octave 1
-	volume_envelope 6, 10
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 10
+	volume_envelope 11, 7
 	note D_, 2
 ;Bar 2
 	octave 1
-	volume_envelope 6, 10
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 10
+	volume_envelope 11, 7
 	note C_, 2
 	octave 1
-	volume_envelope 6, 10
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
-	volume_envelope 7, 10
+	volume_envelope 11, 7
 	note B_, 2
-	volume_envelope 6, 10
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 ;Bar 3
-	volume_envelope 7, 10
+	volume_envelope 11, 7
 	note A_, 2
-	volume_envelope 6, 10
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 10
+	volume_envelope 11, 7
 	note C_, 2
 	octave 1
-	volume_envelope 6, 10
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 10
+	volume_envelope 11, 7
 	note D_, 2
 ;Bar 4
 	octave 1
-	volume_envelope 6, 10
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 10
+	volume_envelope 11, 7
 	note E_, 2
 	octave 1
-	volume_envelope 6, 10
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 10
+	volume_envelope 11, 7
 	note D_, 2
 	octave 1
-	volume_envelope 6, 10
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 ;Bar 5
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note A_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note C_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
 ;Bar 6
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note C_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note B_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 ;Bar 7
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note A_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note C_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
 ;Bar 8
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note E_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 ;Bar 9
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
-	volume_envelope 5, 7
+	volume_envelope 8, 7
+	note D_, 2
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 6, 7
-	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note F_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note G_, 2
 ;Bar 10
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note F_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note E_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
 ;Bar 11
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note F_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note G_, 2
 ;Bar 12
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note A_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note G_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
 ;Bar 13
 	octave 1
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note A_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note C_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
 ;Bar 14
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note C_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note B_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 ;Bar 15
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note A_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note C_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
 ;Bar 16
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note E_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 ;Bar 17
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
-	volume_envelope 5, 7
+	volume_envelope 8, 7
+	note D_, 2
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 6, 7
-	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note F_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note G_, 2
 ;Bar 18
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note F_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note E_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
 ;Bar 19
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note F_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note G_, 2
 ;Bar 20
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note A_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note G_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
 ;Bar 21
 	octave 1
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note E_, 16
 ;Bar 22
 	note F_, 12
 	note F_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note F_, 2
 ;Bar 23
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note G_, 16
 ;Bar 24
 	note G#, 10
-	volume_envelope 6, 7
+	volume_envelope 9, 7
+	note G#, 2
+	volume_envelope 12, 7
 	note G#, 2
 	volume_envelope 8, 7
 	note G#, 2
-	volume_envelope 5, 7
-	note G#, 2
 ;Bar 25
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note A_, 16
 ;Bar 26
 	note F_, 10
 	note F_, 2
-	note_type 3, 7, 7
-	note F_, 5
-	rest 11
+	note F_, 1
+	rest 3
 ;Bar 27
-	note_type 12, 7, 7
 	note F#, 14
 	note F#, 2
 ;Bar 28
 	note G_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note G_, 2
 	note G_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note G_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note G_, 2
 	note G_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note G_, 4
 ;Bar 29
 	note G#, 16
@@ -1648,15 +1659,15 @@ Music_WildBeast_Ch2:
 ;Bar 32
 	octave 2
 	note C_, 10
-	volume_envelope 6, 7
+	volume_envelope 9, 7
+	note C_, 2
+	volume_envelope 12, 7
 	note C_, 2
 	volume_envelope 8, 7
 	note C_, 2
-	volume_envelope 5, 7
-	note C_, 2
 ;Bar 33
 	octave 1
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 12
 	note D_, 2
 	note D_, 2
@@ -1666,461 +1677,459 @@ Music_WildBeast_Ch2:
 	note D#, 2
 ;Bar 35
 	note E_, 14
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note E_, 2
 ;Bar 36
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note E_, 2
-	volume_envelope 6, 7
-	note E_, 2
-	note E_, 2
-	volume_envelope 7, 7
-	note E_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note E_, 2
 	note E_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
+	note E_, 2
+	volume_envelope 9, 7
+	note E_, 2
+	note E_, 2
+	volume_envelope 11, 7
 	note G#, 4
 ;Bar 37
 	note A_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note C_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
 ;Bar 38
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note C_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note B_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 ;Bar 39
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note A_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note C_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
 ;Bar 40
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note E_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 ;Bar 41
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note A_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note C_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
 ;Bar 42
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note C_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note B_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 ;Bar 43
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note A_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note C_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
 ;Bar 44
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note E_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 ;Bar 45
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note A_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note C_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
 ;Bar 46
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note C_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note B_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 ;Bar 47
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note A_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note C_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
 ;Bar 48
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note E_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 ;Bar 49
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
-	volume_envelope 5, 7
+	volume_envelope 8, 7
+	note D_, 2
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 6, 7
-	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note F_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note G_, 2
 ;Bar 50
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note F_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note E_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
 ;Bar 51
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note F_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note G_, 2
 ;Bar 52
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note A_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note G_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
 ;Bar 53
 	octave 1
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note A_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note C_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
 ;Bar 54
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note C_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note B_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 ;Bar 55
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note A_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note C_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
 ;Bar 56
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note E_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 ;Bar 57
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
-	volume_envelope 5, 7
+	volume_envelope 8, 7
+	note D_, 2
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 6, 7
-	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note F_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note G_, 2
 ;Bar 58
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note F_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note E_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
 ;Bar 59
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note F_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note G_, 2
 ;Bar 60
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note A_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note G_, 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	note D_, 2
 	note D_, 2
 ;Bar 61
 	octave 1
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note E_, 16
 ;Bar 62
 	note F_, 12
 	note F_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note F_, 2
 ;Bar 63
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note G_, 16
 ;Bar 64
 	note G#, 10
-	volume_envelope 6, 7
+	volume_envelope 9, 7
+	note G#, 2
+	volume_envelope 12, 7
 	note G#, 2
 	volume_envelope 8, 7
 	note G#, 2
-	volume_envelope 5, 7
-	note G#, 2
 ;Bar 65
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note A_, 16
 ;Bar 66
 	note F_, 10
 	note F_, 2
-	note_type 3, 7, 7
-	note F_, 5
-	rest 11
+	note F_, 1
+	rest 3
 ;Bar 67
-	note_type 12, 7, 7
 	note F#, 14
 	note F#, 2
 ;Bar 68
 	note G_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note G_, 2
 	note G_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note G_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note G_, 2
 	note G_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note G_, 4
 ;Bar 69
 	note G#, 16
@@ -2133,15 +2142,15 @@ Music_WildBeast_Ch2:
 ;Bar 72
 	octave 2
 	note C_, 10
-	volume_envelope 6, 7
+	volume_envelope 9, 7
+	note C_, 2
+	volume_envelope 12, 7
 	note C_, 2
 	volume_envelope 8, 7
 	note C_, 2
-	volume_envelope 5, 7
-	note C_, 2
 ;Bar 73
 	octave 1
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 12
 	note D_, 2
 	note D_, 2
@@ -2151,175 +2160,178 @@ Music_WildBeast_Ch2:
 	note D#, 2
 ;Bar 75
 	note E_, 14
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note E_, 2
 ;Bar 76
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note E_, 2
-	volume_envelope 6, 7
-	note E_, 2
-	note E_, 2
-	volume_envelope 7, 7
-	note E_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note E_, 2
 	note E_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
+	note E_, 2
+	volume_envelope 9, 7
+	note E_, 2
+	note E_, 2
+	volume_envelope 11, 7
 	note G#, 4
 ;Bar 77
 	note A_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note C_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
 ;Bar 78
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note C_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note B_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 ;Bar 79
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note A_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note C_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
 ;Bar 80
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note E_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 ;Bar 81
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note A_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note C_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
 ;Bar 82
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note C_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note B_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 ;Bar 83
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note A_, 2
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note C_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
 ;Bar 84
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note E_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
 	octave 2
-	volume_envelope 7, 7
+	volume_envelope 11, 7
 	note D_, 2
 	octave 1
-	volume_envelope 6, 7
+	volume_envelope 9, 7
 	note A_, 2
 	note A_, 2
-	sound_loop 0, Music_WildBeast_Ch2
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
 Music_WildBeast_Ch3:
 	note_type 12, 1, 0
+	tempo 106
 ;Bar 1
-	volume_envelope 2, 3
+	volume_envelope 2, 0
 	rest 16
+.mainloop
 	rest 16
 	rest 16
 	rest 16
 	rest 2
 ;Bar 5
 	octave 4
+	volume_envelope 1, 0
 	note A_, 2
 	octave 5
 	note E_, 2
@@ -3559,13 +3571,17 @@ Music_WildBeast_Ch3:
 	note D#, 1
 	note E_, 16
 	note E_, 15
-	sound_loop 0, Music_WildBeast_Ch3
+	rest 5
+	rest 5
+	rest 4
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
 Music_WildBeast_Ch4:
 	toggle_noise 0
 	drum_speed 12
+.mainloop
 ;Bar 1
 	rest 4
 	drum_note 12, 2
@@ -3946,9 +3962,8 @@ Music_WildBeast_Ch4:
 	drum_note 12, 4
 	drum_note 12, 6
 	drum_note 12, 2
-	drum_speed 3
-	drum_note 12, 7
-	sound_loop 0, Music_WildBeast_Ch4
+	drum_note 12, 2
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
