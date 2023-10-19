@@ -1107,7 +1107,7 @@ SeakingDexEntry:
 	text_end
 
 PonytaDexEntry:
-	db "CUTTERBUG@"
+	db "VAMPIREBUG@"
 	db 2,6
 	dw 720
 	text_far _PonytaDexEntry

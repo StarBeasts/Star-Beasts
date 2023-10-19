@@ -1298,23 +1298,23 @@ _SeakingDexEntry::
 	dex
 
 _PonytaDexEntry::
-	text "Once a flying"
-	next "insect, its wings"
-	next "evolved over time"
+	text "It can only get"
+	next "around by hopping"
+	next "like a rabbit."
 
-	page "into a blade"
-	next "shaped horn on"
-	next "its backside"
+	page "It can leap on"
+	next "top of prey from"
+	next "a huge distance"
 	dex
 
 _RapidashDexEntry::
-	text "It decapitates"
-	next "unaware prey with"
-	next "its razor sharp,"
+	text "It lulls prey into"
+	next "a false sense of"
+	next "security with its"
 
-	page "scythelike claws."
-	next "It then devours"
-	next "the lifeless body"
+	page "elegant dance,"
+	next "then the prey is"
+	next "cut to ribbons"
 	dex
 
 _RattataDexEntry::

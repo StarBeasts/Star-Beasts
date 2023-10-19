@@ -162,7 +162,7 @@ MonsterNames::
 	db "MISSINGNO."
 	db "MISSINGNO."
 	db "MISSINGNO."
-	db "BLADYBUG@@"
+	db "SLASHOPPER"
 	db "SABRANTIS@"
 	db "MANHANDLA@"
 	db "DEATHSEER@"
