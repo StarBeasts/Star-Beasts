@@ -15,7 +15,7 @@ Music_Placeholder_Ch1:
 	volume 7, 7
 	duty_cycle 0
 	note_type 12, 10, 7
-	tempo 120
+	tempo 150
 ;Bar 1
 	octave 3
 	volume_envelope 14, 7

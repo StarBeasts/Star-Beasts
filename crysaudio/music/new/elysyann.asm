@@ -13,7 +13,7 @@ Music_Elysyann:
 	channel 4, Music_Elysyann_Ch4
 
 Music_Elysyann_Ch1:
-	volume 15, 15
+	volume 7, 7
 	duty_cycle 2
 	note_type 12, 10, 7
 	tempo 106

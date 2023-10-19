@@ -12,7 +12,7 @@ Music_Academy:
 	channel 3, Music_Academy_Ch3
 
 Music_Academy_Ch1:
-	volume 15, 15
+	volume 7, 7
 	duty_cycle 0
 	note_type 12, 10, 7
 	tempo 109
