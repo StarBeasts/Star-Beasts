@@ -1224,3 +1224,9 @@ INCLUDE "data/maps/headers/Unatco.asm"
 INCLUDE "scripts/Unatco.asm"
 INCLUDE "data/maps/objects/Unatco.asm"
 Unatco_Blocks: INCBIN "maps/Unatco.blk"
+
+INCLUDE "data/maps/headers/MoleHole.asm"
+INCLUDE "scripts/MoleHole.asm"
+INCLUDE "data/maps/objects/MoleHole.asm"
+MoleHole_Blocks: INCBIN "maps/MoleHole.blk"
+

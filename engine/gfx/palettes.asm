@@ -143,7 +143,7 @@ SetPal_Overworld:
 	cp CEMETERY
 	jr z, .PokemonTowerOrAgatha
 	cp CAVERN
-	jr z, .blueMon
+	jr z, .caveOrBruno
 	ld a, [wCurMap]
 	cp FIRST_INDOOR_MAP
 	jr c, .townOrRoute
