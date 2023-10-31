@@ -70,6 +70,11 @@ PokemonTower2Script1:
 	ld [wIsTrainerBattle], a
 	ld a, $f0
 	ld [wJoyIgnore], a
+	ld a, SFX_STOP_ALL_MUSIC
+	call PlaySound
+	ld c, 0
+	ld a, MUSIC_SADALEX
+	call PlayMusic
 	SetEvent EVENT_BEAT_POKEMON_TOWER_RIVAL
 	ld a, $1
 	ldh [hSpriteIndexOrTextID], a
