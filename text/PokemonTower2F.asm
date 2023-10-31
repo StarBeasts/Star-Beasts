@@ -43,19 +43,15 @@ _PokemonTower2Text_60637::
 	prompt
 
 _PokemonTower2Text_6063c::
-	text "Tch..."
-	line "This place sucks."
-	cont "Have fun with all"
-	cont "the nutcases and"
-	cont "GHOSTs here."
+	text "I came here"
+	line "because my parents"
+	cont "are dead."
 
-	para "I'm out."
+	para "I'm basically"
+	line "BATMAN, but with"
+	cont "wanderlust."
 
-	para "You better keep"
-	line "training, because"
-	cont "next time, I'm"
-	cont "going to knock"
-	cont "you down."
+	para "Sad!"
 
 	para "Later."
 	done

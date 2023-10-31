@@ -38,6 +38,17 @@ _DaisyBagFullText::
 	done
 
 _DaisyUseMapText::
+	text "I'm not sad that"
+	line "my grandson's off"
+	cont "on his own, now!"
+	
+	para "He wanted to see"
+	line "the world, and"
+	cont "I just want him"
+	cont "to be happy."
+	done
+
+_BluesHouseDaisyWalkingText::
 	text "Oh, <RIVAL>..."
 	line "Where have you"
 	cont "gone off to...?"
@@ -58,13 +69,6 @@ _DaisyUseMapText::
 	
 	para "Your grandpappy"
 	line "believes in you..."
-	done
-
-_BluesHouseDaisyWalkingText::
-	text "#MON are living"
-	line "things! If they"
-	cont "get tired, give"
-	cont "them a rest!"
 	done
 
 _BluesHouseTownMapText::

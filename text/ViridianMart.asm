@@ -22,10 +22,14 @@ ViridianMartParcelQuestText::
 
 _ViridianMartText2::
 	text "This shop sells"
-	line "many ANTIDOTEs."
+	line "many RADIATIONs."
+
+	para "Err, sorry."
+
+	para "I meant ANTIDOTEs."
 	done
 
 _ViridianMartText3::
-	text "No! POTIONs are"
+	text "Crap! POTIONs are"
 	line "all sold out."
 	done

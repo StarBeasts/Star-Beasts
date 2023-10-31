@@ -30,7 +30,7 @@ ENDC
 ;	ld [wNewSoundID], a
 	call PlaySound
 	ld c, 0 ; BANK(Music_MeetRival)
-	ld a, MUSIC_MEET_RIVAL
+	ld a, SFX_STOP_ALL_MUSIC
 	call PlayMusic
 	ResetEvent EVENT_POKEMON_TOWER_RIVAL_ON_LEFT
 	ld a, [wCoordIndex]
@@ -63,16 +63,25 @@ CoordsData_6055e:
 	db $0F ; end? (should be $ff?)
 
 PokemonTower2Script1:
-	ld a, [wIsInBattle]
-	cp $ff
-	jp z, PokemonTower2Script_604fe
-	xor a
-	ld [wIsTrainerBattle], a
-	ld a, $f0
-	ld [wJoyIgnore], a
-	SetEvent EVENT_BEAT_POKEMON_TOWER_RIVAL
-	ld a, $1
-	ldh [hSpriteIndexOrTextID], a
+    ld a, [wIsInBattle]
+    cp $ff
+    jp z, PokemonTower2Script_604fe
+    xor a
+    ld [wIsTrainerBattle], a
+    ld a, $f0
+    ld [wJoyIgnore], a
+    
+    ; sad ;-;
+    ld a, SFX_STOP_ALL_MUSIC
+    call PlaySound
+    ld c, 0
+    ld a, MUSIC_SADALEX
+    call PlayMusic
+    
+    
+    SetEvent EVENT_BEAT_POKEMON_TOWER_RIVAL
+    ld a, $1
+    ldh [hSpriteIndexOrTextID], a	
 	call DisplayTextID
 	ld de, MovementData_605b2
 	CheckEvent EVENT_POKEMON_TOWER_RIVAL_ON_LEFT
@@ -83,9 +92,9 @@ PokemonTower2Script1:
 	ldh [hSpriteIndex], a
 	call MoveSprite
 	ld a, SFX_STOP_ALL_MUSIC
-;	ld [wNewSoundID], a
-	call PlaySound
-	farcall Music_RivalAlternateStart
+	ld c, 0
+	ld a, SFX_STOP_ALL_MUSIC
+	call PlayMusic
 	ld a, $2
 	ld [wPokemonTower2FCurScript], a
 	ld [wCurMapScript], a

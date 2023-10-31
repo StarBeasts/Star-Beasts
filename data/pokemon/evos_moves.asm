@@ -1841,9 +1841,10 @@ MissingNoA2EvosMoves:
 
 PonytaEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 40, RAPIDASH
+	db EV_LEVEL, 34, RAPIDASH
 	db 0
 ; Learnset
+	db 12, LEECH_LIFE
 	db 30, TAIL_WHIP
 	db 32, STOMP
 	db 35, GROWL
@@ -1858,7 +1859,7 @@ RapidashEvosMoves:
 ; Learnset
 	db 30, TAIL_WHIP
 	db 32, STOMP
-	db 35, GROWL
+	db 34, GROWL
 	db 39, FIRE_SPIN
 	db 47, TAKE_DOWN
 	db 55, AGILITY

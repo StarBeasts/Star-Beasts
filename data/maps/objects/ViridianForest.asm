@@ -18,7 +18,7 @@ ViridianForest_Object:
 	bg_event  2,  1, 14 ; ViridianForestText14
 
 	def_object_events
-	object_event 16, 43, SPRITE_YOUNGSTER, STAY, NONE, 1 ; person
+	object_event 14, 40, SPRITE_YOUNGSTER, STAY, NONE, 1 ; person
 	object_event 30, 33, SPRITE_YOUNGSTER, STAY, LEFT, 2, OPP_BUG_CATCHER, 1
 	object_event 30, 19, SPRITE_YOUNGSTER, STAY, LEFT, 3, OPP_BUG_CATCHER, 2
 	object_event  2, 18, SPRITE_MONSTER, STAY, LEFT, 4, OPP_POKEMANIAC, 8
