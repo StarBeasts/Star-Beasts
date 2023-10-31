@@ -60,7 +60,7 @@ ENDC
 CoordsData_6055e:
 	dbmapcoord 15,  5
 	dbmapcoord 14,  6
-	db $0F ; end? (should be $ff?)
+	db $FF ; end? (should be $ff?)
 
 PokemonTower2Script1:
     ld a, [wIsInBattle]
@@ -70,15 +70,11 @@ PokemonTower2Script1:
     ld [wIsTrainerBattle], a
     ld a, $f0
     ld [wJoyIgnore], a
-    
-    ; sad ;-;
     ld a, SFX_STOP_ALL_MUSIC
     call PlaySound
     ld c, 0
     ld a, MUSIC_SADALEX
     call PlayMusic
-    
-    
     SetEvent EVENT_BEAT_POKEMON_TOWER_RIVAL
     ld a, $1
     ldh [hSpriteIndexOrTextID], a	
@@ -118,7 +114,6 @@ MovementData_605b2:
 	db NPC_MOVEMENT_RIGHT
 	db NPC_MOVEMENT_RIGHT
 	db NPC_MOVEMENT_RIGHT
-	db NPC_MOVEMENT_DOWN
 	db NPC_MOVEMENT_DOWN
 	db -1 ; end
 

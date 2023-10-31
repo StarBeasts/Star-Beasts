@@ -36,8 +36,8 @@ _PokemonTower7EndBattleText1::
 	prompt
 
 _PokemonTower7AfterBattleText1::
-	text "I'm not going to"
-	line "forget this!"
+	text "One day, you'll"
+	line "regret this!"
 	done
 
 _PokemonTower7BattleText2::

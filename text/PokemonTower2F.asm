@@ -43,17 +43,53 @@ _PokemonTower2Text_60637::
 	prompt
 
 _PokemonTower2Text_6063c::
-	text "I came here"
-	line "because my parents"
-	cont "are dead."
+	text "..."
 
-	para "I'm basically"
-	line "BATMAN, but with"
-	cont "wanderlust."
+	para "The real reason I"
+	line "came here is"
+	cont "because..."
 
-	para "Sad!"
+	para "..."
 
-	para "Later."
+	para "I miss my Mom and"
+	line "Dad, <PLAYER>."
+
+	para "They told me when"
+	line "I was little..."
+
+	para "That I was born"
+	line "to do great"
+	cont "things."
+
+	para "I just... think"
+	line "about them a lot,"
+	cont "y'know?"
+
+	para "I caught a GHOST"
+	line "here, and reading"
+	cont "about it just"
+	cont "reminded me..."
+
+	para "Of them."
+
+	para "It was really"
+	line "scary, but they"
+	cont "wouldn't want me"
+	cont "to give up, so..."
+
+	para "..."
+
+	para "So... make sure"
+	line "to tell your Mom"
+	cont "you love her."
+
+	para "For me."	
+
+	para "Anyways, uh..."
+	
+	para "I should go."
+
+	para "Later, <PLAYER>."
 	done
 
 _PokemonTower2Text2::

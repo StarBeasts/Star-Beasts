@@ -28,7 +28,8 @@ _PokemonTower6AfterBattleText1::
 	done
 
 _PokemonTower6BattleText2::
-	text "Urff... Kwaah!"
+	text "I'LL CUT OUT"
+	line "YOUR HEAAART!"
 	done
 
 _PokemonTower6EndBattleText2::
@@ -52,8 +53,9 @@ _PokemonTower6EndBattleText3::
 	prompt
 
 _PokemonTower6AfterBattleText3::
-	text "What's going on"
-	line "here?"
+	text "I freaking love"
+	line "making weird"
+	cont "animal noises!"
 	done
 
 _PokemonTower6Text6::

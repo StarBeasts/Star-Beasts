@@ -1,11 +1,13 @@
 _PokemonTower3BattleText1::
-	text "Urrg...Awaa..."
-	line "Huhu...graa.."
+	text "I WILL MAKE PIZZA"
+	line "AND USE YOUR"
+	cont "BLOOD FOR SAUCE!"
 	done
 
 _PokemonTower3EndBattleText1::
-	text "Hwa!"
-	line "I'm saved!"
+	text "Pizza!"
+	line "Wait, what's a"
+	cont "pizza?"
 	prompt
 
 _PokemonTower3AfterBattleText1::
@@ -16,8 +18,8 @@ _PokemonTower3AfterBattleText1::
 	done
 
 _PokemonTower3BattleText2::
-	text "Kekeke...."
-	line "Kwaaah!"
+	text "Kill..."
+	line "Must... KILL!"
 	done
 
 _PokemonTower3EndBattleText2::

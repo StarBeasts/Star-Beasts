@@ -42,7 +42,7 @@ _PokemonTower5BattleText3::
 	done
 
 _PokemonTower5EndBattleText3::
-	text "Ha?"
+	text "Hwa?"
 	prompt
 
 _PokemonTower5AfterBattleText3::
@@ -51,8 +51,8 @@ _PokemonTower5AfterBattleText3::
 	done
 
 _PokemonTower5BattleText4::
-	text "Urgah..."
-	line "Urff...."
+	text "You will die,"
+	line "mortal!"
 	done
 
 _PokemonTower5EndBattleText4::
