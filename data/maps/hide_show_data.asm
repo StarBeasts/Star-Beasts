@@ -108,7 +108,7 @@ MapHSPointers:
 	dw SSAnne1FRoomsHS
 	dw SSAnne2FRoomsHS
 	dw SSAnneB1FRoomsHS
-	dw NoHS
+	dw MoleHoleHS
 	dw NoHS
 	dw NoHS
 	dw VictoryRoad1FHS
@@ -247,7 +247,7 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw NoHS
-	dw UnusedMapF4HS
+	dw NoHS
 	dw NoHS
 	dw NoHS
 	dw NoHS
@@ -424,6 +424,8 @@ SSAnneB1FRoomsHS:
 	db SS_ANNE_B1F_ROOMS, $09, SHOW
 	db SS_ANNE_B1F_ROOMS, $0A, SHOW
 	db SS_ANNE_B1F_ROOMS, $0B, SHOW
+MoleHoleHS:
+	db MOLE_HOLE, $01, SHOW
 VictoryRoad3FHS:
 	db VICTORY_ROAD_3F, $05, SHOW
 	db VICTORY_ROAD_3F, $06, SHOW
@@ -505,8 +507,6 @@ SilphCo11FHS:
 	db SILPH_CO_11F, $03, SHOW
 	db SILPH_CO_11F, $04, SHOW
 	db SILPH_CO_11F, $05, SHOW
-UnusedMapF4HS:
-	db UNUSED_MAP_F4, $02, SHOW
 PokemonMansion2FHS:
 	db POKEMON_MANSION_2F, $02, SHOW
 PokemonMansion3FHS:
