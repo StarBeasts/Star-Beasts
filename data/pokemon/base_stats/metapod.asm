@@ -1,9 +1,9 @@
 	db DEX_METAPOD ; pokedex id
 
-	db  50,  20,  55,  30,  25
+	db  50,  50,  60,  90,  60
 	;   hp  atk  def  spd  spc
 
-	db BUG, BUG ; type
+	db BUG, FLYING ; type
 	db 120 ; catch rate
 	db 72 ; base exp
 

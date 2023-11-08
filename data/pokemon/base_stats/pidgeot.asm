@@ -1,9 +1,9 @@
 	db DEX_PIDGEOT ; pokedex id
 
-	db  83,  80,  75,  91,  70
+	db  83,  80,  90,  91, 101
 	;   hp  atk  def  spd  spc
 
-	db NORMAL, FLYING ; type
+	db FIRE, FLYING ; type
 	db 45 ; catch rate
 	db 172 ; base exp
 
