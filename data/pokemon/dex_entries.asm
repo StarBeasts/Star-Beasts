@@ -477,16 +477,16 @@ MrMimeDexEntry:
 	text_end
 
 HitmonleeDexEntry:
-	db "BLACKSMITH@"
-	db 42,00
-	dw 42000
+	db "YIN@"
+	db 5,3
+	dw 840
 	text_far _HitmonleeDexEntry
 	text_end
 
 HitmonchanDexEntry:
-	db "ICONOCLAST@"
-	db 66,66
-	dw 6666
+	db "YANG@"
+	db 5,3
+	dw 840
 	text_far _HitmonchanDexEntry
 	text_end
 

@@ -398,13 +398,13 @@ _MrMimeDexEntry::
 	dex
 
 _HitmonleeDexEntry::
-	text "With its mighty"
-	next "hands, it forged"
-	next "our galaxy."
+	text "It is the physical"
+	next "manifestation of"
+	next "the shadows."
 
-	page "It can use clay to"
-	next "create any sort of"
-	next "life it desires"
+	page "Any living thing"
+	next "near it slowly"
+	next "withers and dies"
 	dex
 
 _HitmonchanDexEntry::
