@@ -624,9 +624,9 @@ JynxDexEntry:
 	text_end
 
 MoltresDexEntry:
-	db "DEVIL@"
-	db 18,6
-	dw 13131
+	db "1ST DRAGON@"
+	db 38,4
+	dw 13042
 	text_far _MoltresDexEntry
 	text_end
 

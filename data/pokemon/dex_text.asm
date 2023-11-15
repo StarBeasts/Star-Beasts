@@ -608,13 +608,13 @@ _JynxDexEntry::
 	dex
 
 _MoltresDexEntry::
-	text "Its only desire is"
-	next "to purge the world"
-	next "of light and send"
+	text "The broodmother to"
+	next "which all dragons"
+	next "owe their lineage."
 
-	page "everything into"
-	next "eternal, unending"
-	next "darkness"
+	page "It is said it"
+	next "was born along"
+	next "with the planet"
 	dex
 
 _ArticunoDexEntry::
