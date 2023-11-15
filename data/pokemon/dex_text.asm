@@ -888,13 +888,13 @@ _ZubatDexEntry::
 	dex
 
 _EkansDexEntry::
-	text "Legends say"
-	next "that its eyes"
-	next "can supposedly"
+	text "While its venom"
+	next "and bite are only"
+	next "somewhat painful,"
 
-	page "turn any who"
-	next "gaze upon them"
-	next "into stone"
+	page "looking into its"
+	next "eyes immobilizes"
+	next "you instantly"
 	dex
 
 _ParasDexEntry::

@@ -820,7 +820,7 @@ ZubatDexEntry:
 	text_end
 
 EkansDexEntry:
-	db "SERPENT@"
+	db "B.BASILISK@"
 	db 3,2
 	dw 150
 	text_far _EkansDexEntry
