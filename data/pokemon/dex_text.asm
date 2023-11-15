@@ -508,13 +508,13 @@ _KoffingDexEntry::
 	dex
 
 _MankeyDexEntry::
-	text "A practicing"
-	next "spearman seeking"
-	next "adventure."
+	text "It spends all day"
+	next "practicing with"
+	next "its shield so"
 
-	page "Loves eating,"
-	next "sightseeing, and"
-	next "honing its skills"
+	page "that it can defend"
+	next "those who cannot"
+	next "defend themselves"
 	dex
 
 _SeelDexEntry::

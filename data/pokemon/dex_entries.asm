@@ -197,9 +197,9 @@ PokedexEntryPointers:
 ; text entry
 
 RhydonDexEntry:
-	db "PSI VOID@"
-	db 66,66
-	dw 000
+	db "MIST WISP@"
+	db 2,00
+	dw 001
 	text_far _RhydonDexEntry
 	text_end
 
@@ -554,9 +554,9 @@ KoffingDexEntry:
 	text_end
 
 MankeyDexEntry:
-	db "HITCHHIKER@"
-	db 4,8
-	dw 850
+	db "DARKSQUIRE@"
+	db 3,8
+	dw 650
 	text_far _MankeyDexEntry
 	text_end
 

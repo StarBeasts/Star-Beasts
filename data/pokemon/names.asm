@@ -107,7 +107,7 @@ MonsterNames::
 	db "AQUAMENTUS"
 	db "CROMAG@@@@"
 	db "EPILEPSIA@"
-	db "LOCKASIN@@"
+	db "DRAKELET@@"
 	db "SPEAKEASY@"
 	db "SOLASTRA@@"
 	db "STEAMMENSE"
