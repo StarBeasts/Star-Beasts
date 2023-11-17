@@ -3,7 +3,7 @@
 	db  50,  75,  85,  40,  30
 	;   hp  atk  def  spd  spc
 
-	db GROUND, GROUND ; type
+	db ROCK, GROUND ; type
 	db 255 ; catch rate
 	db 93 ; base exp
 

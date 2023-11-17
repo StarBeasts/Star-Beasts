@@ -3,7 +3,7 @@
 	db  50,  50,  95,  35,  40
 	;   hp  atk  def  spd  spc
 
-	db GROUND, GROUND ; type
+	db GHOST, GHOST ; type
 	db 190 ; catch rate
 	db 87 ; base exp
 

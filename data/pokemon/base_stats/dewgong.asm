@@ -3,7 +3,7 @@
 	db  90,  70,  80,  70,  95
 	;   hp  atk  def  spd  spc
 
-	db WATER, ICE ; type
+	db POISON, POISON ; type
 	db 75 ; catch rate
 	db 176 ; base exp
 

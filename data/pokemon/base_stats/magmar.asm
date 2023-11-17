@@ -3,7 +3,7 @@
 	db  65,  95,  57,  93,  85
 	;   hp  atk  def  spd  spc
 
-	db FIRE, FIRE ; type
+	db FIRE, ICE ; type
 	db 45 ; catch rate
 	db 167 ; base exp
 

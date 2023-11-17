@@ -1,9 +1,9 @@
 	db DEX_VENONAT ; pokedex id
 
-	db  60,  55,  50,  45,  40
+	db  55,  55,  55,  55,  85
 	;   hp  atk  def  spd  spc
 
-	db BUG, POISON ; type
+	db BUG, DRAGON ; type
 	db 190 ; catch rate
 	db 75 ; base exp
 

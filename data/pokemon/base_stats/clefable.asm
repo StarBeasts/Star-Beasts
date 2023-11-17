@@ -1,9 +1,9 @@
 	db DEX_CLEFABLE ; pokedex id
 
-	db  95,  70,  73,  60,  85
+	db  68,  91,  63,  104,  91
 	;   hp  atk  def  spd  spc
 
-	db NORMAL, NORMAL ; type
+	db GHOST, DARK ; type
 	db 25 ; catch rate
 	db 129 ; base exp
 

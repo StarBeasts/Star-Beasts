@@ -3,7 +3,7 @@
 	db  55,  47,  52,  41,  40
 	;   hp  atk  def  spd  spc
 
-	db POISON, POISON ; type
+	db STEEL, STEEL ; type
 	db 235 ; catch rate
 	db 59 ; base exp
 

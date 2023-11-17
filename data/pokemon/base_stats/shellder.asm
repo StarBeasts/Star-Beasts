@@ -3,7 +3,7 @@
 	db  30,  65, 100,  40,  45
 	;   hp  atk  def  spd  spc
 
-	db WATER, WATER ; type
+	db POISON, BUG  ; type
 	db 190 ; catch rate
 	db 97 ; base exp
 

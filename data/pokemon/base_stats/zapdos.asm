@@ -3,7 +3,7 @@
 	db  90,  90,  85, 100, 125
 	;   hp  atk  def  spd  spc
 
-	db ELECTRIC, FLYING ; type
+	db DRAGON, FIGHTING ; type
 	db 3 ; catch rate
 	db 216 ; base exp
 

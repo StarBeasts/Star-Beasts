@@ -3,7 +3,7 @@
 	db  35,  70,  55,  25,  55
 	;   hp  atk  def  spd  spc
 
-	db BUG, GRASS ; type
+	db FIGHTING, FIGHTING ; type
 	db 190 ; catch rate
 	db 70 ; base exp
 

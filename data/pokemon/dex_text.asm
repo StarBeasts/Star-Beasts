@@ -134,7 +134,7 @@ _GengarDexEntry::
 
 	page "using it to behead"
 	next "unaware travelers"
-	next "and passerby"
+	next "and passersby"
 	dex
 
 _NidoranFDexEntry::
@@ -1468,7 +1468,7 @@ _GloomDexEntry::
 	dex
 
 _VileplumeDexEntry::
-	text "It begs passerby"
+	text "It begs passersby"
 	next "for food and"
 	next "valuable goods."
 

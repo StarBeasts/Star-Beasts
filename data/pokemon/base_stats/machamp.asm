@@ -3,7 +3,7 @@
 	db  90, 130,  80,  55,  65
 	;   hp  atk  def  spd  spc
 
-	db FIGHTING, FIGHTING ; type
+	db ROCK, FIGHTING ; type
 	db 45 ; catch rate
 	db 193 ; base exp
 

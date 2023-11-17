@@ -3,7 +3,7 @@
 	db  90,  85, 100,  85, 125
 	;   hp  atk  def  spd  spc
 
-	db ICE, FLYING ; type
+	db GHOST, FLYING ; type
 	db 3 ; catch rate
 	db 215 ; base exp
 

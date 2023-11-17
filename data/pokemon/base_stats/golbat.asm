@@ -3,7 +3,7 @@
 	db  75,  80,  70,  90,  75
 	;   hp  atk  def  spd  spc
 
-	db POISON, FLYING ; type
+	db PSYCHIC_TYPE, ELECTRIC ; type
 	db 90 ; catch rate
 	db 171 ; base exp
 
