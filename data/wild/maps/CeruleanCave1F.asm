@@ -6,7 +6,7 @@ CeruleanCave1FWildMons:
 	db 49, DODRIO
 	db 49, VENOMOTH
 IF DEF(_RED)
-	db 52, ARBOK
+	db 52, MUK
 ENDC
 IF DEF(_BLUE)
 	db 52, SANDSLASH
@@ -14,7 +14,7 @@ ENDC
 	db 49, KADABRA
 	db 52, PARASECT
 	db 53, RAICHU
-	db 53, DITTO
+	db 53, CHARIZARD
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

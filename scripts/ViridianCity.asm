@@ -75,7 +75,7 @@ ViridianCityScript1:
 	ld [wBattleType], a
 	ld a, 5
 	ld [wCurEnemyLVL], a
-	ld a, WEEDLE
+	ld a, BELLSPROUT
 	ld [wCurOpponent], a
 	ld a, $2
 	ld [wViridianCityCurScript], a

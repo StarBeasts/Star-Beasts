@@ -4,10 +4,10 @@ _DexCompletionText::
 
 	para "@"
 	text_decimal hDexRatingNumMonsSeen, 1, 3
-	text " #MON seen"
+	text " BEASTS seen"
 	line "@"
 	text_decimal hDexRatingNumMonsOwned, 1, 3
-	text " #MON owned"
+	text " BEASTS owned"
 
 	para "PROF.OAK's"
 	line "Rating:"
@@ -16,7 +16,7 @@ _DexCompletionText::
 _DexRatingText_Own0To9::
 	text "You still have"
 	line "lots to do."
-	cont "Look for #MON"
+	cont "Look for #BIES"
 	cont "in grassy areas!"
 	done
 
@@ -29,9 +29,9 @@ _DexRatingText_Own10To19::
 
 _DexRatingText_Own20To29::
 	text "You still need"
-	line "more #MON!"
-	cont "Try to catch"
-	cont "other species!"
+	line "more #BIEs!"
+	cont "Try looking"
+	cont "in caves!"
 	done
 
 _DexRatingText_Own30To39::
@@ -56,14 +56,14 @@ _DexRatingText_Own50To59::
 	done
 
 _DexRatingText_Own60To69::
-	text "Ho! This is geting"
+	text "Ha! This is geting"
 	line "even better!"
 	done
 
 _DexRatingText_Own70To79::
-	text "Very good!"
+	text "Amazing!"
 	line "Go fish for some"
-	cont "marine #MON!"
+	cont "marine #BIEs!"
 	done
 
 _DexRatingText_Own80To89::
@@ -75,26 +75,27 @@ _DexRatingText_Own80To89::
 _DexRatingText_Own90To99::
 	text "I'm impressed!"
 	line "It must have been"
-	cont "difficult to do!"
+	cont "super hard to do!"
 	done
 
 _DexRatingText_Own100To109::
 	text "You finally got at"
 	line "least 100 species!"
-	cont "I can't believe"
-	cont "how good you are!"
+	cont "You're really"
+	cont "getting good!"
 	done
 
 _DexRatingText_Own110To119::
 	text "You even have the"
 	line "evolved forms of"
-	cont "#MON! Super!"
+	cont "#BIEs! Super!"
 	done
 
 _DexRatingText_Own120To129::
-	text "Excellent! Trade"
-	line "with friends to"
-	cont "get some more!"
+	text "Excellent! Hit up"
+	line "the SAFARI ZONE"
+	cont "and see if you"
+	cont "can find more!"
 	done
 
 _DexRatingText_Own130To139::
@@ -106,8 +107,8 @@ _DexRatingText_Own130To139::
 _DexRatingText_Own140To149::
 	text "I have nothing"
 	line "left to say!"
-	cont "You're the"
-	cont "authority now!"
+	cont "You know almost"
+	cont "as much as I do!"
 	done
 
 _DexRatingText_Own150To151::

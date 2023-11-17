@@ -1,6 +1,6 @@
 MonsterNames::
 	table_width NAME_LENGTH - 1, MonsterNames
-	db "ANNOYU@@@@"
+	db "INOYU@@@@@"
 	db "SHORZIRKIT"
 	db "SLIMOGG@@@"
 	db "TEARWULF@@"

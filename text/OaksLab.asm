@@ -115,7 +115,7 @@ _OaksLabDeliverParcelText2::
 	done
 
 _OaksLabAroundWorldText::
-	text "#BIEs around the"
+	text "BEASTS around the"
 	line "world wait for"
 	cont "you, <PLAYER>!"
 	done
@@ -129,7 +129,7 @@ _OaksLabGivePokeballsText1::
 	para "You have to catch"
 	line "them! Use these"
 	cont "to capture wild"
-	cont "#BIE."
+	cont "#BIEs."
 
 	para "<PLAYER> got a box"
 	line "of 30 # BALLS!"
@@ -382,7 +382,7 @@ _OaksLabText27::
 	done
 
 _OaksLabText_1d405::
-	text "I study #BIEs as"
+	text "I study BEASTS as"
 	line "PROF.CHERRY's AIDE."
 	done
 
@@ -418,8 +418,8 @@ _OaksLabText_44206::
 _OaksLabText_4420b::
 	text "You still need"
 	line "more #BIEs!"
-	cont "Try to catch"
-	cont "other species!"
+	cont "Try looking"
+	cont "in caves!"
 	done
 
 _OaksLabText_44210::
@@ -480,9 +480,10 @@ _OaksLabText_44238::
 	done
 
 _OaksLabText_4423d::
-	text "Excellent! Trade"
-	line "with friends to"
-	cont "get some more!"
+	text "Excellent! Hit up"
+	line "the SAFARI ZONE"
+	cont "and see if you"
+	cont "can find more!"
 	done
 
 _OaksLabText_44242::

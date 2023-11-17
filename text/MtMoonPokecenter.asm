@@ -3,7 +3,7 @@ _MtMoonPokecenterText1::
 	line "set in my belt."
 
 	para "At most, you can"
-	line "carry 6 #MON."
+	line "carry 6 BEASTS."
 	done
 
 _MtMoonPokecenterText3::

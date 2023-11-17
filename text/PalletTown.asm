@@ -11,7 +11,7 @@ _OakWalksUpText::
 
 	para "You can't go out"
 	line "there without a"
-	cont "#MON!"
+	cont "# BEAST!"
 	cont "It's dangerous!"
 
 	para "..."
@@ -44,7 +44,7 @@ _PalletTownText3::
 	done
 
 _PalletTownText4::
-	text "CHERRY #MON"
+	text "CHERRY # BEAST"
 	line "RESEARCH LAB"
 	done
 

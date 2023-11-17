@@ -1,6 +1,6 @@
 _MtMoon3Text_49f24::
 	text "You want the"
-	line "BIRDMAN SOUL?"
+	line "ANGEL SOUL?"
 	done
 
 _MtMoon3Text_49f64::
@@ -63,7 +63,7 @@ _MtMoon3BattleText2::
 	done
 
 _MtMoon3EndBattleText2::
-	text "Urgh!"
+	text "Dooh!"
 	line "Now I'm mad!"
 	prompt
 
@@ -111,7 +111,7 @@ _MtMoon3BattleText5::
 	text "You're somewhere"
 	line "you shouldn't be."
 
-	para "Sic 'em, boy!"
+	para "Sic 'em, NEEDOLF!"
 	done
 
 _MtMoon3EndBattleText5::

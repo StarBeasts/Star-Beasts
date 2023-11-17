@@ -27,8 +27,13 @@ _MtMoon1EndBattleText3::
 
 _MtMoon1AfterBattleText3::
 	text "I came down here"
-	line "to show off to"
-	cont "girls."
+	line "looking for rare"
+	cont "ICE types."
+	
+	para "Supposedly, you"
+	line "find more of"
+	cont "them the deeper"
+	cont "you go."
 	done
 
 _MtMoon1BattleText4::
@@ -54,12 +59,12 @@ _MtMoon1BattleText5::
 
 _MtMoon1EndBattleText5::
 	text "My"
-	line "#MON won't do!"
+	line "BEASTS won't do!"
 	prompt
 
 _MtMoon1AfterBattleText5::
 	text "I have to find"
-	line "stronger #MON."
+	line "stronger BEASTS."
 	done
 
 _MtMoon1BattleText6::
@@ -119,5 +124,5 @@ _MtMoon1Text14::
 	cont "been known to"
 	cont "attack both"
 	cont "trainers and"
-	cont "#MON alike!"
+	cont "BEASTS alike!"
 	done

@@ -1,6 +1,7 @@
 _Route1ViridianMartSampleText::
-	text "Hi! I work at a"
-	line "BEAST MART."
+	text "Hi! I'm JUSTIN."
+	line "I work at a"
+	cont "BEAST MART."
 
 	para "It's a convenient"
 	line "shop, so please"
@@ -26,22 +27,28 @@ _Route1Text_1caee::
 	done
 
 _Route1Text_1caf3::
-	text "How do you have"
-	line "this much stuff"
+	text "What the hell!?"
+	line "How do you have"
+	cont "this much stuff"
 	cont "already?!"
 	done
 
 _Route1Text2::
-	text "See those ledges"
-	line "along the road?"
+	text "Doot dee doo..."
 
-	para "It's a bit scary,"
-	line "but you can jump"
-	cont "from them."
+	para "Huh, advice?"
 
-	para "You can get back"
-	line "to PALLET TOWN"
-	cont "quicker that way."
+	para "Uhh..."
+
+	para "You can jump"
+	line "down ramps!"
+
+	para "Why don't you"
+	line "go to the left"
+	cont "of me and give"
+	cont "it a try?"
+	
+
 	done
 
 _Route1Text3::

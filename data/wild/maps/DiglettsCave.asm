@@ -1,14 +1,14 @@
 DiglettsCaveWildMons:
 	def_grass_wildmons 20 ; encounter rate
-	db 18, DIGLETT
-	db 19, DIGLETT
-	db 17, DIGLETT
-	db 20, DIGLETT
-	db 16, DIGLETT
-	db 15, DIGLETT
-	db 21, DIGLETT
-	db 22, DIGLETT
-	db 29, DUGTRIO
+	db 18, FARFETCHD
+	db 19, FARFETCHD
+	db 17, FARFETCHD
+	db 20, FARFETCHD
+	db 16, FARFETCHD
+	db 15, FARFETCHD
+	db 21, FARFETCHD
+	db 22, FARFETCHD
+	db 30, STARYU
 	db 31, DUGTRIO
 	end_grass_wildmons
 

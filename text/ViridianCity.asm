@@ -1,16 +1,16 @@
 _ViridianCityText1::
 	text "Those # BALLs"
 	line "at your waist!"
-	cont "You have #MON!"
+	cont "You have BEASTS!"
 
 	para "It's great that"
 	line "you can carry and"
-	cont "use #MON any"
+	cont "use BEASTS any"
 	cont "time, anywhere!"
 	done
 
 _ViridianCityText_19122::
-	text "This #MON GYM"
+	text "This #BIE GYM"
 	line "is always closed."
 
 	para "I wonder who the"
@@ -25,8 +25,7 @@ _ViridianCityText_19127::
 _ViridianCityText_1914d::
 	text "You want to know"
 	line "about the 2 kinds"
-	cont "of caterpillar"
-	cont "#MON?"
+	cont "of caterpillar?"
 	done
 
 _ViridianCityText_19152::
@@ -120,16 +119,16 @@ _ViridianCityText_1920f::
 	line "a #DEX."
 
 	para "When you catch a"
-	line "#MON, #DEX"
+	line "BEAST, #DEX"
 	cont "is automatically"
 	cont "updated."
 
 	para "What? Don't you"
 	line "know how to catch"
-	cont "#MON?"
+	cont "# BEASTS?"
 
-	para "I'll show you"
-	line "how to then."
+	para "Dandy! I'll show"
+	line "you how!"
 	done
 
 _ViridianCityText_19214::
@@ -140,7 +139,7 @@ _ViridianCityText_19214::
 _ViridianCityText_19219::
 	text "First, you need"
 	line "to weaken the"
-	cont "target #MON."
+	cont "target BEAST."
 	done
 
 _ViridianCityText8::
@@ -152,7 +151,7 @@ _ViridianCityText8::
 _ViridianCityText9::
 	text "TRAINER TIPS"
 
-	para "Catch #MON"
+	para "Catch # BEASTS"
 	line "and expand your"
 	cont "collection!"
 
@@ -165,19 +164,19 @@ _ViridianCityText10::
 	text "TRAINER TIPS"
 
 	para "The battle moves"
-	line "of #MON are"
+	line "of BEASTS are"
 	cont "limited by their"
 	cont "POWER POINTs, PP."
 
 	para "To replenish PP,"
 	line "rest your tired"
-	cont "#MON at a"
-	cont "#MON CENTER!"
+	cont "BEASTS at a"
+	cont "# BEAST CENTER!"
 	done
 
 _ViridianCityText13::
 	text "VIRIDIAN CITY"
-	line "#MON GYM"
+	line "# BEAST GYM"
 	done
 
 _ViridianCityText14::
