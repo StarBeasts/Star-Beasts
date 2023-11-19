@@ -1,6 +1,6 @@
 	db DEX_RHYDON ; pokedex id
 
-	db 105, 130, 120,  40,  45
+	db  75,  65,  65,  65,  75
 	;   hp  atk  def  spd  spc
 
 	db ICE, WATER ; type
