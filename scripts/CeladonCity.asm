@@ -87,7 +87,7 @@ CeladonCityText6:
 CeladonCityText7:
 	text_far _CeladonCityText7
 	text_asm
-	ld a, POLIWRATH
+	ld a, KINGLER
 	call PlayCry
 	jp TextScriptEnd
 

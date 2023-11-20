@@ -45,7 +45,7 @@ Route16HouseText2:
 	text_asm
 	ld hl, Route16HouseText_1e652
 	call PrintText
-	ld a, FEAROW
+	ld a, RATTATA
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd

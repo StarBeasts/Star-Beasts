@@ -25,13 +25,13 @@ CeladonMansion1Text2:
 CeladonMansion1Text3:
 	text_far _CeladonMansion1Text3
 	text_asm
-	ld a, CLEFAIRY
+	ld a, VENONAT
 	jp CeladonMansion1_PlayCryScript
 
 CeladonMansion1Text4:
 	text_far _CeladonMansion1Text4
 	text_asm
-	ld a, NIDORAN_F
+	ld a, EEVEE
 	jp CeladonMansion1_PlayCryScript
 
 CeladonMansion1Text5:

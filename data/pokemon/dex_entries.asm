@@ -666,16 +666,16 @@ KrabbyDexEntry:
 	text_end
 
 VulpixDexEntry:
-	db "YETI@"
-	db 10,3
-	dw 4682
+	db "LITTLEFOOT@"
+	db 3,0
+	dw 1450
 	text_far _VulpixDexEntry
 	text_end
 
 NinetalesDexEntry:
-	db "LITTLEFOOT@"
-	db 3,0
-	dw 1450
+	db "YETI@"
+	db 10,3
+	dw 4682
 	text_far _NinetalesDexEntry
 	text_end
 

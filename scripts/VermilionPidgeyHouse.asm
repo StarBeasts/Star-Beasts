@@ -14,7 +14,7 @@ VermilionHouse1Text1:
 VermilionHouse1Text2:
 	text_far _VermilionHouse1Text2
 	text_asm
-	ld a, PIDGEY
+	ld a, JOLTEON
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd

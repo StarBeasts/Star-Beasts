@@ -64,7 +64,7 @@ SSAnne8Text4:
 SSAnne8Text8:
 	text_far _SSAnne8Text8
 	text_asm
-	ld a, WIGGLYTUFF
+	ld a, BELLSPROUT
 	call PlayCry
 	jp TextScriptEnd
 

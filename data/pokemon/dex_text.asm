@@ -678,13 +678,13 @@ _VulpixDexEntry::
 	dex
 
 _NinetalesDexEntry::
-	text "Liddol man."
-	next "Liddol smol."
-	next "Me love himne."
+	text "Unless the night"
+	next "is pitch black,"
+	next "they don't leave"
 
-	page "The hammer can"
-	next "crack even the"
-	next "sturdiest ice"
+	page "their caves for"
+	next "any reason, not"
+	next "even to get food"
 	dex
 
 _PikachuDexEntry::

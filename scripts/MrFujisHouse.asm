@@ -55,14 +55,14 @@ LavenderHouse1Text_1d8f9:
 LavenderHouse1Text3:
 	text_far _LavenderHouse1Text3
 	text_asm
-	ld a, PSYDUCK
+	ld a, CHARIZARD
 	call PlayCry
 	jp TextScriptEnd
 
 LavenderHouse1Text4:
 	text_far _LavenderHouse1Text4
 	text_asm
-	ld a, NIDORINO
+	ld a, NIDORAN_F
 	call PlayCry
 	jp TextScriptEnd
 

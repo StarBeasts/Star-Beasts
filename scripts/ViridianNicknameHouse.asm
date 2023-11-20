@@ -19,7 +19,7 @@ ViridianHouseText3:
 	text_asm
 	ld hl, ViridianHouseText_1d5b1
 	call PrintText
-	ld a, SPEAROW
+	ld a, PIDGEOTTO
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd

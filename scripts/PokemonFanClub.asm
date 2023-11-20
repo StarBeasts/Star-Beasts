@@ -74,7 +74,7 @@ FanClubText3:
 	text_asm
 	ld hl, .text
 	call PrintText
-	ld a, PIKACHU
+	ld a, ELECTRODE
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd
@@ -88,7 +88,7 @@ FanClubText4:
 	text_asm
 	ld hl, .text
 	call PrintText
-	ld a, SEEL
+	ld a, VAPOREON
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd

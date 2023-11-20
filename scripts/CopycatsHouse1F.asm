@@ -17,6 +17,6 @@ CopycatsHouse1FText2:
 CopycatsHouse1FText3:
 	text_far _CopycatsHouse1FText3
 	text_asm
-	ld a, CHANSEY
+	ld a, VENOMOTH
 	call PlayCry
 	jp TextScriptEnd

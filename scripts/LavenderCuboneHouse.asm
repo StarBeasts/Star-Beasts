@@ -9,7 +9,7 @@ LavenderCuboneHouse_TextPointers:
 LavenderHouse2Text1:
 	text_far _LavenderHouse2Text1
 	text_asm
-	ld a, CUBONE
+	ld a, MR_MIME
 	call PlayCry
 	jp TextScriptEnd
 
