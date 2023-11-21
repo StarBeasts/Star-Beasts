@@ -408,13 +408,13 @@ _HitmonleeDexEntry::
 	dex
 
 _HitmonchanDexEntry::
-	text "Mankind's enemy."
-	next "The end of all"
-	next "days and things."
+	text "It embodies life,"
+	next "nature, warmth,"
+	next "and love."
 
-	page "The broodmother to"
-	next "which all dragons"
-	next "owe their lineage"
+	page "Its holy aura"
+	next "heals all that"
+	next "come near it"
 	dex
 
 _ArbokDexEntry::

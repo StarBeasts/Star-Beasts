@@ -72,4 +72,5 @@ DEF SET_PAL_DEFAULT EQU $ff
 	const PAL_GAMEFREAK ; $24
 	const PAL_VIRIDWOOD ; $25
 	const PAL_PURPLEANDRED ; $26
+	const PAL_GREY ; $27
 DEF NUM_SGB_PALS EQU const_value
