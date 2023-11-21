@@ -1,7 +1,7 @@
 _SafariZoneRestHouse1Text1::
 	text "SARA: I hope"
 	line "ERIK likes the"
-	cont "#MON I got"
+	cont "BEAST I got"
 	cont "him..."
 	done
 

@@ -74,7 +74,7 @@ _VictoryRoad2EndBattleText3::
 
 _VictoryRoad2AfterBattleText3::
 	text "There's some"
-	line "kind of DEMON"
+	line "kind of DRAGON"
 	cont "in here, but"
 	cont "we're all giving"
 	cont "it a wide berth."
@@ -96,7 +96,7 @@ _VictoryRoad2AfterBattleText4::
 	text "I can beat you"
 	line "when it comes to"
 	cont "knowledge about"
-	cont "#MON!"
+	cont "# BEASTS!"
 	done
 
 _VictoryRoad2BattleText5::

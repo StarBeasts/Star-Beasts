@@ -9,11 +9,11 @@ _FuchsiaMeetingRoomText1::
 _FuchsiaMeetingRoomText2::
 	text "TONGORON is very"
 	line "knowledgeable"
-	cont "about #MON!"
+	cont "about #BEASTS!"
 
 	para "He even has some"
 	line "souls of rare,"
-	cont "extinct #MON!"
+	cont "extinct #BIEs!"
 	done
 
 _FuchsiaMeetingRoomText3::

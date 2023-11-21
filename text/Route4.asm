@@ -1,17 +1,17 @@
 _Route4Text1::
 	text "Ouch! I bumped"
 	line "into a metal"
-	cont "#MON, WHIRLIE!"
+	cont "BEAST, WHIRLIE!"
 	done
 
 _Route4BattleText1::
 	text "Look at my"
-	line "burning #MON!"
+	line "burning BEASTS!"
 	done
 
 _Route4EndBattleText1::
 	text "My fabulous"
-	line "burning #MON!"
+	line "burning BEASTS!"
 	prompt
 
 _Route4AfterBattleText1::

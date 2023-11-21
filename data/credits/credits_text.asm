@@ -69,13 +69,13 @@ CreditsTextPointers:
 
 CredVersion:
 IF DEF(_RED)
-	db -8, "RED VERSION STAFF@"
+	db -8, "     CREDITS@"
 ENDC
 IF DEF(_BLUE)
 	db -8, "BLUE VERSION STAFF@"
 ENDC
 CredTajiri:
-	db -6, "SATOSHI TAJIRI@"
+	db -6, "     SOUL VALOR@"
 CredTaOota:
 	db -6, "TAKENORI OOTA@"
 CredMorimoto:
@@ -87,9 +87,9 @@ CredMasuda:
 CredNisino:
 	db -5, "KOHJI NISINO@"
 CredSugimori:
-	db -5, "KEN SUGIMORI@"
+	db -5, "VAST FAME@"
 CredNishida:
-	db -6, "ATSUKO NISHIDA@"
+	db -6, " MUFEET@"
 CredMiyamoto:
 	db -7, "SHIGERU MIYAMOTO@"
 CredKawaguchi:
@@ -101,13 +101,13 @@ CredYamauchi:
 CredZinnai:
 	db -7, "HIROYUKI ZINNAI@"
 CredHishida:
-	db -7, "TATSUYA HISHIDA@"
+	db -7, "THE PRET DISCORD@"
 CredSakai:
-	db -6, "YASUHIRO SAKAI@"
+	db -6, "THE IF UT DISCORD@"
 CredYamaguchi:
-	db -7, "WATARU YAMAGUCHI@"
+	db -7, "LUCAS@"
 CredYamamoto:
-	db -8, "KAZUYUKI YAMAMOTO@"
+	db -8, "DEVILREDD@"
 CredTaniguchi:
 	db -8, "RYOHSUKE TANIGUCHI@"
 CredNonomura:
@@ -117,9 +117,9 @@ CredFuziwara:
 CredMatsusima:
 	db -7, "KENJI MATSUSIMA@"
 CredTomisawa:
-	db -7, "AKIHITO TOMISAWA@"
+	db -7, "ANINTERNETSECHO@"
 CredKawamoto:
-	db -7, "HIROSHI KAWAMOTO@"
+	db -7, "CHAOS FANTAZY@"
 CredKakei:
 	db -6, "AKIYOSHI KAKEI@"
 CredTsuchiya:
@@ -129,9 +129,9 @@ CredTaNakamura:
 CredYuda:
 	db -6, "MASAMITSU YUDA@"
 CredMon:
-	db -3, "#MON@"
+	db -3, "# BEASTS@"
 CredDirector:
-	db -3, "DIRECTOR@"
+	db -3, "HACK CREATOR@"
 CredProgrammers:
 	db -5, "PROGRAMMERS@"
 CredCharDesign:
@@ -163,11 +163,11 @@ CredExecutive:
 CredTamada:
 	db -6, "SOUSUKE TAMADA@"
 CredSaOota:
-	db -5, "SATOSHI OOTA@"
+	db -5, "THE ORIGINAL@"
 CredYoshikawa:
-	db -6, "RENA YOSHIKAWA@"
+	db -6, "DEVELOPERS@"
 CredToOota:
-	db -6, "TOMOMICHI OOTA@"
+	db -6, "MAUVE SEA@"
 CredUSStaff:
 	db -7, "US VERSION STAFF@"
 CredUSCoord:

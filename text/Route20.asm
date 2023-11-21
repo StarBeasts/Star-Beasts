@@ -9,7 +9,7 @@ _Route20EndBattleText1::
 
 _Route20AfterBattleText1::
 	text "I wish I could"
-	line "ride my #MON."
+	line "ride my BEASTS."
 	done
 
 _Route20BattleText2::
@@ -76,12 +76,12 @@ _Route20EndBattleText5::
 _Route20AfterBattleText5::
 	text "I should've been"
 	line "buffing up my"
-	cont "#MON, not me!"
+	cont "BEASTS, not me!"
 	done
 
 _Route20BattleText6::
 	text "Why are you"
-	line "riding a #MON?"
+	line "riding a BEAST?"
 	cont "Can't you swim?"
 	done
 
@@ -91,7 +91,7 @@ _Route20EndBattleText6::
 	prompt
 
 _Route20AfterBattleText6::
-	text "Riding a #MON"
+	text "Riding a BEAST"
 	line "sure looks fun!"
 	done
 
@@ -107,7 +107,9 @@ _Route20EndBattleText7::
 	prompt
 
 _Route20AfterBattleText7::
-	text "Now just how am I"
+	text "Fiddlesticks..."
+
+	para "Now just how am I"
 	line "supposed to get"
 	cont "out of this mess?"
 	done
@@ -140,7 +142,7 @@ _Route20EndBattleText9::
 	prompt
 
 _Route20AfterBattleText9::
-	text "#MON have"
+	text "BEASTS have"
 	line "taken over an"
 	cont "abandoned mansion"
 	cont "on CINNABAR!"
@@ -149,7 +151,7 @@ _Route20AfterBattleText9::
 _Route20BattleText10::
 	text "CINNABAR, in the"
 	line "west, has a LAB"
-	cont "for #MON."
+	cont "for BEASTS."
 	done
 
 _Route20EndBattleText10::

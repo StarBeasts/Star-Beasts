@@ -8,7 +8,7 @@ _GaryChampionIntroText::
 	para "Can you believe"
 	line "it, <PLAYER>?"
 	
-	para "I'm the #MON"
+	para "I'm the # BEAST"
 	line "LEAGUE CHAMPION!"
 
 	para "The greatest"
@@ -30,7 +30,7 @@ _GaryChampionIntroText::
 	cont "left to do."
 
 	para "I can't be the"
-	line "champion if I"
+	line "CHAMPION if I"
 	cont "can't prove my"
 	cont "superiority."
 
@@ -40,7 +40,7 @@ _GaryChampionIntroText::
 
 	para "For the title"
 	line "of the greatest"
-	cont "#MON trainer"
+	cont "# BEAST master"
 	cont "in the world, I"
 	cont "accept your"
 	cont "challenge!"
@@ -70,7 +70,7 @@ _GaryVictoryText::
 	para "You did well to"
 	line "even reach me,"
 	cont "<RIVAL>, the"
-	cont "#MON genius!"
+	cont "# BEAST genius!"
 
 	para "Nice try, though!"
 	line "Hahaha!"
@@ -101,7 +101,7 @@ _GaryText_76120::
 	text "CHERRY: You won!"
 	line "Congratulations!"
 	cont "You're the new"
-	cont "#MON LEAGUE"
+	cont "# BEAST LEAGUE"
 	cont "CHAMPION!"
 
 	para "You've grown up so"
@@ -164,7 +164,7 @@ _GaryText_7612a::
 	cont "own doing!"
 
 	para "The bond you share"
-	line "with your #MON"
+	line "with your BEASTS"
 	cont "is incredible!"
 
 	para "<PLAYER>!"

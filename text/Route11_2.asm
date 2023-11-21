@@ -9,7 +9,7 @@ _Route11AfterBattleText9::
 	done
 
 _Route11BattleText10::
-	text "My #MON should"
+	text "My BEASTS should"
 	line "be ready by now!"
 	done
 

@@ -21,7 +21,7 @@ _TowerRescueFujiText::
 	cont "concern!"
 
 	para "Follow me to my"
-	line "home, #MON"
+	line "home, BEAST"
 	cont "HOUSE at the foot"
 	cont "of this tower."
 	done

@@ -106,7 +106,7 @@ _Route16AfterBattleText6::
 	done
 
 _Route16Text7::
-	text "A sleeping #MON"
+	text "A sleeping BEAST"
 	line "blocks the way!"
 	done
 

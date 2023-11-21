@@ -95,7 +95,7 @@ _CeladonGameCornerText_48dca::
 	cont "and only LISBETH!"
 
 	para "She uses grass-"
-	line "type #MON!"
+	line "type BEASTS!"
 
 	para "Underestimate her,"
 	line "and you'll get CUT"
@@ -104,7 +104,7 @@ _CeladonGameCornerText_48dca::
 
 _CeladonGameCornerText_48dcf::
 	text "They offer rare"
-	line "#MON that can"
+	line "BEASTS that can"
 	cont "be exchanged for"
 	cont "your coins."
 
@@ -136,7 +136,7 @@ _CeladonGameCornerText_48e31::
 _CeladonGameCornerText_48e36::
 	text "Darn! I need more"
 	line "coins for the"
-	cont "#MON I want!"
+	cont "BEAST I want!"
 	done
 
 _CeladonGameCornerText_48e88::

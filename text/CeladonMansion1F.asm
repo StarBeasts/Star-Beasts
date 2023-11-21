@@ -3,7 +3,7 @@ _CeladonMansion1Text1::
 	text_end
 
 _CeladonMansion1Text2::
-	text "My dear #MON"
+	text "My dear BEASTS"
 	line "keep me company."
 
 	para "PUMAJIN even"

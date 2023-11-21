@@ -25,13 +25,13 @@ _SilphCo4AfterBattleText2::
 	done
 
 _SilphCo4BattleText3::
-	text "My #MON are my"
+	text "My BEASTS are my"
 	line "loyal soldiers!"
 	done
 
 _SilphCo4EndBattleText3::
 	text "Darn!"
-	line "You weak #MON!"
+	line "You weak BEASTS!"
 	prompt
 
 _SilphCo4AfterBattleText3::
@@ -42,12 +42,13 @@ _SilphCo4AfterBattleText3::
 	done
 
 _SilphCo4BattleText4::
-	text "Intruder spotted!"
+	text "Virus detected!"
 	done
 
 _SilphCo4EndBattleText4::
-	text "Who"
-	line "are you?"
+	text "A"
+	line "critical error"
+	cont "has occured..."
 	prompt
 
 _SilphCo4AfterBattleText4::

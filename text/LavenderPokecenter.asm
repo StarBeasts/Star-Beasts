@@ -1,15 +1,15 @@
 _LavenderPokecenterText2::
 	text "They sell special"
 	line "SOULs that help"
-	cont "#MON evolve"
+	cont "BEASTS evolve"
 	cont "at the LAVENDER"
-	cont "TOWN #MART!"
+	cont "TOWN BEAST MART!"
 	done
 
 _LavenderPokecenterText3::
 	text "There's some kind"
 	line "of GHOST haunting"
-	cont "#MON TOWER!"
+	cont "BEAST TOWER!"
 	
 	para "Apparently, TEAM"
 	line "ROCKET'S LEADER"

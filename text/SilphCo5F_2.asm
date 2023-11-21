@@ -26,20 +26,20 @@ _SilphCo5AfterBattleText5::
 	done
 
 _SilphCo5Text9::
-	text "It's a #MON"
+	text "It's a BEAST"
 	line "REPORT!"
 
 	para "It seems to be"
 	line "schematics for"
 	cont "some sort of"
-	cont "android #MON."
+	cont "android..."
 	done
 
 _SilphCo5Text10::
-	text "It's a #MON"
+	text "It's a BEAST"
 	line "REPORT!"
 
-	para "Over 160 #MON"
+	para "Over 200 BEAST"
 	line "techniques have"
 	cont "been confirmed."
 	done

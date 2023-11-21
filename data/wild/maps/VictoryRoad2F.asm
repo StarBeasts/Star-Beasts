@@ -6,7 +6,7 @@ VictoryRoad2FWildMons:
 	db 36,MACHOKE
 	db 39,GOLEM
 	db 42,ONIX
-	db 41,TENTACRUEL
+	db 41,RHYHORN
 	db 40,GOLBAT
 	db 40,HITMONLEE
 	db 43,FLAREON

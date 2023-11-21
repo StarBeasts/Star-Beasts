@@ -9,7 +9,7 @@ _CeruleanCityText_19668::
 	para "I'm doing great!"
 	line "I caught a bunch"
 	cont "of really tough"
-	cont "#MON!"
+	cont "# BEASTS!"
 
 	para "Here, let me see"
 	line "what you caught,"
@@ -35,7 +35,7 @@ _CeruleanCityText_19677::
 	para "There's this guy"
 	line "up on the cape"
 	cont "that got turned"
-	cont "into a #MON!"
+	cont "into a BEAST!"
 
 	para "He kept saying"
 	line "something about"
@@ -48,7 +48,7 @@ _CeruleanCityText_19677::
 	para "Still, it was"
 	line "neat when he"
 	cont "showed me his"
-	cont "#MON!"
+	cont "# BEASTS!"
 
 	para "If you're in"
 	line "that area, you"
@@ -121,7 +121,7 @@ _CeruleanCityText4::
 _CeruleanCityText5::
 	text "You're making an"
 	line "encyclopedia on"
-	cont "#MON? That"
+	cont "# BEASTS? That"
 	cont "sounds amusing."
 	done
 
@@ -158,9 +158,9 @@ _CeruleanCityText_1973a::
 	line "No! That's wrong!"
 
 	para "It's so hard to"
-	line "control #MON!"
+	line "control BEASTS!"
 
-	para "Your #MON's"
+	para "Your BEAST's"
 	line "obedience depends"
 	cont "on your abilities"
 	cont "as a trainer!"
@@ -203,10 +203,10 @@ _CeruleanCityText9::
 _CeruleanCityText10::
 	text "This is CERULEAN"
 	line "CAVE! Horribly"
-	cont "strong #MON"
+	cont "strong BEASTS"
 	cont "live in there!"
 
-	para "The #MON LEAGUE"
+	para "The #BST LEAGUE"
 	line "champion is the"
 	cont "only person who"
 	cont "is allowed in!"
@@ -236,7 +236,7 @@ _CeruleanCityText16::
 
 _CeruleanCityText17::
 	text "CERULEAN CITY"
-	line "#MON GYM"
+	line "# BEAST GYM"
 	cont "LEADER: MIZU"
 
 	para "The Surfing"

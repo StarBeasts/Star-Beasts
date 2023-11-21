@@ -1,7 +1,7 @@
 _CeladonPokecenterText2::
 	text "# FLUTE awakens"
-	line "#MON with a"
-	cont "sound that only"
+	line "# BEASTS with"
+	cont "a sound that only"
 	cont "they can hear!"
 	done
 

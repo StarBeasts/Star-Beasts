@@ -17,5 +17,5 @@ _PewterMartText3::
 	cont "can evolve"
 	cont "ROCKEN, and I"
 	cont "think some bug"
-	cont "#MON, too?"
+	cont "# BEASTS, too?"
 	done

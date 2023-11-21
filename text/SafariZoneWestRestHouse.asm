@@ -1,6 +1,6 @@
 _SafariZoneRestHouse2Text1::
 	text "Tossing ROCKs at"
-	line "#MON might"
+	line "BEASTS might"
 	cont "make them run,"
 	cont "but they'll be"
 	cont "easier to catch."
@@ -8,8 +8,10 @@ _SafariZoneRestHouse2Text1::
 
 _SafariZoneRestHouse2Text2::
 	text "Using BAIT will"
-	line "make #MON"
-	cont "easier to catch."
+	line "make BEASTS"
+	cont "harder to catch,"
+	cont "but less likely"
+	cont "to run away."
 	done
 
 _SafariZoneRestHouse2Text3::
@@ -18,7 +20,7 @@ _SafariZoneRestHouse2Text3::
 	cont "trail for"
 	cont "exercising."
 
-	para "The #MON are"
+	para "The BEASTS are"
 	line "just a bonus,"
 	cont "honest!"
 	done

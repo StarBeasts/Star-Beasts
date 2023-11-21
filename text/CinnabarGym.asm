@@ -31,7 +31,7 @@ _BlainePreBattleText::
 	
 	para "So, for my next"
 	line "act, I'll make"
-	cont "your #MON"
+	cont "your # BEASTS"
 	cont "disappear!"
 
 	para "Fwa-ha-ha!"
@@ -58,7 +58,7 @@ _BlainePostBattleAdviceText::
 	cont "technique!"
 
 	para "Don't waste it on"
-	line "water #MON!"
+	line "water # BEASTS!"
 	done
 
 _BlaineVolcanoBadgeInfoText::
@@ -67,7 +67,7 @@ _BlaineVolcanoBadgeInfoText::
 	para "The VOLCANOBADGE"
 	line "heightens the"
 	cont "SPECIAL abilities"
-	cont "of your #MON!"
+	cont "of your BEASTS!"
 
 	para "Here, you can"
 	line "have this too!"
@@ -87,7 +87,7 @@ _TM38ExplanationText::
 	line "FIRE BLAST!"
 
 	para "Teach it to fire-"
-	line "type #MON!"
+	line "type # BEASTS!"
 
 	para "CANGHOULIT or"
 	line "KREMATE would be"
@@ -262,7 +262,7 @@ _CinnabarGymGuidePreBattleText::
 
 	para "The hot-headed"
 	line "VELID is a fire"
-	cont "#MON pro!"
+	cont "# BEAST pro!"
 
 	para "Douse his spirits"
 	line "with water!"
@@ -273,5 +273,5 @@ _CinnabarGymGuidePreBattleText::
 
 _CinnabarGymGuidePostBattleText::
 	text "<PLAYER>! You beat"
-	line "that fire brand!"
+	line "that firebrand!"
 	done

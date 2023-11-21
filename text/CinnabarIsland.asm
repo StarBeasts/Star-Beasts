@@ -28,12 +28,12 @@ _CinnabarIslandText3::
 	done
 
 _CinnabarIslandText6::
-	text "#MON LAB"
+	text "# BEAST LAB"
 	done
 
 _CinnabarIslandText7::
 	text "CINNABAR ISLAND"
-	line "#MON GYM"
+	line "# BEAST GYM"
 	cont "LEADER: VELID"
 
 	para "The Pyrotechnic"

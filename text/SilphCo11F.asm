@@ -36,7 +36,7 @@ _SilphCo10Text_6231c::
 	cont "BALL!"
 
 	para "It will catch any"
-	line "# BEAST without"
+	line "BEAST without"
 	cont "fail!"
 
 	para "You should be"

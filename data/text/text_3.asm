@@ -1,6 +1,6 @@
 _FileDataDestroyedText::
 	text "The file data is"
-	line "destroyed!"
+	line "corrupted!"
 	prompt
 
 _WouldYouLikeToSaveText::
@@ -21,7 +21,7 @@ _OlderFileWillBeErasedText::
 
 _WhenYouChangeBoxText::
 	text "When you change a"
-	line "#MON BOX, data"
+	line "BEAST BOX, data"
 	cont "will be saved."
 
 	para "Is that okay?"
@@ -29,7 +29,7 @@ _WhenYouChangeBoxText::
 
 _ChooseABoxText::
 	text "Choose a"
-	line "<PKMN> BOX.@"
+	line "BEAST BOX.@"
 	text_end
 
 _EvolvedText::

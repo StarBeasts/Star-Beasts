@@ -1,7 +1,7 @@
 _FuchsiaCityText1::
 	text "Did you try the"
 	line "SAFARI GAME? Some"
-	cont "#MON can only"
+	cont "BEASTS can only"
 	cont "be caught there."
 	done
 
@@ -38,7 +38,7 @@ _FuchsiaCityText11::
 
 _FuchsiaCityText13::
 	text "SAFARI GAME"
-	line "#MON-U-CATCH!"
+	line "BEASTS-U-CATCH!"
 	done
 
 _FuchsiaCityText16::
@@ -47,7 +47,7 @@ _FuchsiaCityText16::
 	done
 
 _FuchsiaCityText17::
-	text "#MON PARADISE"
+	text "#BIE PARADISE"
 	line "SAFARI ZONE"
 	done
 
@@ -68,10 +68,10 @@ _FuchsiaCityText18::
 	done
 
 _FuchsiaCityChanseyText::
-	text "Name: UMISTME"
+	text "Name: MISTME"
 
 	para "This is one"
-	line "#MON you won't"
+	line "#BIE you won't"
 	cont "want to miss!"
 	prompt
 
@@ -86,7 +86,7 @@ _FuchsiaCityKangaskhanText::
 	text "Name: VULTURNUS"
 
 	para "The fastest"
-	line "#MON in the"
+	line "#BIE in the"
 	cont "world!"
 
 	para "It can throw over"
@@ -113,7 +113,7 @@ _FuchsiaCityLaprasText::
 _FuchsiaCityOmanyteText::
 	text "Name: DRAEMON"
 
-	para "A #MON that"
+	para "A # BEAST that"
 	line "was resurrected"
 	cont "from a soul."
 	prompt
@@ -121,7 +121,7 @@ _FuchsiaCityOmanyteText::
 _FuchsiaCityKabutoText::
 	text "Name: GERBIRD"
 
-	para "A #MON that"
+	para "A # BEAST that"
 	line "was resurrected"
 	cont "from a soul."
 	prompt

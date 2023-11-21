@@ -90,20 +90,20 @@ _Route15AfterBattleText5::
 	done
 
 _Route15BattleText6::
-	text "I raise #MON"
+	text "I raise BEASTS"
 	line "because I live"
 	cont "alone!"
 	done
 
 _Route15EndBattleText6::
-	text "I didn't"
-	line "ask for this!"
+	text "I never"
+	line "asked for this!"
 	prompt
 
 _Route15AfterBattleText6::
 	text "I just like going"
 	line "home to be with"
-	cont "my #MON!"
+	cont "my # BEASTS!"
 	done
 
 _Route15BattleText7::

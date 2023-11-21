@@ -105,7 +105,7 @@ _SSAnne10BattleText6::
 	text "Hello stranger!"
 	line "Stop and chat!"
 
-	para "All my #MON"
+	para "All my BEASTS"
 	line "are from the sea!"
 	done
 

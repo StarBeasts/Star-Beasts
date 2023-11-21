@@ -10,8 +10,10 @@ _ViridianForestText1::
 
 _ViridianForestBattleText1::
 	text "Hey! You have"
-	line "#MON! Come on!"
-	cont "Let's battle'em!"
+	line "# BEASTS!"
+	
+	para "Come on!"
+	line "Let's battle'em!"
 	done
 
 _ViridianForestEndBattleText1::
@@ -26,15 +28,15 @@ _ViridianFrstAfterBattleText1::
 	done
 
 _ViridianForestBattleText2::
-	text "Yo! You can't jam"
-	line "out if you're a"
-	cont "#MON trainer!"
+	text "Yo! Look at me"
+	line "when I'm talking"
+	cont "to you, yo!"
 	done
 
 _ViridianForestEndBattleText2::
 	text "Huh?"
 	line "I ran out of"
-	cont "#MON!"
+	cont "# BEASTS!"
 	prompt
 
 _ViridianFrstAfterBattleText2::
@@ -51,7 +53,7 @@ _ViridianForestBattleText3::
 	done
 
 _ViridianForestEndBattleText3::
-	text "Ack!"
+	text "Aack!"
 	line "You must be crazy"
 	cont "strong if you can"
 	cont "beat DRAGLEAM!"
@@ -68,7 +70,7 @@ _ViridianFrstAfterBattleText3::
 
 	para "The BALLs you"
 	line "use to catch"
-	cont "STAR BEASTS,"
+	cont "# BEASTS,"
 	cont "that is."
 	done
 
@@ -95,7 +97,7 @@ _ViridianForestText10::
 	line "report sightings"
 	cont "of an unusually"
 	cont "powerful pink"
-	cont "#MON in"
+	cont "# BEAST in"
 	cont "VIRIDIAN FOREST."
 	done
 
@@ -112,16 +114,16 @@ _ViridianForestText12::
 	text "TRAINER TIPS"
 
 	para "No stealing of"
-	line "#MON from"
+	line "BEASTS from"
 	cont "other trainers!"
 	cont "Catch only wild"
-	cont "#MON!"
+	cont "# BEASTS!"
 	done
 
 _ViridianForestText13::
 	text "TRAINER TIPS"
 
-	para "Weaken #MON"
+	para "Weaken BEASTS"
 	line "before attempting"
 	cont "capture!"
 

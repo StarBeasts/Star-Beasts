@@ -8,7 +8,7 @@ _Route22RivalBeforeBattleText1::
 
 	para "That's the"
 	line "entrance to the"
-	cont "#MON LEAGUE!"
+	cont "#BEAST LEAGUE!"
 
 	para "The guard says"
 	line "you can't go in"
@@ -46,7 +46,7 @@ _Route22RivalDefeatedText1::
 _Route22Text_511bc::
 	text "<RIVAL>: What?"
 	line "Why do I have 2"
-	cont "#MON?"
+	cont "# BEASTS?"
 
 	para "You should catch"
 	cont "some more too!"
@@ -59,7 +59,7 @@ _Route22RivalBeforeBattleText2::
 	cont "you here!"
 
 	para "So you're going to"
-	line "#MON LEAGUE?"
+	line "# BEAST LEAGUE?"
 
 	para "You collected all"
 	line "the BADGEs too?"
@@ -77,7 +77,7 @@ _Route22RivalBeforeBattleText2::
 _Route22RivalAfterBattleText2::
 	text "That got me going!"
 	line "I'm ready for the"
-	cont "#MON LEAGUE!"
+	cont "#BEAST LEAGUE!"
 
 	para "You're pretty"
 	line "good, <PLAYER>."
@@ -109,6 +109,6 @@ _Route22Text_511d0::
 	prompt
 
 _Route22FrontGateText::
-	text "#MON LEAGUE"
+	text "# BEAST LEAGUE"
 	line "Front Gate"
 	done

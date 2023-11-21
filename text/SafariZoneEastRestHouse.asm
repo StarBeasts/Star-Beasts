@@ -1,12 +1,12 @@
 _SafariZoneRestHouse3Text1::
 	text "Phew! Catching"
-	line "#MON is a"
+	line "BEASTS is a"
 	cont "real workout!"		
 	done
 
 _SafariZoneRestHouse3Text2::
 	text "I caught a"
-	line "UMISTME!"
+	line "MISTME!"
 
 	para "That makes this"
 	line "all worthwhile!"

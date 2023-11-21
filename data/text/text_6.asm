@@ -2,7 +2,7 @@ _ItemUseBallText00::
 	text "It dodged the"
 	line "thrown BALL!"
 
-	para "This #MON"
+	para "This BEAST"
 	line "can't be caught!"
 	prompt
 
@@ -106,7 +106,7 @@ _PlayedFluteNoEffectText::
 
 _FluteWokeUpText::
 	text "All sleeping"
-	line "#MON woke up."
+	line "BEASTS woke up."
 	prompt
 
 _PlayedFluteHadEffectText::
@@ -175,7 +175,7 @@ _TeachMachineMoveText::
 	para "Teach @"
 	text_ram wStringBuffer
 	text_start
-	line "to a #MON?"
+	line "to a BEAST?"
 	done
 
 _MonCannotLearnMachineMoveText::
@@ -230,7 +230,7 @@ _NoSurfingHereText::
 	prompt
 
 _BoxFullCannotThrowBallText::
-	text "The BST BOX"
+	text "The BEAST BOX"
 	line "is full! Can't"
 	cont "use that item!"
 	prompt

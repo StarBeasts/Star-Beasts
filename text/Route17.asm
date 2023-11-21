@@ -229,10 +229,10 @@ _Route17Text11::
 _Route17Text12::
 	text "TRAINER TIPS"
 
-	para "All #MON are"
+	para "All BEASTS are"
 	line "unique."
 
-	para "Even #MON of"
+	para "Even BEASTS of"
 	line "the same type and"
 	cont "level grow at"
 	cont "different rates."

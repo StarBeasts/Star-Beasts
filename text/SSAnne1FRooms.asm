@@ -48,7 +48,7 @@ _SSAnne8AfterBattleText2::
 	done
 
 _SSAnne8BattleText3::
-	text "I love #MON!"
+	text "I love BEASTS!"
 	line "Do you?"
 	done
 
@@ -62,12 +62,12 @@ _SSAnne8AfterBattleText3::
 	line "friend, OK?"
 
 	para "Then we can trade"
-	line "#MON!"
+	line "# BEASTS!"
 	done
 
 _SSAnne8BattleText4::
 	text "I collected these"
-	line "#MON from all"
+	line "BEASTS from all"
 	cont "around the world!"
 	done
 
@@ -79,11 +79,11 @@ _SSAnne8EndBattleText4::
 
 _SSAnne8AfterBattleText4::
 	text "You hurt my poor"
-	line "worldly #MON!"
+	line "worldly BEASTS!"
 
 	para "I demand that you"
 	line "heal them at a"
-	cont "#MON CENTER!"
+	cont "BEAST CENTER!"
 	done
 
 _SSAnne8Text5::

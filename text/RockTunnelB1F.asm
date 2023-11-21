@@ -48,7 +48,7 @@ _RockTunnel2AfterBattleText4::
 
 _RockTunnel2BattleText5::
 	text "Do you know about"
-	line "costume players?"
+	line "cosplayers?"
 	done
 
 _RockTunnel2EndBattleText5::
@@ -57,13 +57,13 @@ _RockTunnel2EndBattleText5::
 	prompt
 
 _RockTunnel2AfterBattleText5::
-	text "Costume players"
+	text "Cosplayers"
 	line "dress up as"
-	cont "#MON for fun."
+	cont "#BEAST for fun."
 	done
 
 _RockTunnel2BattleText6::
-	text "My #MON"
+	text "My # BEAST"
 	line "techniques will"
 	cont "leave you crying!"
 	done
@@ -77,7 +77,7 @@ _RockTunnel2EndBattleText6::
 _RockTunnel2AfterBattleText6::
 	text "In mountains,"
 	line "you'll often find"
-	cont "rock-type #MON."
+	cont "rock-type BEASTS."
 	done
 
 _RockTunnel2BattleText7::
@@ -93,7 +93,7 @@ _RockTunnel2EndBattleText7::
 
 _RockTunnel2AfterBattleText7::
 	text "I like tiny"
-	line "#MON, big ones"
+	line "BEASTS, big ones"
 	cont "are too scary!"
 	done
 

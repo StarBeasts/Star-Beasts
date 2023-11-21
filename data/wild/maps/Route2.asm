@@ -13,11 +13,11 @@ IF DEF(_RED)
 	db  5, SPEAROW
 ENDC
 IF DEF(_BLUE)
-	db  3, CATERPIE
-	db  2, RATTATA
-	db  5, RATTATA
-	db  4, CATERPIE
-	db  5, CATERPIE
+	db  3, WEEDLE
+	db  2, NIDORAN_M
+	db  5, NIDORAN_M
+	db  4, WEEDLE
+	db  5, SPEAROW
 ENDC
 	end_grass_wildmons
 

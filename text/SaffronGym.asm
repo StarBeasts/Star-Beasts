@@ -44,17 +44,17 @@ _SabrinaPostBattleAdviceText::
 
 _KogaMarshBadgeInfoText::
 	text "He pulls out a"
-	line "pieces of paper"
+	line "piece of paper"
 	cont "and begins"
 	cont "reading from it."
 
 	para "Ahem!"
 
 	para "The MARSHBADGE"
-	line "makes #MON up"
+	line "makes BEASTS up"
 	cont "to L70 obey you."
 
-	para "Stronger #MON"
+	para "Stronger BEASTS"
 	line "will become wild,"
 	cont "ignoring your"
 	cont "orders in battle."
@@ -97,7 +97,7 @@ _SaffronGymGuidePreBattleText::
 
 	para "I have no clue"
 	line "what kind of"
-	cont "#MON they use!"
+	cont "BEASTS they use!"
 
 	para "Why don't you"
 	line "teach 'em not to"
@@ -114,7 +114,7 @@ _SaffronGymGuidePostBattleText::
 
 _SaffronGymBattleText1::
 	text "I picked up some"
-	line "tough #MON in"
+	line "tough BEASTS in"
 	cont "the SAFARI ZONE!"
 	done
 
@@ -125,7 +125,7 @@ _SaffronGymEndBattleText1::
 
 _SaffronGymAfterBattleText1::
 	text "Maybe rare"
-	line "#MON don't"
+	line "BEASTS don't"
 	cont "guarantee that"
 	cont "you'll win..."
 
@@ -153,11 +153,11 @@ _SaffronGymAfterBattleText2::
 	done
 
 _SaffronGymBattleText3::
-	text "#MON take on"
+	text "BEASTS take on"
 	line "the appearance of"
 	cont "their trainers."
 
-	para "Your #MON gotta"
+	para "Your BEASTS gotta"
 	line "be tough, then!"
 	done
 
@@ -205,8 +205,8 @@ _SaffronGymEndBattleText5::
 
 _SaffronGymAfterBattleText5::
 	text "Raising a bunch"
-	line "of #MON is"
-	cont "such a drag."
+	line "of BEASTS is"
+	cont "such a hassle."
 	done
 
 _SaffronGymBattleText6::

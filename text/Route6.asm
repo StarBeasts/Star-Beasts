@@ -101,7 +101,7 @@ _Route6EndBattleText6::
 	prompt
 
 _Route6AfterBattleText6::
-	text "Is my #MON"
+	text "Is my BEAST"
 	line "weak? Or, am I"
 	cont "just bad?"
 	done

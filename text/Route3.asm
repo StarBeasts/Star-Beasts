@@ -20,7 +20,7 @@ _Route3EndBattleText1::
 
 _Route3AfterBattleText1::
 	text "There are other"
-	line "kinds of #MON"
+	line "kinds of BEASTS"
 	cont "than those found"
 	cont "in the forest!"
 	done
@@ -38,9 +38,9 @@ _Route3EndBattleText2::
 
 _Route3AfterBattleText2::
 	text "Are you storing"
-	line "your #MON on"
+	line "your #BIEs on"
 	cont "PC? Each BOX can"
-	cont "hold 20 #MON!"
+	cont "hold 20 BEASTS!"
 	done
 
 _Route3BattleText3::
@@ -71,7 +71,7 @@ _Route3EndBattleText4::
 	prompt
 
 _Route3AfterBattleText4::
-	text "If a #MON BOX"
+	text "If a BEAST BOX"
 	line "on the PC gets"
 	cont "full, just switch"
 	cont "to another BOX!"
@@ -106,14 +106,14 @@ _Route3EndBattleText6::
 	prompt
 
 _Route3AfterBattleText6::
-	text "PANGLINA can"
+	text "ASPIRO can"
 	line "copy almost any"
 	cont "move it sees!"
 	done
 
 _Route3BattleText7::
 	text "You can fight my"
-	line "new #MON!"
+	line "new # BEASTS!"
 	done
 
 _Route3EndBattleText7::
@@ -122,7 +122,7 @@ _Route3EndBattleText7::
 	prompt
 
 _Route3AfterBattleText7::
-	text "Evolved #MON"
+	text "Evolved BEASTS"
 	line "are stronger than"
 	cont "basic ones!"
 	done

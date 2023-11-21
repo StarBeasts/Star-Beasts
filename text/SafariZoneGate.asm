@@ -6,7 +6,7 @@ _SafariZoneEntranceText1::
 SafariZoneEntranceText_9e6e4::
 	text "For just ¥500,"
 	line "you can catch all"
-	cont "the #MON you"
+	cont "the BEASTS you"
 	cont "want in the park!"
 
 	para "Would you like to"
@@ -75,7 +75,7 @@ _SafariZoneEntranceText_753eb::
 
 	para "Each zone has"
 	line "different kinds"
-	cont "of #MON. Use"
+	cont "of BEASTS. Use"
 	cont "SAFARI BALLs to"
 	cont "catch them!"
 
@@ -86,9 +86,9 @@ _SafariZoneEntranceText_753eb::
 
 	para "Before you go,"
 	line "open an unused"
-	cont "#MON BOX so"
+	cont "BEAST BOX so"
 	cont "there's room for"
-	cont "new #MON!"
+	cont "new BEASTS!"
 	done
 
 _SafariZoneEntranceText_753f0::

@@ -223,7 +223,7 @@ _UnusedBenchGuyText3::
 _VermilionPokecenterGuyText::
 	text "It is true that a"
 	line "higher level"
-	cont "BEASTS will be"
+	cont "BEAST will be"
 	cont "more powerful..."
 
 	para "But, all BEASTS"
@@ -244,7 +244,7 @@ _CeladonCityPokecenterGuyText::
 
 _FuchsiaCityPokecenterGuyText::
 	text "If you're studying "
-	line "# BEASTS, visit"
+	line "#BEASTS, visit"
 	cont "the SAFARI ZONE."
 
 	para "It has all sorts"

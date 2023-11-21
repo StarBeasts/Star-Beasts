@@ -33,7 +33,7 @@ _Museum1FText_5c233::
 	text "There's a lab"
 	line "somewhere trying"
 	cont "to resurrect"
-	cont "ancient #MON"
+	cont "ancient BEASTS"
 	cont "from OBSIDIAN."
 	done
 
@@ -63,7 +63,7 @@ _Museum1FText_5c28e::
 	line "this chunk of"
 	cont "OBSIDIAN contains"
 	cont "the soul of a"
-	cont "#MON!"
+	cont "# BEAST!"
 
 	para "It would be great"
 	line "if we could"
@@ -77,7 +77,7 @@ _Museum1FText_5c28e::
 	line "to ask!"
 
 	para "Take this to a"
-	line "#MON LAB and"
+	line "# BEAST LAB and"
 	cont "get it examined!"
 	prompt
 
@@ -100,7 +100,7 @@ _Museum1FText_5c2ad::
 	text "We are proud of 2"
 	line "souls of very"
 	cont "rare, ancient"
-	cont "#MON!"
+	cont "# BEASTS!"
 	done
 
 _Museum1FText_5c2bc::

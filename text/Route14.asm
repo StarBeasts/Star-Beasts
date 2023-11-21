@@ -135,7 +135,7 @@ _Route14EndBattleText8::
 	prompt
 
 _Route14AfterBattleText8::
-	text "#MON battles"
+	text "BEAST battles"
 	line "suck, anyway."
 	done
 
@@ -159,7 +159,7 @@ _Route14AfterBattleText9::
 	done
 
 _Route14BattleText10::
-	text "#MON fight?"
+	text "BEAST fight?"
 	line "Cool! Rumble!"
 	done
 
@@ -169,7 +169,7 @@ _Route14EndBattleText10::
 
 _Route14AfterBattleText10::
 	text "Without those"
-	line "#MON, I'd kick"
+	line "BEASTS, I'd kick"
 	cont "your ass!"
 	done
 

@@ -1,11 +1,11 @@
 _RockTunnel2AfterBattleText8::
 	text "I'll raise my"
-	line "#MON to beat"
+	line "BEASTS to beat"
 	cont "yours, kid!"
 	done
 
 _RockTunnel2BattleText9::
-	text "I draw #MON"
+	text "I draw BEASTS"
 	line "when I'm home."
 	done
 

@@ -1,7 +1,7 @@
 _FuchsiaPokecenterText1::
 	text "You can't win"
 	line "with just one"
-	cont "strong #MON."
+	cont "strong BEAST."
 
 	para "It's tough, but"
 	line "you have to raise"

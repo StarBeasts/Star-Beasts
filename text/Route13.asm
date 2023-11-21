@@ -49,7 +49,7 @@ _Route13AfterBattleText4::
 	done
 
 _Route13BattleText5::
-	text "My cute #MON"
+	text "My cute BEASTS"
 	line "wish to make your"
 	cont "acquaintance."
 	done
@@ -61,7 +61,7 @@ _Route13EndBattleText5::
 
 _Route13AfterBattleText5::
 	text "You have to make"
-	line "#MON fight to"
+	line "BEASTS fight to"
 	cont "toughen them up!"
 	done
 

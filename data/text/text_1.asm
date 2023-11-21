@@ -53,7 +53,7 @@ _MartSignText::
 	done
 
 _PokeCenterSignText::
-	text "Heal Your Beasts!"
+	text "Heal Your BEASTS!"
 	line "# BEAST CENTER"
 	done
 
@@ -77,7 +77,7 @@ _OaksAideHiText::
 	para "If you caught @"
 	text_decimal hOaksAideRequirement, 1, 3
 	text_start
-	line "kinds of # BEASTS,"
+	line "kinds of BEASTS,"
 	cont "I'm supposed to"
 	cont "give you an"
 	cont "@"
@@ -98,7 +98,7 @@ _OaksAideUhOhText::
 	cont "caught only @"
 	text_decimal hOaksAideNumMonsOwned, 1, 3
 	text_start
-	cont "kinds of # BEASTS!"
+	cont "kinds of BEASTS!"
 
 	para "You need @"
 	text_decimal hOaksAideRequirement, 1, 3

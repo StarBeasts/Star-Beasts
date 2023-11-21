@@ -60,7 +60,7 @@ _Route21AfterBattleText4::
 
 _Route21BattleText5::
 	text "I caught all my"
-	line "#MON at sea!"
+	line "BEASTS at sea!"
 	done
 
 _Route21EndBattleText5::
@@ -70,7 +70,7 @@ _Route21EndBattleText5::
 
 _Route21AfterBattleText5::
 	text "Where'd you catch"
-	line "your #MON?"
+	line "your BEASTS?"
 	done
 
 _Route21BattleText6::
@@ -128,7 +128,7 @@ _Route21BattleText9::
 
 _Route21EndBattleText9::
 	text "That"
-	line "burned some time."
+	line "killed some time."
 	prompt
 
 _Route21AfterBattleText9::

@@ -1,5 +1,5 @@
 _Route9BattleText1::
-	text "You have #MON"
+	text "You have BEASTS"
 	line "with you!"
 	cont "You're mine!"
 	done
@@ -47,7 +47,7 @@ _Route9AfterBattleText3::
 
 _Route9BattleText4::
 	text "Don't you dare"
-	line "condescend me!"
+	line "go easy on me!"
 	done
 
 _Route9EndBattleText4::
@@ -72,13 +72,13 @@ _Route9EndBattleText5::
 	line "coming, eh!"
 
 	para "Oh wait. I'm out"
-	line "of #MON!"
+	line "of BEASTS!"
 	prompt
 
 _Route9AfterBattleText5::
-	text "You sure had guts"
-	line "standing up to me"
-	cont "there, eh?"
+	text "You sure showed"
+	line "me what you're"
+	cont "aboot, eh?"
 	done
 
 _Route9BattleText6::
@@ -100,7 +100,7 @@ _Route9AfterBattleText6::
 _Route9BattleText7::
 	text "I got up early"
 	line "every day to"
-	cont "raise my #MON"
+	cont "raise my BEASTS"
 	cont "from cocoons!"
 	done
 
@@ -141,7 +141,7 @@ _Route9AfterBattleText8::
 
 _Route9BattleText9::
 	text "Go, my super bug"
-	line "#MON!"
+	line "# BEASTS!"
 	done
 
 _Route9EndBattleText9::
@@ -151,7 +151,7 @@ _Route9EndBattleText9::
 
 _Route9AfterBattleText9::
 	text "If you don't like"
-	line "bug #MON, you"
+	line "bug BEASTS, you"
 	cont "bug me!"
 	done
 

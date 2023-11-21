@@ -2,7 +2,7 @@ _LoreleiBeforeBattleText::
 	text "Ahem."
 
 	para "Welcome to the"
-	line "#MON LEAGUE."
+	line "# BEAST LEAGUE."
 
 	para "Here, you will"
 	line "face the most"

@@ -11,7 +11,7 @@ _BrunoBeforeBattleText::
 
 	para "With the power"
 	line "of science,"
-	cont "#MON and"
+	cont "# BEASTS and"
 	cont "trainers become"
 	cont "stronger!"
 
@@ -19,7 +19,7 @@ _BrunoBeforeBattleText::
 	line "fascination is"
 	cont "what unites us,"
 	cont "humanity and"
-	cont "#MON alike!"
+	cont "BEASTS alike!"
 
 	para "<PLAYER>!"
 

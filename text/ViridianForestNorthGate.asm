@@ -15,5 +15,5 @@ _ViridianForestExitText2::
 
 	para "They can be cut"
 	line "down by a special"
-	cont "#MON move."
+	cont "# BEAST move."
 	done

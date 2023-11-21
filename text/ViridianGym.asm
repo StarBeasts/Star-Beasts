@@ -66,11 +66,11 @@ _GiovanniPostBattleAdviceText::
 
 _GiovanniEarthBadgeInfoText::
 	text "The EARTHBADGE"
-	line "makes #MON of"
+	line "makes BEASTS of"
 	cont "any level obey."
 
 	para "With it, you may"
-	line "enter the #MON"
+	line "enter the BEAST"
 	cont "LEAGUE."
 
 	para "Consider it my"
@@ -88,7 +88,7 @@ _TM27ExplanationText::
 
 	para "TM27 is FISSURE."
 	line "It will take out"
-	cont "#MON with just"
+	cont "BEASTS with just"
 	cont "one hit."
 
 	para "I made it when I"
@@ -135,14 +135,15 @@ _ViridianGymAfterBattleText2::
 	done
 
 _ViridianGymBattleText3::
-	text "#MON and I, we"
-	line "make wonderful"
-	cont "music together!"
+	text "Gimme the BEASTS,"
+	line "boys, and free"
+	cont "my soul!"
 	done
 
 _ViridianGymEndBattleText3::
-	text "You are in"
-	line "perfect harmony!"
+	text "I"
+	line "got lost in my"
+	cont "rock and roll..."
 	prompt
 
 _ViridianGymAfterBattleText3::
@@ -162,7 +163,7 @@ _ViridianGymEndBattleText4::
 	prompt
 
 _ViridianGymAfterBattleText4::
-	text "If my #MON"
+	text "If my # BEASTS"
 	line "were as good at"
 	cont "Karate as I..."
 	done
@@ -196,7 +197,7 @@ _ViridianGymEndBattleText6::
 	prompt
 
 _ViridianGymAfterBattleText6::
-	text "#MON LEAGUE?"
+	text "#BEAST LEAGUE?"
 	line "You? Don't get"
 	cont "cocky!"
 	done
@@ -234,7 +235,7 @@ _ViridianGymEndBattleText8::
 
 _ViridianGymAfterBattleText8::
 	text "You can go onto"
-	line "#MON LEAGUE"
+	line "# BEAST LEAGUE"
 	cont "only by defeating"
 	cont "our GYM LEADER!"
 	done
@@ -254,7 +255,7 @@ _ViridianGymGuidePreBattleText::
 	para "I heard that the"
 	line "trainers here"
 	cont "like ground-type"
-	cont "#MON!"
+	cont "# BEASTS!"
 	done
 
 _ViridianGymGuidePostBattleText::

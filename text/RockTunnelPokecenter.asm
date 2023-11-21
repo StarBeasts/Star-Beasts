@@ -1,6 +1,6 @@
 _RockTunnelPokecenterText2::
 	text "The element types"
-	line "of #MON make"
+	line "of BEASTS make"
 	cont "them stronger"
 	cont "than some types"
 	cont "and weaker than"

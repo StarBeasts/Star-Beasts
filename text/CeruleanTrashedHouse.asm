@@ -7,7 +7,7 @@ _CeruleanTrashedText_1d6ab::
 
 	para "They stole a TM"
 	line "for teaching"
-	cont "#MON how to"
+	cont "BEASTS how to"
 	cont "DIG holes!"
 
 	para "That cost me a"

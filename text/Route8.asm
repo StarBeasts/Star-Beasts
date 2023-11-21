@@ -1,7 +1,7 @@
 _Route8BattleText1::
 	text "You look good at"
-	line "#MON, but"
-	cont "how's your chem?"
+	line "BEASTS, but"
+	cont "how're you at trig?"
 	done
 
 _Route8EndBattleText1::
@@ -55,7 +55,7 @@ _Route8EndBattleText4::
 	prompt
 
 _Route8AfterBattleText4::
-	text "When #MON grow"
+	text "When BEASTS grow"
 	line "up they get ugly!"
 	cont "They shouldn't"
 	cont "evolve!"
@@ -63,7 +63,7 @@ _Route8AfterBattleText4::
 
 _Route8BattleText5::
 	text "School is fun, but"
-	line "so are #MON."
+	line "so are BEASTS."
 	done
 
 _Route8EndBattleText5::
@@ -122,7 +122,7 @@ _Route8EndBattleText8::
 
 _Route8AfterBattleText8::
 	text "Gambling and"
-	line "#MON are like"
+	line "BEASTS are like"
 	cont "eating peanuts!"
 	cont "Just can't stop!"
 	done
@@ -130,7 +130,7 @@ _Route8AfterBattleText8::
 _Route8BattleText9::
 	text "What's a cute,"
 	line "round and tough"
-	cont "#MON?"
+	cont "# BEAST?"
 	done
 
 _Route8EndBattleText9::
@@ -142,10 +142,11 @@ _Route8EndBattleText9::
 
 _Route8AfterBattleText9::
 	text "I heard that"
-	line "SPRIGGLE evolves"
-	cont "when it's exposed"
-	cont "to a HOLY SOUL"
-	cont "or a DARK SOUL."
+	line "SPRIGGLE's evolved"
+	cont "form evolves when"
+	cont "it's exposed to"
+	cont "a HOLY SOUL or"
+	cont "a DARK SOUL."
 	done
 
 _Route8Text10::

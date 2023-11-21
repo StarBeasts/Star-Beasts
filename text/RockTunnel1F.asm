@@ -10,9 +10,9 @@ _RockTunnel1EndBattleText1::
 
 _RockTunnel1AfterBattleText1::
 	text "Careful!"
-	line "The SMASHBERRIES"
+	line "The MOSSTONs"
 	cont "in here are"
-	cont "ornery as hell!"
+	cont "tough as hell!"
 	done
 
 _RockTunnel1BattleText2::
@@ -28,7 +28,7 @@ _RockTunnel1EndBattleText2::
 
 _RockTunnel1AfterBattleText2::
 	text "That sleeping"
-	line "#MON on ROUTE"
+	line "BEAST on ROUTE"
 	cont "12 forced me to"
 	cont "take this detour."
 	done
@@ -49,7 +49,7 @@ _RockTunnel1AfterBattleText3::
 	done
 
 _RockTunnel1BattleText4::
-	text "#MON fight!"
+	text "# BEAST fight!"
 	line "Ready, go!"
 	done
 
@@ -82,12 +82,12 @@ _RockTunnel1AfterBattleText5::
 
 _RockTunnel1BattleText6::
 	text "I came this far"
-	line "for #MON!"
+	line "for # BEASTS!"
 	done
 
 _RockTunnel1EndBattleText6::
 	text "I'm"
-	line "out of #MON!"
+	line "out of #BIEs!"
 	prompt
 
 _RockTunnel1AfterBattleText6::
@@ -96,7 +96,7 @@ _RockTunnel1AfterBattleText6::
 	done
 
 _RockTunnel1BattleText7::
-	text "You have #MON!"
+	text "You have #BIEs!"
 	line "Let's start!"
 	done
 

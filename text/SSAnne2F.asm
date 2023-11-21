@@ -16,7 +16,7 @@ _SSAnneRivalBeforeBattleText::
 
 	para "There's so many"
 	line "cool people and"
-	cont "#MON onboard!"
+	cont "BEASTS onboard!"
 
 	para "They're from all"
 	line "around the world!"
@@ -26,7 +26,7 @@ _SSAnneRivalBeforeBattleText::
 	para "Not only that,"
 	line "I've been catching"
 	cont "all sorts of new"
-	cont "#MON!"
+	cont "# BEASTS!"
 
 	para "At this rate, I'll"
 	line "have 50 different"
@@ -45,7 +45,7 @@ _SSAnneRivalDefeatedText::
 
 	para "At least you're"
 	line "raising your"
-	cont "#MON!"
+	cont "# BEASTS!"
 	prompt
 
 _SSAnneRivalWonText::
