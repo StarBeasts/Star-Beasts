@@ -1,6 +1,6 @@
 	db DEX_ODDISH ; pokedex id
 
-	db  45,  50,  55,  30,  75
+	db  65,  65,  65,  95,  65
 	;   hp  atk  def  spd  spc
 
 	db DARK, DARK ; type

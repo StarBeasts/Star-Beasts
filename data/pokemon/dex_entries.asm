@@ -204,9 +204,9 @@ RhydonDexEntry:
 	text_end
 
 KangaskhanDexEntry:
-	db "BUSHIDO@"
-	db 7,3
-	dw 1760
+	db "OVERLOAD@"
+	db 6,3
+	dw 1920
 	text_far _KangaskhanDexEntry
 	text_end
 
@@ -218,14 +218,14 @@ NidoranMDexEntry:
 	text_end
 
 ClefairyDexEntry:
-	db "ENFORCER@"
-	db 3,0
-	dw 380
+	db "WEREWOLF@"
+	db 6,11
+	dw 2380
 	text_far _ClefairyDexEntry
 	text_end
 
 SpearowDexEntry:
-	db "ARTIST@"
+	db "NEOPHYTE@"
 	db 3,0
 	dw 440
 	text_far _SpearowDexEntry
@@ -246,7 +246,7 @@ NidokingDexEntry:
 	text_end
 
 SlowbroDexEntry:
-	db "INFESTOR@"
+	db "PARASITE@"
 	db 4,7
 	dw 880
 	text_far _SlowbroDexEntry
@@ -260,9 +260,9 @@ IvysaurDexEntry:
 	text_end
 
 ExeggutorDexEntry:
-	db "W.INDUSTRY@"
-	db 4,8
-	dw 3650
+	db "PSI VOID@"
+	db 66,66
+	dw 000
 	text_far _ExeggutorDexEntry
 	text_end
 
@@ -316,9 +316,9 @@ CuboneDexEntry:
 	text_end
 
 RhyhornDexEntry:
-	db "ALIEN@"
-	db 5,0
-	dw 800
+	db "HOT STOVE@"
+	db 5,3
+	dw 3747
 	text_far _RhyhornDexEntry
 	text_end
 
@@ -358,9 +358,9 @@ ShellderDexEntry:
 	text_end
 
 TentacoolDexEntry:
-	db "STOVE@"
-	db 5,3
-	dw 3750
+	db "BUSHIDO@"
+	db 7,3
+	dw 1760
 	text_far _TentacoolDexEntry
 	text_end
 
@@ -400,9 +400,9 @@ PinsirDexEntry:
 	text_end
 
 TangelaDexEntry:
-	db "CAFFEINE@"
-	db 2,1
-	dw 300
+	db "EXPLOSIVE@"
+	db 3,7
+	dw 1120
 	text_far _TangelaDexEntry
 	text_end
 
@@ -414,7 +414,7 @@ GrowlitheDexEntry:
 	text_end
 
 OnixDexEntry:
-	db "CURMUDGEON@"
+	db "CAVEHERMIT@"
 	db 12,10
 	dw 7837
 	text_far _OnixDexEntry
@@ -435,9 +435,9 @@ PidgeyDexEntry:
 	text_end
 
 SlowpokeDexEntry:
-	db "URCHIN@"
-	db 2,3
-	dw 290
+	db "HOOKWORM@"
+	db 0,7
+	dw 40
 	text_far _SlowpokeDexEntry
 	text_end
 
@@ -505,23 +505,23 @@ ParasectDexEntry:
 	text_end
 
 PsyduckDexEntry:
-	db "EXPLOSIVE@"
-	db 3,7
-	dw 1120
+	db "ABYSS HAND@"
+	db 3,0
+	dw 200
 	text_far _PsyduckDexEntry
 	text_end
 
 DrowzeeDexEntry:
-	db "FEARFUL@"
+	db "WOODSHELL@"
 	db 3,3
 	dw 710
 	text_far _DrowzeeDexEntry
 	text_end
 
 GolemDexEntry:
-	db "SOOTHING@"
+	db "HEAVYMETAL@"
 	db 4,3
-	dw 2360
+	dw 4360
 	text_far _GolemDexEntry
 	text_end
 
@@ -582,9 +582,9 @@ TaurosDexEntry:
 	text_end
 
 FarfetchdDexEntry:
-	db "ANTHRAXIAN@"
-	db 1,7
-	dw 333
+	db "TUNNELING@"
+	db 3,11
+	dw 860
 	text_far _FarfetchdDexEntry
 	text_end
 
@@ -617,9 +617,9 @@ PoliwagDexEntry:
 	text_end
 
 JynxDexEntry:
-	db "SEAMONSTER@"
-	db 4,1
-	dw 870
+	db "HEALER@"
+	db 6,5
+	dw 78
 	text_far _JynxDexEntry
 	text_end
 
@@ -687,7 +687,7 @@ PikachuDexEntry:
 	text_end
 
 RaichuDexEntry:
-	db "SKYWATCHER@"
+	db "STORM CAVY@"
 	db 3,9
 	dw 800
 	text_far _RaichuDexEntry
@@ -764,16 +764,16 @@ OmastarDexEntry:
 	text_end
 
 JigglypuffDexEntry:
-	db "BALBOA@"
-	db 4,8
-	dw 1900
+	db "ENFORCER@"
+	db 3,0
+	dw 380
 	text_far _JigglypuffDexEntry
 	text_end
 
 WigglytuffDexEntry:
-	db "SHRIEKING@"
-	db 7,3
-	dw 150
+	db "ANGEL@"
+	db 8,3
+	dw 1313
 	text_far _WigglytuffDexEntry
 	text_end
 
@@ -932,9 +932,9 @@ MachampDexEntry:
 	text_end
 
 GolduckDexEntry:
-	db "TUNNELING@"
-	db 3,11
-	dw 860
+	db "STALKER@"
+	db 4,2
+	dw 2100
 	text_far _GolduckDexEntry
 	text_end
 
@@ -988,7 +988,7 @@ KinglerDexEntry:
 	text_end
 
 CloysterDexEntry:
-	db "MUSSELY@"
+	db "BOXINGCLAM@"
 	db 5,3
 	dw 3230
 	text_far _CloysterDexEntry
@@ -1002,16 +1002,16 @@ ElectrodeDexEntry:
 	text_end
 
 ClefableDexEntry:
-	db "ANGEL@"
-	db 8,3
-	dw 1313
+	db "SHRIEKING@"
+	db 7,3
+	dw 150
 	text_far _ClefableDexEntry
 	text_end
 
 WeezingDexEntry:
-	db "WEREWOLF@"
-	db 6,11
-	dw 2380
+	db "STOVE@"
+	db 5,3
+	dw 3750
 	text_far _WeezingDexEntry
 	text_end
 
@@ -1086,9 +1086,9 @@ VenusaurDexEntry:
 	text_end
 
 TentacruelDexEntry:
-	db "HOT STOVE@"
-	db 5,3
-	dw 3747
+	db "CAFFEINE@"
+	db 2,1
+	dw 300
 	text_far _TentacruelDexEntry
 	text_end
 
@@ -1121,15 +1121,15 @@ RapidashDexEntry:
 	text_end
 
 RattataDexEntry:
-	db "ABYSS HAND@"
-	db 3,0
-	dw 200
+	db "ANTHRAXIAN@"
+	db 1,7
+	dw 333
 	text_far _RattataDexEntry
 	text_end
 
 RaticateDexEntry:
-	db "CAPTURER@"
-	db 4,2
+	db "BALBOA@"
+	db 4,8
 	dw 2100
 	text_far _RaticateDexEntry
 	text_end
@@ -1212,14 +1212,14 @@ CharizardDexEntry:
 	text_end
 
 OddishDexEntry:
-	db "MISCREANT@"
+	db "BANDIT@"
 	db 2,10
 	dw 480
 	text_far _OddishDexEntry
 	text_end
 
 GloomDexEntry:
-	db "VIGILANTE@"
+	db "MERCENARY@"
 	db 6,7
 	dw 2800
 	text_far _GloomDexEntry

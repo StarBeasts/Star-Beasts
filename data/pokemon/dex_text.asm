@@ -1,21 +1,21 @@
 _RhydonDexEntry::
-	text "Its psionic power"
-	next "destroyed its"
-	next "physical form."
+	text "Anybody that tries"
+	next "to walk through it"
+	next "finds themselves"
 
-	page "Twisted by hatred,"
-	next "it will never pass"
-	next "to the afterlife"
+	page "drenched with cold"
+	next "water, suggesting"
+	next "it isn't a GHOST"
 	dex
 
 _KangaskhanDexEntry::
-	text "It follows a rigid"
-	next "warrior code of"
-	next "honor, inflicting"
+	text "They have so much"
+	next "electricity stored"
+	next "that their bodies"
 
-	page "only enough pain"
-	next "to render its foe"
-	next "unconscious"
+	page "glow and crackle"
+	next "with it even in"
+	next "broad daylight"
 	dex
 
 _NidoranMDexEntry::
@@ -29,23 +29,23 @@ _NidoranMDexEntry::
 	dex
 
 _ClefairyDexEntry::
-	text "It protects the"
-	next "SPIRIT WORLD from"
-	next "wicked ghosts."
+	text "The power of the"
+	next "MOON mutated it,"
+	next "which gave it more"
 
-	page "It guides lost"
-	next "travelers and"
-	next "spirits home"
+	page "raw power, but its"
+	next "venom weakened in"
+	next "the process"
 	dex
 
 _SpearowDexEntry::
-	text "It feels compelled"
-	next "to paint images"
-	next "of the world"
+	text "It has devoted its"
+	next "life to the study"
+	next "and mimicry of the"
 
-	page "around it."
-	next "The paintings sell"
-	next "for a high price"
+	page "techniques of many"
+	next "STAR BEASTS, to an"
+	next "obsessive degree"
 	dex
 
 _VoltorbDexEntry::
@@ -69,13 +69,13 @@ _NidokingDexEntry::
 	dex
 
 _SlowbroDexEntry::
-	text "It uses psionic"
-	next "pulses to lure"
-	next "BLURCHIN to it,"
+	text "It gained psychic"
+	next "powers, and with"
+	next "them it completely"
 
-	page "so that it can"
-	next "inject its young"
-	next "into their bodies"
+	page "took over the mind"
+	next "and body of the"
+	next "BEAST it was in"
 	dex
 
 _IvysaurDexEntry::
@@ -88,13 +88,13 @@ _IvysaurDexEntry::
     next "usually win"
     dex
 _ExeggutorDexEntry::
-	text "Thanks for buying"
-	next "our latest"
-	next "security android!"
+	text "They are GHOSTS"
+	next "of very powerful"
+	next "psychic aliens."
 
-	page "This unit is voice"
-	next "activated. Speak,"
-	next "and it will obey"
+	page "Twisted by hatred,"
+	next "they cannot pass"
+	next "to the afterlife"
 	dex
 
 _LickitungDexEntry::
@@ -168,13 +168,13 @@ _CuboneDexEntry::
 	dex
 
 _RhyhornDexEntry::
-	text "Aliens that came"
-	next "from far in the"
-	next "future to take"
+	text "With its magical"
+	next "fire reignited,"
+	next "it can use its"
 
-	page "over the Earth."
-	next "Said to dislike"
-	next "lullabies"
+	page "flames to cook"
+	next "scrumptious"
+	next "gourmet meals"
 	dex
 
 _LaprasDexEntry::
@@ -228,13 +228,13 @@ _ShellderDexEntry::
 	dex
 
 _TentacoolDexEntry::
-	text "Once an enchanted"
-	next "stove, its fires"
-	next "have died down."
+	text "It follows a rigid"
+	next "warrior code of"
+	next "honor, inflicting"
 
-	page "If only there was"
-	next "some way to stoke"
-	next "the flames.."
+	page "only enough pain"
+	next "to render its foe"
+	next "unconscious"
 	dex
 
 _GastlyDexEntry::
@@ -279,22 +279,22 @@ _BlastoiseDexEntry::
 
 _PinsirDexEntry::
 	text "These rats are"
-	next "supposedly part of"
-	next "a wizard cult that"
+	next "supposedly wizards"
+	next "that discarded"
 
-	page "discarded their"
-	next "original human"
-	next "forms long ago"
+	page "their original"
+	next "human forms eons"
+	next "ago for power"
 	dex
 
 _TangelaDexEntry::
-	text "When the WATER OF"
-	next "LIFE was added to"
-	next "an ordinary coffee"
+	text "In spite of its"
+	next "cute appearance,"
+	next "it is dangerous"
 
-	page "bean, this demon,"
-	next "a being of endless"
-	next "coffee, was born"
+	page "because it can"
+	next "and will explode"
+	next "without warning"
 	dex
 
 _GrowlitheDexEntry::
@@ -308,13 +308,13 @@ _GrowlitheDexEntry::
 	dex
 
 _OnixDexEntry::
-	text "This irritable"
-	next "creature lives"
-	next "in mossy caves."
+	text "Most of their"
+	next "energy comes from"
+	next "the moss growing"
 
-	page "It prefers to eat"
-	next "plants alone, away"
-	next "from prying eyes"
+	page "on their bodies,"
+	next "so they prefer a"
+	next "slow, quiet life"
 	dex
 
 _FearowDexEntry::
@@ -338,13 +338,13 @@ _PidgeyDexEntry::
 	dex
 
 _SlowpokeDexEntry::
-	text "A common sight"
-	next "in all bodies"
-	next "of water."
+	text "Most BEASTS eat it"
+	next "by accident since"
+	next "it can hide well."
 
-	page "Only uses its"
-	next "poison when it is"
-	next "in danger"
+	page "It lives off of"
+	next "partially digested"
+	next "food and blood"
 	dex
 
 _KadabraDexEntry::
@@ -358,13 +358,13 @@ _KadabraDexEntry::
 	dex
 
 _GravelerDexEntry::
-	text "Its powerful voice"
-	next "can hit over 230"
-	next "decibels."
+	text "It is actually a"
+	next "dragon, but the"
+	next "magic it wields"
 
-	page "It can sing for"
-	next "days without"
-	next "stopping to rest"
+	page "is the peaceful"
+	next "magic of music"
+	next "and the GROOVE"
 	dex
 
 _ChanseyDexEntry::
@@ -378,13 +378,13 @@ _ChanseyDexEntry::
 	dex
 
 _MachokeDexEntry::
-	text "It has fashioned"
-	next "a club out of"
-	next "stone that it"
+	text "Though similar"
+	next "to humans, their"
+	next "bodies are hard"
 
-	page "uses to defend"
-	next "itself and hunt"
-	next "prey for food"
+	page "like stone. They"
+	next "can shatter bones"
+	next "with their fists"
 	dex
 
 _MrMimeDexEntry::
@@ -438,33 +438,33 @@ _ParasectDexEntry::
 	dex
 
 _PsyduckDexEntry::
-	text "In spite of its"
-	next "cute appearance,"
-	next "it is dangerous"
+	text "They often lurk"
+	next "in dungeons and"
+	next "caves, waiting"
 
-	page "because it can"
-	next "and will explode"
-	next "without warning"
+	page "to drag the unwary"
+	next "and the foolish"
+	next "into the ABYSS"
 	dex
 
 _DrowzeeDexEntry::
-	text "Whenever it is"
-	next "in danger, it"
-	next "puts up its mask."
+	text "It tucks its body"
+	next "into its shell"
+	next "when in danger."
 
-	page "The mask is made"
-	next "of highly durable"
-	next "petrified wood"
+	page "Its shell is made"
+	next "of a material like"
+	next "wood, but tougher"
 	dex
 
 _GolemDexEntry::
-	text "The mystifying"
-	next "melody it plays"
-	next "on its flute can"
+	text "It can make deadly"
+	next "sonic shockwaves"
+	next "with its voice and"
 
-	page "pacify anything,"
-	next "including demons"
-	next "and dragons"
+	page "guitar, but it"
+	next "usually prefers to"
+	next "just rock out"
 	dex
 
 _MagmarDexEntry::
@@ -528,11 +528,11 @@ _SeelDexEntry::
 	dex
 
 _DiglettDexEntry::
-	text "A clock forged"
-	next "by hands long"
-	next "forgotten."
+	text "They are magic"
+	next "hourglasses of"
+	next "unknown origins."
 
-	page "It always knows"
+	page "They always know"
 	next "the time of day,"
 	next "to the second"
 	dex
@@ -548,13 +548,13 @@ _TaurosDexEntry::
 	dex
 
 _FarfetchdDexEntry::
-	text "A winged rabbit"
-	next "with an incredibly"
-	next "malevolent nature."
+	text "It tirelessly digs"
+	next "in search of rare"
+	next "minerals to eat."
 
-	page "Can eat an adult"
-	next "human down to the"
-	next "bone in seconds"
+	page "Its drill can cut"
+	next "through solid"
+	next "diamond with ease"
 	dex
 
 _VenonatDexEntry::
@@ -598,13 +598,13 @@ _PoliwagDexEntry::
 	dex
 
 _JynxDexEntry::
-	text "It is a formidable"
-	next "foe in the water"
-	next "or in the rain,"
+	text "The legends say"
+	next "you only see one"
+	next "if you are dying"
 
-	page "but on dry land,"
-	next "its power is"
-	next "greatly lessened"
+	page "or about to die,"
+	next "so it can comfort"
+	next "you as you pass"
 	dex
 
 _MoltresDexEntry::
@@ -698,13 +698,13 @@ _PikachuDexEntry::
 	dex
 
 _RaichuDexEntry::
-	text "Far above in the"
-	next "sky, it flies"
-	next "across the land,"
+	text "It can use its"
+	next "fluffy, cloudlike"
+	next "tail to ride"
 
-	page "smiting anything"
-	next "it perceives as"
-	next "evil or wicked"
+	page "across bodies of"
+	next "water or sense"
+	next "approaching rain"
 	dex
 
 _DratiniDexEntry::
@@ -808,23 +808,23 @@ _OmastarDexEntry::
 	dex
 
 _JigglypuffDexEntry::
-	text "A carefree"
-	next "dinosaur that"
-	next "loves fighting."
+	text "It protects the"
+	next "SPIRIT WORLD from"
+	next "wicked ghosts."
 
-	page "While its strength"
-	next "is average, it has"
-	next "superb durability"
+	page "It guides lost"
+	next "travelers and"
+	next "spirits home"
 	dex
 
 _WigglytuffDexEntry::
-	text "A vengeful spirit"
-	next "that was left to"
-	next "die by its allies."
+	text "It protects holy"
+	next "and sacred areas"
+	next "from outsiders."
 
-	page "Even deaf people"
-	next "can hear its"
-	next "piercing shrieks"
+	page "Said to have kept"
+	next "mankind out of"
+	next "the fabled EDEN"
 	dex
 
 _EeveeDexEntry::
@@ -1038,23 +1038,23 @@ _ButterfreeDexEntry::
 	dex
 
 _MachampDexEntry::
-	text "Both heads take"
-	next "turns hunting"
-	next "and sleeping."
+	text "It is ferociously"
+	next "strong and scarily"
+	next "durable. The club"
 
-	page "It can carry a"
-	next "mountain on its"
-	next "shoulders"
+	page "it carries weighs"
+	next "as much as two"
+	next "young elephants"
 	dex
 
 _GolduckDexEntry::
-	text "It tirelessly digs"
-	next "in search of rare"
-	next "minerals to eat."
+	text "Supposedly, they"
+	next "act as agents for"
+	next "the GRIM REAPER."
 
-	page "Its drill can cut"
-	next "through solid"
-	next "diamond with ease"
+	page "It is said to be"
+	next "bad luck if one"
+	next "follows you"
 	dex
 
 _HypnoDexEntry::
@@ -1132,8 +1132,8 @@ _CloysterDexEntry::
 	next "truly its muscular"
 	next "structure."
 
-	page "Using them, it can"
-	next "snap an armored"
+	page "They have enough"
+	next "power to snap a"
 	next "truck in two"
 	dex
 
@@ -1148,23 +1148,23 @@ _ElectrodeDexEntry::
 	dex
 
 _ClefableDexEntry::
-	text "It protects holy"
-	next "and sacred areas"
-	next "from outsiders."
+	text "Said to be the"
+	next "betrayed GHOSTs of"
+	next "old warriors."
 
-	page "Said to have kept"
-	next "mankind out of"
-	next "the fabled EDEN"
+	page "Even deaf people"
+	next "can hear their"
+	next "piercing shrieks"
 	dex
 
 _WeezingDexEntry::
-	text "The power of the"
-	next "MOON mutated it,"
-	next "making its venom"
+	text "Once an enchanted"
+	next "stove, its fires"
+	next "have died down."
 
-	page "weaker, but also"
-	next "allowing it to"
-	next "fight on 2 legs"
+	page "If only there was"
+	next "some way to stoke"
+	next "the flames.."
 	dex
 
 _PersianDexEntry::
@@ -1268,13 +1268,13 @@ _VenusaurDexEntry::
     dex
 
 _TentacruelDexEntry::
-	text "With its magical"
-	next "fire reignited,"
-	next "it can use its"
+	text "When the WATER OF"
+	next "LIFE is poured"
+	next "onto an ordinary"
 
-	page "flames to cook"
-	next "scrumptious"
-	next "gourmet meals"
+	page "coffee bean, it"
+	next "creates this demon"
+	next "of endless coffee"
 	dex
 
 _GoldeenDexEntry::
@@ -1318,23 +1318,23 @@ _RapidashDexEntry::
 	dex
 
 _RattataDexEntry::
-	text "A common sight"
-	next "in caves, these"
-	next "odd monsters"
+	text "In spite of its"
+	next "harmless looks,"
+	next "it is actually"
 
-	page "attempt to pull"
-	next "the unwary into"
-	next "the UNDERWORLD"
+	page "a vicious monster,"
+	next "with an insatiable"
+	next "thirst for blood"
 	dex
 
 _RaticateDexEntry::
-	text "Said to be agents"
-	next "of the fabled GRIM"
-	next "REAPER. They hunt"
+	text "A dragon species"
+	next "that loves to"
+	next "fight more than"
 
-	page "down those who"
-	next "would dare to flee"
-	next "from their fate"
+	page "anything else."
+	next "If it loses, its"
+	next "mood turns sour"
 	dex
 
 _NidorinoDexEntry::
@@ -1448,13 +1448,13 @@ _CharizardDexEntry::
     dex
 
 _OddishDexEntry::
-	text "It never lives in"
-	next "one location for"
-	next "very long."
+	text "Since it can't"
+	next "fight well, it"
+	next "uses its speed to"
 
-	page "It wanders the"
-	next "world, in search"
-	next "of a purpose"
+	page "steal food and"
+	next "valuables and then"
+	next "flee to safety"
 	dex
 
 _GloomDexEntry::
