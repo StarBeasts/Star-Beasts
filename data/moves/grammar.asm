@@ -26,7 +26,7 @@ ExclamationPointMoveSets:
 	db VICEGRIP
 	db WING_ATTACK
 	db FLY
-	db BIND
+	db MACH_PUNCH
 	db SLAM
 	db HORN_ATTACK
 	db BODY_SLAM
@@ -55,12 +55,10 @@ ExclamationPointMoveSets:
 	db METRONOME
 	db LICK
 	db CLAMP
-	db CONSTRICT
+	db WOOD_HAMMER
 	db POISON_GAS
 	db LEECH_LIFE
-	db BUBBLE
 	db FLASH
-	db SPLASH
 	db ACID_ARMOR
 	db FURY_SWIPES
 	db REST

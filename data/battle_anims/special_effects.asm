@@ -5,9 +5,9 @@ ENDM
 
 AnimationIdSpecialEffects:
 	; animation id, effect routine address
-	anim_special_effect MEGA_PUNCH,            AnimationFlashScreen
+	anim_special_effect FALCON_PUNCH,            AnimationFlashScreen
 	anim_special_effect GUILLOTINE,            AnimationFlashScreen
-	anim_special_effect MEGA_KICK,             AnimationFlashScreen
+	anim_special_effect DRAGON_CLAW,             AnimationFlashScreen
 	anim_special_effect HEADBUTT,              AnimationFlashScreen
 	anim_special_effect TAIL_WHIP,             TailWhipAnimationUnused
 	anim_special_effect GROWL,                 DoGrowlSpecialEffects

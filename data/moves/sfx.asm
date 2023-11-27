@@ -13,14 +13,14 @@ MoveSoundTable:
 	db SFX_DAMAGE,             $00, $80 ; SCRATCH
 	db SFX_BATTLE_0F,          $20, $40 ; VICEGRIP
 	db SFX_BATTLE_0F,          $00, $80 ; GUILLOTINE
-	db SFX_BATTLE_0E,          $00, $a0 ; RAZOR_WIND
+	db SFX_BATTLE_0E,          $00, $a0 ; HURRICANE
 	db SFX_NOT_VERY_EFFECTIVE, $10, $c0 ; SWORDS_DANCE
 	db SFX_NOT_VERY_EFFECTIVE, $00, $a0 ; CUT
 	db SFX_BATTLE_12,          $00, $c0 ; GUST
 	db SFX_BATTLE_12,          $10, $a0 ; WING_ATTACK
-	db SFX_BATTLE_13,          $00, $e0 ; WHIRLWIND
+	db SFX_BATTLE_13,          $00, $e0 ; FLASH_CANNON
 	db SFX_NOT_VERY_EFFECTIVE, $20, $c0 ; FLY
-	db SFX_BATTLE_14,          $00, $80 ; BIND
+	db SFX_BATTLE_14,          $00, $80 ; MACH_PUNCH
 	db SFX_BATTLE_22,          $00, $80 ; SLAM
 	db SFX_VINE_WHIP,          $01, $80 ; VINE_WHIP
 	db SFX_BATTLE_20,          $00, $80 ; STOMP
@@ -49,7 +49,7 @@ MoveSoundTable:
 	db SFX_BATTLE_0B,          $00, $40 ; ROAR
 	db SFX_BATTLE_35,          $00, $80 ; SING
 	db SFX_BATTLE_27,          $40, $60 ; SUPERSONIC
-	db SFX_BATTLE_27,          $00, $80 ; SONICBOOM
+	db SFX_BATTLE_27,          $00, $80 ; HYPER_VOICE
 	db SFX_BATTLE_27,          $ff, $40 ; DISABLE
 	db SFX_BATTLE_2A,          $80, $c0 ; ACID
 	db SFX_BATTLE_19,          $10, $a0 ; EMBER
@@ -82,7 +82,7 @@ MoveSoundTable:
 	db SFX_BATTLE_1C,          $01, $c0 ; SLEEP_POWDER
 	db SFX_BATTLE_13,          $14, $c0 ; PETAL_DANCE
 	db SFX_BATTLE_1B,          $02, $a0 ; STRING_SHOT
-	db SFX_BATTLE_29,          $f0, $80 ; DRAGON_RAGE
+	db SFX_BATTLE_29,          $f0, $80 ; DRAGONBREATH
 	db SFX_BATTLE_29,          $20, $c0 ; FIRE_SPIN
 	db SFX_BATTLE_2F,          $00, $20 ; THUNDERSHOCK
 	db SFX_BATTLE_2F,          $20, $80 ; THUNDERBOLT
@@ -127,16 +127,16 @@ MoveSoundTable:
 	db SFX_BATTLE_2A,          $20, $20 ; SLUDGE
 	db SFX_BATTLE_32,          $00, $80 ; BONE_CLUB
 	db SFX_BATTLE_29,          $1f, $20 ; FIRE_BLAST
-	db SFX_BATTLE_25,          $2f, $80 ; WATERFALL
+	db SFX_BATTLE_25,          $2f, $80 ; DEATH_DROWN
 	db SFX_BATTLE_0F,          $1f, $ff ; CLAMP
 	db SFX_BATTLE_2B,          $1f, $60 ; SWIFT
 	db SFX_BATTLE_26,          $1e, $20 ; SKULL_BASH
 	db SFX_BATTLE_26,          $1f, $18 ; SPIKE_CANNON
-	db SFX_BATTLE_14,          $0f, $80 ; CONSTRICT
+	db SFX_BATTLE_14,          $0f, $80 ; WOOD_HAMMER
 	db SFX_BATTLE_09,          $f8, $10 ; AMNESIA
-	db SFX_FAINT_FALL,         $18, $20 ; KINESIS
+	db SFX_FAINT_FALL,         $18, $20 ; TIME_STOP
 	db SFX_BATTLE_32,          $08, $40 ; SOFTBOILED
-	db SFX_BATTLE_17,          $01, $e0 ; HI_JUMP_KICK
+	db SFX_BATTLE_17,          $01, $e0 ; DRILL_RUN
 	db SFX_NOT_VERY_EFFECTIVE, $09, $ff ; GLARE
 	db SFX_BATTLE_35,          $42, $01 ; DREAM_EATER
 	db SFX_BATTLE_1C,          $00, $ff ; POISON_GAS
@@ -145,20 +145,20 @@ MoveSoundTable:
 	db SFX_BATTLE_09,          $88, $10 ; LOVELY_KISS
 	db SFX_BATTLE_25,          $48, $ff ; SKY_ATTACK
 	db SFX_FAINT_FALL,         $ff, $ff ; TRANSFORM
-	db SFX_BATTLE_24,          $ff, $10 ; BUBBLE
+	db SFX_BATTLE_24,          $ff, $10 ; AERIAL_ACE
 	db SFX_FAINT_FALL,         $ff, $04 ; DIZZY_PUNCH
 	db SFX_BATTLE_1C,          $01, $ff ; SPORE
 	db SFX_BATTLE_13,          $f8, $ff ; FLASH
 	db SFX_BATTLE_0C,          $f0, $f0 ; PSYWAVE
-	db SFX_BATTLE_0F,          $08, $10 ; SPLASH
+	db SFX_BATTLE_0F,          $08, $10 ; LIMB_STRIKE
 	db SFX_BATTLE_0D,          $f0, $ff ; ACID_ARMOR
 	db SFX_SUPER_EFFECTIVE,    $f0, $ff ; CRABHAMMER
 	db SFX_BATTLE_34,          $10, $ff ; EXPLOSION
 	db SFX_BATTLE_0E,          $f0, $20 ; FURY_SWIPES
-	db SFX_BATTLE_2B,          $f0, $60 ; BONEMERANG
+	db SFX_BATTLE_2B,          $f0, $60 ; OUTRAGE
 	db SFX_BATTLE_21,          $12, $10 ; REST
 	db SFX_BATTLE_36,          $f0, $20 ; ROCK_SLIDE
-	db SFX_BATTLE_1E,          $12, $ff ; HYPER_FANG
+	db SFX_BATTLE_1E,          $12, $ff ; CRUNCH
 	db SFX_BATTLE_31,          $80, $04 ; SHARPEN
 	db SFX_BATTLE_33,          $f0, $10 ; CONVERSION
 	db SFX_BATTLE_29,          $f8, $ff ; TRI_ATTACK
