@@ -6,7 +6,7 @@
 ; ============================================================================================================
 
 Music_RouteNew:
-	channel_count 3
+	channel_count 4
 	channel 1, Music_RouteNew_Ch1
 	channel 2, Music_RouteNew_Ch2
 	channel 3, Music_RouteNew_Ch3
@@ -3346,7 +3346,7 @@ Music_RouteNew_Ch3:
 ; ============================================================================================================
 
 Music_RouteNew_Ch4:
-	toggle_noise 0
+	toggle_noise 1
 	drum_speed 12
 .mainloop
 ;Bar 1
