@@ -15,7 +15,7 @@
 
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
-	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     RAGE,         PSYCHIC_M,    \
+	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     SHADOW_CLAW,         PSYCHIC_M,    \
 	     MIMIC,        DOUBLE_TEAM,  BIDE,         SKULL_BASH,   REST,         \
 	     PSYWAVE,      SUBSTITUTE,   SURF
 	; end

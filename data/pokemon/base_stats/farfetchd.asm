@@ -15,7 +15,7 @@
 
 	; tm/hm learnset
 	tmhm HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    TOXIC,        BODY_SLAM,    \
-	     TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         MIMIC,        DOUBLE_TEAM,  \
+	     TAKE_DOWN,    DOUBLE_EDGE,  SHADOW_CLAW,         MIMIC,        DOUBLE_TEAM,  \
 	     REFLECT,      BIDE,         SWIFT,        SKULL_BASH,   REST,         \
 	     SUBSTITUTE,   CUT,          FLY
 	; end

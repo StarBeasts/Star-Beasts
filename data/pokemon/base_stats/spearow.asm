@@ -15,7 +15,7 @@
 
 	; tm/hm learnset
 	tmhm HURRICANE,   FLASH_CANNON,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
-	     RAGE,         MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
+	     SHADOW_CLAW,         MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
 	     SKY_ATTACK,   REST,         SUBSTITUTE,   FLY
 	; end
 
