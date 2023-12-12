@@ -1,11 +1,11 @@
 	db DEX_RATTATA ; pokedex id
 
-	db  30,  56,  35,  72,  25
+	db  53, 140,  30, 141,  81
 	;   hp  atk  def  spd  spc
 
 	db DARK, FLYING ; type
-	db 255 ; catch rate
-	db 57 ; base exp
+	db 45 ; catch rate
+	db 94 ; base exp
 
 	INCBIN "gfx/pokemon/front/rattata.pic", 0, 1 ; sprite dimensions
 	dw RattataPicFront, RattataPicBack

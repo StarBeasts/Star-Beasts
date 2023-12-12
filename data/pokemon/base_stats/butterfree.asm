@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/butterfree.pic", 0, 1 ; sprite dimensions
 	dw ButterfreePicFront, ButterfreePicBack
 
-	db QUICK_ATTACK, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db METAL_CLAW, QUICK_ATTACK, SHADOW_CLAW, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

@@ -1,6 +1,6 @@
 	db DEX_SANDSLASH ; pokedex id
 
-	db  75, 100, 110,  65,  55
+	db  90, 92, 75,  60,  92
 	;   hp  atk  def  spd  spc
 
 	db ROCK, WATER ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/sandslash.pic", 0, 1 ; sprite dimensions
 	dw SandslashPicFront, SandslashPicBack
 
-	db SCRATCH, SAND_ATTACK, NO_MOVE, NO_MOVE ; level 1 learnset
+	db POUND, WATER_GUN, REST, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

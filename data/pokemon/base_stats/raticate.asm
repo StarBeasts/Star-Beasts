@@ -1,6 +1,6 @@
 	db DEX_RATICATE ; pokedex id
 
-	db  55,  81,  60,  97,  50
+	db  150,  75,  120,  75,  75
 	;   hp  atk  def  spd  spc
 
 	db DRAGON, FIGHTING ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/raticate.pic", 0, 1 ; sprite dimensions
 	dw RaticatePicFront, RaticatePicBack
 
-	db TACKLE, TAIL_WHIP, QUICK_ATTACK, NO_MOVE ; level 1 learnset
+	db COMET_PUNCH, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

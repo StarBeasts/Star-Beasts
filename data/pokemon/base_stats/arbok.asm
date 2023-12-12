@@ -1,6 +1,6 @@
 	db DEX_ARBOK ; pokedex id
 
-	db  60,  85,  69,  80,  65
+	db  72,  85,  70,  80,  75
 	;   hp  atk  def  spd  spc
 
 	db POISON, DRAGON ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/arbok.pic", 0, 1 ; sprite dimensions
 	dw ArbokPicFront, ArbokPicBack
 
-	db WRAP, LEER, POISON_STING, NO_MOVE ; level 1 learnset
+	db WRAP, GLARE, POISON_STING, DRAGONBREATH; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

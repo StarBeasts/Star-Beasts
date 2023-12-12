@@ -1,6 +1,6 @@
 	db DEX_NIDOQUEEN ; pokedex id
 
-	db  90,  82,  87,  76,  75
+	db  75, 130,  130,  80,  60
 	;   hp  atk  def  spd  spc
 
 	db STEEL, FLYING ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/nidoqueen.pic", 0, 1 ; sprite dimensions
 	dw NidoqueenPicFront, NidoqueenPicBack
 
-	db TACKLE, SCRATCH, TAIL_WHIP, BODY_SLAM ; level 1 learnset
+	db GUST, OMINOUS_WIND, SPIKE_CANNON, THUNDER ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

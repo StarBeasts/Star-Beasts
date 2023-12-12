@@ -1,6 +1,6 @@
 	db DEX_SPEAROW ; pokedex id
 
-	db  40,  60,  30,  70,  31
+	db  55,  60,  35,  75,  45
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, NORMAL ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/spearow.pic", 0, 1 ; sprite dimensions
 	dw SpearowPicFront, SpearowPicBack
 
-	db PECK, GROWL, NO_MOVE, NO_MOVE ; level 1 learnset
+	db MIRROR_MOVE, SLAM, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
