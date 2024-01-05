@@ -1,6 +1,6 @@
 	db DEX_VULPIX ; pokedex id
 
-	db  38,  41,  40,  65,  65
+	db  55,  80,  50,  82,  60
 	;   hp  atk  def  spd  spc
 
 	db ICE, DARK ; type

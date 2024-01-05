@@ -1,16 +1,16 @@
 	db DEX_WIGGLYTUFF ; pokedex id
 
-	db 140,  70,  45,  45,  50
+	db  58,  97,  165,  50,  65
 	;   hp  atk  def  spd  spc
 
 	db GHOST, FIRE ; type
-	db 50 ; catch rate
+	db 25 ; catch rate
 	db 109 ; base exp
 
 	INCBIN "gfx/pokemon/front/wigglytuff.pic", 0, 1 ; sprite dimensions
 	dw WigglytuffPicFront, WigglytuffPicBack
 
-	db SING, DISABLE, DEFENSE_CURL, DOUBLESLAP ; level 1 learnset
+	db FIRE_SPIN, AERIAL_ACE, METAL_CLAW, SHADOW_CLAW ; level 1 learnset
 	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset

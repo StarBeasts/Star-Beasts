@@ -1,16 +1,16 @@
 	db DEX_DUGTRIO ; pokedex id
 
-	db  35,  80,  50, 120,  70
+	db  35,  55,  40, 165,  125
 	;   hp  atk  def  spd  spc
 
 	db GROUND, PSYCHIC_TYPE ; type
-	db 50 ; catch rate
+	db 25 ; catch rate
 	db 153 ; base exp
 
 	INCBIN "gfx/pokemon/front/dugtrio.pic", 0, 1 ; sprite dimensions
 	dw DugtrioPicFront, DugtrioPicBack
 
-	db SCRATCH, GROWL, DIG, NO_MOVE ; level 1 learnset
+	db SLAM, HYPNOSIS, DISABLE, SAND_ATTACK ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

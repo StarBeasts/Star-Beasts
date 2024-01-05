@@ -1,6 +1,6 @@
 	db DEX_MEOWTH ; pokedex id
 
-	db  40,  45,  35,  90,  40
+	db  125,  30,  30,  70,  95
 	;   hp  atk  def  spd  spc
 
 	db FIRE, PSYCHIC_TYPE ; type

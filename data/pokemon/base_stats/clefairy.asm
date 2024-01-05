@@ -1,6 +1,6 @@
 	db DEX_CLEFAIRY ; pokedex id
 
-	db  70,  45,  48,  35,  60
+	db  85, 110, 90,  100, 85
 	;   hp  atk  def  spd  spc
 
 	db POISON, FIGHTING ; type
