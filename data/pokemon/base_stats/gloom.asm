@@ -1,6 +1,6 @@
 	db DEX_GLOOM ; pokedex id
 
-	db  95,  125,  100,  95,  65
+	db  95, 115, 100, 120, 65
 	;   hp  atk  def  spd  spc
 
 	db GRASS, DARK ; type

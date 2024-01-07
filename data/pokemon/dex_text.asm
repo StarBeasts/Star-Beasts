@@ -1378,13 +1378,13 @@ _PorygonDexEntry::
 	dex
 
 _AerodactylDexEntry::
-	text "It is capable of"
-	next "reshaping entire"
-	next "continents with"
+	text "Before they went"
+	next "extinct, just one"
+	next "of them could"
 
-	page "its powerful"
-	next "eruptions and"
-	next "earthquakes"
+	page "turn a barren"
+	next "wasteland into a"
+	next "beautiful forest"
 	dex
 
 _MagnemiteDexEntry::

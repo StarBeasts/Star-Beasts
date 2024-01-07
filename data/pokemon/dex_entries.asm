@@ -1163,9 +1163,9 @@ PorygonDexEntry:
 	text_end
 
 AerodactylDexEntry:
-	db "VOLCANO@"
-	db 30,8
-	dw 30000
+	db "LIFEMAKER@"
+	db 3,8
+	dw 2684
 	text_far _AerodactylDexEntry
 	text_end
 
