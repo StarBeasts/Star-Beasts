@@ -135,7 +135,7 @@ MonsterNames::
 	db "SILLISH@@@"
 	db "MISSINGNO."
 	db "MISSINGNO."
-	db "ROTTERDAM@"
+	db "WYVRNOBYL@"
 	db "MISSINGNO."
 	db "SCORPHIRO@"
 	db "TUSSEL@@@@"
