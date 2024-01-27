@@ -1,6 +1,6 @@
 	db DEX_PRIMEAPE ; pokedex id
 
-	db  65, 105,  60,  95,  60
+	db  65, 125,  100,  50,  100
 	;   hp  atk  def  spd  spc
 
 	db DARK, STEEL ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/primeape.pic", 0, 1 ; sprite dimensions
 	dw PrimeapePicFront, PrimeapePicBack
 
-	db SCRATCH, LEER, KARATE_CHOP, FURY_SWIPES ; level 1 learnset
+	db PECK, HORN_ATTACK, DRILL_PECK, SLASH ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

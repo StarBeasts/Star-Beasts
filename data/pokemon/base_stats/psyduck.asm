@@ -1,6 +1,6 @@
 	db DEX_PSYDUCK ; pokedex id
 
-	db  50,  52,  48,  55,  50
+	db  35,  30,  35,  66,  55
 	;   hp  atk  def  spd  spc
 
 	db DARK, DARK ; type

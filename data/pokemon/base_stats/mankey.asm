@@ -1,6 +1,6 @@
 	db DEX_MANKEY ; pokedex id
 
-	db  40,  80,  35,  70,  35
+	db  45,  70,  85,  60,  70
 	;   hp  atk  def  spd  spc
 
 	db DARK, STEEL ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/mankey.pic", 0, 1 ; sprite dimensions
 	dw MankeyPicFront, MankeyPicBack
 
-	db SCRATCH, LEER, NO_MOVE, NO_MOVE ; level 1 learnset
+	db PECK, FURY_ATTACK, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

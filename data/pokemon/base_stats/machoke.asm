@@ -1,6 +1,6 @@
 	db DEX_MACHOKE ; pokedex id
 
-	db  80, 100,  70,  45,  50
+	db  82, 125,  58,  40,  50
 	;   hp  atk  def  spd  spc
 
 	db ROCK, FIGHTING ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/machoke.pic", 0, 1 ; sprite dimensions
 	dw MachokePicFront, MachokePicBack
 
-	db KARATE_CHOP, LOW_KICK, LEER, NO_MOVE ; level 1 learnset
+	db BITE, LOW_KICK, LEER, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

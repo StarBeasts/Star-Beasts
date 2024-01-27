@@ -1,16 +1,16 @@
 	db DEX_SLOWBRO ; pokedex id
 
-	db  95,  75, 110,  30,  80
+	db  60,  63, 122,  35,  122
 	;   hp  atk  def  spd  spc
 
 	db POISON, PSYCHIC_TYPE ; type
 	db 75 ; catch rate
-	db 164 ; base exp
+	db 188 ; base exp
 
 	INCBIN "gfx/pokemon/front/slowbro.pic", 0, 1 ; sprite dimensions
 	dw SlowbroPicFront, SlowbroPicBack
 
-	db CONFUSION, DISABLE, HEADBUTT, NO_MOVE ; level 1 learnset
+	db POISON_STING, PIN_MISSILE, WATER_GUN, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

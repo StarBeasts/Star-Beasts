@@ -1,16 +1,16 @@
 	db DEX_GOLEM ; pokedex id
 
-	db  80, 110, 130,  45,  55
+	db  100, 130, 100, 45, 60
 	;   hp  atk  def  spd  spc
 
 	db ROCK, STEEL ; type
 	db 45 ; catch rate
-	db 177 ; base exp
+	db 184 ; base exp
 
 	INCBIN "gfx/pokemon/front/golem.pic", 0, 1 ; sprite dimensions
 	dw GolemPicFront, GolemPicBack
 
-	db TACKLE, DEFENSE_CURL, NO_MOVE, NO_MOVE ; level 1 learnset
+	db RAGE, SCREECH, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

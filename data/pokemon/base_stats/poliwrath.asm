@@ -1,6 +1,6 @@
 	db DEX_POLIWRATH ; pokedex id
 
-	db  90,  85,  95,  70,  70
+	db  150,  90,  90,  10,  100
 	;   hp  atk  def  spd  spc
 
 	db ELECTRIC, GRASS ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/poliwrath.pic", 0, 1 ; sprite dimensions
 	dw PoliwrathPicFront, PoliwrathPicBack
 
-	db HYPNOSIS, WATER_GUN, DOUBLESLAP, BODY_SLAM ; level 1 learnset
+	db WOOD_HAMMER, STOMP, GROWTH, THUNDERPUNCH ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

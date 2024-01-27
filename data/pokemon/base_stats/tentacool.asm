@@ -1,17 +1,17 @@
 	db DEX_TENTACOOL ; pokedex id
 
-	db  40,  40,  35,  70, 100
+	db  60,  185,  80,  70,  40
 	;   hp  atk  def  spd  spc
 
 	db STEEL, NORMAL ; type
-	db 190 ; catch rate
-	db 105 ; base exp
+	db 45 ; catch rate
+	db 175 ; base exp
 
 	INCBIN "gfx/pokemon/front/tentacool.pic", 0, 1 ; sprite dimensions
 	dw TentacoolPicFront, TentacoolPicBack
 
-	db ACID, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db METAL_CLAW, SHARPEN, NO_MOVE, NO_MOVE ; level 1 learnset
+	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \

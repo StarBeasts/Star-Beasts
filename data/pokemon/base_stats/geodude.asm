@@ -1,6 +1,6 @@
 	db DEX_GEODUDE ; pokedex id
 
-	db  40,  80, 100,  20,  30
+	db  40,  60, 80,  60,  30
 	;   hp  atk  def  spd  spc
 
 	db ROCK, ROCK ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/geodude.pic", 0, 1 ; sprite dimensions
 	dw GeodudePicFront, GeodudePicBack
 
-	db TACKLE, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db TACKLE, GROWL, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

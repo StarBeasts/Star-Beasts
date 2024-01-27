@@ -1,6 +1,6 @@
 	db DEX_BELLSPROUT ; pokedex id
 
-	db  50,  75,  35,  40,  70
+	db  45,  100,  80,  45,  28
 	;   hp  atk  def  spd  spc
 
 	db GRASS, GRASS ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/bellsprout.pic", 0, 1 ; sprite dimensions
 	dw BellsproutPicFront, BellsproutPicBack
 
-	db VINE_WHIP, GROWTH, NO_MOVE, NO_MOVE ; level 1 learnset
+	db SCRATCH, SHARPEN, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

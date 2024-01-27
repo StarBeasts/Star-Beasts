@@ -1,6 +1,6 @@
 	db DEX_ALAKAZAM ; pokedex id
 
-	db  55,  50,  45, 120, 135
+	db  55,  50,  45, 120, 145
 	;   hp  atk  def  spd  spc
 
 	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/alakazam.pic", 0, 1 ; sprite dimensions
 	dw AlakazamPicFront, AlakazamPicBack
 
-	db TELEPORT, CONFUSION, DISABLE, NO_MOVE ; level 1 learnset
+	db METRONOME, CONFUSION, DISABLE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

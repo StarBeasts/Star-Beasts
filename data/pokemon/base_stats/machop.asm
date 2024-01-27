@@ -1,6 +1,6 @@
 	db DEX_MACHOP ; pokedex id
 
-	db  70,  80,  50,  35,  35
+	db  67,  95,  58,  40,  30
 	;   hp  atk  def  spd  spc
 
 	db ROCK, FIGHTING ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/machop.pic", 0, 1 ; sprite dimensions
 	dw MachopPicFront, MachopPicBack
 
-	db KARATE_CHOP, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db BITE, LOW_KICK, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

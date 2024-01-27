@@ -1,6 +1,6 @@
 	db DEX_GOLDUCK ; pokedex id
 
-	db  80,  82,  78,  85,  80
+	db  70,  70,  70,  95,  90
 	;   hp  atk  def  spd  spc
 
 	db DARK, DARK ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/golduck.pic", 0, 1 ; sprite dimensions
 	dw GolduckPicFront, GolduckPicBack
 
-	db SCRATCH, TAIL_WHIP, DISABLE, NO_MOVE ; level 1 learnset
+	db SHADOW_CLAW, BITE, QUICK_ATTACK, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

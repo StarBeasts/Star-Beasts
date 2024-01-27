@@ -1,6 +1,6 @@
 	db DEX_VICTREEBEL ; pokedex id
 
-	db  80, 105,  65,  70, 100
+	db  60, 150,  150,  60, 50
 	;   hp  atk  def  spd  spc
 
 	db GRASS, STEEL ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/victreebel.pic", 0, 1 ; sprite dimensions
 	dw VictreebelPicFront, VictreebelPicBack
 
-	db SLEEP_POWDER, STUN_SPORE, ACID, RAZOR_LEAF ; level 1 learnset
+	db METAL_CLAW, BITE, AERIAL_ACE, RAZOR_LEAF ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

@@ -1,6 +1,6 @@
 	db DEX_MACHAMP ; pokedex id
 
-	db  90, 130,  80,  55,  65
+	db  97, 165,  70,  55,  65
 	;   hp  atk  def  spd  spc
 
 	db ROCK, FIGHTING ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/machamp.pic", 0, 1 ; sprite dimensions
 	dw MachampPicFront, MachampPicBack
 
-	db KARATE_CHOP, LOW_KICK, LEER, NO_MOVE ; level 1 learnset
+	db SUBMISSION, LOW_KICK, ROCK_THROW, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
