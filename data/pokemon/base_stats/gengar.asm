@@ -1,16 +1,16 @@
 	db DEX_GENGAR ; pokedex id
 
-	db  60,  65,  60, 110, 130
+	db  84,  145,  103, 113, 63
 	;   hp  atk  def  spd  spc
 
 	db GHOST, STEEL ; type
-	db 45 ; catch rate
+	db 35 ; catch rate
 	db 190 ; base exp
 
 	INCBIN "gfx/pokemon/front/gengar.pic", 0, 1 ; sprite dimensions
 	dw GengarPicFront, GengarPicBack
 
-	db LICK, CONFUSE_RAY, NIGHT_SHADE, NO_MOVE ; level 1 learnset
+	db METAL_CLAW, AERIAL_ACE, SLASH, SHADOW_CLAW ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

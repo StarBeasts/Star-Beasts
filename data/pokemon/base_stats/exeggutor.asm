@@ -1,16 +1,16 @@
 	db DEX_EXEGGUTOR ; pokedex id
 
-	db  95,  95,  85,  55, 125
+	db  200, 1, 1,  145,  166
 	;   hp  atk  def  spd  spc
 
 	db PSYCHIC_TYPE, GHOST ; type
-	db 45 ; catch rate
+	db 60 ; catch rate
 	db 212 ; base exp
 
 	INCBIN "gfx/pokemon/front/exeggutor.pic", 0, 1 ; sprite dimensions
 	dw ExeggutorPicFront, ExeggutorPicBack
 
-	db BARRAGE, HYPNOSIS, NO_MOVE, NO_MOVE ; level 1 learnset
+	db CONFUSE_RAY, PSYBEAM, HYPNOSIS, SCREECH ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

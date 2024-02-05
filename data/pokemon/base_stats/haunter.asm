@@ -1,6 +1,6 @@
 	db DEX_HAUNTER ; pokedex id
 
-	db  45,  50,  45,  95, 115
+	db  64,  115,  83,  83, 45
 	;   hp  atk  def  spd  spc
 
 	db GHOST, STEEL ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/haunter.pic", 0, 1 ; sprite dimensions
 	dw HaunterPicFront, HaunterPicBack
 
-	db LICK, CONFUSE_RAY, NIGHT_SHADE, NO_MOVE ; level 1 learnset
+	db SCRATCH, DOUBLE_TEAM, NIGHT_SHADE, SHADOW_CLAW ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

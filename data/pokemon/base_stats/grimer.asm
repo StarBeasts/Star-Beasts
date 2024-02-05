@@ -1,17 +1,17 @@
 	db DEX_GRIMER ; pokedex id
 
-	db  80,  80,  50,  25,  40
+	db  80,  80,  80,  60,  75
 	;   hp  atk  def  spd  spc
 
 	db POISON, POISON ; type
-	db 190 ; catch rate
-	db 90 ; base exp
+	db 85 ; catch rate
+	db 176 ; base exp
 
 	INCBIN "gfx/pokemon/front/grimer.pic", 0, 1 ; sprite dimensions
 	dw GrimerPicFront, GrimerPicBack
 
-	db POUND, DISABLE, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db SLUDGE, HARDEN, POISON_GAS, NO_MOVE ; level 1 learnset
+	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    SHADOW_CLAW,         MEGA_DRAIN,   THUNDERBOLT,  \

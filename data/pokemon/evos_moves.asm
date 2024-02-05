@@ -897,7 +897,7 @@ FarfetchdEvosMoves:
 
 VenonatEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 31, VENOMOTH
+	db EV_LEVEL, 40, VENOMOTH
 	db 0
 ; Learnset
 	db 24, POISONPOWDER

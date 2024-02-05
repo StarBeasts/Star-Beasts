@@ -1,6 +1,6 @@
 	db DEX_GASTLY ; pokedex id
 
-	db  30,  35,  30,  80, 100
+	db  44,  75,  63,  63, 33
 	;   hp  atk  def  spd  spc
 
 	db GHOST, GHOST ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/gastly.pic", 0, 1 ; sprite dimensions
 	dw GastlyPicFront, GastlyPicBack
 
-	db LICK, CONFUSE_RAY, NIGHT_SHADE, NO_MOVE ; level 1 learnset
+	db SCRATCH, DOUBLE_TEAM, NIGHT_SHADE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

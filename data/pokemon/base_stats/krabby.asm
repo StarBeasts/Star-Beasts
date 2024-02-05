@@ -1,6 +1,6 @@
 	db DEX_KRABBY ; pokedex id
 
-	db  30, 105,  90,  50,  25
+	db  40, 50,  90,  65,  35
 	;   hp  atk  def  spd  spc
 
 	db BUG, POISON ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/krabby.pic", 0, 1 ; sprite dimensions
 	dw KrabbyPicFront, KrabbyPicBack
 
-	db AERIAL_ACE, LEER, NO_MOVE, NO_MOVE ; level 1 learnset
+	db POISON_STING, HARDEN, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

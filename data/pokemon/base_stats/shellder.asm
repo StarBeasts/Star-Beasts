@@ -1,16 +1,16 @@
 	db DEX_SHELLDER ; pokedex id
 
-	db  30,  65, 100,  40,  45
+	db  55,  104, 85,  32,  64
 	;   hp  atk  def  spd  spc
 
-	db POISON, BUG  ; type
+	db WATER, WATER  ; type
 	db 190 ; catch rate
 	db 97 ; base exp
 
 	INCBIN "gfx/pokemon/front/shellder.pic", 0, 1 ; sprite dimensions
 	dw ShellderPicFront, ShellderPicBack
 
-	db TACKLE, WITHDRAW, NO_MOVE, NO_MOVE ; level 1 learnset
+	db HORN_ATTACK, PECK, WATER_GUN, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

@@ -1,6 +1,6 @@
 	db DEX_DROWZEE ; pokedex id
 
-	db  60,  48,  45,  42,  90
+	db  45,  65,  118,  84,  65
 	;   hp  atk  def  spd  spc
 
 	db GRASS, GRASS ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/drowzee.pic", 0, 1 ; sprite dimensions
 	dw DrowzeePicFront, DrowzeePicBack
 
-	db POUND, HYPNOSIS, NO_MOVE, NO_MOVE ; level 1 learnset
+	db WITHDRAW, VICEGRIP, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

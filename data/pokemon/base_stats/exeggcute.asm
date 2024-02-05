@@ -1,17 +1,17 @@
 	db DEX_EXEGGCUTE ; pokedex id
 
-	db  60,  40,  80,  40,  60
+	db  90,  90, 100,  110,  115
 	;   hp  atk  def  spd  spc
 
 	db ELECTRIC, DARK ; type
-	db 90 ; catch rate
-	db 98 ; base exp
+	db 30 ; catch rate
+	db 168 ; base exp
 
 	INCBIN "gfx/pokemon/front/exeggcute.pic", 0, 1 ; sprite dimensions
 	dw ExeggcutePicFront, ExeggcutePicBack
 
-	db BARRAGE, HYPNOSIS, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db BITE, METAL_CLAW, THUNDERSHOCK, NIGHT_SHADE ; level 1 learnset
+	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
 	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  SHADOW_CLAW,         PSYCHIC_M,    \

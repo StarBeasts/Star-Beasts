@@ -1,6 +1,6 @@
 	db DEX_SEEL ; pokedex id
 
-	db  65,  45,  55,  45,  70
+	db  90,  110,  75, 55,  95
 	;   hp  atk  def  spd  spc
 
 	db ICE, ICE ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/seel.pic", 0, 1 ; sprite dimensions
 	dw SeelPicFront, SeelPicBack
 
-	db HEADBUTT, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db GROWL, LICK, SING, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

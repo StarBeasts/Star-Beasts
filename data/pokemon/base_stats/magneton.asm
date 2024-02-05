@@ -1,6 +1,6 @@
 	db DEX_MAGNETON ; pokedex id
 
-	db  50,  60,  95,  70, 120
+	db  75,  70,  100,  80, 120
 	;   hp  atk  def  spd  spc
 
 	db ELECTRIC, PSYCHIC_TYPE ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/magneton.pic", 0, 1 ; sprite dimensions
 	dw MagnetonPicFront, MagnetonPicBack
 
-	db TACKLE, HYPER_VOICE, THUNDERSHOCK, NO_MOVE ; level 1 learnset
+	db THUNDERSHOCK, SCREECH, HYPNOSIS, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

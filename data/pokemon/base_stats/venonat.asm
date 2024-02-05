@@ -3,14 +3,14 @@
 	db  55,  55,  55,  55,  85
 	;   hp  atk  def  spd  spc
 
-	db BUG, DRAGON ; type
+	db BUG, NORMAL ; type
 	db 150 ; catch rate
 	db 75 ; base exp
 
 	INCBIN "gfx/pokemon/front/venonat.pic", 0, 1 ; sprite dimensions
 	dw VenonatPicFront, VenonatPicBack
 
-	db DIZZY_PUNCH, EMBER, THUNDERSHOCK, WATER_GUN; level 1 learnset
+	db DIZZY_PUNCH, DISABLE, ABSORB, CONFUSION; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

@@ -1,6 +1,6 @@
 	db DEX_KINGLER ; pokedex id
 
-	db  55, 130, 115,  75,  50
+	db  70, 90, 115,  95,  75
 	;   hp  atk  def  spd  spc
 
 	db STEEL, POISON ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/kingler.pic", 0, 1 ; sprite dimensions
 	dw KinglerPicFront, KinglerPicBack
 
-	db AERIAL_ACE, LEER, VICEGRIP, NO_MOVE ; level 1 learnset
+	db POISON_STING, METAL_CLAW, VICEGRIP, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
