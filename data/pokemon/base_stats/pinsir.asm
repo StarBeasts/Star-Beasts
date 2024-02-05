@@ -1,6 +1,6 @@
 	db DEX_PINSIR ; pokedex id
 
-	db  65, 125, 100,  85,  55
+	db  85, 50,  50,  115,  115
 	;   hp  atk  def  spd  spc
 
 	db ICE, POISON ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/pinsir.pic", 0, 1 ; sprite dimensions
 	dw PinsirPicFront, PinsirPicBack
 
-	db VICEGRIP, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db BITE, SLASH, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

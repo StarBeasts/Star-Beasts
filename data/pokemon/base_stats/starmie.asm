@@ -1,16 +1,16 @@
 	db DEX_STARMIE ; pokedex id
 
-	db  60,  75,  85, 115, 100
+	db  75,  105,  120, 75, 75
 	;   hp  atk  def  spd  spc
 
 	db GROUND, FLYING ; type
-	db 60 ; catch rate
-	db 207 ; base exp
+	db 45 ; catch rate
+	db 206 ; base exp
 
 	INCBIN "gfx/pokemon/front/starmie.pic", 0, 1 ; sprite dimensions
 	dw StarmiePicFront, StarmiePicBack
 
-	db TACKLE, WATER_GUN, HARDEN, NO_MOVE ; level 1 learnset
+	db HEADBUTT, ROCK_THROW, RECOVER, WING_ATTACK ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

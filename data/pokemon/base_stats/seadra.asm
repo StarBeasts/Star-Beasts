@@ -1,16 +1,16 @@
 	db DEX_SEADRA ; pokedex id
 
-	db  55,  65,  95,  85,  95
+	db  75, 115,  65,  120, 75
 	;   hp  atk  def  spd  spc
 
 	db ICE, ICE ; type
-	db 75 ; catch rate
+	db 50 ; catch rate
 	db 155 ; base exp
 
 	INCBIN "gfx/pokemon/front/seadra.pic", 0, 1 ; sprite dimensions
 	dw SeadraPicFront, SeadraPicBack
 
-	db AERIAL_ACE, SMOKESCREEN, NO_MOVE, NO_MOVE ; level 1 learnset
+	db SWIFT, AERIAL_ACE, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

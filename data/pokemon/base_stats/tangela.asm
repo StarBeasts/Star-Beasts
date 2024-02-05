@@ -1,16 +1,16 @@
 	db DEX_TANGELA ; pokedex id
 
-	db  65,  55, 115,  60, 100
+	db  40,  40,  40, 125, 75
 	;   hp  atk  def  spd  spc
 
 	db ELECTRIC, STEEL ; type
-	db 45 ; catch rate
-	db 166 ; base exp
+	db 90 ; catch rate
+	db 100 ; base exp
 
 	INCBIN "gfx/pokemon/front/tangela.pic", 0, 1 ; sprite dimensions
 	dw TangelaPicFront, TangelaPicBack
 
-	db WOOD_HAMMER, MACH_PUNCH, NO_MOVE, NO_MOVE ; level 1 learnset
+	db THUNDERSHOCK, SCREECH, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

@@ -1,6 +1,6 @@
 	db DEX_LICKITUNG ; pokedex id
 
-	db  90,  55,  75,  30,  60
+	db  90,  95,  50,  70,  75
 	;   hp  atk  def  spd  spc
 
 	db DARK, FIGHTING ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/lickitung.pic", 0, 1 ; sprite dimensions
 	dw LickitungPicFront, LickitungPicBack
 
-	db WRAP, SUPERSONIC, NO_MOVE, NO_MOVE ; level 1 learnset
+	db SHADOW_CLAW, FIRE_PUNCH, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

@@ -1,6 +1,6 @@
 	db DEX_WEEZING ; pokedex id
 
-	db  85, 110, 90,  85,  75
+	db  50,  90, 160,  20, 30
 	;   hp  atk  def  spd  spc
 
 	db ROCK, STEEL ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/weezing.pic", 0, 1 ; sprite dimensions
 	dw WeezingPicFront, WeezingPicBack
 
-	db BITE, SLASH, LEER, NO_MOVE ; level 1 learnset
+	db SMOG, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

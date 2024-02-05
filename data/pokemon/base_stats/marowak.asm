@@ -1,6 +1,6 @@
 	db DEX_MAROWAK ; pokedex id
 
-	db  60,  80, 110,  45,  50
+	db  58,  95, 145,  30,  95
 	;   hp  atk  def  spd  spc
 
 	db GHOST, ROCK ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/marowak.pic", 0, 1 ; sprite dimensions
 	dw MarowakPicFront, MarowakPicBack
 
-	db BONE_CLUB, GROWL, LEER, FOCUS_ENERGY ; level 1 learnset
+	db WRAP, SHADOW_CLAW, SCREECH, HEADBUTT ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

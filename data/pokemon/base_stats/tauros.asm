@@ -1,17 +1,17 @@
 	db DEX_TAUROS ; pokedex id
 
-	db  75, 100,  95, 110,  70
+	db  75, 100,  35, 255,  70
 	;   hp  atk  def  spd  spc
 
 	db FIGHTING, FLYING ; type
-	db 45 ; catch rate
+	db 60 ; catch rate
 	db 211 ; base exp
 
 	INCBIN "gfx/pokemon/front/tauros.pic", 0, 1 ; sprite dimensions
 	dw TaurosPicFront, TaurosPicBack
 
-	db TACKLE, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db QUICK_ATTACK, MACH_PUNCH, NO_MOVE, NO_MOVE ; level 1 learnset
+	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset
 	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \

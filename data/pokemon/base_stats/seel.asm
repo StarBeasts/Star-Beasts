@@ -1,6 +1,6 @@
 	db DEX_SEEL ; pokedex id
 
-	db  90,  110,  75, 55,  95
+	db  75,  110, 75, 95,  95
 	;   hp  atk  def  spd  spc
 
 	db ICE, ICE ; type

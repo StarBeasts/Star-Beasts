@@ -1,17 +1,17 @@
 	db DEX_RHYHORN ; pokedex id
 
-	db  80,  85,  95,  25,  30
+	db  50,  50,  120, 30, 120
 	;   hp  atk  def  spd  spc
 
 	db FIRE, STEEL ; type
-	db 120 ; catch rate
-	db 135 ; base exp
+	db 60 ; catch rate
+	db 173 ; base exp
 
 	INCBIN "gfx/pokemon/front/rhyhorn.pic", 0, 1 ; sprite dimensions
 	dw RhyhornPicFront, RhyhornPicBack
 
-	db HORN_ATTACK, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db SMOG, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
 	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \

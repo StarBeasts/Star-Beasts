@@ -11,7 +11,7 @@
 	dw ChanseyPicFront, ChanseyPicBack
 
 	db POUND, DOUBLESLAP, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_FAST ; growth rate
+	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
 	tmhm FALCON_PUNCH,   DRAGON_CLAW,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \

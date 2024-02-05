@@ -1,6 +1,6 @@
 	db DEX_HORSEA ; pokedex id
 
-	db  30,  40,  70,  60,  70
+	db  54,  65,  65,  40,  55
 	;   hp  atk  def  spd  spc
 
 	db ICE, ICE ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/horsea.pic", 0, 1 ; sprite dimensions
 	dw HorseaPicFront, HorseaPicBack
 
-	db AERIAL_ACE, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db PSYWAVE, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

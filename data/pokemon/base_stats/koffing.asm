@@ -1,16 +1,16 @@
 	db DEX_KOFFING ; pokedex id
 
-	db  40,  65,  95,  35,  60
+	db  110,  123,  65,  65,  100
 	;   hp  atk  def  spd  spc
 
 	db DARK, FIGHTING ; type
-	db 190 ; catch rate
-	db 114 ; base exp
+	db 30 ; catch rate
+	db 200 ; base exp
 
 	INCBIN "gfx/pokemon/front/koffing.pic", 0, 1 ; sprite dimensions
 	dw KoffingPicFront, KoffingPicBack
 
-	db TACKLE, SMOG, NO_MOVE, NO_MOVE ; level 1 learnset
+	db AURA_SPHERE, MACH_PUNCH, SHADOW_CLAW, FIRE_PUNCH ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
