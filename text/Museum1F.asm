@@ -104,7 +104,8 @@ _Museum1FText_5c2ad::
 	done
 
 _Museum1FText_5c2bc::
-	text "The OBSIDIAN"
-	line "is radiating with"
-	cont "power!"
+	text "Despite its scary"
+	line "appearance,"
+	cont "looking at this"
+	cont "skull calms you."
 	done
