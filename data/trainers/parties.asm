@@ -212,7 +212,7 @@ PokemaniacData:
 ; Rock Tunnel 1F
 	db 23, CUBONE, SLOWPOKE, 0
 ; Viridian Forest
-	db 9, VENONAT, 0
+	db 8, VENONAT, 0
 
 SuperNerdData:
 ; Mt. Moon 1F
@@ -641,10 +641,10 @@ BrunoData:
 	db $FF, 53, ONIX, 55, HITMONCHAN, 55, HITMONLEE, 56, ONIX, 58, MACHAMP, 0
 
 BrockData:
-	db $FF, 12, GEODUDE, 14, ONIX, 0
+	db $FF, 12, GEODUDE, 14, GOLEM, 0
 
 MistyData:
-	db $FF, 18, STARYU, 21, STARMIE, 0
+	db $FF, 18, GOLDEEN, 23, RHYDON, 0
 
 LtSurgeData:
 	db $FF, 21, VOLTORB, 18, PIKACHU, 24, RAICHU, 0

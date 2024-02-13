@@ -1,6 +1,6 @@
 	db DEX_WEEDLE ; pokedex id
 
-	db  40,  50,  50,  50,  20
+	db  40,  50,  40,  50,  20
 	;   hp  atk  def  spd  spc
 
 	db BUG, GRASS ; type

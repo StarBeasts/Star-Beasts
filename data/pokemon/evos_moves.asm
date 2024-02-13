@@ -746,7 +746,7 @@ GolemEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 11, DEFENSE_CURL
+	db 15, SCREECH
 	db 16, ROCK_THROW
 	db 21, SELFDESTRUCT
 	db 29, HARDEN
@@ -1917,11 +1917,11 @@ GeodudeEvosMoves:
 	db EV_LEVEL, 25, GRAVELER
 	db 0
 ; Learnset
-	db 11, DEFENSE_CURL
-	db 16, ROCK_THROW
+	db 13, SING
+	db 17, ROCK_THROW
 	db 21, SELFDESTRUCT
-	db 26, HARDEN
-	db 31, EARTHQUAKE
+	db 25, HARDEN
+	db 30, EARTHQUAKE
 	db 36, EXPLOSION
 	db 0
 
