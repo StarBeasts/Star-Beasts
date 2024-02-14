@@ -344,7 +344,7 @@ MewDexEntry:
 	text_end
 
 GyaradosDexEntry:
-	db "BULLY@"
+	db "DROWNFISH@"
 	db 11,2
 	dw 4890
 	text_far _GyaradosDexEntry
@@ -967,7 +967,7 @@ SnorlaxDexEntry:
 	text_end
 
 MagikarpDexEntry:
-	db "BULLIED@"
+	db "CLOWNFISH@"
 	db 2,6
 	dw 270
 	text_far _MagikarpDexEntry

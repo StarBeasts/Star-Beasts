@@ -134,7 +134,7 @@ PokemonCries::
 	mon_cry CRY_PIDGEOTTO,     0,  256 ; PINSIR
 	mon_cry CRY_SQUIRTLE,     17,  192 ; TAUROS
 	mon_cry CRY_MANTINE,       0,  256 ; MAGIKARP - Done
-	mon_cry CRY_MANTINE,         192,  256 ; GYARADOS - Done
+	mon_cry CRY_MANTINE,         192,  312 ; GYARADOS - Done
 	mon_cry CRY_TYPHLOSION,        -40,  200 ; LAPRAS - Done
 	mon_cry CRY_AIPOM,      -100,  256 ; DITTO - Done
 	mon_cry CRY_GIRAFARIG,    0,  383 ; EEVEE - Done

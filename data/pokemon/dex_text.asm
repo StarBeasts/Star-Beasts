@@ -208,13 +208,13 @@ _MewDexEntry::
 	dex
 
 _GyaradosDexEntry::
-	text "Having gone from"
-	next "the bottom of the"
-	next "food chain to the"
+	text "It relentlessly"
+	next "toys with its prey"
+	next "until exhaustion"
 
-	page "top, it delights"
-	next "in eating fish"
-	next "that bullied it"
+	page "takes them, never"
+	next "once dropping its"
+	next "wicked grin"
 	dex
 
 _ShellderDexEntry::
@@ -1098,13 +1098,13 @@ _SnorlaxDexEntry::
 	dex
 
 _MagikarpDexEntry::
-	text "Its only means"
-	next "of defending"
-	next "itself is to"
+	text "If it weren't for"
+	next "the explosive rate"
+	next "at which they make"
 
-	page "feebly smack any"
-	next "would-be predators"
-	next "with its tail"
+	page "offspring, they"
+	next "would have gone"
+	next "extinct long ago"
 	dex
 
 _MukDexEntry::
