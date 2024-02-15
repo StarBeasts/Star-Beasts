@@ -1,6 +1,6 @@
 	db DEX_GYARADOS ; pokedex id
 
-	db  95, 125,  79,  81, 100
+	db  95, 135,  79,  70, 108
 	;   hp  atk  def  spd  spc
 
 	db WATER, DARK ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/gyarados.pic", 0, 1 ; sprite dimensions
 	dw GyaradosPicFront, GyaradosPicBack
 
-	db BITE, DRAGONBREATH, LEER, HYDRO_PUMP ; level 1 learnset
+	db CRUNCH, BITE, DOUBLESLAP, POISON_FANG ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

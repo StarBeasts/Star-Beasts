@@ -199,12 +199,14 @@ RhydonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 30, STOMP
-	db 35, TAIL_WHIP
-	db 40, FURY_ATTACK
-	db 48, HORN_DRILL
-	db 55, LEER
-	db 64, TAKE_DOWN
+	db 30, CONFUSE_RAY
+	db 35, WRAP
+	db 42, SCREECH
+	db 46, OMINOUS_WIND
+	db 51, THUNDER
+	db 51, FIRE_BLAST
+	db 51, BLIZZARD
+	db 64, PK_STARSTORM
 	db 0
 
 KangaskhanEvosMoves:
@@ -223,12 +225,12 @@ NidoranMEvosMoves:
 	db EV_LEVEL, 16, NIDORINO
 	db 0
 ; Learnset
-	db 8, HORN_ATTACK
-	db 14, POISON_STING
-	db 21, FOCUS_ENERGY
-	db 29, FURY_ATTACK
-	db 36, HORN_DRILL
-	db 43, DOUBLE_KICK
+	db 8, BITE
+	db 12, METAL_CLAW
+	db 21, POISON_FANG
+	db 29, FURY_SWIPES
+	db 36, LOW_KICK
+	db 43, TAKE_DOWN
 	db 0
 
 ClefairyEvosMoves:
@@ -437,9 +439,10 @@ GyaradosEvosMoves:
 ; Learnset
 	db 20, BITE
 	db 25, DRAGONBREATH
-	db 32, LEER
-	db 41, HYDRO_PUMP
-	db 52, HYPER_BEAM
+	db 32, POISON_FANG
+	db 39, LOVELY_KISS
+	db 46, HYDRO_PUMP
+	db 53, HYPER_BEAM
 	db 0
 
 ShellderEvosMoves:
@@ -1571,7 +1574,9 @@ MagikarpEvosMoves:
 	db EV_LEVEL, 20, GYARADOS
 	db 0
 ; Learnset
-	db 15, TACKLE
+	db 11, WATER_GUN
+	db 15, SLAM
+	db 22, CRUNCH
 	db 0
 
 MissingNo86EvosMoves:

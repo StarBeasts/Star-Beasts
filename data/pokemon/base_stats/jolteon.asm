@@ -1,6 +1,6 @@
 	db DEX_JOLTEON ; pokedex id
 
-	db  65,  65,  60, 130, 110
+	db  90,  85,  75, 100, 115
 	;   hp  atk  def  spd  spc
 
 	db ELECTRIC, FLYING ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/jolteon.pic", 0, 1 ; sprite dimensions
 	dw JolteonPicFront, JolteonPicBack
 
-	db TACKLE, SAND_ATTACK, QUICK_ATTACK, THUNDERSHOCK ; level 1 learnset
+	db BODY_SLAM, WING_ATTACK, THUNDERBOLT, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

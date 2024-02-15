@@ -1,6 +1,6 @@
 	db DEX_MAGIKARP ; pokedex id
 
-	db  20,  10,  55,  80,  20
+	db  20,  80,  69,  80,  20
 	;   hp  atk  def  spd  spc
 
 	db WATER, WATER ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/magikarp.pic", 0, 1 ; sprite dimensions
 	dw MagikarpPicFront, MagikarpPicBack
 
-	db LIMB_STRIKE, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db DOUBLESLAP, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

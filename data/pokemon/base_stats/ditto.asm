@@ -1,6 +1,6 @@
 	db DEX_DITTO ; pokedex id
 
-	db  48,  48,  48,  48,  48
+	db  96,  8,  96,  144,  96
 	;   hp  atk  def  spd  spc
 
 	db GRASS, FIGHTING ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/ditto.pic", 0, 1 ; sprite dimensions
 	dw DittoPicFront, DittoPicBack
 
-	db TRANSFORM, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db MIRROR_MOVE, MIMIC, COUNTER, TRANSFORM ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

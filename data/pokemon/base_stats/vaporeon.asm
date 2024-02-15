@@ -1,6 +1,6 @@
 	db DEX_VAPOREON ; pokedex id
 
-	db 130,  65,  60,  65, 110
+	db 115,  75,  100,  85, 115
 	;   hp  atk  def  spd  spc
 
 	db WATER, WATER ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/vaporeon.pic", 0, 1 ; sprite dimensions
 	dw VaporeonPicFront, VaporeonPicBack
 
-	db TACKLE, SAND_ATTACK, QUICK_ATTACK, WATER_GUN ; level 1 learnset
+	db BODY_SLAM, BUBBLEBEAM, QUICK_ATTACK, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
