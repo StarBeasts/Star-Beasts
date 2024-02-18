@@ -137,7 +137,7 @@ Moves:
 	move SLUDGE,       POISON_SIDE_EFFECT2,         65, POISON,       100, 20
 	move CLUB,         FLINCH_SIDE_EFFECT1,         65, ROCK,        85, 20
 	move FIRE_BLAST,   BURN_SIDE_EFFECT2,          120, FIRE,          85,  5
-    move DEATH_DROWN,    HYPER_BEAM_EFFECT,        170, WATER,         85,  5
+    move DEATH_DROWN,  HYPER_BEAM_EFFECT,        170, WATER,         85,  5
 	move CLAMP,        TRAPPING_EFFECT,             35, WATER,         75, 10
 	move SWIFT,        SWIFT_EFFECT,                60, NORMAL,       100, 20
 	move SKULL_BASH,   CHARGE_EFFECT,              150, STEEL,       100, 15

@@ -1233,7 +1233,17 @@ BugBiteAnim:
 	db -1 ; end
 
 MegahornAnim:
-	battle_anim SUBSTITUTE, SE_SLIDE_MON_OFF
+	battle_anim FURY_ATTACK, SUBANIM_0_HORN_JAB_THRICE, 0, 2
+	battle_anim ROCK_SLIDE, SUBANIM_1_STAR_BIG, 1, 2
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG, 1, 2
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG, 1, 2
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG, 1, 2
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG, 1, 2
+	battle_anim THRASH, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	db -1 ; end
 
 DarkPulseAnim:
