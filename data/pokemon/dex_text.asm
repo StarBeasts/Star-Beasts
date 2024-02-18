@@ -19,13 +19,13 @@ _KangaskhanDexEntry::
 	dex
 
 _NidoranMDexEntry::
-	text "An incredibly"
-	next "popular pet all"
-	next "around the world."
+	text "Despite the venom"
+	next "in its saliva, a"
+	next "lot of people keep"
 
-	page "Its tongue"
-	next "secretes a"
-	next "venomous saliva"
+	page "one as a pet due"
+	next "to its timid and"
+	next "friendly nature"
 	dex
 
 _ClefairyDexEntry::
@@ -158,13 +158,13 @@ _NidoqueenDexEntry::
 	dex
 
 _CuboneDexEntry::
-	text "A piece of the"
-	next "BOOK OF"
-	next "NECROMANCY that"
+	text "They are said to"
+	next "have been scrolls"
+	next "used to store"
 
-	page "came to life."
-	next "Dangerous in"
-	next "numbers"
+	page "human souls that"
+	next "somehow managed to"
+	next "come back to life"
 	dex
 
 _RhyhornDexEntry::
@@ -1008,13 +1008,13 @@ _DewgongDexEntry::
 	dex
 
 _CaterpieDexEntry::
-	text "Possibly the most"
-	next "genial insect in"
-	next "existence."
+	text "They are the"
+	next "quickest species"
+	next "of caterpillar,"
 
-	page "It uses its wings"
-	next "to collect food"
-	next "from tall trees"
+	page "jumping from tree"
+	next "to tree in their"
+	next "search for food"
 	dex
 
 _MetapodDexEntry::

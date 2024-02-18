@@ -904,7 +904,7 @@ DewgongDexEntry:
 	text_end
 
 CaterpieDexEntry:
-	db "FRIENDLY@"
+	db "AGILARVA@"
 	db 1,0
 	dw 60
 	text_far _CaterpieDexEntry
