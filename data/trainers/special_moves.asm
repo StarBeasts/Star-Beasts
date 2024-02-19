@@ -4,14 +4,14 @@
 ; the fourth entry in the list.
 LoneMoves:
 	; pokemon index, move to give nth pokemon
-	db 1, BIDE
-	db 1, BUBBLEBEAM
-	db 2, THUNDERBOLT
-	db 2, WOOD_HAMMER
-	db 3, TOXIC
-	db 4, PSYWAVE
-	db 3, FIRE_BLAST
-	db 4, EARTHQUAKE
+	db 1,BIDE
+	db 1,BUBBLEBEAM
+	db 2,THUNDERBOLT
+	db 2,WOOD_HAMMER
+	db 3,TOXIC
+	db 4,PK_STARSTORM
+	db 3,FIRE_BLAST
+	db 4,EARTHQUAKE
 
 ; unique moves for elite 4
 ; all trainers in this class are given this move automatically
