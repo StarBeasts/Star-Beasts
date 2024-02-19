@@ -903,6 +903,7 @@ VenonatEvosMoves:
 	db EV_LEVEL, 40, VENOMOTH
 	db 0
 ; Learnset
+	db 10, DIZZY_PUNCH
 	db 24, POISONPOWDER
 	db 27, LEECH_LIFE
 	db 30, STUN_SPORE

@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/venonat.pic", 0, 1 ; sprite dimensions
 	dw VenonatPicFront, VenonatPicBack
 
-	db DIZZY_PUNCH, DISABLE, ABSORB, CONFUSION; level 1 learnset
+	db POUND, DISABLE, ABSORB, CONFUSION; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

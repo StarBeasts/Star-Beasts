@@ -69,7 +69,7 @@ ItemNames::
 	li "X SPEED"
 	li "X SPECIAL"
 	li "COIN CASE"
-	li "OAK's PARCEL"
+	li "PARCEL"
 	li "ITEMFINDER"
 	li "SILPH SCOPE"
 	li "STAR FLUTE"
