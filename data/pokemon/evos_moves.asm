@@ -300,7 +300,7 @@ IvysaurEvosMoves:
 ; Learnset
 	db 7, LEECH_SEED
 	db 13, ABSORB
-	db 16, QUICK_ATTACK; Placeholder, replace with MACH_PUNCH
+	db 16, MACH_PUNCH
 	db 22, THRASH
 	db 26, BRICK_BREAK
 	db 30, WOOD_HAMMER
@@ -581,7 +581,7 @@ OnixEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, QUICK_ATTACK; Placeholder, replace with MACH_PUNCH
+	db 15, MACH_PUNCH
 	db 19, ROCK_THROW
 	db 25, RAGE
 	db 33, SLAM
@@ -1803,7 +1803,7 @@ BulbasaurEvosMoves:
 	db 9, ABSORB
 	db 13, COMET_PUNCH
 	db 13, BIDE
-	db 16, QUICK_ATTACK; Placeholder, replace with MACH_PUNCH
+	db 16, MACH_PUNCH
 	db 20, STUN_SPORE
 	db 27, MEGA_DRAIN
 	db 34, GROWTH
@@ -1817,7 +1817,7 @@ VenusaurEvosMoves:
 ; Learnset
 	db 12, EARTHQUAKE
 	db 13, MEGA_DRAIN
-	db 22, QUICK_ATTACK; Placeholder, replace with MACH_PUNCH
+	db 22, MACH_PUNCH
 	db 30, THRASH
 	db 32, THRASH
 	db 36, BRICK_BREAK
@@ -1941,7 +1941,7 @@ RaticateEvosMoves:
 	db 0
 ; Learnset
 	db 9, DIZZY_PUNCH
-	db 14, QUICK_ATTACK; Placeholder, replace with MACH_PUNCH
+	db 14, MACH_PUNCH
 	db 19, ROLLING_KICK
 	db 24, ICE_PUNCH
 	db 24, FIRE_PUNCH
