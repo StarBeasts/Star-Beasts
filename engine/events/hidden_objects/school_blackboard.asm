@@ -185,13 +185,13 @@ ViridianSchoolBlackboardText2:
 	text_end
 
 StatusAilmentText1:
-	db   " SLP"
-	next " PSN"
-	next " PAR@"
+	db   " EYES"
+	next " FACE"
+	next " STCY@"
 
 StatusAilmentText2:
-	db   " BRN"
-	next " FRZ"
+	db   " SMIL"
+	next " ABS"
 	next " QUIT@"
 
 	db "@" ; unused

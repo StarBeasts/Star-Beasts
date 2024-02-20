@@ -6,6 +6,7 @@ ViridianPokecenter_TextPointers:
 	dw ViridianHealNurseText
 	dw ViridianPokeCenterText2
 	dw ViridianPokeCenterText3
+	dw ViridianPokeCenterText4
 	dw ViridianTradeNurseText
 
 ViridianHealNurseText:
@@ -17,6 +18,10 @@ ViridianPokeCenterText2:
 
 ViridianPokeCenterText3:
 	text_far _ViridianPokeCenterText3
+	text_end
+
+ViridianPokeCenterText4:
+	text_far _ViridianPokeCenterText4
 	text_end
 
 ViridianTradeNurseText:

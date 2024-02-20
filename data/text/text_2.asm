@@ -699,66 +699,62 @@ _ViridianSchoolBlackboardText2::
 	done
 
 _ViridianBlackboardSleepText::
-	text "A BEAST can't"
-	line "attack if it's"
-	cont "asleep!"
-
-	para "BEASTS will stay"
-	line "asleep even after"
-	cont "battles."
-
-	para "Use AWAKENING to"
-	line "wake them up!"
+	text "I always lose"
+	line "myself in those"
+	cont "beautiful,"
+	cont "emerald green"
+	cont "eyes of his..."
 	prompt
 
 _ViridianBlackboardPoisonText::
-	text "When poisoned, a"
-	line "BEAST's health"
-	cont "steadily drops."
+	text "His fluffy yet"
+	line "well combed hair,"
 
-	para "Poison lingers"
-	line "after battles."
-
-	para "Use an ANTIDOTE"
-	line "to cure poison!"
+	para "a gorgeous shade"
+	line "of auburn..."
 	prompt
 
 _ViridianBlackboardPrlzText::
-	text "Paralysis could"
-	line "make BEAST"
-	cont "moves misfire!"
+	text "That skank,"
+	line "STACEY..."
 
-	para "Paralysis remains"
-	line "after battles."
+	para "Don't worry,"
+	line "JUSTIN..."
 
-	para "Use PARLYZ HEAL"
-	line "for treatment!"
+	para "One day, you'll"
+	line "realise you"
+	cont "deserve better..."
+
+	para "And if you don't,"
+	line "I'll get rid of"
+	cont "her for you."
+
+	para "One day..."
 	prompt
 
 _ViridianBlackboardBurnText::
-	text "A burn reduces"
-	line "power and speed."
-	cont "It also causes"
-	cont "ongoing damage."
-
-	para "Burns remain"
-	line "after battles."
-
-	para "Use BURN HEAL to"
-	line "cure a burn!"
+	text "When he smiles,"
+	line "I can feel my"
+	cont "heart flutter."
+	
+	para "Isn't he dreamy?"
 	prompt
 
 _ViridianBlackboardFrozenText::
-	text "If frozen, a"
-	line "BEAST becomes"
-	cont "totally immobile!"
+	text "Oooohhh..."
 
-	para "It stays frozen"
-	line "even after the"
-	cont "battle ends."
+	para "All that time he"
+	line "spends working"
+	cont "out..."
 
-	para "Use ICE HEAL to"
-	line "thaw out BEASTS!"
+	para "Mmmnnghhh..."
+
+	para "It's not fair"
+	line "that he's so hot!"
+
+	para "I can barely"
+	line "control myself"
+	cont "around him!"
 	prompt
 
 _VermilionGymTrashText::

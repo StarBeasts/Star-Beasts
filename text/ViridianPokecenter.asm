@@ -14,3 +14,10 @@ _ViridianPokeCenterText3::
 	para "They don't charge"
 	line "any money either!"
 	done
+
+_ViridianPokeCenterText4::
+	text "My boy friend"
+	line "JUSTIN works at"
+	cont "the BEAST MART,"
+	cont "next door!"
+	done
