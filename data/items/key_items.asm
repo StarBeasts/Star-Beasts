@@ -46,7 +46,7 @@ KeyItemFlags:
 	dbit TRUE  ; UNUSED_ITEM
 	dbit TRUE  ; BIKE_VOUCHER
 	dbit FALSE ; X_ACCURACY
-	dbit FALSE ; LEAF_STONE
+	dbit FALSE ; STEELY_GENE
 	dbit TRUE  ; CARD_KEY
 	dbit FALSE ; NUGGET
 	dbit FALSE ; PP_UP_2
@@ -83,4 +83,6 @@ KeyItemFlags:
 	dbit FALSE ; MAX_ETHER
 	dbit FALSE ; ELIXER
 	dbit FALSE ; MAX_ELIXER
+	dbit FALSE ; DARK_SOUL
+	dbit FALSE ; HOLY_SOUL
 	end_bit_array NUM_ITEMS

@@ -46,7 +46,7 @@ ItemNames::
 	li "?????"
 	li "BIKE VOUCHER"
 	li "X ACCURACY"
-	li "LEAF STONE"
+	li "STEELY GENE"
 	li "CARD KEY"
 	li "NUGGET"
 	li "PP UP"
@@ -83,6 +83,8 @@ ItemNames::
 	li "MAX ETHER"
 	li "ELIXER"
 	li "MAX ELIXER"
+	li "DARK SOUL"
+	li "HOLY SOUL"
 	assert_list_length NUM_ITEMS
 	li "B2F"
 	li "B1F"

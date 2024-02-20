@@ -20,7 +20,7 @@ UsableItems_PartyMenu:
 	db CARBOS
 	db CALCIUM
 	db RARE_CANDY
-	db LEAF_STONE
+	db STEELY_GENE
 	db FULL_HEAL
 	db REVIVE
 	db MAX_REVIVE
@@ -36,4 +36,6 @@ UsableItems_PartyMenu:
 	db MAX_ETHER
 	db ELIXER
 	db MAX_ELIXER
+	db DARK_SOUL
+	db HOLY_SOUL
 	db -1 ; end

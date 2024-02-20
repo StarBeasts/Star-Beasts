@@ -9,7 +9,7 @@ ItemPrices::
 	bcd3 0     ; SURFBOARD
 	bcd3 1000  ; SAFARI_BALL
 	bcd3 0     ; POKEDEX
-	bcd3 0     ; MOON_STONE
+	bcd3 1000  ; MOON_STONE
 	bcd3 100   ; ANTIDOTE
 	bcd3 250   ; BURN_HEAL
 	bcd3 250   ; ICE_HEAL
@@ -83,6 +83,8 @@ ItemPrices::
 	bcd3 0     ; MAX_ETHER
 	bcd3 0     ; ELIXER
 	bcd3 0     ; MAX_ELIXER
+	bcd3 2100  ; DARK_SOUL
+	bcd3 2100  ; HOLY_SOUL
 	assert_table_length NUM_ITEMS
 	bcd3 0     ; FLOOR_B2F
 	bcd3 0     ; FLOOR_B1F
