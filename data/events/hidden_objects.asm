@@ -414,7 +414,7 @@ RockTunnelPokecenterHiddenObjects:
 
 ViridianForestHiddenObjects:
 	hidden_object  1, 18, ULTRA_BALL, HiddenItems
-	hidden_object 17, 42, ANTIDOTE, HiddenItems
+	hidden_object 17, 42, STEELY_GENE, HiddenItems
 	db -1 ; end
 
 MtMoon3HiddenObjects:

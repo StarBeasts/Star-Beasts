@@ -1433,7 +1433,7 @@ WeedleEvosMoves:
 	db EV_LEVEL, 7, KAKUNA
 	db 0
 ; Learnset
-	db 6, ABSORB
+	db 7, ABSORB
 	db 15, BUG_BITE
 	db 0
 
@@ -1550,7 +1550,7 @@ CaterpieEvosMoves:
 	db EV_LEVEL, 7, METAPOD
 	db 0
 ; Learnset
-	db 6, QUICK_ATTACK
+	db 7, QUICK_ATTACK
 	db 15, PSYWAVE
 	db 0
 
