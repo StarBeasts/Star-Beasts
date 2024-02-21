@@ -75,61 +75,48 @@ _ViridianFrstAfterBattleText3::
 	done
 
 _ViridianForestBattleText4::
-	text "tree boy test"
-	line "what I found!"
-	
-	para "Get ready to lose!"
+	text "Nngghh! Come on!"
+
+	para "Almost...!"
+
+	para "Hey, what are you"
+	line "looking at?"
+
+	para "I saw it first!"	
 	done
 
 _ViridianForestEndBattleText4::
-	text "Aack!"
-	line "You must be crazy"
-	cont "strong if you can"
-	cont "beat DRAGLEAM!"
+	text "Doo!"
+	line "Broken, shattered"
+	cont "I lie, I guess..."
 	prompt
 
 _ViridianFrstAfterBattleText4::
-	text "Spent a long time"
-	line "looking for that"
-	cont "thing, I did!"
-
-	para "Actually, I think"
-	line "I dropped one of"
-	cont "my BALLs..."
-
-	para "The BALLs you"
-	line "use to catch"
-	cont "# BEASTS,"
-	cont "that is."
+	text "There's something"
+	line "in this tree, but"
+	cont "I can't quite"
+	cont "reach it..."
 	done
 
 _ViridianForestBattleText5::
-	text "girl test"
-	line "what I found!"
-	
-	para "Get ready to lose!"
+	text "There's more than"
+	line "just bugs in"
+	cont "this FOREST!"
 	done
 
 _ViridianForestEndBattleText5::
-	text "Aack!"
-	line "You must be crazy"
-	cont "strong if you can"
-	cont "beat DRAGLEAM!"
+	text "You meanie!"
 	prompt
 
 _ViridianFrstAfterBattleText5::
-	text "Spent a long time"
-	line "looking for that"
-	cont "thing, I did!"
+	text "JOLTYBARA is so"
+	line "soft and cuddly!"
 
-	para "Actually, I think"
-	line "I dropped one of"
-	cont "my BALLs..."
+	para "I don't even care"
+	line "about the static!"
 
-	para "The BALLs you"
-	line "use to catch"
-	cont "# BEASTS,"
-	cont "that is."
+	para "It's like a living"
+	line "teddy bear!"
 	done
 
 _ViridianForestText10::
