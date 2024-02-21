@@ -74,7 +74,65 @@ _ViridianFrstAfterBattleText3::
 	cont "that is."
 	done
 
-_ViridianForestText8::
+_ViridianForestBattleText4::
+	text "tree boy test"
+	line "what I found!"
+	
+	para "Get ready to lose!"
+	done
+
+_ViridianForestEndBattleText4::
+	text "Aack!"
+	line "You must be crazy"
+	cont "strong if you can"
+	cont "beat DRAGLEAM!"
+	prompt
+
+_ViridianFrstAfterBattleText4::
+	text "Spent a long time"
+	line "looking for that"
+	cont "thing, I did!"
+
+	para "Actually, I think"
+	line "I dropped one of"
+	cont "my BALLs..."
+
+	para "The BALLs you"
+	line "use to catch"
+	cont "# BEASTS,"
+	cont "that is."
+	done
+
+_ViridianForestBattleText5::
+	text "girl test"
+	line "what I found!"
+	
+	para "Get ready to lose!"
+	done
+
+_ViridianForestEndBattleText5::
+	text "Aack!"
+	line "You must be crazy"
+	cont "strong if you can"
+	cont "beat DRAGLEAM!"
+	prompt
+
+_ViridianFrstAfterBattleText5::
+	text "Spent a long time"
+	line "looking for that"
+	cont "thing, I did!"
+
+	para "Actually, I think"
+	line "I dropped one of"
+	cont "my BALLs..."
+
+	para "The BALLs you"
+	line "use to catch"
+	cont "# BEASTS,"
+	cont "that is."
+	done
+
+_ViridianForestText10::
 	text "Oww... my finger"
 	line "is bleeding..."
 
@@ -83,7 +141,7 @@ _ViridianForestText8::
 	cont "critters!"
 	done
 
-_ViridianForestText9::
+_ViridianForestText11::
 	text "TRAINER TIPS"
 
 	para "If you want to"
@@ -92,7 +150,7 @@ _ViridianForestText9::
 	cont "grassy areas!"
 	done
 
-_ViridianForestText10::
+_ViridianForestText12::
 	text "Local trainers"
 	line "report sightings"
 	cont "of an unusually"
@@ -101,7 +159,7 @@ _ViridianForestText10::
 	cont "VIRIDIAN FOREST."
 	done
 
-_ViridianForestText11::
+_ViridianForestText13::
 	text "TRAINER TIPS"
 
 	para "Reach PROF.CHERRY"
@@ -110,7 +168,7 @@ _ViridianForestText11::
 	cont "evaluated!"
 	done
 
-_ViridianForestText12::
+_ViridianForestText14::
 	text "TRAINER TIPS"
 
 	para "No stealing of"
@@ -120,7 +178,7 @@ _ViridianForestText12::
 	cont "# BEASTS!"
 	done
 
-_ViridianForestText13::
+_ViridianForestText15::
 	text "TRAINER TIPS"
 
 	para "Weaken BEASTS"
@@ -131,7 +189,7 @@ _ViridianForestText13::
 	line "they may escape!"
 	done
 
-_ViridianForestText14::
+_ViridianForestText16::
 	text "LEAVING"
 	line "VIRIDIAN FOREST"
 	cont "PEWTER CITY AHEAD"

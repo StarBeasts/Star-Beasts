@@ -565,7 +565,7 @@ IceBeamAnim:
 
 BlizzardAnim:
 	battle_anim BLIZZARD, SUBANIM_0_ICE_FALL, 0, 4
-	battle_anim HYDRO_PUMP, SUBANIM_0_ICE_FALL, 0, 4
+	battle_anim BLIZZARD, SUBANIM_0_ICE_FALL, 0, 4
 	db -1 ; end
 
 PsyBeamAnim:

@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/sandshrew.pic", 0, 1 ; sprite dimensions
 	dw SandshrewPicFront, SandshrewPicBack
 
-	db POUND, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db RAGE, GROWL, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

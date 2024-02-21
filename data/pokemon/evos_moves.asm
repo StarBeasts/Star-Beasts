@@ -712,7 +712,7 @@ HitmonleeEvosMoves:
 	db 40, DOUBLE_EDGE
 	db 45, CRUNCH
 	db 50, SUBMISSION
-	db 55, LIMB_STRIKE
+	db 53, LIMB_STRIKE
 	db 60, DRAGON_CLAW ; placeholder
 	db 0
 

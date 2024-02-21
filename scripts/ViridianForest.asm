@@ -17,16 +17,18 @@ ViridianForest_TextPointers:
 	dw ViridianForestText2
 	dw ViridianForestText3
 	dw ViridianForestText4
+	dw ViridianForestText5
+	dw ViridianForestText6
 	dw PickUpItemText
 	dw PickUpItemText
 	dw PickUpItemText
-	dw ViridianForestText8
-	dw ViridianForestText9
 	dw ViridianForestText10
 	dw ViridianForestText11
 	dw ViridianForestText12
 	dw ViridianForestText13
 	dw ViridianForestText14
+	dw ViridianForestText15
+	dw ViridianForestText16
 
 ViridianForestTrainerHeaders:
 	def_trainers 2
@@ -36,6 +38,10 @@ ViridianForestTrainerHeader1:
 	trainer EVENT_BEAT_VIRIDIAN_FOREST_TRAINER_1, 4, ViridianForestBattleText2, ViridianForestEndBattleText2, ViridianForestAfterBattleText2
 ViridianForestTrainerHeader2:
 	trainer EVENT_BEAT_VIRIDIAN_FOREST_TRAINER_2, 1, ViridianForestBattleText3, ViridianForestEndBattleText3, ViridianForestAfterBattleText3
+ViridianForestTrainerHeader3:
+	trainer EVENT_BEAT_VIRIDIAN_FOREST_TRAINER_3, 2, ViridianForestBattleText4, ViridianForestEndBattleText4, ViridianForestAfterBattleText4
+ViridianForestTrainerHeader4:
+	trainer EVENT_BEAT_VIRIDIAN_FOREST_TRAINER_4, 3, ViridianForestBattleText5, ViridianForestEndBattleText5, ViridianForestAfterBattleText5
 	db -1 ; end
 
 ViridianForestText1:
@@ -57,6 +63,18 @@ ViridianForestText3:
 ViridianForestText4:
 	text_asm
 	ld hl, ViridianForestTrainerHeader2
+	call TalkToTrainer
+	jp TextScriptEnd
+
+ViridianForestText5:
+	text_asm
+	ld hl, ViridianForestTrainerHeader3
+	call TalkToTrainer
+	jp TextScriptEnd
+
+ViridianForestText6:
+	text_asm
+	ld hl, ViridianForestTrainerHeader4
 	call TalkToTrainer
 	jp TextScriptEnd
 
@@ -96,12 +114,28 @@ ViridianForestAfterBattleText3:
 	text_far _ViridianFrstAfterBattleText3
 	text_end
 
-ViridianForestText8:
-	text_far _ViridianForestText8
+ViridianForestBattleText4:
+	text_far _ViridianForestBattleText4
 	text_end
 
-ViridianForestText9:
-	text_far _ViridianForestText9
+ViridianForestEndBattleText4:
+	text_far _ViridianForestEndBattleText4
+	text_end
+
+ViridianForestAfterBattleText4:
+	text_far _ViridianFrstAfterBattleText4
+	text_end
+
+ViridianForestBattleText5:
+	text_far _ViridianForestBattleText5
+	text_end
+
+ViridianForestEndBattleText5:
+	text_far _ViridianForestEndBattleText5
+	text_end
+
+ViridianForestAfterBattleText5:
+	text_far _ViridianFrstAfterBattleText5
 	text_end
 
 ViridianForestText10:
@@ -122,4 +156,12 @@ ViridianForestText13:
 
 ViridianForestText14:
 	text_far _ViridianForestText14
+	text_end
+
+ViridianForestText15:
+	text_far _ViridianForestText15
+	text_end
+
+ViridianForestText16:
+	text_far _ViridianForestText16
 	text_end
