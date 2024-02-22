@@ -9,15 +9,19 @@ _PewterCityText1::
 	done
 
 _PewterCityText2::
-	text "There aren't many"
-	line "serious BEAST"
-	cont "trainers here!"
+	text "STEELY GENE IS"
+	line "NOT MY ITEM!"
 
-	para "They're all like"
-	line "BUG CATCHERs,"
-	cont "but PEWTER GYM's"
-	cont "BIG DAVE is"
-	cont "totally into it!"
+	para "IT'S JUST A THING"
+
+	para "THAT MAAAAKES"
+
+	para "BEASTS EVOLVE!"
+
+	para "BUT, THE BEASTS"
+	line "ARE NOT MY OWN!"
+
+	para "HEE HEE!"
 	done
 
 _PewterCityText_193f1::
@@ -46,20 +50,37 @@ _PewterCityText13::
 	done
 
 _PewterCityText_19427::
-	text "Psssst!"
+	text "Hey!"
 	line "Do you know what"
-	cont "I'm doing?"
+	cont "I'm doing, eh?"
 	done
 
 _PewterCityText_1942c::
-	text "That's right!"
-	line "It's hard work!"
+	text "Then why are you"
+	line "stepping on all"
+	cont "my flowers, eh?!"
+
+	para "Get out!"
 	done
 
 _PewterCityText_19431::
-	text "I'm spraying REPEL"
-	line "to keep #BIEs"
-	cont "out of my garden!"
+	text "Well, I don't speak"
+	line "fluent moron, but"
+	cont "I'll try, just"
+	cont "for you, eh:"
+
+	para "Me make garden."
+	
+	para "Me no like people"
+	line "step on pretty"
+	cont "flowers."
+
+	para "Flowers for look"
+	line "at, not step on."
+
+	para "You need leave."
+
+	para "How was that, eh?"
 	done
 
 _PewterCityText_1945d::
@@ -112,6 +133,23 @@ _PewterCityText11::
 
 _PewterCityText12::
 	text "PEWTER CITY"
-	line "A Stone Gray"
+	line "A Hard Rock"
 	cont "City"
+	done
+
+_PewterCityText15::
+	text "PEWTER CITY"
+	line "GARDEN"
+
+	para "NOTICE"
+	
+	para "This garden is"
+	line "independently"
+	cont "maintained."
+
+	para "Please do not"
+	line "disturb the"
+	cont "flowers!"
+	
+	para "Thank you"
 	done

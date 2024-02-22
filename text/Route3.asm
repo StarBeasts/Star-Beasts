@@ -128,8 +128,10 @@ _Route3AfterBattleText7::
 	done
 
 _Route3BattleText8::
-	text "Eek! Did you"
-	line "touch me?"
+	text "Eek! Stranger"
+	line "danger!"
+	
+	para "Protect me, ROBBY!"
 	done
 
 _Route3EndBattleText8::

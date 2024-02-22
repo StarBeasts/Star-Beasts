@@ -6,8 +6,8 @@ _ViridianForestEntranceText1::
 	done
 
 _ViridianForestEntranceText2::
-	text "MULCRUNCH may be"
-	line "small, but its"
-	cont "bite is wicked!"
+	text "MULCRUNCH has a"
+	line "nasty bite for a"
+	cont "caterpillar!"
 	cont "Did you get one?"
 	done

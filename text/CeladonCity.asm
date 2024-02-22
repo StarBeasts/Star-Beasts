@@ -34,7 +34,7 @@ _CeladonCityText4::
 	cont "into a different"
 	cont "BEAST depending"
 	cont "on if it's given"
-	cont "LIQUID STEEL or a"
+	cont "STEELY GENE or a"
 	cont "HOLY SOUL."
 	done
 
@@ -81,7 +81,7 @@ _CeladonCityText6::
 
 	para "It evolved from"
 	line "SCORPSY when I"
-	cont "used LIQUID STEEL!"
+	cont "used STEELY GENE!"
 	done
 
 _CeladonCityText7::

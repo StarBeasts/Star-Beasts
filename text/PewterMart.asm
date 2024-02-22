@@ -12,7 +12,7 @@ _PewterMartText2::
 	done
 
 _PewterMartText3::
-	text "The LIQUID STEEL"
+	text "The STEELY GENE"
 	line "they sell here"
 	cont "can evolve"
 	cont "ROCKEN, and I"
