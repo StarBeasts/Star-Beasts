@@ -16,8 +16,11 @@ _VermilionMartText2::
 	done
 
 _VermilionMartText3::
-	text "I think BEASTS"
-	line "can be good or"
-	cont "evil. It depends"
-	cont "on the trainer."
+	text "ELEKSI has a"
+	line "special BEAST."
+
+	para "I think she got"
+	line "it by using a"
+	cont "DARK SOUL on"
+	cont "a SHOCHRAN?"
 	done

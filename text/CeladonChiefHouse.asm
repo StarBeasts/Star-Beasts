@@ -13,10 +13,11 @@ _CeladonHouseText2::
 
 	para "According to the"
 	line "sales invoice,"
-	cont "LEEGHOUL, TEMPLUS,"
-	cont "CHARCOLD, TOMAROC,"
-	cont "UNIQUORN and"
-	cont "CANGHOULIT all"
+	cont "LEEGHOUL, TOMAROC,"
+	cont "CHARCOLD,"
+	
+	para "FLEWNICORN and"
+	line "CANGHOULIT all"
 	cont "evolve with a"
 	cont "FIRE STONE!"
 	

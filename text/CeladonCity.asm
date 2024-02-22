@@ -91,7 +91,7 @@ _CeladonCityText7::
 
 _CeladonCityText8::
 	text "The hell you"
-	line "lookin' at?"
+	line "gawkin' at?"
 	done
 
 _CeladonCityText9::

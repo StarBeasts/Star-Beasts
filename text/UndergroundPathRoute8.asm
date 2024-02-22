@@ -1,5 +1,6 @@
 _UndergroundPathEntRoute8Text1::
-	text "The dept. store"
-	line "in CELADON has a"
-	cont "great selection!"
+	text "I hear SOLASTRA"
+	line "evolves when you"
+	cont "use a THUNDER"
+	cont "STONE on it!"
 	done
