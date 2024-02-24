@@ -16,7 +16,7 @@ _CeladonHouseText2::
 	cont "LEEGHOUL, TOMAROC,"
 	cont "CHARCOLD,"
 	
-	para "FLEWNICORN and"
+	para "FLEWNICORN, and"
 	line "CANGHOULIT all"
 	cont "evolve with a"
 	cont "FIRE STONE!"
