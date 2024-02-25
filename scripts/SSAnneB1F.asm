@@ -1,6 +1,10 @@
 SSAnneB1F_Script:
-	jp EnableAutoTextBoxDrawing
+	call EnableAutoTextBoxDrawing
+	ret
 
 SSAnneB1F_TextPointers:
+	dw SSAnneB1FText1
 
-	text_end ; unused
+SSAnneB1FText1:
+	text_far _SSAnneB1FText1
+	text_end
