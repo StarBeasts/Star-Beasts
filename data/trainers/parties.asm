@@ -147,7 +147,7 @@ SailorData:
 
 JrTrainerMData:
 ; Pewter Gym
-	db 11, DODUO, SANDSHREW, 0
+	db 11, SANDSHREW, 0
 ; Route 24/Route 25
 	db 14, ODDISH, BELLSPROUT, 0
 ; Route 24
