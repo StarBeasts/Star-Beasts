@@ -447,7 +447,7 @@ JugglerData:
 TamerData:
 ; Fuchsia Gym
 	db 34, PONYTA, RAPIDASH, 0
-	db 33, BEEDRILL, SEADRA 0
+	db 33, BEEDRILL, SEADRA, 0
 ; Viridian Gym
 	db 43, RHYDON, 0
 	db 39, TAUROS, 0
