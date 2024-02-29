@@ -42,13 +42,15 @@ PlayBattleMusic::
 	cp OPP_BIRD_KEEPER
 	jr z, .coptheme
 	cp OPP_LORELEI
-	jr z, .gymLeaderBattle
+	jr z, .elite4battle
 	cp OPP_SABRINA
 	jr z, .elite4battle
 	cp OPP_BRUNO
 	jr z, .elite4battle
 	cp OPP_AGATHA
 	jr z, .elite4battle
+	cp OPP_CHIEF
+	jr z, .hero
 	cp OPP_LANCE
 	jr nz, .normalTrainerBattle
 	ld a, MUSIC_HERO; lance also plays gym leader theme
@@ -79,6 +81,9 @@ PlayBattleMusic::
 	jr .playSong
 .ronald
 	ld a, MUSIC_RONALD
+	jr .playSong
+.hero
+	ld a, MUSIC_HERO
 	jr .playSong
 .wildBattle
 	ld a, MUSIC_WILD_BATTLE

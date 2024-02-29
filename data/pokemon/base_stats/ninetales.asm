@@ -1,6 +1,6 @@
 	db DEX_NINETALES ; pokedex id
 
-	db  95, 115, 95,  75,  95
+	db  90, 115, 90,  75,  95
 	;   hp  atk  def  spd  spc
 
 	db ICE, DARK ; type

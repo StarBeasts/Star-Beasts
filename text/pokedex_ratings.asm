@@ -9,73 +9,96 @@ _DexCompletionText::
 	text_decimal hDexRatingNumMonsOwned, 1, 3
 	text " BEASTS owned"
 
-	para "PROF.OAK's"
+	para "PROF.CHERRY's"
 	line "Rating:"
 	prompt
 
 _DexRatingText_Own0To9::
-	text "You still have"
-	line "lots to do."
-	cont "Look for #BIES"
-	cont "in grassy areas!"
+	text "Pitiful."
+	line "Are you even"
+	cont "trying, <PLAYER>?"
 	done
 
 _DexRatingText_Own10To19::
-	text "You're on the"
-	line "right track! "
-	cont "Get a FLASH HM"
-	cont "from my AIDE!"
+	text "Wonderful."
+
+	para "A little more"
+	line "effort and it"
+	cont "might start to"
+	cont "be a piece of"
+	cont "crap."
 	done
 
 _DexRatingText_Own20To29::
-	text "You still need"
-	line "more #BIEs!"
-	cont "Try looking"
-	cont "in caves!"
+	text "Try looking in"
+	line "caves more."
+
+	para "I know it's"
+	line "scary, but"
+	cont "you'll never"
+	cont "complete the DEX"
+	cont "at this rate!"
 	done
 
 _DexRatingText_Own30To39::
-	text "Good, you're"
-	line "trying hard!"
-	cont "Get an ITEMFINDER"
-	cont "from my AIDE!"
+	text "Not bad."
+
+	para "You've still got"
+	line "a ways to go,"
+	cont "though."
 	done
 
 _DexRatingText_Own40To49::
-	text "Looking good!"
-	line "Go find my AIDE"
-	cont "when you get 50!"
+	text "Decent!"
+	line "Go chat up my"
+	cont "AIDE when you"
+	cont "get 50!"
 	done
 
 _DexRatingText_Own50To59::
-	text "You finally got at"
-	line "least 50 species!"
-	cont "Be sure to get"
-	cont "EXP.ALL from my"
+	text "Third of the way"
+	line "there! Good job."
+
+	para "Be sure to get"
+	line "EXP.ALL from my"
 	cont "AIDE!"
 	done
 
 _DexRatingText_Own60To69::
-	text "Ha! This is geting"
-	line "even better!"
+	text "You're getting"
+	line "close to half"
+	cont "the DEX!"
 	done
 
 _DexRatingText_Own70To79::
-	text "Amazing!"
-	line "Go fish for some"
-	cont "marine #BIEs!"
+	text "Hmm..."
+
+	para "Why don't you"
+	line "try fishing for"
+	cont "some marine"
+	cont "# BEASTS?"
 	done
 
 _DexRatingText_Own80To89::
-	text "Wonderful!"
-	line "Do you like to"
-	cont "collect things?"
+	text "Oh whoooaaa!"
+	
+	para "You're halfwaaay"
+	line "theeerreee!"
+
+	para "Livin' on a"
+	line "prayer!"
+
+	para "Hehee!"
+
+	para "You like to"
+	line "collect things,"
+	cont "don't you?"
 	done
 
 _DexRatingText_Own90To99::
 	text "I'm impressed!"
-	line "It must have been"
-	cont "super hard to do!"
+	line "This looks like it"
+	cont "was a ton of work!"
 	done
 
 _DexRatingText_Own100To109::
@@ -86,33 +109,37 @@ _DexRatingText_Own100To109::
 	done
 
 _DexRatingText_Own110To119::
-	text "You even have the"
-	line "evolved forms of"
+	text "I see you've been"
+	line "evolving your"
 	cont "#BIEs! Super!"
 	done
 
 _DexRatingText_Own120To129::
-	text "Excellent! Hit up"
+	text "Great! Hit up"
 	line "the SAFARI ZONE"
 	cont "and see if you"
 	cont "can find more!"
 	done
 
 _DexRatingText_Own130To139::
-	text "Outstanding!"
-	line "You've become a"
-	cont "real pro at this!"
+	text "You go, <PLAYER>!"
+	line "You're almost as"
+	cont "good as I am at"
+	cont "this!"
 	done
 
 _DexRatingText_Own140To149::
-	text "I have nothing"
-	line "left to say!"
-	cont "You know almost"
-	cont "as much as I do!"
+	text "Oooh, so close!"
+
+	para "C'mon, <PLAYER>!"
+
+	para "You can do it!"
 	done
 
 _DexRatingText_Own150To151::
-	text "Your #DEX is"
+	text "You did it!"
+
+	para "Your #DEX is"
 	line "entirely complete!"
 	cont "Congratulations!"
 	done
