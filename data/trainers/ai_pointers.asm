@@ -23,21 +23,21 @@ TrainerAIPointers:
 	dbw 3, GenericAI
 	dbw 3, GenericAI
 	dbw 3, GenericAI
-	dbw 3, GenericAI
+	dbw 3, SabrinaAI ; Shayton, since he's a boss
 	dbw 3, JugglerAI ; juggler
 	dbw 3, GenericAI
 	dbw 3, GenericAI
 	dbw 2, BlackbeltAI ; blackbelt
 	dbw 3, GenericAI ; rival1
 	dbw 3, GenericAI
-	dbw 1, GenericAI ; chief
+	dbw 3, Rival3AI ; true final boss
 	dbw 3, GenericAI
 	dbw 1, GiovanniAI ; giovanni
 	dbw 3, GenericAI
 	dbw 2, CooltrainerMAI ; cooltrainerm
 	dbw 1, CooltrainerFAI ; cooltrainerf
 	dbw 2, BrunoAI ; bruno
-	dbw 5, BrockAI ; brock
+	dbw 1, BrockAI ; brock
 	dbw 1, MistyAI ; misty
 	dbw 1, LtSurgeAI ; surge
 	dbw 1, ErikaAI ; erika

@@ -1127,6 +1127,7 @@ PikachuEvosMoves:
 	db 16, STOMP
 	db 26, THUNDERBOLT
 	db 34, LIGHT_SCREEN
+	db 38, TAKE_DOWN
 	db 43, AGILITY
 	db 53, THUNDER
 	db 0
@@ -1141,8 +1142,9 @@ RaichuEvosMoves:
 	db 26, THUNDERBOLT
 	db 34, TAKE_DOWN
 	db 38, SKY_ATTACK
-	db 47, AGILITY
+	db 47, DOUBLE_EDGE
 	db 56, THUNDER
+	db 75, PK_STARSTORM
 
 MissingNo56EvosMoves:
 ; Evolutions

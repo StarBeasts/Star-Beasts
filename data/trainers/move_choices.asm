@@ -35,7 +35,7 @@ TrainerClassMoveChoiceModifications:
 	move_choices 1       ; BLACKBELT
 	move_choices 1       ; RIVAL1
 	move_choices 1, 3    ; PROF_OAK
-	move_choices 1, 2    ; CHIEF
+	move_choices 1, 3    ; CHIEF
 	move_choices 1, 2    ; SCIENTIST
 	move_choices 1, 3    ; GIOVANNI
 	move_choices 1       ; ROCKET

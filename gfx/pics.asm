@@ -282,7 +282,7 @@ Rival1Pic::        INCBIN "gfx/trainers/rival1.pic"
 SECTION "Trainer Pics 2", ROMX
 
 ProfOakPic::       INCBIN "gfx/trainers/prof.oak.pic"
-ChiefPic::
+ChiefPic::		   INCBIN "gfx/trainers/chief.pic"
 ScientistPic::     INCBIN "gfx/trainers/scientist.pic"
 GiovanniPic::      INCBIN "gfx/trainers/giovanni.pic"
 RocketPic::        INCBIN "gfx/trainers/rocket.pic"
