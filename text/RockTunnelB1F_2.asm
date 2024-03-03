@@ -1,7 +1,7 @@
 _RockTunnel2AfterBattleText8::
-	text "I'll raise my"
-	line "BEASTS to beat"
-	cont "yours, kid!"
+	text "I love them"
+	line "catchy pop tunes,"
+	cont "eh!"
 	done
 
 _RockTunnel2BattleText9::

@@ -21,16 +21,13 @@ _Museum2FText3::
 	done
 
 _Museum2FText4::
-	text "I wanna JOLTYBARA!"
-	line "They look cuddly!"
-
-	para "I asked my Daddy"
-	line "to catch me one!"
+	text ""
 	done
 
 _Museum2FText5::
-	text "Yeah, a JOLTYBARA"
-	line "soon, I promise!"
+	text "Heh! My daughter"
+	line "is obsessed with"
+	cont "JOLTYBARA!"
 	done
 
 _Museum2FText6::

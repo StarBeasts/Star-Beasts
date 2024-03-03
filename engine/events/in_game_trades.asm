@@ -237,6 +237,9 @@ InGameTradeTextPointers:
 	dw TradeTextPointers1
 	dw TradeTextPointers2
 	dw TradeTextPointers3
+	dw TradeTextPointers4
+	dw TradeTextPointers5
+	dw TradeTextPointers6
 
 TradeTextPointers1:
 	dw WannaTrade1Text
@@ -258,6 +261,28 @@ TradeTextPointers3:
 	dw WrongMon3Text
 	dw Thanks3Text
 	dw AfterTrade3Text
+
+TradeTextPointers4:
+	dw WannaTrade4Text
+	dw NoTrade4Text
+	dw WrongMon4Text
+	dw Thanks4Text
+	dw AfterTrade4Text
+
+TradeTextPointers5:
+	dw WannaTrade5Text
+	dw NoTrade5Text
+	dw WrongMon5Text
+	dw Thanks5Text
+	dw AfterTrade5Text
+
+TradeTextPointers6:
+	dw WannaTrade6Text
+	dw NoTrade6Text
+	dw WrongMon6Text
+	dw Thanks6Text
+	dw AfterTrade6Text
+
 
 ConnectCableText:
 	text_far _ConnectCableText
@@ -328,3 +353,66 @@ Thanks3Text:
 AfterTrade3Text:
 	text_far _AfterTrade3Text
 	text_end
+
+WannaTrade4Text:
+	text_far _WannaTrade4Text
+	text_end
+
+NoTrade4Text:
+	text_far _NoTrade4Text
+	text_end
+
+WrongMon4Text:
+	text_far _WrongMon4Text
+	text_end
+
+Thanks4Text:
+	text_far _Thanks4Text
+	text_end
+
+AfterTrade4Text:
+	text_far _AfterTrade4Text
+	text_end
+
+WannaTrade5Text:
+	text_far _WannaTrade5Text
+	text_end
+
+NoTrade5Text:
+	text_far _NoTrade5Text
+	text_end
+
+WrongMon5Text:
+	text_far _WrongMon5Text
+	text_end
+
+Thanks5Text:
+	text_far _Thanks5Text
+	text_end
+
+AfterTrade5Text:
+	text_far _AfterTrade5Text
+	text_end
+
+WannaTrade6Text:
+	text_far _WannaTrade6Text
+	text_end
+
+NoTrade6Text:
+	text_far _NoTrade6Text
+	text_end
+
+WrongMon6Text:
+	text_far _WrongMon6Text
+	text_end
+
+Thanks6Text:
+	text_far _Thanks6Text
+	text_end
+
+AfterTrade6Text:
+	text_far _AfterTrade6Text
+	text_end
+
+
+

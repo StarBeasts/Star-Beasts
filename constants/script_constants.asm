@@ -20,16 +20,19 @@ DEF SLOTS_SOMEONESKEYS EQU $ff
 ; in game trades
 ; TradeMons indexes (see data/events/trades.asm)
 	const_def
-	const TRADE_FOR_TERRY
-	const TRADE_FOR_MARCEL
-	const TRADE_FOR_CHIKUCHIKU ; unused
-	const TRADE_FOR_SAILOR
-	const TRADE_FOR_DUX
-	const TRADE_FOR_MARC
-	const TRADE_FOR_LOLA
-	const TRADE_FOR_DORIS
-	const TRADE_FOR_CRINKLES
-	const TRADE_FOR_SPOT
+	const TRADE_FOR_BLIND
+	const TRADE_FOR_MITTENS
+	const TRADE_FOR_MILDRED ; unused
+	const TRADE_FOR_ARIEL
+	const TRADE_FOR_PRINCESS
+	const TRADE_FOR_SHAQ
+	const TRADE_FOR_LAD
+	const TRADE_FOR_ZEUS
+	const TRADE_FOR_BENEDICT	
+	const TRADE_FOR_FLAMEHEDGE
+	const TRADE_FOR_HOG
+	const TRADE_FOR_NEMO
+	const TRADE_FOR_GIYGAS
 DEF NUM_NPC_TRADES EQU const_value
 
 ; in game trade dialog sets
@@ -38,6 +41,9 @@ DEF NUM_NPC_TRADES EQU const_value
 	const TRADE_DIALOGSET_CASUAL
 	const TRADE_DIALOGSET_EVOLUTION
 	const TRADE_DIALOGSET_HAPPY
+	const TRADE_DIALOGSET_MILDRED
+	const TRADE_DIALOGSET_GANON
+	const TRADE_DIALOGSET_BIRD
 
 ; badges
 ; wObtainedBadges and wBeatGymFlags bits

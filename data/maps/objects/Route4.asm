@@ -5,6 +5,8 @@ Route4_Object:
 	warp_event 11,  5, MT_MOON_POKECENTER, 1
 	warp_event 18,  5, MT_MOON_1F, 1
 	warp_event 24,  5, MT_MOON_B1F, 8
+	warp_event 47,  5, HAND_HOUSE, 3
+	warp_event 47,  3, HAND_HOUSE, 1
 
 	def_bg_events
 	bg_event 12,  5, 4 ; PokeCenterSignText

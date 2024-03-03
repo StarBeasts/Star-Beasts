@@ -29,7 +29,8 @@ _Route10EndBattleText2::
 _Route10AfterBattleText2::
 	text "Haha-ha-haa!"
 	line "Ha-ha-haaaah!"
-	cont "God, I love weed!"
+	cont "I'm so high,"
+	cont "right now!"
 	done
 
 _Route10BattleText3::

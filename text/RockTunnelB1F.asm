@@ -59,13 +59,14 @@ _RockTunnel2EndBattleText5::
 _RockTunnel2AfterBattleText5::
 	text "Cosplayers"
 	line "dress up as"
-	cont "#BEAST for fun."
+	cont "#BIEs for fun."
 	done
 
 _RockTunnel2BattleText6::
 	text "My # BEAST"
 	line "techniques will"
-	cont "leave you crying!"
+	cont "leave you in"
+	cont "the dust!"
 	done
 
 _RockTunnel2EndBattleText6::
@@ -88,7 +89,7 @@ _RockTunnel2BattleText7::
 
 _RockTunnel2EndBattleText7::
 	text "Oh!"
-	line "I lost!"
+	line "My God!"
 	prompt
 
 _RockTunnel2AfterBattleText7::

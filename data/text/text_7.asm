@@ -96,7 +96,7 @@ _WrongMon1Text::
 	done
 
 _Thanks1Text::
-	text "Hey thanks!"
+	text "Hey, thanks!"
 	done
 
 _AfterTrade1Text::
@@ -143,7 +143,7 @@ _AfterTrade2Text::
 	text " you"
 	line "traded to me"
 
-	para "went and evolved!"
+	para "is a great pet!"
 	done
 
 _WannaTrade3Text::
@@ -186,6 +186,177 @@ _AfterTrade3Text::
 	text_ram wInGameTradeGiveMonName
 	text " is"
 	line "doing great!"
+	done
+	
+_WannaTrade4Text::
+	text "Hello there,"
+	line "youngster!"
+
+	para "Would you happen"
+	line "to have SLIMOGG?"
+
+	para "Want to trade it"
+	line "for @"
+	text_ram wInGameTradeReceiveMonName
+	text "?"
+	done
+
+_NoTrade4Text::
+	text "That's too bad."
+	done
+
+_WrongMon4Text::
+	text "...This isn't a"
+	line "@"
+	text_ram wInGameTradeGiveMonName
+	text "..."
+
+	para "I'd catch one"
+	line "myself, but these"
+	cont "old bones can't"
+	cont "move like they"
+	cont "used to..."
+	done
+
+_Thanks4Text::
+	text "Why, thank you!"
+	done
+
+_AfterTrade4Text::
+	text "Thank you so much"
+	line "for getting me"
+	cont	"a new pet."
+
+	para "It's been too"
+	line "quiet at home,"
+	cont "ever since my"
+	cont "wife passed on."
+
+	para "I found that poor"
+	line "little CLIMPALE"
+	cont "on the beach one"
+	cont "day, and I gave"
+	cont "it my wife's"
+	cont "name in her"
+	cont "memory, but it"
+	cont "never took a"
+	cont "liking to me."
+
+	para "I hope its doing"
+	line "well under your"
+	cont "care, youngster."
+	done
+
+_WannaTrade5Text::
+	text "Umm..."
+	
+	para "'Allo, mate..."
+
+	para "Would yeh 'appen"
+	line "to 'ave them"
+	cont "HANDS I been"
+	cont "wantin'?"
+
+	para "Would ye trade 'em"
+	line "for @"
+	text_ram wInGameTradeReceiveMonName
+	text "?"
+	done
+
+_NoTrade5Text::
+	text "Oy..."
+
+	para "Well, I getcha."
+	
+	para "Come back if ya"
+	line "change yer mind."
+	done
+
+_WrongMon5Text::
+	text "What kinda scheme"
+	line "are ya runnin'"
+	cont "'ere, mate?"
+
+	para "These ain't them"
+	line "HANDS!"
+
+	para "Get outter here"
+	line "until yeh've got"
+	cont "'em fer real!"
+	done
+
+_Thanks5Text::
+	text "Cheers, mate!"
+	done
+
+_AfterTrade5Text::
+	text "Yer a right good"
+	line "sport, ain't yeh,"
+	cont "kid?"
+
+para "That pig thing is"
+line "meaner than me"
+cont "Mum after her"
+cont "fourth gin and"
+cont "tonic!"
+
+para "Bastard's your"
+line "problem now,"
+cont "I reckon!"
+done
+
+_WannaTrade6Text::
+	text "YOU... ARE..."
+	line "     <PLAYER>  ? "
+	
+	para "#BEAST#BEAST#########################"
+
+	para "THE BIRD"
+	
+	para "THE BIRD!"
+	
+	para "THE BIRD!"
+	done
+
+_NoTrade6Text::
+	text "THE FILE DATA"
+	line "IS DESTROYED!"
+	done
+
+_WrongMon6Text::
+	text "NO! NOOO!!!"
+
+	para "OH GOD!"
+
+	para "KEEP IT AWAY FROM"
+
+	para "There isn't"
+	line "anything to CUT!BIRDBIRDBIRDBIRD"
+
+	para "BIRDBIRDBIRDBIRBDBIRBbirdRDBIRDBIRBDIRBDIRBDIBIRBbirdRDBIRDBIRBDIRBDRDBIRDBIRBDIRBDIRBDIBIRBb"
+	para "BIRBIRDBIBRDBBIRBbirdRDBIRDBIRBDIRBDIRBDIRBDIBIRBbirdRDBIRDBIRBDIRBDRDBIRDBIRBDIRBDIRBDIBIRBb"
+	para "BIRDRIRDBIRDBIRBBIRBbirdRDBIRDBIRBDIRBDDIRBDIBIRBbirdRDBIRDBIRBDIRBDRDBIRDBIRBDIRBDIRBDIBIRBb"
+	para "BIRBbirdRDBIRDBBIRBbirdRDBIRDBIRBDIRBDIRBDIRBDIBIRBbirdRDBIRDBIRBDIRBDRDBIRDBIRBDIRBDIRBDIBIRBb"
+	para "BIRDBIRDBIRDBIRBBIRBbirdRDBIRDBIRBDIRBDDIRBDIBIRBbirdRDBIRDBIRBDIRBDRDBIRDBIRBDIRBDIRBDIBIRBb"
+	para "BIRDBIRDBIRDBIRBDBIRBbirdRDBIRDBIRBDIRBDIRBDIBIRBbirdRDBIRDBIRBDIRBDRDBIRDBIRBDIRBDIRBDIBIRBb"
+
+	para "BIIIRD!!!"
+	done
+
+_Thanks6Text::
+	text "OBJECT EVENT"
+	done
+
+_AfterTrade6Text::
+	text "tHaNK..."
+
+	para "YoU..."
+
+	para "<PLAYER>..."
+
+	para "NO LONGER..."
+	
+	para "aLONe here..."
 	done
 
 _NothingToCutText::

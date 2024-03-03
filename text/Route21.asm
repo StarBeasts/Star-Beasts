@@ -19,13 +19,13 @@ _Route21BattleText2::
 	done
 
 _Route21EndBattleText2::
-	text "Darn"
-	line "SLAPPY!"
+	text "Well,"
+	line "slap me SILLISH!"
 	prompt
 
 _Route21AfterBattleText2::
 	text "I seem to only"
-	line "catch SLAPPY!"
+	line "catch SILLISH!"
 	done
 
 _Route21BattleText3::

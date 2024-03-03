@@ -334,8 +334,9 @@ LickitungEvosMoves:
 	db 7, DIZZY_PUNCH
 	db 15, MACH_PUNCH
 	db 23, AURA_SPHERE
-	db 32, DOUBLE_EDGE
-	db 38, JUMP_KICK
+	db 30, DARK_PULSE
+	db 36, DOUBLE_EDGE
+	db 40, JUMP_KICK
 	db 0
 
 ExeggcuteEvosMoves:

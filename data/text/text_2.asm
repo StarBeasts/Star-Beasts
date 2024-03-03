@@ -205,8 +205,12 @@ _RockTunnelPokecenterGuyText::
 	done
 
 _UnusedBenchGuyText1::
-	text "I wish I could"
-	line "catch # BEASTS."
+	text "He's completely"
+	line "motionless."
+
+	para "His eyes are"
+	line "glassy, and"
+	cont "oddly distant..."
 	done
 
 _UnusedBenchGuyText2::

@@ -26,8 +26,8 @@ _Route25BattleText2::
 	done
 
 _Route25EndBattleText2::
-	text "I'm"
-	line "not mad!"
+	text "Ain't"
+	line "even mad!"
 	prompt
 
 _Route25AfterBattleText2::
@@ -156,6 +156,10 @@ _Route25AfterBattleText9::
 	text "The trail below"
 	line "is a shortcut to"
 	cont "CERULEAN CITY."
+
+	para "Just be sure to"
+	line "watch yer step,"
+	cont "eh?"
 	done
 
 _Route25Text11::

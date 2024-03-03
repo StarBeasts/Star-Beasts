@@ -244,7 +244,7 @@ MapHeaderPointers::
 	dw Colosseum_h
 	dw SilphCo2F_h ; UNUSED_MAP_F1
 	dw SilphCo2F_h ; UNUSED_MAP_F2
-	dw Unatco_h
+	dw HandHouse_h
 	dw SilphCo2F_h ; UNUSED_MAP_F4
 	dw LoreleisRoom_h
 	dw BrunosRoom_h

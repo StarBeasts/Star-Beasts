@@ -23,8 +23,11 @@ Museum2FText3:
 	text_end
 
 Museum2FText4:
-	text_far _Museum2FText4
-	text_end
+	text_asm
+	ld a, TRADE_FOR_NEMO
+	ld [wWhichTrade], a
+	predef DoInGameTradeDialogue
+	jp TextScriptEnd
 
 Museum2FText5:
 	text_far _Museum2FText5

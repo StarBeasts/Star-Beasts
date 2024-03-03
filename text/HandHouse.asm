@@ -4,7 +4,10 @@ _HandHouse1Text1::
 	cont "do me a favor!"
 
 	para "I need you to"
-	line "catch these hands!@"
+	line "catch these"
+	cont "hands!"
+
+	para "@"
 	text_end
 
 _HandHouse1Text2::
@@ -16,5 +19,15 @@ _HandHouse1Text2::
 	done
 
 _HandHouse1Text3::
-	text "NEEDOLF, sit!"
+	text ""
+	done
+
+_HandHouse1Text4::
+	text "This one's for"
+	line "the hacker's"
+
+	para "the hacker's"
+	line "and glitch'ers!"
+
+	para "FUCKG YOU MARIO!"
 	done

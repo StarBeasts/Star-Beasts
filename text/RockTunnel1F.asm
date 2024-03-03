@@ -16,7 +16,7 @@ _RockTunnel1AfterBattleText1::
 	done
 
 _RockTunnel1BattleText2::
-	text "Hmm. Maybe I'm"
+	text "Mmm. Maybe I'm"
 	line "lost in here..."
 	done
 
@@ -34,9 +34,9 @@ _RockTunnel1AfterBattleText2::
 	done
 
 _RockTunnel1BattleText3::
-	text "Outsiders like"
-	line "you need to show"
-	cont "me some respect!"
+	text "What's a little"
+	line "twig like you doin'"
+	cont "out here, eh?"
 	done
 
 _RockTunnel1EndBattleText3::
@@ -44,7 +44,9 @@ _RockTunnel1EndBattleText3::
 	prompt
 
 _RockTunnel1AfterBattleText3::
-	text "You're talented"
+	text "I take it back!"
+
+	para "You're talented"
 	line "enough to hike!"
 	done
 

@@ -155,7 +155,7 @@ SetPal_Overworld:
 	jr c, .normalDungeonOrBuilding
 	cp CERULEAN_CAVE_1F + 1
 	jr c, .caveOrBruno
-	cp UNATCO
+	cp HAND_HOUSE
 	jr z, .mewMon
 	cp LORELEIS_ROOM
 	jr z, .Lorelei

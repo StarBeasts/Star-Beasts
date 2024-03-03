@@ -4,6 +4,8 @@ _PewterHouse1Text1::
 
 _PewterHouse1Text2::
 	text "NEEDOLF, sit!"
+
+	para "E-easy, girl!"
 	done
 
 _PewterHouse1Text3::
@@ -20,12 +22,18 @@ _PewterHouse1Text3::
 	cont "unskilled trainer"
 	cont "in battle!"
 
+	para "With no BADGEs,"
+	line "only BEASTs L15"
+	cont "and below will"
+	cont "obey you."
+
 	para "If only we had"
 	line "some BADGEs..."
 
 	para "..."
-	line "BAILEY, HOW MANY"
-	cont "TIMES DO I HAVE"
+
+	para "BAILEY, HOW MANY"
+	line "TIMES DO I HAVE"
 	cont "TO TELL YOU TO"
 	cont "LEAVE THAT DAMNED"
 	cont "THING ALONE!?"

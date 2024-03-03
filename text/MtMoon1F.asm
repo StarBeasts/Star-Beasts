@@ -13,6 +13,14 @@ _MtMoon1AfterBattleText2::
 	text "Kids like you"
 	line "shouldn't be"
 	cont "here!"
+
+	para "It's a beautiful"
+	line "day outside!"
+
+	para "You should play"
+	line "out there and"
+	cont "not in this dank"
+	cont "old cave!"
 	done
 
 _MtMoon1BattleText3::
