@@ -247,7 +247,7 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw NoHS
-	dw NoHS
+	dw RastaHouseHS
 	dw NoHS
 	dw NoHS
 	dw NoHS
@@ -507,6 +507,8 @@ SilphCo11FHS:
 	db SILPH_CO_11F, $03, SHOW
 	db SILPH_CO_11F, $04, SHOW
 	db SILPH_CO_11F, $05, SHOW
+RastaHouseHS:
+	db RASTA_HOUSE, $02, HIDE
 PokemonMansion2FHS:
 	db POKEMON_MANSION_2F, $02, SHOW
 PokemonMansion3FHS:
@@ -564,5 +566,4 @@ SeafoamIslandsB4FHS:
 	db SEAFOAM_ISLANDS_B4F, $01, HIDE
 	db SEAFOAM_ISLANDS_B4F, $02, HIDE
 	db SEAFOAM_ISLANDS_B4F, $03, SHOW
-	db $FF, $01, SHOW ; end
 	assert_table_length NUM_HS_OBJECTS + 1
