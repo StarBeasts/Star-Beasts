@@ -402,23 +402,35 @@ CeruleanCityText8:
 	jr c, .notFirstText
 	ld hl, CeruleanCityText_1976f
 	call PrintText
+	ld a, IVYSAUR
+	call PlayCry
+	call WaitForSoundToFinish
 	jr .end
 .notFirstText
 	cp 120 ; 60/256 chance of 2nd dialogue
 	jr c, .notSecondText
 	ld hl, CeruleanCityText_19774
 	call PrintText
+	ld a, IVYSAUR
+	call PlayCry
+	call WaitForSoundToFinish
 	jr .end
 .notSecondText
 	cp 60 ; 60/256 chance of 3rd dialogue
 	jr c, .notThirdText
 	ld hl, CeruleanCityText_19779
 	call PrintText
+	ld a, IVYSAUR
+	call PlayCry
+	call WaitForSoundToFinish
 	jr .end
 .notThirdText
 	; 60/256 chance of 4th dialogue
 	ld hl, CeruleanCityText_1977e
 	call PrintText
+	ld a, IVYSAUR
+	call PlayCry
+	call WaitForSoundToFinish
 .end
 	jp TextScriptEnd
 
