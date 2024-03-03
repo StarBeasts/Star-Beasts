@@ -23,6 +23,7 @@ Route10_TextPointers:
 	dw PokeCenterSignText
 	dw Route10Text9
 	dw Route10Text10
+	dw Route10Text11
 
 Route10TrainerHeaders:
 	def_trainers
@@ -155,4 +156,8 @@ Route10Text7:
 
 Route10Text10:
 	text_far _Route10Text10
+	text_end
+
+Route10Text11:
+	text_far _Route10Text11
 	text_end

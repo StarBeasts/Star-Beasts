@@ -245,7 +245,7 @@ MapHeaderBanks::
 	db $11 ; UNUSED_MAP_F1
 	db $11 ; UNUSED_MAP_F2
 	db BANK(HandHouse_h)
-	db $11 ; UNUSED_MAP_F4
+	db BANK(RastaHouse_h)
 	db BANK(LoreleisRoom_h)
 	db BANK(BrunosRoom_h)
 	db BANK(AgathasRoom_h)

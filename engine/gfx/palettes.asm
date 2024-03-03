@@ -157,6 +157,8 @@ SetPal_Overworld:
 	jr c, .caveOrBruno
 	cp HAND_HOUSE
 	jr z, .mewMon
+	cp RASTA_HOUSE
+	jr z, .brownMon
 	cp LORELEIS_ROOM
 	jr z, .Lorelei
 	cp BRUNOS_ROOM
@@ -192,6 +194,9 @@ SetPal_Overworld:
 	jr .town
 .blueMon
 	ld a, PAL_CYANMON - 1
+	jr .town
+.brownMon
+	ld a, PAL_BROWNMON - 1
 	jr .town
 
 

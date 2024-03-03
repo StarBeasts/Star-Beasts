@@ -97,6 +97,8 @@
 	const EVENT_RESCUED_MR_FUJI_2
 	const_skip 16
 	const EVENT_GOT_POKE_FLUTE
+	const_skip 30
+	const EVENT_GOT_YETI_FROM_DJ
 
 ; Vermilion City events
 	const_next $150

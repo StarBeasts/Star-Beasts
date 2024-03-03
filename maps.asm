@@ -1225,6 +1225,11 @@ INCLUDE "scripts/HandHouse.asm"
 INCLUDE "data/maps/objects/HandHouse.asm"
 HandHouse_Blocks: INCBIN "maps/HandHouse.blk"
 
+INCLUDE "data/maps/headers/RastaHouse.asm"
+INCLUDE "scripts/RastaHouse.asm"
+INCLUDE "data/maps/objects/RastaHouse.asm"
+RastaHouse_Blocks: INCBIN "maps/RastaHouse.blk"
+
 INCLUDE "data/maps/headers/MoleHole.asm"
 INCLUDE "scripts/MoleHole.asm"
 INCLUDE "data/maps/objects/MoleHole.asm"

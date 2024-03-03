@@ -245,7 +245,7 @@ MapHeaderPointers::
 	dw SilphCo2F_h ; UNUSED_MAP_F1
 	dw SilphCo2F_h ; UNUSED_MAP_F2
 	dw HandHouse_h
-	dw SilphCo2F_h ; UNUSED_MAP_F4
+	dw RastaHouse_h ; DJ DoubleCut
 	dw LoreleisRoom_h
 	dw BrunosRoom_h
 	dw AgathasRoom_h
