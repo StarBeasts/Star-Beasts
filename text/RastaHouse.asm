@@ -19,6 +19,11 @@ DJText5:
 	text_far _DJText5
 	text_end
 
+YetiText:
+	text_far _YetiText
+	text_end
+
+
 _DJText1::
 	text "What's happenin',"
 	line "child?"
@@ -40,14 +45,23 @@ _DJText1::
 	line "trouble than he's"
 	cont "worth, mon!"
 
-	para "I need someone who"
-	line "can keep him from"
-	cont "going buck wild!"
+	para "I need a real bad"
+	line "trainer with a"
+	cont "handful of BADGEs"
+	cont "that can keep him"
+	cont "from going buck"
+	cont "wild, mon!"
 	done
 
 
 _DJText2::
-	text "Hey, you beat"
+	text "Ey! Do mine eyes"
+	line "decieveth me?"
+
+	para "That be the"
+	line "MAGNETBADGE!"
+
+	para "You beat"
 	line "ELEKSI, mon?!"
 
 	para "Why don't you"
@@ -73,12 +87,12 @@ _DJText3::
 	cont "me, yeah?"
 	done
 
-_DJText4::
+_DJText5::
 	text "Fine, mon."
 
 	para "I get it. You're"
-	line  "a free spirit like"
-	cont "me, mon!"
+	line  "a free spirit"
+	cont  "like me, mon!"
 
 	para "Nobody tells you"
 	line  "what to do!"
@@ -88,11 +102,11 @@ _DJText4::
 	cont "yours, mon!"
 	done
 
-_DJText5::
+_DJText4::
 	text "Hey, mon!"
 
-	para  "Welcome back to"
-	line  "the MUSIC SHACK,"
+	para "Welcome back to"
+	line "the MUSIC SHACK,"
 	cont "mon!"
 
 	para "How's my fluffy"
@@ -104,6 +118,5 @@ _DJText5::
 	done
 
 _YetiText::
-	text "MEANOLEDDY: Reeeoo!"
-	line "Zoar!@"
+	text "FLUFFYEDDY: Reeoo!@"
 	text_end

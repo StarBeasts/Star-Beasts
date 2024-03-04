@@ -10,8 +10,8 @@ RastaHouse_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  3,  3, SPRITE_RASTA, STAY, DOWN, 1
-	object_event  4,  5, SPRITE_YETI, STAY, NONE, 2
+	object_event  4,  5, SPRITE_YETI, STAY, NONE, 1
+	object_event  3,  3, SPRITE_RASTA, STAY, DOWN, 2
 
 	def_warps_to RASTA_HOUSE
 
