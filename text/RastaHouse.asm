@@ -118,5 +118,5 @@ _DJText4::
 	done
 
 _YetiText::
-	text "MEANOLEDDY: Reeoo!@"
+	text "FLUFFYEDDY: Reeoo!@"
 	text_end

@@ -55,9 +55,6 @@ RastaHouse1Text2:
 	ld a, [wAddedToParty]
 	and a
 	call z, WaitForTextScrollButtonPress
-	ld a, HS_RASTA_YETI
-	ld [wMissableObjectIndex], a
-	predef HideObject
 	SetEvent EVENT_GOT_YETI_FROM_DJ
 .asm_1cfb3
 	jp TextScriptEnd
