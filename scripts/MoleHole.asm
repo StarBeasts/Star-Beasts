@@ -23,7 +23,7 @@ SlashopperTrainerHeader:
 
 SlashopperText:
 	text_asm
-	ld hl, SlashopperTrainerHeader
+	ld hl, MoleHoleTrainerHeaders
 	call TalkToTrainer
 	jp TextScriptEnd
 
