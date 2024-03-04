@@ -21,5 +21,5 @@ _CeladonMansion1Text4::
 
 _CeladonMansion1Text5::
 	text "CELADON MANSION"
-	line "Manager's Suite"
+	line "Manager's Suite" ;
 	done
