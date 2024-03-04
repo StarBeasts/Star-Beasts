@@ -35,55 +35,64 @@ _DJText1::
 	para "Welcome to the"
 	line "MUSIC SHACK, mon!"
 
-	para "I gotta mean"
-	line "mamma jamma"
-	cont "over there!"
+	para "I got myself"
+	line "two of them"
+	cont "bonafide YETIs,"
+	cont "mon!"
 
-	para "I call 'im EDDY!"
+	para "Gotta preserve"
+	line "endangered"
+	cont "species, mon!"
 
-	para "He's way more"
-	line "trouble than he's"
-	cont "worth, mon!"
+	para "But you know how"
+	line "it is, mon!"
 
-	para "I need a real bad"
-	line "trainer with a"
-	cont "handful of BADGEs"
-	cont "that can keep him"
-	cont "from going buck"
-	cont "wild, mon!"
+	para "Two's company,"
+	line "but tree's a"
+	cont "crowd! Hahaha!"
+
+	para "The other one's"
+	line "always trashin'"
+	cont "the place!"
+
+	para "I'm givin' it"
+	line "away to a real"
+	cont "bad trainer with"
+	cont "a handful of"
+	cont "BADGEs that can"
+	cont "keep it from"
+	cont "going buck wild,"
+	cont "mon!"
 	done
 
 
 _DJText2::
-	text "Ey! Do mine eyes"
-	line "decieveth me?"
-
-	para "That be the"
+	text "Ey! That be the"
 	line "MAGNETBADGE!"
 
 	para "You beat"
 	line "ELEKSI, mon?!"
 
 	para "Why don't you"
-	line "take him with"
+	line "take it with"
 	cont "you, mon!"
 
-	para "He's too whacked"
-	line "out crazy for my"
-	cont "vibes, mon!"
+	para "Thing's too"
+	line "whacked out crazy"
+	cont "for my vibes, mon!"
 	done
 
 _DJText3::
 	text "I feel it, mon!"
 
-	para  "You hear that,"
-	line "EDDY?"
+	para "Happy for my"
+	line "little amigo!"
 
-	para "You got a new"
-	line "home, mon!"
+	para "You're getting"
+	line "a new home, mon!"
 
 	para "Take real good"
-	line "care of him for"
+	line "care of it for"
 	cont "me, yeah?"
 	done
 
@@ -98,7 +107,7 @@ _DJText5::
 	line  "what to do!"
 
 	para "You ever change"
-	line "your mind, he's"
+	line "your mind, it's"
 	cont "yours, mon!"
 	done
 
@@ -110,7 +119,7 @@ _DJText4::
 	cont "mon!"
 
 	para "How's my fluffy"
-	line "amigo doin, mon?"
+	line "amigo doin', mon?"
 
 	para "Hope you two are"
 	line "feelin' the love,"
@@ -118,5 +127,5 @@ _DJText4::
 	done
 
 _YetiText::
-	text "FLUFFYEDDY: Reeoo!@"
+	text "SAMSON: Reeoo!@"
 	text_end
