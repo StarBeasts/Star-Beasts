@@ -97,8 +97,6 @@
 	const EVENT_RESCUED_MR_FUJI_2
 	const_skip 16
 	const EVENT_GOT_POKE_FLUTE
-	const_skip 30
-	const EVENT_GOT_YETI_FROM_DJ
 
 ; Vermilion City events
 	const_next $150
@@ -325,8 +323,9 @@
 	const EVENT_BEAT_ROUTE_11_TRAINER_7
 	const EVENT_BEAT_ROUTE_11_TRAINER_8
 	const EVENT_BEAT_ROUTE_11_TRAINER_9
-	const_skip 4
+	const_skip 3
 	const EVENT_GOT_ITEMFINDER
+	const EVENT_GOT_YETI_FROM_DJ
 
 ; Route 12 events
 	const_next $480
