@@ -211,6 +211,9 @@ _UnusedBenchGuyText1::
 	para "His eyes are"
 	line "glassy, and"
 	cont "oddly distant..."
+
+	para "You feel sick"
+	line "to your stomach."
 	done
 
 _UnusedBenchGuyText2::
