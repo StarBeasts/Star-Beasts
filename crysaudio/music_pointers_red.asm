@@ -61,4 +61,6 @@ Music:
 	dba Music_SadAlex
 	dba Music_PinkFlash
 	dba Music_SlowMoon
+	dba Music_RuinsOfAlphRadio
+	dba Music_LakeOfRageRocketRadio
 

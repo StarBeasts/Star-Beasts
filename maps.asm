@@ -1235,3 +1235,9 @@ INCLUDE "scripts/MoleHole.asm"
 INCLUDE "data/maps/objects/MoleHole.asm"
 MoleHole_Blocks: INCBIN "maps/MoleHole.blk"
 
+INCLUDE "data/maps/headers/CelagoneCity.asm"
+INCLUDE "scripts/CelagoneCity.asm"
+INCLUDE "data/maps/objects/CelagoneCity.asm"
+CelagoneCity_Blocks: INCBIN "maps/CelagoneCity.blk"
+
+

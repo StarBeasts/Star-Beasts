@@ -107,7 +107,7 @@ MapHeaderBanks::
 	db BANK(SSAnne2FRooms_h)
 	db BANK(SSAnneB1FRooms_h)
 	db BANK(MoleHole_h)
-	db $1D ; UNUSED_MAP_6A
+	db BANK(CelagoneCity_h)
 	db $1D ; UNUSED_MAP_6B
 	db BANK(VictoryRoad1F_h)
 	db $1D ; UNUSED_MAP_6D

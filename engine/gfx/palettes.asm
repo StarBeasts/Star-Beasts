@@ -151,6 +151,8 @@ SetPal_Overworld:
 	jr z, .invertColors
 	cp MT_MOON_1F
 	jr z, .mewMon
+	cp CELAGONE_CITY
+	jr z, .grey
 	cp CERULEAN_CAVE_2F
 	jr c, .normalDungeonOrBuilding
 	cp CERULEAN_CAVE_1F + 1
@@ -197,6 +199,9 @@ SetPal_Overworld:
 	jr .town
 .brownMon
 	ld a, PAL_BROWNMON - 1
+	jr .town
+.grey
+	ld a, PAL_GREY - 1
 	jr .town
 
 
