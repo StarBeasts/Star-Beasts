@@ -77,6 +77,8 @@ FanClubText3:
 	ld a, ELECTRODE
 	call PlayCry
 	call WaitForSoundToFinish
+	ld a, ELECTRODE
+	call DisplayPokedex
 	jp TextScriptEnd
 
 .text
@@ -91,6 +93,8 @@ FanClubText4:
 	ld a, VAPOREON
 	call PlayCry
 	call WaitForSoundToFinish
+	ld a, VAPOREON
+	call DisplayPokedex
 	jp TextScriptEnd
 
 .text

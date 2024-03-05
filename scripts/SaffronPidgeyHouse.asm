@@ -16,6 +16,8 @@ SaffronHouse1Text2:
 	text_asm
 	ld a, PIDGEY
 	call PlayCry
+	ld a, PIDGEY
+	call DisplayPokedex
 	jp TextScriptEnd
 
 SaffronHouse1Text3:

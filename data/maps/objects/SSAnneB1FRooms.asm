@@ -18,7 +18,7 @@ SSAnneB1FRooms_Object:
 	def_object_events
 	object_event  0, 13, SPRITE_SAILOR, STAY, DOWN, 1, OPP_SAILOR, 3
 	object_event  2, 11, SPRITE_SAILOR, STAY, DOWN, 2, OPP_SAILOR, 4
-	object_event 12,  3, SPRITE_COOK, STAY, LEFT, 3, OPP_CHIEF, 1
+	object_event 12,  3, SPRITE_COOK, STAY, LEFT, 3, OPP_BURGLAR, 3
 	object_event 22,  2, SPRITE_SAILOR, STAY, DOWN, 4, OPP_SAILOR, 6
 	object_event  0,  2, SPRITE_SAILOR, STAY, RIGHT, 5, OPP_SAILOR, 7
 	object_event  0,  4, SPRITE_FISHER, STAY, RIGHT, 6, OPP_FISHER, 2

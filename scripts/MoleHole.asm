@@ -1,7 +1,5 @@
 MoleHole_Script:
 	call EnableAutoTextBoxDrawing
-	xor a
-	ld [wWasTrainerBattle], a
 	ld hl, SlashopperTrainerHeader
 	ld de, MoleHole_ScriptPointers
 	ld a, [wMoleHoleCurScript]

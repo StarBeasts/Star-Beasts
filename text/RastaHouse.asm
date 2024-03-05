@@ -37,7 +37,7 @@ _DJText1::
 
 	para "I got myself"
 	line "two of them"
-	cont "bonafide YETIs,"
+	cont "bona fide YETIs,"
 	cont "mon!"
 
 	para "Gotta preserve"

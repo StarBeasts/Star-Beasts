@@ -49,7 +49,7 @@ RastaHouse1Text2:
 	call GetMonName
 	ld a, $1
 	ld [wDoNotWaitForButtonPressAfterDisplayingText], a
-	lb bc, VULPIX, 21
+	lb bc, VULPIX, 23
 	call GivePokemon
 	jr nc, .asm_1cfb3 ; ends dialogue
 	ld a, [wAddedToParty]

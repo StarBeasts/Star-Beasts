@@ -11,6 +11,8 @@ LavenderHouse2Text1:
 	text_asm
 	ld a, MR_MIME
 	call PlayCry
+	ld a, MR_MIME
+	call DisplayPokedex
 	jp TextScriptEnd
 
 LavenderHouse2Text2:
