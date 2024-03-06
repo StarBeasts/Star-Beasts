@@ -1,4 +1,16 @@
 _CelagoneCity1Text1::
+	text "The girl turns"
+	line "towards you and"
+	cont "tries to speak,"
+	
+	para "but..."
+
+	para "all you hear"
+	
+	para "is static."
+	done
+
+_CelagoneCity1Text2::
 	text "The sign speaks!"
 
 	para "SIGN: HURRY!"
@@ -15,7 +27,7 @@ _CelagoneCity1Text1::
 	line "this sign."
 	done
 
-_CelagoneCity1Text2::
+_CelagoneCity1Text3::
 	text "A dark red"
 	line "liquid oozes out"
 	cont "of the hole in"
@@ -33,13 +45,13 @@ _CelagoneCity1Text2::
 	para "NOW."
 	done
 
-_CelagoneCity1Text3::
+_CelagoneCity1Text4::
 	text "The inside of"
 	line "this house doesn't"
 	cont "make sense..."
 	done
 
-_CelagoneCity1Text4::
+_CelagoneCity1Text5::
 	text "The sign pulsates"
 	line "in and out, like"
 	cont "a human heart."
@@ -50,7 +62,7 @@ _CelagoneCity1Text4::
 	para "Better not."
 	done
 
-_CelagoneCity1Text5::
+_CelagoneCity1Text6::
 	text "..."
 
 	para "Shouldn't there"
@@ -59,7 +71,7 @@ _CelagoneCity1Text5::
 	para "You felt uneasy..."
 	done
 
-_CelagoneCity1Text6::
+_CelagoneCity1Text7::
 	text "You reluctantly"
 	line "looked inside..."
 

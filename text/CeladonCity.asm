@@ -17,9 +17,23 @@ _CeladonCityText2::
 	done
 
 _CeladonCityText3::
-	text "The GAME CORNER"
-	line "is bad for our"
-	cont "city's image!"
+	text "I was sent here"
+	line "to investigate"
+	cont "reports of a "
+	cont "haunted building,"
+	cont "but..."
+	
+	para "I'm scared!"
+
+	para "If I listen close,"
+	line "I can hear a"
+	cont "voice screaming"
+	cont "about a bird!"
+
+	para "I'm not putting my"
+	line "precious ROC in"
+	cont "harm's way,"
+	cont "no way, no how!"
 	done
 
 _CeladonCityText4::

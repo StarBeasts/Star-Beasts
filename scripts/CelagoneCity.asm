@@ -8,6 +8,7 @@ CelagoneCity_TextPointers:
 	dw CelagoneCity1Text4
 	dw CelagoneCity1Text5
 	dw CelagoneCity1Text6
+	dw CelagoneCity1Text7
 
 
 CelagoneCity1Text1:
@@ -33,5 +34,10 @@ CelagoneCity1Text5:
 CelagoneCity1Text6:
 	text_far _CelagoneCity1Text6
 	text_end
+
+CelagoneCity1Text7:
+	text_far _CelagoneCity1Text7
+	text_end
+
 
 
