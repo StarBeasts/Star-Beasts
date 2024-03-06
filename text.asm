@@ -271,6 +271,7 @@ INCLUDE "data/text/text_7.asm"
 INCLUDE "text/HandHouse.asm"
 INCLUDE "text/RastaHouse.asm"
 INCLUDE "text/CelagoneCity.asm"
+INCLUDE "text/GlitchRoom.asm"
 
 SECTION "Pokédex Text", ROMX
 

@@ -1240,4 +1240,10 @@ INCLUDE "scripts/CelagoneCity.asm"
 INCLUDE "data/maps/objects/CelagoneCity.asm"
 CelagoneCity_Blocks: INCBIN "maps/CelagoneCity.blk"
 
+INCLUDE "data/maps/headers/GlitchRoom.asm"
+INCLUDE "scripts/GlitchRoom.asm"
+INCLUDE "data/maps/objects/GlitchRoom.asm"
+GlitchRoom_Blocks: INCBIN "maps/GlitchRoom.blk"
+
+
 

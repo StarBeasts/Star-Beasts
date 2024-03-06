@@ -153,6 +153,8 @@ SetPal_Overworld:
 	jr z, .mewMon
 	cp CELAGONE_CITY
 	jr z, .grey
+	cp GLITCH_ROOM
+	jr z, .purpleandRed
 	cp CERULEAN_CAVE_2F
 	jr c, .normalDungeonOrBuilding
 	cp CERULEAN_CAVE_1F + 1
@@ -202,6 +204,9 @@ SetPal_Overworld:
 	jr .town
 .grey
 	ld a, PAL_GREY - 1
+	jr .town
+.purpleandRed
+	ld a, PAL_PURPLEANDRED - 1
 	jr .town
 
 

@@ -108,7 +108,7 @@ MapHeaderPointers::
 	dw SSAnneB1FRooms_h
 	dw MoleHole_h
 	dw CelagoneCity_h ; UNUSED_MAP_6A
-	dw LancesRoom_h ; UNUSED_MAP_6B
+	dw GlitchRoom_h ; UNUSED_MAP_6B
 	dw VictoryRoad1F_h
 	dw LancesRoom_h ; UNUSED_MAP_6D
 	dw LancesRoom_h ; UNUSED_MAP_6E
