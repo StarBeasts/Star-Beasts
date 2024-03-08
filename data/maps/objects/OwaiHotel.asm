@@ -8,8 +8,8 @@ OwaiHotel_Object:
 	def_bg_events
 
 	def_object_events
-	object_event 0, 8, SPRITE_GAMBLER_ASLEEP, STAY, DOWN, 2,
-	object_event  2,  1, SPRITE_MONSTER, STAY, DOWN, 1, MR_MIME, 27 | OW_POKEMON
+	object_event 0, 8, SPRITE_GAMBLER_DEAD, STAY, DOWN, 2,
+	object_event  2,  1, SPRITE_GHOST, STAY, DOWN, 1, MR_MIME, 27 | OW_POKEMON
 
 	def_warps_to OWAI_HOTEL
 

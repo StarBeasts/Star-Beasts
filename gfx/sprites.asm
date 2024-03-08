@@ -78,4 +78,6 @@ LawncreteSprite::	    INCBIN "gfx/sprites/lawncrete.2bpp"
 YetiSprite::	         INCBIN "gfx/sprites/yeti.2bpp"
 RastaSprite::	         INCBIN "gfx/sprites/rasta.2bpp"
 HeadlessSprite::	    INCBIN "gfx/sprites/headless.2bpp"
+GhostSprite::	    		INCBIN "gfx/sprites/ghost.2bpp"
+GamblerDeadSprite::	    INCBIN "gfx/sprites/gambler_dead.2bpp"
 

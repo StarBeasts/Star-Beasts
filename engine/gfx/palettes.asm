@@ -155,6 +155,8 @@ SetPal_Overworld:
 	jr z, .grey
 	cp GLITCH_ROOM
 	jr z, .purpleandRed
+	cp OWAI_HOTEL
+	jr z, .grey
 	cp CERULEAN_CAVE_2F
 	jr c, .normalDungeonOrBuilding
 	cp CERULEAN_CAVE_1F + 1
