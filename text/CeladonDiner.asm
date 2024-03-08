@@ -1,15 +1,21 @@
 _CeladonDinerText1::
-	text "Hi!"
+	text "Welcome to-a Fajz's"
+	line "fine-a foods!"
 
-	para "We're taking a"
+	para "I'm-a Freddy Fajz!"
+
+	para "We're-a taking-a"
 	line "break now."
 	done
 
 _CeladonDinerText2::
-	text "My BEASTS are"
-	line "weak, so I often"
-	cont "have to go to the"
-	cont "DRUG STORE."
+	text "All our other"
+	line "CHEFs left for"
+	cont "some fancy cruise"
+	cont "ship that pays"
+	cont "more than we can,"
+	cont "so we're pretty"
+	cont "short-staffed."
 	done
 
 _CeladonDinerText3::

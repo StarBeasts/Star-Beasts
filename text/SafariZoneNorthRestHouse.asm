@@ -17,12 +17,13 @@ _SafariZoneRestHouse4Text2::
 	done
 
 _SafariZoneRestHouse4Text3::
-	text "My UNIQUORN turned"
-	line "into NOREHORSE!"
+	text "My FLEWNICORN"
+	line "turned into"
+	cont "NOREHORSE!"
 
 	para "But, a friend's"
-	line "UNIQUORN turned"
-	cont "into an"
+	line "FLEWNICORN"
+	cont "turned into an"
 	cont "AQUAMENTUS!"
 
 	para "I wonder why?"

@@ -2,7 +2,7 @@ CelagoneCity_Object:
 	db $13 ; border block
 
 	def_warp_events
-	warp_event  3,  9, LAST_MAP, 5
+	warp_event  3,  9, OWAI_HOTEL, 1
 	warp_event 12, 27, GLITCH_ROOM, 1
 	warp_event 41, 10, LAST_MAP, 5
 

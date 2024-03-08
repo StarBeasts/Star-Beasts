@@ -1245,5 +1245,9 @@ INCLUDE "scripts/GlitchRoom.asm"
 INCLUDE "data/maps/objects/GlitchRoom.asm"
 GlitchRoom_Blocks: INCBIN "maps/GlitchRoom.blk"
 
+INCLUDE "data/maps/headers/OwaiHotel.asm"
+INCLUDE "scripts/OwaiHotel.asm"
+INCLUDE "data/maps/objects/OwaiHotel.asm"
+OwaiHotel_Blocks: INCBIN "maps/OwaiHotel.blk"
 
 

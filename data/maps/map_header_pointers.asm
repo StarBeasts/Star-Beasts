@@ -110,11 +110,11 @@ MapHeaderPointers::
 	dw CelagoneCity_h ; UNUSED_MAP_6A
 	dw GlitchRoom_h ; UNUSED_MAP_6B
 	dw VictoryRoad1F_h
-	dw LancesRoom_h ; UNUSED_MAP_6D
+	dw OwaiHotel_h; UNUSED_MAP_6D
 	dw LancesRoom_h ; UNUSED_MAP_6E
 	dw LancesRoom_h ; UNUSED_MAP_6F
 	dw LancesRoom_h ; UNUSED_MAP_70
-	dw LancesRoom_h
+	dw LancesRoom_h ; this is the used version
 	dw LancesRoom_h ; UNUSED_MAP_72
 	dw LancesRoom_h ; UNUSED_MAP_73
 	dw LancesRoom_h ; UNUSED_MAP_74

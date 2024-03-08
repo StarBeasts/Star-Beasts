@@ -30,7 +30,7 @@ _TM35NoRoomText::
 	done
 
 _Lab3Text2::
-	text "UNIQUORN can"
+	text "FLEWNICORN can"
 	line "evolve into 1 of"
 	cont "3 different kinds"
 	cont "of BEAST."
@@ -45,7 +45,7 @@ _Lab3Text3::
 	para "The FOUR HOLY"
 	line "REGENTS."
 
-	para "SIVAK, ZAGRUS,"
+	para "SIVAK, ALVARIS,"
 	line "AEON, and..."
 
 	para "We have so little"

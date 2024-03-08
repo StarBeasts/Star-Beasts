@@ -11,7 +11,7 @@ _CinnabarPokecenterText2::
 _CinnabarPokecenterText3::
 	text "The folks over in"
 	line "that LAB have"
-	cont "UNIQUORNs!"
+	cont "FLEWNICORNs!"
 
 	para "While I do quite"
 	line "fancy having one,"

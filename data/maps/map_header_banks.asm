@@ -110,7 +110,7 @@ MapHeaderBanks::
 	db BANK(CelagoneCity_h)
 	db BANK(GlitchRoom_h)
 	db BANK(VictoryRoad1F_h)
-	db $1D ; UNUSED_MAP_6D
+	db BANK(OwaiHotel_h)
 	db $1D ; UNUSED_MAP_6E
 	db $1D ; UNUSED_MAP_6F
 	db $1D ; UNUSED_MAP_70

@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/mr.mime.pic", 0, 1 ; sprite dimensions
 	dw MrMimePicFront, MrMimePicBack
 
-	db THUNDER_WAVE, CONFUSE_RAY, NO_MOVE, NO_MOVE ; level 1 learnset
+	db THUNDER_WAVE, CONFUSE_RAY, SHADOW_CLAW, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
