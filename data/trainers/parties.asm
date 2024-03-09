@@ -302,9 +302,9 @@ BurglarData:
 ; Mansion 2F
 	db 34, CHARMANDER, CHARMELEON, 0
 ; Mansion 3F
-	db 38, NINETALES, 0
+	db 38, VILEPLUME, 0
 ; Mansion B1F
-	db 34, GROWLITHE, PONYTA, 0
+	db 34, GROWLITHE, GLOOM, 0
 
 EngineerData:
 ; Route 9
@@ -447,7 +447,7 @@ JugglerData:
 TamerData:
 ; Fuchsia Gym
 	db 34, PONYTA, RAPIDASH, 0
-	db 33, BEEDRILL, SEADRA, 0
+	db 33, BEEDRILL, RAICHU, 0
 ; Viridian Gym
 	db 43, RHYDON, 0
 	db 39, TAUROS, 0
@@ -708,7 +708,7 @@ Green3Data:
 	db $FF, 56, PIDGEOT, 54, ALAKAZAM, 56, STARMIE, 58, GYARADOS, 60, AERODACTYL, 65, CHARIZARD, 0
 
 LoreleiData:
-	db $FF,33,VULPIX,34,MAGMAR,34,CHANSEY,35,SEEL,36,NINETALES,0
+	db $FF,33,VULPIX,34,MAGMAR,34,SEADRA,35,SEEL,36,NINETALES,0
 
 ChannelerData:
 ; Unused
