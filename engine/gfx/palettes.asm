@@ -157,6 +157,8 @@ SetPal_Overworld:
 	jr z, .purpleandRed
 	cp OWAI_HOTEL
 	jr z, .grey
+	cp VULT_MAZE
+	jr z, .caveOrBruno
 	cp CERULEAN_CAVE_2F
 	jr c, .normalDungeonOrBuilding
 	cp CERULEAN_CAVE_1F + 1

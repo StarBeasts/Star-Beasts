@@ -273,6 +273,7 @@ INCLUDE "text/RastaHouse.asm"
 INCLUDE "text/CelagoneCity.asm"
 INCLUDE "text/GlitchRoom.asm"
 INCLUDE "text/OwaiHotel.asm"
+INCLUDE "text/VultMaze.asm"
 
 
 SECTION "Pokédex Text", ROMX

@@ -70,6 +70,7 @@ SpriteSheetPointerTable:
 	overworld_sprite LawncreteSprite, 12		; SPRITE_LAWNCRETE
 	overworld_sprite YetiSprite, 12		; SPRITE_YETI
 	overworld_sprite RastaSprite, 12		; SPRITE_RASTA
+	overworld_sprite VulturnusSprite, 12	;SPRITE_VULTURNUS
 	overworld_sprite PokeBallSprite, 4          ; SPRITE_POKE_BALL
 	overworld_sprite FossilSprite, 4            ; SPRITE_FOSSIL
 	overworld_sprite BoulderSprite, 4           ; SPRITE_BOULDER

@@ -1250,4 +1250,9 @@ INCLUDE "scripts/OwaiHotel.asm"
 INCLUDE "data/maps/objects/OwaiHotel.asm"
 OwaiHotel_Blocks: INCBIN "maps/OwaiHotel.blk"
 
+INCLUDE "data/maps/headers/VultMaze.asm"
+INCLUDE "scripts/VultMaze.asm"
+INCLUDE "data/maps/objects/VultMaze.asm"
+VultMaze_Blocks: INCBIN "maps/VultMaze.blk"
+
 

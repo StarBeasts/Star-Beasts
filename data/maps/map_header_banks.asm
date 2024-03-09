@@ -111,7 +111,7 @@ MapHeaderBanks::
 	db BANK(GlitchRoom_h)
 	db BANK(VictoryRoad1F_h)
 	db BANK(OwaiHotel_h)
-	db $1D ; UNUSED_MAP_6E
+	db BANK(VultMaze_h)
 	db $1D ; UNUSED_MAP_6F
 	db $1D ; UNUSED_MAP_70
 	db BANK(LancesRoom_h)

@@ -113,7 +113,7 @@ MapHSPointers:
 	dw NoHS
 	dw VictoryRoad1FHS
 	dw OwaiHotelHS
-	dw NoHS
+	dw VultMazeHS
 	dw NoHS
 	dw NoHS
 	dw NoHS
@@ -566,5 +566,7 @@ SeafoamIslandsB4FHS:
 	db SEAFOAM_ISLANDS_B4F, $03, SHOW
 OwaiHotelHS:
 	db OWAI_HOTEL, $02, SHOW
+VultMazeHS:
+	db VULT_MAZE, $01, SHOW
 	db $FF, $01, SHOW ; end
 	assert_table_length NUM_HS_OBJECTS + 1

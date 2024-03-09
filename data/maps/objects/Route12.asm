@@ -6,6 +6,7 @@ Route12_Object:
 	warp_event 11, 15, ROUTE_12_GATE_1F, 2
 	warp_event 10, 21, ROUTE_12_GATE_1F, 3
 	warp_event 11, 77, ROUTE_12_SUPER_ROD_HOUSE, 1
+	warp_event 2, 103, VULT_MAZE, 1
 
 	def_bg_events
 	bg_event 13, 13, 11 ; Route12Text11
