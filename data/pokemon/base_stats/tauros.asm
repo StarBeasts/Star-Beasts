@@ -1,6 +1,6 @@
 	db DEX_TAUROS ; pokedex id
 
-	db  75, 100,  35, 255,  70
+	db  75, 105,  35, 250,  70
 	;   hp  atk  def  spd  spc
 
 	db FIGHTING, FLYING ; type

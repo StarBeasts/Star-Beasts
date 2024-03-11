@@ -126,6 +126,15 @@ _DexRatingText_Own130To139::
 	line "You're almost as"
 	cont "good as I am at"
 	cont "this!"
+
+	para "..."
+
+	para "Actually, go check"
+	line "out that building"
+	cont "east of CINNABAR..."
+
+	para "I want to show you"
+	line "something..."
 	done
 
 _DexRatingText_Own140To149::
@@ -140,6 +149,6 @@ _DexRatingText_Own150To151::
 	text "You did it!"
 
 	para "Your #DEX is"
-	line "entirely complete!"
+	line "totally complete!"
 	cont "Congratulations!"
 	done

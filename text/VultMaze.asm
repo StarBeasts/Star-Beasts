@@ -13,5 +13,5 @@ _VulturnusBattleText::
 	cont "attacked you!"
 
 	para "It feels like"	
-	line "a hurricane!@"
+	line "a typhoon!@"
 	text_end

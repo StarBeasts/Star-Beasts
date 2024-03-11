@@ -163,7 +163,42 @@ _Route20AfterBattleText10::
 	line "volcanic island!"
 	done
 
-_Route20Text12::
 _Route20Text11::
+	text "I've been ordered"
+	line "to guard this"
+	cont "VILLA until miss"
+	cont "LORELEI returns."
+
+	para "I'm afraid I can't"
+	line "let you, or"
+	cont "anybody else but"
+	cont "her or miss"
+	cont "SABRINA in."
+
+	para "Apologies, but I"
+	line "won't risk my"
+	cont "job over it."
+	done
+
+_Route20Text12::
+_Route20Text13::
 	text "SEAFOAM ISLANDS"
+	done
+
+_Route20Text14::
+	text "SEAFOAM VILLA"
+
+	para "LEGAL NOTICE"
+
+	para "THIS BUILDING"
+	line "IS THE PRIVATE"
+	cont "PROPERTY OF"
+	cont "LORELEI AND"
+	cont "SABRINA OF THE"
+	cont "ELITE FOUR"
+
+	para "..."
+	
+	para "Wow. This place"
+	line "sounds important."
 	done

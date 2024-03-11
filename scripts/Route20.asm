@@ -74,6 +74,8 @@ Route20_TextPointers:
 	dw Route20Text10
 	dw Route20Text11
 	dw Route20Text12
+	dw Route20Text13
+	dw Route20Text14
 
 Route20TrainerHeaders:
 	def_trainers
@@ -279,7 +281,15 @@ Route20AfterBattleText10:
 	text_far _Route20AfterBattleText10
 	text_end
 
-Route20Text12:
 Route20Text11:
 	text_far _Route20Text11
+	text_end
+
+Route20Text13:
+Route20Text12:
+	text_far _Route20Text12
+	text_end
+
+Route20Text14:
+	text_far _Route20Text14
 	text_end
