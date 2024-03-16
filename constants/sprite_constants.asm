@@ -66,6 +66,7 @@
 	const SPRITE_YETI
 	const SPRITE_RASTA
 	const SPRITE_VULTURNUS
+	const SPRITE_OFFICER
 DEF FIRST_STILL_SPRITE EQU const_value
 	const SPRITE_POKE_BALL               ; $3d
 	const SPRITE_FOSSIL                  ; $3e

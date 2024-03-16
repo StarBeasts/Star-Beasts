@@ -79,6 +79,7 @@ YetiSprite::	         INCBIN "gfx/sprites/yeti.2bpp"
 RastaSprite::	         INCBIN "gfx/sprites/rasta.2bpp"
 VulturnusSprite::	    INCBIN "gfx/sprites/vulturnus.2bpp"
 HeadlessSprite::	    INCBIN "gfx/sprites/headless.2bpp"
+OfficerSprite::			INCBIN "gfx/sprites/officer.2bpp"
 GhostSprite::	    		INCBIN "gfx/sprites/ghost.2bpp"
 GamblerDeadSprite::	    INCBIN "gfx/sprites/gambler_dead.2bpp"
 
