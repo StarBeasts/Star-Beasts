@@ -17,6 +17,7 @@ Music_PinkFlash_Ch1:
 	duty_cycle 0
 	note_type 12, 10, 7
 	tempo 100
+.mainloop
 ;Bar 1
 	rest 16
 	rest 16
@@ -258,13 +259,40 @@ Music_PinkFlash_Ch1:
 	;note E_, 0 | WARNING: Rounded down to 0
 	note G_, 16
 	note G_, 2
-	sound_ret
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 12
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 6
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
 Music_PinkFlash_Ch2:
 	duty_cycle 1
 	note_type 12, 10, 7
+.mainloop
 ;Bar 1
 	rest 16
 	rest 16
@@ -666,55 +694,58 @@ Music_PinkFlash_Ch2:
 	rest 16
 ;Bar 101
 	octave 3
-	note E_, 6
+	rest 1
 ;Bar 102
 	;note G_, 0 | WARNING: Rounded down to 0
 	octave 2
 	;note B_, 0 | WARNING: Rounded down to 0
 	octave 3
-	note E_, 4
+	rest 1
 	;note F#, 0 | WARNING: Rounded down to 0
 	octave 2
 	;note A_, 0 | WARNING: Rounded down to 0
 	octave 3
-	note C#, 6
+	rest 1
 ;Bar 103
 	;note E_, 0 | WARNING: Rounded down to 0
 	octave 2
 	;note G_, 0 | WARNING: Rounded down to 0
-	note B_, 6
+	rest 1
 	octave 3
 	;note D_, 0 | WARNING: Rounded down to 0
 	octave 2
 	;note F#, 0 | WARNING: Rounded down to 0
-	note A_, 2
+	rest 1
 	octave 3
 	;note E_, 0 | WARNING: Rounded down to 0
 	octave 2
 	;note B_, 0 | WARNING: Rounded down to 0
-	note G_, 4
+	rest 1
 ;Bar 104
 	octave 3
 	;note E_, 0 | WARNING: Rounded down to 0
 	octave 2
 	;note B_, 0 | WARNING: Rounded down to 0
-	note G_, 4
+	rest 1
 	octave 3
 	;note D_, 0 | WARNING: Rounded down to 0
 	octave 2
 	;note A_, 0 | WARNING: Rounded down to 0
-	note F#, 4
+	rest 1
 	octave 3
 	;note E_, 0 | WARNING: Rounded down to 0
 	octave 2
 	;note B_, 0 | WARNING: Rounded down to 0
 	;note G_, 0 | WARNING: Rounded down to 0
-	sound_ret
+	rest 16
+	rest 12
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
 Music_PinkFlash_Ch3:
 	note_type 12, 1, 0
+.mainloop
 ;Bar 1
 	octave 3
 	volume_envelope 1, 0
@@ -1238,13 +1269,14 @@ Music_PinkFlash_Ch3:
 	note B_, 16
 	note B_, 16
 	note B_, 4
-	sound_ret
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
 Music_PinkFlash_Ch4:
 	toggle_noise 1
 	drum_speed 12
+.mainloop
 ;Bar 1
 	rest 8
 	drum_note 10, 6
@@ -1707,7 +1739,7 @@ Music_PinkFlash_Ch4:
 ;Bar 104
 	drum_note 2, 4
 	drum_note 2, 2
-	sound_ret
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 

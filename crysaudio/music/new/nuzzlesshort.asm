@@ -15,7 +15,7 @@ Music_Academy_Ch1:
 	volume 7, 7
 	duty_cycle 0
 	note_type 12, 10, 7
-	tempo 109
+	tempo 104
 .mainloop:
 ;Bar 1
 	octave 2

@@ -193,7 +193,7 @@ Music_MobileAdapter_Ch1:
 Music_MobileAdapter_Ch2:
 	note_type 12, 12, 1
 	vibrato 16, 2, 3
-	duty_cycle 2
+	duty_cycle 1
 	octave 3
 	note G_, 1
 	note B_, 1

@@ -35,7 +35,7 @@ Music:
 	dba Music_NameEntry
 	dba Music_Cherry
 	dba Music_Rocken
-	dba Music_TCG2GameCorner
+	dba Music_MobileAdapter
 	dba Music_Surf
 	dba Music_Club1
 	dba Music_Wacky
