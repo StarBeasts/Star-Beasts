@@ -6,17 +6,17 @@
 ; ============================================================================================================
 
 Music_SadAlex:
-	channel_count 4
+	channel_count 3
 	channel 1, Music_SadAlex_Ch1
 	channel 2, Music_SadAlex_Ch2
 	channel 3, Music_SadAlex_Ch3
-	channel 4, Music_SadAlex_Ch4
 
 Music_SadAlex_Ch1:
 	volume 7, 7
 	duty_cycle 1
 	note_type 12, 10, 7
 	tempo 137
+.mainloop
 ;Bar 1
 	octave 3
 	volume_envelope 9, 7
@@ -201,13 +201,14 @@ Music_SadAlex_Ch1:
 	note G_, 2
 ;Bar 34
 	note A_, 16
-	sound_ret
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
 Music_SadAlex_Ch2:
 	duty_cycle 1
 	note_type 12, 10, 7
+.mainloop
 ;Bar 1
 	volume_envelope 9, 7
 	rest 16
@@ -343,12 +344,13 @@ Music_SadAlex_Ch2:
 	note F_, 2
 ;Bar 34
 	note E_, 16
-	sound_ret
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
 Music_SadAlex_Ch3:
 	note_type 12, 1, 0
+.mainloop
 ;Bar 1
 	volume_envelope 2, 0
 	rest 16
@@ -517,60 +519,6 @@ Music_SadAlex_Ch3:
 ;Bar 34
 	octave 2
 	note A_, 16
-	sound_ret
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
-
-Music_SadAlex_Ch4:
-	toggle_noise 1
-	drum_speed 12
-;Bar 1
-	rest 16
-	rest 16
-;Bar 3
-	drum_note 10, 1
-	rest 16
-	rest 16
-	rest 16
-	rest 16
-	rest 16
-	rest 15
-;Bar 9
-	drum_note 10, 1
-	rest 16
-	rest 16
-	rest 16
-	rest 16
-	rest 16
-	rest 16
-	rest 16
-	rest 15
-;Bar 17
-	drum_note 10, 1
-	rest 16
-	rest 16
-	rest 15
-;Bar 20
-	drum_note 10, 1
-	rest 16
-	rest 16
-	rest 16
-	rest 16
-	rest 16
-	rest 15
-;Bar 26
-	drum_note 10, 1
-	rest 16
-	rest 16
-	rest 16
-	rest 16
-	rest 16
-	rest 16
-	rest 16
-	rest 15
-;Bar 34
-	drum_note 10, 1
-	sound_ret
-
-; ============================================================================================================
-

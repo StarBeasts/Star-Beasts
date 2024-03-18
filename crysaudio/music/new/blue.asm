@@ -14,7 +14,8 @@ Music_Blue_Ch1:
 	volume 7, 7
 	duty_cycle 2
 	note_type 12, 10, 7
-	tempo 149
+	tempo 143
+.mainloop
 ;Bar 1
 	octave 3
 	volume_envelope 9, 7
@@ -1636,14 +1637,15 @@ Music_Blue_Ch1:
 	note G_, 8
 ;Bar 140
 	octave 3
-	note G_, 4
-	sound_ret
+	note G_, 2
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
 Music_Blue_Ch2:
 	duty_cycle 1
 	note_type 12, 10, 7
+.mainloop
 ;Bar 1
 	volume_envelope 9, 7
 	rest 4
@@ -3535,16 +3537,7 @@ Music_Blue_Ch2:
 ;Bar 139
 	note D#, 10
 	note D#, 8
-;Bar 140
-	rest 2
-	octave 2
-	note G_, 4
-	octave 1
-	;note G_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note G_, 16
-	note G_, 9
-	sound_ret
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 

@@ -5,17 +5,18 @@
 
 ; ============================================================================================================
 
-Music_Placeholder:
+Music_SweetVictory:
 	channel_count 3
-	channel 1, Music_Placeholder_Ch1
-	channel 2, Music_Placeholder_Ch2
-	channel 3, Music_Placeholder_Ch3
+	channel 1, Music_SweetVictory_Ch1
+	channel 2, Music_SweetVictory_Ch2
+	channel 3, Music_SweetVictory_Ch3
 
-Music_Placeholder_Ch1:
+Music_SweetVictory_Ch1:
 	volume 7, 7
 	duty_cycle 0
 	note_type 12, 10, 7
 	tempo 150
+.mainloop
 ;Bar 1
 	octave 3
 	volume_envelope 14, 7
@@ -220,13 +221,14 @@ Music_Placeholder_Ch1:
 	octave 3
 	note D_, 16
 	note D_, 16
-	sound_ret
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
-Music_Placeholder_Ch2:
+Music_SweetVictory_Ch2:
 	duty_cycle 1
 	note_type 12, 10, 7
+.mainloop
 ;Bar 1
 	octave 1
 	volume_envelope 14, 7
@@ -433,12 +435,13 @@ Music_Placeholder_Ch2:
 ;Bar 47
 	octave 1
 	note A#, 16
-	sound_ret
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
-Music_Placeholder_Ch3:
+Music_SweetVictory_Ch3:
 	note_type 12, 1, 0
+.mainloop
 ;Bar 1
 	volume_envelope 1, 0
 	rest 16
@@ -649,9 +652,8 @@ Music_Placeholder_Ch3:
 	note F_, 8
 	octave 6
 	note F_, 16
-	note F_, 16
 	note F_, 8
-	sound_ret
+	sound_loop 0, .mainloop
 
 
 ; ============================================================================================================

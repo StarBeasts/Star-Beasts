@@ -1498,6 +1498,14 @@ Music_Nuzzles_Ch1:
 	note D#, 2
 	note D#, 2
 	note E_, 4
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
+	rest 16
 	sound_loop 0, .mainloop
 
 ; ============================================================================================================
@@ -3018,6 +3026,10 @@ Music_Nuzzles_Ch2:
 	note B_, 4
 	octave 2
 	note F#, 4
+	rest 16
+	rest 16
+	rest 16
+	rest 16
 	sound_loop 0, .mainloop
 
 ; ============================================================================================================

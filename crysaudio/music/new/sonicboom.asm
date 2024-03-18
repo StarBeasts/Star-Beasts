@@ -14,7 +14,8 @@ Music_SonicBoom_Ch1:
 	volume 7, 7
 	duty_cycle 0
 	note_type 12, 10, 7
-	tempo 100
+	tempo 95
+.mainloop
 ;Bar 1
 	octave 4
 	volume_envelope 9, 7
@@ -835,13 +836,14 @@ Music_SonicBoom_Ch1:
 	note B_, 2
 	octave 4
 	note E_, 4
-	sound_ret
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
 Music_SonicBoom_Ch2:
 	duty_cycle 2
 	note_type 12, 10, 7
+.mainloop
 ;Bar 1
 	octave 1
 	volume_envelope 9, 7
@@ -1980,7 +1982,7 @@ Music_SonicBoom_Ch2:
 	note A_, 8
 	note A_, 2
 	note A_, 6
-	sound_ret
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 

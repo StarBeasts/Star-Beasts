@@ -17,6 +17,7 @@ Music_Unatco_Ch1:
 	duty_cycle 0
 	note_type 12, 10, 7
 	tempo 224
+.mainloop
 ;Bar 1
 	octave 1
 	volume_envelope 11, 7
@@ -1184,13 +1185,14 @@ Music_Unatco_Ch1:
 	;note C_, 0 | WARNING: Rounded down to 0
 	octave 1
 	note G#, 1
-	sound_ret
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
 Music_Unatco_Ch2:
 	duty_cycle 1
 	note_type 12, 10, 7
+.mainloop
 ;Bar 1
 	octave 1
 	volume_envelope 7, 7
@@ -1321,12 +1323,13 @@ Music_Unatco_Ch2:
 	;note A#, 0 | WARNING: Rounded down to 0
 	;note F#, 0 | WARNING: Rounded down to 0
 	note C#, 16
-	sound_ret
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
 Music_Unatco_Ch3:
 	note_type 12, 1, 0
+.mainloop
 ;Bar 1
 	volume_envelope 2, 0
 	rest 16
@@ -1611,13 +1614,14 @@ Music_Unatco_Ch3:
 	note C_, 1
 	note C#, 1
 	note F_, 1
-	sound_ret
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
 Music_Unatco_Ch4:
 	toggle_noise 1
 	drum_speed 12
+.mainloop
 ;Bar 1
 	rest 16
 	rest 16
@@ -1675,7 +1679,7 @@ Music_Unatco_Ch4:
 	drum_note 4, 4
 	drum_note 9, 4
 	drum_note 2, 2
-	sound_ret
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 

@@ -17,6 +17,7 @@ Music_OceanWinter_Ch1:
 	duty_cycle 1
 	note_type 12, 10, 7
 	tempo 173
+.mainloop
 ;Bar 1
 	rest 16
 	rest 16
@@ -25,7 +26,7 @@ Music_OceanWinter_Ch1:
 	rest 4
 ;Bar 5
 	octave 4
-	volume_envelope 11, 7
+	volume_envelope 15, 7
 	note F_, 16
 	note F_, 4
 ;Bar 6
@@ -362,15 +363,17 @@ Music_OceanWinter_Ch1:
 	rest 2
 	note F_, 16
 	note F_, 8
-	sound_ret
+	rest 8
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
 Music_OceanWinter_Ch2:
 	duty_cycle 2
 	note_type 12, 10, 7
+.mainloop
 ;Bar 1
-	volume_envelope 13, 7
+	volume_envelope 15, 7
 	rest 4
 	octave 1
 	;note F_, 0 | WARNING: Rounded down to 0
@@ -588,7 +591,7 @@ Music_OceanWinter_Ch2:
 	;note F_, 0 | WARNING: Rounded down to 0
 	note A#, 8
 ;Bar 22
-	volume_envelope 6, 7
+	volume_envelope 12, 7
 	;note A#, 0 | WARNING: Rounded down to 0
 	octave 2
 	;note G_, 0 | WARNING: Rounded down to 0
@@ -622,7 +625,7 @@ Music_OceanWinter_Ch2:
 	note D#, 8
 ;Bar 27
 	octave 1
-	volume_envelope 8, 7
+	volume_envelope 15, 7
 	;note F_, 0 | WARNING: Rounded down to 0
 	;note G#, 0 | WARNING: Rounded down to 0
 	octave 2
@@ -838,7 +841,7 @@ Music_OceanWinter_Ch2:
 	;note F_, 0 | WARNING: Rounded down to 0
 	note A#, 8
 ;Bar 48
-	volume_envelope 6, 7
+	volume_envelope 12, 7
 	;note A#, 0 | WARNING: Rounded down to 0
 	octave 2
 	;note G_, 0 | WARNING: Rounded down to 0
@@ -872,7 +875,7 @@ Music_OceanWinter_Ch2:
 	note D#, 8
 ;Bar 53
 	octave 1
-	volume_envelope 8, 7
+	volume_envelope 15, 7
 	;note F_, 0 | WARNING: Rounded down to 0
 	;note G#, 0 | WARNING: Rounded down to 0
 	octave 2
@@ -1088,7 +1091,7 @@ Music_OceanWinter_Ch2:
 	;note F_, 0 | WARNING: Rounded down to 0
 	note A#, 8
 ;Bar 74
-	volume_envelope 6, 7
+	volume_envelope 12, 7
 	;note A#, 0 | WARNING: Rounded down to 0
 	octave 2
 	;note G_, 0 | WARNING: Rounded down to 0
@@ -1122,7 +1125,7 @@ Music_OceanWinter_Ch2:
 	note D#, 8
 ;Bar 79
 	octave 1
-	volume_envelope 8, 7
+	volume_envelope 15, 7
 	;note F_, 0 | WARNING: Rounded down to 0
 	;note G#, 0 | WARNING: Rounded down to 0
 	octave 2
@@ -1337,17 +1340,18 @@ Music_OceanWinter_Ch2:
 	octave 1
 	;note F_, 0 | WARNING: Rounded down to 0
 	note A#, 8
-	sound_ret
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
 Music_OceanWinter_Ch3:
 	note_type 12, 1, 0
+.mainloop
 ;Bar 1
-	volume_envelope 2, 0
+	volume_envelope 1, 0
 	rest 4
 	octave 2
-	volume_envelope 3, 0
+	volume_envelope 2, 0
 	note F_, 1
 	rest 1
 	octave 3
@@ -1360,7 +1364,6 @@ Music_OceanWinter_Ch3:
 	note C_, 1
 	rest 1
 	octave 2
-	volume_envelope 2, 0
 	note F_, 1
 	rest 1
 	octave 3
@@ -1419,6 +1422,7 @@ Music_OceanWinter_Ch3:
 	note A#, 1
 	rest 1
 	octave 3
+	volume_envelope 1, 0
 	note C#, 1
 	rest 1
 	octave 2
@@ -3273,13 +3277,15 @@ Music_OceanWinter_Ch3:
 	rest 1
 	octave 3
 	note C#, 1
-	sound_ret
+	rest 1
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
 Music_OceanWinter_Ch4:
 	toggle_noise 1
 	drum_speed 12
+.mainloop
 ;Bar 1
 	rest 4
 	drum_note 6, 16
@@ -3550,7 +3556,7 @@ Music_OceanWinter_Ch4:
 	drum_note 6, 16
 ;Bar 99
 	drum_note 6, 16
-	sound_ret
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
