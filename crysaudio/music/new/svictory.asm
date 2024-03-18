@@ -231,7 +231,7 @@ Music_SweetVictory_Ch2:
 .mainloop
 ;Bar 1
 	octave 1
-	volume_envelope 14, 7
+	volume_envelope 10, 7
 	note D_, 16
 ;Bar 2
 	octave 1
@@ -443,7 +443,7 @@ Music_SweetVictory_Ch3:
 	note_type 12, 1, 0
 .mainloop
 ;Bar 1
-	volume_envelope 1, 0
+	volume_envelope 1, 3
 	rest 16
 	rest 16
 	rest 16

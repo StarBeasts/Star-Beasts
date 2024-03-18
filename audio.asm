@@ -521,6 +521,9 @@ INCLUDE "crysaudio/music/new/academy.asm"
 INCLUDE "crysaudio/music/new/blue.asm"
 INCLUDE "crysaudio/music/new/unatco.asm"
 INCLUDE "crysaudio/music/new/wildbeast.asm"
+INCLUDE "crysaudio/music/new/svictory.asm"
+INCLUDE "crysaudio/music/new/chala.asm"
+INCLUDE "crysaudio/music/new/ezio.asm"
 
 
 SECTION "Sound Effects", ROMX

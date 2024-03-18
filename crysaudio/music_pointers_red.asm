@@ -26,12 +26,12 @@ Music:
 	dba Music_DuelTheme2
 	dba Music_WildBeast ; loops properly
 	dba Music_CatchEmBlue
-	dba Music_Nuzzles ; KINDA LOOPS PROPERLY LETS FUCKING GOOOOO
+	dba Music_Nuzzles ; LOOPS PROPERLY LETS FUCKING GOOOOO
 	dba Music_MatchVictory
 	dba Music_BoosterPack
 	dba Music_EndCredits
 	dba Music_ChallengeHall
-	dba Music_RBYCredits
+	dba Music_Chala
 	dba Music_NameEntry
 	dba Music_Cherry ; loops semi-properly
 	dba Music_Rocken ; doesn't need to loop
@@ -61,6 +61,8 @@ Music:
 	dba Music_SadAlex ; loops properly
 	dba Music_PinkFlash ; loops properly
 	dba Music_SlowMoon ; loops properly
+	dba Music_SweetVictory ; loops properly, postgame
+	dba Music_Ezio ; loops properly, postgame
 	dba Music_RuinsOfAlphRadio
 	dba Music_LakeOfRageRocketRadio
 

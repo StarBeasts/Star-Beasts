@@ -332,11 +332,11 @@ Music_Chala_Ch1:
 	note D#, 1
 	note F#, 1
 	note D#, 1
-	note F#, 1
-	note B_, 1
-	note F#, 1
-	note D#, 1 ; WARNING: Auto-Sync says: Rounded down!
 	note F#, 1 ; WARNING: Auto-Sync says: Rounded down!
+	note B_, 1 ; WARNING: Auto-Sync says: Rounded down!
+	note F#, 1
+	note D#, 1
+	note F#, 1
 	note D#, 1
 	octave 4
 	note B_, 1
@@ -377,15 +377,15 @@ Music_Chala_Ch1:
 	note G#, 1
 	octave 5
 	note B_, 1
-	note G#, 1
+	note G#, 1 ; WARNING: Auto-Sync says: Rounded down!
 	note E_, 1
 	octave 4
-	note B_, 1
+	note B_, 1 ; WARNING: Auto-Sync says: Rounded down!
 ;Bar 32
-	note F#, 4 ; WARNING: Auto-Sync says: Rounded down!
+	note F#, 4
 	octave 3
 	note E_, 4
-	note A_, 2 ; WARNING: Auto-Sync says: Rounded down!
+	note A_, 2
 	note G#, 2
 	note E_, 2
 	note A_, 4
@@ -436,11 +436,11 @@ Music_Chala_Ch1:
 	octave 5
 	note E_, 2
 	octave 4
-	note B_, 2 ; WARNING: Auto-Sync says: Rounded down!
+	note B_, 2
 	octave 5
 	note D_, 2
 	octave 4
-	note F#, 2 ; WARNING: Auto-Sync says: Rounded down!
+	note F#, 2
 	note A_, 2
 ;Bar 38
 	octave 5
@@ -647,48 +647,6 @@ Music_Chala_Ch1:
 	note A_, 12
 ;Bar 59
 	octave 3
-	;note A_, 0 | WARNING: Rounded down to 0
-	;note D_, 0 | WARNING: Rounded down to 0
-	octave 2
-	note A_, 16
-	note A_, 10
-;Bar 60
-	octave 3
-	;note F_, 0 | WARNING: Rounded down to 0
-	octave 2
-	;note A#, 0 | WARNING: Rounded down to 0
-	note F_, 4
-	octave 3
-	;note G_, 0 | WARNING: Rounded down to 0
-	;note C_, 0 | WARNING: Rounded down to 0
-	octave 2
-	note G_, 16
-	note G_, 12
-;Bar 62
-	octave 3
-	;note E_, 0 | WARNING: Rounded down to 0
-	octave 2
-	;note A_, 0 | WARNING: Rounded down to 0
-	note E_, 4
-	octave 3
-	;note F_, 0 | WARNING: Rounded down to 0
-	octave 2
-	;note A#, 0 | WARNING: Rounded down to 0
-	note F_, 16
-;Bar 63
-	octave 3
-	;note G_, 0 | WARNING: Rounded down to 0
-	;note C_, 0 | WARNING: Rounded down to 0
-	octave 2
-	note G_, 12
-;Bar 64
-	octave 3
-	;note E_, 0 | WARNING: Rounded down to 0
-	octave 2
-	;note A_, 0 | WARNING: Rounded down to 0
-	note E_, 6
-;Bar 65
-	octave 3
 	note D_, 2
 	note D_, 2
 	;note A_, 0 | WARNING: Rounded down to 0
@@ -698,19 +656,19 @@ Music_Chala_Ch1:
 	note E_, 2
 	note D_, 2
 	note B_, 4
-;Bar 66
+;Bar 60
 	note B_, 2
 	note A_, 4
 	note G#, 2
 	note B_, 4
 	note B_, 2
-;Bar 67
+;Bar 61
 	note B_, 2
 	note A_, 2
 	note A_, 2
 	octave 4
 	note E_, 10
-;Bar 68
+;Bar 62
 	octave 3
 	note B_, 2
 	note A_, 2
@@ -728,12 +686,12 @@ Music_Chala_Ch1:
 	;note G_, 0 | WARNING: Rounded down to 0
 	octave 3
 	note G_, 10
-;Bar 69
+;Bar 63
 	octave 4
 	;note A_, 0 | WARNING: Rounded down to 0
 	octave 3
 	note A_, 8
-;Bar 70
+;Bar 64
 	octave 4
 	;note B_, 0 | WARNING: Rounded down to 0
 	octave 3
@@ -742,7 +700,7 @@ Music_Chala_Ch1:
 	;note C_, 0 | WARNING: Rounded down to 0
 	octave 4
 	note C_, 10
-;Bar 71
+;Bar 65
 	octave 5
 	note C_, 4
 	note D_, 1
@@ -760,7 +718,7 @@ Music_Chala_Ch1:
 	note A_, 1
 	octave 2
 	note A_, 1
-;Bar 72
+;Bar 66
 	octave 4
 	;note A_, 0 | WARNING: Rounded down to 0
 	note D#, 12
@@ -769,12 +727,12 @@ Music_Chala_Ch1:
 	note D_, 1
 	note E_, 1
 	note G_, 1
-;Bar 73
+;Bar 67
 	note A_, 6
 	octave 6
 	note C_, 6
 	note D_, 4
-;Bar 74
+;Bar 68
 	note D_, 6
 	octave 5
 	note F#, 4
@@ -785,7 +743,7 @@ Music_Chala_Ch1:
 	note G_, 1
 	;note F#, 0 | WARNING: Rounded down to 0
 	note E_, 1
-;Bar 75
+;Bar 69
 	note D_, 4
 	octave 4
 	note C_, 1
@@ -801,7 +759,7 @@ Music_Chala_Ch1:
 	note F#, 1
 	note G_, 1
 	note A_, 1
-;Bar 76
+;Bar 70
 	octave 6
 	note D_, 1
 	octave 5
@@ -817,7 +775,7 @@ Music_Chala_Ch1:
 	note D_, 1
 	octave 3
 	note A_, 6
-;Bar 77
+;Bar 71
 	octave 5
 	note D_, 4
 	note E_, 1
@@ -833,7 +791,7 @@ Music_Chala_Ch1:
 	note A_, 1
 	note G_, 1
 	note E_, 1
-;Bar 78
+;Bar 72
 	note A_, 1
 	note G_, 1
 	note E_, 1
@@ -852,34 +810,34 @@ Music_Chala_Ch1:
 	note D_, 1
 	note E_, 1
 	note G_, 1
-;Bar 79
+;Bar 73
 	note F#, 12
 	note E_, 4
-;Bar 80
+;Bar 74
 	octave 5
 	;note D#, 0 | WARNING: Rounded down to 0
 	octave 4
 	note D#, 8
 	octave 5
 	note F#, 8
-;Bar 81
+;Bar 75
 	note C#, 10
 	octave 4
 	note G#, 2
 	note G#, 2
 	octave 5
 	note C#, 2
-;Bar 82
+;Bar 76
 	octave 4
 	note B_, 4
 	note A_, 4
 	note G#, 4
 	note F#, 4
-;Bar 83
+;Bar 77
 	note A_, 12
 	note G#, 2
 	note G#, 6
-;Bar 84
+;Bar 78
 	note E_, 1
 	;note G#, 0 | WARNING: Rounded down to 0
 	note B_, 1
@@ -897,32 +855,32 @@ Music_Chala_Ch1:
 	note B_, 1
 	;note G#, 0 | WARNING: Rounded down to 0
 	note E_, 1
-;Bar 85
+;Bar 79
 	note D_, 4
 	note E_, 4
 	note A_, 2
 	note G#, 2
 	note E_, 2
 	note A_, 4
-;Bar 86
+;Bar 80
 	note G#, 2
 	note E_, 2
 	octave 5
 	;note B_, 0 | WARNING: Rounded down to 0
 	note G_, 14
-;Bar 87
+;Bar 81
 	octave 4
 	note E_, 4
 	note A_, 2
 	note G#, 2
 	note E_, 2
 	note A_, 8
-;Bar 88
+;Bar 82
 	note G#, 2
 	note A_, 2
 	note B_, 4
 	note B_, 6
-;Bar 89
+;Bar 83
 	octave 3
 	note B_, 1
 	octave 4
@@ -937,7 +895,7 @@ Music_Chala_Ch1:
 	note C#, 1
 	note D#, 1
 	note E_, 2
-;Bar 90
+;Bar 84
 	rest 2
 	octave 4
 	note F#, 2
@@ -951,332 +909,6 @@ Music_Chala_Ch1:
 	octave 4
 	note F#, 2
 	note A_, 2
-;Bar 91
-	octave 5
-	;note D_, 0 | WARNING: Rounded down to 0
-	octave 4
-	note D_, 6
-	octave 5
-	;note E_, 0 | WARNING: Rounded down to 0
-	octave 4
-	note E_, 8
-	rest 2
-;Bar 92
-	octave 5
-	;note D_, 0 | WARNING: Rounded down to 0
-	octave 4
-	note D_, 2
-	rest 2
-	octave 5
-	;note D_, 0 | WARNING: Rounded down to 0
-	octave 4
-	note D_, 2
-	octave 5
-	;note E_, 0 | WARNING: Rounded down to 0
-	octave 4
-	note E_, 10
-;Bar 93
-	rest 4
-	;note F#, 0 | WARNING: Rounded down to 0
-	note D_, 4
-	note G_, 4
-	rest 2
-	note E_, 2
-;Bar 94
-	rest 2
-	note F#, 2
-	note F#, 2
-	rest 2
-	note E_, 5
-	rest 1
-	note D_, 14
-;Bar 95
-	rest 2
-	note G_, 4
-;Bar 96
-	note G_, 2
-	note F#, 2
-	rest 2
-	note D_, 2
-	note E_, 2
-	rest 2
-	note D_, 16
-	note D_, 2
-;Bar 98
-	note C#, 1
-	note D_, 1
-	note C#, 1
-	;note D_, 0 | WARNING: Rounded down to 0
-	note C#, 1
-	octave 3
-	note B_, 1
-	octave 4
-	note C#, 1
-	note D_, 1
-	note E_, 1
-	note F#, 1
-	;note G_, 0 | WARNING: Rounded down to 0
-	note F#, 1
-	note E_, 1
-	note F#, 1
-	note G_, 1
-	note A_, 1
-	note B_, 1
-	octave 5
-	note C#, 1
-;Bar 99
-	note D_, 6
-	note E_, 8
-	rest 2
-;Bar 100
-	note D_, 2
-	rest 2
-	note D_, 2
-	note E_, 2
-	note A_, 12
-;Bar 101
-	note A_, 4
-	note A_, 6
-	note G_, 2
-;Bar 102
-	note F#, 6
-	note D_, 2
-	octave 4
-	note A_, 2
-	note G_, 2
-	note F#, 4
-;Bar 103
-	octave 3
-	note G_, 1
-	note A_, 1
-	note B_, 1
-	octave 4
-	note F#, 1
-	note G_, 1
-	note A_, 1
-	octave 5
-	note D_, 1
-	note F#, 1
-	note G_, 1
-	note F#, 1
-	note D_, 1
-	octave 4
-	note A_, 1
-	note G_, 1
-	note F#, 1
-	note G_, 1
-	note A_, 1
-;Bar 104
-	octave 5
-	note E_, 16
-;Bar 105
-	octave 4
-	note D_, 6
-	note E_, 8
-	rest 2
-;Bar 106
-	note D_, 2
-	rest 2
-	note D_, 2
-	note E_, 10
-;Bar 107
-	rest 4
-	;note F#, 0 | WARNING: Rounded down to 0
-	note D_, 4
-	note G_, 4
-	rest 2
-	note E_, 2
-;Bar 108
-	rest 2
-	note F#, 2
-	note F#, 2
-	rest 2
-	note E_, 5
-	rest 1
-	note D_, 14
-;Bar 109
-	rest 2
-	note G_, 4
-;Bar 110
-	note G_, 2
-	note F#, 2
-	rest 2
-	note D_, 2
-	note E_, 2
-	rest 2
-	note D_, 14
-;Bar 111
-	rest 2
-	octave 3
-	note D_, 1
-	note E_, 1
-;Bar 112
-	note F#, 1
-	note G_, 1
-	note A_, 1
-	note B_, 1
-	octave 4
-	note C#, 1
-	note D_, 1
-	note E_, 1
-	note F#, 1
-	note G_, 1
-	note A_, 1
-	note B_, 1
-	octave 5
-	note C#, 1
-	note D_, 1
-	note E_, 1
-	note F#, 1
-	note G_, 1
-;Bar 113
-	note E_, 4
-	note A_, 2
-	note E_, 4
-	note A_, 2
-	note E_, 4
-;Bar 114
-	note A_, 2
-	note E_, 4
-	note E_, 1
-	note D_, 1
-	octave 4
-	note B_, 8
-;Bar 115
-	octave 3
-	note B_, 1
-	octave 4
-	note D_, 1
-	note E_, 1
-	note F#, 1
-	note A_, 1
-	note B_, 1
-	note E_, 1
-	note F#, 1
-	note A_, 1
-	note B_, 1
-	octave 5
-	note D_, 1
-	note E_, 1
-	octave 4
-	note A_, 1
-	note B_, 1
-	octave 5
-	note D_, 1
-	note E_, 1
-;Bar 116
-	note F#, 1
-	note A_, 1
-	note F#, 1
-	note E_, 1
-	note D_, 1
-	note E_, 1
-	note F#, 1
-	note B_, 1
-	note F#, 1
-	note E_, 1
-	note D_, 1
-	note E_, 1
-	note F#, 1
-	note B_, 1
-	octave 6
-	note D_, 6
-;Bar 117
-	octave 5
-	note B_, 1
-	note G_, 1
-	note D_, 1
-	octave 4
-	note B_, 1
-	octave 5
-	note G_, 1
-	note D_, 1
-	octave 4
-	note B_, 1
-	note G_, 1
-	octave 5
-	note D_, 1
-	octave 4
-	note B_, 1
-	note G_, 1
-	note D_, 1
-;Bar 118
-	octave 5
-	note F_, 1
-	note D_, 1
-	octave 4
-	note A#, 1
-	note F_, 1
-	note A#, 1
-	octave 5
-	note D_, 1
-	note F_, 1
-	note D_, 1
-	note A#, 1
-	note F_, 1
-	note D_, 1
-	octave 4
-	note A#, 1
-	octave 5
-	note D_, 1
-	note F_, 1
-	note A#, 1
-	note F_, 1
-;Bar 119
-	note G#, 16
-;Bar 120
-	octave 4
-	;note C_, 0 | WARNING: Rounded down to 0
-	octave 3
-	;note G_, 0 | WARNING: Rounded down to 0
-	note C_, 14
-	;note A_, 0 | WARNING: Rounded down to 0
-	;note E_, 0 | WARNING: Rounded down to 0
-	octave 2
-	note A_, 16
-	note A_, 2
-;Bar 122
-	octave 3
-	;note A#, 0 | WARNING: Rounded down to 0
-	;note F_, 0 | WARNING: Rounded down to 0
-	octave 2
-	note A#, 14
-	octave 4
-	;note C_, 0 | WARNING: Rounded down to 0
-	octave 3
-	;note G_, 0 | WARNING: Rounded down to 0
-	note C_, 14
-;Bar 123
-	octave 4
-	;note D_, 0 | WARNING: Rounded down to 0
-	octave 3
-	;note A_, 0 | WARNING: Rounded down to 0
-	note D_, 4
-;Bar 124
-	octave 5
-	note D_, 1
-	octave 4
-	note A_, 1
-	note G_, 1
-	note D_, 1
-	note G_, 1
-	note A_, 1
-	octave 5
-	note D_, 1
-	octave 4
-	note A_, 1
-	note G_, 1
-	note D_, 1
-	note G_, 1
-	note A_, 1
-	octave 5
-	note D_, 1
-	octave 4
-	note A_, 1
-	note G_, 1
-	note D_, 1
-;Bar 125
-	note D_, 12
 	sound_ret
 
 ; ============================================================================================================
@@ -1976,225 +1608,198 @@ Music_Chala_Ch2:
 	note F_, 16
 	note F_, 2
 ;Bar 59
-	;note A_, 0 | WARNING: Rounded down to 0
-	note D_, 16
-	note D_, 10
+	octave 1
+	;note B_, 0 | WARNING: Rounded down to 0
+	note E_, 2
+	note E_, 2
+	note E_, 2
+	;note B_, 0 | WARNING: Rounded down to 0
+	note E_, 2
+	note E_, 2
+	note E_, 2
+	;note B_, 0 | WARNING: Rounded down to 0
+	note E_, 2
+	note E_, 2
 ;Bar 60
-	;note F_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note A#, 4
+	;note B_, 0 | WARNING: Rounded down to 0
+	note E_, 2
+	note E_, 2
+	note E_, 2
+	;note B_, 0 | WARNING: Rounded down to 0
+	note E_, 2
+	note E_, 2
+	note E_, 2
+	;note B_, 0 | WARNING: Rounded down to 0
+	note E_, 2
+	note E_, 2
+;Bar 61
 	octave 2
-	;note G_, 0 | WARNING: Rounded down to 0
-	note C_, 16
-	note C_, 12
+	;note A_, 0 | WARNING: Rounded down to 0
+	note D_, 2
+	note D_, 2
+	note D_, 2
+	;note A_, 0 | WARNING: Rounded down to 0
+	note D_, 2
+	note D_, 2
+	note D_, 2
+	;note A_, 0 | WARNING: Rounded down to 0
+	note D_, 2
+	note D_, 2
 ;Bar 62
-	;note E_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note A_, 4
-	octave 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note A#, 16
+	;note A_, 0 | WARNING: Rounded down to 0
+	note D_, 2
+	note D_, 2
+	note D_, 2
+	;note A_, 0 | WARNING: Rounded down to 0
+	note D_, 2
+	note D_, 2
+	note D_, 2
+	;note A_, 0 | WARNING: Rounded down to 0
+	note D_, 2
+	note D_, 2
 ;Bar 63
-	octave 2
 	;note G_, 0 | WARNING: Rounded down to 0
-	note C_, 12
+	note C_, 2
+	note C_, 2
+	note C_, 2
+	;note G_, 0 | WARNING: Rounded down to 0
+	note C_, 2
+	note C_, 2
+	note C_, 2
+	;note G_, 0 | WARNING: Rounded down to 0
+	note C_, 2
+	note C_, 2
 ;Bar 64
-	;note E_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note A_, 6
+	;note G_, 0 | WARNING: Rounded down to 0
+	note C_, 2
+	note C_, 2
+	note C_, 2
+	;note G_, 0 | WARNING: Rounded down to 0
+	note C_, 2
+	note C_, 2
+	note C_, 2
+	;note G_, 0 | WARNING: Rounded down to 0
+	note C_, 2
+	note C_, 2
 ;Bar 65
-	;note B_, 0 | WARNING: Rounded down to 0
-	note E_, 2
-	note E_, 2
-	note E_, 2
-	;note B_, 0 | WARNING: Rounded down to 0
-	note E_, 2
-	note E_, 2
-	note E_, 2
-	;note B_, 0 | WARNING: Rounded down to 0
-	note E_, 2
-	note E_, 2
+	;note D_, 0 | WARNING: Rounded down to 0
+	octave 1
+	note G_, 2
+	note G_, 2
+	note G_, 2
+	octave 2
+	;note D_, 0 | WARNING: Rounded down to 0
+	octave 1
+	note G_, 2
+	note G_, 2
+	note G_, 2
+	octave 2
+	;note D_, 0 | WARNING: Rounded down to 0
+	octave 1
+	note G_, 2
+	note G_, 2
 ;Bar 66
-	;note B_, 0 | WARNING: Rounded down to 0
-	note E_, 2
-	note E_, 2
-	note E_, 2
-	;note B_, 0 | WARNING: Rounded down to 0
-	note E_, 2
-	note E_, 2
-	note E_, 2
-	;note B_, 0 | WARNING: Rounded down to 0
-	note E_, 2
-	note E_, 2
-;Bar 67
-	octave 2
-	;note A_, 0 | WARNING: Rounded down to 0
-	note D_, 2
-	note D_, 2
-	note D_, 2
-	;note A_, 0 | WARNING: Rounded down to 0
-	note D_, 2
-	note D_, 2
-	note D_, 2
-	;note A_, 0 | WARNING: Rounded down to 0
-	note D_, 2
-	note D_, 2
-;Bar 68
-	;note A_, 0 | WARNING: Rounded down to 0
-	note D_, 2
-	note D_, 2
-	note D_, 2
-	;note A_, 0 | WARNING: Rounded down to 0
-	note D_, 2
-	note D_, 2
-	note D_, 2
-	;note A_, 0 | WARNING: Rounded down to 0
-	note D_, 2
-	note D_, 2
-;Bar 69
-	;note G_, 0 | WARNING: Rounded down to 0
-	note C_, 2
-	note C_, 2
-	note C_, 2
-	;note G_, 0 | WARNING: Rounded down to 0
-	note C_, 2
-	note C_, 2
-	note C_, 2
-	;note G_, 0 | WARNING: Rounded down to 0
-	note C_, 2
-	note C_, 2
-;Bar 70
-	;note G_, 0 | WARNING: Rounded down to 0
-	note C_, 2
-	note C_, 2
-	note C_, 2
-	;note G_, 0 | WARNING: Rounded down to 0
-	note C_, 2
-	note C_, 2
-	note C_, 2
-	;note G_, 0 | WARNING: Rounded down to 0
-	note C_, 2
-	note C_, 2
-;Bar 71
-	;note D_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	octave 2
-	;note D_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	octave 2
-	;note D_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note G_, 2
-	note G_, 2
-;Bar 72
 	octave 2
 	;note F#, 0 | WARNING: Rounded down to 0
 	octave 1
 	note B_, 16
+;Bar 67
+	;note B_, 0 | WARNING: Rounded down to 0
+	note E_, 2
+	note E_, 2
+	note E_, 2
+	;note B_, 0 | WARNING: Rounded down to 0
+	note E_, 2
+	note E_, 2
+	note E_, 2
+	;note B_, 0 | WARNING: Rounded down to 0
+	note E_, 2
+	note E_, 2
+;Bar 68
+	;note B_, 0 | WARNING: Rounded down to 0
+	note E_, 2
+	note E_, 2
+	note E_, 2
+	;note B_, 0 | WARNING: Rounded down to 0
+	note E_, 2
+	note E_, 2
+	note E_, 2
+	;note B_, 0 | WARNING: Rounded down to 0
+	note E_, 2
+	note E_, 2
+;Bar 69
+	octave 2
+	;note A_, 0 | WARNING: Rounded down to 0
+	note D_, 2
+	note D_, 2
+	note D_, 2
+	;note A_, 0 | WARNING: Rounded down to 0
+	note D_, 2
+	note D_, 2
+	note D_, 2
+	;note A_, 0 | WARNING: Rounded down to 0
+	note D_, 2
+	note D_, 2
+;Bar 70
+	;note A_, 0 | WARNING: Rounded down to 0
+	note D_, 2
+	note D_, 2
+	note D_, 2
+	;note A_, 0 | WARNING: Rounded down to 0
+	note D_, 2
+	note D_, 2
+	note D_, 2
+	;note A_, 0 | WARNING: Rounded down to 0
+	note D_, 2
+	note D_, 2
+;Bar 71
+	;note G_, 0 | WARNING: Rounded down to 0
+	note C_, 2
+	note C_, 2
+	note C_, 2
+	;note G_, 0 | WARNING: Rounded down to 0
+	note C_, 2
+	note C_, 2
+	note C_, 2
+	;note G_, 0 | WARNING: Rounded down to 0
+	note C_, 2
+	note C_, 2
+;Bar 72
+	;note G_, 0 | WARNING: Rounded down to 0
+	note C_, 2
+	note C_, 2
+	note C_, 2
+	;note G_, 0 | WARNING: Rounded down to 0
+	note C_, 2
+	note C_, 2
+	note C_, 2
+	;note G_, 0 | WARNING: Rounded down to 0
+	note C_, 2
+	note C_, 2
 ;Bar 73
-	;note B_, 0 | WARNING: Rounded down to 0
-	note E_, 2
-	note E_, 2
-	note E_, 2
-	;note B_, 0 | WARNING: Rounded down to 0
-	note E_, 2
-	note E_, 2
-	note E_, 2
-	;note B_, 0 | WARNING: Rounded down to 0
-	note E_, 2
-	note E_, 2
+	;note F#, 0 | WARNING: Rounded down to 0
+	octave 1
+	note B_, 2
+	note B_, 2
+	note B_, 2
+	octave 2
+	;note F#, 0 | WARNING: Rounded down to 0
+	octave 1
+	note B_, 2
+	note B_, 2
+	note B_, 2
+	octave 2
+	;note F#, 0 | WARNING: Rounded down to 0
+	octave 1
+	note B_, 2
+	note B_, 2
 ;Bar 74
-	;note B_, 0 | WARNING: Rounded down to 0
-	note E_, 2
-	note E_, 2
-	note E_, 2
-	;note B_, 0 | WARNING: Rounded down to 0
-	note E_, 2
-	note E_, 2
-	note E_, 2
-	;note B_, 0 | WARNING: Rounded down to 0
-	note E_, 2
-	note E_, 2
-;Bar 75
-	octave 2
-	;note A_, 0 | WARNING: Rounded down to 0
-	note D_, 2
-	note D_, 2
-	note D_, 2
-	;note A_, 0 | WARNING: Rounded down to 0
-	note D_, 2
-	note D_, 2
-	note D_, 2
-	;note A_, 0 | WARNING: Rounded down to 0
-	note D_, 2
-	note D_, 2
-;Bar 76
-	;note A_, 0 | WARNING: Rounded down to 0
-	note D_, 2
-	note D_, 2
-	note D_, 2
-	;note A_, 0 | WARNING: Rounded down to 0
-	note D_, 2
-	note D_, 2
-	note D_, 2
-	;note A_, 0 | WARNING: Rounded down to 0
-	note D_, 2
-	note D_, 2
-;Bar 77
-	;note G_, 0 | WARNING: Rounded down to 0
-	note C_, 2
-	note C_, 2
-	note C_, 2
-	;note G_, 0 | WARNING: Rounded down to 0
-	note C_, 2
-	note C_, 2
-	note C_, 2
-	;note G_, 0 | WARNING: Rounded down to 0
-	note C_, 2
-	note C_, 2
-;Bar 78
-	;note G_, 0 | WARNING: Rounded down to 0
-	note C_, 2
-	note C_, 2
-	note C_, 2
-	;note G_, 0 | WARNING: Rounded down to 0
-	note C_, 2
-	note C_, 2
-	note C_, 2
-	;note G_, 0 | WARNING: Rounded down to 0
-	note C_, 2
-	note C_, 2
-;Bar 79
-	;note F#, 0 | WARNING: Rounded down to 0
-	octave 1
-	note B_, 2
-	note B_, 2
-	note B_, 2
-	octave 2
-	;note F#, 0 | WARNING: Rounded down to 0
-	octave 1
-	note B_, 2
-	note B_, 2
-	note B_, 2
-	octave 2
-	;note F#, 0 | WARNING: Rounded down to 0
-	octave 1
-	note B_, 2
-	note B_, 2
-;Bar 80
 	octave 2
 	;note F#, 0 | WARNING: Rounded down to 0
 	octave 1
 	;note B_, 0 | WARNING: Rounded down to 0
 	note F#, 16
-;Bar 81
+;Bar 75
 	octave 2
 	note C#, 1
 	note C#, 1
@@ -2208,7 +1813,7 @@ Music_Chala_Ch2:
 	note C#, 1
 	note C#, 1
 	note C#, 1
-;Bar 82
+;Bar 76
 	note D#, 1
 	note D#, 1
 	rest 4
@@ -2221,7 +1826,7 @@ Music_Chala_Ch2:
 	note D#, 1
 	note D#, 1
 	note D#, 1
-;Bar 83
+;Bar 77
 	note E_, 1
 	note E_, 1
 	rest 4
@@ -2234,7 +1839,7 @@ Music_Chala_Ch2:
 	note E_, 1
 	note E_, 1
 	note E_, 1
-;Bar 84
+;Bar 78
 	note E_, 1
 	note E_, 1
 	rest 4
@@ -2247,7 +1852,7 @@ Music_Chala_Ch2:
 	note E_, 1
 	note E_, 1
 	note E_, 1
-;Bar 85
+;Bar 79
 	;note A_, 0 | WARNING: Rounded down to 0
 	note D_, 2
 	note D_, 1
@@ -2264,7 +1869,7 @@ Music_Chala_Ch2:
 	note D_, 1
 	note D_, 1
 	note D_, 1
-;Bar 86
+;Bar 80
 	note D_, 1
 	note D_, 1
 	note D_, 1
@@ -2281,7 +1886,7 @@ Music_Chala_Ch2:
 	note D_, 1
 	note D_, 1
 	note D_, 1
-;Bar 87
+;Bar 81
 	octave 3
 	;note C#, 0 | WARNING: Rounded down to 0
 	octave 2
@@ -2301,7 +1906,7 @@ Music_Chala_Ch2:
 	note C#, 1
 	note C#, 1
 	note C#, 1
-;Bar 88
+;Bar 82
 	note C#, 1
 	note C#, 1
 	note C#, 1
@@ -2318,12 +1923,12 @@ Music_Chala_Ch2:
 	note C#, 1
 	note C#, 1
 	note C#, 1
-;Bar 89
+;Bar 83
 	;note F#, 0 | WARNING: Rounded down to 0
 	octave 1
 	;note B_, 0 | WARNING: Rounded down to 0
 	note F#, 16
-;Bar 90
+;Bar 84
 	rest 2
 	octave 2
 	note F#, 2
@@ -2337,336 +1942,6 @@ Music_Chala_Ch2:
 	octave 2
 	note F#, 2
 	note A_, 2
-;Bar 91
-	;note D_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-;Bar 92
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-;Bar 93
-	octave 2
-	;note D_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note F#, 2
-	note F#, 2
-	note F#, 2
-	note F#, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-;Bar 94
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note B_, 2
-	note B_, 2
-	note B_, 2
-	note B_, 2
-	note B_, 2
-;Bar 95
-	octave 2
-	;note D_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note G_, 8
-	octave 2
-	;note F#, 0 | WARNING: Rounded down to 0
-	;note D_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note F#, 8
-;Bar 96
-	octave 2
-	;note E_, 0 | WARNING: Rounded down to 0
-	octave 1
-	;note B_, 0 | WARNING: Rounded down to 0
-	note E_, 8
-	octave 3
-	;note C_, 0 | WARNING: Rounded down to 0
-	octave 2
-	;note G_, 0 | WARNING: Rounded down to 0
-	note C_, 8
-;Bar 97
-	;note A_, 0 | WARNING: Rounded down to 0
-	;note E_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note A_, 16
-;Bar 98
-	octave 2
-	;note A_, 0 | WARNING: Rounded down to 0
-	;note E_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note A_, 16
-;Bar 99
-	octave 2
-	;note G_, 0 | WARNING: Rounded down to 0
-	;note D_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-;Bar 100
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	octave 2
-	;note E_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-;Bar 101
-	octave 2
-	note D_, 2
-	note D_, 2
-	note D_, 2
-	octave 1
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-;Bar 102
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note B_, 2
-	note B_, 2
-	note B_, 2
-	note B_, 2
-	note B_, 2
-;Bar 103
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-;Bar 104
-	octave 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note A#, 2
-	note A#, 2
-	note A#, 2
-	note A#, 2
-	note A#, 2
-	note A#, 2
-	note A#, 2
-	note A#, 2
-;Bar 105
-	octave 2
-	;note D_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-;Bar 106
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-;Bar 107
-	octave 2
-	;note D_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note F#, 2
-	note F#, 2
-	note F#, 2
-	note F#, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-;Bar 108
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note B_, 2
-	note B_, 2
-	note B_, 2
-	note B_, 2
-	note B_, 2
-;Bar 109
-	octave 2
-	;note D_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note G_, 8
-	octave 2
-	;note F#, 0 | WARNING: Rounded down to 0
-	;note D_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note F#, 8
-;Bar 110
-	octave 2
-	;note E_, 0 | WARNING: Rounded down to 0
-	octave 1
-	;note B_, 0 | WARNING: Rounded down to 0
-	note E_, 8
-	octave 3
-	;note C_, 0 | WARNING: Rounded down to 0
-	octave 2
-	;note G_, 0 | WARNING: Rounded down to 0
-	note C_, 8
-;Bar 111
-	;note A_, 0 | WARNING: Rounded down to 0
-	;note E_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note A_, 16
-;Bar 112
-	octave 2
-	;note A_, 0 | WARNING: Rounded down to 0
-	;note E_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note A_, 16
-;Bar 113
-	octave 2
-	;note G_, 0 | WARNING: Rounded down to 0
-	;note D_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-;Bar 114
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	octave 2
-	;note E_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-;Bar 115
-	octave 2
-	note D_, 2
-	note D_, 2
-	note D_, 2
-	octave 1
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-;Bar 116
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note B_, 2
-	note B_, 2
-	note B_, 2
-	note B_, 2
-	note B_, 2
-;Bar 117
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-;Bar 118
-	octave 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note A#, 2
-	note A#, 2
-	note A#, 2
-	note A#, 2
-	note A#, 2
-	note A#, 2
-	note A#, 2
-	note A#, 2
-;Bar 119
-	octave 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note A#, 16
-;Bar 120
-	octave 3
-	;note C_, 0 | WARNING: Rounded down to 0
-	octave 2
-	;note G_, 0 | WARNING: Rounded down to 0
-	note C_, 14
-	;note A_, 0 | WARNING: Rounded down to 0
-	;note E_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note A_, 16
-	note A_, 2
-;Bar 122
-	octave 2
-	;note A#, 0 | WARNING: Rounded down to 0
-	;note F_, 0 | WARNING: Rounded down to 0
-	octave 1
-	note A#, 14
-	octave 3
-	;note C_, 0 | WARNING: Rounded down to 0
-	octave 2
-	;note G_, 0 | WARNING: Rounded down to 0
-	note C_, 14
-;Bar 123
-	octave 3
-	;note D_, 0 | WARNING: Rounded down to 0
-	octave 2
-	;note A_, 0 | WARNING: Rounded down to 0
-	note D_, 2
-	octave 3
-	;note D_, 0 | WARNING: Rounded down to 0
-	octave 2
-	;note A_, 0 | WARNING: Rounded down to 0
-	note D_, 16
-	note D_, 2
-;Bar 125
-	octave 3
-	;note D_, 0 | WARNING: Rounded down to 0
-	octave 2
-	;note A_, 0 | WARNING: Rounded down to 0
-	note D_, 2
-	rest 4
-	octave 3
-	;note D_, 0 | WARNING: Rounded down to 0
-	octave 2
-	;note A_, 0 | WARNING: Rounded down to 0
-	note D_, 6
 	sound_ret
 
 ; ============================================================================================================
@@ -3185,35 +2460,15 @@ Music_Chala_Ch3:
 	note G_, 4
 	note G_, 4
 ;Bar 59
-	octave 2
-	note D_, 16
-	note D_, 10
+	note E_, 2
+	note E_, 2
+	note E_, 2
+	note E_, 2
+	note E_, 2
+	note E_, 2
+	note E_, 2
+	note E_, 2
 ;Bar 60
-	octave 1
-	note A#, 4
-	octave 2
-	note C_, 16
-	note C_, 12
-;Bar 62
-	octave 1
-	note A_, 4
-	note A#, 16
-;Bar 63
-	octave 2
-	note C_, 12
-;Bar 64
-	octave 1
-	note A_, 6
-;Bar 65
-	note E_, 2
-	note E_, 2
-	note E_, 2
-	note E_, 2
-	note E_, 2
-	note E_, 2
-	note E_, 2
-	note E_, 2
-;Bar 66
 	note E_, 2
 	note E_, 2
 	note E_, 2
@@ -3223,7 +2478,7 @@ Music_Chala_Ch3:
 	octave 2
 	note E_, 2
 	note D#, 2
-;Bar 67
+;Bar 61
 	note D_, 2
 	note D_, 2
 	note D_, 2
@@ -3232,7 +2487,7 @@ Music_Chala_Ch3:
 	note D_, 2
 	note D_, 2
 	note D_, 2
-;Bar 68
+;Bar 62
 	note D_, 2
 	note D_, 2
 	note D_, 2
@@ -3241,7 +2496,7 @@ Music_Chala_Ch3:
 	note D_, 2
 	note D_, 2
 	note D_, 2
-;Bar 69
+;Bar 63
 	note C_, 2
 	note C_, 2
 	note C_, 2
@@ -3250,7 +2505,7 @@ Music_Chala_Ch3:
 	note C_, 2
 	note C_, 2
 	note C_, 2
-;Bar 70
+;Bar 64
 	note C_, 2
 	note C_, 2
 	note C_, 2
@@ -3259,7 +2514,7 @@ Music_Chala_Ch3:
 	note C_, 2
 	note C_, 2
 	note C_, 2
-;Bar 71
+;Bar 65
 	octave 1
 	note G_, 2
 	note G_, 2
@@ -3269,7 +2524,7 @@ Music_Chala_Ch3:
 	note G_, 2
 	note G_, 2
 	note G_, 2
-;Bar 72
+;Bar 66
 	note B_, 2
 	note B_, 2
 	note B_, 2
@@ -3278,7 +2533,7 @@ Music_Chala_Ch3:
 	note B_, 2
 	note G#, 2
 	note B_, 2
-;Bar 73
+;Bar 67
 	note E_, 2
 	note E_, 2
 	note E_, 2
@@ -3287,7 +2542,7 @@ Music_Chala_Ch3:
 	note E_, 2
 	note E_, 2
 	note E_, 2
-;Bar 74
+;Bar 68
 	note E_, 2
 	note E_, 2
 	note E_, 2
@@ -3297,7 +2552,7 @@ Music_Chala_Ch3:
 	octave 2
 	note E_, 2
 	note D#, 2
-;Bar 75
+;Bar 69
 	note D_, 2
 	note D_, 2
 	note D_, 2
@@ -3306,7 +2561,7 @@ Music_Chala_Ch3:
 	note D_, 2
 	note D_, 2
 	note D_, 2
-;Bar 76
+;Bar 70
 	note D_, 2
 	note D_, 2
 	note D_, 2
@@ -3315,7 +2570,7 @@ Music_Chala_Ch3:
 	note D_, 2
 	note D_, 2
 	note D_, 2
-;Bar 77
+;Bar 71
 	note C_, 2
 	note C_, 2
 	note C_, 2
@@ -3324,7 +2579,7 @@ Music_Chala_Ch3:
 	note C_, 2
 	note C_, 2
 	note C_, 2
-;Bar 78
+;Bar 72
 	note C_, 2
 	note C_, 2
 	note C_, 2
@@ -3333,7 +2588,7 @@ Music_Chala_Ch3:
 	note C_, 2
 	note C_, 2
 	note C_, 2
-;Bar 79
+;Bar 73
 	octave 1
 	note B_, 2
 	note B_, 2
@@ -3343,7 +2598,7 @@ Music_Chala_Ch3:
 	note B_, 2
 	note B_, 2
 	note B_, 2
-;Bar 80
+;Bar 74
 	note B_, 2
 	note B_, 2
 	note B_, 2
@@ -3352,7 +2607,7 @@ Music_Chala_Ch3:
 	note B_, 2
 	note B_, 2
 	note B_, 2
-;Bar 81
+;Bar 75
 	octave 2
 	note C#, 2
 	note C#, 2
@@ -3360,24 +2615,24 @@ Music_Chala_Ch3:
 	octave 3
 	note C#, 2
 	rest 8
-;Bar 82
+;Bar 76
 	octave 2
 	note D#, 2
 	rest 4
 	note D#, 10
-;Bar 83
+;Bar 77
 	note E_, 2
 	note E_, 2
 	note B_, 2
 	octave 3
 	note E_, 2
 	rest 8
-;Bar 84
+;Bar 78
 	octave 2
 	note E_, 2
 	rest 4
 	note E_, 10
-;Bar 85
+;Bar 79
 	note D_, 2
 	note D_, 2
 	note D_, 2
@@ -3386,7 +2641,7 @@ Music_Chala_Ch3:
 	note D_, 2
 	note D_, 2
 	note D_, 2
-;Bar 86
+;Bar 80
 	note D_, 2
 	note D_, 2
 	note D_, 2
@@ -3395,7 +2650,7 @@ Music_Chala_Ch3:
 	note D_, 2
 	note D_, 2
 	note D_, 2
-;Bar 87
+;Bar 81
 	note C#, 2
 	note C#, 2
 	note C#, 2
@@ -3404,7 +2659,7 @@ Music_Chala_Ch3:
 	note C#, 2
 	note C#, 2
 	note C#, 2
-;Bar 88
+;Bar 82
 	note C#, 2
 	note C#, 2
 	note C#, 2
@@ -3413,7 +2668,7 @@ Music_Chala_Ch3:
 	note C#, 2
 	note C#, 2
 	note C#, 2
-;Bar 89
+;Bar 83
 	octave 1
 	note B_, 2
 	note B_, 2
@@ -3423,7 +2678,7 @@ Music_Chala_Ch3:
 	note B_, 2
 	note B_, 2
 	note B_, 2
-;Bar 90
+;Bar 84
 	rest 2
 	note F#, 2
 	note A_, 2
@@ -3436,309 +2691,6 @@ Music_Chala_Ch3:
 	octave 1
 	note F#, 2
 	note A_, 2
-;Bar 91
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-;Bar 92
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-;Bar 93
-	note F#, 2
-	note F#, 2
-	note F#, 2
-	note F#, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-;Bar 94
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note B_, 2
-	note B_, 2
-	note B_, 2
-	note B_, 2
-	note B_, 2
-;Bar 95
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note F#, 2
-	note F#, 2
-	note F#, 2
-	note F#, 2
-;Bar 96
-	note E_, 2
-	note E_, 2
-	note E_, 2
-	note E_, 2
-	octave 2
-	note C_, 2
-	note C_, 2
-	note C_, 2
-	note C_, 2
-;Bar 97
-	octave 1
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-;Bar 98
-	octave 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note E_, 2
-	note D_, 2
-	octave 1
-	note A_, 2
-;Bar 99
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-;Bar 100
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-;Bar 101
-	octave 2
-	note D_, 2
-	note D_, 2
-	note D_, 2
-	octave 1
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-;Bar 102
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note B_, 2
-	note B_, 2
-	note B_, 2
-	note B_, 2
-	note B_, 2
-;Bar 103
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-;Bar 104
-	note A#, 2
-	note A#, 2
-	note A#, 2
-	note A#, 2
-	note A#, 2
-	note A#, 2
-	note A#, 2
-	note A#, 2
-;Bar 105
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-;Bar 106
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-;Bar 107
-	note F#, 2
-	note F#, 2
-	note F#, 2
-	note F#, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-;Bar 108
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note B_, 2
-	note B_, 2
-	note B_, 2
-	note B_, 2
-	note B_, 2
-;Bar 109
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note F#, 2
-	note F#, 2
-	note F#, 2
-	note F#, 2
-;Bar 110
-	note E_, 2
-	note E_, 2
-	note E_, 2
-	note E_, 2
-	octave 2
-	note C_, 2
-	note C_, 2
-	note C_, 2
-	note C_, 2
-;Bar 111
-	octave 1
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-;Bar 112
-	octave 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note E_, 2
-	note D_, 2
-	octave 1
-	note A_, 2
-;Bar 113
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-;Bar 114
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note A_, 2
-;Bar 115
-	octave 2
-	note D_, 2
-	note D_, 2
-	note D_, 2
-	octave 1
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-;Bar 116
-	note A_, 2
-	note A_, 2
-	note A_, 2
-	note B_, 2
-	note B_, 2
-	note B_, 2
-	note B_, 2
-	note B_, 2
-;Bar 117
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-	note G_, 2
-;Bar 118
-	note A#, 2
-	note A#, 2
-	note A#, 2
-	note A#, 2
-	note A#, 2
-	note A#, 2
-	note A#, 2
-	note A#, 2
-;Bar 119
-	note A#, 2
-	note A#, 2
-	note A#, 2
-	note A#, 2
-	note A#, 2
-	note A#, 2
-	note A#, 2
-	note A#, 2
-;Bar 120
-	octave 2
-	note C_, 4
-	note C_, 4
-	note C_, 4
-	note C_, 2
-	octave 1
-	note A_, 6
-;Bar 121
-	note A_, 4
-	note A_, 4
-	note A_, 4
-;Bar 122
-	note A#, 4
-	note A#, 4
-	note A#, 4
-	note A#, 2
-	octave 2
-	note C_, 6
-;Bar 123
-	note C_, 4
-	note C_, 4
-	note D_, 2
-	note D_, 16
-;Bar 124
-	rest 2
-;Bar 125
-	note D_, 4
-	rest 2
-	note D_, 6
 	sound_ret
 
 ; ============================================================================================================
@@ -4736,66 +3688,6 @@ Music_Chala_Ch4:
 	drum_note 4, 1
 	drum_note 4, 1
 ;Bar 59
-	drum_note 7, 2
-	drum_note 7, 2
-	drum_note 7, 2
-	drum_note 7, 1
-	drum_note 7, 1
-	drum_note 7, 2
-	drum_note 7, 2
-	drum_note 7, 2
-	drum_note 7, 2
-;Bar 60
-	drum_note 7, 2
-	drum_note 7, 2
-	drum_note 7, 2
-	drum_note 7, 2
-	drum_note 7, 1
-	drum_note 7, 1
-	drum_note 7, 2
-	drum_note 7, 2
-	drum_note 11, 2
-;Bar 61
-	drum_note 7, 2
-	drum_note 7, 2
-	drum_note 7, 2
-	drum_note 7, 1
-	drum_note 7, 1
-	drum_note 7, 2
-	drum_note 7, 2
-	drum_note 7, 2
-	drum_note 7, 2
-;Bar 62
-	drum_note 7, 2
-	drum_note 7, 2
-	drum_note 7, 2
-	drum_note 7, 2
-	drum_note 7, 1
-	drum_note 7, 1
-	drum_note 7, 2
-	drum_note 7, 2
-	drum_note 11, 2
-;Bar 63
-	drum_note 7, 2
-	drum_note 7, 2
-	drum_note 7, 2
-	drum_note 7, 1
-	drum_note 7, 1
-	drum_note 7, 2
-	drum_note 7, 2
-	drum_note 7, 2
-	drum_note 7, 2
-;Bar 64
-	drum_note 7, 2
-	drum_note 7, 2
-	drum_note 7, 2
-	drum_note 7, 2
-	drum_note 7, 2
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 4
-;Bar 65
 	;note C#, 0 | WARNING: Rounded down to 0
 	drum_note 1, 2
 	drum_note 1, 2
@@ -4808,123 +3700,123 @@ Music_Chala_Ch4:
 	;note F_, 0 | WARNING: Rounded down to 0
 	drum_note 3, 2
 	drum_note 1, 2
+;Bar 60
+	;note D#, 0 | WARNING: Rounded down to 0
+	drum_note 1, 2
+	drum_note 1, 1
+	drum_note 1, 1
+	;note D#, 0 | WARNING: Rounded down to 0
+	drum_note 3, 2
+	drum_note 1, 2
+	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 1, 2
+	drum_note 1, 2
+	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 3, 2
+	drum_note 1, 1
+	drum_note 1, 1
+;Bar 61
+	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 1, 2
+	drum_note 1, 2
+	;note D#, 0 | WARNING: Rounded down to 0
+	drum_note 3, 2
+	;note D#, 0 | WARNING: Rounded down to 0
+	drum_note 1, 1
+	drum_note 1, 1
+	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 2
+	;note D#, 0 | WARNING: Rounded down to 0
+	drum_note 3, 2
+	drum_note 1, 2
+;Bar 62
+	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 1, 2
+	;note D#, 0 | WARNING: Rounded down to 0
+	drum_note 1, 1
+	drum_note 1, 1
+	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 3, 2
+	drum_note 1, 2
+	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 1, 2
+	drum_note 1, 2
+	drum_note 3, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 1
+;Bar 63
+	;note D#, 0 | WARNING: Rounded down to 0
+	drum_note 1, 2
+	drum_note 1, 1
+	drum_note 1, 1
+	;note D#, 0 | WARNING: Rounded down to 0
+	drum_note 3, 2
+	drum_note 1, 2
+	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 1, 2
+	drum_note 1, 2
+	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 3, 2
+	drum_note 1, 1
+	drum_note 1, 1
+;Bar 64
+	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 1, 2
+	drum_note 1, 2
+	;note D#, 0 | WARNING: Rounded down to 0
+	drum_note 3, 2
+	;note D#, 0 | WARNING: Rounded down to 0
+	drum_note 1, 1
+	drum_note 1, 1
+	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 2
+	;note D#, 0 | WARNING: Rounded down to 0
+	drum_note 3, 2
+	drum_note 1, 2
+;Bar 65
+	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 1, 2
+	;note D#, 0 | WARNING: Rounded down to 0
+	drum_note 1, 1
+	drum_note 1, 1
+	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 3, 2
+	drum_note 1, 2
+	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 1, 2
+	drum_note 1, 2
+	drum_note 3, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 1
 ;Bar 66
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
+	;note C#, 0 | WARNING: Rounded down to 0
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	;note E_, 0 | WARNING: Rounded down to 0
+	drum_note 3, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	;note E_, 0 | WARNING: Rounded down to 0
+	drum_note 1, 1
+	drum_note 1, 1
 	drum_note 1, 1
 	drum_note 1, 1
 	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
+	drum_note 3, 1
+	drum_note 1, 1
 	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
 	drum_note 1, 1
 	drum_note 1, 1
 ;Bar 67
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
-;Bar 68
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 2
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-;Bar 69
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 1
-	drum_note 1, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 1
-	drum_note 1, 1
-;Bar 70
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
-;Bar 71
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 2
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-;Bar 72
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-;Bar 73
 	;note C#, 0 | WARNING: Rounded down to 0
 	drum_note 1, 2
 	drum_note 1, 2
@@ -4937,85 +3829,177 @@ Music_Chala_Ch4:
 	;note F_, 0 | WARNING: Rounded down to 0
 	drum_note 3, 2
 	drum_note 1, 2
+;Bar 68
+	;note D#, 0 | WARNING: Rounded down to 0
+	drum_note 1, 2
+	drum_note 1, 1
+	drum_note 1, 1
+	;note D#, 0 | WARNING: Rounded down to 0
+	drum_note 3, 2
+	drum_note 1, 2
+	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 1, 2
+	drum_note 1, 2
+	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 3, 2
+	drum_note 1, 1
+	drum_note 1, 1
+;Bar 69
+	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 1, 2
+	drum_note 1, 2
+	;note D#, 0 | WARNING: Rounded down to 0
+	drum_note 3, 2
+	;note D#, 0 | WARNING: Rounded down to 0
+	drum_note 1, 1
+	drum_note 1, 1
+	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 2
+	;note D#, 0 | WARNING: Rounded down to 0
+	drum_note 3, 2
+	drum_note 1, 2
+;Bar 70
+	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 1, 2
+	;note D#, 0 | WARNING: Rounded down to 0
+	drum_note 1, 1
+	drum_note 1, 1
+	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 3, 2
+	drum_note 1, 2
+	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 1, 2
+	drum_note 1, 2
+	drum_note 3, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 1
+;Bar 71
+	;note D#, 0 | WARNING: Rounded down to 0
+	drum_note 1, 2
+	drum_note 1, 1
+	drum_note 1, 1
+	;note D#, 0 | WARNING: Rounded down to 0
+	drum_note 3, 2
+	drum_note 1, 2
+	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 1, 2
+	drum_note 1, 2
+	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 3, 2
+	drum_note 1, 1
+	drum_note 1, 1
+;Bar 72
+	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 1, 2
+	drum_note 1, 2
+	;note D#, 0 | WARNING: Rounded down to 0
+	drum_note 3, 2
+	;note D#, 0 | WARNING: Rounded down to 0
+	drum_note 1, 1
+	drum_note 1, 1
+	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 2
+	;note D#, 0 | WARNING: Rounded down to 0
+	drum_note 3, 2
+	drum_note 1, 2
+;Bar 73
+	;note C#, 0 | WARNING: Rounded down to 0
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	;note E_, 0 | WARNING: Rounded down to 0
+	drum_note 3, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	;note E_, 0 | WARNING: Rounded down to 0
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	;note D#, 0 | WARNING: Rounded down to 0
+	drum_note 3, 1
+	drum_note 1, 1
+	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 1, 1
+	drum_note 1, 1
 ;Bar 74
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
+	;note C#, 0 | WARNING: Rounded down to 0
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	;note E_, 0 | WARNING: Rounded down to 0
+	drum_note 3, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	;note E_, 0 | WARNING: Rounded down to 0
+	drum_note 1, 1
+	drum_note 1, 1
 	drum_note 1, 1
 	drum_note 1, 1
 	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
+	drum_note 3, 1
+	drum_note 1, 1
 	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
 	drum_note 1, 1
 	drum_note 1, 1
 ;Bar 75
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
+	;note E_, 0 | WARNING: Rounded down to 0
+	drum_note 1, 1
+	drum_note 1, 3
+	;note E_, 0 | WARNING: Rounded down to 0
 	drum_note 3, 2
-	;note D#, 0 | WARNING: Rounded down to 0
 	drum_note 1, 1
 	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 5, 2
 	drum_note 1, 1
 	drum_note 1, 1
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
+	;note E_, 0 | WARNING: Rounded down to 0
+	drum_note 3, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 1
 ;Bar 76
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
+	;note E_, 0 | WARNING: Rounded down to 0
 	drum_note 1, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 1, 3
+	;note E_, 0 | WARNING: Rounded down to 0
 	drum_note 3, 2
-	drum_note 1, 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 2
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 5, 2
+	drum_note 1, 1
+	drum_note 1, 1
+	;note E_, 0 | WARNING: Rounded down to 0
 	drum_note 3, 1
 	drum_note 1, 1
 	drum_note 1, 1
 	drum_note 1, 1
 ;Bar 77
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
+	;note E_, 0 | WARNING: Rounded down to 0
+	drum_note 1, 1
+	drum_note 1, 3
+	;note E_, 0 | WARNING: Rounded down to 0
+	drum_note 3, 2
 	drum_note 1, 1
 	drum_note 1, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
+	drum_note 5, 2
+	drum_note 1, 1
+	drum_note 1, 1
+	;note E_, 0 | WARNING: Rounded down to 0
+	drum_note 3, 1
+	drum_note 1, 1
 	drum_note 1, 1
 	drum_note 1, 1
 ;Bar 78
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
-;Bar 79
 	;note C#, 0 | WARNING: Rounded down to 0
 	drum_note 1, 1
 	drum_note 1, 1
@@ -5035,188 +4019,96 @@ Music_Chala_Ch4:
 	drum_note 3, 1
 	drum_note 1, 1
 	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 1, 1
+	drum_note 1, 1
+;Bar 79
+	;note C#, 0 | WARNING: Rounded down to 0
+	drum_note 3, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	;note F#, 0 | WARNING: Rounded down to 0
+	drum_note 3, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	;note F#, 0 | WARNING: Rounded down to 0
+	drum_note 3, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	;note F#, 0 | WARNING: Rounded down to 0
+	drum_note 3, 1
+	drum_note 1, 1
 	drum_note 1, 1
 	drum_note 1, 1
 ;Bar 80
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
+	;note F#, 0 | WARNING: Rounded down to 0
 	drum_note 3, 1
 	drum_note 1, 1
 	drum_note 1, 1
 	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note D#, 0 | WARNING: Rounded down to 0
+	;note F#, 0 | WARNING: Rounded down to 0
 	drum_note 3, 1
 	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
+	drum_note 1, 1
+	drum_note 1, 1
+	;note F#, 0 | WARNING: Rounded down to 0
+	drum_note 3, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	;note F#, 0 | WARNING: Rounded down to 0
+	drum_note 3, 1
+	drum_note 1, 1
+	;note A#, 0 | WARNING: Rounded down to 0
 	drum_note 1, 1
 	drum_note 1, 1
 ;Bar 81
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 3
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 5, 2
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
+	;note F#, 0 | WARNING: Rounded down to 0
 	drum_note 3, 1
 	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	;note F#, 0 | WARNING: Rounded down to 0
+	drum_note 3, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	;note F#, 0 | WARNING: Rounded down to 0
+	drum_note 3, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	;note F#, 0 | WARNING: Rounded down to 0
+	drum_note 3, 1
+	drum_note 1, 1
+	;note A#, 0 | WARNING: Rounded down to 0
 	drum_note 1, 1
 	drum_note 1, 1
 ;Bar 82
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 3
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 5, 2
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
+	;note F#, 0 | WARNING: Rounded down to 0
 	drum_note 3, 1
 	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	;note F#, 0 | WARNING: Rounded down to 0
+	drum_note 3, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	;note F#, 0 | WARNING: Rounded down to 0
+	drum_note 3, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	drum_note 1, 1
+	;note F#, 0 | WARNING: Rounded down to 0
+	drum_note 3, 1
+	drum_note 1, 1
+	;note A#, 0 | WARNING: Rounded down to 0
 	drum_note 1, 1
 	drum_note 1, 1
 ;Bar 83
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 3
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 5, 2
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-;Bar 84
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-;Bar 85
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-;Bar 86
-	;note F#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	;note A#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-;Bar 87
-	;note F#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	;note A#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-;Bar 88
-	;note F#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	;note A#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-;Bar 89
 	;note F#, 0 | WARNING: Rounded down to 0
 	drum_note 3, 1
 	drum_note 1, 1
@@ -5236,7 +4128,7 @@ Music_Chala_Ch4:
 	drum_note 1, 1
 	;note G_, 0 | WARNING: Rounded down to 0
 	drum_note 3, 4
-;Bar 90
+;Bar 84
 	;note E_, 0 | WARNING: Rounded down to 0
 	drum_note 1, 2
 	drum_note 3, 2
@@ -5250,605 +4142,6 @@ Music_Chala_Ch4:
 	;note E_, 0 | WARNING: Rounded down to 0
 	drum_note 1, 1
 	drum_note 1, 1
-;Bar 91
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 4
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
-;Bar 92
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 1
-	drum_note 1, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-;Bar 93
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
-;Bar 94
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
-;Bar 95
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-;Bar 96
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-;Bar 97
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-;Bar 98
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 10, 1
-	drum_note 10, 1
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 3, 1
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-;Bar 99
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 4
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
-;Bar 100
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 1
-	drum_note 1, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-;Bar 101
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
-;Bar 102
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
-;Bar 103
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-;Bar 104
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-;Bar 105
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 4
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
-;Bar 106
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 1
-	drum_note 1, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-;Bar 107
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
-;Bar 108
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
-;Bar 109
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-;Bar 110
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-;Bar 111
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-;Bar 112
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 10, 1
-	drum_note 10, 1
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 3, 1
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-;Bar 113
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 4
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
-;Bar 114
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 1
-	drum_note 1, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-;Bar 115
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
-;Bar 116
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 1, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 2
-;Bar 117
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-;Bar 118
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-;Bar 119
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	drum_note 1, 1
-	;note D_, 0 | WARNING: Rounded down to 0
-	;note E_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 1, 1
-	drum_note 1, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 4
-;Bar 120
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 4, 1
-	drum_note 4, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 4, 1
-	drum_note 4, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 4, 1
-	drum_note 6, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 6, 1
-;Bar 121
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 6, 1
-	drum_note 6, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 6, 1
-	drum_note 6, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 4, 1
-	drum_note 4, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 4, 1
-	drum_note 4, 1
-;Bar 122
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 4, 1
-	drum_note 4, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 4, 1
-	drum_note 4, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 4, 1
-	drum_note 6, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 3, 1
-	drum_note 6, 1
-;Bar 123
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 6, 1
-	drum_note 6, 1
-	;note F_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 6, 1
-	drum_note 6, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
-	drum_note 4, 1
-	drum_note 4, 1
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	;note D#, 0 | WARNING: Rounded down to 0
-	drum_note 1, 1
-	drum_note 4, 1
-;Bar 124
-	rest 16
-;Bar 125
-	;note C#, 0 | WARNING: Rounded down to 0
-	drum_note 3, 2
-	drum_note 3, 1
-	drum_note 3, 1
-	drum_note 3, 1
-	drum_note 3, 1
-	;note E_, 0 | WARNING: Rounded down to 0
-	;note D_, 0 | WARNING: Rounded down to 0
-	drum_note 1, 2
 	sound_ret
 
 ; ============================================================================================================

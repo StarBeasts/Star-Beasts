@@ -23,7 +23,6 @@ Music_OceanWinter_Ch1:
 	rest 16
 	rest 16
 	rest 16
-	rest 4
 ;Bar 5
 	octave 4
 	volume_envelope 15, 7
@@ -362,8 +361,7 @@ Music_OceanWinter_Ch1:
 	;note G_, 0 | WARNING: Rounded down to 0
 	rest 2
 	note F_, 16
-	note F_, 8
-	rest 8
+	note F_, 16
 	sound_loop 0, .mainloop
 
 ; ============================================================================================================
@@ -374,7 +372,6 @@ Music_OceanWinter_Ch2:
 .mainloop
 ;Bar 1
 	volume_envelope 15, 7
-	rest 4
 	octave 1
 	;note F_, 0 | WARNING: Rounded down to 0
 	;note G#, 0 | WARNING: Rounded down to 0
@@ -1349,7 +1346,6 @@ Music_OceanWinter_Ch3:
 .mainloop
 ;Bar 1
 	volume_envelope 1, 0
-	rest 4
 	octave 2
 	volume_envelope 2, 0
 	note F_, 1
@@ -3276,8 +3272,7 @@ Music_OceanWinter_Ch3:
 	note A#, 1
 	rest 1
 	octave 3
-	note C#, 1
-	rest 1
+	note C#, 2
 	sound_loop 0, .mainloop
 
 ; ============================================================================================================
@@ -3287,7 +3282,6 @@ Music_OceanWinter_Ch4:
 	drum_speed 12
 .mainloop
 ;Bar 1
-	rest 4
 	drum_note 6, 16
 	drum_note 6, 16
 	drum_note 6, 16

@@ -17,6 +17,7 @@ Music_SlowMoon_Ch1:
 	duty_cycle 2
 	note_type 12, 10, 7
 	tempo 195
+.mainloop
 ;Bar 1
 	rest 16
 	rest 16
@@ -327,13 +328,14 @@ Music_SlowMoon_Ch1:
 	rest 16
 	rest 16
 	rest 16
-	sound_loop 0, Music_SlowMoon_Ch1
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
 Music_SlowMoon_Ch2:
 	duty_cycle 1
 	note_type 12, 10, 7
+.mainloop
 ;Bar 1
 	volume_envelope 14, 7
 	rest 2
@@ -1079,7 +1081,7 @@ Music_SlowMoon_Ch2:
 	note A_, 8
 	rest 3
 ;Bar 58
-	volume_envelope 8, 7
+	volume_envelope 9, 7
 	;note G_, 0 | WARNING: Rounded down to 0
 	note D_, 1
 	rest 2
@@ -1092,7 +1094,7 @@ Music_SlowMoon_Ch2:
 	note D_, 9
 ;Bar 59
 	rest 2
-	volume_envelope 5, 7
+	volume_envelope 9, 7
 	;note A#, 0 | WARNING: Rounded down to 0
 	note D_, 1
 	rest 1
@@ -1103,7 +1105,7 @@ Music_SlowMoon_Ch2:
 	note A_, 8
 	rest 3
 ;Bar 60
-	volume_envelope 1, 7
+	volume_envelope 9, 7
 	;note G_, 0 | WARNING: Rounded down to 0
 	note D_, 1
 	rest 2
@@ -1114,12 +1116,13 @@ Music_SlowMoon_Ch2:
 	rest 1
 	;note G_, 0 | WARNING: Rounded down to 0
 	note D_, 9
-	sound_loop 0, Music_SlowMoon_Ch2
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
 Music_SlowMoon_Ch3:
 	note_type 12, 1, 0
+.mainloop
 ;Bar 1
 	octave 2
 	volume_envelope 1, 0
@@ -2119,13 +2122,14 @@ Music_SlowMoon_Ch3:
 	note A_, 1
 	rest 1
 	note A_, 1
-	sound_loop 0, Music_SlowMoon_Ch3
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 
 Music_SlowMoon_Ch4:
 	toggle_noise 1
 	drum_speed 12
+.mainloop
 ;Bar 1
 	;note F#, 0 | WARNING: Rounded down to 0
 	drum_note 12, 3
@@ -2948,7 +2952,7 @@ Music_SlowMoon_Ch4:
 	;note F#, 0 | WARNING: Rounded down to 0
 	drum_note 3, 3
 	drum_note 1, 1
-	sound_loop 0, Music_SlowMoon_Ch4
+	sound_loop 0, .mainloop
 
 ; ============================================================================================================
 

@@ -1,5 +1,5 @@
 VultMaze_Object:
-	db $03 ; border block
+	db $02 ; border block
 
 	def_warp_events
 	warp_event  6, 29, LAST_MAP, 5
