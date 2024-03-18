@@ -286,13 +286,12 @@ SlowbroEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 18, DISABLE
-	db 22, HEADBUTT
-	db 27, GROWL
-	db 33, WATER_GUN
-	db 37, WITHDRAW
-	db 44, AMNESIA
-	db 55, PSYCHIC_M
+	db 18, SPIKE_CANNON
+	db 22, BUG_BITE
+	db 27, BUBBLEBEAM
+	db 33, RECOVER
+	db 40, SLUDGE_BOMB
+	db 48, MEGAHORN
 	db 0
 
 IvysaurEvosMoves:
@@ -639,7 +638,7 @@ SlowpokeEvosMoves:
 	db 18, SPIKE_CANNON
 	db 22, BUG_BITE
 	db 27, BUBBLEBEAM
-	db 33, SELFDESTRUCT
+	db 33, RECOVER
 	db 40, SLUDGE_BOMB
 	db 48, MEGAHORN
 	db 0
