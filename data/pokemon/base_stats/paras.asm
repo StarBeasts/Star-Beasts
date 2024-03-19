@@ -14,10 +14,17 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     SHADOW_CLAW,         MEGA_DRAIN,   SOLARBEAM,    DIG,          MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,      BIDE,         SKULL_BASH,   REST,         \
-	     SUBSTITUTE,   CUT
+	tmhm SWORDS_DANCE, DRAGON_CLAW,    \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     \
+	     SUBMISSION,   COUNTER,      SHADOW_CLAW,         \
+	     \
+	     DIG,          \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
+	     SWIFT,        SKULL_BASH,   \
+	     REST,   \
+	     ROCK_SLIDE,   SUBSTITUTE,   \
+	     CUT,          STRENGTH
 	; end
 
 	db BANK(ParasPicFront)

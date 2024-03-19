@@ -14,10 +14,17 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   SHADOW_CLAW,         MEGA_DRAIN,   SOLARBEAM,    MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,      BIDE,         REST,         SUBSTITUTE,   \
-	     CUT
+	tmhm HURRICANE,   FLASH_CANNON, \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     BLIZZARD,     HYPER_BEAM,   \
+	     PAY_DAY,      COUNTER,      SHADOW_CLAW,         \
+	     MEGA_DRAIN,   DRAGONBREATH,  THUNDERBOLT,  THUNDER,      \
+	     PSYCHIC_M,    TELEPORT,     \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
+	     SWIFT,        SKULL_BASH,   \
+	     DREAM_EATER,  REST,         THUNDER_WAVE, \
+	     PSYWAVE,      ROCK_SLIDE,   SUBSTITUTE,   \
+	     CUT,          FLY,           FLASH
 	; end
 
 	db BANK(VileplumePicFront)

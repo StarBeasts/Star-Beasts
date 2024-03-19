@@ -14,10 +14,17 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
-	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     SHADOW_CLAW,         PSYCHIC_M,    \
-	     MIMIC,        DOUBLE_TEAM,  BIDE,         SKULL_BASH,   REST,         \
-	     PSYWAVE,      SUBSTITUTE,   SURF
+	tmhm FALCON_PUNCH, SWORDS_DANCE, FLASH_CANNON, \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     BUBBLEBEAM,   WATER_GUN,    \
+	     COUNTER,      \
+	     MEGA_DRAIN,   SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  THUNDER,      \
+	     \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
+	     SELFDESTRUCT, FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
+	     REST,         THUNDER_WAVE, \
+	     EXPLOSION,    SUBSTITUTE,   \
+	     FLASH
 	; end
 
 	db BANK(PoliwagPicFront)

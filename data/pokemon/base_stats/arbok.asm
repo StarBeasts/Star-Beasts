@@ -14,10 +14,17 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
-	     SHADOW_CLAW,         MEGA_DRAIN,   EARTHQUAKE,   FISSURE,      DIG,          \
-	     MIMIC,        DOUBLE_TEAM,  BIDE,         SKULL_BASH,   REST,         \
-	     ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	tmhm SWORDS_DANCE, DRAGON_CLAW,    \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     BUBBLEBEAM,   WATER_GUN,    BLIZZARD,     HYPER_BEAM,   \
+	     COUNTER, \
+	     MEGA_DRAIN,   DRAGONBREATH,  THUNDERBOLT,  THUNDER,      \
+	     EARTHQUAKE,   PSYCHIC_M,    \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
+	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
+	     DREAM_EATER,  REST,         THUNDER_WAVE, \
+	     PSYWAVE,      ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   \
+	     CUT,          SURF,         STRENGTH,     FLASH
 	; end
 
 	db BANK(ArbokPicFront)

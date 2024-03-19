@@ -14,10 +14,17 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   SUBMISSION,   SEISMIC_TOSS, SHADOW_CLAW,         MIMIC,        \
-	     DOUBLE_TEAM,  BIDE,         REST,         SUBSTITUTE,   CUT,          \
-	     STRENGTH
+	tmhm FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
+	     PAY_DAY,      COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         \
+	     SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  THUNDER,      \
+	     DIG,          PSYCHIC_M,    TELEPORT,     \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
+	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
+	     DREAM_EATER,  REST,         THUNDER_WAVE, \
+	     PSYWAVE,      ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   \
+	     CUT,          FLY,          SURF,         STRENGTH,     FLASH
 	; end
 
 	db BANK(PinsirPicFront)

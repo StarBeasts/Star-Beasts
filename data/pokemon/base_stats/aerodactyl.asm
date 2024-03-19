@@ -14,10 +14,17 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm HURRICANE,   FLASH_CANNON,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   SHADOW_CLAW,         DRAGONBREATH,  MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        SKY_ATTACK,   \
-	     REST,         SUBSTITUTE,   FLY
+	tmhm HURRICANE,   SWORDS_DANCE, \
+	     TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
+	     COUNTER,      \
+	     MEGA_DRAIN,   SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  THUNDER,      \
+	     EARTHQUAKE,   FISSURE,      DIG,          PSYCHIC_M,    TELEPORT,     \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
+	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
+	     SOFTBOILED,   DREAM_EATER,  REST,         THUNDER_WAVE, \
+	     PSYWAVE,      ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   \
+	     SURF,         STRENGTH,     FLASH
 	; end
 
 	db BANK(AerodactylPicFront)

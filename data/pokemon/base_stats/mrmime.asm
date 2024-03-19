@@ -14,12 +14,17 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm FALCON_PUNCH,   DRAGON_CLAW,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
-	     SHADOW_CLAW,         SOLARBEAM,    THUNDERBOLT,  THUNDER,      PSYCHIC_M,    \
-	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     METRONOME,    SKULL_BASH,   REST,         THUNDER_WAVE, PSYWAVE,      \
-	     SUBSTITUTE,   FLASH
+	tmhm HURRICANE,    FLASH_CANNON,  \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
+	     PAY_DAY,      COUNTER,      SHADOW_CLAW,         \
+	     SOLARBEAM,    THUNDERBOLT,  THUNDER,      \
+	     FISSURE,      PSYCHIC_M,    TELEPORT,     \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
+	     SELFDESTRUCT, FIRE_BLAST,   SWIFT,        \
+	     DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, \
+	     PSYWAVE,      EXPLOSION,    TRI_ATTACK,   SUBSTITUTE,   \
+	     CUT,          FLY,          FLASH
 	; end
 
 	db BANK(MrMimePicFront)

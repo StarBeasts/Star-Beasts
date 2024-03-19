@@ -14,11 +14,17 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm FALCON_PUNCH,   SWORDS_DANCE, DRAGON_CLAW,    TOXIC,        BODY_SLAM,    \
-	     TAKE_DOWN,    DOUBLE_EDGE,  SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
-	     SHADOW_CLAW,         DRAGONBREATH,  DIG,          MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
-	     REST,         SUBSTITUTE,   CUT,          STRENGTH
+	tmhm HURRICANE,  FLASH_CANNON,\
+	     TOXIC,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     \
+	     PAY_DAY,      COUNTER,      SEISMIC_TOSS, \
+	     MEGA_DRAIN,   SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  THUNDER,      \
+	     PSYCHIC_M,    TELEPORT,     \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
+	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
+	     DREAM_EATER,  REST,         THUNDER_WAVE, \
+	     PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   \
+	     FLASH
 	; end
 
 	db BANK(CharmeleonPicFront)

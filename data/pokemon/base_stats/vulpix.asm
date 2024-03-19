@@ -14,9 +14,17 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  SHADOW_CLAW,         \
-	     DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE
+	tmhm SWORDS_DANCE, DRAGON_CLAW,    \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,    \
+	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         \
+	     DRAGONBREATH, \
+	     DIG,          \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
+	     SKULL_BASH,   \
+	     REST, \
+	     SUBSTITUTE,   \
+	     CUT,          SURF
 	; end
 
 	db BANK(VulpixPicFront)

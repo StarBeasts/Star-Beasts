@@ -14,9 +14,17 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
-	     SHADOW_CLAW,         EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        \
-	     DOUBLE_TEAM,  BIDE,         REST,         ROCK_SLIDE,   SUBSTITUTE
+	tmhm FALCON_PUNCH,   HURRICANE,  FLASH_CANNON,    DRAGON_CLAW,    \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
+	     PAY_DAY,      COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         \
+	     THUNDERBOLT,  THUNDER,      \
+	     EARTHQUAKE,   PSYCHIC_M,    TELEPORT,     \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
+	     SELFDESTRUCT, FIRE_BLAST,   SWIFT,        \
+	     DREAM_EATER,  REST,         THUNDER_WAVE, \
+	     PSYWAVE,      EXPLOSION,    ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   \
+	     FLY,          STRENGTH,     FLASH
 	; end
 
 	db BANK(DugtrioPicFront)

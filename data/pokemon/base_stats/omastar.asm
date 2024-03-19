@@ -14,11 +14,17 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
-	     SUBMISSION,   SEISMIC_TOSS, SHADOW_CLAW,         MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         SKULL_BASH,   REST,         SUBSTITUTE,   \
-	     SURF
+	tmhm FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
+	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         \
+	     MEGA_DRAIN,   SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  THUNDER,      \
+	     EARTHQUAKE,   FISSURE,      DIG,          PSYCHIC_M,    TELEPORT,     \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
+	     SELFDESTRUCT, FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
+	     DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, \
+	     PSYWAVE,      EXPLOSION,    ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   \
+	     CUT,          FLY,          STRENGTH,     FLASH
 	; end
 
 	db BANK(OmastarPicFront)

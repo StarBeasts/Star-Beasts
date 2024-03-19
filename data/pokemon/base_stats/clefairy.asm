@@ -14,13 +14,17 @@
 	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm FALCON_PUNCH,   DRAGON_CLAW,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
-	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         SOLARBEAM,    \
-	     THUNDERBOLT,  THUNDER,      PSYCHIC_M,    TELEPORT,     MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    FIRE_BLAST,   \
-	     SKULL_BASH,   REST,         THUNDER_WAVE, PSYWAVE,      TRI_ATTACK,   \
-	     SUBSTITUTE,   STRENGTH,     FLASH
+	tmhm FALCON_PUNCH, SWORDS_DANCE, DRAGON_CLAW,    \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     BUBBLEBEAM,   ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
+	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         \
+	     DRAGONBREATH,  THUNDERBOLT,  THUNDER,      \
+	     EARTHQUAKE,   DIG,           \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
+	     SWIFT,        SKULL_BASH,   \
+	     DREAM_EATER,  REST,         THUNDER_WAVE, \
+	     ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   \
+	     CUT,          SURF,         STRENGTH
 	; end
 
 	db BANK(ClefairyPicFront)

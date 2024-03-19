@@ -14,11 +14,17 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm FALCON_PUNCH,   DRAGON_CLAW,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
-	     SHADOW_CLAW,         EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        \
-	     DOUBLE_TEAM,  BIDE,         METRONOME,    FIRE_BLAST,   SKULL_BASH,   \
-	     REST,         ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	tmhm FALCON_PUNCH, SWORDS_DANCE, DRAGON_CLAW,    \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     HYPER_BEAM,   \
+	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         \
+	     DRAGONBREATH,  \
+	     EARTHQUAKE,   FISSURE, \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
+	     FIRE_BLAST,   SKULL_BASH,   \
+	     REST, \
+	     ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   \
+	     CUT,          SURF,         STRENGTH 
 	; end
 
 	db BANK(MachampPicFront)

@@ -14,13 +14,17 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm FALCON_PUNCH,   DRAGON_CLAW,    TOXIC,        HORN_DRILL,   BODY_SLAM,    \
-	     TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     \
-	     BLIZZARD,     HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      \
-	     SEISMIC_TOSS, SHADOW_CLAW,         THUNDERBOLT,  THUNDER,      EARTHQUAKE,   \
-	     FISSURE,      MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     FIRE_BLAST,   SKULL_BASH,   REST,         ROCK_SLIDE,   SUBSTITUTE,   \
-	     SURF,         STRENGTH
+	tmhm HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    \
+	     TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     BLIZZARD,     HYPER_BEAM,   \
+	     COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         \
+	     THUNDERBOLT,  THUNDER,      \
+	     EARTHQUAKE,   FISSURE, \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
+	     SELFDESTRUCT, SWIFT,        SKULL_BASH,   \
+	     SKY_ATTACK,   REST,         THUNDER_WAVE, \
+	     EXPLOSION,    ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   \
+	     CUT,          FLY,          SURF,         STRENGTH
 	; end
 
 	db BANK(NidoqueenPicFront)

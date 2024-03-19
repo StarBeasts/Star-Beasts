@@ -14,10 +14,17 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     BLIZZARD,     SHADOW_CLAW,         THUNDERBOLT,  THUNDER,      MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,      BIDE,         SKULL_BASH,   REST,         \
-	     SUBSTITUTE
+	tmhm SWORDS_DANCE, DRAGON_CLAW,    \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     \
+	     COUNTER,      SHADOW_CLAW,         \
+	     DRAGONBREATH, \
+	     DIG,           \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
+	     SKULL_BASH,   \
+	     REST,        \
+	     SUBSTITUTE,   \
+	     CUT
 	; end
 
 	db BANK(NidoranMPicFront)

@@ -14,11 +14,17 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
-	     ICE_BEAM,     BLIZZARD,     SHADOW_CLAW,         THUNDERBOLT,  THUNDER,      \
-	     PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, \
-	     PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   SURF,         FLASH
+	tmhm FALCON_PUNCH, DRAGON_CLAW,    \
+	     TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	        \
+	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         \
+	     DRAGONBREATH,  \
+	     DIG,          PSYCHIC_M,    TELEPORT,     \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
+	     SELFDESTRUCT, FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
+	     DREAM_EATER,  REST,         THUNDER_WAVE, \
+	     PSYWAVE,      EXPLOSION,    ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   \
+	     CUT,          STRENGTH,     FLASH
 	; end
 
 	db BANK(StaryuPicFront)

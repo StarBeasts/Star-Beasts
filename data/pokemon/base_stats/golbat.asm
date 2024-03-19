@@ -14,9 +14,17 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm HURRICANE,   FLASH_CANNON,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   SHADOW_CLAW,         MEGA_DRAIN,   MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,         SWIFT,        REST,         SUBSTITUTE
+	tmhm HURRICANE,   FLASH_CANNON, \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     ICE_BEAM,     HYPER_BEAM,   \
+	     COUNTER, \
+	     SOLARBEAM,    THUNDERBOLT,  THUNDER,      \
+	     PSYCHIC_M,    TELEPORT,     \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
+	     SELFDESTRUCT, SWIFT,        SKULL_BASH,   \
+	     DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, \
+	     PSYWAVE,      EXPLOSION,     SUBSTITUTE,   \
+	     FLY,          FLASH
 	; end
 
 	db BANK(GolbatPicFront)

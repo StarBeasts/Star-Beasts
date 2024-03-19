@@ -14,10 +14,17 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm HURRICANE,   FLASH_CANNON,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   SHADOW_CLAW,         MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         FIRE_BLAST,   SWIFT,        SKY_ATTACK,   REST,         \
-	     SUBSTITUTE,   FLY
+	tmhm FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, DRAGON_CLAW,    \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     BUBBLEBEAM,   ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
+	     COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         \
+	     MEGA_DRAIN,   SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  THUNDER,      \
+	     EARTHQUAKE,   FISSURE,      DIG,          PSYCHIC_M,    TELEPORT,     \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
+	     EGG_BOMB,     FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
+	     SOFTBOILED,   SKY_ATTACK,   REST,         THUNDER_WAVE, \
+	     PSYWAVE,      ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   \
+	     CUT,          FLY,          SURF,         STRENGTH,     FLASH
 	; end
 
 	db BANK(MoltresPicFront)

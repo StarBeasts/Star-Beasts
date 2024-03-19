@@ -14,9 +14,17 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  SHADOW_CLAW,         \
-	     MEGA_DRAIN,   SOLARBEAM,    MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         REST,         SUBSTITUTE,   CUT
+	tmhm SWORDS_DANCE, DRAGON_CLAW,    \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	      \
+	     COUNTER,      SHADOW_CLAW,         \
+	     MEGA_DRAIN,   SOLARBEAM,    \
+	     DIG, \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
+	     SWIFT,        SKULL_BASH,   \
+	     REST,   \
+	     SUBSTITUTE,   \
+	     CUT
 	; end
 
 	db BANK(BellsproutPicFront)

@@ -14,10 +14,17 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   SHADOW_CLAW,         MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST,         \
-	     SUBSTITUTE
+	tmhm SWORDS_DANCE, DRAGON_CLAW,    \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     HYPER_BEAM,   \
+	     SUBMISSION,   COUNTER,  SHADOW_CLAW,         \
+	     MEGA_DRAIN,        \
+	     DIG,   \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
+	     SWIFT,        SKULL_BASH,   \
+	     REST, \
+	     SUBSTITUTE,   \
+	     CUT,          STRENGTH
 	; end
 
 	db BANK(RapidashPicFront)

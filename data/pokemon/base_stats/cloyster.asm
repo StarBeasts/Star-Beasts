@@ -14,11 +14,17 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
-	     ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   SHADOW_CLAW,         TELEPORT,     \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         SELFDESTRUCT, \
-	     SWIFT,        REST,         EXPLOSION,    TRI_ATTACK,   SUBSTITUTE,   \
-	     SURF
+	tmhm FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, DRAGON_CLAW,    \
+	     TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
+	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         \
+	     MEGA_DRAIN,   SOLARBEAM,    DRAGONBREATH,  \
+	     EARTHQUAKE,   FISSURE,        \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
+	     SELFDESTRUCT, SWIFT,        SKULL_BASH,   \
+	     REST,         \
+	     EXPLOSION,    ROCK_SLIDE,   SUBSTITUTE,   \
+	     CUT,          SURF,         STRENGTH
 	; end
 
 	db BANK(CloysterPicFront)

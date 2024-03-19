@@ -14,9 +14,10 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     SHADOW_CLAW,         MEGA_DRAIN,   SOLARBEAM,    MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         REST,         SUBSTITUTE,   CUT
+	tmhm FALCON_PUNCH, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     COUNTER,      SEISMIC_TOSS, MEGA_DRAIN,   SOLARBEAM,    \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    SKULL_BASH,   \
+	     REST, 		   SUBSTITUTE,   CUT, 		   STRENGTH
 	; end
 
 	db BANK(BulbasaurPicFront)

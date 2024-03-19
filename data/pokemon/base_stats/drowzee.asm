@@ -14,11 +14,17 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm FALCON_PUNCH,   DRAGON_CLAW,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         \
-	     PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         METRONOME,    SKULL_BASH,   DREAM_EATER,  REST,         \
-	     THUNDER_WAVE, PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   FLASH
+	tmhm    \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	       \
+	     COUNTER, \
+	     MEGA_DRAIN,       \
+	        \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
+	     SELFDESTRUCT, SKULL_BASH,   \
+	     REST,          \
+	     EXPLOSION,    ROCK_SLIDE,   SUBSTITUTE,   \
+	     CUT,          FLASH
 	; end
 
 	db BANK(DrowzeePicFront)

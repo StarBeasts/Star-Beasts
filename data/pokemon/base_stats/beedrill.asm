@@ -14,10 +14,17 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
-	     SHADOW_CLAW,         MEGA_DRAIN,   MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE,   \
-	     CUT
+	tmhm HURRICANE, \
+		TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     HYPER_BEAM,   \
+	     COUNTER, \
+	     MEGA_DRAIN,   DRAGONBREATH, \
+	     PSYCHIC_M,    \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
+	     FIRE_BLAST,   SWIFT,  \
+	     DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, \
+	     PSYWAVE,       SUBSTITUTE,   \
+	     CUT,          FLY, FLASH
 	; end
 
 	db BANK(BeedrillPicFront)

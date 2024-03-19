@@ -14,12 +14,17 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm FALCON_PUNCH,   DRAGON_CLAW,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
-	     SHADOW_CLAW,         THUNDERBOLT,  THUNDER,      PSYCHIC_M,    TELEPORT,     \
+	tmhm FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
+	     PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         \
+	     MEGA_DRAIN,   SOLARBEAM,    THUNDERBOLT,  THUNDER,      \
+	     EARTHQUAKE,   FISSURE,      PSYCHIC_M,    TELEPORT,     \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
-	     SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, PSYWAVE,      \
-	     SUBSTITUTE,   STRENGTH,     FLASH
+	     FIRE_BLAST,   SWIFT,         \
+	     DREAM_EATER,  REST,         THUNDER_WAVE, \
+	     PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   \
+	     CUT,          STRENGTH,     FLASH
 	; end
 
 	db BANK(ElectabuzzPicFront)

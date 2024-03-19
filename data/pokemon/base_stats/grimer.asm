@@ -14,9 +14,17 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    SHADOW_CLAW,         MEGA_DRAIN,   THUNDERBOLT,  \
-	     THUNDER,      MIMIC,        DOUBLE_TEAM,  BIDE,         SELFDESTRUCT, \
-	     FIRE_BLAST,   REST,         EXPLOSION,    SUBSTITUTE
+	tmhm  \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     BUBBLEBEAM,   WATER_GUN,    HYPER_BEAM,   \
+	     COUNTER, \
+	     DRAGONBREATH,  \
+	       \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
+	     SELFDESTRUCT, EGG_BOMB,     FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
+	     SOFTBOILED,   DREAM_EATER,  REST,   \
+	     EXPLOSION,    SUBSTITUTE,   \
+	     SURF,         STRENGTH
 	; end
 
 	db BANK(GrimerPicFront)

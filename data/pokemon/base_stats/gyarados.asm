@@ -14,11 +14,17 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
-	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   SHADOW_CLAW,         \
-	     DRAGONBREATH,  THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         FIRE_BLAST,   SKULL_BASH,   REST,         \
-	     SUBSTITUTE,   SURF,         STRENGTH
+	tmhm SWORDS_DANCE, DRAGON_CLAW,    \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
+	     COUNTER, \
+	     MEGA_DRAIN,   DRAGONBREATH,  THUNDERBOLT,  THUNDER,      \
+	     EARTHQUAKE,     \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
+	     FIRE_BLAST,   SKULL_BASH,   \
+	     DREAM_EATER,  REST,         THUNDER_WAVE, \
+	     ROCK_SLIDE,   SUBSTITUTE,   \
+	     CUT,          SURF,         STRENGTH
 	; end
 
 	db BANK(GyaradosPicFront)

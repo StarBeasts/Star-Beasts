@@ -14,12 +14,17 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm FALCON_PUNCH,   DRAGON_CLAW,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
-	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         \
-	     EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,         FIRE_BLAST,   SKULL_BASH,   REST,         SUBSTITUTE,   \
-	     STRENGTH
+	tmhm FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, DRAGON_CLAW,    \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     HYPER_BEAM,   \
+	     PAY_DAY,      SUBMISSION,   COUNTER,      SHADOW_CLAW,         \
+	     MEGA_DRAIN,   DRAGONBREATH,     \
+	     EARTHQUAKE,   FISSURE,      DIG,            \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
+	     SELFDESTRUCT, FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
+	     DREAM_EATER,  REST,         THUNDER_WAVE, \
+	     EXPLOSION,    ROCK_SLIDE,   SUBSTITUTE,   \
+	     CUT,          STRENGTH,     FLASH
 	; end
 
 	db BANK(MarowakPicFront)

@@ -14,10 +14,17 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    \
-	     ICE_BEAM,     BLIZZARD,     SHADOW_CLAW,         TELEPORT,     MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,      BIDE,         SELFDESTRUCT, SWIFT,        \
-	     REST,         EXPLOSION,    TRI_ATTACK,   SUBSTITUTE,   SURF
+	tmhm DRAGON_CLAW,    \
+	     TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,      \
+	     COUNTER, \
+	     DRAGONBREATH,  \
+	       \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
+	     SELFDESTRUCT, SWIFT,        SKULL_BASH,   \
+	     REST,          \
+	     EXPLOSION,    SUBSTITUTE,   \
+	     CUT,          SURF
 	; end
 
 	db BANK(ShellderPicFront)

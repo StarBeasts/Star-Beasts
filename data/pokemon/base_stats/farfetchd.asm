@@ -14,10 +14,17 @@
 	db GROWTH_SLOW; growth rate
 
 	; tm/hm learnset
-	tmhm HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    TOXIC,        BODY_SLAM,    \
-	     TAKE_DOWN,    DOUBLE_EDGE,  SHADOW_CLAW,         MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         SWIFT,        SKULL_BASH,   REST,         \
-	     SUBSTITUTE,   CUT,          FLY
+	tmhm SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    \
+	     TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     HYPER_BEAM,   \
+	     COUNTER,      SHADOW_CLAW,         \
+	     \
+	     EARTHQUAKE,   FISSURE,      DIG,  \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
+	     SELFDESTRUCT, SWIFT,        SKULL_BASH,   \
+	     REST, \
+	     EXPLOSION,    ROCK_SLIDE,   SUBSTITUTE,   \
+	     CUT,          STRENGTH,     FLASH
 	; end
 
 	db BANK(FarfetchdPicFront)

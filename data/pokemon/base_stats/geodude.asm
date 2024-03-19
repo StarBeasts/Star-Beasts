@@ -14,11 +14,17 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm FALCON_PUNCH,   TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         EARTHQUAKE,   \
-	     FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         \
-	     METRONOME,    SELFDESTRUCT, FIRE_BLAST,   REST,         EXPLOSION,    \
-	     ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	tmhm    \
+		TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	      \
+	     COUNTER, \
+	     DRAGONBREATH, \
+	     DIG,           \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
+	     SELFDESTRUCT, FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
+	     REST,  \
+	     EXPLOSION,    ROCK_SLIDE,   SUBSTITUTE,   \
+	     FLASH
 	; end
 
 	db BANK(GeodudePicFront)

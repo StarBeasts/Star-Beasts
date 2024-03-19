@@ -14,10 +14,16 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm FLASH_CANNON,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     SHADOW_CLAW,         MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     SKULL_BASH,   SKY_ATTACK,   REST,         TRI_ATTACK,   SUBSTITUTE,   \
-	     FLY
+	tmhm SWORDS_DANCE,  \
+	     TOXIC,  \
+	       \
+	     COUNTER,      SEISMIC_TOSS, \
+	      \
+	     FISSURE, TELEPORT,     \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
+	       \
+	     REST,         THUNDER_WAVE, \
+	     PSYWAVE,      SUBSTITUTE
 	; end
 
 	db BANK(DoduoPicFront)

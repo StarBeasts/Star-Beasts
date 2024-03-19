@@ -14,9 +14,17 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm HURRICANE,   FLASH_CANNON,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
-	     SHADOW_CLAW,         MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     SWIFT,        SKY_ATTACK,   REST,         SUBSTITUTE,   FLY
+	tmhm HURRICANE,\
+	     BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     \
+	     COUNTER,      SHADOW_CLAW,         \
+	     \
+	     \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
+	     EGG_BOMB,     SWIFT, \
+	     SKY_ATTACK,   REST,\
+	     TRI_ATTACK,   SUBSTITUTE,   \
+	     CUT,          FLY
 	; end
 
 	db BANK(PidgeyPicFront)

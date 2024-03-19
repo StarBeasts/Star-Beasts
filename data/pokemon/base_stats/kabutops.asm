@@ -14,11 +14,17 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm HURRICANE,   SWORDS_DANCE, DRAGON_CLAW,    TOXIC,        BODY_SLAM,    \
-	     TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     \
-	     BLIZZARD,     HYPER_BEAM,   SUBMISSION,   SEISMIC_TOSS, SHADOW_CLAW,         \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         SKULL_BASH,   \
-	     REST,         SUBSTITUTE,   SURF
+	tmhm FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, DRAGON_CLAW,    \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     HYPER_BEAM,   \
+	     PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         \
+	     DRAGONBREATH,  \
+	     EARTHQUAKE,   FISSURE,      DIG,   \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
+	     EGG_BOMB,     FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
+	     SOFTBOILED,   SKY_ATTACK,   REST,         THUNDER_WAVE, \
+	     ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   \
+	     CUT,          FLY,          STRENGTH,     FLASH
 	; end
 
 	db BANK(KabutopsPicFront)

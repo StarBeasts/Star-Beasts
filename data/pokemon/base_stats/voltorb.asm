@@ -14,10 +14,17 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        TAKE_DOWN,    SHADOW_CLAW,         THUNDERBOLT,  THUNDER,      \
-	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     SELFDESTRUCT, SWIFT,        REST,         THUNDER_WAVE, EXPLOSION,    \
-	     SUBSTITUTE,   FLASH
+	tmhm DRAGON_CLAW,    \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	      \
+	     PAY_DAY,      COUNTER,      SHADOW_CLAW,         \
+	     SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  THUNDER,      \
+	     DIG,          PSYCHIC_M,    \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
+	     SWIFT,        SKULL_BASH,   \
+	     REST,         THUNDER_WAVE, \
+	     PSYWAVE,      SUBSTITUTE,   \
+	     CUT,          FLASH
 	; end
 
 	db BANK(VoltorbPicFront)

@@ -14,10 +14,17 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
-	     WATER_GUN,    PAY_DAY,      SHADOW_CLAW,         THUNDERBOLT,  THUNDER,      \
-	     MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        SKULL_BASH,   \
-	     REST,         SUBSTITUTE
+	tmhm DRAGON_CLAW,    \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     \
+	     PAY_DAY,      COUNTER,      SHADOW_CLAW,         \
+	     SOLARBEAM,    \
+	     DIG,          PSYCHIC_M,    TELEPORT,     \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
+	     FIRE_BLAST,   SWIFT, \
+	     DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, \
+	     PSYWAVE,      SUBSTITUTE,   \
+	     CUT,          FLY,          FLASH
 	; end
 
 	db BANK(MeowthPicFront)

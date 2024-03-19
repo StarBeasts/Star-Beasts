@@ -14,9 +14,17 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm TOXIC,        HYPER_BEAM,   SHADOW_CLAW,         THUNDERBOLT,  THUNDER,      \
-	     MIMIC,        DOUBLE_TEAM,  BIDE,         SELFDESTRUCT, FIRE_BLAST,   \
-	     REST,         EXPLOSION,    SUBSTITUTE
+	tmhm FLASH_CANNON, \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     HYPER_BEAM,   \
+	     COUNTER, \
+	     SOLARBEAM, \
+	     EARTHQUAKE,   FISSURE, \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
+	     SELFDESTRUCT, EGG_BOMB,     FIRE_BLAST,   SKULL_BASH,   \
+	     SOFTBOILED,   REST, \
+	     EXPLOSION,    ROCK_SLIDE,   SUBSTITUTE,   \
+	     STRENGTH,     FLASH
 	; end
 
 	db BANK(WeezingPicFront)

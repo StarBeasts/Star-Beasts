@@ -10,15 +10,21 @@
 	INCBIN "gfx/pokemon/front/psyduck.pic", 0, 1 ; sprite dimensions
 	dw PsyduckPicFront, PsyduckPicBack
 
-	db SCRATCH, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db SCRATCH, MACH_PUNCH, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm FALCON_PUNCH,   DRAGON_CLAW,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
-	     PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         \
-	     DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
-	     SKULL_BASH,   REST,         SUBSTITUTE,   SURF,         STRENGTH
+	tmhm FALCON_PUNCH, SWORDS_DANCE, DRAGON_CLAW,    \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     \
+	     COUNTER,      SHADOW_CLAW,         \
+	     \
+	     TELEPORT,     \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
+	     SWIFT,\
+	     REST,\
+	     SUBSTITUTE,   \
+	     CUT, FLASH
 	; end
 
 	db BANK(PsyduckPicFront)

@@ -14,9 +14,17 @@
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  SHADOW_CLAW,         \
-	     MEGA_DRAIN,   SOLARBEAM,    MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         REST,         SUBSTITUTE,   CUT
+	tmhm SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     HYPER_BEAM,   \
+	     SUBMISSION,   COUNTER,      SHADOW_CLAW,         \
+	      \
+	     FISSURE,      DIG, \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
+	     SWIFT,        SKULL_BASH,   \
+	     REST,  \
+	     ROCK_SLIDE,   SUBSTITUTE,   \
+	     CUT,          STRENGTH 
 	; end
 
 	db BANK(WeepinbellPicFront)

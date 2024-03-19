@@ -14,11 +14,17 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm FALCON_PUNCH,   DRAGON_CLAW,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  PAY_DAY,      SUBMISSION,   SEISMIC_TOSS, SHADOW_CLAW,         \
-	     THUNDERBOLT,  THUNDER,      MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, \
-	     SUBSTITUTE,   FLASH
+	tmhm FLASH_CANNON, \
+	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     \
+	     PAY_DAY,      COUNTER, \
+	     DRAGONBREATH,  THUNDERBOLT,  THUNDER,      \
+	     \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
+	     SWIFT,        SKULL_BASH,   \
+	     REST,         THUNDER_WAVE, \
+	     PSYWAVE,      SUBSTITUTE,   \
+	     STRENGTH,     FLASH
 	; end
 
 	db BANK(PikachuPicFront)
