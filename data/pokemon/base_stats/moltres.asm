@@ -1,6 +1,6 @@
 	db DEX_MOLTRES ; pokedex id
 
-	db  90, 100,  90,  90, 125
+	db  100, 90,  90,  100, 150
 	;   hp  atk  def  spd  spc
 
 	db DRAGON, FLYING ; type

@@ -1,6 +1,6 @@
 	db DEX_ARTICUNO ; pokedex id
 
-	db  90,  85, 100,  85, 125
+	db  45,  100, 135,  65, 135
 	;   hp  atk  def  spd  spc
 
 	db GHOST, FLYING ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/articuno.pic", 0, 1 ; sprite dimensions
 	dw ArticunoPicFront, ArticunoPicBack
 
-	db PECK, ICE_BEAM, NO_MOVE, NO_MOVE ; level 1 learnset
+	db OMINOUS_WIND, HURRICANE, SMOKESCREEN, GLARE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

@@ -1037,9 +1037,9 @@ ZapdosEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 51, EARTHQUAKE
+	db 51, OUTRAGE
 	db 55, SUBMISSION
-	db 60, EARTHQUAKE
+	db 60, SKY_ATTACK
 	db 0
 
 DittoEvosMoves:

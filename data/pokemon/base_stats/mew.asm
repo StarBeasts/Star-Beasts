@@ -1,6 +1,6 @@
 	db DEX_MEW ; pokedex id
 
-	db 100, 100, 100, 100, 100
+	db  80, 85,  65,  65,  75
 	;   hp  atk  def  spd  spc
 
 	db ICE, STEEL ; type
@@ -10,8 +10,8 @@
 	INCBIN "gfx/pokemon/front/mew.pic", 0, 1 ; sprite dimensions
 	dw MewPicFront, MewPicBack
 
-	db POUND, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_SLOW ; growth rate
+	db SCRATCH, BITE, GROWL, LICK ; level 1 learnset
+	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset
 	tmhm FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    \

@@ -1,6 +1,6 @@
 	db DEX_OMASTAR ; pokedex id
 
-	db  70,  60, 125,  55, 115
+	db  93,  93, 66,  93, 132
 	;   hp  atk  def  spd  spc
 
 	db DARK, FLYING ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/omastar.pic", 0, 1 ; sprite dimensions
 	dw OmastarPicFront, OmastarPicBack
 
-	db WATER_GUN, WITHDRAW, HORN_ATTACK, NO_MOVE ; level 1 learnset
+	db BODY_SLAM, POISON_FANG, WING_ATTACK, FLAMETHROWER ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

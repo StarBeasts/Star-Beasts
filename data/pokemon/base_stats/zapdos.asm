@@ -1,6 +1,6 @@
 	db DEX_ZAPDOS ; pokedex id
 
-	db  90,  90,  85, 100, 125
+	db  100,  150,  90, 140, 90
 	;   hp  atk  def  spd  spc
 
 	db DRAGON, FIGHTING ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/zapdos.pic", 0, 1 ; sprite dimensions
 	dw ZapdosPicFront, ZapdosPicBack
 
-	db THUNDERSHOCK, DRILL_PECK, NO_MOVE, NO_MOVE ; level 1 learnset
+	db FLAMETHROWER, WING_ATTACK, SKULL_BASH, EARTHQUAKE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

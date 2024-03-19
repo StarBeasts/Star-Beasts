@@ -1,6 +1,6 @@
 	db DEX_DRAGONITE ; pokedex id
 
-	db  91, 134,  95,  80, 100
+	db  95, 90,  65, 135, 145
 	;   hp  atk  def  spd  spc
 
 	db DRAGON, GHOST ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/dragonite.pic", 0, 1 ; sprite dimensions
 	dw DragonitePicFront, DragonitePicBack
 
-	db WRAP, LEER, THUNDER_WAVE, AGILITY ; level 1 learnset
+	db DRAGON_CLAW, DRAGONBREATH, THUNDER_WAVE, AGILITY ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

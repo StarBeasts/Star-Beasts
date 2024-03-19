@@ -1,6 +1,6 @@
 	db DEX_DRATINI ; pokedex id
 
-	db  41,  64,  45,  50,  50
+	db  65,  95,  60,  50,  60
 	;   hp  atk  def  spd  spc
 
 	db DRAGON, FLYING ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/dratini.pic", 0, 1 ; sprite dimensions
 	dw DratiniPicFront, DratiniPicBack
 
-	db WRAP, LEER, NO_MOVE, NO_MOVE ; level 1 learnset
+	db WING_ATTACK, BITE, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

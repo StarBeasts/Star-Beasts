@@ -1,6 +1,6 @@
 	db DEX_OMANYTE ; pokedex id
 
-	db  35,  40, 100,  35,  90
+	db  66,  66, 66,  66,  66
 	;   hp  atk  def  spd  spc
 
 	db DARK, FLYING ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/omanyte.pic", 0, 1 ; sprite dimensions
 	dw OmanytePicFront, OmanytePicBack
 
-	db WATER_GUN, WITHDRAW, NO_MOVE, NO_MOVE ; level 1 learnset
+	db BITE, WING_ATTACK, EMBER, POISON_FANG ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
