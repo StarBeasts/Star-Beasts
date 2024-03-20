@@ -13,7 +13,7 @@ _KogaPostBattleAdviceText::
 
 _KogaSoulBadgeInfoText::
 	text "Now that you have"
-	line "the SOULBADGE,"
+	line "the NEPUBADGE,"
 	cont "the DEFENSE of"
 	cont "your BEASTS"
 	cont "increases!"

@@ -26,7 +26,7 @@ _TM11ExplanationText::
 	done
 
 _MistyCascadeBadgeInfoText::
-	text "The CASCADEBADGE"
+	text "The SURFINBADGE"
 	line "makes all BEASTS"
 	cont "up to L30 obey!"
 
@@ -64,7 +64,7 @@ _ReceivedCascadeBadgeText::
 	para "All right!"
 
 	para "You can have the"
-	line "CASCADEBADGE to"
+	line "SURFINBADGE to"
 	cont "show you beat me!@"
 	text_end
 

@@ -4,7 +4,7 @@ _Route22GateText_1e704::
 	cont "allowed through."
 
 	para "You don't have the"
-	line "BOULDERBADGE yet!@"
+	line "ROCKINBADGE yet!@"
 	text_end
 
 _Route22GateText_1e715::
@@ -17,6 +17,6 @@ _Route22GateText_1e715::
 
 _Route22GateText_1e71a::
 	text "Oh! That is the"
-	line "BOULDERBADGE!"
+	line "ROCKINBADGE!"
 	cont "Go right ahead!@"
 	text_end

@@ -49,7 +49,7 @@ _ReceivedVolcanoBadgeText::
 	cont "style, kid!"
 
 	para "You have earned"
-	line "the VOLCANOBADGE!@"
+	line "the PYROBADGE!@"
 	text_end
 
 _BlainePostBattleAdviceText::
@@ -64,7 +64,7 @@ _BlainePostBattleAdviceText::
 _BlaineVolcanoBadgeInfoText::
 	text "Fwa-ha-ha-ha-ha!"
 
-	para "The VOLCANOBADGE"
+	para "The PYROBADGE"
 	line "heightens the"
 	cont "SPECIAL abilities"
 	cont "of your BEASTS!"

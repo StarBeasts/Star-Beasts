@@ -57,10 +57,10 @@ _ReceivedBoulderBadgeText::
 
 	para "As proof of your"
 	line "victory, here's"
-	cont "the BOULDERBADGE!"
+	cont "the ROCKINBADGE!"
 
 	para "<PLAYER> received"
-	line "the BOULDERBADGE!@"
+	line "the ROCKINBADGE!@"
 	text_end
 
 _BrockBoulerBadgeInfoText::

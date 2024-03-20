@@ -20,7 +20,7 @@ _LTSurgePostBattleAdviceText::
 	done
 
 _LTSurgeThunderBadgeInfoText::
-	text "THUNDERBADGE"
+	text "MAGNETBADGE"
 	line "WILL:"
 	
 	para "SPEED"
@@ -71,7 +71,7 @@ _ReceivedThunderBadgeText::
 
 	para "PLAYER WILL"
 
-	para "THUNDERBADGE!"
+	para "MAGNETBADGE!"
 	prompt
 
 _VermilionGymBattleText1::

@@ -42,5 +42,5 @@ _ReceivedSoulBadgeText::
 
 	para "Here! Just, uh..."
 	line "Take the"
-	cont "SOULBADGE!"
+	cont "NEPUBADGE!"
 	prompt

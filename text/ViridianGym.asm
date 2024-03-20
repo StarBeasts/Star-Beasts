@@ -41,7 +41,7 @@ _ReceivedEarthBadgeText::
 
 	para "Very well."
 	line "You may have"
-	cont "the EARTHBADGE.@"
+	cont "the SUMMITBADGE.@"
 	text_end
 
 _GiovanniPostBattleAdviceText::
@@ -65,13 +65,20 @@ _GiovanniPostBattleAdviceText::
 	text_end
 
 _GiovanniEarthBadgeInfoText::
-	text "The EARTHBADGE"
+	text "The SUMMITBADGE"
 	line "makes BEASTS of"
 	cont "any level obey."
 
 	para "With it, you may"
 	line "enter the BEAST"
 	cont "LEAGUE."
+
+	para "It represents"
+	line "the end of your"
+	cont "training, and"
+	cont "the beginning"
+	cont "of your true"
+	cont "journey."
 
 	para "Consider it my"
 	line "parting gift to"

@@ -2088,7 +2088,7 @@ MissingNoACEvosMoves:
 
 MagnemiteEvosMoves:
 ; Evolutions
-	db EV_ITEM,THUNDER_STONE, 1, MAGNETON
+	db EV_ITEM, THUNDER_STONE, 1, MAGNETON
 	db 0
 ; Learnset
 	db 21, THUNDER_WAVE

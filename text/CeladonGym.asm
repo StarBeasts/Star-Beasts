@@ -49,7 +49,7 @@ _ReceivedRainbowBadgeText::
 	line "cookie!"
 
 	para "I'd say this here"
-	line "RAINBOWBADGE is"
+	line "PRIDEBADGE is"
 	cont "yours, now."
 	prompt
 
@@ -64,7 +64,7 @@ _ErikaPostBattleAdviceText::
 	done
 
 _ErikaRainbowBadgeInfoText::
-	text "The RAINBOWBADGE"
+	text "The PRIDEBADGE"
 	line "will make BEASTS"
 	cont "up to L50 obey."
 
@@ -72,6 +72,10 @@ _ErikaRainbowBadgeInfoText::
 	line "BEASTS to use"
 	cont "STRENGTH in and"
 	cont "out of battle."
+
+	para "Show 'em how"
+	line "tough ya really"
+	cont "are, ha ha!"
 
 	para "Oh, and don't"
 	line "forget this!"
