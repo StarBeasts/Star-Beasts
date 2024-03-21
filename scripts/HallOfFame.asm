@@ -94,10 +94,28 @@ HallofFameRoomScript1:
 	call DisplayTextID
 	ld a, $ff
 	ld [wJoyIgnore], a
+	ld a, [wPlayerStarter]
+	cp STARTER1
+	jr z, .hide3
+	cp STARTER2
+	jr z, .hide1
+	ld a, HS_STARTER_BALL_2
+	jr .hideStarterBall
+.hide3
+	ld a, HS_STARTER_BALL_3
+	jr .hideStarterBall
+.hide1
+	ld a, HS_STARTER_BALL_1
+.hideStarterBall
+	ld [wMissableObjectIndex], a
+	predef HideObject
 	ld a, HS_CERULEAN_CAVE_GUY
 	ld [wMissableObjectIndex], a
 	predef HideObject
      ld a, HS_ROUTE_20_GUARD
+     ld [wMissableObjectIndex], a
+     predef HideObject
+     ld a, HS_ROUTE_15_LORELEI
      ld [wMissableObjectIndex], a
      predef HideObject
 	ld a, $2

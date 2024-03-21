@@ -304,6 +304,7 @@ Route12HS:
 	db ROUTE_12, $09, SHOW
 	db ROUTE_12, $0A, SHOW
 Route15HS:
+	db ROUTE_15, $0A, SHOW
 	db ROUTE_15, $0B, SHOW
 Route16HS:
 	db ROUTE_16, $07, SHOW
