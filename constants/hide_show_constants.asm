@@ -239,4 +239,5 @@ DEF SHOW EQU $15
 	const HS_ARTICUNO                      ; E3 X
 	const HS_OWAI					  ; E4
 	const HS_VULTURNUS			       ; E5
+	const HS_ROUTE_20_GUARD			  ; E6
 DEF NUM_HS_OBJECTS EQU const_value

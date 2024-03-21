@@ -34,7 +34,7 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw NoHS
-	dw NoHS
+	dw Route20HS
 	dw NoHS
 	dw Route22HS
 	dw NoHS
@@ -568,5 +568,7 @@ OwaiHotelHS:
 	db OWAI_HOTEL, $02, SHOW
 VultMazeHS:
 	db VULT_MAZE, $01, SHOW
+Route20HS:
+	db ROUTE_20, $0B, SHOW ; hides if set to hide, so it clearly works to SOME extent
 	db $FF, $01, SHOW ; end
 	assert_table_length NUM_HS_OBJECTS + 1
