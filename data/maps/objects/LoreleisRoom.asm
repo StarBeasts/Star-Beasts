@@ -10,6 +10,6 @@ LoreleisRoom_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  5,  2, SPRITE_GIRL, STAY, DOWN, 1, OPP_SABRINA, 1
+	object_event  5,  2, SPRITE_DAISY, STAY, DOWN, 1, OPP_SABRINA, 1
 
 	def_warps_to LORELEIS_ROOM
