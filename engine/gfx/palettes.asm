@@ -159,6 +159,8 @@ SetPal_Overworld:
 	jr z, .grey
 	cp VULT_MAZE
 	jr z, .caveOrBruno
+	cp VILLA_1F
+	jr z, .pallet
 	cp CERULEAN_CAVE_2F
 	jr c, .normalDungeonOrBuilding
 	cp CERULEAN_CAVE_1F + 1
@@ -212,6 +214,10 @@ SetPal_Overworld:
 .purpleandRed
 	ld a, PAL_PURPLEANDRED - 1
 	jr .town
+.pallet
+	ld a, PAL_PALLET - 1
+	jr .town
+
 
 
 ; used when a Pokemon is the only thing on the screen

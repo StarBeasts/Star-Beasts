@@ -1255,4 +1255,10 @@ INCLUDE "scripts/VultMaze.asm"
 INCLUDE "data/maps/objects/VultMaze.asm"
 VultMaze_Blocks: INCBIN "maps/VultMaze.blk"
 
+SECTION "Maps 22", ROMX
+
+INCLUDE "data/maps/headers/Villa1F.asm"
+INCLUDE "scripts/Villa1F.asm"
+INCLUDE "data/maps/objects/Villa1F.asm"
+Villa1F_Blocks: INCBIN "maps/Villa1F.blk"
 

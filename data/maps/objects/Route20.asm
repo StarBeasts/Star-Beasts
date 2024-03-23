@@ -4,6 +4,7 @@ Route20_Object:
 	def_warp_events
 	warp_event 48,  5, SEAFOAM_ISLANDS_1F, 1
 	warp_event 58,  9, SEAFOAM_ISLANDS_1F, 3
+	warp_event 19,  7, VILLA_1F, 4
 
 	def_bg_events
 	bg_event 51,  7, 12 ; Route20Text12

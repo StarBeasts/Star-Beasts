@@ -112,7 +112,7 @@ MapHeaderPointers::
 	dw VictoryRoad1F_h
 	dw OwaiHotel_h; UNUSED_MAP_6D
 	dw VultMaze_h ; UNUSED_MAP_6E
-	dw LancesRoom_h ; UNUSED_MAP_6F
+	dw Villa1F_h; UNUSED_MAP_6F
 	dw LancesRoom_h ; UNUSED_MAP_70
 	dw LancesRoom_h ; this is the used version
 	dw LancesRoom_h ; UNUSED_MAP_72
