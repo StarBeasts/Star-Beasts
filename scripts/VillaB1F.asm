@@ -28,7 +28,7 @@ VillaB1F_TextPointers:
 VillaB1FTrainerHeaders:
 	def_trainers 3
 VillaB1FTrainerHeader0:
-	trainer EVENT_BEAT_VILLA_B1F_TRAINER_0, 4, VillaB1FBattleText1, VillaB1FEndBattleText1, VillaB1FAfterBattleText1
+	trainer EVENT_BEAT_VILLA_B1F_TRAINER_0, 0, VillaB1FBattleText1, VillaB1FEndBattleText1, VillaB1FAfterBattleText1
 	db -1 ; end
 
 VillaB1FText1:
