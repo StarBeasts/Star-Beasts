@@ -1990,7 +1990,8 @@ wViridianMartCurScript:: db
 wRoute22GateCurScript:: db
 wCeruleanCityCurScript:: db
 wVultMazeCurScript:: db
-	ds 6
+wVillaB1FCurScript:: db
+	ds 5
 wSSAnneBowCurScript:: db
 wViridianForestCurScript:: db
 wMuseum1FCurScript:: db

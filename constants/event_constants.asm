@@ -343,7 +343,6 @@
 	const EVENT_FIGHT_ROUTE12_SNORLAX
 	const EVENT_BEAT_ROUTE12_SNORLAX
 	const EVENT_BEAT_VULTURNUS
-	const EVENT_BEAT_VILLA_B1F_TRAINER_0
 
 ; Route 13 events
 	const_next $490
@@ -778,6 +777,11 @@ DEF INDIGO_PLATEAU_EVENTS_END EQU const_value - 1
 	const EVENT_SEAFOAM4_BOULDER2_DOWN_HOLE
 	const_skip 8
 	const EVENT_BEAT_ARTICUNO
+
+; Villa
+ 	const_next $9DB
+	const EVENT_BEAT_VILLA_B1F_TRAINER_0
+
 
 ; End of events
 	const_next $A00
