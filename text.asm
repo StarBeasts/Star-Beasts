@@ -275,6 +275,7 @@ INCLUDE "text/GlitchRoom.asm"
 INCLUDE "text/OwaiHotel.asm"
 INCLUDE "text/VultMaze.asm"
 INCLUDE "text/Villa1F.asm"
+INCLUDE "text/VillaB1F.asm"
 
 SECTION "Pokédex Text", ROMX
 

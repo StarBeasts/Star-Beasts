@@ -16,7 +16,7 @@ VultMaze_TextPointers:
 	dw VulturnusText
 
 VultMazeTrainerHeaders:
-	def_trainers 7
+	def_trainers 6
 VulturnusTrainerHeader:
 	trainer EVENT_BEAT_VULTURNUS, 0, VulturnusBattleText, VulturnusBattleText, VulturnusBattleText
 	db -1 ; end

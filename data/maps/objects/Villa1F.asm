@@ -3,7 +3,7 @@ Villa1F_Object:
 
 	def_warp_events
 	warp_event  4,  1, VIRIDIAN_FOREST_NORTH_GATE, 3
-	warp_event  8,  1, VIRIDIAN_FOREST_NORTH_GATE, 4
+	warp_event  8,  1, VILLA_B1F, 1
 	warp_event  4,  9, LAST_MAP, 3
 	warp_event  5,  9, LAST_MAP, 3
 

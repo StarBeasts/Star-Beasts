@@ -131,7 +131,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const OWAI_HOTEL,                    4,  10 ; $6D
 	map_const VULT_MAZE,                     7,  15 ; $6E
 	map_const VILLA_1F,                  		5,  5 ; $6F
-	map_const UNUSED_MAP_70,                  0,  0 ; $70
+	map_const VILLA_B1F,                  	5,  4 ; $70
 	map_const LANCES_ROOM,                   13, 13 ; $71
 	map_const UNUSED_MAP_72,                  0,  0 ; $72
 	map_const UNUSED_MAP_73,                  0,  0 ; $73

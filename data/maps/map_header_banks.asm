@@ -113,7 +113,7 @@ MapHeaderBanks::
 	db BANK(OwaiHotel_h)
 	db BANK(VultMaze_h)
 	db BANK(Villa1F_h)
-	db $1D ; UNUSED_MAP_70
+	db BANK(VillaB1F_h)
 	db BANK(LancesRoom_h)
 	db $1D ; UNUSED_MAP_72
 	db $1D ; UNUSED_MAP_73
