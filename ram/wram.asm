@@ -1991,7 +1991,8 @@ wRoute22GateCurScript:: db
 wCeruleanCityCurScript:: db
 wVultMazeCurScript:: db
 wVillaB1FCurScript:: db
-	ds 5
+wVilla2FCurScript:: db
+	ds 4
 wSSAnneBowCurScript:: db
 wViridianForestCurScript:: db
 wMuseum1FCurScript:: db

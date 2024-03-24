@@ -1267,4 +1267,8 @@ INCLUDE "scripts/VillaB1F.asm"
 INCLUDE "data/maps/objects/VillaB1F.asm"
 VillaB1F_Blocks: INCBIN "maps/VillaB1F.blk"
 
+INCLUDE "data/maps/headers/Villa2F.asm"
+INCLUDE "scripts/Villa2F.asm"
+INCLUDE "data/maps/objects/Villa2F.asm"
+Villa2F_Blocks: INCBIN "maps/Villa2F.blk"
 

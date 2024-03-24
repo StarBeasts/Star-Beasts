@@ -781,6 +781,7 @@ DEF INDIGO_PLATEAU_EVENTS_END EQU const_value - 1
 ; Villa
  	const_next $9DB
 	const EVENT_BEAT_VILLA_B1F_TRAINER_0
+	const EVENT_BEAT_VILLA_2F_TRAINER_0
 
 
 ; End of events

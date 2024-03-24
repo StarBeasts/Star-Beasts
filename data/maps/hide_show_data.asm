@@ -117,7 +117,7 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw NoHS
-	dw NoHS
+	dw Villa2FHS
 	dw NoHS
 	dw NoHS
 	dw NoHS
@@ -571,5 +571,7 @@ VultMazeHS:
 	db VULT_MAZE, $01, SHOW
 Route20HS:
 	db ROUTE_20, $0B, SHOW ; hides if set to hide, so it clearly works to SOME extent
+Villa2FHS:
+	db VILLA_2F, $02, SHOW ; mon gift
 	db $FF, $01, SHOW ; end
 	assert_table_length NUM_HS_OBJECTS + 1

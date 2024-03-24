@@ -161,6 +161,10 @@ SetPal_Overworld:
 	jr z, .caveOrBruno
 	cp VILLA_1F
 	jr z, .pallet
+	cp VILLA_B1F
+	jr z, .grey
+	cp VILLA_2F
+	jr z, .pallet
 	cp CERULEAN_CAVE_2F
 	jr c, .normalDungeonOrBuilding
 	cp CERULEAN_CAVE_1F + 1
