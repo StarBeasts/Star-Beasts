@@ -3,7 +3,7 @@ Villa2F_Object:
 
 	def_warp_events
 	warp_event  9,  9, VILLA_1F, 1
-	warp_event  9,  1, VILLA_1F, 1
+	warp_event  9,  1, VILLA_3F, 2
 
 
 	def_bg_events

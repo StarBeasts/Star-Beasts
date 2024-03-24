@@ -277,6 +277,7 @@ INCLUDE "text/VultMaze.asm"
 INCLUDE "text/Villa1F.asm"
 INCLUDE "text/VillaB1F.asm"
 INCLUDE "text/Villa2F.asm"
+INCLUDE "text/Villa3F.asm"
 
 SECTION "Pokédex Text", ROMX
 

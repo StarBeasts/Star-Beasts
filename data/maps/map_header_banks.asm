@@ -116,7 +116,7 @@ MapHeaderBanks::
 	db BANK(VillaB1F_h)
 	db BANK(LancesRoom_h)
 	db BANK(Villa2F_h)
-	db $1D ; UNUSED_MAP_73
+	db BANK(Villa3F_h)
 	db $1D ; UNUSED_MAP_74
 	db $1D ; UNUSED_MAP_75
 	db BANK(HallOfFame_h)

@@ -115,8 +115,8 @@ MapHeaderPointers::
 	dw Villa1F_h; UNUSED_MAP_6F
 	dw VillaB1F_h; UNUSED_MAP_70
 	dw LancesRoom_h ; this is the used version
-	dw Villa2F_h; UNUSED_MAP_6F
-	dw LancesRoom_h ; UNUSED_MAP_73
+	dw Villa2F_h; UNUSED_MAP_72
+	dw Villa3F_h; UNUSED_MAP_73
 	dw LancesRoom_h ; UNUSED_MAP_74
 	dw LancesRoom_h ; UNUSED_MAP_75
 	dw HallOfFame_h

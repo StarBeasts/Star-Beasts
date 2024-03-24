@@ -134,7 +134,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const VILLA_B1F,                  	5,  4 ; $70
 	map_const LANCES_ROOM,                   13, 13 ; $71
 	map_const VILLA_2F,                  5,  5 ; $72
-	map_const UNUSED_MAP_73,                  0,  0 ; $73
+	map_const VILLA_3F,                  5,  5 ; $73
 	map_const UNUSED_MAP_74,                  0,  0 ; $74
 	map_const UNUSED_MAP_75,                  0,  0 ; $75
 	map_const HALL_OF_FAME,                   5,  4 ; $76
