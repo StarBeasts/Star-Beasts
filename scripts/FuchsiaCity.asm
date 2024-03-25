@@ -89,7 +89,7 @@ FuchsiaCityText20:
 	text_asm
 	ld hl, FuchsiaCityVoltorbText
 	call PrintText
-	ld a, VOLTORB
+	ld a, EXEGGCUTE
 	call DisplayPokedex
 	jp TextScriptEnd
 
@@ -101,7 +101,7 @@ FuchsiaCityText21:
 	text_asm
 	ld hl, FuchsiaCityKangaskhanText
 	call PrintText
-	ld a, KANGASKHAN
+	ld a, TAUROS
 	call DisplayPokedex
 	jp TextScriptEnd
 
@@ -113,7 +113,7 @@ FuchsiaCityText22:
 	text_asm
 	ld hl, FuchsiaCitySlowpokeText
 	call PrintText
-	ld a, SLOWPOKE
+	ld a, DODRIO
 	call DisplayPokedex
 	jp TextScriptEnd
 

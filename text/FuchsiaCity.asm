@@ -52,8 +52,8 @@ _FuchsiaCityText17::
 	done
 
 _FuchsiaCityText18::
-	text "TEMPLE OF"
-	line "NEPUTAIL"
+	text "NEPUTAIL"
+	line "FAN CLUB"
 
 	para "In smaller text,"
 	line "it reads:"

@@ -73,6 +73,7 @@ SpriteSheetPointerTable:
 	overworld_sprite VulturnusSprite, 12	;SPRITE_VULTURNUS
 	overworld_sprite OfficerSprite, 12		; SPRITE_OFFICER
 	overworld_sprite LisbethSprite, 12		; SPRITE_LISBETH
+	overworld_sprite MbikerSprite, 12		; SPRITE_MBIKER
 	overworld_sprite PokeBallSprite, 4          ; SPRITE_POKE_BALL
 	overworld_sprite FossilSprite, 4            ; SPRITE_FOSSIL
 	overworld_sprite BoulderSprite, 4           ; SPRITE_BOULDER

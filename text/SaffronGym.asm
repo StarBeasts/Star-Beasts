@@ -19,9 +19,9 @@ _SabrinaPreBattleText::
 	done
 
 _ReceivedMarshBadgeText::
-	text "Damnit!"
-	line "How'd I lose to"
-	cont "a kid?!"
+	text "Damn"
+	line "it! How'd I lose"
+	cont "to a kid?!"
 
 	para "What? A badge?"
 	line "You mean those"

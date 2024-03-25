@@ -16,5 +16,5 @@ _CopycatsHouse1FText2::
 	done
 
 _CopycatsHouse1FText3::
-	text "ARDORAGON: Iii!@"
+	text "ARDORAGON: Bwoow!@"
 	text_end

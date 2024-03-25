@@ -4,7 +4,7 @@ _FuchsiaPokecenterText1::
 	cont "strong BEAST."
 
 	para "It's tough, but"
-	line "you have to raise"
+	line "you gotta raise"
 	cont "them evenly."
 	done
 
