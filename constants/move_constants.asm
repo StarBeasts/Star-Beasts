@@ -182,6 +182,7 @@
 	const MEGAHORN     ; ae
 	const DARK_PULSE   ; af
 	const SCALD	   ; b0
+	const SPIRIT_BOMB 	;
 	const METAL_CLAW   ; b1
 	const STRUGGLE     ; b2
 DEF NUM_ATTACKS EQU const_value - 1

@@ -186,7 +186,8 @@ Moves:
 	move BUG_BITE,     FLINCH_SIDE_EFFECT1,          60, BUG, 100, 20	
 	move MEGAHORN,     NO_ADDITIONAL_EFFECT,         120, BUG, 85, 10	
 	move DARK_PULSE,   FLINCH_SIDE_EFFECT1,         80, DARK, 100, 15	
-	move SCALD,        BURN_SIDE_EFFECT2,           80, WATER, 100, 15		
+	move SCALD,        BURN_SIDE_EFFECT2,           80, WATER, 100, 15	
+	move SPIRIT_BOMB,   CHARGE_EFFECT,             250, MYSTIC, 100, 5	
 	move METAL_CLAW,   DEFENSE_DOWN_SIDE_EFFECT,    50, STEEL, 100, 35		
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS

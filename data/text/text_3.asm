@@ -144,7 +144,10 @@ _ChargeMoveEffectText::
 
 _MadeWhirlwindText::
 	text_start
-	line "made a whirlwind!"
+	line "began gathering"
+	cont "ki from every"
+	cont "corner of the"
+	cont "EARTH!"
 	prompt
 
 _TookInSunlightText::

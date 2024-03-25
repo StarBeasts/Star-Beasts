@@ -176,6 +176,7 @@ MoveNames::
 	li "MEGAHORN"
 	li "DARK PULSE"
 	li "SCALD"
+	li "SPIRIT BOMB"
 	li "METAL CLAW"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

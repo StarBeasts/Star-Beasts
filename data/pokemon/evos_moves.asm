@@ -1058,6 +1058,7 @@ MeowthEvosMoves:
 	db 17, SHADOW_CLAW
 	db 24, SLASH
 	db 33, RECOVER
+	db 38, FIRE_SPIN
 	db 44, PKFIRE
 	db 0
 
@@ -1765,6 +1766,7 @@ PersianEvosMoves:
 	db 17, SHADOW_CLAW
 	db 24, SLASH
 	db 37, RECOVER
+	db 44, FIRE_SPIN
 	db 51, PKFIRE
 	db 0
 
