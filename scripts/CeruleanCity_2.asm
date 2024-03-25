@@ -12,5 +12,8 @@ CeruleanHideRocket:
 	ld a, HS_CERULEAN_ROCKET
 	ld [wMissableObjectIndex], a
 	predef HideObject
+	ld a, HS_SECRET_GARDEN_GUARD
+	ld [wMissableObjectIndex], a
+	predef HideObject
 	call GBFadeInFromBlack
 	ret

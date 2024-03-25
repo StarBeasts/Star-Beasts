@@ -34,7 +34,7 @@ SuperRodData:
 	dbw CERULEAN_CAVE_2F,    .Group9
 	dbw CERULEAN_CAVE_B1F,   .Group9
 	dbw CERULEAN_CAVE_1F,    .Group9
-	dbw VILLA_3F,		   .Group9
+	dbw VILLA_3F,		   .Group11
 	db -1 ; end
 
 ; fishing groups
@@ -100,3 +100,11 @@ SuperRodData:
 	db 5,DRATINI
 	db 10,DRATINI
 	db 15,DRATINI
+
+.Group11:
+	db 4
+	db 50, LAPRAS
+	db 50, GYARADOS
+	db 50, BLASTOISE
+	db 55, DRAGONITE
+

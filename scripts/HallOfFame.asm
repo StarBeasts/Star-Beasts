@@ -41,6 +41,7 @@ HallofFameRoomScript2:
 	ld [wHallOfFameCurScript], a
 	; Elite 4 events
 	ResetEventRange INDIGO_PLATEAU_EVENTS_START, INDIGO_PLATEAU_EVENTS_END, 1
+	ResetEvent EVENT_BEAT_VILLA_5F_TRAINER_0
 	xor a
 	ld [wHallOfFameCurScript], a
 	ld a, PALLET_TOWN

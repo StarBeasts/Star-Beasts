@@ -242,4 +242,6 @@ DEF SHOW EQU $15
 	const HS_VULTURNUS			       ; E5
 	const HS_ROUTE_20_GUARD			  ; E6
 	const HS_VILLA_LAPRAS_GIFT		        ; E7
+	const HS_SECRET_GARDEN_GUARD
+	const HS_FLEWNICORN
 DEF NUM_HS_OBJECTS EQU const_value

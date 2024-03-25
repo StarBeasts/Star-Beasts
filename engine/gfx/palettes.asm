@@ -165,6 +165,14 @@ SetPal_Overworld:
 	jr z, .grey
 	cp VILLA_2F
 	jr z, .pallet
+	cp VILLA_3F
+	jr z, .pallet
+	cp VILLA_4F
+	jr z, .black
+	cp VILLA_5F
+	jr z, .pallet
+	cp SECRET_GARDEN
+	jr z, .blueMon
 	cp CERULEAN_CAVE_2F
 	jr c, .normalDungeonOrBuilding
 	cp CERULEAN_CAVE_1F + 1
@@ -221,7 +229,9 @@ SetPal_Overworld:
 .pallet
 	ld a, PAL_PALLET - 1
 	jr .town
-
+.black
+	ld a, PAL_BLACK - 1
+	jr .town
 
 
 ; used when a Pokemon is the only thing on the screen

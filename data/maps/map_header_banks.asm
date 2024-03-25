@@ -117,8 +117,8 @@ MapHeaderBanks::
 	db BANK(LancesRoom_h)
 	db BANK(Villa2F_h)
 	db BANK(Villa3F_h)
-	db $1D ; UNUSED_MAP_74
-	db $1D ; UNUSED_MAP_75
+	db BANK(Villa4F_h)
+	db BANK(Villa5F_h)
 	db BANK(HallOfFame_h)
 	db BANK(UndergroundPathNorthSouth_h)
 	db BANK(ChampionsRoom_h)
@@ -205,8 +205,8 @@ MapHeaderBanks::
 	db BANK(RocketHideoutB3F_h)
 	db BANK(RocketHideoutB4F_h)
 	db BANK(RocketHideoutElevator_h)
-	db $01 ; UNUSED_MAP_CC
-	db $01 ; UNUSED_MAP_CD
+	db BANK(SecretGarden_h)
+	db BANK(SecretPath_h)
 	db $01 ; UNUSED_MAP_CE
 	db BANK(SilphCo2F_h)
 	db BANK(SilphCo3F_h)

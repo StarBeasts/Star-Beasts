@@ -3,9 +3,11 @@ Route25_Object:
 
 	def_warp_events
 	warp_event 45,  3, BILLS_HOUSE, 1
+	warp_event 51,  3, SECRET_PATH, 1
 
 	def_bg_events
 	bg_event 43,  3, 11 ; Route25Text11
+	bg_event 53,  5, 12 ; Route25Text11
 
 	def_object_events
 	object_event 14,  2, SPRITE_YOUNGSTER, STAY, DOWN, 1, OPP_YOUNGSTER, 5

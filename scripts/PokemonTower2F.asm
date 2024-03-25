@@ -90,7 +90,6 @@ PokemonTower2Script1:
 	ld a, SFX_STOP_ALL_MUSIC
 	ld c, 0
 	ld a, SFX_STOP_ALL_MUSIC
-	call PlayMusic
 	ld a, $2
 	ld [wPokemonTower2FCurScript], a
 	ld [wCurMapScript], a

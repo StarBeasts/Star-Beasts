@@ -207,7 +207,7 @@ MapHSPointers:
 	dw RocketHideoutB3FHS
 	dw RocketHideoutB4FHS
 	dw NoHS
-	dw NoHS
+	dw SecretGardenHS
 	dw NoHS
 	dw NoHS
 	dw SilphCo2FHS
@@ -572,6 +572,9 @@ VultMazeHS:
 Route20HS:
 	db ROUTE_20, $0B, SHOW ; hides if set to hide, so it clearly works to SOME extent
 Villa2FHS:
-	db VILLA_2F, $02, SHOW ; mon gift
+	db VILLA_2F, $01, SHOW ; mon gift
+SecretGardenHS:
+	db SECRET_GARDEN, $01, SHOW ; guard
+	db SECRET_GARDEN, $02, SHOW ; mon gift
 	db $FF, $01, SHOW ; end
 	assert_table_length NUM_HS_OBJECTS + 1

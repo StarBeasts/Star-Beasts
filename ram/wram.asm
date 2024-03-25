@@ -1992,7 +1992,8 @@ wCeruleanCityCurScript:: db
 wVultMazeCurScript:: db
 wVillaB1FCurScript:: db
 wVilla2FCurScript:: db
-	ds 4
+wVilla5FCurScript:: db
+	ds 3
 wSSAnneBowCurScript:: db
 wViridianForestCurScript:: db
 wMuseum1FCurScript:: db
@@ -2074,7 +2075,8 @@ wSeafoamIslandsB3FCurScript:: db
 wRoute23CurScript:: db
 wSeafoamIslandsB4FCurScript:: db
 wRoute18Gate1FCurScript:: db
-	ds 6
+wSecretGardenCurScript:: db
+	ds 5
 wGameProgressFlagsEnd::
 
 UNION

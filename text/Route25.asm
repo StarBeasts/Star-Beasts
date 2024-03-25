@@ -166,3 +166,11 @@ _Route25Text11::
 	text "SEA COTTAGE"
 	line "BILL lives here!"
 	done
+
+_Route25Text12::
+	text "BILL'S SECRET"
+	line "GARDEN"
+
+	para "KEEP OUT"
+	done
+

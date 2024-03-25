@@ -16,14 +16,38 @@ Villa2F_TextPointers:
 	dw Villa2FText1
 	dw Villa2FText2
 	dw Villa2FText3
+	dw Villa2FText4
+	dw Villa2FText5
+	dw Villa2FText6
+	dw Villa2FText7
+	dw Villa2FText8
 
 Villa2FTrainerHeaders:
 	def_trainers 4
 Villa2FTrainerHeader0:
-	trainer EVENT_BEAT_VILLA_2F_TRAINER_0, 0, Villa2FBattleText1, Villa2FEndBattleText1, Villa2FAfterBattleText1
+	trainer EVENT_BEAT_VILLA_2F_TRAINER_0, 3, Villa2FBattleText1, Villa2FEndBattleText1, Villa2FAfterBattleText1
 	db -1 ; end
 
 Villa2FText1:
+	text_asm
+	lb bc, MAGMAR, 60
+	call GivePokemon
+	jr nc, .party_full
+	ld a, HS_VILLA_LAPRAS_GIFT
+	ld [wMissableObjectIndex], a
+	predef HideObject
+.party_full
+	jp TextScriptEnd
+
+Villa2FText2:
+	text_far _Villa2FText2
+	text_end
+
+Villa2FText3:
+	text_far _Villa2FText3
+	text_end
+
+Villa2FText4:
 	text_asm
 	ld hl, Villa2FTrainerHeader0
 	call TalkToTrainer
@@ -41,18 +65,6 @@ Villa2FAfterBattleText1:
 	text_far _Villa2FAfterBattleText1
 	text_end
 
-Villa2FText2:			; DO NOT USE, BROKEN
-	text_far _Villa2FText2
-	text_end
-
-Villa2FText3:
-	text_far _Villa2FText3
-	text_end
-
-Villa2FText4:
-	text_far _Villa2FText4
-	text_end
-
 Villa2FText5:
 	text_far _Villa2FText5
 	text_end
@@ -68,17 +80,4 @@ Villa2FText7:
 Villa2FText8:
 	text_far _Villa2FText8
 	text_end
-
-Villa2FText9:
-	text_far _Villa2FText9
-	text_end
-
-Villa2FText10:
-	text_far _Villa2FText10
-	text_end
-
-Villa2FText11:
-	text_far _Villa2FText11
-	text_end
-
 

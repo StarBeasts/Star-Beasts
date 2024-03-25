@@ -515,7 +515,7 @@ ProfOakData:
 
 ChiefData:
 ; true final boss
-	db $FF, 76, RAICHU, 72, HITMONCHAN, 74, CHARIZARD, 74, VENUSAUR, 74, BLASTOISE, 74, SNORLAX, 0
+	db $FF, 81, RAICHU, 73, HITMONCHAN, 77, CHARIZARD, 77, VENUSAUR, 77, BLASTOISE, 75, SNORLAX, 0
 
 ScientistData:
 ; Unused

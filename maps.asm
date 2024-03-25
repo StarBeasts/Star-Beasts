@@ -1277,4 +1277,23 @@ INCLUDE "scripts/Villa3F.asm"
 INCLUDE "data/maps/objects/Villa3F.asm"
 Villa3F_Blocks: INCBIN "maps/Villa3F.blk"
 
+INCLUDE "data/maps/headers/Villa4F.asm"
+INCLUDE "scripts/Villa4F.asm"
+INCLUDE "data/maps/objects/Villa4F.asm"
+Villa4F_Blocks: INCBIN "maps/Villa4F.blk"
+
+INCLUDE "data/maps/headers/Villa5F.asm"
+INCLUDE "scripts/Villa5F.asm"
+INCLUDE "data/maps/objects/Villa5F.asm"
+Villa5F_Blocks: INCBIN "maps/Villa5F.blk"
+
+INCLUDE "data/maps/headers/SecretGarden.asm"
+INCLUDE "scripts/SecretGarden.asm"
+INCLUDE "data/maps/objects/SecretGarden.asm"
+SecretGarden_Blocks: INCBIN "maps/SecretGarden.blk"
+
+INCLUDE "data/maps/headers/SecretPath.asm"
+INCLUDE "scripts/SecretPath.asm"
+INCLUDE "data/maps/objects/SecretPath.asm"
+SecretPath_Blocks: INCBIN "maps/SecretPath.blk"
 
