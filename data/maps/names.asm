@@ -51,3 +51,11 @@ PokemonMansionName:  db "BEAST MANSION@"
 SafariZoneName:      db "SAFARI ZONE@"
 CeruleanCaveName:    db "CERULEAN CAVE@"
 PowerPlantName:      db "POWER PLANT@"
+SecretGardenName:    db "SECRET GARDEN@"
+MoleHoleName:        db "???@"
+VultMazeName:        db "@"
+VillaName:           db "@"
+
+
+
+

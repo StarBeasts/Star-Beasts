@@ -35,6 +35,7 @@ SuperRodData:
 	dbw CERULEAN_CAVE_B1F,   .Group9
 	dbw CERULEAN_CAVE_1F,    .Group9
 	dbw VILLA_3F,		   .Group11
+	dbw SECRET_GARDEN,		.Group4
 	db -1 ; end
 
 ; fishing groups

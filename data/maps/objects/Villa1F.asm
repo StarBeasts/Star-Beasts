@@ -14,7 +14,7 @@ Villa1F_Object:
 	def_object_events
 	object_event  2,  3, SPRITE_CLERK, STAY, RIGHT, 1 ; person
 	object_event  1,  3, SPRITE_CLERK, STAY, DOWN, 2 ; person
-	object_event  9,  8, SPRITE_OFFICER, STAY, UP, 3 ; person
+	object_event  9,  8, SPRITE_GAMBLER, STAY, UP, 3 ; person
 	object_event  1,  6, SPRITE_BIRD, STAY, DOWN, 4 ; person
 	object_event  3,  6, SPRITE_MONSTER, STAY, DOWN, 4 ; person
 	object_event  1,  7, SPRITE_FAIRY, STAY, DOWN, 4 ; person

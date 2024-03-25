@@ -105,12 +105,12 @@ WildDataPointers:
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
-	dw NothingWildMons
+	dw MoleHoleWildMons
 	dw NothingWildMons
 	dw NothingWildMons
 	dw VictoryRoad1FWildMons
 	dw NothingWildMons
-	dw NothingWildMons
+	dw VultMazeWildMons
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
@@ -204,7 +204,7 @@ WildDataPointers:
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
-	dw NothingWildMons
+	dw SecretGardenWildMons
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
@@ -322,4 +322,7 @@ INCLUDE "data/wild/maps/VictoryRoad3F.asm"
 INCLUDE "data/wild/maps/VictoryRoad1F.asm"
 INCLUDE "data/wild/maps/DiglettsCave.asm"
 INCLUDE "data/wild/maps/Villa3F.asm"
+INCLUDE "data/wild/maps/SecretGarden.asm"
+INCLUDE "data/wild/maps/MoleHole.asm"
+INCLUDE "data/wild/maps/VultMaze.asm"
 
