@@ -20,31 +20,41 @@ _SSAnne8EndBattleText1::
 	prompt
 
 _SSAnne8AfterBattleText1::
-	text "I say, what is"
-	line "that terrible"
-	cont "racket in that"
-	cont "room next door?"
+	text "I say, what on"
+	line "EARTH is that"
+	cont "deranged man"
+	cont "babbling on"
+	cont "about next door?"
+
+	para "I've heard more"
+	line "coherent rants"
+	cont "from my mother,"
+	cont "and she's ninety!"
 	done
 
 _SSAnne8BattleText2::
-	text "You pup! This"
-	line "room is supposed"
-	cont "to be private!"
+	text "Help! Help!"
+	line "That guy over"
+	cont "there abducted"
+	cont "me! He's holding"
+	cont "me hostage!"
 	done
 
 _SSAnne8EndBattleText2::
-	text "Humph!"
-	line "How rude!"
+	text "Filthy"
+	line "commies!"
+
+	para "You're all"
+	line "commies!"
 	prompt
 
 _SSAnne8AfterBattleText2::
-	text "Ignore the woman"
-	line "in the corner."
-	
-	para "I paid good money"
-	line "for her, so she"
-	cont "isn't going"
-	cont "anywhere."
+	text "They're taking"
+	line "people and"
+	cont "trafficking them!"
+
+	para "Where the hell"
+	line "are the cars!?"
 	done
 
 _SSAnne8BattleText3::
@@ -103,9 +113,24 @@ _SSAnne8Text7::
 	done
 
 _SSAnne8Text9::
-	text "HELP! HEEEELLP!!!"
-	line "THIS OLD MAN"
-	cont "ABDUCTED ME!"
+	text "Detective, why are"
+	line "you like this..."
+
+	para "Forgive my"
+	line "partner over"
+	cont "there..."
+
+	para "He's very..."
+
+	para "Ahem."
+
+	para "'Passionate.'"
+
+	para "About his job."
+
+	para "He drank a lot of"
+	line "'Passion' right"
+	cont "before we boarded."
 	done
 
 _SSAnne8Text11::
