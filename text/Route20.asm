@@ -159,8 +159,9 @@ _Route20EndBattleText10::
 	prompt
 
 _Route20AfterBattleText10::
-	text "CINNABAR is a "
-	line "volcanic island!"
+	text "I wonder what's in"
+	line "that big building"
+	cont "next to us..."
 	done
 
 _Route20Text11::

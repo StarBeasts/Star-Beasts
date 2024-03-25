@@ -7,7 +7,7 @@ _KogaPostBattleAdviceText::
 
 	para "It is truly the"
 	line "greatest way to"
-	cont "spread the wrath"
+	cont "spread the glory"
 	cont "of NEPUTAIL!"
 	done
 
@@ -45,8 +45,13 @@ _TM06ExplanationText::
 	done
 
 _TM06NoRoomText::
-	text "Make space for"
-	line "this, fool!"
+	text "NEPUTAIL's the"
+	line "rat here, not"
+	cont "you!"
+
+	para "Pack rat, that"
+	line "is! You can't"
+	cont "carry my gift!"
 	done
 
 _FuchsiaGymBattleText1::
@@ -66,19 +71,19 @@ _FuchsiaGymAfterBattleText1::
 	done
 
 _FuchsiaGymBattleText2::
-	text "Do you accept the"
-	line "glory of NEPUTAIL?"
+	text "Have you heard"
+	line "of NEPUTAIL?"
 	done
 
 _FuchsiaGymEndBattleText2::
-	text "HERETIC!"
+	text "..."
+	line "NEPU-FAIL..."
 	prompt
 
 _FuchsiaGymAfterBattleText2::
 	text "NEPUTAIL's"
-	line "unending love"
-	cont "guides us all"
-	cont "to greatness."
+	line "a super cool"
+	cont "# BEAST!"
 	done
 
 _FuchsiaGymBattleText3::
@@ -98,8 +103,8 @@ _FuchsiaGymAfterBattleText3::
 	line "say that you"
 	cont "couldn't be here."
 	
-	para "I just made"
-	line "that up."
+	para "I just made that"
+	line "up to sound cool."
 	done
 
 _FuchsiaGymBattleText4::
@@ -115,17 +120,23 @@ _FuchsiaGymEndBattleText4::
 	prompt
 
 _FuchsiaGymAfterBattleText4::
-	text "NEPUTAIL's wrath"
-	line "is as bottomless"
-	cont "as His love."
+	text "I don't think"
+	line "NEPUTAIL cares"
+	cont "that I failed,"
+	cont "but it sure"
+	cont "sounded cool,"
+	cont "didn't it?"
 	done
 
 _FuchsiaGymBattleText5::
-	text "It is said that"
-	line "NEPUTAIL will"
-	cont "steal the Earth's"
-	cont "core, and cleanse"
-	cont "the wickedness!"
+	text "According to the"
+	line "old stories, the"
+	cont "wizard that"
+	cont "would become the"
+	cont "first NEPUTAIL"
+	cont "stole a powerful"
+	cont "jewel that gave"
+	cont "it magical powers!"
 	done
 
 _FuchsiaGymEndBattleText5::
@@ -141,7 +152,7 @@ _FuchsiaGymBattleText6::
 	text "Only once in a"
 	line "generation is a"
 	cont "person born that"
-	cont "can speak to"
+	cont "can control"
 	cont "NEPUTAIL..."
 	done
 
@@ -151,11 +162,10 @@ _FuchsiaGymEndBattleText6::
 	prompt
 
 _FuchsiaGymAfterBattleText6::
-	text "IVY speaks to"
+	text "IVY loves"
 	line "NEPUTAIL, and"
-	cont "spreads His"
-	cont "word across the"
-	cont "land."
+	cont "we here love"
+	cont "NEPUTAIL, too!"
 	done
 
 _FuchsiaGymGuidePreBattleText::

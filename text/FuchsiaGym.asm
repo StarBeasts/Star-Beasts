@@ -4,31 +4,30 @@ _KogaBeforeBattleText::
 	cont "legendary monster"
 	cont "NEPUTAIL!"
 
-	para "His whiskery"
+	para "Its whiskery"
 	line "glory guides us,"
 	cont "even in the"
 	cont "darkest of times!"
 
-	para "Not only that,"
-	line "the power He"
-	cont "grants comes with"
-	cont "many boons!"
+	para "I'm super crazy"
+	line "about, like,"
+	cont "the rich history"
+	cont "of NEPUTAIL!"
 
-	para "His glory is a"
-	line "pathway to many"
-	cont "abilities some"
-	cont "consider to be"
-	cont "unnatural."
+	para "They used to be"
+	line "wizards back in"
+	cont "the olden days,"
+	cont "or so the"
+	cont "legends say."
 
-	para "But. They. Are."
+	para "Either way."
 
-	para "Blind!"
-	line "Heathens, the lot"
-	cont "of them!"
+	para "NEPUTAIL is my"
+	line "favorite #"
+	cont "BEAST!"
 
-	para "Behold the glory"
-	line "of NEPUTAIL's"
-	cont "machinations!"
+	para "Allow me to"
+	line "show you why!"
 	done
 
 _ReceivedSoulBadgeText::

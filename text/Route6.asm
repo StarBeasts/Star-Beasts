@@ -63,9 +63,9 @@ _Route6EndBattleText4::
 	prompt
 
 _Route6AfterBattleText4::
-	text "Those cultists"
-	line "better stay"
-	cont "away from her..."
+	text "Those NEPUTAIL"
+	line "fan club guys"
+	cont "freak me out..."
 	done
 
 _Route6BattleText5::
