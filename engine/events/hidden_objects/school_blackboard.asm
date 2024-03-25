@@ -68,9 +68,9 @@ LinkCableHelpText2:
 	text_end
 
 HowToLinkText:
-	db   "HOW TO LINK"
-	next "COLOSSEUM"
-	next "TRADE CENTER"
+	db   "COMBAT"
+	next "DEFENSE"
+	next "MANUFACTURE"
 	next "STOP READING@"
 
 LinkCableInfoTexts:

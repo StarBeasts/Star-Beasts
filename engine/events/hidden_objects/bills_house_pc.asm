@@ -86,7 +86,7 @@ BillsHousePokemonList::
 	set 6, [hl]
 	hlcoord 0, 0
 	ld b, 10
-	ld c, 9
+	ld c, 11
 	call TextBoxBorder
 	hlcoord 2, 2
 	ld de, BillsMonListText
@@ -123,10 +123,10 @@ BillsHousePokemonListText1:
 	text_end
 
 BillsMonListText:
-	db   "EEVEE"
-	next "FLAREON"
-	next "JOLTEON"
-	next "VAPOREON"
+	db   "FLEWNICORN"
+	next "NOREHORSE"
+	next "THUNDRHAWK"
+	next "AQUAMENTUS"
 	next "CANCEL@"
 
 BillsHousePokemonListText2:

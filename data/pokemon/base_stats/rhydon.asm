@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/rhydon.pic", 0, 1 ; sprite dimensions
 	dw RhydonPicFront, RhydonPicBack
 
-	db MIST, POISON_GAS, SMOG, WATER_GUN; level 1 learnset
+	db MIST, WATER_GUN, NO_MOVE, NO_MOVE; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
