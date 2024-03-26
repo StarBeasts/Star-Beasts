@@ -63,7 +63,7 @@ _TM31NoRoomText::
 	text_end
 
 _CopycatsHouse2FText2::
-	text "CORDATUS: Kiiih!"
+	text "MARBITAR: Kiiih!"
 
 	para "PLEASE PLAY WITH"
 	line "MY MASTER."

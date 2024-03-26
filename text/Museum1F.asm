@@ -26,7 +26,7 @@ _Museum1FText_5c22e::
 
 	para "Oh, whatever!"
 	line "Do you know what"
-	cont "OBSIDIAN is?"
+	cont "that SKULL is?"
 	done
 
 _Museum1FText_5c233::
@@ -34,12 +34,15 @@ _Museum1FText_5c233::
 	line "somewhere trying"
 	cont "to resurrect"
 	cont "ancient BEASTS"
-	cont "from OBSIDIAN."
+	cont "from SKULLs"
+	cont "like this one."
 	done
 
 _Museum1FText_5c238::
-	text "OBSIDIAN is"
-	line "hardened magma."
+	text "That is the SKULL"
+	line "of DRUDEER, a"
+	cont "long extinct"
+	cont "# BEAST."
 	done
 
 _Museum1FText_5c23d::
@@ -54,16 +57,16 @@ _Museum1FText_5c242::
 
 _Museum1FText_5c251::
 	text "That is one"
-	line "magnificent"
-	cont "gemstone!"
+	line "magnificent SKULL!"
 	done
 
 _Museum1FText_5c28e::
 	text "Ssh! I think that"
-	line "this chunk of"
-	cont "OBSIDIAN contains"
-	cont "the soul of a"
-	cont "# BEAST!"
+	line "this ODD SKULL"
+	cont "contains the"
+	cont "remnants of the"
+	cont "soul of a #"
+	cont "BEAST!"
 
 	para "It would be great"
 	line "if we could"
@@ -83,12 +86,12 @@ _Museum1FText_5c28e::
 
 _ReceivedOldAmberText::
 	text "<PLAYER> received"
-	line "OBSIDIAN!@"
+	line "ODD SKULL!@"
 	text_end
 
 _Museum1FText_5c299::
-	text "Ssh! Get the"
-	line "OBSIDIAN checked!"
+	text "Ssh! Get the ODD"
+	line "SKULL checked!"
 	done
 
 _Museum1FText_5c29e::
@@ -101,11 +104,18 @@ _Museum1FText_5c2ad::
 	line "souls of very"
 	cont "rare, ancient"
 	cont "# BEASTS!"
+
+	para "What's that you"
+	line "say? One of"
+	cont "them is missing?"
+
+	para "Hahaha! Oh, you're"
+	line "such a kidder."
 	done
 
 _Museum1FText_5c2bc::
 	text "Despite its scary"
 	line "appearance,"
 	cont "looking at this"
-	cont "skull calms you."
+	cont "SKULL calms you."
 	done

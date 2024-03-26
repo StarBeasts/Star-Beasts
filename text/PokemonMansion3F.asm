@@ -32,7 +32,7 @@ _Mansion3Text5::
 	text "Log: I narrowly"
 	line "escaped my"
 	cont "encounter with"
-	cont "ZAGRUS."
+	cont "ALVARIS."
 
 	para "The rest of my"
 	line "research team..."

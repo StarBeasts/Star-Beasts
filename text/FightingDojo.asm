@@ -114,14 +114,16 @@ _FightingDojoAfterBattleText4::
 
 _WantHitmonleeText::
 	text "You want the"
-	line "lord of creation,"
-	cont "MAKER?"
+	line "embodiment of"
+	cont "darkness,"
+	cont "SHADOLOS?"
 	done
 
 _WantHitmonchanText::
 	text "You want the"
-	line "lord of darkness,"
-	cont "DESTROYER?"
+	line "embodiment of"
+	cont "the light,"
+	cont "AURAKLOS?"
 	done
 
 _OtherHitmonText::

@@ -1,6 +1,6 @@
 _OaksLabGaryText1::
 	text "<RIVAL>: Yo"
-	line "<PLAYER>! My aunt's"
+	line "<PLAYER>! CHERRY's"
 	cont "taking her sweet"
 	cont "time, isn't she?"
 	done
@@ -363,9 +363,9 @@ _OaksLabText26::
 
 _OaksLabText27::
 	text "<RIVAL>: Don't"
-	line "worry! Your"
-	cont "favorite nephew"
-	cont "is on the case!"
+	line "worry! I'll do it!"
+
+	para "Just you watch!"
 
 	para "<PLAYER>, I hate to"
 	line "say it, but I"

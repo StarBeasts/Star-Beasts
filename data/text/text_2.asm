@@ -610,10 +610,10 @@ _Route15UpstairsBinocularsText::
 	done
 
 _AerodactylFossilText::
-	text "It's a gleaming"
-	line "gemstone that"
-	cont "has an odd glow"
-	cont "to it..."
+	text "It's the SKULL"
+	line "of some sort of"
+	cont "long extinct"
+	cont "# BEAST."
 	done
 
 _KabutopsFossilText::
@@ -1791,9 +1791,11 @@ _IntroducePlayerText::
 	prompt
 
 _IntroduceRivalText::
-	text "This here's my"
-	line "nephew. He's been"
-	cont "your rival for"
+	text "This guy here's"
+	line "your neighbor."
+
+	para "He's been"
+	line "your rival for"
 	cont "as long as I"
 	cont "can remember."
 
