@@ -364,8 +364,7 @@ _OaksLabText26::
 _OaksLabText27::
 	text "<RIVAL>: Don't"
 	line "worry! I'll do it!"
-
-	para "Just you watch!"
+	cont "Just you watch!"
 
 	para "<PLAYER>, I hate to"
 	line "say it, but I"

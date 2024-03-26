@@ -151,4 +151,5 @@ MonPartyData:
 	nybble ICON_MON       ; Dragonite
 	nybble ICON_MON       ; Mewtwo
 	nybble ICON_QUADRUPED ; Mew
+	nybble ICON_WATER ; Sarpal
 	end_nybble_array NUM_POKEMON

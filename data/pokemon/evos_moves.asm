@@ -33,7 +33,7 @@ EvosMovesPointerTable:
 	dw BlastoiseEvosMoves
 	dw PinsirEvosMoves
 	dw TangelaEvosMoves
-	dw MissingNo1FEvosMoves
+	dw SarpalEvosMoves
 	dw MissingNo20EvosMoves
 	dw GrowlitheEvosMoves
 	dw OnixEvosMoves
@@ -568,10 +568,15 @@ TangelaEvosMoves:
 	db 52, FLASH_CANNON
 	db 0
 
-MissingNo1FEvosMoves:
+SarpalEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 28, THUNDER_WAVE
+	db 30, SELFDESTRUCT
+	db 36, THUNDERBOLT
+	db 40, EXPLOSION
+	db 52, FLASH_CANNON
 	db 0
 
 MissingNo20EvosMoves:

@@ -297,6 +297,16 @@ _TangelaDexEntry::
 	next "without warning"
 	dex
 
+_SarpalDexEntry::
+	text "IT'S AN ADORABLE"
+	next "PUT IT AWAY"
+	next ""
+
+	page "because it can"
+	next "and will explode"
+	next "without warning"
+	dex
+
 _GrowlitheDexEntry::
 	text "Its only desire in"
 	next "the afterlife is"

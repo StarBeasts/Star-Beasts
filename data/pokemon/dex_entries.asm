@@ -30,7 +30,7 @@ PokedexEntryPointers:
 	dw BlastoiseDexEntry
 	dw PinsirDexEntry
 	dw TangelaDexEntry
-	dw MissingNoDexEntry
+	dw SarpalDexEntry
 	dw MissingNoDexEntry
 	dw GrowlitheDexEntry
 	dw OnixDexEntry
@@ -404,6 +404,13 @@ TangelaDexEntry:
 	db 3,7
 	dw 1120
 	text_far _TangelaDexEntry
+	text_end
+
+SarpalDexEntry:
+	db "ANOMALY@"
+	db 3,7
+	dw 1120
+	text_far _SarpalDexEntry
 	text_end
 
 GrowlitheDexEntry:
