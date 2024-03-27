@@ -1825,8 +1825,18 @@ _DoYouWantToNicknameText::
 	done
 
 _YourNameIsText::
-	text "Oh, duh. Your"
-	line "name is <PLAYER>!"
+	text "You said your"
+	line "name is..."
+
+	para "ANTONIA <PLAYER>"
+	line "BOTTOM TILE?"
+
+	para "That's..."
+	
+	para "That's a lot."
+
+	para "Let's just call"
+	line "you <PLAYER>!"
 	prompt
 
 _HisNameIsText::
