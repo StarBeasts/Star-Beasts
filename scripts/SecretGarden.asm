@@ -16,6 +16,7 @@ SecretGarden_TextPointers:
 	dw SecretGardenText1
 	dw FlewnicornText
 	dw SecretGardenText3
+	dw SecretGardenText4
 
 SecretGardenTrainerHeaders:
 	def_trainers 6
@@ -44,3 +45,8 @@ FlewnicornBattleText:
 SecretGardenText3:
 	text_far _SecretGardenText3
 	text_end
+
+SecretGardenText4:
+	text_far _SecretGardenText4
+	text_end
+

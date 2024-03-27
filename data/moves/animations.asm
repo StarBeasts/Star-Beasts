@@ -345,8 +345,21 @@ WingAttackAnim:
 	db -1 ; end
 
 FlashCannonAnim:
-	battle_anim FLASH_CANNON, SUBANIM_1_TORNADO, 1, 6
-	battle_anim NO_MOVE, SE_SLIDE_ENEMY_MON_OFF
+	battle_anim DOUBLE_TEAM, SE_LIGHT_SCREEN_PALETTE
+	battle_anim NO_MOVE, SUBANIM_0_CIRCLE_1_SQUARE_CLOSING, 1, 6
+	battle_anim BUBBLEBEAM, SE_DARK_SCREEN_FLASH
+	battle_anim BUBBLEBEAM, SE_DARK_SCREEN_FLASH
+	battle_anim BUBBLEBEAM, SE_DARK_SCREEN_FLASH
+	battle_anim BUBBLEBEAM, SE_DARK_SCREEN_FLASH
+	battle_anim BUBBLEBEAM, SE_DARK_SCREEN_FLASH
+	battle_anim BUBBLEBEAM, SE_DARK_SCREEN_FLASH
+	battle_anim BUBBLEBEAM, SE_DARK_SCREEN_FLASH
+	battle_anim HARDEN, SE_LIGHT_SCREEN_PALETTE
+	battle_anim FISSURE, 	SUBANIM_0_BEAM, 0, 3
+	battle_anim GLARE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	battle_anim NO_MOVE, SE_SHAKE_SCREEN
 	db -1 ; end
 
 FlyAnim:
@@ -355,8 +368,12 @@ FlyAnim:
 	db -1 ; end
 
 MachPunchAnim:
-	battle_anim MACH_PUNCH, SUBANIM_0_BIND, 0, 4
-	battle_anim MACH_PUNCH, SUBANIM_0_BIND, 0, 4
+	battle_anim CONVERSION, SE_SQUISH_MON_PIC
+	battle_anim DRILL_RUN, SUBANIM_0_STAR_THRICE, 0, 4
+	battle_anim CUT, SUBANIM_1_STAR_BIG, 1, 8
+	battle_anim NO_MOVE, SE_SHOW_MON_PIC
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
 	db -1 ; end
 
 SlamAnim:
@@ -1141,7 +1158,10 @@ RockSlideAnim:
 	db -1 ; end
 
 CrunchAnim:
-	battle_anim CRUNCH, SUBANIM_0_STAR_THRICE, 0, 6
+	battle_anim NO_MOVE, SE_DARK_SCREEN_PALETTE
+	battle_anim CRABHAMMER, SUBANIM_0_STAR_THRICE, 0, 6
+	battle_anim CLAMP, SUBANIM_0_SLICE_BOTH_SIDES, 0, 8
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
 SharpenAnim:

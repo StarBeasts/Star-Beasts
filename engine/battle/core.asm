@@ -379,6 +379,17 @@ MainInBattleLoop:
 	cp QUICK_ATTACK
 	jr z, .enemyMovesFirst ; if enemy used Quick Attack and player didn't
 	ld a, [wPlayerSelectedMove]
+	cp MACH_PUNCH
+	jr nz, .playerDidNotUseMachPunch
+	ld a, [wEnemySelectedMove]
+	cp MACH_PUNCH
+	jr z, .compareSpeed  ; if both used Quick Attack
+	jp .playerMovesFirst ; if player used Quick Attack and enemy didn't
+.playerDidNotUseMachPunch
+	ld a, [wEnemySelectedMove]
+	cp MACH_PUNCH
+	jr z, .enemyMovesFirst ; if enemy used Quick Attack and player didn't
+	ld a, [wPlayerSelectedMove]
 	cp COUNTER
 	jr nz, .playerDidNotUseCounter
 	ld a, [wEnemySelectedMove]

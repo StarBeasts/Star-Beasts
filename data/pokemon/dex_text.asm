@@ -298,9 +298,9 @@ _TangelaDexEntry::
 	dex
 
 _SarpalDexEntry::
-	text "IT'S AN ADORABLE"
-	next "PUT IT AWAY"
-	next ""
+	text "she is going to"
+	next "kick ass, your"
+	next "ass specifically"
 
 	page "because it can"
 	next "and will explode"

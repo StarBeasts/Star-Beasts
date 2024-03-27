@@ -15,7 +15,7 @@ Moves:
 	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        50, NORMAL,       100, 25
 	move DOUBLESLAP,   TWO_TO_FIVE_ATTACKS_EFFECT,  15, NORMAL,        85, 10
 	move COMET_PUNCH,  TWO_TO_FIVE_ATTACKS_EFFECT,  18, NORMAL,        85, 15
-	move FALCON_PUNCH,   HYPER_BEAM_EFFECT,        140, FLYING,        85, 5
+	move FALCON_PUNCH,   HYPER_BEAM_EFFECT,        140, FLYING,        85, 5 ; needs testing
 	move PAY_DAY,      PAY_DAY_EFFECT,              40, NORMAL,       100, 20
 	move FIRE_PUNCH,   BURN_SIDE_EFFECT1,           75, FIRE,         100, 15
 	move ICE_PUNCH,    FREEZE_SIDE_EFFECT,          75, ICE,          100, 15
@@ -23,19 +23,19 @@ Moves:
 	move SCRATCH,      NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
 	move VICEGRIP,     NO_ADDITIONAL_EFFECT,        55, NORMAL,       100, 30
 	move GUILLOTINE,   OHKO_EFFECT,                  1, NORMAL,        30,  5
-	move HURRICANE,   FLINCH_SIDE_EFFECT2,         120, FLYING,    70, 10
+	move HURRICANE,   FLINCH_SIDE_EFFECT2,         120, FLYING,    70, 10 ; done
 	move SWORDS_DANCE, ATTACK_UP2_EFFECT,            0, NORMAL,       100, 30
 	move CUT,          PARALYZE_SIDE_EFFECT1,        70, STEEL,    95, 30
 	move GUST,         NO_ADDITIONAL_EFFECT,        40, FLYING,       100, 35
 	move WING_ATTACK,  NO_ADDITIONAL_EFFECT,        65, FLYING,       100, 35
-	move FLASH_CANNON, SPECIAL_DOWN_SIDE_EFFECT,    80, STEEL,    100, 10
+	move FLASH_CANNON, SPECIAL_DOWN_SIDE_EFFECT,    80, STEEL,    100, 10 ; needs testing
 	move FLY,          FLY_EFFECT,                  90, FLYING,        95, 15
-	move MACH_PUNCH,   NO_ADDITIONAL_EFFECT,        40, FIGHTING,    100, 20
+	move MACH_PUNCH,   NO_ADDITIONAL_EFFECT,        40, FIGHTING,    100, 20 ; needs testing
 	move SLAM,         NO_ADDITIONAL_EFFECT,        80, NORMAL,        75, 20
 	move VINE_WHIP,    NO_ADDITIONAL_EFFECT,        35, GRASS,        100, 10
 	move STOMP,        FLINCH_SIDE_EFFECT2,         65, NORMAL,       100, 20
 	move DOUBLE_KICK,  ATTACK_TWICE_EFFECT,         30, FIGHTING,     100, 30
-	move DRAGON_CLAW,  NO_ADDITIONAL_EFFECT,      80, DRAGON,    100,  15
+	move DRAGON_CLAW,  NO_ADDITIONAL_EFFECT,      80, DRAGON,    100,  15 ; needs testing
 	move JUMP_KICK,    JUMP_KICK_EFFECT,            70, FIGHTING,      95, 25
 	move ROLLING_KICK, FLINCH_SIDE_EFFECT2,         60, FIGHTING,      85, 15
 	move SAND_ATTACK,  ACCURACY_DOWN1_EFFECT,        0, GROUND,       100, 15

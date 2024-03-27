@@ -25,6 +25,23 @@ _SecretGardenText2::
 	done
 
 _SecretGardenText3::
+	text "Good day, young"
+	line "one. I come here"
+	cont "to MEDITATE and"
+	cont "pray. It is"
+	cont "quite serene,"
+	cont "isn't it?"
+
+	para "Enjoying nature..."
+
+	para "I welcome your"
+	line "company, child."
+
+	para "Please stay as"
+	line "long as you like."
+	done
+
+_SecretGardenText4::
 	text "BILL'S SECRET"
 	line "GARDEN"
 	done

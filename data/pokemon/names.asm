@@ -30,7 +30,7 @@ MonsterNames::
 	db "JELLYHELLY"
 	db "NEPUTAIL@@"
 	db "SHOCKNROLL"
-	db "SARPAL@@@@"
+	db "JENNIFERS@"
 	db "MISSINGNO."
 	db "CANGHOULIT"
 	db "MOSSTON@@@"
