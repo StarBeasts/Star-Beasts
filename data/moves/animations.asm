@@ -181,6 +181,7 @@ AttackAnimationPointers:
 	dw SoulShredAnim
 	dw GaeasWrathAnim
 	dw SteamCannonAnim
+	dw PowderSnowAnim
 	dw MetalClawAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
@@ -350,7 +351,8 @@ WingAttackAnim:
 
 FlashCannonAnim:
 	battle_anim DOUBLE_TEAM, SE_LIGHT_SCREEN_PALETTE
-	battle_anim NO_MOVE, SUBANIM_0_CIRCLE_1_SQUARE_CLOSING, 1, 6
+	battle_anim NO_MOVE, SUBANIM_0_CIRCLE_1_SQUARE_CLOSING, 0, 6
+	battle_anim NO_MOVE, SUBANIM_0_CIRCLE_1_SQUARE_APPEARS, 0, 8
 	battle_anim BUBBLEBEAM, SE_DARK_SCREEN_FLASH
 	battle_anim BUBBLEBEAM, SE_DARK_SCREEN_FLASH
 	battle_anim BUBBLEBEAM, SE_DARK_SCREEN_FLASH
@@ -1263,10 +1265,11 @@ FlameBurstAnim:
 PKFireAnim:
 	battle_anim EMBER, SE_LIGHT_SCREEN_PALETTE
 	battle_anim ROCK_SLIDE, SE_WAVY_SCREEN
+	battle_anim FIRE_SPIN, SUBANIM_0_WATER_1_FIRE_BARRIER, 1, 6
+	battle_anim NO_MOVE, SUBANIM_0_WATER_1_FIRE_GEYSER, 1, 6
 	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
 	battle_anim HYPER_BEAM, SUBANIM_1_FLAME_BEAM, 1, 6
 	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_2, 1, 6
-	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_3, 1, 6
 	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_3, 1, 6
 	battle_anim NO_MOVE, SE_SHAKE_SCREEN
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
@@ -1427,6 +1430,11 @@ SteamCannonAnim:
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 	
+PowderSnowAnim:
+	battle_anim ICE_BEAM, SUBANIM_1_SAND, 1, 6
+	battle_anim STRING_SHOT, SUBANIM_0_BALL_POOF_ENEMY, 0, 4
+	db -1 ; end
+
 MetalClawAnim:
 	battle_anim HARDEN, SE_LIGHT_SCREEN_PALETTE
 	battle_anim NO_MOVE, SUBANIM_0_CIRCLE_1_SQUARE_CLOSING, 1, 6

@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/vulpix.pic", 0, 1 ; sprite dimensions
 	dw VulpixPicFront, VulpixPicBack
 
-	db GROWL, ROAR, NO_MOVE, NO_MOVE ; level 1 learnset
+	db POWDER_SNOW, ROAR, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

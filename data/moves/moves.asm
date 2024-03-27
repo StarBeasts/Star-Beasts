@@ -192,6 +192,7 @@ Moves:
 	move SOUL_SHRED,   DRAIN_HP_EFFECT,             120, GHOST, 100, 10	; done
 	move GAEAS_WRATH,   DRAIN_HP_EFFECT,             120, GRASS, 100, 10	; done
 	move STEAM_CANNON,  BURN_SIDE_EFFECT2,          180, WATER, 100, 10	; done
+	move POWDER_SNOW,  FREEZE_SIDE_EFFECT,          40, ICE, 100, 25	; done
 	move METAL_CLAW,   DEFENSE_DOWN_SIDE_EFFECT,    50, STEEL, 100, 35  ; done
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS

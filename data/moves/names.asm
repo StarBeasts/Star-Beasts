@@ -181,6 +181,7 @@ MoveNames::
 	li "SOUL SHRED"
 	li "GAEA'S WRATH"
 	li "STEAM CANNON"
+	li "POWDER SNOW"
 	li "METAL CLAW"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

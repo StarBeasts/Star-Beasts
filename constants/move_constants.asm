@@ -187,6 +187,7 @@
 	const SOUL_SHRED	;
 	const GAEAS_WRATH	;
 	const STEAM_CANNON	;
+	const POWDER_SNOW	;
 	const METAL_CLAW   ; b1
 	const STRUGGLE     ; b2
 DEF NUM_ATTACKS EQU const_value - 1
