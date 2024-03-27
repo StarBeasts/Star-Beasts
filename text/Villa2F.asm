@@ -31,15 +31,24 @@ _Villa2FEndBattleText1::
 	prompt
 
 _Villa2FAfterBattleText1::
-	text "Leave me be."
+	text "Hmph."
 
-	para "I will take my"
-	line "leave of this"
-	cont "place in time."
+	para "Guess you aren't"
+	line "the CHAMP for"
+	cont "nothing, huh?"
 
-	para "But, for now,"
-	line "I'd like to be"
-	cont "left alone."
+	para "Well, go ahead"
+	line "and make yourself"
+	cont "at home."
+
+	para "I'll just be"
+	line "chilling here."
+
+	para "Hah! Chilling?"
+	line "Get it?"
+
+	para "Because I train"
+	line "ICE types?"
 	done
 
 _Villa2FText2::

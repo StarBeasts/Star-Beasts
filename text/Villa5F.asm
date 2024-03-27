@@ -125,6 +125,11 @@ _Villa5FText2::
 	cont "you are, you're"
 	cont "NO MATCH for her!"
 
+	para "I thought she was"
+	line "all talk, but..."
+	
+	para "Well..."
+
 	para "Have fun getting"
 	line "your ass kicked!"
 

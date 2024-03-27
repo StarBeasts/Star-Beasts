@@ -1,31 +1,29 @@
 _MoltresBattleText::
-	text "The demon stirs,"
+	text "The dragon stirs,"
 	line "disturbed by"
 	cont "your presence."
 
-	para "The light in the"
-	line "cave fades,"
-	cont "until all you"
-	cont "see is the demon,"
-	cont "crackling with"
-	cont "power, hatred"
-	cont "etched on its"
-	cont "face."
+	para "Before you stands"
+	line "a creature out"
+	cont "of legends, the"
+	cont "dragon that"
+	cont "predates all"
+	cont "other dragons."
 
-	para "It raises its"
-	line "hand, and an"
-	cont "energy orb"
-	cont "of pure darkness"
-	cont "forms in it."
+	para "You can feel it."
 
-	para "The shockwaves"
-	line "from its power"
-	cont "cause the entire"
-	cont "cave to tremble,"
-	cont "but you stand,"
-	cont "unafraid."
+	para "It is your"
+	line "destiny to tame"
+	cont "this BEAST."
+
+	para "The legendary"
+	line "dragon, ALVARIS."
+
+	para "She eyes you"
+	line "warily, awaiting"
+	cont "your next move."
 	
-	para "Welcome to Hell.@"
+	para "Get ready!@"
 	text_end
 
 _VictoryRoad2BattleText1::

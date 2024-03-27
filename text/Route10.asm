@@ -118,6 +118,14 @@ _Route10Text10::
 	text "POWER PLANT"
 	done
 _Route10Text11::
-	text "PLACEHOLDER"
+	text "THE HOME OF"
+	line "THE REGGAE LEGEND"
+	cont "DJ MASTER DOUBLE"
+	cont "CUT SLICE 'EM"
+	cont "UP DICE 'EM UP!"
+
+	para "But you can just"
+	line "call me DOUBLE"
+	cont "CUT!"
 	done
 

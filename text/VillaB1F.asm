@@ -1,3 +1,15 @@
+_VillaB1FText1::
+	text "Huh?"
+
+	para "It's only a doll!"
+	done
+
+_VillaB1FText2::
+	text "Huh?"
+
+	para "It's only a doll!"
+	done
+
 _VillaB1FBattleText1::
 	text "You..."
 
@@ -36,35 +48,35 @@ _VillaB1FAfterBattleText1::
 	cont "left alone."
 	done
 
-_VillaB1FText2::
-	text "book 1."
-	done
-
 _VillaB1FText3::
-	text "AAAAA."
+	text "you shouldn't see this."
 	done
 
 _VillaB1FText4::
-	text "book 3."
+	text "book 1."
 	done
 
 _VillaB1FText5::
-	text "book 4."
-	done
-
-_VillaB1FText6::
-	text "book 5."
-	done
-
-_VillaB1FText7::
-	text "book 6."
-	done
-
-_VillaB1FText8::
 	text "book 2."
 	done
 
+_VillaB1FText6::
+	text "book 3."
+	done
+
+_VillaB1FText7::
+	text "book 4."
+	done
+
+_VillaB1FText8::
+	text "book 5."
+	done
+
 _VillaB1FText9::
+	text "book 6."
+	done
+
+_VillaB1FText10::
 	text "The sign says:"
 	
 	para "FORENSICS LAB"
@@ -73,7 +85,7 @@ _VillaB1FText9::
 	line "PERSONNEL ONLY"
 	done
 
-_VillaB1FText10::
+_VillaB1FText11::
 	text "There's a message"
 	line "on the screen:"
 
@@ -100,7 +112,7 @@ _VillaB1FText10::
 	line "keep reading."
 	done
 
-_VillaB1FText11::
+_VillaB1FText12::
 	text "Sabrina Computer."
 	done
 
