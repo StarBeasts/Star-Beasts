@@ -5,14 +5,14 @@
 
 ; ============================================================================================================
 
-Music_Placeholder:
+Music_Meat:
 	channel_count 3
-	channel 1, Music_Placeholder_Ch1
-	channel 2, Music_Placeholder_Ch2
-	channel 3, Music_Placeholder_Ch3
-	channel 4, Music_Placeholder_Ch4
+	channel 1, Music_Meat_Ch1
+	channel 2, Music_Meat_Ch2
+	channel 3, Music_Meat_Ch3
+	channel 4, Music_Meat_Ch4
 
-Music_Placeholder_Ch1:
+Music_Meat_Ch1:
 	volume 7, 7
 	duty_cycle 1
 	note_type 12, 10, 7
@@ -34,7 +34,7 @@ Music_Placeholder_Ch1:
 
 ; ============================================================================================================
 
-Music_Placeholder_Ch2:
+Music_Meat_Ch2:
 	duty_cycle 2
 	note_type 12, 10, 7
 ;Bar 1
@@ -53,7 +53,7 @@ Music_Placeholder_Ch2:
 
 ; ============================================================================================================
 
-Music_Placeholder_Ch3:
+Music_Meat_Ch3:
 	note_type 12, 1, 0
 ;Bar 1
 	octave 3

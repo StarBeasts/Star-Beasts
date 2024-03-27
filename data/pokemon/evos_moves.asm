@@ -554,6 +554,7 @@ PinsirEvosMoves:
 	db 37, CRUNCH
 	db 42, ICE_BEAM
 	db 48, SLUDGE_BOMB
+	db 54, SUPER_FANG
 	db 0
 
 TangelaEvosMoves:
@@ -672,6 +673,7 @@ GravelerEvosMoves:
 	db 29, DRAGONBREATH
 	db 36, ROCK_SLIDE
 	db 43, OUTRAGE
+	db 51, ROCK_OUT
 	db 0
 
 ChanseyEvosMoves:
@@ -692,7 +694,7 @@ MachokeEvosMoves:
 	db 0
 ; Learnset
 	db 20, ROCK_THROW
-	db 28, CLUB
+	db 28, BONE_CLUB
 	db 36, MEDITATE
 	db 44, BRICK_BREAK
 	db 52, ROCK_SLIDE
@@ -718,7 +720,7 @@ HitmonleeEvosMoves:
 	db 45, CRUNCH
 	db 50, SUBMISSION
 	db 53, LIMB_STRIKE
-	db 60, DRAGON_CLAW ; placeholder
+	db 60, SOUL_SHRED
 	db 0
 
 HitmonchanEvosMoves:
@@ -730,7 +732,7 @@ HitmonchanEvosMoves:
 	db 45, AURA_SPHERE
 	db 50, OMINOUS_WIND
 	db 55, PETAL_DANCE
-	db 55, DRAGON_CLAW ; placeholder
+	db 55, SPIRIT_BOMB
 	db 0
 
 ArbokEvosMoves:
@@ -792,7 +794,7 @@ GolemEvosMoves:
 	db 29, HYPER_VOICE
 	db 36, SKULL_BASH
 	db 43, EXPLOSION
-	db 50, ROCK_SLIDE ; placeholder
+	db 50, ROCK_OUT
 	db 0
 
 MissingNo32EvosMoves:
@@ -1436,7 +1438,7 @@ PoliwrathEvosMoves:
 ; Learnset
 	db 30, THUNDERPUNCH
 	db 40, WOOD_HAMMER
-	db 50, HYDRO_PUMP ; placeholder
+	db 50, STEAM_CANNON
 	db 0
 
 WeedleEvosMoves:
@@ -1592,7 +1594,7 @@ MachampEvosMoves:
 	db 0
 ; Learnset
 	db 20, ROCK_THROW
-	db 25, CLUB
+	db 25, BONE_CLUB
 	db 36, MEDITATE
 	db 44, BRICK_BREAK
 	db 52, ROCK_SLIDE
@@ -2084,7 +2086,7 @@ AerodactylEvosMoves:
 	db 38, RECOVER
 	db 45, TAKE_DOWN
 	db 54, HYPER_BEAM
-	db 60, SOLARBEAM ; placeholder
+	db 60, GAEAS_WRATH
 	db 0
 
 MissingNoACEvosMoves:

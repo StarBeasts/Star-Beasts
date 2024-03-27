@@ -177,6 +177,10 @@ MoveNames::
 	li "DARK PULSE"
 	li "SCALD"
 	li "SPIRIT BOMB"
+	li "ROCK OUT"
+	li "SOUL SHRED"
+	li "GAEA'S WRATH"
+	li "STEAM CANNON"
 	li "METAL CLAW"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

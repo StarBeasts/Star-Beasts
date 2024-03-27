@@ -1037,6 +1037,9 @@ ChargeMoveEffectText:
 	cp SKY_ATTACK
 	ld hl, SkyAttackGlowingText
 	jr z, .gotText
+	cp ROCK_OUT
+	ld hl, TookABreathText
+	jr z, .gotText
 	cp FLY
 	ld hl, FlewUpHighText
 	jr z, .gotText
@@ -1059,6 +1062,10 @@ LoweredItsHeadText:
 
 SkyAttackGlowingText:
 	text_far _SkyAttackGlowingText
+	text_end
+
+TookABreathText:
+	text_far _TookABreathText
 	text_end
 
 FlewUpHighText:

@@ -165,6 +165,13 @@ _SkyAttackGlowingText::
 	line "is glowing!"
 	prompt
 
+_TookABreathText::
+	text_start
+	line "took a deep"
+	cont "breath and"
+	cont "braced itself!"
+	prompt
+
 _FlewUpHighText::
 	text_start
 	line "flew up high!"

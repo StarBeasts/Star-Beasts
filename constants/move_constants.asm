@@ -183,6 +183,10 @@
 	const DARK_PULSE   ; af
 	const SCALD	   ; b0
 	const SPIRIT_BOMB 	;
+	const ROCK_OUT	;
+	const SOUL_SHRED	;
+	const GAEAS_WRATH	;
+	const STEAM_CANNON	;
 	const METAL_CLAW   ; b1
 	const STRUGGLE     ; b2
 DEF NUM_ATTACKS EQU const_value - 1
