@@ -91,7 +91,7 @@ TypeEffects:
 	db ROCK,         ICE,          SUPER_EFFECTIVE
 	db ROCK,         STEEL,       NOT_VERY_EFFECTIVE
 	db GHOST,        NORMAL,       NO_EFFECT
-	db GHOST,        DARK,         NO_EFFECT
+	db GHOST,        DARK,         NOT_VERY_EFFECTIVE
 	db GHOST,        PSYCHIC_TYPE, SUPER_EFFECTIVE
 	db FIRE,         DRAGON,       NOT_VERY_EFFECTIVE
 	db WATER,        DRAGON,       NOT_VERY_EFFECTIVE

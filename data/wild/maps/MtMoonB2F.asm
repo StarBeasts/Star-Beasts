@@ -7,9 +7,9 @@ MtMoonB2FWildMons:
 	db 11,PSYDUCK
 	db 10,PARAS
 	db 12,PARAS
-	db 10, RHYDON
-	db 12, ZUBAT
+	db 10, ZUBAT
 	db 12, VULPIX
+	db 12, RHYDON
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

@@ -8,8 +8,8 @@ MtMoonB1FWildMons:
 	db 10,PARAS
 	db 10,ZUBAT
 	db 9,GEODUDE
-	db 9,STARYU
 	db 9,VULPIX
+	db 9,STARYU
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
