@@ -2054,8 +2054,8 @@ NidorinaEvosMoves:
 
 GeodudeEvosMoves:
 ; Evolutions
-	db EV_ITEM, STEELY_GENE, 1, GRAVELER
-	db EV_ITEM, HOLY_SOUL, 1, GOLEM
+	db EV_ITEM, STEELY_GENE, 1, GOLEM
+	db EV_ITEM, HOLY_SOUL, 1, GRAVELER
 	db 0
 ; Learnset
 	db 13, SING
