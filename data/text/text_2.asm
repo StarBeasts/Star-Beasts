@@ -18,7 +18,7 @@ _AIBattleUseItemText::
 	prompt
 
 _TradeWentToText::
-	text_ram wcd6d
+	text_ram wStringBuffer
 	text " went"
 	line "to @"
 	text_ram wLinkEnemyTrainerName
@@ -28,7 +28,7 @@ _TradeWentToText::
 _TradeForText::
 	text "For <PLAYER>'s"
 	line "@"
-	text_ram wcd6d
+	text_ram wStringBuffer
 	text ","
 	done
 
@@ -70,7 +70,7 @@ _TradeWillTradeText::
 _TradeforText::
 	text "for <PLAYER>'s"
 	line "@"
-	text_ram wcd6d
+	text_ram wStringBuffer
 	text "."
 	done
 
