@@ -12,8 +12,6 @@ PewterHouse1Text1:
 	ld a, NIDORINO
 	call PlayCry
 	call WaitForSoundToFinish
-	ld a, NIDORINO
-	call DisplayPokedex
 	jp TextScriptEnd
 
 PewterHouse1Text2:

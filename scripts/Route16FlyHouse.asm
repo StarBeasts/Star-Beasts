@@ -48,8 +48,6 @@ Route16HouseText2:
 	ld a, RATTATA
 	call PlayCry
 	call WaitForSoundToFinish
-	ld a, RATTATA
-	call DisplayPokedex
 	jp TextScriptEnd
 
 Route16HouseText_1e652:

@@ -89,8 +89,6 @@ CeladonCityText7:
 	text_asm
 	ld a, KINGLER
 	call PlayCry
-	ld a, KINGLER
-	call DisplayPokedex
 	jp TextScriptEnd
 
 CeladonCityText8:

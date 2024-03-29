@@ -82,8 +82,6 @@ SSAnne10Text8:
 	text_asm
 	ld a, MACHOKE
 	call PlayCry
-	ld a, MACHOKE
-	call DisplayPokedex
 	jp TextScriptEnd
 
 SSAnne10BattleText1:
