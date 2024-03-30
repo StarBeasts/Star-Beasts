@@ -10,5 +10,6 @@ VultMaze_Object:
 
 	def_object_events
 	object_event  8,  3, SPRITE_VULTURNUS, STAY, DOWN, 1, TAUROS, 34 | OW_POKEMON
+	object_event  3,  18, SPRITE_GRANNY, STAY, DOWN, 2 ; person
 
 	def_warps_to VULT_MAZE

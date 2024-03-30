@@ -14,6 +14,7 @@ VultMaze_ScriptPointers:
 
 VultMaze_TextPointers:
 	dw VulturnusText
+	dw VultMazeText2
 
 VultMazeTrainerHeaders:
 	def_trainers 6
@@ -33,4 +34,11 @@ VulturnusBattleText:
 	ld a, TAUROS
 	call PlayCry
 	call WaitForSoundToFinish
+	jp TextScriptEnd
+
+VultMazeText2:
+	text_asm
+	ld a, TRADE_FOR_WUKONG
+	ld [wWhichTrade], a
+	predef DoInGameTradeDialogue
 	jp TextScriptEnd

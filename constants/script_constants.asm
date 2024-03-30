@@ -33,6 +33,7 @@ DEF SLOTS_SOMEONESKEYS EQU $ff
 	const TRADE_FOR_HOG
 	const TRADE_FOR_NEMO
 	const TRADE_FOR_GIYGAS
+	const TRADE_FOR_WUKONG
 DEF NUM_NPC_TRADES EQU const_value
 
 ; in game trade dialog sets

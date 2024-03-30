@@ -11,7 +11,7 @@ TradeMons:
 	db NIDORAN_M,  SHELLDER,  TRADE_DIALOGSET_MILDRED,   "MILDRED@@@@" ; old guy, implemented
 	db JYNX,       EEVEE,     TRADE_DIALOGSET_CASUAL,    "ARIEL@@@@@@" ; implemented
 	db MANKEY,     SQUIRTLE, TRADE_DIALOGSET_HAPPY,      "PRINCESS@@@" ; implemented
-	db TENTACOOL,  TAUROS,   TRADE_DIALOGSET_CASUAL,     "SHAQ@@@@@@@" ; implemented
+	db TENTACOOL,  HITMONLEE,   TRADE_DIALOGSET_CASUAL,  "ZOOK HERO@@" ; implemented
 	db BELLSPROUT, BULBASAUR, TRADE_DIALOGSET_EVOLUTION, "THE LAD@@@@" ; implemented
 	db EXEGGCUTE,  EEVEE, TRADE_DIALOGSET_EVOLUTION,     "ZEUS@@@@@@@" ; implemented
 	db MAGMAR,     EEVEE,   TRADE_DIALOGSET_HAPPY,       "BENEDICT@@@" ; implemented
@@ -19,4 +19,5 @@ TradeMons:
 	db PSYDUCK,    LICKITUNG, TRADE_DIALOGSET_GANON,     "HOG@@@@@@@@" ; pig chav, implemented
 	db PIKACHU,    MAGIKARP,   TRADE_DIALOGSET_EVOLUTION,"NEMO@@@@@@@" ; implemented
 	db PIDGEY,     EXEGGUTOR, TRADE_DIALOGSET_BIRD,      "MOTHER@@@@@" ; celagone trade, implemented
+	db VICTREEBEL, HITMONCHAN, TRADE_DIALOGSET_HAPPY,   "WUKONG@@@@@" ; vult maze trade
 	assert_table_length NUM_NPC_TRADES
