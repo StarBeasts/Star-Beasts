@@ -5,9 +5,9 @@ VillaB1F_Object:
 	warp_event  8,  0, VILLA_1F, 2
 
 	def_bg_events
-	bg_event  9,  0, 10 ; Villa1FText8
-	bg_event  2,  4, 12 ; Villa1FText9
-	bg_event  0,  4, 13 ; Villa1FText9
+	bg_event  9,  0, 10 ; Villa1FText10
+	bg_event  2,  4, 11 ; Villa1FText11
+	bg_event  0,  4, 12 ; Villa1FText12
 
 	def_object_events
 	object_event  4,  2, SPRITE_GHOST, STAY, DOWN, 1, ; doll

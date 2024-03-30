@@ -24,6 +24,7 @@ VillaB1F_TextPointers:
 	dw VillaB1FText9
 	dw VillaB1FText10
 	dw VillaB1FText11
+	dw VillaB1FText12
 
 VillaB1FTrainerHeaders:
 	def_trainers 3
