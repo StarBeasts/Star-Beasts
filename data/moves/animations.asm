@@ -1295,6 +1295,7 @@ SludgeBombAnim:
 	battle_anim EGG_BOMB, SUBANIM_0_BALL_POOF_ENEMY, 0, 4
 	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
 	battle_anim SLUDGE, SUBANIM_1_BLOB_DRIP_ENEMY, 1, 6
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
 	db -1 ; end
 
 ShadowClawAnim:
