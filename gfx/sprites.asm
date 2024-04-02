@@ -83,6 +83,7 @@ OfficerSprite::			INCBIN "gfx/sprites/officer.2bpp"
 LisbethSprite::			INCBIN "gfx/sprites/lisbeth.2bpp"
 MbikerSprite::			INCBIN "gfx/sprites/mbiker.2bpp"
 TrueBlueSprite::	     INCBIN "gfx/sprites/trueblue.2bpp"
+SubrosianSprite::	     INCBIN "gfx/sprites/subrosian.2bpp"
 GhostSprite::	    		INCBIN "gfx/sprites/ghost.2bpp"
 GamblerDeadSprite::	    INCBIN "gfx/sprites/gambler_dead.2bpp"
 

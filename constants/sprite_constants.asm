@@ -70,6 +70,7 @@
 	const SPRITE_LISBETH
 	const SPRITE_MBIKER
 	const SPRITE_TRUEBLUE
+	const SPRITE_SUBROSIAN
 DEF FIRST_STILL_SPRITE EQU const_value
 	const SPRITE_POKE_BALL               ; $3d
 	const SPRITE_FOSSIL                  ; $3e
