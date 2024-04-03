@@ -1208,7 +1208,7 @@ RestAnim:
 RockSlideAnim:
 	battle_anim ROCK_SLIDE, SUBANIM_0_ROCKS_LIFT, 0, 4
 	battle_anim ROCK_SLIDE, SUBANIM_0_ROCKS_TOSS, 0, 3
-	battle_anim CRUNCH, SUBANIM_1_STAR_BIG_MOVING, 1, 6
+	battle_anim HYPER_BEAM, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	db -1 ; end
 
 CrunchAnim:

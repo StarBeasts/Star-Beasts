@@ -20,7 +20,7 @@ CeladonGym_Script:
 	db "CELADON CITY@"
 
 .LeaderName:
-	db "ERIKA@"
+	db "LISBETH@"
 
 CeladonGymResetScripts:
 	xor a

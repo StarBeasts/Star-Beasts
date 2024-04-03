@@ -22,7 +22,7 @@ FuchsiaGym_Script:
 	db "FUCHSIA CITY@"
 
 .LeaderName:
-	db "KOGA@"
+	db "IVY@"
 
 FuchsiaGymResetScripts:
 	xor a

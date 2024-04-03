@@ -20,7 +20,7 @@ PewterGym_Script:
 	db "PEWTER CITY@"
 
 .LeaderName:
-	db "BROCK@"
+	db "BIG DAVE@"
 
 PewterGymResetScripts:
 	xor a

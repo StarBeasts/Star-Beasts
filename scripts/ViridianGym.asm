@@ -14,7 +14,7 @@ ViridianGym_Script:
 	db "VIRIDIAN CITY@"
 
 .LeaderName:
-	db "GIOVANNI@"
+	db "???@"
 
 ViridianGymResetScripts:
 	xor a

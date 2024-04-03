@@ -27,7 +27,7 @@ CinnabarGymSetMapAndTiles:
 	db "CINNABAR ISLAND@"
 
 .LeaderName:
-	db "BLAINE@"
+	db "VELID@"
 
 CinnabarGymResetScripts:
 	xor a

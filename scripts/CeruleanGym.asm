@@ -20,7 +20,7 @@ CeruleanGym_Script:
 	db "CERULEAN CITY@"
 
 .LeaderName:
-	db "MISTY@"
+	db "MIZU@"
 
 CeruleanGymResetScripts:
 	xor a
