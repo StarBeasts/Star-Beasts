@@ -106,7 +106,7 @@ _OneMoreGoSlotMachineText::
 _LinedUpText::
 	text " lined up!"
 	line "Scored @"
-	text_ram wcd6d
+	text_ram wStringBuffer
 	text " coins!"
 	done
 
