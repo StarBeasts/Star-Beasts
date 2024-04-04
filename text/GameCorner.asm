@@ -47,9 +47,18 @@ _CeladonGameCornerText_48d3b::
 _CeladonGameCornerText3::
 	text "Keep this quiet."
 
-	para "It's rumored that"
-	line "this place is run"
-	cont "by TEAM ROCKET."
+	para "SACKRAN evolves"
+	line "into a different"
+	cont "BEAST depending"
+	cont "on if you give"
+	cont "it a HOLY SOUL"
+	cont "or DARK SOUL."
+
+	para "Oh, and also:"
+
+	para "This place here"
+	line "is run by"
+	cont "TEAM ROCKET."
 	done
 
 _CeladonGameCornerText4::

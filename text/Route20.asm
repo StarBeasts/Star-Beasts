@@ -74,7 +74,7 @@ _Route20EndBattleText5::
 	prompt
 
 _Route20AfterBattleText5::
-	text "I should've been"
+	text "I shoulda been"
 	line "buffing up my"
 	cont "BEASTS, not me!"
 	done

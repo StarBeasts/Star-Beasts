@@ -112,13 +112,16 @@ _Route3AfterBattleText6::
 	done
 
 _Route3BattleText7::
-	text "You can fight my"
-	line "new # BEASTS!"
+	text "My fully evolved"
+	line "BUGs, you must:"
+
+	para "kill."
 	done
 
 _Route3EndBattleText7::
-	text "Done"
-	line "like dinner!"
+	text "Sent"
+	line "to the next"
+	cont "dimension!"
 	prompt
 
 _Route3AfterBattleText7::

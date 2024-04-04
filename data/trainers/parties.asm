@@ -381,8 +381,8 @@ GamblerData:
 	db 18, MEOWTH, RHYHORN, 0
 ; Route 8
 	db 22, SEEL, SHELLDER, TENTACRUEL, 0
-; Unused
-	db 22, ONIX, GEODUDE, GRAVELER, 0
+; Viridian Gym
+	db 43, GOLEM, 0
 ; Route 8
 	db 24, STARYU, POLIWAG, 0
 ; Cycling Road

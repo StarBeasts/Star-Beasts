@@ -25,7 +25,7 @@ _BinocularsNoSnorlaxText::
 	line "binoculars."
 
 	para "It's a beautiful"
-	line "view!"
+	line "day outside!"
 	done
 
 _Route11GateUpstairsText_494d5::

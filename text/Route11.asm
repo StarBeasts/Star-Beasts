@@ -57,8 +57,9 @@ _Route11EndBattleText4::
 	prompt
 
 _Route11AfterBattleText4::
-	text "Spread the word"
-	line "to save energy!"
+	text "Go green and"
+	line "save the"
+	cont "environment!"
 	done
 
 _Route11BattleText5::

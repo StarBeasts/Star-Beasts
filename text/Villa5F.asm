@@ -6,7 +6,7 @@ _Villa5FBattleText1::
 	para "You finally"
 	line "made it."
 
-	para "I was hoping this"
+	para "I knew this"
 	line "day would come,"
 	cont "but I wasn't sure"
 	cont "if it would be"

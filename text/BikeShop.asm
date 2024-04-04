@@ -12,8 +12,8 @@ _BikeShopText_1d815::
 	done
 
 _BikeShopCantAffordText::
-	text "Sorry! You can't"
-	line "afford it!"
+	text "Guess you'll just"
+	line "have to walk!"
 	prompt
 
 _BikeShopText_1d81f::
@@ -62,7 +62,7 @@ _BikeShopText_1d843::
 _BikeShopText_1d85c::
 	text "These BIKEs are"
 	line "cool, but they're"
-	cont "way expensive!"
+	cont "too expensive!"
 	done
 
 _BikeShopText_1d861::

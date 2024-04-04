@@ -15,10 +15,20 @@ _CinnabarIslandText1::
 	done
 
 _CinnabarIslandText2::
-	text "Scientists conduct"
-	line "experiments in"
-	cont "the burned out"
-	cont "building."
+	text "I might not look"
+	line "it, but I like"
+	cont "to practice"
+	cont "parkour!"
+	
+	para "Sometimes, I'll"
+	line "climb up on top"
+	cont "of the GYM for"
+	cont "fun!"
+
+	para "Stick around"
+	line "long enough and"
+	cont "you might get to"
+	cont "see me do it!"
 	done
 
 _CinnabarIslandText3::

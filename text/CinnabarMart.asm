@@ -5,6 +5,12 @@ _CinnabarMartText2::
 	done
 
 _CinnabarMartText3::
-	text "It never hurts to"
-	line "have extra items!"
+	text "Items, items,"
+	line "items!"
+
+	para "Love, love, love,"
+	line "la-hove items!"
+
+	para "Can never have"
+	line "enough items!"
 	done

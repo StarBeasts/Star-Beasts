@@ -210,20 +210,18 @@ _ViridianGymAfterBattleText6::
 	done
 
 _ViridianGymBattleText7::
-	text "The sound of a"
-	line "whipcrack is the"
-	cont "sound of a"
-	cont "sonic boom!"
+	text "I'll beat you in"
+	line "five seconds flat!"
 	done
 
 _ViridianGymEndBattleText7::
-	text "Yowch!"
-	line "Whiplash!"
+	text "So fast..."
 	prompt
 
 _ViridianGymAfterBattleText7::
-	text "Wait! I was just"
-	line "careless!"
+	text "That was a lot"
+	line "more than five"
+	cont "seconds..."
 	done
 
 _ViridianGymBattleText8::

@@ -173,8 +173,8 @@ _Route13AfterBattleText11::
 _Route13Text11::
 	text "TRAINER TIPS"
 
-	para "Look to the left"
-	line "of that post!"
+	para "Check the post"
+	line "next to this sign!"
 	done
 
 _Route13Text12::

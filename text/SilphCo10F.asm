@@ -10,7 +10,7 @@ _SilphCo10Text_5a1d8::
 
 _SilphCo10BattleText1::
 	text "Welcome to the"
-	line "10F! So good of"
+	line "10F! So nice of"
 	cont "you to join me!"
 	done
 

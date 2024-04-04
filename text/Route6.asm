@@ -69,7 +69,7 @@ _Route6AfterBattleText4::
 	done
 
 _Route6BattleText5::
-	text "Euch, that cult"
+	text "Euch, that weird"
 	line "girl is copying"
 	cont "my style..."
 	

@@ -14,8 +14,10 @@ _Route19AfterBattleText1::
 	done
 
 _Route19BattleText2::
-	text "Wait! You'll have"
-	line "a heart attack!"
+	text "If you just ate,"
+	line "wait! Otherwise,"
+	cont "your swim date"
+	cont "will not be great!"
 	done
 
 _Route19EndBattleText2::
@@ -106,7 +108,7 @@ _Route19AfterBattleText7::
 
 _Route19BattleText8::
 	text "Swimming's great!"
-	line "Sunburns aren't!"
+	line "Sunburn ain't!"
 	done
 
 _Route19EndBattleText8::
@@ -130,7 +132,7 @@ _Route19EndBattleText9::
 	prompt
 
 _Route19AfterBattleText9::
-	text "I got a cramp!"
+	text "Owwow!! Cramp!"
 	line "Glub, glub..."
 	done
 

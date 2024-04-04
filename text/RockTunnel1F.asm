@@ -34,8 +34,8 @@ _RockTunnel1AfterBattleText2::
 	done
 
 _RockTunnel1BattleText3::
-	text "What's a little"
-	line "twig like you doin'"
+	text "Why's a little"
+	line "twig like you"
 	cont "out here, eh?"
 	done
 

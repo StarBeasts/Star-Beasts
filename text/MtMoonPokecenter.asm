@@ -25,7 +25,16 @@ _MagikarpSalesmanText1::
 	line "this one of a"
 	cont "kind DOG I found" 
 	cont "for just ¥500!"
-	cont "What do you say?"
+
+	para "This ain't just"
+	line "your papa's pooch,"
+	cont "either!"
+
+	para "This baby is made"
+	line "out of the real"
+	cont "deal: STEEL!"
+
+	para "What do you say?"
 	done
 
 _MagikarpSalesmanNoText::
