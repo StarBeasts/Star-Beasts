@@ -88,8 +88,8 @@ DisplayPCMainMenu::
 SomeonesPCText:   db "SOMEONE's PC@"
 BillsPCText:      db "BILL's PC@"
 PlayersPCText:    db "'s PC@"
-OaksPCText:       db "PROF.OAK's PC@"
-PKMNLeaguePCText: db "<PKMN>LEAGUE@"
+OaksPCText:       db "PROF.CHRY's PC@"
+PKMNLeaguePCText: db "STARLEAGUE@"
 LogOffPCText:     db "LOG OFF@"
 
 BillsPC_::
@@ -121,7 +121,7 @@ BillsPCMenu:
 	call LoadScreenTilesFromBuffer2DisableBGTransfer
 	hlcoord 0, 0
 	ld b, 10
-	ld c, 12
+	ld c, 13
 	call TextBoxBorder
 	hlcoord 2, 2
 	ld de, BillsPCMenuText
@@ -345,9 +345,9 @@ DisplayMonListMenu:
 	ret
 
 BillsPCMenuText:
-	db   "WITHDRAW <PKMN>"
-	next "DEPOSIT <PKMN>"
-	next "RELEASE <PKMN>"
+	db   "WITHDRAW BST"
+	next "DEPOSIT BST"
+	next "RELEASE BST"
 	next "CHANGE BOX"
 	next "SEE YA!"
 	db "@"
