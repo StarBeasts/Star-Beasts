@@ -48,11 +48,9 @@ _Villa5FEndBattleText1::
 
 	para "Incredible."
 
-	para "I never thought"
-	line "I'd live to see"
-	cont "a trainer who"
-	cont "could beat me"
-	cont "so completely."
+	para "You're a truly"
+	line "amazing trainer,"
+	cont "aren't you?"
 
 	para "I'm proud of you,"
 	line "<PLAYER>."
