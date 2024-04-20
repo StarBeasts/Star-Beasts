@@ -66,6 +66,8 @@ SSAnne8Text8:
 	text_asm
 	ld a, BELLSPROUT
 	call PlayCry
+ld a, BELLSPROUT
+	call DisplayPokedex
 	jp TextScriptEnd
 
 SSAnne8BattleText1:

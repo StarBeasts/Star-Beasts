@@ -57,6 +57,8 @@ LavenderHouse1Text3:
 	text_asm
 	ld a, CHARIZARD
 	call PlayCry
+	ld a, CHARIZARD
+	call DisplayPokedex
 	jp TextScriptEnd
 
 LavenderHouse1Text4:
@@ -64,6 +66,8 @@ LavenderHouse1Text4:
 	text_asm
 	ld a, NIDORAN_F
 	call PlayCry
+	ld a, NIDORAN_F
+	call DisplayPokedex
 	jp TextScriptEnd
 
 LavenderHouse1Text5:
