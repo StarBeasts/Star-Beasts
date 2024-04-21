@@ -76,6 +76,8 @@ SpriteSheetPointerTable:
 	overworld_sprite MbikerSprite, 12		; SPRITE_MBIKER
 	overworld_sprite TrueBlueSprite, 12		; SPRITE_TRUEBLUE
 	overworld_sprite SubrosianSprite, 12		; SPRITE_SUBROSIAN
+	overworld_sprite SoulValorDudeSprite, 12	; SPRITE_SOULVALORDUDE
+	overworld_sprite SpeakoSprite, 12	; SPRITE_SPEAKO
 	overworld_sprite PokeBallSprite, 4          ; SPRITE_POKE_BALL
 	overworld_sprite FossilSprite, 4            ; SPRITE_FOSSIL
 	overworld_sprite BoulderSprite, 4           ; SPRITE_BOULDER

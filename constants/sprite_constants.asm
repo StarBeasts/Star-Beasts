@@ -71,6 +71,8 @@
 	const SPRITE_MBIKER
 	const SPRITE_TRUEBLUE
 	const SPRITE_SUBROSIAN
+	const SPRITE_SOUL_VALOR_DUDE
+	const SPRITE_SPEAKO
 DEF FIRST_STILL_SPRITE EQU const_value
 	const SPRITE_POKE_BALL               ; $3d
 	const SPRITE_FOSSIL                  ; $3e
