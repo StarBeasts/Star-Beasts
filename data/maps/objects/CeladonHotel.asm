@@ -11,5 +11,6 @@ CeladonHotel_Object:
 	object_event  3,  1, SPRITE_GRANNY, STAY, DOWN, 1 ; person
 	object_event  2,  4, SPRITE_BEAUTY, STAY, NONE, 2 ; person
 	object_event  8,  4, SPRITE_SUPER_NERD, WALK, LEFT_RIGHT, 3 ; person
+	object_event  12,  3, SPRITE_SPEAKO, STAY, DOWN, 4 ; person
 
 	def_warps_to CELADON_HOTEL

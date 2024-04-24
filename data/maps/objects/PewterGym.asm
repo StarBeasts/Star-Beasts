@@ -10,6 +10,6 @@ PewterGym_Object:
 	def_object_events
 	object_event  4,  1, SPRITE_ROCKER, STAY, DOWN, 1, OPP_BROCK, 1
 	object_event  3,  6, SPRITE_COOLTRAINER_M, STAY, RIGHT, 2, OPP_JR_TRAINER_M, 1
-	object_event  7, 10, SPRITE_GYM_GUIDE, STAY, DOWN, 3 ; person
+	object_event  7, 10, SPRITE_SPEAKO, STAY, DOWN, 3 ; person
 
 	def_warps_to PEWTER_GYM

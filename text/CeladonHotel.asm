@@ -24,3 +24,31 @@ _CeladonHotelText3::
 	para "HOW AM I GONNA GET"
 	line "LUCKY, NOW!?"
 	done
+
+_CeladonHotelText4::
+	text "Hey, kiddo!"
+
+	para "SPEAKO, here!"
+
+	para "It's good to take"
+	line "a rest every now"
+	cont "and again,"
+	cont "know what I mean?"
+
+	para "There's a guy at"
+	line "the local cafe"
+	cont "who lost all his"
+	cont "money gambling!"
+
+	para "You don't wanna"
+	line "be like him, kid!"
+	
+	para "You wanna earn"
+	line "your money the"
+	cont "acceptable way:"
+
+	para "Getting BEASTS to"
+	line "beat the crap"
+	cont "out of each other!"
+	done
+

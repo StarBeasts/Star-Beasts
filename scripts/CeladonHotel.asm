@@ -5,6 +5,7 @@ CeladonHotel_TextPointers:
 	dw CeladonHotelText1
 	dw CeladonHotelText2
 	dw CeladonHotelText3
+	dw CeladonHotelText4
 
 CeladonHotelText1:
 	text_far _CeladonHotelText1
@@ -16,4 +17,8 @@ CeladonHotelText2:
 
 CeladonHotelText3:
 	text_far _CeladonHotelText3
+	text_end
+
+CeladonHotelText4:
+	text_far _CeladonHotelText4
 	text_end

@@ -49,7 +49,9 @@ _VillaB1FAfterBattleText1::
 	done
 
 _VillaB1FText3::
-	text "you shouldn't see this."
+	text "If you see this,"
+	line "please tell the"
+	cont "dev team."
 	done
 
 _VillaB1FText4::
@@ -113,7 +115,49 @@ _VillaB1FText11::
 	done
 
 _VillaB1FText12::
-	text "Sabrina Computer."
+	text "There's a poem"
+	line "on the screen..."
+
+	para "My Star."
+
+	para "When I feel alone,"
+	line "adrift in that"
+	cont "endless night..."
+
+	para "There is always"
+	line "something that"
+	cont "catches my sight."
+
+	para "It is you, my"
+	line "star, my light,"
+	cont "my anchor that"
+	cont "glows ever so"
+	cont "bright."
+
+	para "As the SUN is"
+	line "to the EARTH,"
+	cont "you are my"
+	cont "everything."
+
+	para "And though I"
+	line "miss you and I"
+	cont "wish I could"
+	cont "return here from"
+	cont "far and yonder..."
+
+	para "They say that"
+	line "it is absence"
+	cont "that makes one's"
+	cont "heart grow"
+	cont "fonder."
+
+	para "You are my star."
+
+	para "My everything."
+
+	para "-S"
+
+	para "..."
 	done
 
 

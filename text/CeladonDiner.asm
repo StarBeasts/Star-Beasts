@@ -61,4 +61,9 @@ _CoinCaseNoRoomText::
 _CeladonDinerText_491b7::
 	text "What am I gonna"
 	line "do, now...?"
+
+	para "I lost my job"
+	line "to that SPEAKO"
+	cont "jerk, and now"
+	cont "this..."
 	done

@@ -17,7 +17,7 @@ Villa5F_Object:
 	object_event 11,  5, SPRITE_GHOST, STAY, DOWN, 1 ; person
 	object_event  10,  4, SPRITE_AGATHA,	STAY, DOWN, 2; person
 	object_event  6,  4, SPRITE_BRUNO,    STAY, DOWN, 3; person
-	object_event  2,  5, SPRITE_GYM_GUIDE,    STAY, NONE, 4; person
+	object_event  2,  5, SPRITE_SPEAKO,    STAY, NONE, 4; person
 	object_event  2,  1, SPRITE_OAK, STAY, UP, 5, OPP_CHIEF, 1
 
 	def_warps_to VILLA_5F

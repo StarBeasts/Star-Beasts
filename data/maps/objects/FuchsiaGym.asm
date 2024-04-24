@@ -15,6 +15,6 @@ FuchsiaGym_Object:
 	object_event 21, 35, SPRITE_ROCKER, STAY, UP, 5, OPP_TAMER, 1
 	object_event 21,  8, SPRITE_ROCKER, STAY, DOWN, 6, OPP_TAMER, 2
 	object_event 29,  8, SPRITE_ROCKER, STAY, LEFT, 7, OPP_JUGGLER, 4
-	object_event 30, 51, SPRITE_GYM_GUIDE, STAY, DOWN, 8 ; person
+	object_event 30, 51, SPRITE_SPEAKO, STAY, DOWN, 8 ; person
 
 	def_warps_to FUCHSIA_GYM

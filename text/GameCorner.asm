@@ -93,11 +93,19 @@ _CeladonGameCornerText6::
 	done
 
 _CeladonGameCornerText_48dca::
-	text "Hey!"
+	text "Ey, mon!"
 
-	para "You have better"
-	line "things to do,"
-	cont "champ in making!"
+	para "I be DOUBLE CUT's"
+	line "twin brother,"
+	cont "SINGLE CUT!"
+
+	para "I'm out here"
+	line "tryin' to build"
+	cont "a team to take"
+	cont "on da GYM LEADER"
+	cont "here so I can get"
+	cont "a claim to fame"
+	cont "like my bro!"
 
 	para "CELADON GYM's"
 	line "LEADER is the one"
@@ -106,9 +114,19 @@ _CeladonGameCornerText_48dca::
 	para "She uses grass-"
 	line "type BEASTS!"
 
+	para "Your team's gotta"
+	line "be straight FIRE"
+	cont "to beat her, mon!"
+
+	para "Or you gotta be"
+	line "ICE cold, mon!"
+
 	para "Underestimate her,"
 	line "and you'll get CUT"
 	cont "down to size!"
+
+	para "Like me,"
+	line "SINGLE CUT, mon!"
 	done
 
 _CeladonGameCornerText_48dcf::

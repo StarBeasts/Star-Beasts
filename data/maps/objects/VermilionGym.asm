@@ -12,6 +12,6 @@ VermilionGym_Object:
 	object_event  5,  6, SPRITE_GRAMPS, STAY, LEFT, 2, OPP_GAMBLER, 6
 	object_event  5,  8, SPRITE_GAMBLER, STAY, LEFT, 3, OPP_CUE_BALL, 10
 	object_event  3, 10, SPRITE_ROCKET, STAY, RIGHT, 4, OPP_ROCKET, 22
-	object_event  4, 14, SPRITE_GYM_GUIDE, STAY, DOWN, 5 ; person
+	object_event  4, 14, SPRITE_SPEAKO, STAY, DOWN, 5 ; person
 
 	def_warps_to VERMILION_GYM

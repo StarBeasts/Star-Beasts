@@ -46,6 +46,6 @@ SaffronGym_Object:
 	object_event 3, 13, SPRITE_BIKER, STAY, DOWN, 6, OPP_BIKER, 12
 	object_event 17, 13, SPRITE_BIKER, STAY, DOWN, 7, OPP_BIKER, 10
 	object_event 3, 1, SPRITE_BIKER, STAY, DOWN, 8, OPP_BIKER, 8
-	object_event 10, 15, SPRITE_GYM_GUIDE, STAY, DOWN, 9 ; person
+	object_event 10, 15, SPRITE_SPEAKO, STAY, DOWN, 9 ; person
 
 	def_warps_to SAFFRON_GYM
