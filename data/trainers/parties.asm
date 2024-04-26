@@ -391,6 +391,8 @@ GamblerData:
 	db 30,PERSIAN,RAICHU,HYPNO,0
 ; Saffron Gym
 	db 33,CHARMELEON,IVYSAUR,WARTORTLE,0
+; Vermilion Gym
+	db 22,GRAVELER,GOLEM,0
 BeautyData:
 ; Celadon Gym
 	db 21, ODDISH, BELLSPROUT, DROWZEE, BULBASAUR, 0

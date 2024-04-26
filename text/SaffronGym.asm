@@ -88,11 +88,14 @@ _TM46NoRoomText::
 	done
 
 _SaffronGymGuidePreBattleText::
-	text "Yo! Champ in"
-	line "making!"
+	text "Hey, kiddo!"
 
-	para "SABRINA's GYM"
-	line "was ransacked by"
+	para "SABRINA's GYM has"
+	line "had a bit of an"
+	cont "extreme makeover!"
+
+	para "Y'See, it's been"
+	line "ransacked by"
 	cont "a BIKER GANG!"
 
 	para "I have no clue"
@@ -110,6 +113,11 @@ _SaffronGymGuidePostBattleText::
 	para "You really showed"
 	line "that BIKER who's"
 	cont "boss!"
+
+	para "You'd probably feel"
+	line "right at home"
+	cont "with the RANGERs,"
+	cont "wouldn'tcha?"
 	done
 
 _SaffronGymBattleText1::

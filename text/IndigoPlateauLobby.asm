@@ -1,6 +1,8 @@
 _IndigoPlateauLobbyText2::
-	text "Yo! Champ in"
-	line "making!"
+	text "Heyhey, kiddo!"
+
+	para "Or should I say,"
+	line "'Future champ'?"
 
 	para "At #BST LEAGUE,"
 	line "you have to face"
@@ -11,6 +13,9 @@ _IndigoPlateauLobbyText2::
 	line "have to start all"
 	cont "over again! This"
 	cont "is it! Go for it!"
+
+	para "Your pal SPEAKO is"
+	line "rooting for you!"
 	done
 
 _IndigoPlateauLobbyText3::

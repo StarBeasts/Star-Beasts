@@ -140,8 +140,15 @@ _VermilionGymAfterBattleText3::
 	done
 
 _VermilionGymGuidePreBattleText::
-	text "Yo! Champ in the"
-	line "making!"
+	text "Oh wow!"
+
+	para "It's 'shocking'"
+	line "to meet you here,"
+	cont "kiddo!"
+
+	para "Hahah! I kid,"
+	line "I kid! I know why"
+	cont "you're here!"
 
 	para "ELEKSI is a"
 	line "supercharged"
@@ -157,8 +164,20 @@ _VermilionGymGuidePreBattleText::
 	cont "risk! Beware of"
 	cont "paralysis too!"
 
-	para "She's also"
-	line "cautious!"
+	para "You'll have to"
+	line "keep yourself"
+	cont "GROUNDed if you"
+	cont "want to win!"
+
+	para "Hahah! Get it?"
+
+	para "She's also got"
+	line "some kind of"
+	cont "security system"
+	cont "hooked up in"
+	cont "here in case"
+	cont "the fans get"
+	cont "too rowdy!"
 
 	para "You'll have to"
 	line "break a code to"

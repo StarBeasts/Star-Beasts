@@ -169,9 +169,25 @@ _Villa5FText4::
 	cont "see you become"
 	cont "CHAMPION."
 
+	para "Sniff..."
+
+	para "Now, I'm not the"
+	line "type to get all"
+	cont "emotional, but..."
+
+	para "You did good, kid."
+
+	para "You did real good."
+
 	para "Couldn't have"
 	line "done it without"
-	cont "me, right?"
+	cont "your old pal"
+	cont "SPEAKO, right?"
+
+	para "Maybe we can do it"
+	line "all over again"
+	cont "some day,"
+	cont "eh, CHAMP?"
 	done
 
 _Villa5FText5::

@@ -246,16 +246,25 @@ _ViridianGymAfterBattleText8::
 	done
 
 _ViridianGymGuidePreBattleText::
-	text "Yo! Champ in"
-	line "making!"
+	text "Kiddo! Good to see"
+	line "you! You've come"
+	cont "real far!"
+
+	para "This is your last"
+	line "bout before the"
+	cont "BIG LEAGUES!"
+	
+	para "But..."
 
 	para "Even I don't know"
 	line "VIRIDIAN LEADER's"
 	cont "identity!"
 
-	para "This will be the"
-	line "toughest of all"
-	cont "the GYM LEADERs!"
+	para "Either way!"
+
+	para "This is gonna be"
+	line "the mother of all"
+	cont "showdowns, kid!"
 
 	para "I heard that the"
 	line "trainers here"

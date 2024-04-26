@@ -103,22 +103,30 @@ _PewterGymAfterBattleText1::
 	done
 
 _PewterGymGuidePreAdviceText::
-	text "Hiya! I can tell"
-	line "you have what it"
-	cont "takes to become a"
-	cont "STAR BEAST champ!"
+	text "Heyheyhey, kiddo!"
 
-	para "I'm no trainer,"
-	line "but I can tell"
-	cont "you how to win!"
+	para "It's me, your GYM"
+	line "GUIDE who ain't"
+	cont "named CLYDE,"
+	cont "SPEAKO!"
 
-	para "Let me take you"
-	line "to the top!"
+	para "I think you got"
+	line "what it takes to"
+	cont "become the STAR"
+	cont "BEAST champerino!"
+
+	para "I don't train any"
+	line "more, but I know"
+	cont "my stuff!"
+
+	para "Whaddaya say, kid?"
+	line "Are we partners"
+	cont "in crime, or what?"
 	done
 
 _PewterGymGuideBeginAdviceText::
-	text "All right! Let's"
-	line "get happening!"
+	text "Let's get right"
+	line "down to it, then!"
 	prompt
 
 _PewterGymGuideAdviceText::
@@ -131,16 +139,37 @@ _PewterGymGuideAdviceText::
 	line "order of BEASTS,"
 	cont "matches could be"
 	cont "made easier!"
+
+	para "If you switch a"
+	line "BEAST in a fight,"
+	cont "that counts as"
+	cont "using your turn,"
+	cont "so be careful!"
 	done
 
 _PewterGymText_5c524::
-	text "It's a free"
-	line "service! Let's"
-	cont "get happening!"
+	text "Aww, where's your"
+	line "fighting spirit?"
+
+	para "You gotta believe"
+	line "in yourself a"
+	cont "little, kiddo!"
+
+	para "It's not as hard"
+	line "as it may seem,"
+	cont "I promise!"
+
+	para "It goes a little"
+	line "like this:"
 	prompt
 
 _PewterGymGuidePostBattleText::
 	text "Just as I thought!"
 	line "You're STAR BEAST"
 	cont "champ material!"
+
+	para "You and me, kiddo!"
+
+	para "We're gonna go far!"
+	line "Real far!"
 	done

@@ -169,8 +169,9 @@ _FuchsiaGymAfterBattleText6::
 	done
 
 _FuchsiaGymGuidePreBattleText::
-	text "Yo! Champ in the"
-	line "making!"
+	text "Hey, kiddo!"
+
+	para "I hate this place!"
 
 	para "FUCHSIA GYM is"
 	line "a rather grave"
@@ -180,6 +181,17 @@ _FuchsiaGymGuidePreBattleText::
 	line "you'll have to"
 	cont "get to her,"
 	cont "first!"
+
+	para "Just try not"
+	line "to bump into"
+	cont "any rat-loving"
+	cont "freaks along"
+	cont "the way!"
+
+	para "Did I mention that"
+	line "this place gives"
+	cont "me the heebie"
+	cont "jeebies, yet?"
 	done
 
 _FuchsiaGymGuidePostBattleText::
@@ -187,4 +199,8 @@ _FuchsiaGymGuidePostBattleText::
 
 	para "What's so special"
 	line "about a rat?"
+
+	para "It doesn't even"
+	line "live up to the"
+	cont "hype like I do!"
 	done

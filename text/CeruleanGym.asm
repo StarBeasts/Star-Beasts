@@ -108,10 +108,11 @@ _CeruleanGymAfterBattleText2::
 	done
 
 _CeruleanGymGuidePreBattleText::
-	text "Yo! Champ in"
-	line "making!"
+	text "SURF's up, dudes!"
 
-	para "Here's my advice!"
+	para "Here's how to"
+	line "catch those"
+	cont "gnarly waves, yo!"
 
 	para "The LEADER, MIZU,"
 	line "is a pro who uses"
@@ -123,13 +124,22 @@ _CeruleanGymGuidePreBattleText::
 
 	para "Or, zap 'em with"
 	line "electricity!"
+
+	para "Totally radical,"
+	line "eh, kid?"
 	done
 
 _CeruleanGymGuidePostBattleText::
 	text "You beat MIZU!"
 	line "What'd I tell ya?"
 
-	para "You and me kid,"
-	line "we make a pretty"
-	cont "darn good team!"
+	para "You and me, we're"
+	line "gonna pop down"
+	cont "the moves and"
+	cont "bust up the jam!"
+
+	para "..."
+	
+	para "Wait, why are you"
+	line "laughing?"
 	done

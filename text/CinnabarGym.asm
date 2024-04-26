@@ -257,21 +257,31 @@ _CinnabarGymAfterBattleText7::
 	done
 
 _CinnabarGymGuidePreBattleText::
-	text "Yo! Champ in"
-	line "making!"
+	text "Heyhey, kiddo!"
 
 	para "The hot-headed"
 	line "VELID is a fire"
 	cont "# BEAST pro!"
 
-	para "Douse his spirits"
-	line "with water!"
+	para "They say he's a"
+	line "WIZARD, but you"
+	cont "and I know that's"
+	cont "just a lotta"
+	cont "smoke n' mirrors!"
 
-	para "You better take"
-	line "some BURN HEALs!"
+	para "You gotta put his"
+	line "act to an end"
+	cont "with WATER, or"
+	cont "ROCK his world!"
+
+	para "Oh, and don't"
+	line "forget BURN HEALs!"
 	done
 
 _CinnabarGymGuidePostBattleText::
-	text "<PLAYER>! You beat"
-	line "that firebrand!"
+	text "Whew! Is it hot"
+	line "in here, or is"
+	cont "that just your"
+	cont "winning streak,"
+	cont "kiddo?"
 	done
