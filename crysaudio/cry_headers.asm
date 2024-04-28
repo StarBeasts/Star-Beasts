@@ -90,20 +90,20 @@ PokemonCries::
 	mon_cry CRY_EKANS,       235,  156 ; FARFETCH_D - Done
 	mon_cry CRY_SLOWKING,      85,  423 ; DODUO - Done
 	mon_cry CRY_SLOWKING,     183,  383 ; DODRIO - Done
-	mon_cry CRY_SEEL,        136,  320 ; SEEL
-	mon_cry CRY_SEEL,         35,  383 ; DEWGONG
-	mon_cry CRY_GRIMER,        0,  256 ; GRIMER
-	mon_cry CRY_MUK,         239,  383 ; MUK
+	mon_cry CRY_MARILL,        -116,  380 ; SEEL - Done
+	mon_cry CRY_DIGLETT,         35,  283 ; DEWGONG - Done
+	mon_cry CRY_DIGLETT,        -220,  256 ; GRIMER - Done
+	mon_cry CRY_DONPHAN,         244,  383 ; MUK - Done
 	mon_cry CRY_FEAROW,        0,  256 ; SHELLDER - Done(lol)
 	mon_cry CRY_FEAROW,      -225,  352 ; CLOYSTER - Done
 	mon_cry CRY_DONPHAN,     143,  383 ; GASTLY - Done
 	mon_cry CRY_PICHU,      128,  383 ; HAUNTER - Done
 	mon_cry CRY_MANTINE,           92,  300 ; GENGAR - Done
-	mon_cry CRY_EKANS,       255,  320 ; ONIX
-	mon_cry CRY_DROWZEE,     136,  160 ; DROWZEE
-	mon_cry CRY_DROWZEE,     238,  192 ; HYPNO
-	mon_cry CRY_KRABBY,       32,  352 ; KRABBY
-	mon_cry CRY_KRABBY,      238,  352 ; KINGLER
+	mon_cry CRY_ODDISH,       255,  383 ; ONIX - Done
+	mon_cry CRY_RAIKOU,     36,  260 ; DROWZEE - Done
+	mon_cry CRY_MAGCARGO,     -428,  372 ; HYPNO - Done
+	mon_cry CRY_SPINARAK,       2015,  352 ; KRABBY - Done
+	mon_cry CRY_AMPHAROS,      1225,  302 ; KINGLER - Done
 	mon_cry CRY_SPINARAK,   255,  412 ; VOLTORB - Done
 	mon_cry CRY_CHIKORITA,   85,  412 ; ELECTRODE - Done
 	mon_cry CRY_AMPHAROS,    238, 350 ; EXEGGCUTE - Done
@@ -112,16 +112,16 @@ PokemonCries::
 	mon_cry CRY_HOOTHOOT,      -320,  475 ; MAROWAK - Done
 	mon_cry CRY_METAPOD,    250,  300 ; HITMONLEE - Done
 	mon_cry CRY_AMPHAROS,     130,  320 ; HITMONCHAN - Done
-	mon_cry CRY_SEEL,          0,  256 ; LICKITUNG
-	mon_cry CRY_GOLEM,       230,  349 ; KOFFING
+	mon_cry CRY_CHARMANDER,       165,  256 ; LICKITUNG - Done
+	mon_cry CRY_CHARMANDER,       2035,  295 ; KOFFING - Done
 	mon_cry CRY_CYNDAQUIL,      32,  200 ; WEEZING - Done
 	mon_cry CRY_ENTEI,      -32,  200 ; RHYHORN - Done
 	mon_cry CRY_MAREEP,      85,  440 ; RHYDON - Done
 	mon_cry CRY_TEDDIURSA,   -25,  256 ; CHANSEY - Done
 	mon_cry CRY_ENTEI, -25,  0 ; TANGELA - Done
 	mon_cry CRY_ENTEI, -26,  258 ; KANGASKHAN - Done
-	mon_cry CRY_CLEFAIRY,    153,  144 ; HORSEA
-	mon_cry CRY_CLEFAIRY,     60,  129 ; SEADRA
+	mon_cry CRY_PSYDUCK,    -153,  244 ; HORSEA - Done
+	mon_cry CRY_BLASTOISE,     -60,  189 ; SEADRA - Done
 	mon_cry CRY_CHIKORITA,     143,  383 ; GOLDEEN - Done
 	mon_cry CRY_CLEFFA,     143,  383 ; SEAKING - Done
 	mon_cry CRY_HOOTHOOT,     17,  256 ; STARYU - Done
@@ -138,24 +138,24 @@ PokemonCries::
 	mon_cry CRY_TYPHLOSION,        -40,  200 ; LAPRAS - Done
 	mon_cry CRY_AIPOM,      -100,  256 ; DITTO - Done
 	mon_cry CRY_GIRAFARIG,    0,  383 ; EEVEE - Done
-	mon_cry CRY_VENONAT,     170,  383 ; VAPOREON
-	mon_cry CRY_VENONAT,      61,  256 ; JOLTEON
+	mon_cry CRY_WEEPINBELL,     2102,  323 ; VAPOREON
+	mon_cry CRY_DONPHAN,     163,  363 ; JOLTEON - Done
 	mon_cry CRY_TYPHLOSION,   40,  352 ; FLAREON - Done
 	mon_cry CRY_WEEPINBELL,     123,  383 ; PORYGON - Done
 	mon_cry CRY_DUNSPARCE,     128,  240 ; OMANYTE - Done
 	mon_cry CRY_DUNSPARCE,      192,  320 ; OMASTAR - Done
 	mon_cry CRY_CATERPIE,    187,  192 ; KABUTO
 	mon_cry CRY_FEAROW,      238,  129 ; KABUTOPS
-	mon_cry CRY_VILEPLUME,    32,  368 ; AERODACTYL
+	mon_cry CRY_SUNFLORA,    32,  418 ; AERODACTYL - Done
 	mon_cry CRY_GRIMER,       85,  129 ; SNORLAX
 	mon_cry CRY_RAICHU,      128,  192 ; ARTICUNO
 	mon_cry CRY_FEAROW,      255,  256 ; ZAPDOS
 	mon_cry CRY_RAICHU,      248,  192 ; MOLTRES
 	mon_cry CRY_WOOPER,     92,  320 ; DRATINI - Done
-	mon_cry CRY_BULBASAUR,    64,  256 ; DRAGONAIR
-	mon_cry CRY_TYPHLOSION,    -272,  274 ; DRAGONITE
+	mon_cry CRY_BULBASAUR,    -30,  346 ; DRAGONAIR - Done
+	mon_cry CRY_TYPHLOSION,    -272,  274 ; DRAGONITE - Done
 	mon_cry CRY_PARAS,       153,  383 ; MEWTWO
-	mon_cry CRY_PARAS,       238,  383 ; MEW
+	mon_cry CRY_GROWLITHE,     116,  168 ; MEW - Done
 	mon_cry CRY_CHIKORITA,   -16,  176 ; CHIKORITA
 	mon_cry CRY_CHIKORITA,   -34,  288 ; BAYLEEF
 	mon_cry CRY_CHIKORITA,  -183,  512 ; MEGANIUM
