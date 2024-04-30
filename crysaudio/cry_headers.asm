@@ -75,7 +75,7 @@ PokemonCries::
 	mon_cry CRY_RAIKOU,    -494,  284 ; MACHAMP - Done
 	mon_cry CRY_NATU,        -25,  256 ; BELLSPROUT - Done
 	mon_cry CRY_AIPOM,     143,  256 ; WEEPINBELL - Done
-	mon_cry CRY_TYPHLOSION,  -265,  232 ; VICTREEBEL - Done
+	mon_cry CRY_TYPHLOSION,  1600,  256 ; VICTREEBEL - Done
 	mon_cry CRY_EKANS,      198,  224 ; TENTACOOL - Done
 	mon_cry CRY_DUNSPARCE,  -41,  242 ; TENTACRUEL - Done
 	mon_cry CRY_DUNSPARCE,      625,  220 ; GEODUDE - Done
@@ -93,7 +93,7 @@ PokemonCries::
 	mon_cry CRY_MARILL,        -116,  380 ; SEEL - Done
 	mon_cry CRY_DIGLETT,         35,  283 ; DEWGONG - Done
 	mon_cry CRY_DIGLETT,        -220,  256 ; GRIMER - Done
-	mon_cry CRY_DONPHAN,         244,  383 ; MUK - Done
+	mon_cry CRY_SQUIRTLE,         -240,  300 ; MUK - Done
 	mon_cry CRY_FEAROW,        0,  256 ; SHELLDER - Done(lol)
 	mon_cry CRY_FEAROW,      -225,  352 ; CLOYSTER - Done
 	mon_cry CRY_DONPHAN,     143,  383 ; GASTLY - Done
@@ -114,7 +114,7 @@ PokemonCries::
 	mon_cry CRY_AMPHAROS,     130,  320 ; HITMONCHAN - Done
 	mon_cry CRY_CHARMANDER,       165,  256 ; LICKITUNG - Done
 	mon_cry CRY_CHARMANDER,       2035,  295 ; KOFFING - Done
-	mon_cry CRY_CYNDAQUIL,      32,  200 ; WEEZING - Done
+	mon_cry CRY_CYNDAQUIL,      248,  192 ; WEEZING - Done
 	mon_cry CRY_ENTEI,      -32,  200 ; RHYHORN - Done
 	mon_cry CRY_MAREEP,      85,  440 ; RHYDON - Done
 	mon_cry CRY_TEDDIURSA,   -25,  256 ; CHANSEY - Done
@@ -138,23 +138,23 @@ PokemonCries::
 	mon_cry CRY_TYPHLOSION,        -40,  200 ; LAPRAS - Done
 	mon_cry CRY_AIPOM,      -100,  256 ; DITTO - Done
 	mon_cry CRY_GIRAFARIG,    0,  383 ; EEVEE - Done
-	mon_cry CRY_WEEPINBELL,     2102,  323 ; VAPOREON
+	mon_cry CRY_PIDGEOTTO,     4042,  323 ; VAPOREON
 	mon_cry CRY_DONPHAN,     163,  363 ; JOLTEON - Done
-	mon_cry CRY_TYPHLOSION,   40,  352 ; FLAREON - Done
+	mon_cry CRY_TYPHLOSION,   40,  252 ; FLAREON - Done
 	mon_cry CRY_WEEPINBELL,     123,  383 ; PORYGON - Done
 	mon_cry CRY_DUNSPARCE,     128,  240 ; OMANYTE - Done
 	mon_cry CRY_DUNSPARCE,      192,  320 ; OMASTAR - Done
-	mon_cry CRY_CATERPIE,    187,  192 ; KABUTO
-	mon_cry CRY_FEAROW,      238,  129 ; KABUTOPS
+	mon_cry CRY_RAICHU,      -128,  192 ; KABUTO - Done
+	mon_cry CRY_RAICHU,      -108,  232 ; KABUTOPS - Done
 	mon_cry CRY_SUNFLORA,    32,  418 ; AERODACTYL - Done
-	mon_cry CRY_GRIMER,       85,  129 ; SNORLAX
-	mon_cry CRY_RAICHU,      128,  192 ; ARTICUNO
-	mon_cry CRY_FEAROW,      255,  256 ; ZAPDOS
-	mon_cry CRY_RAICHU,      248,  192 ; MOLTRES
+	mon_cry CRY_RAIKOU,       -420,  289 ; SNORLAX - Done
+	mon_cry CRY_SPINARAK,   -1174,  666 ; ARTICUNO - Done
+	mon_cry CRY_TYPHLOSION,  -265,  232 ; ZAPDOS - Done
+	mon_cry CRY_TYPHLOSION,      6649,  166 ; MOLTRES - Done
 	mon_cry CRY_WOOPER,     92,  320 ; DRATINI - Done
 	mon_cry CRY_BULBASAUR,    -30,  346 ; DRAGONAIR - Done
-	mon_cry CRY_TYPHLOSION,    -272,  274 ; DRAGONITE - Done
-	mon_cry CRY_PARAS,       153,  383 ; MEWTWO
+	mon_cry CRY_VILEPLUME,     1102,  323 ; DRAGONITE - Done
+	mon_cry CRY_AMPHAROS,       4298,  466 ; MEWTWO - Done
 	mon_cry CRY_GROWLITHE,     116,  168 ; MEW - Done
 	mon_cry CRY_CHIKORITA,   -16,  176 ; CHIKORITA
 	mon_cry CRY_CHIKORITA,   -34,  288 ; BAYLEEF
