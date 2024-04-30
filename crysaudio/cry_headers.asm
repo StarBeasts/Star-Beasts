@@ -78,7 +78,7 @@ PokemonCries::
 	mon_cry CRY_TYPHLOSION,  1600,  256 ; VICTREEBEL - Done
 	mon_cry CRY_EKANS,      198,  224 ; TENTACOOL - Done
 	mon_cry CRY_DUNSPARCE,  -41,  242 ; TENTACRUEL - Done
-	mon_cry CRY_DUNSPARCE,      625,  220 ; GEODUDE - Done
+	mon_cry CRY_DUNSPARCE,      4567,  271 ; GEODUDE - Done
 	mon_cry CRY_MAGCARGO,	197,  370 ; GRAVELER - Done
 	mon_cry CRY_MANTINE,    -160,  352 ; GOLEM - Done
 	mon_cry CRY_TOGETIC,    -675,  120 ; PONYTA - Done
