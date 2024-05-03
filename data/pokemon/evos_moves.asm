@@ -203,6 +203,7 @@ RhydonEvosMoves:
 	db 15, CONFUSE_RAY
 	db 20, OMINOUS_WIND
 	db 25, BUBBLEBEAM
+	db 26, MIST
 	db 30, SLASH
 	db 38, HURRICANE
 	db 40, ICE_BEAM

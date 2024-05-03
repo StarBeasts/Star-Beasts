@@ -88,4 +88,4 @@ SoulValorDudeSprite::	     INCBIN "gfx/sprites/soulvalordude.2bpp"
 SpeakoSprite::	     INCBIN "gfx/sprites/speako.2bpp"
 GhostSprite::	    		INCBIN "gfx/sprites/ghost.2bpp"
 GamblerDeadSprite::	    INCBIN "gfx/sprites/gambler_dead.2bpp"
-
+InsectSprite::	    INCBIN "gfx/sprites/insect.2bpp"
