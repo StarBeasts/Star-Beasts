@@ -2,7 +2,12 @@ GainExperience:
 	ld a, [wLinkState]
 	cp LINK_STATE_BATTLING
 	ret z ; return if link battle
-	call DivideExpDataByNumMonsGainingExp
+	ld a, [wBoostExpByExpAll] ;load in a if the EXP All is being used
+	ld hl, WithExpAllText ; this is preparing the text to show
+	and a ;check wBoostExpByExpAll value
+	jr z, .skipExpAll ; if wBoostExpByExpAll is zero, we are not using it, so we don't show anything and keep going on
+	call PrintText ; if the code reaches this point it means we have the Exp.All, so show the message
+.skipExpAll
 	ld hl, wPartyMon1
 	xor a
 	ld [wWhichPokemon], a
@@ -146,11 +151,16 @@ GainExperience:
 	ld a, [wWhichPokemon]
 	ld hl, wPartyMonNicks
 	call GetPartyMonName
-	ld hl, GainedText
+	ld a, [wBoostExpByExpAll] ; get using ExpAll flag
+	and a ; check the flag
+	jr nz, .skipExpText ; if there's EXP. all, skip showing any text
+	ld hl, GainedText ;there's no EXP. all, load the text to show
 	call PrintText
+.skipExpText
 	xor a ; PLAYER_PARTY_DATA
 	ld [wMonDataLocation], a
 	call LoadMonData
+	call AnimateEXPBar
 	pop hl
 	ld bc, wPartyMon1Level - wPartyMon1Exp
 	add hl, bc
@@ -160,6 +170,7 @@ GainExperience:
 	ld a, [hl] ; current level
 	cp d
 	jp z, .nextMon ; if level didn't change, go to next mon
+	call KeepEXPBarFull
 	ld a, [wCurEnemyLVL]
 	push af
 	push hl
@@ -245,6 +256,7 @@ GainExperience:
 	xor a ; PLAYER_PARTY_DATA
 	ld [wMonDataLocation], a
 	call LoadMonData
+	call AnimateEXPBarAgain
 	ld d, $1
 	callfar PrintStatsBox
 	call WaitForTextScrollButtonPress
@@ -290,39 +302,6 @@ GainExperience:
 	pop bc
 	predef_jump FlagActionPredef ; set the fought current enemy flag for the mon that is currently out
 
-; divide enemy base stats, catch rate, and base exp by the number of mons gaining exp
-DivideExpDataByNumMonsGainingExp:
-	ld a, [wPartyGainExpFlags]
-	ld b, a
-	xor a
-	ld c, $8
-	ld d, $0
-.countSetBitsLoop ; loop to count set bits in wPartyGainExpFlags
-	xor a
-	srl b
-	adc d
-	ld d, a
-	dec c
-	jr nz, .countSetBitsLoop
-	cp $2
-	ret c ; return if only one mon is gaining exp
-	ld [wd11e], a ; store number of mons gaining exp
-	ld hl, wEnemyMonBaseStats
-	ld c, wEnemyMonBaseExp + 1 - wEnemyMonBaseStats
-.divideLoop
-	xor a
-	ldh [hDividend], a
-	ld a, [hl]
-	ldh [hDividend + 1], a
-	ld a, [wd11e]
-	ldh [hDivisor], a
-	ld b, $2
-	call Divide ; divide value by number of mons gaining exp
-	ldh a, [hQuotient + 3]
-	ld [hli], a
-	dec c
-	jr nz, .divideLoop
-	ret
 
 ; multiplies exp by 1.5
 BoostExp:
@@ -370,3 +349,71 @@ GrewLevelText:
 	text_far _GrewLevelText
 	sound_level_up
 	text_end
+
+AnimateEXPBarAgain:
+	call IsCurrentMonBattleMon
+	ret nz
+	xor a
+	ld [wEXPBarPixelLength], a
+	coord hl, 17, 11
+	ld a, $c0
+	ld c, $08
+.loop
+	ld [hld], a
+	dec c
+	jr nz, .loop
+AnimateEXPBar:
+	call IsCurrentMonBattleMon
+	ret nz
+	ld a, SFX_HEAL_HP
+	call PlaySoundWaitForCurrent
+	ld hl, CalcEXPBarPixelLength
+	ld b, BANK(CalcEXPBarPixelLength)
+	call Bankswitch
+	ld hl, wEXPBarPixelLength
+	ld a, [hl]
+	ld b, a
+	ld a, [hQuotient + 3]
+	ld [hl], a
+	sub b
+	jr z, .done
+	ld b, a
+	ld c, $08
+	coord hl, 17, 11
+.loop1
+	ld a, [hl]
+	cp $c8
+	jr nz, .loop2
+	dec hl
+	dec c
+	jr z, .done
+	jr .loop1
+.loop2
+	inc a
+	ld [hl], a
+	call DelayFrame
+	dec b
+	jr z, .done
+	jr .loop1
+.done
+	ld bc, $08
+	coord hl, 10, 11
+	ld de, wTileMapBackup + 10 + 11 * 20
+	call CopyData
+	ld c, $20
+	jp DelayFrames
+
+KeepEXPBarFull:
+	call IsCurrentMonBattleMon
+	ret nz
+	ld a, [wEXPBarKeepFullFlag]
+	set 0, a
+	ld [wEXPBarKeepFullFlag], a
+	ret
+
+IsCurrentMonBattleMon:
+	ld a, [wPlayerMonNumber]
+	ld b, a
+	ld a, [wWhichPokemon]
+	cp b
+	ret
