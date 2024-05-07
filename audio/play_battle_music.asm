@@ -80,7 +80,7 @@ PlayBattleMusic::
 	ld a, MUSIC_FINAL_BATTLE
 	jr .playSong
 .ronald
-	ld a, MUSIC_RONALD
+	ld a, MUSIC_WILD_ENCOUNTER
 	jr .playSong
 .hero
 	ld a, MUSIC_HERO

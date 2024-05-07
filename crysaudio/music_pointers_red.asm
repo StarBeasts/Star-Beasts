@@ -49,7 +49,7 @@ Music:
 	dba Music_MeetFemaleTrainer
 	dba Music_MeetMaleTrainer
 	dba Music_Blue ; loops properly
-	dba Music_Ronald
+	dba Music_WildEncounter
 	dba Music_RocketBattle
 	dba Music_MeowthStage
 	dba Music_Imakuni2
