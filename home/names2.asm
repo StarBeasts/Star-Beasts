@@ -2,7 +2,7 @@ NamePointers::
 ; entries correspond to *_NAME constants
 	dw MonsterNames
 	dw MoveNames
-	dw UnusedBadgeNames
+	dw tmhmNames
 	dw ItemNames
 	dw wPartyMonOT ; player's OT names list
 	dw wEnemyMonOT ; enemy's OT names list
@@ -27,7 +27,13 @@ GetName::
 	ASSERT NUM_TRAINERS < HM01, \
 		"A bug in GetName will get TM/HM names for trainers above ${x:HM01}."
 	cp HM01
-	jp nc, GetMachineName
+	;jp nc, GetMachineName	;joenote - function removed. Handle list-based tm & hm names here.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	jr c, .notMachine
+	sub $C3	;need to shift things because tm and hm constants are offset by +$C3 from the first item constant
+	ld [wd0b5], a
+.notMachine
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 	ldh a, [hLoadedROMBank]
 	push af

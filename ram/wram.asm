@@ -1097,7 +1097,7 @@ wItemList:: ds 16
 
 wListPointer:: dw
 
-; used to store pointers, but never read
+; used as a temp location for sorting through name data
 wUnusedCF8D:: dw
 
 wItemPrices:: dw
