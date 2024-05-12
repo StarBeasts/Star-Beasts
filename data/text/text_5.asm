@@ -102,3 +102,16 @@ _BoxIsFullText::
 	para "Change the BOX at"
 	line "a #BST CENTER!"
 	done
+
+_BoxIsFullReminderText::
+	text "Your BEAST BOX"
+	line "is full!"
+	cont "You can't catch"
+	cont "any more BEASTS"
+	cont "until you switch"
+	cont "to a new one!"
+
+	para "Change the BOX at"
+	line "a #BST CENTER!"
+	prompt
+

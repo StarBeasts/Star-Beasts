@@ -564,6 +564,7 @@ ItemUseBall:
 	ld hl, ItemUseBallText08
 .printTransferredToPCText
 	call PrintText
+	call .boxCheck
 	jr .done
 
 .oldManCaughtMon
@@ -583,6 +584,18 @@ ItemUseBall:
 	inc a
 	ld [wItemQuantity], a
 	jp RemoveItemFromInventory
+
+.boxCheck
+	ld a, [wBoxCount] ; is box full?
+	cp MONS_PER_BOX
+	ret nz
+	ld hl, BoxFullReminderTXT
+	call PrintText
+	ret
+
+BoxFullReminderTXT:
+	text_far _BoxIsFullReminderText
+	text_end
 
 ItemUseBallText00:
 ;"It dodged the thrown ball!"
