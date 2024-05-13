@@ -1,0 +1,4008 @@
+#1 - Quincy
+
+Grass
+
+HP: 75
+Attack: 70
+Defense: 55
+Special: 35
+Speed: 80
+
+Location: Starter, In-game trade (Cerulean City), Safari Zone
+
+Starting Moves:
+POUND, HARDEN
+
+Learnset
+7, LEECH_SEED
+9, ABSORB
+13, COMET_PUNCH
+13, BIDE
+16, MACH_PUNCH
+20, STUN_SPORE
+27, MEGA_DRAIN
+34, GROWTH
+41, SPORE
+48, SOLARBEAM
+
+TM / HM
+FALCON_PUNCH, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+ COUNTER,      SEISMIC_TOSS, MEGA_DRAIN,   SOLARBEAM,    
+ MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    SKULL_BASH,   
+ REST, 		   SUBSTITUTE,   CUT, 		   STRENGTH
+
+#2 - Lawncrete
+
+Grass / Fighting
+
+HP: 85
+Attack: 95
+Defense: 105
+Special: 50
+Speed: 40
+
+Location: Evolve Quincy at Level 16
+
+Starting Moves:
+COMET_PUNCH, HARDEN, LEECH_SEED
+
+Learnset
+7, LEECH_SEED
+13, ABSORB
+16, MACH_PUNCH
+22, THRASH
+26, BRICK_BREAK
+30, WOOD_HAMMER
+38, GROWTH
+42, COUNTER
+46, SLEEP_POWDER
+54, SOLARBEAM
+
+TM / HM
+FALCON_PUNCH, SWORDS_DANCE,
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+SUBMISSION,   COUNTER,      SEISMIC_TOSS, 
+MEGA_DRAIN,   SOLARBEAM,
+EARTHQUAKE,   FISSURE, 
+MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    
+SKULL_BASH, 
+REST, ROCK_SLIDE,   SUBSTITUTE,   
+ CUT,          STRENGTH
+
+#3 - Floratress
+
+Grass / Fighting
+
+HP: 105
+Attack: 120
+Defense: 140
+Special: 65
+Speed: 20
+
+Location: Evolve Lawncrete at Level 32, Cerulean Cave, Nature Preserve
+
+Starting Moves:
+BRICK_BREAK, WOOD_HAMMER, HARDEN, MACH_PUNCH
+
+Learnset
+7, LEECH_SEED
+13, ABSORB
+16, MACH_PUNCH
+32, THRASH
+36, BRICK_BREAK
+43, WOOD_HAMMER
+47, GROWTH
+50, COUNTER
+55, SLEEP_POWDER
+60, SOLARBEAM
+65, EARTHQUAKE
+66, EXPLOSION
+
+TM / HM
+FALCON_PUNCH, SWORDS_DANCE,
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE, 
+HYPER_BEAM, 
+SUBMISSION,   COUNTER,      SEISMIC_TOSS,
+MEGA_DRAIN,   SOLARBEAM,
+EARTHQUAKE,   FISSURE, 
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,
+SKULL_BASH,   REST,         
+ROCK_SLIDE,  SUBSTITUTE,   
+CUT,         STRENGTH
+
+#4 - Embrain
+
+Fire
+
+HP: 56
+Attack: 30
+Defense: 30
+Special: 80
+Speed: 65
+
+Location: Starter, In-game trade (Underground Path), Safari Zone
+
+Starting Moves:
+POUND, SMOKESCREEN
+
+Learnset
+6, SMOG
+9, EMBER
+15, HYPNOSIS
+22, HEADBUTT
+30, PSYBEAM
+38, FLAMETHROWER
+46, FIRE_SPIN
+
+TM / HM
+HURRICANE,   FLASH_CANNON,
+TOXIC, BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE, 
+PAY_DAY,      COUNTER,      SEISMIC_TOSS,
+MEGA_DRAIN,   SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  THUNDER,
+PSYCHIC,    TELEPORT,
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME, 
+FIRE_BLAST,   SWIFT,
+DREAM_EATER,  REST,         THUNDER_WAVE,
+PSYWAVE, TRI_ATTACK,   SUBSTITUTE, 
+
+#5 - Kremate
+
+Fire / Psychic
+
+HP: 78
+Attack: 40
+Defense: 40
+Special: 105
+Speed: 80
+
+Location: Evolve Embrain at Level 16
+
+Starting Moves:
+HEADBUTT, CONFUSION, EMBER
+
+Learnset
+9, EMBER
+15, HYPNOSIS
+16, CONFUSION
+24, HEADBUTT
+33, PSYBEAM
+42, FLAMETHROWER
+56, FIRE_SPIN
+
+TM / HM
+HURRICANE,  FLASH_CANNON,
+TOXIC,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE, 
+PAY_DAY,      COUNTER,      SEISMIC_TOSS, 
+MEGA_DRAIN,   SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  THUNDER, 
+PSYCHIC,    TELEPORT,     
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+FIRE_BLAST,   SWIFT,        SKULL_BASH,   
+DREAM_EATER,  REST,         THUNDER_WAVE, 
+PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   
+FLASH
+
+#6 - Inferneo
+
+Fire / Psychic
+
+HP: 96
+Attack: 65
+Defense: 65
+Special: 140
+Speed: 95
+
+Location: Evolve Kremate at Level 36, Cerulean Cave, Nature Preserve
+
+Starting Moves:
+PSYBEAM, HEADBUTT, EMBER, LEER
+
+Learnset
+9, EMBER
+15, HYPNOSIS
+24, HEADBUTT
+35, PSYBEAM
+36, SLASH
+42, FLAMETHROWER
+48, AURA_SPHERE
+55, PKFIRE
+
+
+TM / HM
+HURRICANE,  FLASH_CANNON,    DRAGON_CLAW,    
+TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+HYPER_BEAM,   PAY_DAY,      COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         
+MEGA_DRAIN,   SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  THUNDER,      
+FISSURE,   PSYCHIC,    TELEPORT,     
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+FIRE_BLAST,   SWIFT,        SKULL_BASH,   
+DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, 
+PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   
+CUT,          FLY,          STRENGTH,     FLASH
+
+#7 - Jelleye
+
+Water
+
+HP: 40
+Attack: 40
+Defense: 35
+Special: 50
+Speed: 70
+
+Location: Starter, In-game trade (Vermilion City), Safari Zone, Fishing - Super Rod (Safari Zone)
+
+Starting Moves:
+POISON_STING, LEER
+
+Learnset
+6, WRAP
+9, WATER_GUN
+15, ACID
+22, BUBBLEBEAM
+28, ACID_ARMOR
+35, SCALD
+42, HYDRO_PUMP
+
+TM / HM
+HURRICANE, TOXIC,  BODY_SLAM,    TAKE_DOWN,   
+DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,    
+BLIZZARD, COUNTER, MEGA_DRAIN,  MIMIC, DOUBLE_TEAM, 
+REFLECT,      BIDE,         METRONOME,   SWIFT,
+DREAM_EATER,  REST,         THUNDER_WAVE, 
+SUBSTITUTE, SURF,  FLASH
+
+#8 - Jellyelly
+
+Water / Poison
+
+HP: 60
+Attack: 70
+Defense: 65
+Special: 95
+Speed: 85
+
+Location: Evolve Jelleye at Level 16, Fishing - Super Rod (Safari Zone, Routes 19-21, Seafoam Islands and Cinnabar Island)
+
+Starting Moves:
+ACID, WATER_GUN, WRAP
+
+Learnset
+8, WATER_GUN
+16, ACID
+24, BUBBLEBEAM
+31, ACID_ARMOR
+39, SCALD
+47, HYDRO_PUMP
+
+
+TM / HM
+HURRICANE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD, COUNTER, 
+MEGA_DRAIN,   MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         
+METRONOME,   SWIFT, DREAM_EATER,  REST,  THUNDER_WAVE, 
+SUBSTITUTE,   SURF,         FLASH
+
+#9 - Jellyhelly
+
+Water / Dark
+
+HP: 80
+Attack: 95
+Defense: 85
+Special: 135
+Speed: 100
+
+Location: Evolve Jellyelly at Level 32, Cerulean Cave, Nature Preserve, Fishing - Super Rod (Nature Preserve)
+
+Starting Moves:
+SLUDGE, TOXIC, ACID, BUBBLEBEAM 
+
+Learnset
+8, WATER_GUN
+15, ACID
+24, BUBBLEBEAM
+31, ACID_ARMOR
+36, SLUDGE_BOMB
+42, SCALD
+48, DARK_PULSE
+52, DEATH_DROWN
+
+TM / HM
+HURRICANE,   FLASH_CANNON,TOXIC,        BODY_SLAM,    
+TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    
+ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   
+COUNTER,      SEISMIC_TOSS, MEGA_DRAIN, PSYCHIC, 
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+SWIFT, DREAM_EATER,  REST,         THUNDER_WAVE, SUBSTITUTE,   
+CUT,  SURF,         STRENGTH,     FLASH
+
+#10 - Cupeedle
+
+Bug
+
+HP: 45
+Attack: 30
+Defense: 35
+Special: 30
+Speed: 90
+
+Location: Viridian Forest, Routes 24-25
+
+Starting Moves:
+TACKLE, STRING_SHOT
+
+Learnset
+7, QUICK_ATTACK
+15, PSYWAVE
+
+TM / HM
+N/A
+
+#11 - Somnymph
+
+Bug / Flying
+
+HP: 50
+Attack: 50
+Defense: 60
+Special: 60
+Speed: 90
+
+Location: Evolve Cupeedle at Level 7, Viridian Forst, Routes 24-25
+
+Starting Moves:
+Harden
+
+Learnset
+8, HEADBUTT
+
+TM / HM
+N/A
+
+#12 - Velociflea
+
+Bug / Flying
+
+HP: 50
+Attack: 90
+Defense: 50
+Special: 61
+Speed: 160
+
+Location: Evolve Somnymph at Level 10, Windwalker's Cave (Cave between Routes 12 and 13), Route 17
+
+Starting Moves:
+METAL_CLAW, QUICK_ATTACK, SHADOW_CLAW
+
+Learnset
+12, METAL_CLAW
+15, BUG_BITE
+16, WING_ATTACK
+17, QUICK_ATTACK
+21, SLASH
+24, SHADOW_CLAW
+26, AGILITY
+32, HYPNOSIS
+
+
+TM / HM
+HURRICANE,   SWORDS_DANCE, DRAGON_CLAW,  
+TOXIC,       BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+HYPER_BEAM,   COUNTER,    SHADOW_CLAW, MEGA_DRAIN,
+TELEPORT, DOUBLE_TEAM,  REFLECT,      BIDE,         
+METRONOME,   SWIFT,  SKY_ATTACK,   REST,         
+THUNDER_WAVE,  PSYWAVE,      TRI_ATTACK,   
+SUBSTITUTE,   CUT,          FLY,    FLASH
+
+#13 - Mulcrunch
+
+Bug / Grass
+
+HP: 40
+Attack: 50
+Defense: 40
+Special: 20
+Speed: 50
+
+Location: Viridian Forest, Routes 24-25
+
+Starting Moves:
+BITE, STRING_SHOT
+
+Learnset
+7, ABSORB
+15, BUG_BITE
+
+TM / HM
+N/A
+
+#14 - Mulchoon
+
+Bug / Grass
+
+HP: 55
+Attack: 50
+Defense: 80
+Special: 45
+Speed: 35
+
+Location: Evolve Mulcrunch at Level 7, Viridian Forest, Routes 24-25
+
+Starting Moves:
+Harden
+
+Learnset
+7, Harden
+
+TM / HM
+N/A
+
+#15 - Verminoth
+
+Poison / Flying
+
+HP: 65
+Attack: 85
+Defense: 110
+Special: 45
+Speed: 85
+
+Location: Evolve Mulchoon at Level 10
+
+Starting Moves:
+MEGA_DRAIN, BITE, POISONPOWDER
+
+Learnset
+10, MEGA_DRAIN
+12, POISON_FANG
+14, BITE
+16, SLEEP_POWDER
+20, SLUDGE
+25, WING_ATTACK
+30, SLUDGE_BOMB
+35, AGILITY
+
+TM / HM
+HURRICANE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+HYPER_BEAM,   COUNTER, MEGA_DRAIN,   DRAGONBREATH, PSYCHIC, 
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+FIRE_BLAST,   SWIFT,   DREAM_EATER,  SKY_ATTACK,   
+REST,         THUNDER_WAVE,  PSYWAVE,  SUBSTITUTE,   
+CUT,          FLY, FLASH
+
+#16 - Roc
+
+Normal / Flying
+
+HP: 40
+Attack: 45
+Defense: 40
+Special: 62
+Speed: 60
+
+Location: Too common to list
+
+Starting Moves:
+
+Learnset
+5, SAND_ATTACK
+12, QUICK_ATTACK
+19, HEADBUTT
+28, WING_ATTACK
+36, AGILITY
+44, MIRROR_MOVE
+
+
+TM / HM
+
+#17 - Tomaroc
+
+Normal / Flying
+
+HP: 63
+Attack: 60
+Defense: 70
+Special: 70
+Speed: 71
+
+Location: Evolve Roc at Level 18, Route 6, Route 14, Route 15, Route 21 
+
+Starting Moves:
+
+Learnset
+5, SAND_ATTACK
+12, QUICK_ATTACK
+18, HEADBUTT
+21, SKULL_BASH
+31, WING_ATTACK
+40, AGILITY
+49, MIRROR_MOVE
+
+
+TM / HM
+
+#18 - Gryphern
+
+Fire / Flying
+
+HP: 83
+Attack: 80
+Defense: 90
+Special: 101
+Speed: 91
+
+Location: Evolve Tomaroc (Fire Stone), Route 15, Route 23
+
+Starting Moves:
+
+Learnset
+5, SAND_ATTACK
+12, QUICK_ATTACK
+21, SKULL_BASH
+31, WING_ATTACK
+36, FLAMETHROWER
+40, OMINOUS_WIND
+44, CRUNCH
+48, FIRE_SPIN
+54, PK_STARSTORM
+
+
+TM / HM
+
+#19 - Manhandla
+
+Dark
+
+HP: 35
+Attack: 30
+Defense: 35
+Special: 55
+Speed: 66
+
+Location: Route 3, Mt. Moon, Route 9
+
+Starting Moves:
+
+Learnset
+7, WRAP
+14, KARATE_CHOP
+23, DIZZY_PUNCH
+34, SHADOW_CLAW
+
+
+TM / HM
+
+#20 - Deathseer
+
+Dark
+
+HP: 70
+Attack: 60
+Defense: 70
+Special: 90
+Speed: 80
+
+Location: Evolve Manhandla at Level 20, Pokemon Tower, Safari Zone
+
+Starting Moves:
+
+Learnset
+7, BITE
+20, SHADOW_CLAW
+27, CRUNCH
+41, SUPER_FANG
+
+
+TM / HM
+
+#21 - Panglina
+
+Normal
+
+HP: 55
+Attack: 60
+Defense: 35
+Special: 45
+Speed: 75
+
+Location: Too common to list
+
+Starting Moves:
+
+Learnset
+9, DOUBLESLAP
+15, METRONOME
+22, MIMIC
+29, LIGHT_SCREEN
+36, CONVERSION
+
+
+TM / HM
+
+#22 - Maelstro
+
+Normal / Psychic
+
+HP: 65
+Attack: 60
+Defense: 65
+Special: 100
+Speed: 100
+
+Location: Evolve Panglina at Level 20, Route 18, Route 23
+
+Starting Moves:
+
+Learnset
+9, DOUBLESLAP
+15, METRONOME
+25, MIMIC
+34, LIGHT_SCREEN
+43, CONVERSION
+
+
+TM / HM
+
+#23 - Anacobra
+
+Poison
+
+HP: 52
+Attack: 65
+Defense: 50
+Special: 50
+Speed: 38
+
+Location: Route 4, Route 8, Route 9, Route 11, Route 22
+
+Starting Moves:
+
+Learnset
+10, BITE
+17, POISON_FANG
+24, GLARE
+31, SCREECH
+38, SLUDGE_BOMB
+
+
+TM / HM
+
+#24 - Ardyhydra
+
+Poison / Dragon
+
+HP: 72
+Attack: 85
+Defense: 70
+Special: 75
+Speed: 80
+
+Location: Evolve Anacobra at Level 26, Route 9, Route 23, Safari Zone, Fishing - Super Rod (Safari Zone, Route 23, Cerulean Cave)
+
+Starting Moves:
+
+Learnset
+10, POISON_FANG
+17, BITE
+27, DRAGONBREATH
+36, GLARE
+47, SLUDGE_BOMB
+
+
+TM / HM
+
+#25 - Joltybara
+
+Electric
+
+HP: 45
+Attack: 50
+Defense: 32
+Special: 60
+Speed: 76
+
+Location: Viridian Forest, Route 10, Route 18, Power Plant
+
+Starting Moves:
+
+Learnset
+8, THUNDER_WAVE
+13, QUICK_ATTACK
+16, STOMP
+26, THUNDERBOLT
+34, TAKE_DOWN
+43, AGILITY
+53, THUNDER
+
+
+TM / HM
+
+#26 - Odiazolt
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Joltybara at Level 30, Route 16, Power Plant, Cerulean Cave
+
+Starting Moves:
+
+Learnset
+8, THUNDER_WAVE
+13, QUICK_ATTACK
+16, STOMP
+26, THUNDERBOLT
+34, SKY_ATTACK
+38, TAKE_DOWN
+47, AGILITY
+56, THUNDER
+
+
+TM / HM
+
+
+#27 - Bokongo
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Too common to list
+
+Starting Moves:
+
+Learnset
+10, SLAM
+17, HYPER_VOICE
+24, BUBBLEBEAM
+31, SWIFT
+38, SCALD
+
+
+TM / HM
+
+
+#28 - Drunkongo
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Bokongo at Level 22, Route 18, Cerulean Cave
+
+Starting Moves:
+
+Learnset
+10, SLAM
+17, HYPER_VOICE
+27, BUBBLEBEAM
+36, SWIFT
+47, SCALD
+
+
+TM / HM
+
+#29 - Whirlie
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Mt. Moon, Route 4, Rock Tunnel, Safari Zone
+
+Starting Moves:
+
+Learnset
+8, DIZZY_PUNCH
+12, OMINOUS_WIND
+21, SCREECH
+29, BODY_SLAM
+36, SKULL_BASH
+43, EXPLOSION
+
+
+TM / HM
+
+
+#30 - Warnado
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Whirlie at Level 30, Safari Zone, Pokemon Mansion
+
+Starting Moves:
+
+Learnset
+8, PECK
+14, HORN_ATTACK
+23, OMINOUS_WIND
+30, DRILL_RUN
+36, SPIKE_CANNON
+44, HURRICANE
+
+
+TM / HM
+
+
+#31 - Eradicane
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Warnado (Dark Soul)
+
+Starting Moves:
+
+Learnset
+8, HORN_DRILL
+14, GUST
+23, OMINOUS_WIND
+32, DRILL_RUN
+36, THUNDER
+44, MEGAHORN
+50, HURRICANE
+
+
+TM / HM
+
+
+#32 - Slimogg
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Route 2, Safari Zone, Route 22
+
+Starting Moves:
+
+Learnset
+8, BITE
+12, METAL_CLAW
+21, POISON_FANG
+29, FURY_SWIPES
+36, LOW_KICK
+43, TAKE_DOWN
+
+
+TM / HM
+
+
+#33 - Needolf
+
+Poison
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Slimogg at Level 16, Safari Zone, Pokemon Mansion
+
+Starting Moves:
+
+Learnset
+8, BITE
+14, METAL_CLAW
+23, POISON_FANG
+32, FURY_SWIPES
+41, LOW_KICK
+50, TAKE_DOWN
+
+
+TM / HM
+
+
+#34 - Predatox
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Needolf (Dark Soul), Safari Zone
+
+Starting Moves:
+
+Learnset
+8, BITE
+14, POISON_FANG
+23, ACID
+30, CRUNCH
+42, SLUDGE_BOMB
+
+
+TM / HM
+
+
+#35 - Leeghoul
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Pokemon Tower
+
+Starting Moves:
+
+Learnset
+13, METAL_CLAW
+18, SHARPEN
+24, SHADOW_CLAW
+31, AERIAL_ACE
+39, FIRE_SPIN
+48, SWORDS_DANCE
+
+
+TM / HM
+
+
+#36 - Verbeden
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Leeghoul (Fire Stone), Pokemon Tower
+
+Starting Moves:
+
+Learnset
+30, FIRE_SPIN
+40, FLAMETHROWER
+
+
+TM / HM
+
+
+#37 - Gorevyll
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Pokemon Mansion, Seafoam Islands
+
+Starting Moves:
+
+Learnset
+16, ICE_PUNCH
+21, BITE
+28, THRASH
+35, CRUNCH
+42, ICE_HAMMER
+
+
+TM / HM
+
+
+#38 - Isslohd
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Seafoam Islands
+
+Starting Moves:
+
+Learnset
+16, ICE_PUNCH
+21, METAL_CLAW
+28, BODY_SLAM
+35, BRICK_BREAK
+42, ICE_HAMMER
+
+
+TM / HM
+
+
+#39 - Robby
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Celadon Game Corner (Prize), Safari Zone, Route 23
+
+Starting Moves:
+
+Learnset
+9, DIZZY_PUNCH
+14, MACH_PUNCH
+19, ROLLING_KICK
+24, ICE_PUNCH
+24, FIRE_PUNCH
+24, THUNDERPUNCH
+29, REST
+34, BRICK_BREAK
+39, DOUBLE_EDGE
+
+
+TM / HM
+
+
+#40 - Tormented
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Pokemon Tower
+
+Starting Moves:
+
+Learnset
+30, SCREECH
+40, EXPLOSION
+
+
+TM / HM
+
+
+#41 - Epilepsia
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Caves and Route 10
+
+Starting Moves:
+
+Learnset
+10, GLARE
+15, FLASH
+21, AURORA_BEAM
+28, SOLARBEAM
+36, FLASH_CANNON
+
+
+TM / HM
+
+
+#42 - Convulsia
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Epilepsia at Level 22, Seafoam Islands, Victory Road, Cerulean Cave
+
+Starting Moves:
+
+Learnset
+10, GLARE
+15, FLASH
+21, AURORA_BEAM
+32, SOLARBEAM
+43, FLASH_CANNON
+
+
+TM / HM
+
+
+#43 - Ogrue
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Routes 5-7, Routes 12-15, Route 21, Routes 24-25
+
+Starting Moves:
+
+Learnset
+15, SLAM
+17, KARATE_CHOP
+19, VINE_WHIP
+24, BODY_SLAM
+33, PETAL_DANCE
+46, SOLARBEAM
+
+
+TM / HM
+
+
+#44 - Cemernary
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Ogrue (Holy Soul), Route 15
+
+Starting Moves:
+
+Learnset
+15, SLAM
+17, KARATE_CHOP
+19, VINE_WHIP
+28, BODY_SLAM
+38, BRICK_BREAK
+52, AURA_SPHERE
+
+
+TM / HM
+
+
+#45 - Bagavond
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Ogrue (Dark Soul), Route 14
+
+Starting Moves:
+
+Learnset
+15, CONFUSION
+17, NIGHT_SHADE
+19, MEGA_DRAIN
+28, OMINOUS_WIND
+38, HYPNOSIS
+52, DREAM_EATER
+
+
+TM / HM
+
+
+#46 - Speakeasy
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Mt. Moon, Safari Zone, Cerulean Cave
+
+Starting Moves:
+
+Learnset
+13, SLAM
+20, JUMP_KICK
+27, THRASH
+34, SHADOW_CLAW
+41, SKULL_BASH
+
+TM / HM
+
+
+#47 - Arkkade
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Speakeasy at Level 24, Safari Zone, Cerulean Cave
+
+Starting Moves:
+
+Learnset
+13, SLAM
+20, JUMP_KICK
+24, METAL_CLAW
+30, SLASH
+38, FLASH_CANNON
+44, AURA_SPHERE
+48, HYPER_BEAM
+
+
+TM / HM
+
+
+#48 - Dragleam
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Viridian Forest, Celadon Game Corner (Prize), Safari Zone, Pokemon Mansion
+
+Starting Moves:
+
+Learnset
+30, FLAMETHROWER
+30, ICE_BEAM
+30, THUNDERBOLT
+35, PSYBEAM
+38, BARRIER
+43, RECOVER
+
+
+TM / HM
+
+
+#49 - Ardoragon
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Dragleam at Level 51, Cerulean Cave
+
+Starting Moves:
+
+Learnset
+30, THUNDERBOLT
+30, FLAMETHROWER
+30, ICE_BEAM
+38, PSYBEAM
+43, BARRIER
+51, PK_STARSTORM
+
+
+TM / HM
+
+
+#50 - Tickytock
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Route 11
+
+Starting Moves:
+
+Learnset
+15, DISABLE
+19, SAND_ATTACK
+24, REFLECT
+31, TIME_STOP
+40, EARTHQUAKE
+
+
+TM / HM
+
+
+#51 - Magusand
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Tickytock at Level 26, Cracture Chasm
+
+Starting Moves:
+
+
+Learnset
+15, DISABLE
+19, REFLECT
+24, SAND_ATTACK
+35, TIME_STOP
+47, PSYCHIC
+
+
+TM / HM
+
+
+#52 - Pumajin
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Route 17, Safari Zone, Seafoam Islands
+
+Starting Moves:
+
+Learnset
+12, EMBER
+17, SHADOW_CLAW
+24, SLASH
+33, RECOVER
+44, PKFIRE
+
+
+TM / HM
+
+
+#53 - Pyrodon
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Route 17, Safari Zone
+
+Starting Moves:
+
+Learnset
+12, EMBER
+17, SHADOW_CLAW
+24, SLASH
+37, RECOVER
+51, PKFIRE
+
+
+TM / HM
+
+
+#54 - Shocknroll
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Power Plant
+
+Starting Moves:
+
+Learnset
+db 28, THUNDER_WAVE
+db 30, SELFDESTRUCT
+db 36, THUNDERBOLT
+db 40, EXPLOSION
+db 52, FLASH_CANNON
+
+
+TM / HM
+
+
+
+#55 - Cracture
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Cracture Chasm
+
+Starting Moves:
+
+Learnset
+16, DIG
+24, DRILL_PECK
+32, DRILL_RUN
+38, SPIKE_CANNON
+52, MEGAHORN
+60, HORN_DRILL
+
+
+TM / HM
+
+
+
+#56 - Leisender
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Route 3, Routes 5-8
+
+Starting Moves:
+
+Learnset
+15, HORN_ATTACK
+21, AERIAL_ACE
+27, SPIKE_CANNON
+33, DRILL_RUN
+39, MEGAHORN
+
+
+TM / HM
+
+
+
+#57 - Vuhlandron
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Leisender at Level 28, Pokemon Mansion
+
+Starting Moves:
+
+Learnset
+15, HORN_ATTACK
+21, AERIAL_ACE
+27, SPIKE_CANNON
+37, DRILL_RUN
+46, MEGAHORN
+
+
+TM / HM
+
+
+
+#58 - Canghoulit
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Pokemon Tower
+
+Starting Moves:
+
+Learnset
+18, MINIMIZE
+23, OMINOUS_WIND
+30, LOVELY_KISS
+40, FLAMETHROWER
+50, PKFIRE
+
+
+TM / HM
+
+
+
+#59 - Beourgeist
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Canghoulit (Fire Stone), Pokemon Tower
+
+Starting Moves:
+
+Learnset
+40, LOVELY_KISS
+50, FIRE_SPIN
+
+
+TM / HM
+
+
+
+#60 - Diminitus
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Route 5, Route 6, Safari Zone
+
+Starting Moves:
+
+Learnset
+16, STOMP
+19, RAZOR_LEAF
+25, GROWTH
+31, BODY_SLAM
+38, SLEEP_POWDER
+45, WOOD_HAMMER
+
+
+TM / HM
+
+
+
+#61 - Templus
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Diminitus at Level 25, Safari Zone
+
+Starting Moves:
+
+Learnset
+16, STOMP
+19, RAZOR_LEAF
+24, BODY_SLAM
+26, GROWTH
+33, BODY_SLAM
+41, SLEEP_POWDER
+49, WOOD_HAMMER
+
+
+TM / HM
+
+
+
+#62 - Gigantus
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Templus (Fire Stone), Victory Road
+
+Starting Moves:
+
+Learnset
+30, FIRE_PUNCH
+40, WOOD_HAMMER
+50, FIRE_BLAST
+
+
+TM / HM
+
+
+
+#63 - Rumpel
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Route 24, Route 25, Celadon Game Corner (Prize)
+
+Starting Moves:
+
+Learnset
+8, METRONOME
+
+
+TM / HM
+
+
+
+#64 - Majivich
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Rumpel at Level 16, Cerulean Cave
+
+Starting Moves:
+
+Learnset
+16, CONFUSION
+20, DISABLE
+27, CONFUSE_RAY
+31, RECOVER
+38, PSYCHIC
+42, REFLECT
+
+
+TM / HM
+
+
+
+#65 - Phisior
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Majivich at Level 50
+
+Starting Moves:
+
+Learnset
+16, CONFUSION
+20, DISABLE
+27, CONFUSE_RAY
+31, RECOVER
+38, PSYCHIC
+42, REFLECT
+
+
+TM / HM
+
+
+#66 - Cromag
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Mt. Moon, Rock Tunnel, Victory Road
+
+Starting Moves:
+
+Learnset
+20, ROCK_THROW
+25, DIZZY_PUNCH
+32, MEDITATE
+39, BRICK_BREAK
+46, ROCK_SLIDE
+
+
+TM / HM
+
+
+
+#67 - Luzonen
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Cromag at Level 28, Victory Road
+
+Starting Moves:
+
+Learnset
+20, ROCK_THROW
+28, CLUB
+36, MEDITATE
+44, BRICK_BREAK
+52, ROCK_SLIDE
+
+
+TM / HM
+
+
+
+#68 - Hemephalon
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Luzonen at Level 40, Victory Road
+
+Starting Moves:
+
+Learnset
+20, ROCK_THROW
+25, CLUB
+36, MEDITATE
+44, BRICK_BREAK
+52, ROCK_SLIDE
+
+
+TM / HM
+
+
+
+#69 - Spriggle
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Routes 5-7, Routes 12-15, Route 21, Route 22, Route 24
+
+Starting Moves:
+
+Learnset
+13, METAL_CLAW
+15, FURY_SWIPES
+18, BITE
+21, RAZOR_LEAF
+26, MINIMIZE
+33, AERIAL_ACE
+42, SHADOW_CLAW
+
+
+TM / HM
+
+
+
+#70 - Weedimp
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Spriggle at Level 21, Route 6, Routes 12-15, Route 23
+
+Starting Moves:
+
+Learnset
+13, METAL_CLAW
+15, FURY_SWIPES
+18, BITE
+21, RAZOR_LEAF
+29, MINIMIZE
+38, AERIAL_ACE
+49, SHADOW_CLAW
+
+
+TM / HM
+
+
+
+#71 - Slaymore
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Weedimp (Dark Soul)
+
+Starting Moves:
+
+Learnset
+23, BODY_SLAM
+29, AERIAL_ACE
+38, SHADOW_CLAW
+50, GUILLOTINE
+
+
+TM / HM
+
+
+
+#72 - Charcold
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Charkonro (Water Stone), Rock Tunnel
+
+Starting Moves:
+
+Learnset
+7, POISON_GAS
+13, EMBER
+18, EGG_BOMB
+22, ROCK_THROW
+27, SKULL_BASH
+33, SOFTBOILED
+40, SCALD
+48, FLAMETHROWER
+
+
+TM / HM
+
+
+
+#73 - Charkonro
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Charcold (Fire Stone), Victory Road
+
+Starting Moves:
+
+Learnset
+7, POISON_GAS
+13, EMBER
+18, EGG_BOMB
+22, SELFDESTRUCT
+27, SKULL_BASH
+35, SOFTBOILED
+43, SCALD
+50, FLAMETHROWER
+
+
+TM / HM
+
+
+
+#74 - Rocken
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Mt. Moon, Rock Tunnel, Victory Road
+
+Starting Moves:
+
+Learnset
+11, SING
+16, ROCK_THROW
+21, SELFDESTRUCT
+26, HYPER_VOICE
+31, ROCK_SLIDE
+36, EXPLOSION
+
+
+TM / HM
+
+
+
+#75 - Karaoken
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Rocken (Liquid Steel), Victory Road
+
+Starting Moves:
+
+Learnset
+16, SING
+19, ROCK_THROW
+21, SELFDESTRUCT
+29, HYPER_VOICE
+36, ROCK_SLIDE
+43, EXPLOSION
+
+
+TM / HM
+
+
+
+#76 - Balladoken
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Rocken (Holy Soul), Victory Road
+
+Starting Moves:
+
+Learnset
+11, CONFUSION
+16, SING
+21, GLARE
+29, ROCK_SLIDE
+36, PSYCHIC
+43, AMNESIA
+
+
+TM / HM
+
+
+
+#77 - Bladybug
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Routes 12-15, Safari Zone, Pokemon Mansion
+
+Starting Moves:
+
+Learnset
+20, METAL_CLAW
+25, BUG_BITE
+29, SLASH
+33, SKULL_BASH
+38, GUILLOTINE
+
+
+TM / HM
+
+
+
+#78 - Sabrantis
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Bladybug at Level 40, Pokemon Mansion
+
+Starting Moves:
+
+Learnset
+20, METAL_CLAW
+25, SLASH
+29, SKULL_BASH
+33, BUG_BITE
+38, GUILLOTINE
+40, CRUNCH
+45, AERIAL_ACE
+
+
+TM / HM
+
+
+
+#79 - Blurchin
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Too common to list (Any body of water)
+
+Starting Moves:
+
+Learnset
+18, SPIKE_CANNON
+22, SLUDGE
+27, BUBBLEBEAM
+33, SELFDESTRUCT
+40, SLUDGE_BOMB
+48, MEGAHORN
+
+
+TM / HM
+
+
+
+#80 - Mutachin
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Blurchin at Level ,
+
+Starting Moves:
+
+Learnset
+18, SLUDGE
+22, BUBBLEBEAM
+30, HYPNOSIS
+33, CONFUSE_RAY
+37, DREAM_EATER
+44, PSYBEAM
+55, PSYCHIC
+
+
+TM / HM
+
+
+
+#81 - Electrio
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+21, THUNDER_WAVE
+25, TAKE_DOWN
+29, HYPNOSIS
+35, THUNDER
+41, SWIFT
+47, EXPLOSION
+
+
+TM / HM
+
+
+
+#82 - Threemind
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+21, THUNDER_WAVE
+25, TAKE_DOWN
+29, HYPNOSIS
+30, PSYBEAM
+46, THUNDERBOLT
+54, EXPLOSION
+
+
+TM / HM
+
+
+
+#83 - Batabayu
+
+Dark / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+30, BITE
+36, POISON_FANG
+44, DOUBLE_EDGE
+50, CRUNCH
+56, SKY_ATTACK
+
+
+TM / HM
+
+
+
+#84 - Tungoon
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+20, CONFUSE_RAY
+24, REST
+30, REST
+30, REST
+40, BIDE
+44, AMNESIA
+
+
+TM / HM
+
+
+
+#85 - Tongoron
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+20, LICK
+24, CONFUSE_RAY
+31, COUNTER
+33, MIMIC
+38, MIRROR_MOVE
+43, NIGHT_SHADE
+
+
+TM / HM
+
+
+
+#86 - Mandolin
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+30, ICE_PUNCH
+35, BITE
+40, REST
+45, ICE_BEAM
+50, ICE_HAMMER
+
+
+TM / HM
+
+
+
+#87 - Eggerot
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+20, HARDEN
+23, MINIMIZE
+27, SLUDGE
+32, SELFDESTRUCT
+38, SCREECH
+45, ACID_ARMOR
+50, SLUDGE_BOMB
+
+
+TM / HM
+
+
+
+#88 - Rottock
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+20, HARDEN
+23, MINIMIZE
+27, SLUDGE
+37, SELFDESTRUCT
+42, SCREECH
+48, ACID_ARMOR
+52, SLUDGE_BOMB
+
+
+TM / HM
+
+
+
+#89 - Rotterdam
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+50, DRAGONBREATH
+53, SLUDGE_BOMB
+56, OUTRAGE
+59, EXPLOSION
+
+
+TM / HM
+
+
+
+#90 - Climpale
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+18, FURY_ATTACK
+23, CLAMP
+30, BUBBLEBEAM
+39, MEGAHORN
+50, ICE_BEAM
+
+
+TM / HM
+
+
+
+#91 - Tussel
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+40, BRICK_BREAK
+50, AURA_SPHERE
+
+
+TM / HM
+
+
+
+#92 - Stranghost
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+20, SHADOW_CLAW
+25, CONFUSE_RAY
+30, SLASH
+35, AERIAL_ACE
+41, SWORDS_DANCE
+
+
+TM / HM
+
+
+
+#93 - Slasher
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+25, METAL_CLAW
+30, SLASH
+35, AERIAL_ACE
+41, SWORDS_DANCE
+
+
+TM / HM
+
+
+
+#94 - Decapalon
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+40, GUILLOTINE
+50, SWORDS_DANCE
+
+
+TM / HM
+
+
+
+#95 - Smashberry
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+10, HEADBUTT
+15, BITE
+20, MEGA_DRAIN
+28, SKULL_BASH
+39, EARTHQUAKE
+
+
+TM / HM
+
+
+
+#96 - Veilumber
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+12, SCREECH
+17, RAZOR_LEAF
+24, COUNTER
+29, CLAMP
+32, TAKE_DOWN
+37, WOOD_HAMMER
+
+
+TM / HM
+
+
+
+#97 - Balisade
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+12, SCREECH
+17, RAZOR_LEAF
+24, COUNTER
+29, CLAMP
+32, HORN_ATTACK
+37, SPIKE_CANNON
+43, MEGAHORN
+
+
+TM / HM
+
+
+
+#98 - Scorpsy
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+5, TACKLE
+10, VICEGRIP
+15, BUG_BITE
+20, METAL_CLAW
+25, GUILLOTINE
+30, STOMP
+35, CRABHAMMER
+40, TWINEEDLE
+
+
+TM / HM
+
+
+
+#99 - Scorphiro
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+10, VICEGRIP
+15, METAL_CLAW
+20, BUG_BITE
+25, GUILLOTINE
+30, POISON_FANG
+34, STOMP
+38, TWINEEDLE
+42, CRABHAMMER
+49, SLUDGE_BOMB
+
+
+TM / HM
+
+
+
+#100 - Zapodi
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+17, THUNDERSHOCK
+22, CRUNCH
+29, SUPER_FANG
+38, THUNDERBOLT
+43, THUNDER
+
+
+TM / HM
+
+
+
+#101 - Shochran
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+17, THUNDERSHOCK
+25, CRUNCH
+30, SUPER_FANG
+43, THUNDERBOLT
+50, THUNDER
+
+
+TM / HM
+
+
+
+#102 - Kurayami
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+17, THUNDERSHOCK
+25, NIGHT_SHADE
+29, POISON_FANG
+37, SHADOW_CLAW
+42, HURRICANE
+48, DARK_PULSE
+54, SOLARBEAM
+
+
+TM / HM
+
+
+
+#103 - Combat Joe
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+(None)
+
+
+TM / HM
+
+
+
+#104 - Trapestry
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+25, SHADOW_CLAW
+31, METAL_CLAW
+34, SCREECH
+38, SLASH
+43, AERIAL_ACE
+46, DOUBLE_EDGE
+
+
+TM / HM
+
+
+
+#105 - Embalmak
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+25, SHADOW_CLAW
+31, WRAP
+34, HEADBUTT
+38, NIGHT_SHADE
+43, SKULL_BASH
+46, AURA_SPHERE
+
+
+TM / HM
+
+
+
+#106 - Maker
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+33, ICE_HAMMER
+38, AERIAL_ACE
+43, AGILITY
+48, SKULL_BASH
+53, HURRICANE
+
+
+TM / HM
+
+
+
+#107 - Destroyer
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+33, BITE
+38, DRAGONBREATH
+43, CRUNCH
+48, FLAMETHROWER
+53, OUTRAGE
+
+
+TM / HM
+
+
+
+#108 - Agahnoblin
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: In-game trade (House to the east of Mt. Moon), Route 6, Route 16
+
+Starting Moves:
+
+Learnset
+7, DIZZY_PUNCH
+15, MACH_PUNCH
+23, AURA_SPHERE
+32, DOUBLE_EDGE
+38, JUMP_KICK
+
+
+TM / HM
+
+
+
+#109 - Agahnon
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: Evolve Agahnoblin, Level 28
+
+Starting Moves:
+
+Learnset
+28, THUNDERPUNCH
+28, ICE_PUNCH
+32, DARK_PULSE
+37, JUMP_KICK
+40, FIRE_SPIN
+45, SKULL_BASH
+66, EXPLOSION
+
+
+TM / HM
+
+
+
+#110 - Tearwulf
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+23, SHADOW_CLAW
+30, CRUNCH
+37, BRICK_BREAK
+43, JUMP_KICK
+50, DARK_PULSE
+
+
+TM / HM
+
+
+
+#111 - Eugeyg
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+30, CONFUSE_RAY
+35, WRAP
+40, PSYBEAM
+45, AURA_SPHERE
+50, OMINOUS_WIND
+55, PK_STARSTORM
+
+
+TM / HM
+
+
+
+#112 - Sagyig
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+30, CONFUSE_RAY
+35, WRAP
+42, SCREECH
+46, OMINOUS_WIND
+51, THUNDER
+51, FIRE_BLAST
+51, BLIZZARD
+64, PK_STARSTORM
+
+
+TM / HM
+
+
+
+#113 - Umistme
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+24, DRAGONBREATH
+30, SLASH
+38, MINIMIZE
+44, ICE_BEAM
+48, DRAGON_CLAW
+54, BLIZZARD
+
+
+TM / HM
+
+
+
+#114 - Cuppacaf
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+19, SCALD
+22, TOXIC
+26, ACID_ARMOR
+29, RECOVER
+35, SLUDGE_BOMB
+39, HYDRO_PUMP
+
+
+TM / HM
+
+
+
+#115 - Amurais
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+26, FURY_SWIPES
+31, SLASH
+36, AERIAL_ACE
+41, SHADOW_CLAW
+46, DOUBLE_EDGE
+
+
+TM / HM
+
+
+
+#116 - Duhzlugg
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+10, RAGE
+15, CONFUSION
+25, CONFUSE_RAY
+35, ROCK_SLIDE
+45, MEGAHORN
+
+
+TM / HM
+
+
+
+#117 - Swiftile
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+20, SWIFT
+20, QUICK_ATTACK
+25, AERIAL_ACE
+30, DRAGON_CLAW
+41, DOUBLE_EDGE
+52, MEGAHORN
+
+
+TM / HM
+
+
+
+#118 - Splashee
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+19, SING
+24, BUBBLEBEAM
+30, SLUDGE
+37, OMINOUS_WIND
+45, SLUDGE_BOMB
+54, HYDRO_PUMP
+
+
+TM / HM
+
+
+
+#119 - Tidermaid
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+19, SING
+24, BUBBLEBEAM
+30, LOVELY_KISS
+32, DREAM_EATER
+38, ICE_BEAM
+44, HYDRO_PUMP
+
+
+TM / HM
+
+
+
+#120 - Stolidus
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+17, ROCK_THROW
+22, MIMIC
+27, RECOVER
+32, EARTHQUAKE
+37, SHADOW_CLAW
+42, SKULL_BASH
+47, EXPLOSION
+
+
+TM / HM
+
+
+
+#121 - Cordatus
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+17, ROCK_THROW
+22, MIMIC
+27, WING_ATTACK
+32, EARTHQUAKE
+37, HURRICANE
+42, AURA_SPHERE
+47, ROCK_SLIDE
+
+
+TM / HM
+
+
+
+#122 - Owai
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+15, DISABLE
+22, HYPNOSIS
+28, EXPLOSION
+44, OMINOUS_WIND
+51, HURRICANE
+
+
+TM / HM
+
+
+
+#123 - Plang
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+20, PSYBEAM
+25, BITE
+30, BUG_BITE
+35, RECOVER
+40, BARRIER
+47, PK_STARSTORM
+
+
+TM / HM
+
+
+
+#124 - Kamak
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+18, LOVELY_KISS
+23, DREAM_EATER
+31, BUBBLEBEAM
+39, PETAL_DANCE
+47, AMNESIA
+58, HYDRO_PUMP
+
+
+TM / HM
+
+
+
+#125 - Wespe
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+34, THUNDERPUNCH
+37, RECOVER
+42, THUNDERBOLT
+49, LIGHT_SCREEN
+54, THUNDER
+
+
+TM / HM
+
+
+
+#126 - Hellbrand
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+36, GLARE
+43, ICE_PUNCH
+43, FIRE_PUNCH
+48, FIRE_BLAST
+52, BLIZZARD
+55, EXPLOSION
+
+
+TM / HM
+
+
+
+#127 - Neputail
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+25, SHADOW_CLAW
+28, POISON_FANG
+32, ICE_PUNCH
+37, CRUNCH
+42, ICE_BEAM
+48, SLUDGE_BOMB
+
+
+TM / HM
+
+
+
+#128 - Vulturnus
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+21, SLASH
+28, METAL_CLAW
+35, JUMP_KICK
+44, DOUBLE_EDGE
+51, FALCON_PUNCH
+
+
+TM / HM
+
+
+
+#129 - Slappy
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+15, TAIL_WHIP
+
+
+TM / HM
+
+
+
+#130 - Chompy
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+20, BITE
+25, DRAGONBREATH
+32, CRUNCH
+41, HYDRO_PUMP
+52, SKULL_BASH
+
+
+TM / HM
+
+
+
+#131 - Nocean
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+15, MIST
+20, SCALD
+25, BODY_SLAM
+31, FIRE_SPIN
+38, FLAMETHROWER
+46, HYDRO_PUMP
+
+
+TM / HM
+
+
+
+#132 - Rekall
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+60, WOOD_HAMMER
+
+
+TM / HM
+
+
+
+#133 - Uniquorn
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+27, QUICK_ATTACK
+31, BODY_SLAM
+37, DOUBLE_EDGE
+45, MEGAHORN
+
+
+TM / HM
+
+
+
+#134 - Aquamentus
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+27, QUICK_ATTACK
+31, BODY_SLAM
+37, BUBBLEBEAM
+40, ICE_BEAM
+42, ACID_ARMOR
+44, DOUBLE_EDGE
+48, MIST
+54, HYDRO_PUMP
+
+
+TM / HM
+
+
+
+#135 - Thundrhawk
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+27, QUICK_ATTACK
+31, BODY_SLAM
+37, THUNDERBOLT
+40, THUNDER_WAVE
+42, SKY_ATTACK
+44, AGILITY
+48, JUMP_KICK
+54, THUNDER
+
+
+TM / HM
+
+
+
+#136 - Norehorse
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+27, QUICK_ATTACK
+31, BODY_SLAM
+37, FLAMETHROWER
+40, CRUNCH
+42, JUMP_KICK
+44, SKULL_BASH
+48, MEGAHORN
+54, FIRE_BLAST
+
+
+TM / HM
+
+
+
+#137 - C-229 MK I
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+27, THUNDER_WAVE
+30, AGILITY
+35, RECOVER
+45, TRI_ATTACK
+
+
+TM / HM
+
+
+
+#138 - Draemon
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+34, BODY_SLAM
+39, FIRE_SPIN
+46, FLAMETHROWER
+53, DARK_PULSE
+
+
+TM / HM
+
+
+
+#139 - Haedaemon
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+34, BODY_SLAM
+40, AURA_SPHERE
+44, FLAMETHROWER
+49, DARK_PULSE
+
+
+TM / HM
+
+
+
+#140 - Gerbird
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+34, DRILL_PECK
+39, METAL_CLAW
+44, DRILL_RUN
+49, SUBMISSION
+
+
+TM / HM
+
+
+
+#141 - Knytflight
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+34, DRILL_PECK
+40, FALCON_PUNCH
+46, DRILL_RUN
+53, SUBMISSION
+
+
+TM / HM
+
+
+
+#142 - Vesuvio
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+33, FIRE_PUNCH
+38, FIRE_SPIN
+45, EARTHQUAKE
+54, SCALD
+60, FIRE_BLAST
+
+
+TM / HM
+
+
+
+#143 - Slobbix
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+35, CRUNCH
+41, SLUDGE_BOMB
+48, DRAGONBREATH
+56, DARK_PULSE
+64, EXPLOSION
+
+
+TM / HM
+
+
+
+#144 - Sivak
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+51, LOVELY_KISS
+55, DARK_PULSE
+60, RECOVER
+
+
+TM / HM
+
+
+
+#145 - Aeon
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+51, OUTRAGE
+55, FIRE_BLAST
+60, SKY_ATTACK
+
+
+TM / HM
+
+
+
+#146 - Zagrus
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+51, MEGAHORN
+55, AURA_SPHERE
+60, SKY_ATTACK
+
+
+TM / HM
+
+
+
+#147 - Xiaolong
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+10, THUNDER_WAVE
+20, AGILITY
+30, DRAGONBREATH
+40, DRAGON_CLAW
+50, OUTRAGE
+
+
+TM / HM
+
+
+
+#148 - Feilong
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+10, THUNDER_WAVE
+20, AGILITY
+30, SKY_ATTACK
+35, DRAGONBREATH
+45, DRAGON_CLAW
+55, OUTRAGE
+
+
+TM / HM
+
+
+
+#149 - Huanlong
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+10, THUNDER_WAVE
+31, DARK_PULSE
+35, OUTRAGE
+45, SHADOW_CLAW
+55, FIRE_BLAST
+
+
+TM / HM
+
+
+
+#150 - ???
+
+???
+
+HP: ???
+Attack: ???
+Defense: ???
+Special: ???
+Speed: ???
+
+Location: ???
+
+Starting Moves: ???
+
+Learnset
+???
+
+
+TM / HM
+???
+
+
+#151 - Bladeberus
+
+Electric / Flying
+
+HP: 75
+Attack: 80
+Defense: 63
+Special: 100
+Speed: 116
+
+Location: 
+
+Starting Moves:
+
+Learnset
+10, METAL_CLAW
+20, CRUNCH
+30, SKULL_BASH
+40, PK_STARSTORM
+
+
+TM / HM
+
+
+
