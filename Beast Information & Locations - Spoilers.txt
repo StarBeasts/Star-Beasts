@@ -483,6 +483,7 @@ Speed: 60
 Location: Too common to list
 
 Starting Moves:
+GUST
 
 Learnset
 5, SAND_ATTACK
@@ -492,8 +493,13 @@ Learnset
 36, AGILITY
 44, MIRROR_MOVE
 
-
 TM / HM
+HURRICANE,BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE, 
+COUNTER,      SHADOW_CLAW,         
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         
+METRONOME,    EGG_BOMB,   SWIFT, 
+SKY_ATTACK,   REST, TRI_ATTACK,   SUBSTITUTE,   
+CUT,          FLY
 
 #17 - Tomaroc
 
@@ -505,9 +511,10 @@ Defense: 70
 Special: 70
 Speed: 71
 
-Location: Evolve Roc at Level 18, Route 6, Route 14, Route 15, Route 21 
+Location: Evolve Roc at Level 18, Route 6, Windwalker's Cave, Route 14, Route 15, Route 21 
 
 Starting Moves:
+GUST, SAND_ATTACK
 
 Learnset
 5, SAND_ATTACK
@@ -518,8 +525,13 @@ Learnset
 40, AGILITY
 49, MIRROR_MOVE
 
-
 TM / HM
+HURRICANE,   SWORDS_DANCE, DRAGON_CLAW, 
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+COUNTER,      SHADOW_CLAW,         MIMIC, 
+DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+EGG_BOMB,     SWIFT,        SKULL_BASH,   SKY_ATTACK,   REST, 
+TRI_ATTACK,   SUBSTITUTE,   CUT,          FLY,          STRENGTH
 
 #18 - Gryphern
 
@@ -534,68 +546,102 @@ Speed: 91
 Location: Evolve Tomaroc (Fire Stone), Route 15, Route 23
 
 Starting Moves:
+GUST, SAND_ATTACK, QUICK_ATTACK
 
 Learnset
 5, SAND_ATTACK
 12, QUICK_ATTACK
-21, SKULL_BASH
-31, WING_ATTACK
+21, WING_ATTACK
+31, SKULL_BASH
 36, FLAMETHROWER
 40, OMINOUS_WIND
 44, CRUNCH
 48, FIRE_SPIN
 54, PK_STARSTORM
 
-
 TM / HM
+HURRICANE,   SWORDS_DANCE, DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+HYPER_BEAM,    COUNTER,      SHADOW_CLAW,         
+SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  THUNDER,      
+EARTHQUAKE,   PSYCHIC,    TELEPORT,     
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+EGG_BOMB,     FIRE_BLAST,   SWIFT,        SKULL_BASH,   
+SKY_ATTACK,   REST,         THUNDER_WAVE, 
+PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   
+CUT,          FLY,         STRENGTH,     FLASH
 
-#19 - Manhandla
+#19 - Batabayu
 
-Dark
+Dark / Flying
 
-HP: 35
-Attack: 30
-Defense: 35
-Special: 55
-Speed: 66
+HP: 53
+Attack: 140
+Defense: 30
+Special: 81
+Speed: 141
 
-Location: Route 3, Mt. Moon, Route 9
+Location: Evolve Tomaroc (Dark Soul), Route 14
 
 Starting Moves:
+WING_ATTACK, BITE
 
 Learnset
-7, WRAP
-14, KARATE_CHOP
-23, DIZZY_PUNCH
-34, SHADOW_CLAW
-
+30, BITE
+36, POISON_FANG
+44, DOUBLE_EDGE
+50, CRUNCH
+56, SKY_ATTACK
 
 TM / HM
+HURRICANE,   SWORDS_DANCE, DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   
+COUNTER,      SEISMIC_TOSS, SHADOW_CLAW, DRAGONBREATH,     
+EARTHQUAKE,   FISSURE,      DIG,          TELEPORT,     
+MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    
+SELFDESTRUCT, EGG_BOMB,     FIRE_BLAST,   SWIFT,        SKULL_BASH,   
+DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, 
+EXPLOSION,    ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   
+CUT,          FLY,          STRENGTH,     FLASH
 
-#20 - Deathseer
+#20 - Robby
 
-Dark
+Dragon / Fighting
 
-HP: 70
-Attack: 60
-Defense: 70
-Special: 90
-Speed: 80
+HP: 150
+Attack: 75
+Defense: 120
+Special: 75
+Speed: 75
 
-Location: Evolve Manhandla at Level 20, Pokemon Tower, Safari Zone
+Location: Celadon Game Corner (Prize), Safari Zone, Route 23
 
 Starting Moves:
+COMET_PUNCH
 
 Learnset
-7, BITE
-20, SHADOW_CLAW
-27, CRUNCH
-41, SUPER_FANG
-
+9, DIZZY_PUNCH
+14, MACH_PUNCH
+19, ROLLING_KICK
+24, ICE_PUNCH
+24, FIRE_PUNCH
+24, THUNDERPUNCH
+29, REST
+34, BRICK_BREAK
+39, DOUBLE_EDGE
 
 TM / HM
+FALCON_PUNCH, SWORDS_DANCE, DRAGON_CLAW,  
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    
+DOUBLE_EDGE,  HYPER_BEAM,   PAY_DAY, 
+SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,   DRAGONBREATH, EARTHQUAKE,   MIMIC, 
+DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+SKULL_BASH,   REST,   ROCK_SLIDE,   TRI_ATTACK,   
+SUBSTITUTE,   CUT,          SURF,         STRENGTH
 
-#21 - Panglina
+
+#21 - Aspiro
 
 Normal
 
@@ -608,16 +654,26 @@ Speed: 75
 Location: Too common to list
 
 Starting Moves:
+MIRROR_MOVE, SLAM
 
 Learnset
 9, DOUBLESLAP
 15, METRONOME
 22, MIMIC
+26, TRI_ATTACK
 29, LIGHT_SCREEN
 36, CONVERSION
 
-
 TM / HM
+HURRICANE,   SWORDS_DANCE, FLASH_CANNON,
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,
+PAY_DAY,      COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,   THUNDERBOLT,  THUNDER,  PSYCHIC,    TELEPORT,  
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         
+METRONOME,    FIRE_BLAST,   SWIFT,  DREAM_EATER, 
+SKY_ATTACK,   REST,         THUNDER_WAVE,
+PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,  
+CUT,          FLY,          FLASH
 
 #22 - Maelstro
 
@@ -626,24 +682,35 @@ Normal / Psychic
 HP: 65
 Attack: 60
 Defense: 65
-Special: 100
+Special: 101
 Speed: 100
 
-Location: Evolve Panglina at Level 20, Route 18, Route 23
+Location: Evolve Aspiro at Level 20, Route 18, Route 23
 
 Starting Moves:
+SLAM, MIRROR_MOVE, MIMIC
 
 Learnset
 9, DOUBLESLAP
 15, METRONOME
 25, MIMIC
+30, TRI_ATTACK
 34, LIGHT_SCREEN
 43, CONVERSION
 
-
 TM / HM
+FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    TOXIC,        BODY_SLAM,    TAKE_DOWN, DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     
+BLIZZARD,     HYPER_BEAM,    PAY_DAY,      SUBMISSION,   
+COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,   SOLARBEAM,    
+DRAGONBREATH,  THUNDERBOLT,  THUNDER, 
+PSYCHIC,    TELEPORT,     MIMIC,  DOUBLE_TEAM,
+REFLECT,      BIDE,         METRONOME,    
+FIRE_BLAST,   SWIFT,        SKULL_BASH,   
+DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, 
+PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   
+CUT,          FLY,          STRENGTH,     FLASH
 
-#23 - Anacobra
+#23 - Drakelet
 
 Poison
 
@@ -653,19 +720,24 @@ Defense: 50
 Special: 50
 Speed: 38
 
-Location: Route 4, Route 8, Route 9, Route 11, Route 22
+Location: Route 4, Route 8, Route 9, Route 11, Route 22, Fishing - Super Rod (Cerulean City, Cerulean Gym)
 
 Starting Moves:
+WRAP, GLARE
 
 Learnset
-10, BITE
-17, POISON_FANG
-24, GLARE
-31, SCREECH
-38, SLUDGE_BOMB
-
+14, BITE
+18, POISON_FANG
+24, SCREECH
+32, SLUDGE_BOMB
 
 TM / HM
+TOXIC, BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BUBBLEBEAM,   WATER_GUN, COUNTER,  MEGA_DRAIN,   
+DRAGONBREATH,  MIMIC, DOUBLE_TEAM,  BIDE,         
+METRONOME, SKULL_BASH,   DREAM_EATER,  
+THUNDER_WAVE,  PSYWAVE, 
+SUBSTITUTE,   CUT,  FLASH
 
 #24 - Ardyhydra
 
@@ -677,19 +749,29 @@ Defense: 70
 Special: 75
 Speed: 80
 
-Location: Evolve Anacobra at Level 26, Route 9, Route 23, Safari Zone, Fishing - Super Rod (Safari Zone, Route 23, Cerulean Cave)
+Location: Evolve Drakelet at Level 26, Route 9, Route 23, Safari Zone, Fishing - Super Rod (Safari Zone, Route 23, Cerulean Cave)
 
 Starting Moves:
+WRAP, GLARE, POISON_STING, DRAGONBREATH
 
 Learnset
 10, POISON_FANG
 17, BITE
+22, GLARE
 27, DRAGONBREATH
-36, GLARE
-47, SLUDGE_BOMB
-
+36, SLUDGE_BOMB
+47, OUTRAGE
 
 TM / HM
+SWORDS_DANCE, DRAGON_CLAW,  TOXIC,        BODY_SLAM, 
+TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,  
+ BLIZZARD,     HYPER_BEAM,   COUNTER,  MEGA_DRAIN,   
+DRAGONBREATH,  THUNDERBOLT,  THUNDER,  EARTHQUAKE,   
+PSYCHIC,   MIMIC, DOUBLE_TEAM,  BIDE,  METRONOME,    
+FIRE_BLAST,   SWIFT, SKULL_BASH,   
+DREAM_EATER,  REST,  THUNDER_WAVE, 
+PSYWAVE,      ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   
+CUT,          SURF,         STRENGTH,     FLASH
 
 #25 - Joltybara
 
@@ -701,21 +783,29 @@ Defense: 32
 Special: 60
 Speed: 76
 
-Location: Viridian Forest, Route 10, Route 18, Power Plant
+Location: Viridian Forest, Route 10, Windwalker's Cave, Route 18, Power Plant
 
 Starting Moves:
+TAIL_WHIP, THUNDERSHOCK
 
 Learnset
 8, THUNDER_WAVE
 13, QUICK_ATTACK
 16, STOMP
 26, THUNDERBOLT
-34, TAKE_DOWN
+34, LIGHT_SCREEN
+38, TAKE_DOWN
 43, AGILITY
 53, THUNDER
 
-
 TM / HM
+FLASH_CANNON, TOXIC,        BODY_SLAM, 
+TAKE_DOWN,    DOUBLE_EDGE,  PAY_DAY,      COUNTER, 
+DRAGONBREATH,  THUNDERBOLT,  THUNDER,      
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+SWIFT,        SKULL_BASH,   REST,         
+THUNDER_WAVE, PSYWAVE,      SUBSTITUTE,   
+STRENGTH,     FLASH
 
 #26 - Odiazolt
 
@@ -730,83 +820,108 @@ Speed: 116
 Location: Evolve Joltybara at Level 30, Route 16, Power Plant, Cerulean Cave
 
 Starting Moves:
+THUNDERSHOCK, GROWL, THUNDER_WAVE, TAKE_DOWN
 
 Learnset
 8, THUNDER_WAVE
 13, QUICK_ATTACK
 16, STOMP
 26, THUNDERBOLT
-34, SKY_ATTACK
-38, TAKE_DOWN
-47, AGILITY
+34, TAKE_DOWN
+38, SKY_ATTACK
+47, DOUBLE_EDGE
 56, THUNDER
 
-
 TM / HM
-
+HURRICANE,   FLASH_CANNON,TOXIC,        BODY_SLAM, 
+TAKE_DOWN,    DOUBLE_EDGE,  BLIZZARD,     HYPER_BEAM,   
+PAY_DAY,      COUNTER,      SEISMIC_TOSS, 
+SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  THUNDER,      
+PSYCHIC, MIMIC,        DOUBLE_TEAM,  
+REFLECT,      BIDE,         METRONOME,    
+FIRE_BLAST,   SWIFT,        SKULL_BASH,   
+DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, 
+PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   
+FLY,          SURF,         STRENGTH,     FLASH	
 
 #27 - Bokongo
 
-Electric / Flying
+Rock / Ground
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 60
+Attack: 62
+Defense: 50
+Special: 62
+Speed: 40
 
 Location: Too common to list
 
 Starting Moves:
+RAGE, GROWL
 
 Learnset
-10, SLAM
+12, SLAM
 17, HYPER_VOICE
-24, BUBBLEBEAM
-31, SWIFT
-38, SCALD
-
+23, BUBBLEBEAM
+27, SWIFT
+32, SCALD
 
 TM / HM
-
+HURRICANE,   SWORDS_DANCE,
+TOXIC,       BODY_SLAM,    TAKE_DOWN,    
+DOUBLE_EDGE,  COUNTER, EARTHQUAKE,   FISSURE, 
+MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    
+SELFDESTRUCT, FIRE_BLAST,   SWIFT,        SKULL_BASH,   
+REST, EXPLOSION,    ROCK_SLIDE,    SUBSTITUTE,   
+STRENGTH
 
 #28 - Drunkongo
 
-Electric / Flying
+Rock / Water
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 115
+Attack: 92
+Defense: 75
+Special: 92
+Speed: 60
 
 Location: Evolve Bokongo at Level 22, Route 18, Cerulean Cave
 
 Starting Moves:
+POUND, WATER_GUN, REST
 
 Learnset
 10, SLAM
 17, HYPER_VOICE
+22, REST
 27, BUBBLEBEAM
-36, SWIFT
-47, SCALD
-
+32, SWIFT
+38, SCALD
 
 TM / HM
+HURRICANE, SWORDS_DANCE, 
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BUBBLEBEAM,   WATER_GUN,    HYPER_BEAM,   
+COUNTER, MEGA_DRAIN,   DRAGONBREATH,  EARTHQUAKE,   
+FISSURE,      MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME, 
+SELFDESTRUCT, FIRE_BLAST,   SWIFT,        SKULL_BASH,   
+REST,EXPLOSION,    ROCK_SLIDE,   SUBSTITUTE,   
+SURF,         STRENGTH
 
 #29 - Whirlie
 
-Electric / Flying
+Steel
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 50
+Attack: 70
+Defense: 80
+Special: 40
+Speed: 50
 
-Location: Mt. Moon, Route 4, Rock Tunnel, Safari Zone
+Location: Viridian Cave, Mt. Moon, Route 4, Rock Tunnel, Safari Zone
 
 Starting Moves:
+GUST
 
 Learnset
 8, DIZZY_PUNCH
@@ -816,23 +931,29 @@ Learnset
 36, SKULL_BASH
 43, EXPLOSION
 
-
 TM / HM
-
+HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW, 
+TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    
+DOUBLE_EDGE,  COUNTER, EARTHQUAKE,   
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         
+METRONOME,    SELFDESTRUCT, SWIFT,        SKULL_BASH,    
+REST,    EXPLOSION,    ROCK_SLIDE,   TRI_ATTACK,   
+SUBSTITUTE,   CUT,          STRENGTH
 
 #30 - Warnado
 
-Electric / Flying
+Steel / Flying
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 60
+Attack: 100
+Defense: 120
+Special: 50
+Speed: 60
 
-Location: Evolve Whirlie at Level 30, Safari Zone, Pokemon Mansion
+Location: Evolve Whirlie at Level 30, Safari Zone, Beast Mansion
 
 Starting Moves:
+HORN_ATTACK, GUST, SPIKE_CANNON
 
 Learnset
 8, PECK
@@ -842,23 +963,29 @@ Learnset
 36, SPIKE_CANNON
 44, HURRICANE
 
-
 TM / HM
-
+HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    
+TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    
+DOUBLE_EDGE, COUNTER,      SHADOW_CLAW,  EARTHQUAKE, 
+ MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+SELFDESTRUCT, SWIFT,        SKULL_BASH,   SKY_ATTACK,   REST, 
+EXPLOSION,    ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   
+CUT,          FLY,          STRENGTH
 
 #31 - Eradicane
 
-Electric / Flying
+Steel / Flying
 
 HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+Attack: 130
+Defense: 130
+Special: 60
+Speed: 80
 
 Location: Evolve Warnado (Dark Soul)
 
 Starting Moves:
+GUST, OMINOUS_WIND, SPIKE_CANNON, THUNDER
 
 Learnset
 8, HORN_DRILL
@@ -869,13 +996,21 @@ Learnset
 44, MEGAHORN
 50, HURRICANE
 
-
 TM / HM
-
+HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    
+TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    
+DOUBLE_EDGE,   BLIZZARD,     HYPER_BEAM,   
+COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         
+THUNDERBOLT,  THUNDER,  EARTHQUAKE,   FISSURE, 
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,        
+METRONOME,    SELFDESTRUCT, SWIFT,        SKULL_BASH,   
+SKY_ATTACK,   REST,         THUNDER_WAVE, 
+EXPLOSION,    ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   
+CUT,          FLY,          SURF,         STRENGTH
 
 #32 - Slimogg
 
-Electric / Flying
+Poison / Normal
 
 HP: 75
 Attack: 80
@@ -909,7 +1044,7 @@ Defense: 63
 Special: 100
 Speed: 116
 
-Location: Evolve Slimogg at Level 16, Safari Zone, Pokemon Mansion
+Location: Evolve Slimogg at Level 16, Safari Zone, Beast Mansion
 
 Starting Moves:
 
@@ -927,7 +1062,7 @@ TM / HM
 
 #34 - Predatox
 
-Electric / Flying
+Poison / Dark
 
 HP: 75
 Attack: 80
@@ -950,9 +1085,9 @@ Learnset
 TM / HM
 
 
-#35 - Leeghoul
+#35 - Tearwulf
 
-Electric / Flying
+Poison / Fighting
 
 HP: 75
 Attack: 80
@@ -960,7 +1095,7 @@ Defense: 63
 Special: 100
 Speed: 116
 
-Location: Pokemon Tower
+Location: Beast Tower
 
 Starting Moves:
 
@@ -986,7 +1121,7 @@ Defense: 63
 Special: 100
 Speed: 116
 
-Location: Evolve Leeghoul (Fire Stone), Pokemon Tower
+Location: Evolve Leeghoul (Fire Stone), Beast Tower
 
 Starting Moves:
 
@@ -1008,7 +1143,7 @@ Defense: 63
 Special: 100
 Speed: 116
 
-Location: Pokemon Mansion, Seafoam Islands
+Location: Beast Mansion, Seafoam Islands
 
 Starting Moves:
 
@@ -1087,7 +1222,7 @@ Defense: 63
 Special: 100
 Speed: 116
 
-Location: Pokemon Tower
+Location: Beast Tower
 
 Starting Moves:
 
@@ -1288,7 +1423,7 @@ Defense: 63
 Special: 100
 Speed: 116
 
-Location: Viridian Forest, Celadon Game Corner (Prize), Safari Zone, Pokemon Mansion
+Location: Viridian Forest, Celadon Game Corner (Prize), Safari Zone, Beast Mansion
 
 Starting Moves:
 
@@ -1520,7 +1655,7 @@ Defense: 63
 Special: 100
 Speed: 116
 
-Location: Evolve Leisender at Level 28, Pokemon Mansion
+Location: Evolve Leisender at Level 28, Beast Mansion
 
 Starting Moves:
 
@@ -1546,7 +1681,7 @@ Defense: 63
 Special: 100
 Speed: 116
 
-Location: Pokemon Tower
+Location: Beast Tower
 
 Starting Moves:
 
@@ -1572,7 +1707,7 @@ Defense: 63
 Special: 100
 Speed: 116
 
-Location: Evolve Canghoulit (Fire Stone), Pokemon Tower
+Location: Evolve Canghoulit (Fire Stone), Beast Tower
 
 Starting Moves:
 
@@ -2047,7 +2182,7 @@ Defense: 63
 Special: 100
 Speed: 116
 
-Location: Routes 12-15, Safari Zone, Pokemon Mansion
+Location: Routes 12-15, Safari Zone, Beast Mansion
 
 Starting Moves:
 
@@ -2073,7 +2208,7 @@ Defense: 63
 Special: 100
 Speed: 116
 
-Location: Evolve Bladybug at Level 40, Pokemon Mansion
+Location: Evolve Bladybug at Level 40, Beast Mansion
 
 Starting Moves:
 
