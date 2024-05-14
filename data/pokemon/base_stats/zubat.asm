@@ -24,7 +24,7 @@
 	     SELFDESTRUCT, SWIFT,        SKULL_BASH,   \
 	     DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, \
 	     PSYWAVE,      EXPLOSION,    SUBSTITUTE,   \
-	     FLY,          FLASH
+	     FLASH
 	; end
 
 	db BANK(ZubatPicFront)

@@ -240,11 +240,11 @@ ClefairyEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 23, SHADOW_CLAW
+	db 23, DOUBLE_KICK
 	db 30, POISON_FANG
-	db 36, MEDITATE
+	db 36, SHADOW_CLAW
 	db 43, JUMP_KICK
-	db 48, DARK_PULSE
+	db 48, LIMB_STRIKE
 	db 0
 
 SpearowEvosMoves:

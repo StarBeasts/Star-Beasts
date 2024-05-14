@@ -635,7 +635,8 @@ TM / HM
 FALCON_PUNCH, SWORDS_DANCE, DRAGON_CLAW,  
 TOXIC,        BODY_SLAM,    TAKE_DOWN,    
 DOUBLE_EDGE,  HYPER_BEAM,   PAY_DAY, 
-SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,   DRAGONBREATH, EARTHQUAKE,   MIMIC, 
+SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,   
+DRAGONBREATH, EARTHQUAKE,   MIMIC, 
 DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
 SKULL_BASH,   REST,   ROCK_SLIDE,   TRI_ATTACK,   
 SUBSTITUTE,   CUT,          SURF,         STRENGTH
@@ -699,8 +700,9 @@ Learnset
 43, CONVERSION
 
 TM / HM
-FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    TOXIC,        BODY_SLAM,    TAKE_DOWN, DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     
-BLIZZARD,     HYPER_BEAM,    PAY_DAY,      SUBMISSION,   
+FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,   
+TOXIC,        BODY_SLAM,    TAKE_DOWN, DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,   
+ ICE_BEAM,     BLIZZARD,     HYPER_BEAM,    PAY_DAY,      SUBMISSION,   
 COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,   SOLARBEAM,    
 DRAGONBREATH,  THUNDERBOLT,  THUNDER, 
 PSYCHIC,    TELEPORT,     MIMIC,  DOUBLE_TEAM,
@@ -1012,15 +1014,16 @@ CUT,          FLY,          SURF,         STRENGTH
 
 Poison / Normal
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 46
+Attack: 57
+Defense: 40
+Special: 40
+Speed: 50
 
 Location: Route 2, Safari Zone, Route 22
 
 Starting Moves:
+GROWL, LICK, SCRATCH
 
 Learnset
 8, BITE
@@ -1030,23 +1033,28 @@ Learnset
 36, LOW_KICK
 43, TAKE_DOWN
 
-
 TM / HM
-
+SWORDS_DANCE, DRAGON_CLAW,    TOXIC, 
+BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+COUNTER,      SHADOW_CLAW,         DRAGONBREATH, 
+DIG,           MIMIC,        DOUBLE_TEAM,  BIDE,         
+METRONOME,    SKULL_BASH,   REST,    
+SUBSTITUTE,   CUT
 
 #33 - Needolf
 
 Poison
 
-HP: 75
+HP: 61
 Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+Defense: 65
+Special: 60
+Speed: 65
 
 Location: Evolve Slimogg at Level 16, Safari Zone, Beast Mansion
 
 Starting Moves:
+BITE, METAL_CLAW, POISON_FANG
 
 Learnset
 8, BITE
@@ -1056,23 +1064,28 @@ Learnset
 41, LOW_KICK
 50, TAKE_DOWN
 
-
 TM / HM
-
+SWORDS_DANCE, DRAGON_CLAW,    TOXIC,
+BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+COUNTER,      SHADOW_CLAW,        DRAGONBREATH,  DIG, 
+ MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    
+SKULL_BASH,   REST,   SUBSTITUTE,  
+CUT,          STRENGTH
 
 #34 - Predatox
 
 Poison / Dark
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 85
+Attack: 90
+Defense: 100
+Special: 110
+Speed: 85
 
-Location: Evolve Needolf (Dark Soul), Safari Zone
+Location: Evolve Needolf (Dark Soul)
 
 Starting Moves:
+BITE, ACID, POISON_FANG, SLUDGE
 
 Learnset
 8, BITE
@@ -1081,23 +1094,163 @@ Learnset
 30, CRUNCH
 42, SLUDGE_BOMB
 
-
 TM / HM
-
+SWORDS_DANCE, DRAGON_CLAW,    TOXIC, 
+ BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BUBBLEBEAM,   ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   
+SUBMISSION,   COUNTER,      SEISMIC_TOSS, 
+SHADOW_CLAW, DRAGONBREATH,  THUNDERBOLT,  
+THUNDER,     EARTHQUAKE,   DIG,  MIMIC, DOUBLE_TEAM, 
+ BIDE,         METRONOME,     FIRE_BLAST,   SWIFT,        
+SKULL_BASH,    REST,         THUNDER_WAVE, 
+ROCK_SLIDE,   SUBSTITUTE,   
+CUT,          SURF,         STRENGTH
 
 #35 - Tearwulf
 
 Poison / Fighting
 
-HP: 75
-Attack: 80
+HP: 85
+Attack: 110
+Defense: 90
+Special: 85
+Speed: 100
+
+Location: Evolve Needolf (Moon Stone), Beast Mansion
+
+Starting Moves:
+KARATE_CHOP, GROWL
+
+Learnset
+23, DOUBLE_KICK
+30, POISON_FANG
+36, SHADOW_CLAW
+43, JUMP_KICK
+48, LIMB_STRIKE
+
+TM / HM
+FALCON_PUNCH, SWORDS_DANCE, DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BUBBLEBEAM,   ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   
+SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         
+DRAGONBREATH,  THUNDERBOLT,  THUNDER,      
+EARTHQUAKE,   DIG,           MIMIC,  
+DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+SWIFT,        SKULL_BASH,   DREAM_EATER,  
+REST,         THUNDER_WAVE, 
+ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   
+CUT,          SURF,         STRENGTH
+
+#36 - Screamer
+
+Ghost / Dark
+
+HP: 68
+Attack: 91
 Defense: 63
-Special: 100
-Speed: 116
+Special: 91
+Speed: 104
+
+Location: Beast Tower, Beast Mansion
+
+Starting Moves:
+SHADOW_CLAW, HYPER_VOICE, SELFDESTRUCT, SING 
+
+Learnset
+30, SCREECH
+35, DREAM_EATER
+40, EXPLOSION
+
+TM / HM
+HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    
+TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BUBBLEBEAM,   BLIZZARD,     HYPER_BEAM,   COUNTER,      SHADOW_CLAW,       
+DRAGONBREATH,  THUNDERBOLT,  THUNDER,      FISSURE,
+DIG, MIMIC,   DOUBLE_TEAM,  BIDE,  METRONOME,    
+SELFDESTRUCT, SWIFT,        SKULL_BASH,   
+DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, 
+PSYWAVE,      EXPLOSION,    TRI_ATTACK,   SUBSTITUTE,   
+CUT,          FLY,          FLASH
+
+#37 - Tinieddi
+
+Ice / Dark
+
+HP: 55
+Attack: 80
+Defense: 50
+Special: 60
+Speed: 82
+
+Location: Mt Moon, Route 10 (Gift), Beast Mansion, Seafoam Islands
+
+Starting Moves:
+POWDER_SNOW, ROAR
+
+Learnset
+10, BITE
+16, ICE_PUNCH
+22, METAL_CLAW
+30, BODY_SLAM
+36, BRICK_BREAK
+42, LIMB_STRIKE
+
+TM / HM
+SWORDS_DANCE, DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,    
+SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         
+DRAGONBREATH, DIG,          MIMIC,  
+DOUBLE_TEAM,  BIDE,         METRONOME,    SKULL_BASH,   
+REST, SUBSTITUTE,   CUT,          SURF
+
+#38 - Heavieddi
+
+Ice / Dark
+
+HP: 90
+Attack: 115
+Defense: 90
+Special: 85
+Speed: 75
+
+Location: Evolve Tinieddi at Level 28, Seafoam Islands
+
+Starting Moves:
+BITE, SLASH, ICE_PUNCH, ROAR 
+
+Learnset
+db 16, ICE_PUNCH
+db 22, METAL_CLAW
+db 28, THRASH
+db 35, CRUNCH
+db 40, BRICK_BREAK
+db 50, LIMB_STRIKE
+
+TM / HM
+FALCON_PUNCH, SWORDS_DANCE, DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   
+SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         
+DRAGONBREATH, EARTHQUAKE,   FISSURE,      DIG,          
+MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    
+SKULL_BASH,   REST,  ROCK_SLIDE,   SUBSTITUTE,   
+CUT,          SURF,         STRENGTH
+
+#39 - Leeghoul
+
+Steel / Ghost
+
+HP: 40
+Attack: 67
+Defense: 125
+Special: 58
+Speed: 30
 
 Location: Beast Tower
 
 Starting Moves:
+SCRATCH, LEER
 
 Learnset
 13, METAL_CLAW
@@ -1107,146 +1260,62 @@ Learnset
 39, FIRE_SPIN
 48, SWORDS_DANCE
 
-
 TM / HM
+SWORDS_DANCE, DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+COUNTER,      SHADOW_CLAW,         THUNDERBOLT,  THUNDER,      
+FISSURE,      PSYCHIC_M,    MIMIC, 
+DOUBLE_TEAM,  BIDE,         METRONOME,    
+SELFDESTRUCT, SWIFT,        SKULL_BASH,   
+DREAM_EATER,  REST, TRI_ATTACK,   SUBSTITUTE,   
+CUT,          FLY,          STRENGTH,     FLASH
 
+#40 - Verbeden
 
-#36 - Verbeden
+Ghost / Fire
 
-Electric / Flying
-
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 58
+Attack: 97
+Defense: 165
+Special: 65
+Speed: 50
 
 Location: Evolve Leeghoul (Fire Stone), Beast Tower
 
 Starting Moves:
+FIRE_SPIN, AERIAL_ACE, METAL_CLAW, SHADOW_CLAW 
 
 Learnset
 30, FIRE_SPIN
 40, FLAMETHROWER
 
-
 TM / HM
-
-
-#37 - Gorevyll
-
-Electric / Flying
-
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
-
-Location: Beast Mansion, Seafoam Islands
-
-Starting Moves:
-
-Learnset
-16, ICE_PUNCH
-21, BITE
-28, THRASH
-35, CRUNCH
-42, ICE_HAMMER
-
-
-TM / HM
-
-
-#38 - Isslohd
-
-Electric / Flying
-
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
-
-Location: Seafoam Islands
-
-Starting Moves:
-
-Learnset
-16, ICE_PUNCH
-21, METAL_CLAW
-28, BODY_SLAM
-35, BRICK_BREAK
-42, ICE_HAMMER
-
-
-TM / HM
-
-
-#39 - Robby
-
-Electric / Flying
-
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
-
-Location: Celadon Game Corner (Prize), Safari Zone, Route 23
-
-Starting Moves:
-
-Learnset
-9, DIZZY_PUNCH
-14, MACH_PUNCH
-19, ROLLING_KICK
-24, ICE_PUNCH
-24, FIRE_PUNCH
-24, THUNDERPUNCH
-29, REST
-34, BRICK_BREAK
-39, DOUBLE_EDGE
-
-
-TM / HM
-
-
-#40 - Tormented
-
-Electric / Flying
-
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
-
-Location: Beast Tower
-
-Starting Moves:
-
-Learnset
-30, SCREECH
-40, EXPLOSION
-
-
-TM / HM
+HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+HYPER_BEAM,   COUNTER,      SHADOW_CLAW,         
+SOLARBEAM,    THUNDERBOLT,  THUNDER,      
+FISSURE,      PSYCHIC,    TELEPORT,     MIMIC, 
+DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+SELFDESTRUCT, FIRE_BLAST,   SWIFT,        SKULL_BASH,   
+DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, 
+PSYWAVE,      EXPLOSION,    TRI_ATTACK,   SUBSTITUTE,   
+CUT,          FLY,          STRENGTH,     FLASH
 
 
 #41 - Epilepsia
 
-Electric / Flying
+Psychic / Electric
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 55
+Attack: 30
+Defense: 30
+Special: 55
+Speed: 55
 
 Location: Caves and Route 10
 
 Starting Moves:
+CONFUSION, THUNDERSHOCK
 
 Learnset
 10, GLARE
@@ -1255,23 +1324,32 @@ Learnset
 28, SOLARBEAM
 36, FLASH_CANNON
 
-
 TM / HM
-
+HURRICANE,  FLASH_CANNON,TOXIC, 
+BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+ICE_BEAM,     COUNTER, 
+SOLARBEAM,    THUNDERBOLT,  THUNDER,      
+PSYCHIC_M,    TELEPORT,     MIMIC,
+DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+SELFDESTRUCT, SWIFT,        SKULL_BASH,   
+DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, 
+PSYWAVE,      EXPLOSION,    SUBSTITUTE,   
+FLASH
 
 #42 - Convulsia
 
-Electric / Flying
+Psychic / Electric
 
 HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+Attack: 40
+Defense: 40
+Special: 95
+Speed: 95
 
 Location: Evolve Epilepsia at Level 22, Seafoam Islands, Victory Road, Cerulean Cave
 
 Starting Moves:
+CONFUSION, THUNDERSHOCK, GLARE
 
 Learnset
 10, GLARE
@@ -1280,87 +1358,114 @@ Learnset
 32, SOLARBEAM
 43, FLASH_CANNON
 
-
 TM / HM
+HURRICANE,   FLASH_CANNON, 
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+ICE_BEAM,     HYPER_BEAM,   
+COUNTER, SOLARBEAM,    THUNDERBOLT,  THUNDER,      
+PSYCHIC,    TELEPORT,     MIMIC, 
+DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+SELFDESTRUCT, SWIFT,        SKULL_BASH,   
+DREAM_EATER,  SKY_ATTACK,   REST,         
+THUNDER_WAVE, PSYWAVE,      EXPLOSION,   
+SUBSTITUTE,   FLY,          FLASH
 
+#43 - Sackran
 
-#43 - Ogrue
+Dark
 
-Electric / Flying
+HP: 65
+Attack: 65
+Defense: 65
+Special: 65
+Speed: 95
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
-
-Location: Routes 5-7, Routes 12-15, Route 21, Routes 24-25
+Location: Routes 5-7, Routes 12-15, Windwalker's Cave, Route 21, Routes 24-25
 
 Starting Moves:
+TELEPORT, TAKE_DOWN, QUICK_ATTACK
 
 Learnset
-15, SLAM
-17, KARATE_CHOP
-19, VINE_WHIP
+15, PAY_DAY
+19, KARATE_CHOP
 24, BODY_SLAM
-33, PETAL_DANCE
-46, SOLARBEAM
-
+33, SWORDS_DANCE
+46, LIMB_STRIKE
 
 TM / HM
+FALCON_PUNCH, SWORDS_DANCE,  
+TOXIC,        BODY_SLAM,    TAKE_DOWN, 
+DOUBLE_EDGE,  COUNTER,      SHADOW_CLAW,         
+DIG,           MIMIC,        DOUBLE_TEAM,  BIDE,         
+METRONOME,    SKULL_BASH,   REST,         
+SUBSTITUTE,   CUT
 
+#44 - O'Grue
 
-#44 - Cemernary
+Grass / Dark
 
-Electric / Flying
+HP: 95
+Attack: 115
+Defense: 100
+Special: 65
+Speed: 120
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
-
-Location: Evolve Ogrue (Holy Soul), Route 15
+Location: Evolve Sackran (Holy Soul), Route 15
 
 Starting Moves:
+KARATE_CHOP, TAKE_DOWN, QUICK_ATTACK
 
 Learnset
 15, SLAM
 17, KARATE_CHOP
-19, VINE_WHIP
+21, SHADOW_CLAW
 28, BODY_SLAM
-38, BRICK_BREAK
-52, AURA_SPHERE
-
+38, PETAL_DANCE
+52, LIMB_STRIKE
 
 TM / HM
-
+FALCON_PUNCH, SWORDS_DANCE, FLASH_CANNON,    
+DRAGON_CLAW,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    
+DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,  
+SEISMIC_TOSS, SHADOW_CLAW, MEGA_DRAIN, 
+SOLARBEAM,    DRAGONBREATH,  EARTHQUAKE,   FISSURE,     
+DIG,  MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    
+SKULL_BASH,   REST,   ROCK_SLIDE,  SUBSTITUTE,   
+CUT,     STRENGTH
 
 #45 - Bagavond
 
-Electric / Flying
+Ghost / Dark
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 95
+Attack: 65
+Defense: 65
+Special: 120
+Speed: 115
 
-Location: Evolve Ogrue (Dark Soul), Route 14
+Location: Evolve Sackran (Dark Soul), Route 14, Beast Tower
 
 Starting Moves:
+TAKE_DOWN, CONFUSION, OMINOUS_WIND, PAY_DAY
 
 Learnset
 15, CONFUSION
-17, NIGHT_SHADE
-19, MEGA_DRAIN
-28, OMINOUS_WIND
-38, HYPNOSIS
-52, DREAM_EATER
-
+17, PAY_DAY
+21, OMINOUS_WIND
+28, HYPNOSIS
+28, DREAM_EATER
+38, DARK_PULSE
 
 TM / HM
-
+HURRICANE,   FLASH_CANNON, TOXIC,  
+BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BLIZZARD,     HYPER_BEAM,   PAY_DAY,      
+COUNTER,      SHADOW_CLAW,   MEGA_DRAIN,   
+DRAGONBREATH,  THUNDERBOLT,  THUNDER,  PSYCHIC,    
+TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      
+BIDE,         METRONOME,    SWIFT,        SKULL_BASH,   
+DREAM_EATER,  REST,         THUNDER_WAVE, PSYWAVE,     
+ ROCK_SLIDE,   SUBSTITUTE,   CUT,          FLY,           FLASH
 
 #46 - Speakeasy
 
