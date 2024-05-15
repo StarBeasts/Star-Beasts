@@ -1469,17 +1469,18 @@ DREAM_EATER,  REST,         THUNDER_WAVE, PSYWAVE,
 
 #46 - Speakeasy
 
-Electric / Flying
+Fighting
 
-HP: 75
+HP: 30
 Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+Defense: 50
+Special: 80
+Speed: 88
 
-Location: Mt. Moon, Safari Zone, Cerulean Cave
+Location: Mt. Moon, Cerulean Cape, Safari Zone
 
 Starting Moves:
+SCRATCH, LOW_KICK
 
 Learnset
 13, SLAM
@@ -1489,21 +1490,27 @@ Learnset
 41, SKULL_BASH
 
 TM / HM
-
+SWORDS_DANCE, DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+SUBMISSION,   COUNTER,      SHADOW_CLAW,          DIG,          
+MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    
+SWIFT,        SKULL_BASH,   REST,   ROCK_SLIDE,
+SUBSTITUTE,    CUT,          STRENGTH
 
 #47 - Arkkade
 
-Electric / Flying
+Steel / Fighting
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 30
+Attack: 110
+Defense: 50
+Special: 135
+Speed: 88
 
-Location: Evolve Speakeasy at Level 24, Safari Zone, Cerulean Cave
+Location: Evolve Speakeasy at Level 24, Windwalker's Cave, Safari Zone, Cerulean Cave
 
 Starting Moves:
+METAL_CLAW, SLAM, LOW_KICK
 
 Learnset
 13, SLAM
@@ -1514,101 +1521,146 @@ Learnset
 44, AURA_SPHERE
 48, HYPER_BEAM
 
-
 TM / HM
-
+FALCON_PUNCH, SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BUBBLEBEAM,   ICE_BEAM,     BLIZZARD,     HYPER_BEAM,  
+SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         
+SOLARBEAM,    THUNDERBOLT,  THUNDER,      
+EARTHQUAKE,   FISSURE,      DIG,          
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+SELFDESTRUCT, EGG_BOMB,     FIRE_BLAST,   SWIFT,        SKULL_BASH,   
+REST,         THUNDER_WAVE, EXPLOSION, 
+ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   
+CUT,          STRENGTH,     FLASH
 
 #48 - Dragleam
 
-Electric / Flying
+Bug / Normal
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 55
+Attack: 55
+Defense: 55
+Special: 85
+Speed: 55
 
 Location: Viridian Forest, Celadon Game Corner (Prize), Safari Zone, Beast Mansion
 
 Starting Moves:
+POUND, DISABLE, ABSORB, CONFUSION
 
 Learnset
-30, FLAMETHROWER
-30, ICE_BEAM
-30, THUNDERBOLT
-35, PSYBEAM
-38, BARRIER
-43, RECOVER
-
+10, DIZZY_PUNCH
+15, BARRIER
+25, ICE_PUNCH
+25, THUNDERPUNCH
+25, FIRE_PUNCH
+30, PSYBEAM
+35, RECOVER
+41, SUBSTITUTE
 
 TM / HM
-
+FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,
+PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, 
+MEGA_DRAIN,   SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  THUNDER,      
+ EARTHQUAKE,   DIG,          PSYCHIC,    TELEPORT,     
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+SELFDESTRUCT, EGG_BOMB,     FIRE_BLAST,   SWIFT,        SKULL_BASH,   
+SOFTBOILED,   DREAM_EATER,  REST,         THUNDER_WAVE, 
+PSYWAVE,      EXPLOSION,    TRI_ATTACK,   SUBSTITUTE,   
+CUT,          SURF,         STRENGTH,     FLASH	
 
 #49 - Ardoragon
 
-Electric / Flying
+Dragon / Flying
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 85
+Attack: 100
+Defense: 60
+Special: 135
+Speed: 105
 
-Location: Evolve Dragleam at Level 51, Cerulean Cave
+Location: Evolve Dragleam at Level 40, Cerulean Cave, Nature Preserve
 
 Starting Moves:
+PSYBEAM, FLAMETHROWER, THUNDERBOLT, ICE_BEAM 
 
 Learnset
-30, THUNDERBOLT
-30, FLAMETHROWER
-30, ICE_BEAM
+10, DIZZY_PUNCH
+15, SUBSTITUTE
+25, PSYBEAM
+38, ICE_PUNCH
+38, THUNDERPUNCH
+38, FIRE_PUNCH
 38, PSYBEAM
-43, BARRIER
+40, BARRIER
+45, SUBSTITUTE
+48, ICE_PUNCH
+48, THUNDERPUNCH
+48, FIRE_PUNCH
 51, PK_STARSTORM
 
-
 TM / HM
+FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   
+PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         
+MEGA_DRAIN,   SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  THUNDER,      
+EARTHQUAKE,   FISSURE,      DIG,          PSYCHIC,    TELEPORT,     
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+SELFDESTRUCT, EGG_BOMB,     FIRE_BLAST,   SWIFT,        SKULL_BASH,   
+SOFTBOILED,   DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, 
+PSYWAVE,      EXPLOSION,    ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   
+CUT,          FLY,          SURF,         STRENGTH,     FLASH
 
 
-#50 - Tickytock
+#50 - Ticolyte
 
-Electric / Flying
+Ground
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 10
+Attack: 55
+Defense: 25
+Special: 55
+Speed: 125
 
-Location: Route 11
+Location: Route 5, Cerulean Cape, Route 11
 
 Starting Moves:
+POUND, DISABLE
 
 Learnset
-15, DISABLE
+15, GROWL
 19, SAND_ATTACK
 24, REFLECT
 31, TIME_STOP
 40, EARTHQUAKE
 
-
 TM / HM
-
+FLASH_CANNON,TOXIC,        BODY_SLAM,    TAKE_DOWN, 
+ DOUBLE_EDGE,  ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   
+PAY_DAY,      COUNTER, THUNDERBOLT,  THUNDER,      
+PSYCHIC,    TELEPORT,     MIMIC,        DOUBLE_TEAM, 
+REFLECT,      BIDE,         METRONOME,    SWIFT,         
+DREAM_EATER,  REST,         THUNDER_WAVE, 
+PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   FLASH
 
 #51 - Magusand
 
-Electric / Flying
+Ground / Psychic
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 35
+Attack: 55
+Defense: 40
+Special: 125
+Speed: 165
 
-Location: Evolve Tickytock at Level 26, Cracture Chasm
+Location: Evolve Ticolyte at Level 26, Cracture Chasm
 
 Starting Moves:
-
+SLAM, HYPNOSIS, DISABLE, SAND_ATTACK 
 
 Learnset
 15, DISABLE
@@ -1617,178 +1669,224 @@ Learnset
 35, TIME_STOP
 47, PSYCHIC
 
-
 TM / HM
-
+FALCON_PUNCH,   HURRICANE,  FLASH_CANNON,    DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  ICE_BEAM,  
+BLIZZARD,     HYPER_BEAM,   PAY_DAY,      COUNTER,  
+SEISMIC_TOSS, SHADOW_CLAW,         THUNDERBOLT,  THUNDER,  
+EARTHQUAKE,   PSYCHIC,    TELEPORT,     MIMIC,  
+DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+SELFDESTRUCT, FIRE_BLAST,   SWIFT,        
+DREAM_EATER,  REST,         THUNDER_WAVE, 
+PSYWAVE,      EXPLOSION,    ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   
+FLY,          STRENGTH,     FLASH
 
 #52 - Pumajin
 
-Electric / Flying
+Fire / Psychic
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 125
+Attack: 30
+Defense: 30
+Special: 95
+Speed: 70
 
-Location: Route 17, Safari Zone, Seafoam Islands
+Location: Route 7, Cerulean Cape, Route 17, Safari Zone
 
 Starting Moves:
+GROWL, SCRATCH, BITE
 
 Learnset
 12, EMBER
 17, SHADOW_CLAW
 24, SLASH
 33, RECOVER
+38, FIRE_SPIN
 44, PKFIRE
 
-
 TM / HM
-
+DRAGON_CLAW,    TOXIC,        BODY_SLAM, 
+TAKE_DOWN,    DOUBLE_EDGE,  PAY_DAY,      COUNTER,  
+SHADOW_CLAW,          SOLARBEAM,    DIG,          PSYCHIC,
+TELEPORT,     \MIMIC,        DOUBLE_TEAM, 
+REFLECT,      BIDE,         METRONOME,    
+FIRE_BLAST,   SWIFT,  DREAM_EATER,  SKY_ATTACK,
+REST,         THUNDER_WAVE, PSYWAVE,      SUBSTITUTE,   
+CUT,          FLY,          FLASH
 
 #53 - Pyrodon
 
-Electric / Flying
+Fire / Psychic
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 140
+Attack: 50
+Defense: 35
+Special: 115
+Speed: 65
 
-Location: Route 17, Safari Zone
+Location: Evolve Pumajin at Level 30, Route 17, Safari Zone
 
 Starting Moves:
+SCRATCH, BITE, EMBER, SCREECH 
 
 Learnset
 12, EMBER
 17, SHADOW_CLAW
 24, SLASH
 37, RECOVER
+44, FIRE_SPIN
 51, PKFIRE
 
-
 TM / HM
+HURRICANE,   DRAGON_CLAW,    TOXIC,  
+BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BLIZZARD,     HYPER_BEAM,   PAY_DAY,      SUBMISSION,
+COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         
+MEGA_DRAIN,   SOLARBEAM,    THUNDERBOLT,  THUNDER,      
+DIG,   PSYCHIC,    TELEPORT,     MIMIC, 
+DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+FIRE_BLAST,   SWIFT,        SKULL_BASH,   
+DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, 
+PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   
+ CUT,          FLY,          STRENGTH,     FLASH
 
+#54 - Manhandla
 
-#54 - Shocknroll
+Dark
 
-Electric / Flying
+HP: 35
+Attack: 30
+Defense: 35
+Special: 55
+Speed: 66
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
-
-Location: Power Plant
+Location: Route 3, Mt. Moon, Cerulean Cape
 
 Starting Moves:
+SCRATCH, MACH_PUNCH
 
 Learnset
-db 28, THUNDER_WAVE
-db 30, SELFDESTRUCT
-db 36, THUNDERBOLT
-db 40, EXPLOSION
-db 52, FLASH_CANNON
-
+7, WRAP
+14, KARATE_CHOP
+23, DIZZY_PUNCH
+34, SHADOW_CLAW
 
 TM / HM
+FALCON_PUNCH, SWORDS_DANCE, DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+COUNTER,      SHADOW_CLAW,          TELEPORT,     
+ MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    
+SWIFT,  REST,  SUBSTITUTE,    CUT, FLASH
 
+#55 - Deathseer
 
+Dark
 
-#55 - Cracture
+HP: 70
+Attack: 70
+Defense: 70
+Special: 90
+Speed: 95
 
-Electric / Flying
-
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
-
-Location: Cracture Chasm
+Location: Evolve Manhandla at Level 20, Beast Tower, Safari Zone
 
 Starting Moves:
+SHADOW_CLAW, BITE, QUICK_ATTACK
 
 Learnset
-16, DIG
-24, DRILL_PECK
-32, DRILL_RUN
-38, SPIKE_CANNON
-52, MEGAHORN
-60, HORN_DRILL
-
+7, BITE
+20, SHADOW_CLAW
+27, CRUNCH
+41, SUPER_FANG
 
 TM / HM
+SWORDS_DANCE, DRAGON_CLAW,    
+TOXIC, BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+HYPER_BEAM,   COUNTER,      SHADOW_CLAW,         
+DRAGONBREATH, DIG, TELEPORT,     MIMIC,  
+DOUBLE_TEAM,  BIDE,         METRONOME,    
+FIRE_BLAST,   SWIFT,        SKULL_BASH,   
+REST,         THUNDER_WAVE, SUBSTITUTE,   
+CUT,          STRENGTH,     FLASH
 
+#56 - Kindergard
 
+Dark / Steel
 
-#56 - Leisender
+HP: 45
+Attack: 70
+Defense: 85
+Special: 70
+Speed: 60
 
-Electric / Flying
-
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
-
-Location: Route 3, Routes 5-8
+Location: Viridian Cave, Route 3, Routes 5-8, Cerulean Cape
 
 Starting Moves:
+PECK, FURY_ATTACK
 
 Learnset
+10, BARRIER
 15, HORN_ATTACK
 21, AERIAL_ACE
 27, SPIKE_CANNON
 33, DRILL_RUN
 39, MEGAHORN
 
-
 TM / HM
-
-
+SWORDS_DANCE, DRAGON_CLAW,    TOXIC,  
+HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+SUBMISSION,   COUNTER,     SHADOW_CLAW,        FISSURE,   
+MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    
+SWIFT,        SKULL_BASH,    REST,  ROCK_SLIDE, 
+TRI_ATTACK,   SUBSTITUTE,    CUT,          STRENGTH
 
 #57 - Vuhlandron
 
-Electric / Flying
+Dark / Steel
 
-HP: 75
-Attack: 80
-Defense: 63
+HP: 65
+Attack: 125
+Defense: 100
 Special: 100
-Speed: 116
+Speed: 50
 
-Location: Evolve Leisender at Level 28, Beast Mansion
+Location: Evolve Kindergard at Level 28, Beast Mansion
 
 Starting Moves:
+PECK, HORN_ATTACK, DRILL_PECK, SLASH 
 
 Learnset
 15, HORN_ATTACK
 21, AERIAL_ACE
 27, SPIKE_CANNON
+28, BARRIER
 37, DRILL_RUN
 46, MEGAHORN
 
-
 TM / HM
-
-
+HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    
+TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+HYPER_BEAM,   SUBMISSION,   COUNTER,      SHADOW_CLAW,         
+DRAGONBREATH,   EARTHQUAKE,   FISSURE,      MIMIC, 
+DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+FIRE_BLAST,   SWIFT,        SKULL_BASH,   REST, 
+ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   
+CUT,          STRENGTH,     FLASH
 
 #58 - Canghoulit
 
-Electric / Flying
+Fire / Ghost
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 60
+Attack: 40
+Defense: 60
+Special: 95
+Speed: 60
 
 Location: Beast Tower
 
 Starting Moves:
+EMBER, SMOKESCREEN
 
 Learnset
 18, MINIMIZE
@@ -1797,33 +1895,47 @@ Learnset
 40, FLAMETHROWER
 50, PKFIRE
 
-
 TM / HM
-
-
+HURRICANE,   FLASH_CANNON,    TOXIC, 
+BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  COUNTER, 
+SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  
+THUNDER,      PSYCHIC,    TELEPORT,     MIMIC,        
+DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+SELFDESTRUCT, FIRE_BLAST,   SWIFT, 
+DREAM_EATER,  SKY_ATTACK,   REST,         
+THUNDER_WAVE, PSYWAVE,      EXPLOSION,    
+SUBSTITUTE,   FLY,          FLASH
 
 #59 - Beourgeist
 
-Electric / Flying
+Fire / Ghost
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 60
+Attack: 60
+Defense: 90
+Special: 145
+Speed: 80
 
 Location: Evolve Canghoulit (Fire Stone), Beast Tower
 
 Starting Moves:
+OMINOUS_WIND, EMBER, MINIMIZE, SMOKESCREEN 
 
 Learnset
 40, LOVELY_KISS
 50, FIRE_SPIN
 
-
 TM / HM
-
-
+HURRICANE,   FLASH_CANNON,    TOXIC, 
+BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+HYPER_BEAM,   COUNTER,   SOLARBEAM,  
+DRAGONBREATH,  THUNDERBOLT,  THUNDER, 
+ PSYCHIC,    TELEPORT,     MIMIC,        DOUBLE_TEAM, 
+ REFLECT,      BIDE,         METRONOME,    
+ SELFDESTRUCT, FIRE_BLAST,   SWIFT,        
+DREAM_EATER,  SKY_ATTACK,   REST,  
+THUNDER_WAVE,   PSYWAVE,      EXPLOSION,  
+SUBSTITUTE,    FLY,          FLASH
 
 #60 - Diminitus
 
