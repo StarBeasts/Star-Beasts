@@ -24,7 +24,7 @@
 	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
 	     DREAM_EATER,  REST,         THUNDER_WAVE, \
 	     PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   \
-	     CUT,          FLY,          FLASH
+	     CUT,          FLASH
 	; end
 
 	db BANK(ElectrodePicFront)

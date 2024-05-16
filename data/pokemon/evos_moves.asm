@@ -1786,7 +1786,7 @@ MarowakEvosMoves:
 	db 31, WRAP
 	db 34, HEADBUTT
 	db 38, NIGHT_SHADE
-	db 43, SKULL_BASH
+	db 43, ROCK_SLIDE
 	db 46, AURA_SPHERE
 	db 0
 
