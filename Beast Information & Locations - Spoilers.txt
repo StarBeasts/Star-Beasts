@@ -881,9 +881,9 @@ STRENGTH
 
 Rock / Water
 
-HP: 115
+HP: 92
 Attack: 92
-Defense: 75
+Defense: 115
 Special: 92
 Speed: 60
 
@@ -1937,120 +1937,147 @@ DREAM_EATER,  SKY_ATTACK,   REST,
 THUNDER_WAVE,   PSYWAVE,      EXPLOSION,  
 SUBSTITUTE,    FLY,          FLASH
 
-#60 - Diminitus
+#60 - Plugenploy
 
-Electric / Flying
+Electric / Grass
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 65
+Attack: 30
+Defense: 60
+Special: 60
+Speed: 55
 
-Location: Route 5, Route 6, Safari Zone
+Location: Route 5, Route 6
 
 Starting Moves:
+THUNDER_WAVE, ABSORB
 
 Learnset
-16, STOMP
-19, RAZOR_LEAF
+16, TAKE_DOWN
+19, THUNDERSHOCK
 25, GROWTH
 31, BODY_SLAM
 38, SLEEP_POWDER
-45, WOOD_HAMMER
-
+45, SOLARBEAM
 
 TM / HM
+FALCON_PUNCH, SWORDS_DANCE, FLASH_CANNON, 
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BUBBLEBEAM,   WATER_GUN,    COUNTER,      MEGA_DRAIN,
+SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  THUNDER,      
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+SELFDESTRUCT, FIRE_BLAST,   SWIFT,        SKULL_BASH,   
+REST,         THUNDER_WAVE,  EXPLOSION,   
+SUBSTITUTE,   FLASH
 
+#61 - Solastra
 
+Electric / Grass
 
-#61 - Templus
+HP: 125
+Attack: 60
+Defense: 60
+Special: 75
+Speed: 35
 
-Electric / Flying
-
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
-
-Location: Evolve Diminitus at Level 25, Safari Zone
+Location: Evolve Plugenploy at Level 25, Route 23, Safari Zone
 
 Starting Moves:
+ABSORB, GROWTH, STOMP
 
 Learnset
-16, STOMP
-19, RAZOR_LEAF
+16, TAKE_DOWN
+19, THUNDERSHOCK
 24, BODY_SLAM
 26, GROWTH
 33, BODY_SLAM
 41, SLEEP_POWDER
-49, WOOD_HAMMER
-
+49, SOLARBEAM
 
 TM / HM
+FALCON_PUNCH, SWORDS_DANCE, FLASH_CANNON,
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BUBBLEBEAM,   WATER_GUN, COUNTER, 
+MEGA_DRAIN,   SOLARBEAM,    DRAGONBREATH,  
+THUNDERBOLT,  THUNDER,      EARTHQUAKE,   FISSURE,      
+ MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         
+METRONOME, SELFDESTRUCT, FIRE_BLAST,   SWIFT,        
+SKULL_BASH,   REST,         THUNDER_WAVE, 
+EXPLOSION,    SUBSTITUTE,   STRENGTH,     FLASH
 
+#62 - Steammense
 
+Electric / Grass
 
-#62 - Gigantus
-
-Electric / Flying
-
-HP: 75
-Attack: 80
-Defense: 63
+HP: 150
+Attack: 90
+Defense: 90
 Special: 100
-Speed: 116
+Speed: 10
 
-Location: Evolve Templus (Fire Stone), Victory Road
+Location: Evolve Solastra (Thunder Stone), Victory Road
 
 Starting Moves:
+WOOD_HAMMER, STOMP, GROWTH, THUNDERPUNCH 
 
 Learnset
-30, FIRE_PUNCH
+30, THUNDERPUNCH
 40, WOOD_HAMMER
-50, FIRE_BLAST
-
+50, STEAM_CANNON
 
 TM / HM
-
-
+FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, 
+FLASH_CANNON,TOXIC,        BODY_SLAM,    TAKE_DOWN,    
+DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    HYPER_BEAM,   
+COUNTER,      SEISMIC_TOSS, MEGA_DRAIN, SOLARBEAM,  
+DRAGONBREATH,  THUNDERBOLT,  THUNDER,      
+EARTHQUAKE,   FISSURE,      MIMIC,
+DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+SELFDESTRUCT, FIRE_BLAST,   SWIFT,        
+SKULL_BASH,    REST,         THUNDER_WAVE, 
+EXPLOSION,    ROCK_SLIDE,   SUBSTITUTE,   
+SURF,         STRENGTH,     FLASH
 
 #63 - Rumpel
 
-Electric / Flying
+Psychic
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 25
+Attack: 20
+Defense: 15
+Special: 105
+Speed: 90
 
 Location: Route 24, Route 25, Celadon Game Corner (Prize)
 
 Starting Moves:
+TELEPORT, METRONOME
 
 Learnset
 8, METRONOME
 
-
 TM / HM
-
-
+FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+COUNTER,      SHADOW_CLAW,         PSYCHIC,    TELEPORT,     
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+SWIFT,  DREAM_EATER,  REST,         THUNDER_WAVE, 
+PSYWAVE,      SUBSTITUTE,   FLASH
 
 #64 - Majivich
 
-Electric / Flying
+Psychic
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 40
+Attack: 35
+Defense: 30
+Special: 120
+Speed: 105
 
 Location: Evolve Rumpel at Level 16, Cerulean Cave
 
 Starting Moves:
+METRONOME, CONFUSION, DISABLE
 
 Learnset
 16, CONFUSION
@@ -2060,24 +2087,29 @@ Learnset
 38, PSYCHIC
 42, REFLECT
 
-
 TM / HM
-
-
+FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, FLASH_CANNON,   
+ DRAGON_CLAW,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    
+DOUBLE_EDGE,  HYPER_BEAM,   COUNTER,      SHADOW_CLAW,         
+PSYCHIC,    TELEPORT,     MIMIC,        DOUBLE_TEAM,
+REFLECT,      BIDE,         METRONOME,    	     SWIFT,        
+DREAM_EATER,  REST,         THUNDER_WAVE,  PSYWAVE, 
+SUBSTITUTE,    CUT,          FLY,          SURF,         FLASH
 
 #65 - Phisior
 
-Electric / Flying
+Psychic
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 55
+Attack: 50
+Defense: 45
+Special: 145
+Speed: 120
 
 Location: Evolve Majivich at Level 50
 
 Starting Moves:
+METRONOME, CONFUSION, DISABLE
 
 Learnset
 16, CONFUSION
@@ -2087,23 +2119,30 @@ Learnset
 38, PSYCHIC
 42, REFLECT
 
-
 TM / HM
-
+FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    
+DRAGON_CLAW,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    
+DOUBLE_EDGE,  HYPER_BEAM,   COUNTER,      SHADOW_CLAW,         
+PSYCHIC,    TELEPORT,      MIMIC,        DOUBLE_TEAM, 
+REFLECT,      BIDE,         METRONOME,    SWIFT,        
+DREAM_EATER,  REST,         THUNDER_WAVE, 
+PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   
+CUT,          FLY,          SURF,         FLASH
 
 #66 - Cromag
 
-Electric / Flying
+Rock / Fighting
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 67
+Attack: 95
+Defense: 58
+Special: 30
+Speed: 40
 
 Location: Mt. Moon, Rock Tunnel, Victory Road
 
 Starting Moves:
+BITE, LOW_KICK
 
 Learnset
 20, ROCK_THROW
@@ -2112,24 +2151,29 @@ Learnset
 39, BRICK_BREAK
 46, ROCK_SLIDE
 
-
 TM / HM
-
-
+FALCON_PUNCH, SWORDS_DANCE, DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+SUBMISSION,   COUNTER,      SEISMIC_TOSS, 
+SHADOW_CLAW,        DRAGONBREATH,  EARTHQUAKE,   
+FISSURE,       MIMIC,        DOUBLE_TEAM,  BIDE,         
+METRONOME,    SKULL_BASH,   REST, ROCK_SLIDE,   
+SUBSTITUTE,   STRENGTH
 
 #67 - Luzonen
 
-Electric / Flying
+Rock / Fighting
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 82
+Attack: 125
+Defense: 58
+Special: 50
+Speed: 40
 
 Location: Evolve Cromag at Level 28, Victory Road
 
 Starting Moves:
+BITE, LOW_KICK, LEER
 
 Learnset
 20, ROCK_THROW
@@ -2138,24 +2182,29 @@ Learnset
 44, BRICK_BREAK
 52, ROCK_SLIDE
 
-
 TM / HM
+FALCON_PUNCH, SWORDS_DANCE, DRAGON_CLAW, 
+TOXIC,        BODY_SLAM,    TAKE_DOWN,   
+DOUBLE_EDGE,HYPER_BEAM,   SUBMISSION,   COUNTER, 
+SEISMIC_TOSS, SHADOW_CLAW,         DRAGONBREATH, 
+EARTHQUAKE,   FISSURE, MIMIC,        DOUBLE_TEAM,
+BIDE,         METRONOME,  SKULL_BASH,   REST,  
+ROCK_SLIDE,   SUBSTITUTE, CUT,          STRENGTH
 
+#68 - Giganthor
 
+Rock / Fighting
 
-#68 - Hemephalon
-
-Electric / Flying
-
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 97
+Attack: 165
+Defense: 70
+Special: 65
+Speed: 55
 
 Location: Evolve Luzonen at Level 40, Victory Road
 
 Starting Moves:
+SUBMISSION, LOW_KICK, ROCK_THROW
 
 Learnset
 20, ROCK_THROW
@@ -2163,25 +2212,32 @@ Learnset
 36, MEDITATE
 44, BRICK_BREAK
 52, ROCK_SLIDE
-
+60, DOUBLE_EDGE
 
 TM / HM
-
-
+FALCON_PUNCH, SWORDS_DANCE, DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    
+DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER, 
+SEISMIC_TOSS, SHADOW_CLAW,         DRAGONBREATH, 
+EARTHQUAKE,   FISSURE, MIMIC,        DOUBLE_TEAM, 
+BIDE,         METRONOME,    FIRE_BLAST,   SKULL_BASH,  
+REST, ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   
+CUT,          SURF,         STRENGTH 
 
 #69 - Spriggle
 
-Electric / Flying
+Grass
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 45
+Attack: 100
+Defense: 80
+Special: 28
+Speed: 45
 
 Location: Routes 5-7, Routes 12-15, Route 21, Route 22, Route 24
 
 Starting Moves:
+SCRATCH, SHARPEN
 
 Learnset
 13, METAL_CLAW
@@ -2194,22 +2250,27 @@ Learnset
 
 
 TM / HM
-
-
+SWORDS_DANCE, DRAGON_CLAW,    TOXIC, 
+BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+COUNTER,      SHADOW_CLAW,         MEGA_DRAIN,   
+SOLARBEAM,    DIG, MIMIC,        DOUBLE_TEAM,  
+BIDE, METRONOME,    SWIFT,        SKULL_BASH,   
+REST,   SUBSTITUTE,   CUT
 
 #70 - Weedimp
 
-Electric / Flying
+Grass / Steel
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 59
+Attack: 110
+Defense: 110
+Special: 45
+Speed: 49
 
 Location: Evolve Spriggle at Level 21, Route 6, Routes 12-15, Route 23
 
 Starting Moves:
+SCRATCH, SHARPEN, METAL_CLAW
 
 Learnset
 13, METAL_CLAW
@@ -2220,24 +2281,29 @@ Learnset
 38, AERIAL_ACE
 49, SHADOW_CLAW
 
-
 TM / HM
-
-
+SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+HYPER_BEAM,   SUBMISSION,   COUNTER, 
+SHADOW_CLAW,       FISSURE,      DIG, MIMIC,  
+DOUBLE_TEAM,  BIDE,         METRONOME,    SWIFT, 
+SKULL_BASH,   REST,  ROCK_SLIDE,   
+SUBSTITUTE,    CUT,          STRENGTH 
 
 #71 - Slaymore
 
-Electric / Flying
+Grass / Steel
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 60
+Attack: 150
+Defense: 150
+Special: 50
+Speed: 60
 
 Location: Evolve Weedimp (Dark Soul)
 
 Starting Moves:
+METAL_CLAW, BITE, AERIAL_ACE, RAZOR_LEAF
 
 Learnset
 23, BODY_SLAM
@@ -2245,149 +2311,183 @@ Learnset
 38, SHADOW_CLAW
 50, GUILLOTINE
 
-
 TM / HM
+SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+HYPER_BEAM,   SUBMISSION,   COUNTER,      
+SHADOW_CLAW,         FISSURE,      DIG,  MIMIC,        
+DOUBLE_TEAM,BIDE,         METRONOME,    SWIFT, 
+SKULL_BASH,   REST, ROCK_SLIDE,   
+SUBSTITUTE,   CUT, STRENGTH 
 
+#72 - Amurais
 
+Steel / Normal
 
-#72 - Charcold
+HP: 60
+Attack: 185
+Defense: 80
+Special: 40
+Speed: 70
 
-Electric / Flying
-
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
-
-Location: Evolve Charkonro (Water Stone), Rock Tunnel
+Location: Evolve Weedimp (Holy Soul), Routes 12-13, Cerulean Cave
 
 Starting Moves:
+METAL_CLAW, SHARPEN
 
 Learnset
-7, POISON_GAS
-13, EMBER
-18, EGG_BOMB
-22, ROCK_THROW
-27, SKULL_BASH
-33, SOFTBOILED
-40, SCALD
-48, FLAMETHROWER
-
+26, FURY_SWIPES
+31, SLASH
+36, AERIAL_ACE
+41, SHADOW_CLAW
+46, DOUBLE_EDGE
 
 TM / HM
+SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+HYPER_BEAM,   SUBMISSION,   COUNTER,      SHADOW_CLAW,         
+FISSURE,      DIG,  MIMIC,        DOUBLE_TEAM,  BIDE,  
+METRONOME,    SWIFT,        SKULL_BASH,   
+REST,  ROCK_SLIDE,   SUBSTITUTE,   
+CUT,          STRENGTH 
 
+#73 - Cuppacaf
 
+Water / Ground
 
-#73 - Charkonro
+HP: 115
+Attack: 65
+Defense: 60
+Special: 110
+Speed: 55
 
-Electric / Flying
-
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
-
-Location: Evolve Charcold (Fire Stone), Victory Road
+Location: Seafoam Islands, Fishing - Super Rod (Route 15, Celadon City)
 
 Starting Moves:
+SLUDGE, WATER_GUN
 
 Learnset
-7, POISON_GAS
-13, EMBER
-18, EGG_BOMB
-22, SELFDESTRUCT
-27, SKULL_BASH
-35, SOFTBOILED
-43, SCALD
-50, FLAMETHROWER
-
+19, SCALD
+22, TOXIC
+26, ACID_ARMOR
+29, RECOVER
+35, SLUDGE_BOMB
+39, HYDRO_PUMP
 
 TM / HM
-
-
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     
+HYPER_BEAM,   PAY_DAY,      COUNTER,  MEGA_DRAIN,   
+DRAGONBREATH,  FISSURE,     PSYCHIC,    TELEPORT,     
+MIMIC,  DOUBLE_TEAM,  REFLECT,      BIDE,   METRONOME,    
+SELFDESTRUCT, FIRE_BLAST,   SWIFT,   SOFTBOILED,
+DREAM_EATER,  REST,         THUNDER_WAVE, 
+PSYWAVE,      EXPLOSION,    ROCK_SLIDE,   
+TRI_ATTACK,   SUBSTITUTE,   SURF,         FLASH
 
 #74 - Rocken
 
-Electric / Flying
+Rock
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 40
+Attack: 60
+Defense: 80
+Special: 30
+Speed: 60
 
 Location: Mt. Moon, Rock Tunnel, Victory Road
 
 Starting Moves:
+TACKLE, GROWL
 
 Learnset
-11, SING
-16, ROCK_THROW
+13, SING
+17, ROCK_THROW
 21, SELFDESTRUCT
 26, HYPER_VOICE
 31, ROCK_SLIDE
 36, EXPLOSION
 
-
 TM / HM
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    
+DOUBLE_EDGE,  COUNTER, DRAGONBREATH, 
+DIG,           MIMIC,        DOUBLE_TEAM,  BIDE,  
+METRONOME,    SELFDESTRUCT, FIRE_BLAST,   
+SWIFT,        SKULL_BASH,   REST,  EXPLOSION, 
+ROCK_SLIDE,   SUBSTITUTE,   FLASH
 
+#75 - Rollen
 
+Rock / Dragon
 
-#75 - Karaoken
+HP: 100
+Attack: 45
+Defense: 100
+Special: 130
+Speed: 60
 
-Electric / Flying
-
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
-
-Location: Evolve Rocken (Liquid Steel), Victory Road
+Location: Evolve Rocken (Holy Soul), Victory Road
 
 Starting Moves:
+SING, MEDITATE, RECOVER
 
 Learnset
 16, SING
 19, ROCK_THROW
 21, SELFDESTRUCT
-29, HYPER_VOICE
+25, HYPER_VOICE
+29, DRAGONBREATH
 36, ROCK_SLIDE
-43, EXPLOSION
-
+43, OUTRAGE
+51, ROCK_OUT
 
 TM / HM
+HURRICANE,  FLASH_CANNON,    DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BLIZZARD,     HYPER_BEAM,   SUBMISSION,   COUNTER, 
+SEISMIC_TOSS, SHADOW_CLAW,         DRAGONBREATH, 
+THUNDERBOLT,  THUNDER,      EARTHQUAKE,   FISSURE, 
+DIG,          PSYCHIC,    TELEPORT,     MIMIC,
+DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+SELFDESTRUCT, FIRE_BLAST,   SWIFT,        SKULL_BASH,   
+DREAM_EATER,  REST,         THUNDER_WAVE, 
+PSYWAVE,      EXPLOSION,    ROCK_SLIDE,   TRI_ATTACK,   
+SUBSTITUTE,   CUT,          STRENGTH,     FLASH
 
+#76 - Rockowt
 
+Rock / Steel
 
-#76 - Balladoken
+HP: 100
+Attack: 130
+Defense: 100
+Special: 60
+Speed: 45
 
-Electric / Flying
-
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
-
-Location: Evolve Rocken (Holy Soul), Victory Road
+Location: Evolve Rocken (Steely Gene), Victory Road
 
 Starting Moves:
+RAGE, GROWL
 
 Learnset
-11, CONFUSION
-16, SING
-21, GLARE
-29, ROCK_SLIDE
-36, PSYCHIC
-43, AMNESIA
-
+15, SCREECH
+16, ROCK_THROW
+21, SELFDESTRUCT
+29, HYPER_VOICE
+36, SKULL_BASH
+43, EXPLOSION
+50, ROCK_OUT
 
 TM / HM
-
-
+HURRICANE,  FLASH_CANNON,   TOXIC,
+BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BLIZZARD,     HYPER_BEAM,   SUBMISSION,   
+COUNTER, DRAGONBREATH, EARTHQUAKE,   
+FISSURE,      DIG,    MIMIC,        DOUBLE_TEAM,
+BIDE,         METRONOME,    SELFDESTRUCT, 
+FIRE_BLAST,  SWIFT,        SKULL_BASH,   REST, 
+EXPLOSION,    ROCK_SLIDE,   SUBSTITUTE, 
+CUT,          STRENGTH,     FLASH
 
 #77 - Bladybug
 

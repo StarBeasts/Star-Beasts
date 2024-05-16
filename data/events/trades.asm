@@ -19,5 +19,5 @@ TradeMons:
 	db PSYDUCK,    LICKITUNG, TRADE_DIALOGSET_GANON,     "HOG@@@@@@@@" ; pig chav, implemented
 	db PIKACHU,    MAGIKARP,   TRADE_DIALOGSET_EVOLUTION,"NEMO@@@@@@@" ; implemented
 	db PIDGEY,     EXEGGUTOR, TRADE_DIALOGSET_BIRD,      "MOTHER@@@@@" ; celagone trade, implemented
-	db VICTREEBEL, HITMONCHAN, TRADE_DIALOGSET_HAPPY,   "WUKONG@@@@@" ; vult maze trade
+	db VICTREEBEL, HITMONCHAN, TRADE_DIALOGSET_HAPPY,   "WUKONG@@@@@" ; vult maze trade, implemented (duh)
 	assert_table_length NUM_NPC_TRADES

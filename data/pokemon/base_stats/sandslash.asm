@@ -1,6 +1,6 @@
 	db DEX_SANDSLASH ; pokedex id
 
-	db  115, 92, 75,  60,  92
+	db  92, 92,  115,  60,  92
 	;   hp  atk  def  spd  spc
 
 	db ROCK, WATER ; type

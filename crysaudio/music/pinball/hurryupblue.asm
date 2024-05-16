@@ -5,7 +5,7 @@ Music_HurryUpBlue:
 	channel 3, Music_HurryUpBlue_Ch3
 
 Music_HurryUpBlue_Ch1:
-	tempo 117
+	tempo 127
 	volume 7, 7
 	duty_cycle 2
 	pitch_offset 1
