@@ -16,7 +16,6 @@
 	; tm/hm learnset
 	tmhm FLASH_CANNON, \
 	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   \
 	     COUNTER,  \
 	     THUNDERBOLT,  THUNDER,      \
 	     \

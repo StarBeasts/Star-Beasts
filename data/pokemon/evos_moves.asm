@@ -681,8 +681,8 @@ ChanseyEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 24, DRAGONBREATH
 	db 30, SLASH
+	db 34, DRAGONBREATH
 	db 38, MINIMIZE
 	db 44, ICE_BEAM
 	db 48, DRAGON_CLAW
@@ -1754,6 +1754,7 @@ ClefableEvosMoves:
 
 WeezingEvosMoves:
 ; Evolutions
+	db EV_ITEM, FIRE_STONE, 1, RHYHORN
 	db 0
 ; Learnset
 	db 7, POISON_GAS

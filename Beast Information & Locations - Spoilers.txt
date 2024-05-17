@@ -3463,95 +3463,125 @@ CUT,          STRENGTH,     FLASH
 
 #106 - Shadolos
 
-Electric / Flying
+Ghost / Fighting
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 90
+Attack: 125
+Defense: 80
+Special: 90
+Speed: 125
 
-Location: 
+Location: In-game trade (Second floor of building on Route 18), Dojo (choose between Shadolos or Auraklos), Victory Road, Nature Preserve
 
 Starting Moves:
+SCREECH, SWORDS_DANCE, JUMP_KICK, SHADOW_CLAW
 
 Learnset
-33, ICE_HAMMER
-38, AERIAL_ACE
-43, AGILITY
-48, SKULL_BASH
-53, HURRICANE
-
+35, MINIMIZE
+40, DOUBLE_EDGE
+45, CRUNCH
+50, SUBMISSION
+53, LIMB_STRIKE
+60, SOUL_SHRED
 
 TM / HM
-
-
+FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    
+DRAGON_CLAW,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   
+PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         
+MEGA_DRAIN,   SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  THUNDER,      
+EARTHQUAKE,   FISSURE,      PSYCHIC,    TELEPORT,     
+MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    
+SELFDESTRUCT, FIRE_BLAST,   SWIFT,        SKULL_BASH,   
+DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, 
+PSYWAVE,      EXPLOSION,    ROCK_SLIDE,   SUBSTITUTE,   
+CUT,          FLY,          STRENGTH,     FLASH
 
 #107 - Auraklos
 
-Electric / Flying
+Psychic / Fighting
 
-HP: 75
+HP: 90
 Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+Defense: 90
+Special: 125
+Speed: 125
 
-Location: 
+Location: In-game trade (Windwalker's Cave), Dojo (choose between Auraklos or Shadolos), Victory Road, Nature Preserve
 
 Starting Moves:
+BRICK_BREAK, PSYBEAM, LIGHT_SCREEN, REFLECT
 
 Learnset
-33, BITE
-38, DRAGONBREATH
-43, CRUNCH
-48, FLAMETHROWER
-53, OUTRAGE
-
+35, SOLARBEAM
+40, RECOVER
+45, AURA_SPHERE
+50, OMINOUS_WIND
+55, PETAL_DANCE
+55, (Spoiler)
 
 TM / HM
-
-
+FALCON_PUNCH, SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BUBBLEBEAM,   ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   
+SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         
+MEGA_DRAIN,   SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  THUNDER,      
+PSYCHIC,    TELEPORT,     MIMIC,        DOUBLE_TEAM,
+REFLECT,      BIDE,         METRONOME,    FIRE_BLAST,   SWIFT,
+DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, 
+PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   
+CUT,          FLY,          STRENGTH,     FLASH
 
 #108 - Agahnoblin
 
-Electric / Flying
+Dark / Fighting
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 90
+Attack: 95
+Defense: 50
+Special: 75
+Speed: 70
 
-Location: In-game trade (House to the east of Mt. Moon), Route 6, Route 16
+Location: In-game trade (House to the east of Mt. Moon), Route 6, Route 17
 
 Starting Moves:
+SHADOW_CLAW, FIRE_PUNCH
 
 Learnset
 7, DIZZY_PUNCH
 15, MACH_PUNCH
 23, AURA_SPHERE
-32, DOUBLE_EDGE
-38, JUMP_KICK
-
+30, DARK_PULSE
+36, DOUBLE_EDGE
+40, JUMP_KICK
 
 TM / HM
-
-
+FALCON_PUNCH, SWORDS_DANCE, DRAGON_CLAW,    
+TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    
+DOUBLE_EDGE,  BUBBLEBEAM,   ICE_BEAM,     BLIZZARD,      
+PAY_DAY,      SUBMISSION,   COUNTER,      SHADOW_CLAW,         
+DRAGONBREATH,  THUNDERBOLT,  THUNDER,      
+EARTHQUAKE,   DIG,          PSYCHIC,    TELEPORT,     
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         
+METRONOME,    FIRE_BLAST,   SWIFT,        SKULL_BASH,   
+DREAM_EATER,  REST,         THUNDER_WAVE, 
+PSYWAVE,      ROCK_SLIDE,   SUBSTITUTE,   
+CUT,          STRENGTH,     FLASH
 
 #109 - Agahnon
 
-Electric / Flying
+Dark / Fighting
 
-HP: 75
-Attack: 80
-Defense: 63
+HP: 110
+Attack: 123
+Defense: 65
 Special: 100
-Speed: 116
+Speed: 65
 
-Location: Evolve Agahnoblin, Level 28
+Location: Evolve Agahnoblin at Level 28
 
 Starting Moves:
+AURA_SPHERE, MACH_PUNCH, SHADOW_CLAW, FIRE_PUNCH
 
 Learnset
 28, THUNDERPUNCH
@@ -3560,174 +3590,223 @@ Learnset
 37, JUMP_KICK
 40, FIRE_SPIN
 45, SKULL_BASH
-66, EXPLOSION
-
+56, LIMB_STRIKE
 
 TM / HM
-
-
+FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    
+DRAGON_CLAW,    TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    
+DOUBLE_EDGE,  BUBBLEBEAM,   ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   
+PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         
+MEGA_DRAIN,   SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  
+THUNDER,      EARTHQUAKE,   FISSURE,      DIG,          PSYCHIC,    TELEPORT,     
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         
+METRONOME,    FIRE_BLAST,   SWIFT,        SKULL_BASH,   
+DREAM_EATER,  REST,         THUNDER_WAVE, 
+PSYWAVE,      ROCK_SLIDE,   SUBSTITUTE,   
+CUT,          FLY,          SURF,         STRENGTH,     FLASH
 
 #110 - Charcold
 
-Electric / Flying
+Rock / Steel
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 50
+Attack: 90
+Defense: 160
+Special: 30
+Speed: 20
 
-Location: 
+Location: Evolve Charkonro (Water Stone), Rock Tunnel
 
 Starting Moves:
+SMOG
 
 Learnset
-23, SHADOW_CLAW
-30, CRUNCH
-37, BRICK_BREAK
-43, JUMP_KICK
-50, DARK_PULSE
-
+7, POISON_GAS
+13, EMBER
+18, EGG_BOMB
+22, ROCK_THROW
+27, SKULL_BASH
+33, SOFTBOILED
+40, EARTHQUAKE
+48, ROCK_SLIDE
 
 TM / HM
-
-
+FLASH_CANNON, TOXIC,        BODY_SLAM, 
+TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   
+COUNTER, SOLARBEAM, EARTHQUAKE,   FISSURE, 
+MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    
+SELFDESTRUCT, EGG_BOMB,     FIRE_BLAST,   SKULL_BASH,
+SOFTBOILED,   REST, EXPLOSION,    ROCK_SLIDE,   
+SUBSTITUTE,   STRENGTH,     FLASH
 
 #111 - Charkonro
 
-Electric / Flying
+Fire / Steel
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 50
+Attack: 50
+Defense: 120
+Special: 120
+Speed: 30
 
-Location: 
+Location: Evolve Charcold (Fire Stone), Victory Road
 
 Starting Moves:
+SMOG, POISON_GAS, EMBER
 
 Learnset
-30, CONFUSE_RAY
-35, WRAP
-40, PSYBEAM
-45, AURA_SPHERE
-50, OMINOUS_WIND
-55, PK_STARSTORM
-
+7, POISON_GAS
+13, EMBER
+18, EGG_BOMB
+22, SELFDESTRUCT
+27, SKULL_BASH
+35, SOFTBOILED
+43, SCALD
+50, FLAMETHROWER
 
 TM / HM
-
-
+FLASH_CANNON, TOXIC,        BODY_SLAM, 
+TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   
+COUNTER,  SOLARBEAM,  EARTHQUAKE,   FISSURE, 
+MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    
+SELFDESTRUCT, EGG_BOMB,     FIRE_BLAST,   SKULL_BASH,   
+SOFTBOILED,   REST,  EXPLOSION,    ROCK_SLIDE,   
+SUBSTITUTE,   STRENGTH,     FLASH 
 
 #112 - Inoyu
 
-Electric / Flying
+Ice / Water
 
 HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+Attack: 65
+Defense: 65
+Special: 80
+Speed: 65
 
-Location: 
+Location: In-game trade (Second floor of building on Route 11), Mt. Moon, Rock Tunnel, Safari Zone, Route 21, Beast Mansion, Seafoam Islands
 
 Starting Moves:
+POWDER_SNOW
 
 Learnset
-30, CONFUSE_RAY
-35, WRAP
-42, SCREECH
-46, OMINOUS_WIND
-51, THUNDER
-51, FIRE_BLAST
-51, BLIZZARD
-64, PK_STARSTORM
-
+15, CONFUSE_RAY
+20, OMINOUS_WIND
+25, BUBBLEBEAM
+26, MIST
+30, SLASH
+38, HURRICANE
+40, ICE_BEAM
+45, MINIMIZE
+50, BLIZZARD
 
 TM / HM
-
-
+HURRICANE,   FLASH_CANNON,    DRAGON_CLAW,    
+TOXIC,\ BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     
+BLIZZARD,COUNTER,      SHADOW_CLAW,         SOLARBEAM,
+DRAGONBREATH,  THUNDERBOLT,  THUNDER,      
+PSYCHIC,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  
+REFLECT,      BIDE,         METRONOME,    SWIFT,       
+DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, 
+PSYWAVE,      SUBSTITUTE,   CUT,          FLASH
 
 #113 - Mistme
 
-Electric / Flying
+Ice / Dragon
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 170
+Attack: 90
+Defense: 75
+Special: 90
+Speed: 65
 
-Location: 
+Location: Evolve Inoyu at Level 34, Seafoam Islands, Cerulean Cave
 
 Starting Moves:
+MIST, POISON_GAS, SMOG, HAZE
 
 Learnset
-24, DRAGONBREATH
 30, SLASH
+34, DRAGONBREATH
 38, MINIMIZE
 44, ICE_BEAM
 48, DRAGON_CLAW
 54, BLIZZARD
 
-
 TM / HM
-
-
+HURRICANE,   FLASH_CANNON,    DRAGON_CLAW,   
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE, 
+BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     
+HYPER_BEAM, COUNTER,      SHADOW_CLAW,         
+SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  
+THUNDER,   DIG,          PSYCHIC,    TELEPORT,     
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         
+METRONOME,    EGG_BOMB,     SWIFT,       DREAM_EATER,
+SKY_ATTACK,   REST,         THUNDER_WAVE, PSYWAVE,
+TRI_ATTACK,   SUBSTITUTE,   CUT,          
+FLY,          SURF,         FLASH
 
 #114 - Shocknroll
 
-Electric / Flying
+Electric / Steel
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 40
+Attack: 40
+Defense: 40
+Special: 75
+Speed: 125
 
-Location: 
+Location: Power Plant
 
 Starting Moves:
+THUNDERSHOCK, SCREECH
 
 Learnset
-19, SCALD
-22, TOXIC
-26, ACID_ARMOR
-29, RECOVER
-35, SLUDGE_BOMB
-39, HYDRO_PUMP
-
+28, THUNDER_WAVE
+30, SELFDESTRUCT
+36, THUNDERBOLT
+40, EXPLOSION
+52, FLASH_CANNON
 
 TM / HM
-
-
+FLASH_CANNON, TOXIC,        BODY_SLAM,
+TAKE_DOWN,    DOUBLE_EDGE,  COUNTER,  
+THUNDERBOLT,  THUNDER,      MIMIC,
+ DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+SELFDESTRUCT, SWIFT,        SKULL_BASH,   
+REST,         THUNDER_WAVE, PSYWAVE,
+EXPLOSION,    SUBSTITUTE,   FLASH
 
 #115 - Shorzirkit
 
-Electric / Flying
+Electric / Steel
 
-HP: 75
-Attack: 80
-Defense: 63
+HP: 50
+Attack: 50
+Defense: 50
 Special: 100
-Speed: 116
+Speed: 150
 
-Location: 
+Location: Evolve Shocknroll at Level 38, Power Plant
 
 Starting Moves:
+THUNDERSHOCK, SCREECH, SELFDESTRUCT
 
 Learnset
-26, FURY_SWIPES
-31, SLASH
-36, AERIAL_ACE
-41, SHADOW_CLAW
-46, DOUBLE_EDGE
-
+28, THUNDER_WAVE
+30, SELFDESTRUCT
+36, THUNDERBOLT
+45, EXPLOSION
+50, REFLECT
+55, FLASH_CANNON
 
 TM / HM
-
-
+FLASH_CANNON, TOXIC,        BODY_SLAM,
+TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   
+COUNTER,  THUNDERBOLT,  THUNDER,
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         
+METRONOME,    SELFDESTRUCT, SWIFT,        
+SKULL_BASH,   REST,         THUNDER_WAVE,  
+PSYWAVE,      EXPLOSION,    SUBSTITUTE,   FLASH
 
 #116 - Duhzlugg
 
