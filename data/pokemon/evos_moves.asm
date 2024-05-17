@@ -1281,8 +1281,8 @@ OmanyteEvosMoves:
 ; Learnset
 	db 34, BODY_SLAM
 	db 39, FIRE_SPIN
-	db 46, FLAMETHROWER
-	db 53, DARK_PULSE
+	db 44, FLAMETHROWER
+	db 49, DARK_PULSE
 	db 0
 
 OmastarEvosMoves:
@@ -1291,8 +1291,8 @@ OmastarEvosMoves:
 ; Learnset
 	db 34, BODY_SLAM
 	db 40, AURA_SPHERE
-	db 44, FLAMETHROWER
-	db 49, DARK_PULSE
+	db 46, FLAMETHROWER
+	db 53, DARK_PULSE
 	db 0
 
 JigglypuffEvosMoves:

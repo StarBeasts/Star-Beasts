@@ -4373,17 +4373,18 @@ SUBSTITUTE,   CUT,          STRENGTH
 
 #133 - Flewnicorn
 
-Electric / Flying
+Normal / Flying
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 90
+Attack: 75
+Defense: 75
+Special: 75
+Speed: 85
 
-Location: 
+Location: In-game trade (Cinnabar Lab, Cinnabar Lab, Cinnabar Lab Soul Room), Cerulean Cape (Only one), Cerulean Cape, Beast Mansion, Nature Preserve
 
 Starting Moves:
+WING_ATTACK, HORN_ATTACK
 
 Learnset
 27, QUICK_ATTACK
@@ -4391,24 +4392,30 @@ Learnset
 37, DOUBLE_EDGE
 45, MEGAHORN
 
-
 TM / HM
-
-
+SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+HYPER_BEAM,   PAY_DAY,      COUNTER, DRAGONBREATH,  
+EARTHQUAKE,   TELEPORT,     MIMIC,        DOUBLE_TEAM,
+REFLECT,      BIDE,         METRONOME,    SWIFT,        
+SKULL_BASH, DREAM_EATER,  REST,         
+THUNDER_WAVE, TRI_ATTACK,   SUBSTITUTE, 
+CUT,          STRENGTH,     FLASH
 
 #134 - Aquamentus
 
-Electric / Flying
+Water / Dragon
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 115
+Attack: 75
+Defense: 100
+Special: 115
+Speed: 85
 
-Location: 
+Location: Evolve Flewnicorn (Water Stone), Seafoam Islands
 
 Starting Moves:
+BODY_SLAM, BUBBLEBEAM, QUICK_ATTACK
 
 Learnset
 27, QUICK_ATTACK
@@ -4420,24 +4427,32 @@ Learnset
 48, MIST
 54, HYDRO_PUMP
 
-
 TM / HM
-
-
+HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     
+HYPER_BEAM,   PAY_DAY,      COUNTER,  MEGA_DRAIN,   
+DRAGONBREATH,   EARTHQUAKE,   PSYCHIC,    TELEPORT,     
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         
+METRONOME,    SWIFT,        SKULL_BASH,   
+DREAM_EATER,  REST,         THUNDER_WAVE, 
+PSYWAVE,      TRI_ATTACK,   SUBSTITUTE,   
+CUT,          SURF,         STRENGTH,     FLASH
 
 #135 - Thundrhawk
 
 Electric / Flying
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 90
+Attack: 85
+Defense: 75
+Special: 115
+Speed: 100
 
-Location: 
+Location: Evolve Flewnicorn (Thunder Stone), Power Plant
 
 Starting Moves:
+BODY_SLAM, WING_ATTACK, THUNDERBOLT
 
 Learnset
 27, QUICK_ATTACK
@@ -4449,24 +4464,33 @@ Learnset
 48, JUMP_KICK
 54, THUNDER
 
-
 TM / HM
-
-
+HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    
+DRAGON_CLAW,    TOXIC,        BODY_SLAM,    
+TAKE_DOWN,    DOUBLE_EDGE,  BLIZZARD,     
+HYPER_BEAM,   SUBMISSION,   COUNTER,      
+SEISMIC_TOSS, SOLARBEAM,    DRAGONBREATH,  
+THUNDERBOLT,  THUNDER,      EARTHQUAKE,   TELEPORT,     
+MIMIC,DOUBLE_TEAM,  REFLECT,      BIDE,         
+METRONOME,    SWIFT,        SKULL_BASH,   
+DREAM_EATER,SKY_ATTACK,   REST,         
+THUNDER_WAVE, PSYWAVE,      TRI_ATTACK,   
+SUBSTITUTE,   CUT,          FLY,          STRENGTH,     FLASH
 
 #136 - Norehorse
 
-Electric / Flying
+Fire / Dark
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 115
+Attack: 115
+Defense: 85
+Special: 80
+Speed: 100
 
-Location: 
+Location: Evolve Flewnicorn (Fire Stone), Victory Road
 
 Starting Moves:
+BODY_SLAM, CRUNCH, FLAMETHROWER
 
 Learnset
 27, QUICK_ATTACK
@@ -4478,10 +4502,18 @@ Learnset
 48, MEGAHORN
 54, FIRE_BLAST
 
-
 TM / HM
-
-
+HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    
+DRAGON_CLAW,    TOXIC,        HORN_DRILL,   BODY_SLAM,    
+TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,
+COUNTER,      SEISMIC_TOSS, SHADOW_CLAW, MEGA_DRAIN,
+SOLARBEAM,    DRAGONBREATH, EARTHQUAKE,   FISSURE,
+DIG,          PSYCHIC,    TELEPORT,     MIMIC,
+DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+FIRE_BLAST,   SWIFT,        SKULL_BASH,   
+DREAM_EATER,  REST,         THUNDER_WAVE, 
+PSYWAVE,      ROCK_SLIDE,   TRI_ATTACK,   
+SUBSTITUTE,  CUT,          STRENGTH,     FLASH
 
 #137 - TMAI MK I
 
@@ -4511,66 +4543,87 @@ This Beast learns all of the TMs and HMs.
 
 #138 - Draemon
 
-Electric / Flying
+Dark / Flying
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 66
+Attack: 66
+Defense: 66
+Special: 66
+Speed: 66
 
-Location: 
+Location: Revive Fiend Soul at Cinnabar Lab Soul Room (Only one), Safari Zone, Nature Preserve
 
 Starting Moves:
+BITE, WING_ATTACK, EMBER, POISON_FANG
 
 Learnset
 34, BODY_SLAM
 39, FIRE_SPIN
-46, FLAMETHROWER
-53, DARK_PULSE
-
+44, FLAMETHROWER
+49, DARK_PULSE
 
 TM / HM
-
-
+HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   COUNTER,      
+SHADOW_CLAW,         MEGA_DRAIN,   DRAGONBREATH,  
+THUNDERBOLT,  THUNDER,     EARTHQUAKE,   FISSURE,      
+PSYCHIC,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  
+REFLECT,      BIDE,         METRONOME,    SELFDESTRUCT, 
+FIRE_BLAST,   SWIFT,        SKULL_BASH,   DREAM_EATER,
+SKY_ATTACK,   REST,         THUNDER_WAVE, PSYWAVE,
+EXPLOSION,    ROCK_SLIDE,   TRI_ATTACK,   
+SUBSTITUTE,  FLY,          STRENGTH,     FLASH
 
 #139 - Haedaemon
-Electric / Flying
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+Dark / Flying
 
-Location: 
+HP: 93
+Attack: 93
+Defense: 66
+Special: 132
+Speed: 93
+
+Location: Evolve Dreamon at Level 40
 
 Starting Moves:
+BODY_SLAM, POISON_FANG, WING_ATTACK, FLAMETHROWER
 
 Learnset
 34, BODY_SLAM
 40, AURA_SPHERE
-44, FLAMETHROWER
-49, DARK_PULSE
-
+46, FLAMETHROWER
+53, DARK_PULSE
 
 TM / HM
-
-
+FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    
+DRAGON_CLAW,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    
+DOUBLE_EDGE,  ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   
+SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         
+MEGA_DRAIN,   SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  
+THUNDER, EARTHQUAKE,   FISSURE,      DIG,          
+PSYCHIC,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  
+REFLECT,      BIDE,         METRONOME,    SELFDESTRUCT,
+ FIRE_BLAST,   SWIFT,        SKULL_BASH,   DREAM_EATER,
+  SKY_ATTACK,   REST,         THUNDER_WAVE, PSYWAVE,
+EXPLOSION,    ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   
+CUT,          FLY,          STRENGTH,     FLASH
 
 #140 - Gerbird
 
-Electric / Flying
+Flying
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 77
+Attack: 77
+Defense: 77
+Special: 77
+Speed: 77
 
-Location: 
+Location: Revive Angel Soul at Cinnabar Lab Soul Room (Only one), Safari Zone, Nature Preserve
 
 Starting Moves:
+WING_ATTACK, ROLLING_KICK, OMINOUS_WIND, GLARE
 
 Learnset
 34, DRILL_PECK
@@ -4578,24 +4631,30 @@ Learnset
 44, DRILL_RUN
 49, SUBMISSION
 
-
 TM / HM
-
-
+FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, 
+SHADOW_CLAW, DRAGONBREATH,     EARTHQUAKE,   FISSURE,      
+DIG,           MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME, 
+EGG_BOMB,     SWIFT,        SKULL_BASH,   SOFTBOILED,   
+SKY_ATTACK,   REST, TRI_ATTACK,   SUBSTITUTE, 
+CUT,          FLY,          STRENGTH,     FLASH
 
 #141 - Knytflight
 
-Electric / Flying
+Flying / Fighting
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 77
+Attack: 140
+Defense: 77
+Special: 77
+Speed: 105
 
-Location: 
+Location: Evolve Gerbird at Level 40
 
 Starting Moves:
+FALCON_PUNCH, JUMP_KICK, METAL_CLAW, GLARE
 
 Learnset
 34, DRILL_PECK
@@ -4603,50 +4662,64 @@ Learnset
 46, DRILL_RUN
 53, SUBMISSION
 
-
 TM / HM
-
-
+FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,
+SEISMIC_TOSS, SHADOW_CLAW,  DRAGONBREATH,  EARTHQUAKE,   
+FISSURE,      DIG,   	     MIMIC,        DOUBLE_TEAM,  BIDE, METRONOME,
+EGG_BOMB,     FIRE_BLAST,   SWIFT,        SKULL_BASH,   
+SOFTBOILED,   SKY_ATTACK,   REST,         THUNDER_WAVE, 
+ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   
+CUT,          FLY,          STRENGTH,     FLASH
 
 #142 - Drudeer
 
-Electric / Flying
+Grass / Normal
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 85
+Attack: 95
+Defense: 75
+Special: 95
+Speed: 125
 
-Location: 
+Location: Revive Odd Skull at Cinnabar Lab Soul Room (Only one), Cerulean Cave, Nature Preserve
 
 Starting Moves:
+BODY_SLAM, SOLARBEAM
 
 Learnset
-33, FIRE_PUNCH
-38, FIRE_SPIN
-45, EARTHQUAKE
-54, SCALD
-60, FIRE_BLAST
-
+33, MEGA_DRAIN
+38, RECOVER
+45, TAKE_DOWN
+54, HYPER_BEAM
+60, GAEA'S_WRATH
 
 TM / HM
-
-
+HURRICANE,   SWORDS_DANCE, TOXIC,        HORN_DRILL,
+BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,
+WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   COUNTER,      
+MEGA_DRAIN,   SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  
+THUNDER,      EARTHQUAKE,   FISSURE,      DIG,          PSYCHIC,    TELEPORT,     
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME, 
+SWIFT,        SKULL_BASH,   SOFTBOILED,   DREAM_EATER,  REST,
+THUNDER_WAVE, PSYWAVE,      ROCK_SLIDE,   TRI_ATTACK,   
+SUBSTITUTE,   SURF,         STRENGTH,     FLASH
 
 #143 - Slobbix
 
-Electric / Flying
+Dark / Poison
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 223
+Attack: 101
+Defense: 53
+Special: 97
+Speed: 43
 
-Location: 
+Location: Route 12 (Only one), Route 16 (Only one), Cerulean Cave
 
 Starting Moves:
+POISON_FANG, REST, BITE, BODY_SLAM
 
 Learnset
 35, CRUNCH
@@ -4655,96 +4728,131 @@ Learnset
 56, DARK_PULSE
 64, EXPLOSION
 
-
 TM / HM
-
-
+SWORDS_DANCE, DRAGON_CLAW,    TOXIC,
+BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BUBBLEBEAM,   WATER_GUN,    HYPER_BEAM,   
+COUNTER, MEGA_DRAIN,   DRAGONBREATH,
+THUNDERBOLT,  THUNDER,      EARTHQUAKE,   FISSURE,       
+MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    
+SELFDESTRUCT, FIRE_BLAST,   SWIFT,        
+SKULL_BASH,    REST,         THUNDER_WAVE, 
+EXPLOSION,    ROCK_SLIDE,   SUBSTITUTE,   
+SURF,         STRENGTH
 
 #144 - Sivak
 
-Electric / Flying
+Ghost / Flying
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 45
+Attack: 100
+Defense: 135
+Special: 135
+Speed: 65
 
-Location: 
+Location: Bottom floor of Seafoam Islands (Only one)
 
 Starting Moves:
+OMINOUS_WIND, HURRICANE, SMOKESCREEN, GLARE
 
 Learnset
 51, LOVELY_KISS
 55, DARK_PULSE
 60, RECOVER
 
-
 TM / HM
-
-
+HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+ BUBBLEBEAM,   ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   
+COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,   
+MEGA_DRAIN,DRAGONBREATH,  THUNDERBOLT,  THUNDER,      
+EARTHQUAKE,   FISSURE,      PSYCHIC,    TELEPORT,     
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+SELFDESTRUCT, FIRE_BLAST,   SWIFT,        SKULL_BASH,   
+DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, 
+PSYWAVE,      EXPLOSION,    ROCK_SLIDE,   TRI_ATTACK,   
+SUBSTITUTE,   CUT,          FLY,          SURF,         STRENGTH,     FLASH
 
 #145 - Aeon
 
-Electric / Flying
+Dragon / Fighting
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 100
+Attack: 150
+Defense: 90
+Special: 90
+Speed: 140
 
-Location: 
+Location: Power Plant (Only one)
 
 Starting Moves:
+FLAMETHROWER, WING_ATTACK, SKULL_BASH, EARTHQUAKE
 
 Learnset
 51, OUTRAGE
-55, FIRE_BLAST
+55, SUBMISSION
 60, SKY_ATTACK
 
-
 TM / HM
-
-
+HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE, BUBBLEBEAM,
+WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   SUBMISSION,
+COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         MEGA_DRAIN,
+SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  
+THUNDER,       EARTHQUAKE,   FISSURE,      DIG, 
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         
+METRONOME,    EGG_BOMB,     FIRE_BLAST,   SWIFT,        
+SKULL_BASH,   SKY_ATTACK,   REST,         THUNDER_WAVE, 
+ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   
+ CUT,          FLY,          SURF,         STRENGTH,     FLASH
 
 #146 - Alvaris
 
-Electric / Flying
+Dragon / Flying
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 100
+Attack: 90
+Defense: 90
+Special: 150
+Speed: 100
 
-Location: 
+Location: Victory Road (Only one)
 
 Starting Moves:
+DRAGONBREATH, FIRE_SPIN, WING_ATTACK
 
 Learnset
-51, MEGAHORN
-55, AURA_SPHERE
+51, DOUBLE_EDGE
+55, OUTRAGE
 60, SKY_ATTACK
 
-
 TM / HM
-
-
+HURRICANE,   SWORDS_DANCE, DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BUBBLEBEAM,   ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   
+COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         MEGA_DRAIN,
+SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  THUNDER,  
+EARTHQUAKE,   FISSURE,      DIG,          PSYCHIC,    TELEPORT,     
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+EGG_BOMB,     FIRE_BLAST,   SWIFT,        SKULL_BASH,   
+SOFTBOILED,   SKY_ATTACK,   REST,         THUNDER_WAVE, 
+PSYWAVE,      ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   
+CUT,          FLY,          SURF,         STRENGTH,     FLASH
 
 #147 - Xiaolong
 
-Electric / Flying
+Dragon / Flying
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 65
+Attack: 95
+Defense: 60
+Special: 60
+Speed: 50
 
-Location: 
+Location: Celadon Game Corner (Prize), Fishing - Super Rod (Fuchsia City)
 
 Starting Moves:
+WING_ATTACK, BITE
 
 Learnset
 10, THUNDER_WAVE
@@ -4753,24 +4861,32 @@ Learnset
 40, DRAGON_CLAW
 50, OUTRAGE
 
-
 TM / HM
-
-
+HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,  
+COUNTER,      SHADOW_CLAW,  SOLARBEAM,    DRAGONBREATH,
+THUNDERBOLT,  THUNDER,      DIG,          TELEPORT,     
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+EGG_BOMB,     FIRE_BLAST,   SWIFT,        SKULL_BASH,   
+SOFTBOILED,   DREAM_EATER,  SKY_ATTACK,   REST,         
+THUNDER_WAVE, PSYWAVE,      ROCK_SLIDE,   TRI_ATTACK,   
+SUBSTITUTE,   CUT,          SURF,         STRENGTH,     FLASH
 
 #148 - Feilong
 
-Electric / Flying
+Dragon / Flying
 
-HP: 75
-Attack: 80
-Defense: 63
+HP: 95
+Attack: 110
+Defense: 80
 Special: 100
-Speed: 116
+Speed: 135
 
-Location: 
+Location: Evolve Xiaolong at Level 30, Route 21, Fishing - Super Rod (Fuchsia City)
 
 Starting Moves:
+BITE, WING_ATTACK, THUNDER_WAVE, DRAGONBREATH
 
 Learnset
 10, THUNDER_WAVE
@@ -4780,24 +4896,33 @@ Learnset
 45, DRAGON_CLAW
 55, OUTRAGE
 
-
 TM / HM
-
-
+HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    
+TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   
+COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         SOLARBEAM,
+DRAGONBREATH,  THUNDERBOLT,  THUNDER,      EARTHQUAKE,
+FISSURE,      DIG,          PSYCHIC,    TELEPORT,     MIMIC,
+DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+EGG_BOMB,     FIRE_BLAST,   SWIFT,        SKULL_BASH,   
+SOFTBOILED,   DREAM_EATER,  SKY_ATTACK,   REST,         
+THUNDER_WAVE, PSYWAVE,      ROCK_SLIDE,   TRI_ATTACK,   
+SUBSTITUTE,   CUT,          FLY,          SURF,         STRENGTH,     FLASH
 
 #149 - Huanlong
 
-Electric / Flying
+Dragon / Ghost
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 95
+Attack: 90
+Defense: 65
+Special: 145
+Speed: 135
 
-Location: 
+Location: Evolve Feilong (Dark Soul), Cerulean Cave, Fishing - Super Rod (Nature Preserve)
 
 Starting Moves:
+DRAGON_CLAW, DRAGONBREATH, THUNDER_WAVE, AGILITY
 
 Learnset
 10, THUNDER_WAVE
@@ -4806,46 +4931,53 @@ Learnset
 45, SHADOW_CLAW
 55, FIRE_BLAST
 
-
 TM / HM
-
-
+HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   
+COUNTER,      SHADOW_CLAW,         SOLARBEAM,    DRAGONBREATH,
+THUNDERBOLT,  THUNDER,      EARTHQUAKE,   FISSURE,
+DIG,          PSYCHIC,    TELEPORT,     MIMIC,
+DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+EGG_BOMB,     FIRE_BLAST,   SWIFT,        SKULL_BASH,   
+SOFTBOILED,   DREAM_EATER,  SKY_ATTACK,   REST, 
+THUNDER_WAVE, PSYWAVE,      ROCK_SLIDE,   TRI_ATTACK,   
+SUBSTITUTE,   CUT,          FLY,          FLASH
 
 #150 - ???
 
 ???
 
-HP: ???
-Attack: ???
-Defense: ???
-Special: ???
-Speed: ???
+HP: 106
+Attack: 180
+Defense: 101
+Special: 180
+Speed: 115
 
-Location: ???
+Location: Bottom floor of Cerulean Cave (Only one)
 
 Starting Moves: ???
 
 Learnset
 ???
 
-
 TM / HM
 ???
 
-
 #151 - Bladeberus
 
-Electric / Flying
+Ice / Steel
 
-HP: 75
-Attack: 80
-Defense: 63
-Special: 100
-Speed: 116
+HP: 80
+Attack: 85
+Defense: 65
+Special: 75
+Speed: 65
 
-Location: 
+Location: Purchase (Mt. Moon Star Beast Center, only one)
 
 Starting Moves:
+SCRATCH, BITE, GROWL, LICK
 
 Learnset
 10, METAL_CLAW
@@ -4853,8 +4985,14 @@ Learnset
 30, SKULL_BASH
 40, PK_STARSTORM
 
-
 TM / HM
-
-
-
+SWORDS_DANCE, FLASH_CANNON,    DRAGON_CLAW,    
+TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     
+HYPER_BEAM,   PAY_DAY,      COUNTER,      SHADOW_CLAW,         
+SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  
+THUNDER,      DIG,          PSYCHIC,    TELEPORT,     MIMIC,
+DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+SWIFT,        SKULL_BASH,   DREAM_EATER,  REST,         
+THUNDER_WAVE, PSYWAVE,      SUBSTITUTE,   
+CUT,          SURF,         STRENGTH,     FLASH

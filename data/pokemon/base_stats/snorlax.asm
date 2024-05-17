@@ -24,7 +24,7 @@
 	     SELFDESTRUCT, FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
 	     REST,         THUNDER_WAVE, \
 	     EXPLOSION,    ROCK_SLIDE,   SUBSTITUTE,   \
-	     CUT,          SURF,         STRENGTH
+	     SURF,         STRENGTH
 	; end
 
 	db BANK(SnorlaxPicFront)
