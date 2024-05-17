@@ -148,5 +148,5 @@ _SilphCo11AfterBattleText2::
 
 _SilphCo10Text_6237b::
 	text "The monitor has"
-	line "#BEASTS on it!"
+	line "a BEAST on it!"
 	done
