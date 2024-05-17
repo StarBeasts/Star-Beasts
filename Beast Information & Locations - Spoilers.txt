@@ -4017,7 +4017,7 @@ Defense: 40
 Special: 110
 Speed: 140
 
-Location: Celadon City (Only one), Victory Road
+Location: In-game trade (Building between Pewter and Viridian, requires Cut), Celadon City (Only one), Victory Road
 
 Starting Moves:
 THUNDER_WAVE, CONFUSE_RAY, SHADOW_CLAW
