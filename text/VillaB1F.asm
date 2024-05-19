@@ -55,27 +55,134 @@ _VillaB1FText3::
 	done
 
 _VillaB1FText4::
-	text "book 1."
+	text "Arranged here on"
+	line "this table are"
+	cont "notes of some"
+	cont "sort."
+
+	para "You decide to"
+	line "begin reading..."
+
+	para "..."
+
+	para "DAMIAN 'LUCIAN'"
+	line "LUIS."
+
+	para "I don't know"
+	line "much about his"
+	cont "upbringing,"
+	cont "but he graduated"
+	cont "from the RANGER"
+	cont "ACADEMY with"
+	cont "top marks."
+
+	para "So why turn"
+	line "to crime?"
 	done
 
 _VillaB1FText5::
-	text "book 2."
+	text "There are many"
+	line "conflicting"
+	cont "sources of"
+	cont "information on"
+	cont "the topic, but..."
+
+	para "For whatever"
+	line "reason, LUCIAN"
+	cont "distanced himself"
+	cont "from the RANGERs"
+	cont "and the ACADEMY."
 	done
 
 _VillaB1FText6::
-	text "book 3."
+	text "After more"
+	line "research, I"
+	cont "learned of"
+	cont "a wife."
+
+	para "At some point,"
+	line "he met a woman"
+	cont "he fancied and"
+	cont "married her."
+
+	para "..."
+
+	para "Perhaps he left,"
+	line "or was let go"
+	cont "due to familial"
+	cont "obligations?"
+
+	para "The RANGERs were"
+	line "known to be"
+	cont "fairly strict"
+	cont "about such"
+	cont "things during"
+	cont "that time period."
 	done
 
 _VillaB1FText7::
-	text "book 4."
+	text "I've made a"
+	line "breakthrough."
+
+	para "His wife died"
+	line "in childbirth."
+
+	para "His daughter was"
+	line "very sickly."
+
+	para "Her medical bills"
+	line "were most likely"
+	cont "astronomical..."
 	done
 
 _VillaB1FText8::
-	text "book 5."
+	text "At some point,"
+	line "LUCIAN's daughter"
+	cont "passed away,"
+	cont "despite him"
+	cont "doing everything"
+     cont "in his power to"
+	cont "try and save her."
+
+	para "What I don't know"
+	line "is if he turned"
+	cont "to crime before"
+	cont "or after this"
+	cont "substantial loss"
+	cont "befell him."
+
+	para "Perhaps it merely"
+	line "pushed him over"
+	cont "the edge..."
 	done
 
 _VillaB1FText9::
-	text "book 6."
+	text "Either way, he's a"
+	line "highly dangerous"
+	cont "criminal who must"
+	cont "be stopped, but"
+	cont "what is he hoping"
+	cont "to accomplish?"
+
+	para "He seems hellbent"
+	line "on bringing her"
+	cont "back, but is such"
+	cont "a thing even"
+	cont "possible?"
+
+	para "The only people"
+	line "who would know"
+	cont "anything about"
+	cont "that are all"
+	cont "located in-"
+
+	para "..."
+
+	para "The notes end"
+	line "abruptly. Several"
+	cont "pages seem to"
+	cont "have been"
+	cont "torn away..."
 	done
 
 _VillaB1FText10::
