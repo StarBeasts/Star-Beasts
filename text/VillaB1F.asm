@@ -157,24 +157,66 @@ _VillaB1FText8::
 	done
 
 _VillaB1FText9::
-	text "Either way, he's a"
-	line "highly dangerous"
-	cont "criminal who must"
-	cont "be stopped, but"
-	cont "what is he hoping"
-	cont "to accomplish?"
+	text "Somehow, he got"
+	line "ahold of the"
+	cont "legendary being"
+	cont "TASAN, and tried"
+	cont "to use its fabled"
+	cont "powers to bring"
+	cont "her back, but..."
 
-	para "He seems hellbent"
-	line "on bringing her"
-	cont "back, but is such"
-	cont "a thing even"
-	cont "possible?"
+	para "There are some"
+	line "areas in which"
+	cont "even gods should"
+	cont "not meddle."
 
-	para "The only people"
-	line "who would know"
-	cont "anything about"
-	cont "that are all"
-	cont "located in-"
+	para "The process didn't"
+	line "work. She was"
+	cont "restored to life,"
+	cont "but she was..."
+
+	para "Changed. Twisted"
+	line "into some sort of"
+	cont "horrible monster."
+
+	para "A pitiful thing,"
+	line "begging for her"
+	cont "father, begging"
+	cont "for the pain to"
+	cont "stop."
+
+	para "In the end,"
+	line "the confused"
+	cont "creature that"
+	cont "used to be his"
+	cont "daughter fled"
+	cont "from him."
+
+	para "I don't know what"
+	line "became of her."
+	
+	para "..."
+
+	para "LUCIAN released"
+	line "TASAN somewhere."
+
+	para "Evidence suggests"
+	line "that he's still"
+	cont "trying to bring"
+	cont "her back."
+
+	para "I am uncertain"
+	line "as to LUCIAN's"
+	cont "current location."
+
+	para "As for TASAN..."
+
+	para "At the time of"
+	line "this writing,"
+	cont "the most likely"
+	cont "place TASAN is"
+	cont "located is in"
+	cont "C-"
 
 	para "..."
 
