@@ -12,6 +12,6 @@ SecretGarden_Object:
 	def_object_events
 	object_event 10, 17, SPRITE_GUARD, STAY, DOWN, 1; obstacle
 	object_event  0,  6, SPRITE_MONSTER, STAY, DOWN, 2, EEVEE, 15 | OW_POKEMON
-	object_event 14,  10, SPRITE_GRANNY, STAY, LEFT, 3, ; person
+	object_event 13,  8, SPRITE_GRANNY, STAY, LEFT, 3, ; person
 
 	def_warps_to VULT_MAZE

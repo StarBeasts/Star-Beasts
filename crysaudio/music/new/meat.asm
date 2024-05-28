@@ -16,7 +16,7 @@ Music_Meat_Ch1:
 	volume 7, 7
 	duty_cycle 1
 	note_type 12, 10, 7
-	tempo 150
+	tempo 140
 ;Bar 1
 	octave 4
 	volume_envelope 11, 7
