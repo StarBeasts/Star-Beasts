@@ -21,3 +21,8 @@ _ViridianPokeCenterText4::
 	cont "the BEAST MART,"
 	cont "next door!"
 	done
+
+_ViridianPokeCenterText6::
+	text "CHEPPI: Chepperii!@"
+	text_end
+

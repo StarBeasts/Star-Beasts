@@ -12,5 +12,6 @@ CinnabarPokecenter_Object:
 	object_event  9,  4, SPRITE_COOLTRAINER_F, WALK, ANY_DIR, 2 ; person
 	object_event  2,  6, SPRITE_GENTLEMAN, STAY, NONE, 3 ; person
 	object_event 11,  2, SPRITE_LINK_RECEPTIONIST, STAY, DOWN, 4 ; person
+	object_event 4,  1, SPRITE_CHEPPER, STAY, DOWN, 5 ; person
 
 	def_warps_to CINNABAR_POKECENTER

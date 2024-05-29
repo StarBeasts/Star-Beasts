@@ -94,4 +94,6 @@ SpriteSheetPointerTable:
 	overworld_sprite GhostSprite, 4     ; SPRITE_OWAI
 	overworld_sprite GamblerDeadSprite, 4     ; SPRITE_GAMBLER_DEAD
 	overworld_sprite InsectSprite, 4     ; SPRITE_INSECT
+	overworld_sprite SoulSprite, 4     ; SPRITE_SOUL
+	overworld_sprite ChepperSprite, 4     ; SPRITE_CHEPPER
 	assert_table_length NUM_SPRITES
