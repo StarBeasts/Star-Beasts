@@ -8,7 +8,7 @@ ViridianPokecenter_TextPointers:
 	dw ViridianPokeCenterText3
 	dw ViridianPokeCenterText4
 	dw ViridianTradeNurseText
-	dw ViridianPokeCenterText6
+	dw ViridianPokeCenterText5
 
 ViridianHealNurseText:
 	script_pokecenter_nurse
@@ -28,8 +28,8 @@ ViridianPokeCenterText4:
 ViridianTradeNurseText:
 	script_cable_club_receptionist
 
-ViridianPokeCenterText6:
-	text_far _ViridianPokeCenterText6
+ViridianPokeCenterText5:
+	text_far _ViridianPokeCenterText5
 	text_asm
 	ld a, JYNX
 	call PlayCry

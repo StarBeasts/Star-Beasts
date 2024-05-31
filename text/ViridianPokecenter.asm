@@ -22,7 +22,7 @@ _ViridianPokeCenterText4::
 	cont "next door!"
 	done
 
-_ViridianPokeCenterText6::
+_ViridianPokeCenterText5::
 	text "CHEPPI: Chepperii!@"
 	text_end
 
