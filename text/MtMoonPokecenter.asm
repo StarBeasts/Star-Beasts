@@ -62,3 +62,8 @@ _MagikarpSalesmanText2::
 _MtMoonPokecenterText5::
 	text_start
 	done
+
+_MtMoonPokecenterText6::
+	text "CHEPPI: Chepperii!@"
+	text_end
+

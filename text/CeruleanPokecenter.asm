@@ -12,7 +12,8 @@ _CeruleanPokecenterText3::
 	line "about BILL?"
 
 	para "Everyone calls"
-	line "him a COLLECTOR!"
+	line "him an obsessed"
+	cont "COLLECTOR!"
 
 	para "I think people"
 	line "are just jealous"
@@ -22,3 +23,8 @@ _CeruleanPokecenterText3::
 	line "to boast about"
 	cont "their BEASTS?"
 	done
+
+_CeruleanPokeCenterText4::
+	text "CHEPPI: Chepperii!@"
+	text_end
+

@@ -16,3 +16,8 @@ _LavenderPokecenterText3::
 	cont "is searching"
 	cont "for it?"
 	done
+
+_LavenderPokeCenterText4::
+	text "CHEPPI: Chepperii!@"
+	text_end
+

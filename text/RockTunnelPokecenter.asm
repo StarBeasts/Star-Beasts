@@ -11,3 +11,8 @@ _RockTunnelPokecenterText3::
 	text "I sold a useless"
 	line "NUGGET for ¥5000!"
 	done
+
+_RockTunnelPokeCenterText4::
+	text "CHEPPI: Chepperii!@"
+	text_end
+

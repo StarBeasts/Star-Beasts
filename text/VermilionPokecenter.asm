@@ -27,3 +27,8 @@ _VermilionPokecenterText3::
 	para "Neat, eh?"
 	
 	done
+
+_VermilionPokeCenterText4::
+	text "CHEPPI: Chepperii!@"
+	text_end
+

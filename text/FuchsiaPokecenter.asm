@@ -22,3 +22,8 @@ _FuchsiaPokecenterText3::
 	cont "center of the"
 	cont "SAFARI ZONE!"
 	done
+
+_FuchsiaPokeCenterText4::
+	text "CHEPPI: Chepperii!@"
+	text_end
+

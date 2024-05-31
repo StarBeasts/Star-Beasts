@@ -15,3 +15,7 @@ _CeladonPokecenterText3::
 	cont "characters there,"
 	cont "nowadays!"
 	done
+
+_CeladonPokeCenterText4::
+	text "CHEPPI: Chepperii!@"
+	text_end

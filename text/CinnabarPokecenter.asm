@@ -26,3 +26,7 @@ _CinnabarPokecenterText3::
 	line "hard to find,"
 	cont "otherwise..."
 	done
+
+_CinnabarPokeCenterText4::
+	text "CHEPPI: Chepperii!@"
+	text_end

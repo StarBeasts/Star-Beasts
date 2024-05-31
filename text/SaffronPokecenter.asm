@@ -10,3 +10,8 @@ _SaffronPokecenterText3::
 	cont "why it attracted"
 	cont "TEAM ROCKET!"
 	done
+
+_SaffronPokeCenterText4::
+	text "CHEPPI: Chepperii!@"
+	text_end
+
