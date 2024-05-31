@@ -13,7 +13,7 @@ FightingDojo_Object:
 	object_event  3,  6, SPRITE_HIKER, STAY, RIGHT, 3, OPP_BLACKBELT, 3
 	object_event  5,  5, SPRITE_HIKER, STAY, LEFT, 4, OPP_BLACKBELT, 4
 	object_event  5,  7, SPRITE_HIKER, STAY, LEFT, 5, OPP_BLACKBELT, 5
-	object_event  4,  1, SPRITE_POKE_BALL, STAY, NONE, 6 ; person
-	object_event  5,  1, SPRITE_POKE_BALL, STAY, NONE, 7 ; person
+	object_event  4,  1, SPRITE_YINYANG, STAY, NONE, 6 ; person
+	object_event  5,  1, SPRITE_YINYANG, STAY, NONE, 7 ; person
 
 	def_warps_to FIGHTING_DOJO

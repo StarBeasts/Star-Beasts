@@ -7,6 +7,7 @@ RockTunnelPokecenter_TextPointers:
 	dw RockTunnelPokecenterText2
 	dw RockTunnelPokecenterText3
 	dw RockTunnelTradeNurseText
+	dw RockTunnelPokecenterText4
 
 RockTunnelHealNurseText:
 	script_pokecenter_nurse
@@ -21,3 +22,12 @@ RockTunnelPokecenterText3:
 
 RockTunnelTradeNurseText:
 	script_cable_club_receptionist
+
+RockTunnelPokecenterText4:
+	text_far _RockTunnelPokecenterText4
+	text_asm
+	ld a, JYNX
+	call PlayCry
+	call WaitForSoundToFinish
+	jp TextScriptEnd
+

@@ -11,7 +11,7 @@ _SaffronPokecenterText3::
 	cont "TEAM ROCKET!"
 	done
 
-_SaffronPokeCenterText4::
+_SaffronPokecenterText4::
 	text "CHEPPI: Chepperii!@"
 	text_end
 

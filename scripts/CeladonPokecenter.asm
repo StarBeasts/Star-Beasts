@@ -7,6 +7,7 @@ CeladonPokecenter_TextPointers:
 	dw CeladonPokecenterText2
 	dw CeladonPokecenterText3
 	dw CeladonTradeNurseText
+	dw CeladonPokecenterText4
 
 CeladonTradeNurseText:
 	script_cable_club_receptionist
@@ -21,3 +22,12 @@ CeladonPokecenterText2:
 CeladonPokecenterText3:
 	text_far _CeladonPokecenterText3
 	text_end
+
+CeladonPokecenterText4:
+	text_far _CeladonPokecenterText4
+	text_asm
+	ld a, JYNX
+	call PlayCry
+	call WaitForSoundToFinish
+	jp TextScriptEnd
+

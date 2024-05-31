@@ -28,3 +28,7 @@ _IndigoPlateauLobbyText3::
 	cont "next trainer!"
 	cont "Good luck!"
 	done
+
+_IndigoPlateauLobbyText4::
+	text "AURAKLOS: Yanayii!"
+	done

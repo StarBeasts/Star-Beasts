@@ -16,6 +16,6 @@ _CeladonPokecenterText3::
 	cont "nowadays!"
 	done
 
-_CeladonPokeCenterText4::
+_CeladonPokecenterText4::
 	text "CHEPPI: Chepperii!@"
 	text_end

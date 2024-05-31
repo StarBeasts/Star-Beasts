@@ -7,6 +7,7 @@ CinnabarPokecenter_TextPointers:
 	dw CinnabarPokecenterText2
 	dw CinnabarPokecenterText3
 	dw CinnabarTradeNurseText
+	dw CinnabarPokecenterText4
 
 CinnabarHealNurseText:
 	script_pokecenter_nurse
@@ -21,3 +22,11 @@ CinnabarPokecenterText3:
 
 CinnabarTradeNurseText:
 	script_cable_club_receptionist
+
+CinnabarPokecenterText4:
+	text_far _CinnabarPokecenterText4
+	text_asm
+	ld a, JYNX
+	call PlayCry
+	call WaitForSoundToFinish
+	jp TextScriptEnd

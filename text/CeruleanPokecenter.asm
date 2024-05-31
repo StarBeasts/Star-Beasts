@@ -24,7 +24,7 @@ _CeruleanPokecenterText3::
 	cont "their BEASTS?"
 	done
 
-_CeruleanPokeCenterText4::
+_CeruleanPokecenterText4::
 	text "CHEPPI: Chepperii!@"
 	text_end
 

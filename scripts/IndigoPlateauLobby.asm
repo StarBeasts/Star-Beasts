@@ -20,6 +20,7 @@ IndigoPlateauLobby_TextPointers:
 	dw IndigoPlateauLobbyText3
 	dw IndigoCashierText
 	dw IndigoTradeNurseText
+	dw IndigoPlateauLobbyText4
 
 IndigoHealNurseText:
 	script_pokecenter_nurse
@@ -34,3 +35,11 @@ IndigoPlateauLobbyText3:
 
 IndigoTradeNurseText:
 	script_cable_club_receptionist
+
+IndigoPlateauLobbyText4:
+	text_far _IndigoPlateauLobbyText4
+	text_asm
+	ld a, HITMONCHAN
+	call PlayCry
+	call WaitForSoundToFinish
+	jp TextScriptEnd

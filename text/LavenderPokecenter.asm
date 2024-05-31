@@ -17,7 +17,7 @@ _LavenderPokecenterText3::
 	cont "for it?"
 	done
 
-_LavenderPokeCenterText4::
-	text "CHEPPI: Chepperii!@"
+_LavenderPokecenterText4::
+	text "BAGAVOND: Kiiriii!@"
 	text_end
 

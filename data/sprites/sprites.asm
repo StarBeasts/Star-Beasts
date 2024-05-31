@@ -96,4 +96,5 @@ SpriteSheetPointerTable:
 	overworld_sprite InsectSprite, 4     ; SPRITE_INSECT
 	overworld_sprite SoulSprite, 4     ; SPRITE_SOUL
 	overworld_sprite ChepperSprite, 4     ; SPRITE_CHEPPER
+	overworld_sprite YinYangSprite, 4     ; SPRITE_YINYANG
 	assert_table_length NUM_SPRITES

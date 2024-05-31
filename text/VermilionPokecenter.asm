@@ -28,7 +28,7 @@ _VermilionPokecenterText3::
 	
 	done
 
-_VermilionPokeCenterText4::
+_VermilionPokecenterText4::
 	text "CHEPPI: Chepperii!@"
 	text_end
 

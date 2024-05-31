@@ -158,7 +158,7 @@ _HMCantDeleteText::
 
 _PokemonCenterWelcomeText::
 	text "Welcome to our"
-	line "# BEAST CENTER!"
+	line "#BEAST CENTER!"
 
 	para "We heal your"
 	line "BEASTS back to"

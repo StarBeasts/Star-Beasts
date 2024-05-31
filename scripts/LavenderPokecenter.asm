@@ -7,6 +7,7 @@ LavenderPokecenter_TextPointers:
 	dw LavenderPokecenterText2
 	dw LavenderPokecenterText3
 	dw LavenderTradeNurseText
+	dw LavenderPokecenterText4
 
 LavenderTradeNurseText:
 	script_cable_club_receptionist
@@ -21,3 +22,13 @@ LavenderPokecenterText2:
 LavenderPokecenterText3:
 	text_far _LavenderPokecenterText3
 	text_end
+
+LavenderPokecenterText4:
+	text_far _LavenderPokecenterText4
+	text_asm
+	ld a, VILEPLUME
+	call PlayCry
+	call WaitForSoundToFinish
+	jp TextScriptEnd
+
+

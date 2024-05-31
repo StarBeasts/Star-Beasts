@@ -7,6 +7,7 @@ PewterPokecenter_TextPointers:
 	dw PewterPokecenterText2
 	dw PewterJigglypuffText
 	dw PewterTradeNurseText
+	dw PewterPokecenterText3
 
 PewterHealNurseText:
 	script_pokecenter_nurse
@@ -89,3 +90,12 @@ JigglypuffFacingDirectionsEnd:
 
 PewterTradeNurseText:
 	script_cable_club_receptionist
+
+PewterPokecenterText3:
+	text_far _PewterPokecenterText3
+	text_asm
+	ld a, JYNX
+	call PlayCry
+	call WaitForSoundToFinish
+	jp TextScriptEnd
+

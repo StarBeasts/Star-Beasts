@@ -96,8 +96,4 @@ MtMoonTradeNurseText:
 
 MtMoonPokecenterText6:
 	text_far _MtMoonPokecenterText6
-	text_asm
-	ld a, JYNX
-	call PlayCry
-	call WaitForSoundToFinish
-	jp TextScriptEnd
+	text_end

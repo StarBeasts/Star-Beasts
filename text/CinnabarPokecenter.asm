@@ -27,6 +27,6 @@ _CinnabarPokecenterText3::
 	cont "otherwise..."
 	done
 
-_CinnabarPokeCenterText4::
+_CinnabarPokecenterText4::
 	text "CHEPPI: Chepperii!@"
 	text_end

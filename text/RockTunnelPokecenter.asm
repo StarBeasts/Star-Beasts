@@ -12,7 +12,7 @@ _RockTunnelPokecenterText3::
 	line "NUGGET for ¥5000!"
 	done
 
-_RockTunnelPokeCenterText4::
+_RockTunnelPokecenterText4::
 	text "CHEPPI: Chepperii!@"
 	text_end
 

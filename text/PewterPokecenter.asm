@@ -13,7 +13,7 @@ _PewterJigglypuffText::
 	line "bibii doo boop!"
 	done
 
-_PewterPokeCenterText3::
+_PewterPokecenterText3::
 	text "CHEPPI: Chepperii!@"
 	text_end
 

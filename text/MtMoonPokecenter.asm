@@ -7,13 +7,13 @@ _MtMoonPokecenterText1::
 	done
 
 _MtMoonPokecenterText3::
-	text "TEAM ROCKET"
-	line "attacks CERULEAN"
-	cont "citizens..."
+	text "A terrible"
+	line "tragedy, isn't it?"
 
-	para "TEAM ROCKET is"
-	line "always in the"
-	cont "news!"
+	para "Always a shame"
+	line "when a kind soul"
+	cont "such as a CHEPPI"
+	cont "passes..."
 	done
 
 _MagikarpSalesmanText1::
@@ -60,7 +60,18 @@ _MagikarpSalesmanText2::
 	done
 
 _MtMoonPokecenterText5::
-	text_start
+	text "There's some sort"
+	line "of plaque on the"
+	cont "wall."
+
+	para "It reads:"
+
+	para "Rest in peace"
+
+	para "Our dearly"
+	line "beloved CHEPPI"
+
+	para "..."
 	done
 
 _MtMoonPokecenterText6::
