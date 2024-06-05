@@ -8,5 +8,8 @@ SecretPath_Object:
 	def_bg_events
 
 	def_object_events
+	object_event  3,  4, SPRITE_MONSTER, STAY, NONE, 1 ; person
+	object_event  2,  3, SPRITE_MIDDLE_AGED_MAN, STAY, RIGHT, 2 ; person
+
 
 	def_warps_to SECRET_PATH

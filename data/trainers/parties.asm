@@ -661,7 +661,7 @@ BrockData:
 	db $FF, 12, GEODUDE, 14, GOLEM, 0
 
 MistyData:
-	db $FF, 18, GOLDEEN, 21, RHYDON, 0
+	db $FF, 19, GOLDEEN, 21, RHYDON, 0
 
 LtSurgeData:
 	db $FF, 22, GOLBAT, 23, RAICHU, 27, EXEGGCUTE, 0

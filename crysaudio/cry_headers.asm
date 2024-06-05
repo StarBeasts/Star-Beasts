@@ -123,7 +123,7 @@ PokemonCries::
 	mon_cry CRY_PSYDUCK,    -153,  244 ; HORSEA - Done
 	mon_cry CRY_BLASTOISE,     -60,  189 ; SEADRA - Done
 	mon_cry CRY_CHIKORITA,     143,  383 ; GOLDEEN - Done
-	mon_cry CRY_CLEFFA,     143,  383 ; SEAKING - Done
+	mon_cry CRY_CLEFFA,     143,  413 ; SEAKING - Done
 	mon_cry CRY_HOOTHOOT,     17,  256 ; STARYU - Done
 	mon_cry CRY_HOOTHOOT,     -72,  368 ; STARMIE - Done
 	mon_cry CRY_NATU,     143,  383 ; MR__MIME - Done
