@@ -1100,7 +1100,7 @@ TentacruelDexEntry:
 	text_end
 
 GoldeenDexEntry:
-	db "WATER@"
+	db "SEASLIME@"
 	db 2,7
 	dw 480
 	text_far _GoldeenDexEntry

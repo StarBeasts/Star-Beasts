@@ -1946,7 +1946,7 @@ SeakingEvosMoves:
 	db 24, BUBBLEBEAM
 	db 30, LOVELY_KISS
 	db 32, DREAM_EATER
-	db 38, ICE_BEAM
+	db 38, HURRICANE
 	db 44, HYDRO_PUMP
 	db 0
 

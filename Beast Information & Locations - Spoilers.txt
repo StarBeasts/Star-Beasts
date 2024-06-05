@@ -3902,12 +3902,12 @@ PSYWAVE,       SUBSTITUTE,   SURF,         FLASH
 
 #119 - Tidermaid
 
-Water / Ice
+Water / Normal
 
 HP: 105
 Attack: 75
 Defense: 75
-Special: 105
+Special: 110
 Speed: 75
 
 Location: Evolve Splashee at Level 30, Any body of water, Fishing - Super Rod (Route 23, Cerulean Cave)
@@ -3920,7 +3920,7 @@ Learnset
 24, BUBBLEBEAM
 30, LOVELY_KISS
 32, DREAM_EATER
-38, ICE_BEAM
+38, HURRICANE
 44, HYDRO_PUMP
 
 TM / HM

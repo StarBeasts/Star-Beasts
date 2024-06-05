@@ -1288,23 +1288,23 @@ _TentacruelDexEntry::
 	dex
 
 _GoldeenDexEntry::
-	text "Should the WATER"
-	next "OF LIFE be mixed"
-	next "with ordinary"
+	text "While they seem"
+	next "to be made out of"
+	next "water, research"
 
-	page "seawater, the two"
-	next "merge, and a new"
-	next "lifeform is born"
+	page "has shown that"
+	next "they have bones"
+	next "like a hagfish"
 	dex
 
 _SeakingDexEntry::
-	text "It lures SAILORS"
-	next "in by singing a"
-	next "haunting melody,"
+	text "With but a kiss,"
+	next "its victims are"
+	next "lulled into a"
 
-	page "then it steals"
-	next "their souls by"
-	next "kissing them"
+	page "deep slumber,"
+	next "during which it"
+	next "takes their souls"
 	dex
 
 _PonytaDexEntry::
