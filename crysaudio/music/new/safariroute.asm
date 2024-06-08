@@ -25,36 +25,36 @@ Music_SafariRoute_Ch1:
 	rest 16
 ;Bar 5
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note A_, 1
 	octave 4
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note D_, 1
 ;Bar 6
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
 	note A_, 1
 	octave 4
 	note D_, 1
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
 	note A_, 1
 	octave 4
 	note D_, 1
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
 	note A_, 1
 	octave 4
@@ -64,63 +64,63 @@ Music_SafariRoute_Ch1:
 	note G_, 1
 	note B_, 1
 	octave 4
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
 ;Bar 7
 	octave 3
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note D_, 1
 	note G_, 1
 	note B_, 1
 	octave 4
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
 	octave 3
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note G_, 1
 	note B_, 1
 	octave 4
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
 	octave 3
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note D_, 1
 	note G_, 1
 	note B_, 1
 	octave 4
 	note D_, 1
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note A_, 1
 	octave 4
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note D_, 1
 ;Bar 8
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
 	note A_, 1
 	octave 4
 	note D_, 1
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
 	note A_, 1
 	octave 4
 	note D_, 1
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
 	note A_, 1
 	octave 4
@@ -130,63 +130,63 @@ Music_SafariRoute_Ch1:
 	note G_, 1
 	note B_, 1
 	octave 4
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
 ;Bar 9
 	octave 3
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note D_, 1
 	note G_, 1
 	note B_, 1
 	octave 4
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
 	octave 3
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note G_, 1
 	note B_, 1
 	octave 4
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
 	octave 3
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note D_, 1
 	note G_, 1
 	note B_, 1
 	octave 4
 	note D_, 1
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note A_, 1
 	octave 4
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note D_, 1
 ;Bar 10
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
 	note A_, 1
 	octave 4
 	note D_, 1
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
 	note A_, 1
 	octave 4
 	note D_, 1
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
 	note A_, 1
 	octave 4
@@ -196,63 +196,63 @@ Music_SafariRoute_Ch1:
 	note G_, 1
 	note B_, 1
 	octave 4
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
 ;Bar 11
 	octave 3
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note D_, 1
 	note G_, 1
 	note B_, 1
 	octave 4
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
 	octave 3
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note G_, 1
 	note B_, 1
 	octave 4
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
 	octave 3
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note D_, 1
 	note G_, 1
 	note B_, 1
 	octave 4
 	note D_, 1
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note A_, 1
 	octave 4
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note D_, 1
 ;Bar 12
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
 	note A_, 1
 	octave 4
 	note D_, 1
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
 	note A_, 1
 	octave 4
 	note D_, 1
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
 	note A_, 1
 	octave 4
@@ -262,63 +262,63 @@ Music_SafariRoute_Ch1:
 	note G_, 1
 	note B_, 1
 	octave 4
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
 ;Bar 13
 	octave 3
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note D_, 1
 	note G_, 1
 	note B_, 1
 	octave 4
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
 	octave 3
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note G_, 1
 	note B_, 1
 	octave 4
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
 	octave 3
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note D_, 1
 	note G_, 1
 	note B_, 1
 	octave 4
 	note D_, 1
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note A_, 1
 	octave 4
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note D_, 1
 ;Bar 14
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
 	note A_, 1
 	octave 4
 	note D_, 1
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
 	note A_, 1
 	octave 4
 	note D_, 1
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
 	note A_, 1
 	octave 4
@@ -328,63 +328,63 @@ Music_SafariRoute_Ch1:
 	note G_, 1
 	note B_, 1
 	octave 4
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
 ;Bar 15
 	octave 3
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note D_, 1
 	note G_, 1
 	note B_, 1
 	octave 4
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
 	octave 3
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note G_, 1
 	note B_, 1
 	octave 4
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
 	octave 3
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note D_, 1
 	note G_, 1
 	note B_, 1
 	octave 4
 	note D_, 1
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note A_, 1
 	octave 4
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note D_, 1
 ;Bar 16
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
 	note A_, 1
 	octave 4
 	note D_, 1
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
 	note A_, 1
 	octave 4
 	note D_, 1
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
 	note A_, 1
 	octave 4
@@ -394,63 +394,63 @@ Music_SafariRoute_Ch1:
 	note G_, 1
 	note B_, 1
 	octave 4
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
 ;Bar 17
 	octave 3
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note D_, 1
 	note G_, 1
 	note B_, 1
 	octave 4
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
 	octave 3
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note G_, 1
 	note B_, 1
 	octave 4
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
 	octave 3
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note D_, 1
 	note G_, 1
 	note B_, 1
 	octave 4
 	note D_, 1
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note A_, 1
 	octave 4
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note D_, 1
 ;Bar 18
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
 	note A_, 1
 	octave 4
 	note D_, 1
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
 	note A_, 1
 	octave 4
 	note D_, 1
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
 	note A_, 1
 	octave 4
@@ -460,63 +460,63 @@ Music_SafariRoute_Ch1:
 	note G_, 1
 	note B_, 1
 	octave 4
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
 ;Bar 19
 	octave 3
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note D_, 1
 	note G_, 1
 	note B_, 1
 	octave 4
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
 	octave 3
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note G_, 1
 	note B_, 1
 	octave 4
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
 	octave 3
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note D_, 1
 	note G_, 1
 	note B_, 1
 	octave 4
 	note D_, 1
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note A_, 1
 	octave 4
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note D_, 1
 ;Bar 20
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
 	note A_, 1
 	octave 4
 	note D_, 1
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
 	note A_, 1
 	octave 4
 	note D_, 1
 	octave 3
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note F_, 1
 	note A_, 1
 	octave 4
@@ -526,27 +526,27 @@ Music_SafariRoute_Ch1:
 	note G_, 1
 	note B_, 1
 	octave 4
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
 ;Bar 21
 	octave 3
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note D_, 1
 	note G_, 1
 	note B_, 1
 	octave 4
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
 	octave 3
 	note D_, 1
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note G_, 1
 	note B_, 1
 	octave 4
-	volume_envelope 9, 7
+	volume_envelope 7, 7
 	note D_, 1
 	octave 3
-	volume_envelope 10, 7
+	volume_envelope 8, 7
 	note D_, 1
 	note G_, 1
 	note B_, 1
@@ -573,7 +573,7 @@ Music_SafariRoute_Ch2:
 	note_type 12, 10, 7
 .mainloop
 ;Bar 1
-	volume_envelope 13, 7
+	volume_envelope 13, 5
 	rest 16
 	rest 16
 	rest 16
