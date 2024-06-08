@@ -64,6 +64,7 @@ Music:
 	dba Music_SweetVictory ; loops properly, postgame
 	dba Music_Ezio ; loops properly, postgame
 	dba Music_HotDrinks ; loops properly, ???
+	dba Music_SafariRoute ; loops properly
 	dba Music_RuinsOfAlphRadio
 	dba Music_LakeOfRageRocketRadio
 
