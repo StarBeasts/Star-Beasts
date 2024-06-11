@@ -808,13 +808,13 @@ _OmanyteDexEntry::
 	dex
 
 _OmastarDexEntry::
-	text "Uses every single"
-	next "underhanded tactic"
-	next "it can to defeat"
+	text "A seemingly benign"
+	next "appearance betrays"
+	next "the incredible"
 
-	page "its opponent,"
-	next "should its deadly"
-	next "dark magic fail"
+	page "depths of both"
+	next "their magical"
+	next "power and cruelty"
 	dex
 
 _JigglypuffDexEntry::

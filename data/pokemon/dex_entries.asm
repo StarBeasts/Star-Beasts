@@ -764,9 +764,9 @@ OmanyteDexEntry:
 	text_end
 
 OmastarDexEntry:
-	db "IMP@"
+	db "HELLBEAST@"
 	db 6,6
-	dw 666
+	dw 1468
 	text_far _OmastarDexEntry
 	text_end
 

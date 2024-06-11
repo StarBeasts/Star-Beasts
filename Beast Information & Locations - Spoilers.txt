@@ -4541,7 +4541,7 @@ Learnset
 TM / HM
 This Beast learns all of the TMs and HMs.
 
-#138 - Draemon
+#138 - Malevolos
 
 Dark / Flying
 
@@ -4575,7 +4575,7 @@ SKY_ATTACK,   REST,         THUNDER_WAVE, PSYWAVE,
 EXPLOSION,    ROCK_SLIDE,   TRI_ATTACK,   
 SUBSTITUTE,  FLY,          STRENGTH,     FLASH
 
-#139 - Haedaemon
+#139 - Descubus
 
 Dark / Flying
 
@@ -4585,20 +4585,21 @@ Defense: 66
 Special: 132
 Speed: 93
 
-Location: Evolve Dreamon at Level 40
+Location: Evolve Malevolos at Level 40
 
 Starting Moves:
 BODY_SLAM, POISON_FANG, WING_ATTACK, FLAMETHROWER
 
 Learnset
 34, BODY_SLAM
-40, AURA_SPHERE
+40, MEGAHORN
+44, AURA_SPHERE
 46, FLAMETHROWER
 53, DARK_PULSE
 
 TM / HM
 FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    
-DRAGON_CLAW,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    
+DRAGON_CLAW,    TOXIC,  HORN_DRILL   BODY_SLAM,    TAKE_DOWN,    
 DOUBLE_EDGE,  ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   
 SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         
 MEGA_DRAIN,   SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  

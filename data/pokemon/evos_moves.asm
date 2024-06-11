@@ -1290,7 +1290,8 @@ OmastarEvosMoves:
 	db 0
 ; Learnset
 	db 34, BODY_SLAM
-	db 40, AURA_SPHERE
+	db 40, MEGAHORN
+	db 44, AURA_SPHERE
 	db 46, FLAMETHROWER
 	db 53, DARK_PULSE
 	db 0
