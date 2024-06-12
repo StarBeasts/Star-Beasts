@@ -72,7 +72,7 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw NoHS
-	dw NoHS
+	dw AncientCaveHS
 	dw NoHS
 	dw NoHS
 	dw NoHS
@@ -209,7 +209,7 @@ MapHSPointers:
 	dw NoHS
 	dw SecretGardenHS
 	dw NoHS
-	dw NoHS
+	dw DevilsCanyonHS
 	dw SilphCo2FHS
 	dw SilphCo3FHS
 	dw SilphCo4FHS
@@ -251,8 +251,6 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw NoHS
-	dw AncientCaveHS
-	dw DevilsCanyonHS
 	assert_table_length NUM_MAPS
 	dw -1 ; end
 

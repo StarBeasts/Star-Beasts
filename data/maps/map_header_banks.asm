@@ -70,7 +70,7 @@ MapHeaderBanks::
 	db BANK(BikeShop_h)
 	db BANK(CeruleanMart_h)
 	db BANK(MtMoonPokecenter_h)
-	db BANK(CeruleanTrashedHouse_h)
+	db BANK(AncientCave_h)
 	db BANK(Route5Gate_h)
 	db BANK(UndergroundPathRoute5_h)
 	db BANK(Daycare_h)
@@ -207,7 +207,7 @@ MapHeaderBanks::
 	db BANK(RocketHideoutElevator_h)
 	db BANK(SecretGarden_h)
 	db BANK(SecretPath_h)
-	db $01 ; UNUSED_MAP_CE
+	db BANK(DevilsCanyon_h)
 	db BANK(SilphCo2F_h)
 	db BANK(SilphCo3F_h)
 	db BANK(SilphCo4F_h)
@@ -238,8 +238,8 @@ MapHeaderBanks::
 	db BANK(SilphCo10F_h)
 	db BANK(SilphCo11F_h)
 	db BANK(SilphCoElevator_h)
-	db $11 ; UNUSED_MAP_ED
-	db $11 ; UNUSED_MAP_EE
+	db BANK(AncientCave_h)
+	db BANK(DevilsCanyon_h)
 	db BANK(TradeCenter_h)
 	db BANK(Colosseum_h)
 	db $11 ; UNUSED_MAP_F1
@@ -249,6 +249,4 @@ MapHeaderBanks::
 	db BANK(LoreleisRoom_h)
 	db BANK(BrunosRoom_h)
 	db BANK(AgathasRoom_h)
-	db BANK(AncientCave_h)
-	db BANK(DevilsCanyon_h)
 	assert_table_length NUM_MAPS

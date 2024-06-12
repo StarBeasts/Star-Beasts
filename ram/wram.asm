@@ -2061,8 +2061,7 @@ wCeruleanCaveB1FCurScript:: db
 wVictoryRoad1FCurScript:: db
 	ds 1
 wLancesRoomCurScript:: db
-wDevilsCanyonCurScript:: db
-	ds 3
+	ds 4
 wSilphCo10FCurScript:: db
 wSilphCo11FCurScript:: db
 	ds 1
@@ -2084,7 +2083,8 @@ wSeafoamIslandsB4FCurScript:: db
 wRoute18Gate1FCurScript:: db
 wSecretGardenCurScript:: db
 wAncientCaveCurScript:: db
-	ds 4
+wDevilsCanyonCurScript:: db
+	ds 3
 wGameProgressFlagsEnd::
 
 UNION

@@ -70,7 +70,7 @@ MapHeaderPointers::
 	dw BikeShop_h
 	dw CeruleanMart_h
 	dw MtMoonPokecenter_h
-	dw CeruleanTrashedHouse_h ; CERULEAN_TRASHED_HOUSE_COPY
+	dw AncientCave_h ; CERULEAN_TRASHED_HOUSE_COPY
 	dw Route5Gate_h
 	dw UndergroundPathRoute5_h
 	dw Daycare_h
@@ -207,7 +207,7 @@ MapHeaderPointers::
 	dw RocketHideoutElevator_h
 	dw SecretGarden_h; UNUSED_MAP_CC
 	dw SecretPath_h ; UNUSED_MAP_CD
-	dw RocketHideoutElevator_h ; UNUSED_MAP_CE
+	dw DevilsCanyon_h; UNUSED_MAP_CE
 	dw SilphCo2F_h
 	dw SilphCo3F_h
 	dw SilphCo4F_h
@@ -238,8 +238,8 @@ MapHeaderPointers::
 	dw SilphCo10F_h
 	dw SilphCo11F_h
 	dw SilphCoElevator_h
-	dw SilphCo2F_h ; UNUSED_MAP_ED
-	dw SilphCo2F_h ; UNUSED_MAP_EE
+	dw AncientCave_h ; UNUSED_MAP_ED
+	dw DevilsCanyon_h ; UNUSED_MAP_EE
 	dw TradeCenter_h
 	dw Colosseum_h
 	dw SilphCo2F_h ; UNUSED_MAP_F1
@@ -249,6 +249,4 @@ MapHeaderPointers::
 	dw LoreleisRoom_h
 	dw BrunosRoom_h
 	dw AgathasRoom_h
-	dw AncientCave_h
-	dw DevilsCanyon_h
 	assert_table_length NUM_MAPS

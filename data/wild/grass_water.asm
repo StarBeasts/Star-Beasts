@@ -68,7 +68,7 @@ WildDataPointers:
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
-	dw NothingWildMons
+	dw AncientCaveWildMons
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
@@ -206,7 +206,7 @@ WildDataPointers:
 	dw NothingWildMons
 	dw SecretGardenWildMons
 	dw NothingWildMons
-	dw NothingWildMons
+	dw DevilsCanyonWildMons
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
@@ -248,8 +248,6 @@ WildDataPointers:
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
-	dw AncientCaveWildMons
-	dw DevilsCanyonWildMons
 	assert_table_length NUM_MAPS
 	dw -1 ; end
 
