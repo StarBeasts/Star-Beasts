@@ -160,10 +160,11 @@ _VillaB1FText9::
 	text "Somehow, he got"
 	line "ahold of the"
 	cont "legendary being"
-	cont "FAMETAS, and tried"
-	cont "to use its fabled"
-	cont "powers to bring"
-	cont "her back, but..."
+	cont "FAMETAS, and he"
+	cont "tried to use its"
+	cont "fabled powers to"
+	cont "bring her back,"
+	cont "but..."
 
 	para "There are some"
 	line "areas in which"
@@ -198,7 +199,8 @@ _VillaB1FText9::
 	para "..."
 
 	para "LUCIAN released"
-	line "FAMETAS somewhere."
+	line "FAMETAS,"
+	cont "somewhere..."
 
 	para "Evidence suggests"
 	line "that he's still"

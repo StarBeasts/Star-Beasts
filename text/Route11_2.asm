@@ -24,5 +24,19 @@ _Route11AfterBattleText10::
 	done
 
 _Route11Text11::
+	text "Whoo-eee!"
+
+	para "Did you feel"
+	line "that awesome"
+	cont "shockwave a"
+	cont "while ago!?"
+
+	para "I bet some"
+	line "stuff in the"
+	cont "cave got shifted"
+	cont "around, it did!"
+	done
+
+_Route11Text12::
 	text "CRACTURE CHASM"
 	done

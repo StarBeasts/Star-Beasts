@@ -232,3 +232,8 @@ Route11AfterBattleText10:
 Route11Text11:
 	text_far _Route11Text11
 	text_end
+
+Route11Text12:
+	text_far _Route11Text12
+	text_end
+
