@@ -4551,7 +4551,7 @@ Defense: 66
 Special: 66
 Speed: 66
 
-Location: Revive Fiend Soul at Cinnabar Lab Soul Room (Only one), Safari Zone, Nature Preserve
+Location: Revive Fiend Soul at Cinnabar Lab Soul Room (Only one), Cracture Chasm (Only one, if you chose Angel Soul), Safari Zone, Nature Preserve
 
 Starting Moves:
 BITE, WING_ATTACK, EMBER, POISON_FANG
@@ -4611,7 +4611,7 @@ REFLECT,      BIDE,         METRONOME,    SELFDESTRUCT,
 EXPLOSION,    ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   
 CUT,          FLY,          STRENGTH,     FLASH
 
-#140 - Gerbird
+#140 - Niviah
 
 Flying
 
@@ -4621,57 +4621,63 @@ Defense: 77
 Special: 77
 Speed: 77
 
-Location: Revive Angel Soul at Cinnabar Lab Soul Room (Only one), Safari Zone, Nature Preserve
+Location: Revive Angel Soul at Cinnabar Lab Soul Room (Only one), Cracture Chasm (Only one, if you chose Fiend Soul), Safari Zone, Nature Preserve
 
 Starting Moves:
-WING_ATTACK, ROLLING_KICK, OMINOUS_WIND, GLARE
+POWDER_SNOW, WING_ATTACK, OMINOUS_WIND, GLARE
 
 Learnset
-34, DRILL_PECK
-39, METAL_CLAW
-44, DRILL_RUN
-49, SUBMISSION
+34, RECOVER
+39, LOVELY_KISS
+44, DOUBLE_EDGE
+49, PK_STARSTORM
 
 TM / HM
-FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, DRAGON_CLAW,    
-TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
-PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, 
-SHADOW_CLAW, DRAGONBREATH,     EARTHQUAKE,   FISSURE,      
-DIG,           MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME, 
-EGG_BOMB,     SWIFT,        SKULL_BASH,   SOFTBOILED,   
-SKY_ATTACK,   REST, TRI_ATTACK,   SUBSTITUTE, 
+FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    
+DRAGON_CLAW,    TOXIC,       BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,PAY_DAY,
+SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         
+MEGA_DRAIN,   SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  THUNDER,      
+EARTHQUAKE,   FISSURE,      DIG,          PSYCHIC,    TELEPORT,     
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+FIRE_BLAST,   SWIFT,        SKULL_BASH,   
+DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, 
+ PSYWAVE,       ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   
 CUT,          FLY,          STRENGTH,     FLASH
 
-#141 - Knytflight
+#141 - Pheras
 
-Flying / Fighting
+Flying
 
-HP: 77
-Attack: 140
-Defense: 77
-Special: 77
-Speed: 105
+HP: 93
+Attack: 132
+Defense: 93
+Special: 93
+Speed: 93
 
-Location: Evolve Gerbird at Level 40
+Location: Evolve Niviah at Level 40
 
 Starting Moves:
-FALCON_PUNCH, JUMP_KICK, METAL_CLAW, GLARE
+GLARE, WING_ATTACK, OMINOUS_WIND, RECOVER
 
 Learnset
-34, DRILL_PECK
-40, FALCON_PUNCH
-46, DRILL_RUN
-53, SUBMISSION
+34, RECOVER
+40, HYPER_VOICE
+44, AURA_SPHERE
+46, DOUBLE_EDGE
+53, PK_STARSTORM
 
 TM / HM
-FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, DRAGON_CLAW,    
-TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
-HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,
-SEISMIC_TOSS, SHADOW_CLAW,  DRAGONBREATH,  EARTHQUAKE,   
-FISSURE,      DIG,   	     MIMIC,        DOUBLE_TEAM,  BIDE, METRONOME,
-EGG_BOMB,     FIRE_BLAST,   SWIFT,        SKULL_BASH,   
-SOFTBOILED,   SKY_ATTACK,   REST,         THUNDER_WAVE, 
-ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   
+FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, FLASH_CANNON,    
+DRAGON_CLAW,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  
+ BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   
+ PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         
+MEGA_DRAIN,   SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  THUNDER,      
+EARTHQUAKE,   FISSURE,      DIG,          PSYCHIC_M,    TELEPORT,     
+MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    
+FIRE_BLAST,   SWIFT,        SKULL_BASH, 
+DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, 
+PSYWAVE,      ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   
 CUT,          FLY,          STRENGTH,     FLASH
 
 #142 - Drudeer

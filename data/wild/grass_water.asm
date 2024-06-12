@@ -330,5 +330,3 @@ INCLUDE "data/wild/maps/VultMaze.asm"
 INCLUDE "data/wild/maps/AncientCave.asm"
 INCLUDE "data/wild/maps/DevilsCanyon.asm"
 
-
-

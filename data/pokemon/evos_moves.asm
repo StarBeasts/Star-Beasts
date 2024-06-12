@@ -1198,20 +1198,21 @@ KabutoEvosMoves:
 	db EV_LEVEL, 40, KABUTOPS
 	db 0
 ; Learnset
-	db 34, DRILL_PECK
-	db 39, METAL_CLAW
-	db 44, DRILL_RUN
-	db 49, SUBMISSION
+	db 34, RECOVER
+	db 39, LOVELY_KISS
+	db 44, DOUBLE_EDGE
+	db 49, PK_STARSTORM
 	db 0
 
 KabutopsEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 34, DRILL_PECK
-	db 40, FALCON_PUNCH
-	db 46, DRILL_RUN
-	db 53, SUBMISSION
+	db 34, RECOVER
+	db 40, HYPER_VOICE
+	db 44, AURA_SPHERE
+	db 46, DOUBLE_EDGE
+	db 53, PK_STARSTORM
 	db 0
 
 HorseaEvosMoves:
