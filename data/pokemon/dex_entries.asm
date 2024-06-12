@@ -759,7 +759,7 @@ SandslashDexEntry:
 OmanyteDexEntry:
 	db "FIEND@"
 	db 3,3
-	dw 333
+	dw 666
 	text_far _OmanyteDexEntry
 	text_end
 

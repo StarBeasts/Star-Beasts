@@ -803,7 +803,7 @@ _OmanyteDexEntry::
 	next "walked the EARTH"
 
 	page "freely, until"
-	next "TASAN banished"
+	next "FAMETAS banished"
 	next "them to HELL"
 	dex
 

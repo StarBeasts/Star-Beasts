@@ -8,5 +8,8 @@ DiglettsCave_Object:
 	def_bg_events
 
 	def_object_events
-
+	object_event 22,  9, SPRITE_BOULDER, STAY, DOWN, 1
+	object_event 22, 13, SPRITE_BOULDER, STAY, DOWN, 2
+	object_event 23, 9, SPRITE_BOULDER, STAY, BOULDER_MOVEMENT_BYTE_2, 3
+	object_event 23, 13, SPRITE_BOULDER, STAY, BOULDER_MOVEMENT_BYTE_2, 4
 	def_warps_to DIGLETTS_CAVE

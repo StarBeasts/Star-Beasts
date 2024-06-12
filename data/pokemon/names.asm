@@ -130,7 +130,7 @@ MonsterNames::
 	db "DEATHSEER@"
 	db "BALISADE@@"
 	db "CONVULSIA@"
-	db "TASAN@@@@@"
+	db "FAMETAS@@@"
 	db "SLOBBIX@@@"
 	db "SILLISH@@@"
 	db "MISSINGNO."

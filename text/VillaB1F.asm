@@ -160,7 +160,7 @@ _VillaB1FText9::
 	text "Somehow, he got"
 	line "ahold of the"
 	cont "legendary being"
-	cont "TASAN, and tried"
+	cont "FAMETAS, and tried"
 	cont "to use its fabled"
 	cont "powers to bring"
 	cont "her back, but..."
@@ -198,7 +198,7 @@ _VillaB1FText9::
 	para "..."
 
 	para "LUCIAN released"
-	line "TASAN somewhere."
+	line "FAMETAS somewhere."
 
 	para "Evidence suggests"
 	line "that he's still"
@@ -209,12 +209,12 @@ _VillaB1FText9::
 	line "as to LUCIAN's"
 	cont "current location."
 
-	para "As for TASAN..."
+	para "As for FAMETAS..."
 
 	para "At the time of"
 	line "this writing,"
 	cont "the most likely"
-	cont "place TASAN is"
+	cont "place FAMETAS is"
 	cont "located is in"
 	cont "C-"
 
