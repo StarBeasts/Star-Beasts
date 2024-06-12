@@ -200,7 +200,7 @@ MapHSPointers:
 	dw VictoryRoad2FHS
 	dw NoHS
 	dw NoHS
-	dw NoHS
+	dw DiglettsCaveHS
 	dw VictoryRoad3FHS
 	dw RocketHideoutB1FHS
 	dw RocketHideoutB2FHS
@@ -251,6 +251,7 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw NoHS
+	dw AncientCaveHS
 	assert_table_length NUM_MAPS
 	dw -1 ; end
 
@@ -576,5 +577,10 @@ Villa2FHS:
 SecretGardenHS:
 	db SECRET_GARDEN, $01, SHOW ; guard
 	db SECRET_GARDEN, $02, SHOW ; mon gift
+DiglettsCaveHS:
+	db DIGLETTS_CAVE, $01, SHOW ; immovable boulder
+	db DIGLETTS_CAVE, $02, SHOW ; immovable boulder
+AncientCaveHS:
+	db ANCIENT_CAVE, $01, SHOW ; angel, angel
 	db $FF, $01, SHOW ; end
 	assert_table_length NUM_HS_OBJECTS + 1

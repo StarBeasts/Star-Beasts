@@ -252,6 +252,9 @@ MtMoon3Text6:
 	ld a, HS_MT_MOON_B2F_FOSSIL_1
 	ld [wMissableObjectIndex], a
 	predef HideObject
+	ld a, HS_DIGLETTS_CAVE_BOULDER_2
+	ld [wMissableObjectIndex], a
+	predef HideObject
 	SetEvent EVENT_GOT_DOME_FOSSIL
 	ld a, $4
 	ld [wMtMoonB2FCurScript], a
@@ -278,6 +281,9 @@ MtMoon3Text7:
 	jp nc, MtMoon3Script_49f76
 	call MtMoon3Script_49f69
 	ld a, HS_MT_MOON_B2F_FOSSIL_2
+	ld [wMissableObjectIndex], a
+	predef HideObject
+	ld a, HS_DIGLETTS_CAVE_BOULDER_1
 	ld [wMissableObjectIndex], a
 	predef HideObject
 	SetEvent EVENT_GOT_HELIX_FOSSIL

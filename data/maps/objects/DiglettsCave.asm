@@ -4,6 +4,7 @@ DiglettsCave_Object:
 	def_warp_events
 	warp_event  5,  5, DIGLETTS_CAVE_ROUTE_2, 3
 	warp_event 37, 31, DIGLETTS_CAVE_ROUTE_11, 3
+	warp_event 24,  8, ANCIENT_CAVE, 1
 
 	def_bg_events
 

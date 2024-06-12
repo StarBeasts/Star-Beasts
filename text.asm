@@ -282,6 +282,7 @@ INCLUDE "text/Villa3F.asm"
 INCLUDE "text/Villa5F.asm"
 INCLUDE "text/SecretGarden.asm"
 INCLUDE "text/SecretPath.asm"
+INCLUDE "text/AncientCave.asm"
 
 SECTION "Pokédex Text", ROMX
 

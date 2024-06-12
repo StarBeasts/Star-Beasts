@@ -1297,3 +1297,9 @@ INCLUDE "scripts/SecretPath.asm"
 INCLUDE "data/maps/objects/SecretPath.asm"
 SecretPath_Blocks: INCBIN "maps/SecretPath.blk"
 
+INCLUDE "data/maps/headers/AncientCave.asm"
+INCLUDE "scripts/AncientCave.asm"
+INCLUDE "data/maps/objects/AncientCave.asm"
+AncientCave_Blocks: INCBIN "maps/AncientCave.blk"
+
+

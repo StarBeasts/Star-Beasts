@@ -2082,7 +2082,8 @@ wRoute23CurScript:: db
 wSeafoamIslandsB4FCurScript:: db
 wRoute18Gate1FCurScript:: db
 wSecretGardenCurScript:: db
-	ds 5
+wAncientCaveCurScript:: db
+	ds 4
 wGameProgressFlagsEnd::
 
 UNION

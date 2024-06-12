@@ -9,6 +9,5 @@ AncientCave_Object:
 
 	def_object_events
 	object_event  3,  1, SPRITE_MONSTER, STAY, DOWN, 1, KABUTO, 39 | OW_POKEMON
-	object_event  2,  1, SPRITE_MONSTER, STAY, DOWN, 2, OMANYTE, 39 | OW_POKEMON
 
 	def_warps_to ANCIENT_CAVE
