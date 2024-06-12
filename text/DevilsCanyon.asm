@@ -1,13 +1,13 @@
-_AngelBattleText::
+_DevilBattleText::
 	text "Before you is"
 	line "some sort of"
-	cont "ANGEL from an era"
+	cont "FIEND from an era"
 	cont "long forgotten."
 
 	para "It spots you and"
-	line "panics, taking"
-	cont "up a defensive"
+	line "growls, taking"
+	cont "up a fighting"
 	cont "stance!"
 
-	para "Kiirii!!@"
+	para "Grrarrr!!@"
 	text_end

@@ -252,6 +252,7 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw AncientCaveHS
+	dw DevilsCanyonHS
 	assert_table_length NUM_MAPS
 	dw -1 ; end
 
@@ -582,5 +583,7 @@ DiglettsCaveHS:
 	db DIGLETTS_CAVE, $02, SHOW ; immovable boulder
 AncientCaveHS:
 	db ANCIENT_CAVE, $01, SHOW ; angel, angel
+DevilsCanyonHS:
+	db DEVILS_CANYON, $01, SHOW ; muahaha
 	db $FF, $01, SHOW ; end
 	assert_table_length NUM_HS_OBJECTS + 1

@@ -137,11 +137,11 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Jolteon
 	nybble ICON_QUADRUPED ; Flareon
 	nybble ICON_BALL      ; Porygon
-	nybble ICON_HELIX     ; Omanyte
-	nybble ICON_HELIX     ; Omastar
-	nybble ICON_HELIX     ; Kabuto
-	nybble ICON_HELIX     ; Kabutops
-	nybble ICON_HELIX     ; Aerodactyl
+	nybble ICON_MON       ; Omanyte
+	nybble ICON_MON       ; Omastar
+	nybble ICON_FAIRY     ; Kabuto
+	nybble ICON_FAIRY     ; Kabutops
+	nybble ICON_QUADRUPED ; Aerodactyl
 	nybble ICON_MON       ; Snorlax
 	nybble ICON_BIRD      ; Articuno
 	nybble ICON_BIRD      ; Zapdos

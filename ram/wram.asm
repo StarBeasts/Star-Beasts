@@ -2061,7 +2061,8 @@ wCeruleanCaveB1FCurScript:: db
 wVictoryRoad1FCurScript:: db
 	ds 1
 wLancesRoomCurScript:: db
-	ds 4
+wDevilsCanyonCurScript:: db
+	ds 3
 wSilphCo10FCurScript:: db
 wSilphCo11FCurScript:: db
 	ds 1

@@ -250,4 +250,5 @@ MapHeaderPointers::
 	dw BrunosRoom_h
 	dw AgathasRoom_h
 	dw AncientCave_h
+	dw DevilsCanyon_h
 	assert_table_length NUM_MAPS

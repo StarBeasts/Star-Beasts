@@ -1,9 +1,9 @@
 	db DEX_KABUTOPS ; pokedex id
 
-	db  77, 140, 77,  105,  77
+	db  93, 132,  93,  93,  93
 	;   hp  atk  def  spd  spc
 
-	db FLYING, FIGHTING ; type
+	db FLYING, FLYING ; type
 	db 45 ; catch rate
 	db 201 ; base exp
 

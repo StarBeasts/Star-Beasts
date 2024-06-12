@@ -1302,4 +1302,8 @@ INCLUDE "scripts/AncientCave.asm"
 INCLUDE "data/maps/objects/AncientCave.asm"
 AncientCave_Blocks: INCBIN "maps/AncientCave.blk"
 
+INCLUDE "data/maps/headers/DevilsCanyon.asm"
+INCLUDE "scripts/DevilsCanyon.asm"
+INCLUDE "data/maps/objects/DevilsCanyon.asm"
+DevilsCanyon_Blocks: INCBIN "maps/DevilsCanyon.blk"
 
