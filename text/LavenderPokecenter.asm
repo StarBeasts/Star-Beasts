@@ -18,6 +18,6 @@ _LavenderPokecenterText3::
 	done
 
 _LavenderPokecenterText4::
-	text "BAGAVOND: Kiiriii!@"
+	text "BAGAVOND: Giiraii!@"
 	text_end
 
