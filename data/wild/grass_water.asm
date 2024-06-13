@@ -68,8 +68,8 @@ WildDataPointers:
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
-	dw AncientCaveWildMons
 	dw NothingWildMons
+	dw AncientCaveWildMons
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
