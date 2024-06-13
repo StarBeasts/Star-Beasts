@@ -4,8 +4,6 @@ DiglettsCave_Script:
 DiglettsCave_TextPointers:
 	dw DiglettsCaveText1
 	dw DiglettsCaveText2
-	dw BoulderText
-	dw BoulderText
 
 DiglettsCaveText1:
 	text_far _DiglettsCaveText1
