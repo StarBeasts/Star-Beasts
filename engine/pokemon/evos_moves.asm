@@ -20,6 +20,11 @@ EvolutionAfterBattle:
 	push hl
 	push bc
 	push de
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; shinpokerednote: FIXED: We keep a pointer to the current PKMN's Level at the Beginning of the Battle. Helps fix the evolution move learn skip bug.
+	ld hl, wStartBattleLevels
+	push hl
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	ld hl, wPartyCount
 	push hl
 
@@ -27,11 +32,20 @@ Evolution_PartyMonLoop: ; loop over party mons
 	ld hl, wWhichPokemon
 	inc [hl]
 	pop hl
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; shinpokerednote: FIXED: We store current PKMN' Level at the Beginning of the Battle
+; to a chosen memory address in order to be compared later with the evolution requirements.
+	pop de
+	ld a, [de]
+	ld [wTempFlag0], a
+	inc de
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	inc hl
 	ld a, [hl]
 	cp $ff ; have we reached the end of the party?
 	jp z, .done
 	ld [wEvoOldSpecies], a
+	push de; shinpokerednote: FIXED If we are not done we need to push the pointer for the next iteration. (next index of wStartBattleLevels)
 	push hl
 	ld a, [wWhichPokemon]
 	ld c, a
@@ -95,7 +109,7 @@ Evolution_PartyMonLoop: ; loop over party mons
 .checkItemEvo
 	ld a, [hli]
 	ld b, a ; evolution item
-	ld a, [wcf91] ; this is supposed to be the last item used, but it is also used to hold species numbers
+	ld a, [wcf91] ; (fixed) this is supposed to be the last item used, but it is also used to hold species numbers
 	cp b ; was the evolution item in this entry used?
 	jp nz, .nextEvoEntry1 ; if not, go to the next evolution entry
 .checkLevel
@@ -109,11 +123,11 @@ Evolution_PartyMonLoop: ; loop over party mons
 	ld a, 1
 	ld [wEvolutionOccurred], a
 ; FIXED: skipping evolution learned moves if levelled up a non-evolved pokemon multiple times then evolving
-	ld a, [wTempCoins1]
+	ld a, [wTempFlag0]
 	cp b
 	jp nc, .evoLevelRequirementSatisfied
 	ld a, b
-	ld [wTempCoins1], a
+	ld [wTempFlag0], a
 .evoLevelRequirementSatisfied
 	push hl
 	ld a, [hl]
@@ -222,7 +236,7 @@ Evolution_PartyMonLoop: ; loop over party mons
 	
 	ld a, [wCurEnemyLVL]	; load the final level into a.
 	ld c, a	; load the final level to over to c
-	ld a, [wTempCoins1]	; load the evolution level into a
+	ld a, [wTempFlag0]	; load the evolution level into a
 	ld b, a	; load the evolution level over to b
 	dec b
 .inc_level	; marker for looping back 

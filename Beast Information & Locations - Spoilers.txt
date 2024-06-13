@@ -1182,7 +1182,7 @@ Defense: 50
 Special: 60
 Speed: 82
 
-Location: Mt Moon, Route 10 (Gift), Beast Mansion, Seafoam Islands
+Location: Mt. Moon, Route 10 (Gift), Beast Mansion, Seafoam Islands
 
 Starting Moves:
 POWDER_SNOW, ROAR
