@@ -111,7 +111,7 @@ _FuchsiaCityLaprasText::
 	prompt
 
 _FuchsiaCityOmanyteText::
-	text "Name: DRAEMON"
+	text "Name: MALEVOLOS"
 
 	para "A # BEAST that"
 	line "was resurrected"
@@ -119,7 +119,7 @@ _FuchsiaCityOmanyteText::
 	prompt
 
 _FuchsiaCityKabutoText::
-	text "Name: GERBIRD"
+	text "Name: NIVIAH"
 
 	para "A # BEAST that"
 	line "was resurrected"
