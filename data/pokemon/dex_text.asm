@@ -738,23 +738,23 @@ _DragonairDexEntry::
 	dex
 
 _KabutoDexEntry::
-	text "A member of a"
-	next "race of BIRD MEN"
-	next "that long ago"
+	text "Many ages past,"
+	next "they lived in"
+	next "harmony with"
 
-	page "inhabited a"
-	next "castle floating"
-	next "above the clouds"
+	page "mankind, until a"
+	next "terrible cataclysm"
+	next "wiped them out"
 	dex
 
 _KabutopsDexEntry::
-	text "A brave warrior"
-	next "from a long dead"
-	next "race of BIRD MEN."
+	text "When they still"
+	next "walked the EARTH,"
+	next "it was their"
 
-	page "It can't fly, but"
-	next "it is unbelievably"
-	next "fierce in combat"
+	page "purpose in life to"
+	next "protect mankind"
+	next "from dark forces"
 	dex
 
 _HorseaDexEntry::

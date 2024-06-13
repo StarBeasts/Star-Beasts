@@ -715,15 +715,15 @@ DragonairDexEntry:
 	text_end
 
 KabutoDexEntry:
-	db "BIRD MAN@"
+	db "CHERUB@"
 	db 4,2
 	dw 600
 	text_far _KabutoDexEntry
 	text_end
 
 KabutopsDexEntry:
-	db "BIRD KING@"
-	db 12,4
+	db "PARAGON@"
+	db 7,4
 	dw 1742
 	text_far _KabutopsDexEntry
 	text_end

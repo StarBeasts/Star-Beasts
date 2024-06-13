@@ -13,7 +13,7 @@ _MewtwoBattleText::
 	para "He turns toward"
 	line "you, a sad but"
 	cont "understanding"
-	cont "smile writ"
+	cont "look writ"
 	cont "large on His"
 	cont "holy face."
 
