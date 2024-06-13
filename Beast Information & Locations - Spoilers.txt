@@ -4647,7 +4647,7 @@ CUT,          FLY,          STRENGTH,     FLASH
 
 #141 - Pheras
 
-Flying
+Normal / Flying
 
 HP: 93
 Attack: 132

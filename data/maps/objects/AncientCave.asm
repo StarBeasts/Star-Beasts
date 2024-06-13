@@ -8,6 +8,6 @@ AncientCave_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  3,  1, SPRITE_FAIRY, STAY, DOWN, 1, KABUTO, 39 | OW_POKEMON
+	object_event  3,  1, SPRITE_FAIRY, STAY, DOWN, 1, KABUTO, 38 | OW_POKEMON
 
 	def_warps_to ANCIENT_CAVE
