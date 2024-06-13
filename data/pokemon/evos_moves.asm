@@ -1209,7 +1209,7 @@ KabutopsEvosMoves:
 	db 0
 ; Learnset
 	db 34, RECOVER
-	db 40, HYPER_VOICE
+	db 40, SKY_ATTACK
 	db 44, AURA_SPHERE
 	db 46, DOUBLE_EDGE
 	db 53, PK_STARSTORM
