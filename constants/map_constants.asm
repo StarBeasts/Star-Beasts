@@ -88,7 +88,7 @@ DEF FIRST_INDOOR_MAP EQU const_value
 	map_const BIKE_SHOP,                      4,  4 ; $42
 	map_const CERULEAN_MART,                  4,  4 ; $43
 	map_const MT_MOON_POKECENTER,             7,  4 ; $44
-	map_const ANCIENT_CAVE,    3,  3 ; $45
+	map_const ANCIENT_CAVE,    				  3,  3 ; $45
 	map_const ROUTE_5_GATE,                   4,  3 ; $46
 	map_const UNDERGROUND_PATH_ROUTE_5,       4,  4 ; $47
 	map_const DAYCARE,                        4,  4 ; $48

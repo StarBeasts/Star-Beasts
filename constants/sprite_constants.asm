@@ -73,6 +73,7 @@
 	const SPRITE_SUBROSIAN
 	const SPRITE_SOUL_VALOR_DUDE
 	const SPRITE_SPEAKO
+	const SPRITE_NOFACE
 DEF FIRST_STILL_SPRITE EQU const_value
 	const SPRITE_POKE_BALL               ; $3d
 	const SPRITE_FOSSIL                  ; $3e

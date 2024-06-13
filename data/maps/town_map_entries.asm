@@ -64,6 +64,7 @@ InternalMapEntries:
 	internal_map MT_MOON_B2F,                    6,  2, MountMoonName
 	internal_map CERULEAN_MART,                 10,  2, CeruleanCityName
 	internal_map MT_MOON_POKECENTER,             5,  2, Route4Name
+	internal_map ANCIENT_CAVE, 	3,  4, DiglettsCaveName	
 	internal_map DAYCARE,                       10,  4, Route5Name
 	internal_map UNDERGROUND_PATH_ROUTE_6_COPY, 10,  6, Route6Name
 	internal_map UNDERGROUND_PATH_ROUTE_7_COPY,  9,  5, Route7Name
@@ -110,6 +111,7 @@ InternalMapEntries:
 	internal_map VICTORY_ROAD_3F,                0,  4, VictoryRoadName
 	internal_map SECRET_GARDEN,                  13, 0, SecretGardenName
 	internal_map SECRET_PATH,                   13, 0, SecretGardenName
+	internal_map DEVILS_CANYON, 	3,  4, DiglettsCaveName	
 	internal_map SILPH_CO_8F,                   10,  5, SilphCoName
 	internal_map POKEMON_MANSION_B1F,            2, 15, PokemonMansionName
 	internal_map SAFARI_ZONE_NORTH_REST_HOUSE,   8, 12, SafariZoneName

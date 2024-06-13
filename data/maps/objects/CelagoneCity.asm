@@ -15,7 +15,7 @@ CelagoneCity_Object:
 	bg_event  3,  9, 7 ; toystorewindow
 
 	def_object_events
-	object_event 28, 12, SPRITE_GIRL, STAY, UP, 1 ; person
+	object_event 28, 12, SPRITE_NOFACE, STAY, UP, 1 ; person
 
 	def_warps_to CELAGONE_CITY
 
