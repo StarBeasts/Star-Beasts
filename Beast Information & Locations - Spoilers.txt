@@ -4404,7 +4404,7 @@ CUT,          STRENGTH,     FLASH
 
 #134 - Aquamentus
 
-Water / Dragon
+Water
 
 HP: 115
 Attack: 75
