@@ -3,17 +3,10 @@ SECTION "Tilesets 1", ROMX
 Overworld_GFX::     INCBIN "gfx/tilesets/overworld.2bpp"
 Overworld_Block::   INCBIN "gfx/blocksets/overworld.bst"
 
-RedsHouse1_GFX::
-RedsHouse2_GFX::    INCBIN "gfx/tilesets/reds_house.2bpp"
-RedsHouse1_Block::
-RedsHouse2_Block::  INCBIN "gfx/blocksets/reds_house.bst"
-
 House_GFX::         INCBIN "gfx/tilesets/house.2bpp"
 House_Block::       INCBIN "gfx/blocksets/house.bst"
 Mansion_GFX::       INCBIN "gfx/tilesets/mansion.2bpp"
 Mansion_Block::     INCBIN "gfx/blocksets/mansion.bst"
-ShipPort_GFX::      INCBIN "gfx/tilesets/ship_port.2bpp"
-ShipPort_Block::    INCBIN "gfx/blocksets/ship_port.bst"
 Interior_GFX::      INCBIN "gfx/tilesets/interior.2bpp"
 Interior_Block::    INCBIN "gfx/blocksets/interior.bst"
 Plateau_GFX::       INCBIN "gfx/tilesets/plateau.2bpp"
@@ -66,4 +59,12 @@ SECTION "Tilesets 4", ROMX
 
 Overworld2_GFX::    INCBIN "gfx/tilesets/overworld2.2bpp"
 Overworld2_Block::  INCBIN "gfx/blocksets/overworld2.bst"
+ShipPort_GFX::      INCBIN "gfx/tilesets/ship_port.2bpp"
+ShipPort_Block::    INCBIN "gfx/blocksets/ship_port.bst"
+RedsHouse1_GFX::
+RedsHouse2_GFX::    INCBIN "gfx/tilesets/reds_house.2bpp"
+RedsHouse1_Block::
+RedsHouse2_Block::  INCBIN "gfx/blocksets/reds_house.bst"
+
+
 
