@@ -1663,7 +1663,7 @@ SnorlaxEvosMoves:
 	db 41, SLUDGE_BOMB
 	db 48, DRAGONBREATH
 	db 56, DARK_PULSE
-	db 64, EXPLOSION
+	db 64, SKULL_BASH
 	db 0
 
 MagikarpEvosMoves:
