@@ -13,7 +13,7 @@ Overworld_Coll::
 
 RedsHouse1_Coll::
 RedsHouse2_Coll::
-	coll_tiles $01, $02, $03, $11, $12, $13, $14, $1c, $1a
+	coll_tiles $01, $02, $03, $11, $12, $13, $1c, $1a, $4f, $51, $53
 
 Mart_Coll::
 Pokecenter_Coll::

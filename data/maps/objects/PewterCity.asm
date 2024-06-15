@@ -15,7 +15,7 @@ PewterCity_Object:
 	bg_event 33, 19,  7 ; PewterCityText7
 	bg_event 24, 17,  8 ; MartSignText
 	bg_event 14, 25,  9 ; PokeCenterSignText
-	bg_event 15,  9, 10 ; PewterCityText10
+	bg_event 13,  9, 10 ; PewterCityText10
 	bg_event 11, 17, 11 ; PewterCityText11
 	bg_event 25, 23, 12 ; PewterCityText12
 	bg_event 23, 31, 15 ; PewterCityText15
