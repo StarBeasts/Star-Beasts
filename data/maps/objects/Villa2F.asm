@@ -9,9 +9,9 @@ Villa2F_Object:
 	def_bg_events
 	bg_event  2,  1, 5 ; Villa2FText5
 	bg_event  3,  1, 6 ; Villa2FText6
-	bg_event  0,  1, 7 ; Villa2FText6
-	bg_event  5,  1, 8 ; Villa2FText6
-
+	bg_event  0,  1, 7 ; Villa2FText7
+	bg_event  5,  1, 8 ; Villa2FText8
+	bg_event  1,  1, 9 ; Villa2FText9
 
 	def_object_events
 	object_event  5,  4, SPRITE_POKE_BALL, STAY, RIGHT, 1 ; item

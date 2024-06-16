@@ -21,6 +21,7 @@ Villa2F_TextPointers:
 	dw Villa2FText6
 	dw Villa2FText7
 	dw Villa2FText8
+	dw Villa2FText9
 
 Villa2FTrainerHeaders:
 	def_trainers 4
@@ -79,5 +80,9 @@ Villa2FText7:
 
 Villa2FText8:
 	text_far _Villa2FText8
+	text_end
+
+Villa2FText9:
+	text_far _Villa2FText9
 	text_end
 

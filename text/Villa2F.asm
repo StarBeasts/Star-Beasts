@@ -89,5 +89,18 @@ _Villa2FText8::
 	cont "ice skating..."
 	done
 
+_Villa2FText9::
+	text "Stacked on the"
+	line "shelves are"
+	cont "assorted books"
+	cont "about ICE types"
+	cont "and a few books"
+	cont "about forensic"
+	cont "psychology."
+
+	para "Neat!"
+	done
+
+
 
 
