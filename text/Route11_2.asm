@@ -35,6 +35,9 @@ _Route11Text11::
 	line "stuff in the"
 	cont "cave got shifted"
 	cont "around, it did!"
+
+	para "Watch your step"
+	line "in there, kid!"
 	done
 
 _Route11Text12::

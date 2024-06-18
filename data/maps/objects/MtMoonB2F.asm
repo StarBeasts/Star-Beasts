@@ -10,7 +10,7 @@ MtMoonB2F_Object:
 	def_bg_events
 
 	def_object_events
-	object_event 12,  8, SPRITE_SUPER_NERD, STAY, RIGHT, 1, OPP_SUPER_NERD, 2
+	object_event 12,  8, SPRITE_ERIKA, STAY, RIGHT, 1, OPP_SUPER_NERD, 2
 	object_event 11, 16, SPRITE_ROCKET, STAY, DOWN, 2, OPP_ROCKET, 1
 	object_event 15, 22, SPRITE_ROCKET, STAY, DOWN, 3, OPP_ROCKET, 2
 	object_event 29, 11, SPRITE_ROCKET, STAY, UP, 4, OPP_ROCKET, 3

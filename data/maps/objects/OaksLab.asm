@@ -16,7 +16,7 @@ OaksLab_Object:
 	object_event  2,  1, SPRITE_POKEDEX, STAY, NONE, 6 ; person
 	object_event  3,  1, SPRITE_POKEDEX, STAY, NONE, 7 ; person
 	object_event  5, 10, SPRITE_OAK, STAY, UP, 8 ; person
-	object_event  1,  9, SPRITE_GIRL, WALK, UP_DOWN, 9 ; person
+	object_event  1,  9, SPRITE_ERIKA, WALK, UP_DOWN, 9 ; person
 	object_event  2, 10, SPRITE_SCIENTIST, STAY, NONE, 10 ; person
 	object_event  8, 10, SPRITE_SCIENTIST, STAY, NONE, 11 ; person
 

@@ -93,7 +93,7 @@ _Villa2FText9::
 	text "Stacked on the"
 	line "shelves are"
 	cont "assorted books"
-	cont "about ICE types"
+	cont "about ICE types,"
 	cont "and a few books"
 	cont "about forensic"
 	cont "psychology."
