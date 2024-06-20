@@ -729,7 +729,7 @@ _ViridianBlackboardPrlzText::
 	line "JUSTIN..."
 
 	para "One day, you'll"
-	line "realise you"
+	line "realize you"
 	cont "deserve better..."
 
 	para "And if you don't,"
