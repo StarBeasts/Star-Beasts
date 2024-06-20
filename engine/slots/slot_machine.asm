@@ -888,7 +888,7 @@ INCLUDE "data/events/slot_machine_wheels.asm"
 
 SlotMachineTiles1:
 IF DEF(_RED)
-	INCBIN "gfx/slots/red_slots_1.2bpp"
+	INCBIN "gfx/slots/blue_slots_1.2bpp"
 ENDC
 IF DEF(_BLUE)
 	INCBIN "gfx/slots/blue_slots_1.2bpp"
