@@ -6,7 +6,7 @@ TrainerNames::
 	db "JR.TRAINER♂@"
 	db "JR.TRAINER♀@"
 	db "COLLECTOR@"
-	db "SUPER NERD@"
+	db "NERDETTE@"
 	db "HIKER@"
 	db "BIKER@"
 	db "BURGLAR@"

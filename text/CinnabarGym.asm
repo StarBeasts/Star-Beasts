@@ -152,7 +152,7 @@ _CinnabarGymBattleText3::
 	done
 
 _CinnabarGymEndBattleText3::
-	text "Waah!"
+	text "Yeeek!"
 	line "REGENTS, help me!"
 	prompt
 
@@ -169,7 +169,7 @@ _CinnabarGymBattleText4::
 	cont "world?"
 
 	para "Sounds like a"
-	line "scam to me!"
+	line "con to me!"
 	done
 
 _CinnabarGymEndBattleText4::
@@ -217,7 +217,8 @@ _CinnabarGymBattleText6::
 
 _CinnabarGymEndBattleText6::
 	text "Yowza!"
-	line "Too hot!"
+	line "Hotter than"
+	cont "Ma's chili!"
 	prompt
 
 _CinnabarGymAfterBattleText6::
@@ -253,7 +254,9 @@ _CinnabarGymAfterBattleText7::
 	para "There isn't really"
 	line "anything any of"
 	cont "us can do to help"
-	cont "him, sadly."
+	cont "him."
+
+	para "Super sad, huh?"
 	done
 
 _CinnabarGymGuidePreBattleText::

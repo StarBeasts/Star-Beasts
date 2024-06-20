@@ -1,7 +1,8 @@
 _Route8BattleText1::
 	text "You look good at"
-	line "BEASTS, but"
-	cont "how're you at trig?"
+	line "BEASTS, but I bet"
+	cont "you can't write"
+	cont "fics like I can!"
 	done
 
 _Route8EndBattleText1::
@@ -10,8 +11,8 @@ _Route8EndBattleText1::
 	prompt
 
 _Route8AfterBattleText1::
-	text "I am better at"
-	line "school than this!"
+	text "I'm a writer, not"
+	line "a fighter."
 	done
 
 _Route8BattleText2::
@@ -62,13 +63,19 @@ _Route8AfterBattleText4::
 	done
 
 _Route8BattleText5::
-	text "School is fun, but"
-	line "so are BEASTS."
+	text "These girls are"
+	line "soooo boring!"
+
+	para "Someone like you"
+	line "seems more up my"
+	cont "alley!"
 	done
 
 _Route8EndBattleText5::
-	text "I'll"
-	line "stay with school."
+	text "See?"
+
+	para "That was actually"
+	line "fun!"
 	prompt
 
 _Route8AfterBattleText5::

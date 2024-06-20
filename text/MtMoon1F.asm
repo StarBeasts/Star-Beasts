@@ -61,7 +61,7 @@ _MtMoon1AfterBattleText4::
 	done
 
 _MtMoon1BattleText5::
-	text "What! Don't sneak"
+	text "Eeek! Don't sneak"
 	line "up on me!"
 	done
 
@@ -71,7 +71,7 @@ _MtMoon1EndBattleText5::
 	prompt
 
 _MtMoon1AfterBattleText5::
-	text "I have to find"
+	text "I gotta find"
 	line "stronger BEASTS."
 	done
 

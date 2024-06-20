@@ -21,11 +21,13 @@ _MtMoon3Text_49f7f::
 	text_end
 
 _MtMoon3Text_49f85::
-	text "Hey, stop!"
+	text "Back off!"
 
 	para "I found these"
 	line "souls! They're"
 	cont "both mine!"
+
+	para "MINE!"
 	done
 
 _MtMoon3Text_49f8a::
