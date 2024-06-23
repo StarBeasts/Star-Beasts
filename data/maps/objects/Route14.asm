@@ -4,7 +4,7 @@ Route14_Object:
 	def_warp_events
 
 	def_bg_events
-	bg_event 17, 13, 11 ; Route14Text11
+	bg_event 15, 13, 11 ; Route14Text11
 
 	def_object_events
 	object_event  4,  4, SPRITE_OFFICER, STAY, DOWN, 1, OPP_BIRD_KEEPER, 14
