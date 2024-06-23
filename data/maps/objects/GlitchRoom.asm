@@ -4,6 +4,7 @@ GlitchRoom_Object:
 	def_warp_events
 	warp_event  5,  1, CELADON_CITY, 0
 	warp_event  6,  5, CELADON_HOTEL, 1
+	warp_event  8,  3, CELADON_HOTEL, 1
 
 	def_bg_events
 
