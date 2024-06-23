@@ -11,7 +11,7 @@ Route2_Object:
 
 	def_bg_events
 	bg_event  5, 65, 3 ; Route2Text3
-	bg_event 11, 11, 4 ; Route2Text4
+	bg_event 13, 11, 4 ; Route2Text4
 
 	def_object_events
 	object_event 13, 54, SPRITE_POKE_BALL, STAY, NONE, 1, MOON_STONE
@@ -24,4 +24,4 @@ Route2_Object:
 	db $12, $c7, $9, $7
 	warp_to 2, 7, 4
 	warp_to 2, 7, 4
-	warp_to 2, 7, 4
+	warp_to  2,  7, 4

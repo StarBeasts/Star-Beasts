@@ -9,7 +9,7 @@ CinnabarIsland_Object:
 	warp_event 15, 11, CINNABAR_MART, 1
 
 	def_bg_events
-	bg_event  9,  5, 3 ; CinnabarIslandText3
+	bg_event  5,  5, 3 ; CinnabarIslandText3
 	bg_event 16, 11, 4 ; MartSignText
 	bg_event 12, 11, 5 ; PokeCenterSignText
 	bg_event  9, 11, 6 ; CinnabarIslandText6
