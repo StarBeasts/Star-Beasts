@@ -110,7 +110,7 @@ _PewterCityText7::
 	text "NOTICE!"
 
 	para "Thieves have been"
-	line "stealing BEASTS"
+	line "stealing BEAST"
 	cont "souls at MT."
 	cont "MOON! Please call"
 	cont "PEWTER POLICE"

@@ -17,3 +17,22 @@ _PewterHouse2Text2::
 	para "But, it's not a"
 	line "sure thing!"
 	done
+
+_PewterHouse2Text3::
+	text "If a BEAST uses"
+	line "an attacking move"
+	cont "that's the same"
+	cont "TYPE as it is,"
+	cont "the move will do"
+	cont "more damage!"
+
+	para "Makes sense,"
+	line "right?"
+
+	para "You wouldn't expect"
+	line "an ICE dragon"
+	cont "to be good at"
+	cont "breathing FIRE,"
+	cont "now wouldja?"
+	done
+

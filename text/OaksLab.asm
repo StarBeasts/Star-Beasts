@@ -203,7 +203,7 @@ _OaksLabChooseMonText::
 
 	para "Don't worry! I"
 	line "was just out in"
-	cont "the field!"
+	cont "the field."
 
 	para "I didn't forget!"
 
@@ -347,7 +347,7 @@ _OaksLabText26::
 
 	para "But I've got my"
 	line "hands full, here."
-	cont "I can't do it!"
+	cont "I can't do it."
 
 	para "So, I want you two"
 	line "to fulfill my"
