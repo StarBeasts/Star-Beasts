@@ -1,6 +1,6 @@
 	db DEX_SARPAL ; pokedex id
 
-	db 100,  65,  130,  65,  90
+	db 130,  85,  80,  60,  95
 	;   hp  atk  def  spd  spc
 
 	db WATER, BIRD ; type
