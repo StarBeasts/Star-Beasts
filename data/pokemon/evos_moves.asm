@@ -1402,7 +1402,7 @@ EkansEvosMoves:
 	db EV_LEVEL, 26, ARBOK
 	db 0
 ; Learnset
-	db 10, GLARE
+	db 10, POISON_STING
 	db 14, BITE
 	db 18, POISON_FANG
 	db 24, SCREECH
