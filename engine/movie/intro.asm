@@ -31,7 +31,7 @@ PlayIntroScene:
 	ldh [hSCX], a
 	ld b, TILEMAP_GENGAR_INTRO_1
 	call IntroCopyTiles
-	ld a, 0
+	ld a, 10
 	ld [wBaseCoordX], a
 	ld a, 80
 	ld [wBaseCoordY], a
@@ -408,10 +408,10 @@ IntroNidorinoAnimation5:
 ; This is a sequence of pixel movements for part of the Nidorino animation.
 ; First byte is y movement, second byte is x movement
 	db  0, 0
-	db -8, 4
-	db -4, 4
-	db  4, 4
-	db  8, 4
+	db -8, -4
+	db  4, -4
+	db  0, 2
+	db  2, 4
 	db ANIMATION_END
 
 IntroNidorinoAnimation6:
