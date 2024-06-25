@@ -25,7 +25,7 @@ Music:
 	dba Music_Fort2
 	dba Music_DuelTheme2
 	dba Music_WildBeast ; loops properly
-	dba Music_CatchEmBlue
+	dba Music_BeastBattle
 	dba Music_Nuzzles ; LOOPS PROPERLY LETS FUCKING GOOOOO
 	dba Music_MatchVictory
 	dba Music_BoosterPack

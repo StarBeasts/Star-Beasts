@@ -499,6 +499,7 @@ INCLUDE "crysaudio/music/new/cherry.asm"
 INCLUDE "crysaudio/music/new/rocken.asm"
 INCLUDE "crysaudio/music/new/wacky.asm"
 INCLUDE "crysaudio/music/new/safariroute.asm"
+INCLUDE "crysaudio/music/new/beastbattle.asm"
 
 SECTION "New Songs 2", ROMX
 
