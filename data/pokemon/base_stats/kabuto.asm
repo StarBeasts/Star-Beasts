@@ -1,6 +1,6 @@
 	db DEX_KABUTO ; pokedex id
 
-	db  77,  77,  77,  77,  77
+	db  77,  77,  77,  77,  66
 	;   hp  atk  def  spd  spc
 
 	db FLYING, FLYING ; type

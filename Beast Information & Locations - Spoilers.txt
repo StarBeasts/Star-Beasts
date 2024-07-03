@@ -4549,7 +4549,7 @@ Dark / Flying
 HP: 66
 Attack: 66
 Defense: 66
-Special: 66
+Special: 77
 Speed: 66
 
 Location: Revive Fiend Soul at Cinnabar Lab Soul Room (Only one), Cracture Chasm (Only one, if you chose Angel Soul), Safari Zone, Nature Preserve
@@ -4619,7 +4619,7 @@ Flying
 HP: 77
 Attack: 77
 Defense: 77
-Special: 77
+Special: 66
 Speed: 77
 
 Location: Revive Angel Soul at Cinnabar Lab Soul Room (Only one), Cracture Chasm (Only one, if you chose Fiend Soul), Safari Zone, Nature Preserve

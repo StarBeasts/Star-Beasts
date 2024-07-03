@@ -1,6 +1,6 @@
 	db DEX_OMANYTE ; pokedex id
 
-	db  66,  66, 66,  66,  66
+	db  66,  66, 66,  66,  77
 	;   hp  atk  def  spd  spc
 
 	db DARK, FLYING ; type
