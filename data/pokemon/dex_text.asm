@@ -742,7 +742,7 @@ _KabutoDexEntry::
 	next "they lived in"
 	next "harmony with"
 
-	page "mankind, until a"
+	page "humanity, until a"
 	next "terrible cataclysm"
 	next "wiped them out"
 	dex
@@ -808,13 +808,13 @@ _OmanyteDexEntry::
 	dex
 
 _OmastarDexEntry::
-	text "A seemingly benign"
-	next "appearance betrays"
-	next "the incredible"
+	text "Though it may seem"
+	next "benign, the depths"
+	next "of the power of"
 
-	page "depths of both"
-	next "their magical"
-	next "power and cruelty"
+	page "its black magic"
+	next "are surpassed only"
+	next "by its cruelty"
 	dex
 
 _JigglypuffDexEntry::
