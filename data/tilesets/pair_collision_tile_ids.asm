@@ -5,6 +5,7 @@
 
 TilePairCollisionsLand::
 	db CAVERN, $20, $05
+	db CAVERN, $54, $05
 	db CAVERN, $41, $05
 	db FOREST, $30, $2E
 	db CAVERN, $2A, $05
