@@ -17,7 +17,7 @@ RedsHouse2_Coll::
 
 Mart_Coll::
 Pokecenter_Coll::
-	coll_tiles $11, $1a, $1c, $3c, $5e
+	coll_tiles $01, $0c, $1c, $22, $23, $32, $33, $36, $39, $3c, $44, $45, $54, $55, $5e
 
 Dojo_Coll::
 Gym_Coll::
@@ -35,7 +35,7 @@ Gate_Coll::
 	coll_tiles $01, $12, $14, $1a, $1c, $37, $38, $3b, $3c, $5e
 
 Ship_Coll::
-	coll_tiles $04, $0d, $17, $1d, $1e, $23, $34, $37, $39, $4a
+	coll_tiles $02, $03, $04, $0d, $12, $13, $17, $1d, $1e, $23, $2e, $34, $37, $39, $3e, $4a, $52
 
 ShipPort_Coll::
 	coll_tiles $0a, $1a, $32, $3b
@@ -47,7 +47,7 @@ Interior_Coll::
 	coll_tiles $04, $0f, $15, $1f, $3b, $45, $47, $55, $56
 
 Cavern_Coll::
-	coll_tiles $05, $15, $18, $1a, $20, $21, $22, $2a, $2d, $30
+	coll_tiles $05, $15, $18, $1a, $20, $21, $22, $2a, $2d, $30, $44, $45, $4d, $4e, $54, $55, $5d, $5e
 
 	coll_tiles ; unused
 
@@ -67,7 +67,7 @@ Facility_Coll::
 	coll_tiles $01, $10, $11, $13, $1b, $20, $21, $22, $30, $31, $32, $42, $43, $48, $52, $55, $58, $5e
 
 Plateau_Coll::
-	coll_tiles $1b, $23, $2c, $2d, $3b, $45
+	coll_tiles $1b, $23, $2c, $2d, $3b, $45, $46, $4a, $4b, $54, $55, $56, $5a
 
 Overworld2_Coll::
 	coll_tiles $00, $10, $1b, $20, $21, $23, $2c, $2d, $2e, $30, $31, $33, $39, $3c, $3e, $52, $54, $58, $5b

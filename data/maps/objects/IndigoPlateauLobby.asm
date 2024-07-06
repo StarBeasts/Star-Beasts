@@ -11,7 +11,7 @@ IndigoPlateauLobby_Object:
 	def_object_events
 	object_event  7,  5, SPRITE_NURSE, STAY, DOWN, 1 ; person
 	object_event  4,  9, SPRITE_SPEAKO, STAY, DOWN, 2 ; person
-	object_event  5,  1, SPRITE_COOLTRAINER_F, STAY, DOWN, 3 ; person
+	object_event  2,  1, SPRITE_COOLTRAINER_F, STAY, DOWN, 3 ; person
 	object_event  0,  5, SPRITE_CLERK, STAY, RIGHT, 4 ; person
 	object_event 13,  6, SPRITE_LINK_RECEPTIONIST, STAY, DOWN, 5 ; person
 	object_event 8,  5, SPRITE_YINYANG, STAY, DOWN, 6 ; person

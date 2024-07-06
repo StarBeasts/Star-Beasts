@@ -52,4 +52,4 @@ ENDM
 	door_tiles $43, $58, $1b
 
 .PlateauDoorTileIDs:
-	door_tiles $3b, $1b
+	door_tiles $3b, $1b, $46, $56
