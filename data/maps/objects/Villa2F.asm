@@ -14,7 +14,7 @@ Villa2F_Object:
 	bg_event  1,  1, 9 ; Villa2FText9
 
 	def_object_events
-	object_event  5,  4, SPRITE_POKE_BALL, STAY, RIGHT, 1 ; item
+	object_event  5,  4, SPRITE_CHEST, STAY, RIGHT, 1 ; item
 	object_event  2,  0, SPRITE_YETI,	STAY, DOWN, 2; doll
 	object_event  3,  0, SPRITE_SEEL,    STAY, DOWN, 3; doll
 	object_event  5,  7, SPRITE_LORELEI, STAY, DOWN, 4, OPP_LORELEI, 2
