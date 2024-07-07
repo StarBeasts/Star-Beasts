@@ -34,4 +34,6 @@ Tilesets:
 	tileset Facility,    $12, -1, -1,  -1, TILEANIM_WATER
 	tileset Plateau,      -1, -1, -1, $45, TILEANIM_WATER
 	tileset Overworld2,    -1, -1, -1, $52, TILEANIM_WATER_FLOWER
+	tileset School,        -1, -1, -1,  -1, TILEANIM_NONE
+	tileset Powerplant,    -1, -1, -1,  -1, TILEANIM_NONE
 	assert_table_length NUM_TILESETS

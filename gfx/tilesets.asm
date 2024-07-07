@@ -7,10 +7,10 @@ House_GFX::         INCBIN "gfx/tilesets/house.2bpp"
 House_Block::       INCBIN "gfx/blocksets/house.bst"
 Mansion_GFX::       INCBIN "gfx/tilesets/mansion.2bpp"
 Mansion_Block::     INCBIN "gfx/blocksets/mansion.bst"
+ShipPort_GFX::      INCBIN "gfx/tilesets/ship_port.2bpp"
+ShipPort_Block::    INCBIN "gfx/blocksets/ship_port.bst"
 Interior_GFX::      INCBIN "gfx/tilesets/interior.2bpp"
 Interior_Block::    INCBIN "gfx/blocksets/interior.bst"
-Plateau_GFX::       INCBIN "gfx/tilesets/plateau.2bpp"
-Plateau_Block::     INCBIN "gfx/blocksets/plateau.bst"
 
 
 SECTION "Tilesets 2", ROMX
@@ -32,8 +32,9 @@ ForestGate_Block::
 Museum_Block::
 Gate_Block::        INCBIN "gfx/blocksets/gate.bst"
 
-Facility_GFX::      INCBIN "gfx/tilesets/facility.2bpp"
-Facility_Block::    INCBIN "gfx/blocksets/facility.bst"
+Forest_GFX::        INCBIN "gfx/tilesets/forest.2bpp"
+Forest_Block::      INCBIN "gfx/blocksets/forest.bst"
+
 
 
 SECTION "Tilesets 3", ROMX
@@ -55,15 +56,24 @@ SECTION "Tilesets 4", ROMX
 
 Overworld2_GFX::    INCBIN "gfx/tilesets/overworld2.2bpp"
 Overworld2_Block::  INCBIN "gfx/blocksets/overworld2.bst"
-ShipPort_GFX::      INCBIN "gfx/tilesets/ship_port.2bpp"
-ShipPort_Block::    INCBIN "gfx/blocksets/ship_port.bst"
+
+
+SECTION "Tilesets 5", ROMX
+
 RedsHouse1_GFX::
 RedsHouse2_GFX::    INCBIN "gfx/tilesets/reds_house.2bpp"
 RedsHouse1_Block::
 RedsHouse2_Block::  INCBIN "gfx/blocksets/reds_house.bst"
+Plateau_GFX::       INCBIN "gfx/tilesets/plateau.2bpp"
+Plateau_Block::     INCBIN "gfx/blocksets/plateau.bst"
+Facility_GFX::      INCBIN "gfx/tilesets/facility.2bpp"
+Facility_Block::    INCBIN "gfx/blocksets/facility.bst"
+
+
+SECTION "Tileset 6", ROMX
+School_GFX::          INCBIN "gfx/tilesets/school.2bpp"
+School_Block::        INCBIN "gfx/blocksets/school.bst"
+Powerplant_GFX::      INCBIN "gfx/tilesets/powerplant.2bpp"
+Powerplant_Block::    INCBIN "gfx/blocksets/powerplant.bst"
 Cavern_GFX::        INCBIN "gfx/tilesets/cavern.2bpp"
 Cavern_Block::      INCBIN "gfx/blocksets/cavern.bst"
-Forest_GFX::        INCBIN "gfx/tilesets/forest.2bpp"
-Forest_Block::      INCBIN "gfx/blocksets/forest.bst"
-
-

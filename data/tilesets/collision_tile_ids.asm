@@ -6,7 +6,7 @@ MACRO coll_tiles
 ENDM
 
 Underground_Coll::
-	coll_tiles $0b, $0c, $13, $15, $18
+	coll_tiles $0b, $0c, $13, $15, $18, $1d
 
 Overworld_Coll::
 	coll_tiles $00, $03, $09, $0d, $10, $1b, $1d, $20, $21, $25, $26, $28, $29, $2c, $2d, $2e, $30, $31, $33, $39, $3c, $3e, $52, $54, $58, $5b, $5e, $5f
@@ -32,7 +32,7 @@ House_Coll::
 ForestGate_Coll::
 Museum_Coll::
 Gate_Coll::
-	coll_tiles $01, $12, $14, $1a, $1c, $37, $38, $3b, $3c, $5e
+	coll_tiles $01, $04, $05, $06, $12, $14, $15, $16, $1a, $1c, $37, $38, $3b, $3c, $5e
 
 Ship_Coll::
 	coll_tiles $02, $03, $04, $0d, $12, $13, $17, $1d, $1e, $23, $2e, $34, $37, $39, $3e, $4a, $52
@@ -67,11 +67,14 @@ Facility_Coll::
 	coll_tiles $01, $10, $11, $13, $1b, $20, $21, $22, $30, $31, $32, $42, $43, $48, $52, $55, $58, $5e
 
 Plateau_Coll::
-	coll_tiles $1b, $23, $2c, $2d, $3b, $45, $46, $4a, $4b, $54, $55, $56, $5a
+	coll_tiles $1b, $23, $2c, $2d, $3b, $45, $46, $48, $4a, $4b, $54, $55, $56
 
 Overworld2_Coll::
 	coll_tiles $00, $10, $1b, $20, $21, $23, $2c, $2d, $2e, $30, $31, $33, $39, $3c, $3e, $52, $54, $58, $5b
 
-School_Coll::
 Powerplant_Coll::
+	coll_tiles $01, $10, $11, $20, $21, $30, $31, $40, $41, $42, $43, $44, $52, $53, $54
+
+School_Coll::
 	coll_tiles
+
