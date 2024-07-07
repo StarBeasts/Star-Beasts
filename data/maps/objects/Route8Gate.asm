@@ -2,10 +2,10 @@ Route8Gate_Object:
 	db $a ; border block
 
 	def_warp_events
-	warp_event  0,  3, LAST_MAP, 1
-	warp_event  0,  4, LAST_MAP, 2
-	warp_event  5,  3, LAST_MAP, 3
-	warp_event  5,  4, LAST_MAP, 4
+	warp_event  0,  3, SAFFRON_CITY, 13
+	warp_event  0,  4, SAFFRON_CITY, 13
+	warp_event  5,  3, ROUTE_8, 3
+	warp_event  5,  4, ROUTE_8, 4
 
 	def_bg_events
 

@@ -10,18 +10,23 @@ SaffronCity_Object:
 	warp_event 18, 21, SILPH_CO_1F, 1
 	warp_event  9, 29, SAFFRON_POKECENTER, 1
 	warp_event 29, 29, MR_PSYCHICS_HOUSE, 1
+	warp_event 20,  5, ROUTE_5_GATE, 1
+	warp_event  2, 19, ROUTE_7_GATE, 3
+	warp_event 19, 31, ROUTE_6_GATE, 3
+	warp_event 20, 31, ROUTE_6_GATE, 4
+	warp_event 37, 19, ROUTE_8_GATE, 1
 
 	def_bg_events
 	bg_event 17,  5, 16 ; SaffronCityText16
 	bg_event 27,  5, 17 ; SaffronCityText17
 	bg_event 35,  5, 18 ; SaffronCityText18
 	bg_event 26, 11, 19 ; MartSignText
-	bg_event 39, 19, 20 ; SaffronCityText20
+	bg_event 35, 19, 20 ; SaffronCityText20
 	bg_event  5, 21, 21 ; SaffronCityText21
 	bg_event 15, 21, 22 ; SaffronCityText22
 	bg_event 10, 29, 23 ; PokeCenterSignText
 	bg_event 27, 29, 24 ; SaffronCityText24
-	bg_event  1, 19, 25 ; SaffronCityText25
+	bg_event  4, 19, 25 ; SaffronCityText25
 
 	def_object_events
 	object_event  7,  6, SPRITE_ROCKET, STAY, NONE, 1 ; person

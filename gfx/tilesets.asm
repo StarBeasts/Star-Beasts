@@ -71,9 +71,9 @@ Facility_Block::    INCBIN "gfx/blocksets/facility.bst"
 
 
 SECTION "Tileset 6", ROMX
-School_GFX::          INCBIN "gfx/tilesets/school.2bpp"
-School_Block::        INCBIN "gfx/blocksets/school.bst"
 Powerplant_GFX::      INCBIN "gfx/tilesets/powerplant.2bpp"
 Powerplant_Block::    INCBIN "gfx/blocksets/powerplant.bst"
 Cavern_GFX::        INCBIN "gfx/tilesets/cavern.2bpp"
 Cavern_Block::      INCBIN "gfx/blocksets/cavern.bst"
+SaffronTileset_GFX::        INCBIN "gfx/tilesets/saffrontileset.2bpp"
+SaffronTileset_Block::      INCBIN "gfx/blocksets/saffrontileset.bst"

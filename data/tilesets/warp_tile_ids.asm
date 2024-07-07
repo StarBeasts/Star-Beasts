@@ -25,8 +25,8 @@ WarpTileIDPointers:
 	dw .FacilityWarpTileIDs
 	dw .PlateauWarpTileIDs
 	dw .Overworld2WarpTileIDs
-	dw .SchoolWarpTileIDs
 	dw .PowerplantWarpTileIDs
+	dw .SaffronTilesetWarpTileIDs
 	assert_table_length NUM_TILESETS
 
 MACRO warp_tiles
@@ -87,7 +87,7 @@ ENDM
 	db $1B
 	; fallthrough
 .UndergroundWarpTileIDs:
-	warp_tiles $13
+	warp_tiles $13, $1d
 
 .PlateauWarpTileIDs:
 	db $1B, $3B
@@ -98,6 +98,9 @@ ENDM
 .Overworld2WarpTileIDs:
 	warp_tiles $1B, $58
 
-.SchoolWarpTileIDs
+.SaffronTilesetWarpTileIDs
+	warp_tiles $01
+
 .PowerplantWarpTileIDs
 	warp_tiles ; end
+

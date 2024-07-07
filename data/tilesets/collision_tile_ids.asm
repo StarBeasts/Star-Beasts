@@ -75,6 +75,9 @@ Overworld2_Coll::
 Powerplant_Coll::
 	coll_tiles $01, $10, $11, $20, $21, $30, $31, $40, $41, $42, $43, $44, $52, $53, $54
 
+SaffronTileset_Coll::
+	coll_tiles $01, $0d, $0e, $12, $1b, $1d, $1e, $20, $22, $2c, $2d, $2e, $2f, $3c, $3d, $3e, $3f, $54
+
 School_Coll::
 	coll_tiles
 

@@ -26,6 +26,6 @@
 	const FACILITY     ; 22
 	const PLATEAU      ; 23
 	const OVERWORLD_2  ; 24
-	const SCHOOL
 	const POWERPLANT_TILESET
+	const SAFFRONTILESET
 DEF NUM_TILESETS EQU const_value
