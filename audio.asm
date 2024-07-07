@@ -518,6 +518,7 @@ INCLUDE "crysaudio/music/new/pissypamper.asm"
 INCLUDE "crysaudio/music/new/oceanwinter.asm"
 INCLUDE "crysaudio/music/new/routenew.asm"
 INCLUDE "crysaudio/music/new/hotdrinks.asm"
+INCLUDE "crysaudio/music/new/quietwater.asm"
 
 SECTION "New Songs 4", ROMX
 

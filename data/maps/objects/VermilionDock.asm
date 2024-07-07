@@ -6,6 +6,8 @@ VermilionDock_Object:
 	warp_event 14,  2, SS_ANNE_1F, 2
 
 	def_bg_events
+	bg_event  21,  0, 1 ; VermilionDockText1
+	bg_event  20,  0, 1 ; VermilionDockText1
 
 	def_object_events
 

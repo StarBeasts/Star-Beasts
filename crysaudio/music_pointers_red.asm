@@ -36,7 +36,7 @@ Music:
 	dba Music_Cherry ; loops semi-properly
 	dba Music_Rocken ; doesn't need to loop
 	dba Music_MobileAdapter
-	dba Music_Surf
+	dba Music_QuietWater
 	dba Music_Club1
 	dba Music_Wacky ; intro ditty, doesn't need to loop
 	dba Music_GRCastle
