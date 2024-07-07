@@ -728,7 +728,10 @@ CheckIfInOutsideMap::
 	ld a, [wCurMapTileset]
 	and a ; most towns/routes have tileset 0 (OVERWORLD)
 	ret z
+	cp SAFFRONTILESET
+	jr z, .Finish
 	cp PLATEAU ; Route 23 / Indigo Plateau
+.Finish
 	ret
 
 ; this function is an extra check that sometimes has to pass in order to warp, beyond just standing on a warp
@@ -757,6 +760,8 @@ ExtraWarpCheck::
 	cp SHIP_PORT ; Vermilion Port tileset
 	jr z, .useFunction2
 	cp PLATEAU ; Indigo Plateau tileset
+	jr z, .useFunction2
+	cp SAFFRONTILESET
 	jr z, .useFunction2
 .useFunction1
 	ld hl, IsPlayerFacingEdgeOfMap
