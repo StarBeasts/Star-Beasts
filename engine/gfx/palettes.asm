@@ -209,7 +209,7 @@ SetPal_Overworld:
 	xor a
 	jr .town
 .invertColors
-	ld a, PAL_VIRIDWOOD - 1
+	ld a, PAL_GREENMON - 1
 	jr .town
 .mewMon
 	ld a, PAL_GREYMON - 1
