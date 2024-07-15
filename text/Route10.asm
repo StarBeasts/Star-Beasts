@@ -59,7 +59,8 @@ _Route10BattleText4::
 
 _Route10EndBattleText4::
 	text "Ohh!"
-	line "Darnit, not again!"
+	line "Darnit,"
+	cont "not again!"
 	prompt
 
 _Route10AfterBattleText4::

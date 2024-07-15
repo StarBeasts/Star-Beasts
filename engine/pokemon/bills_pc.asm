@@ -121,7 +121,7 @@ BillsPCMenu:
 	call LoadScreenTilesFromBuffer2DisableBGTransfer
 	hlcoord 0, 0
 	ld b, 10
-	ld c, 13
+	ld c, 14
 	call TextBoxBorder
 	hlcoord 2, 2
 	ld de, BillsPCMenuText
