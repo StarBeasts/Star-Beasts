@@ -29,26 +29,23 @@ GetItemName::
 ;     starting at wcd6d
 	push hl
 	push bc
-	ld a, [wd11e]
-	cp HM01 ; is this a TM/HM?
-	jr nc, .Machine
-
-	ld [wd0b5], a
+; initialize to `ITEM_NAME`
 	ld a, ITEM_NAME
 	ld [wNameListType], a
-	ld a, BANK(ItemNames)
-	ld [wPredefBank], a
-	call GetName
-	jr .Finish
 
-.Machine
+	ld a, [wd11e]
 	ld [wd0b5], a
+	cp HM01 ; is this a TM/HM?
+	ld a, BANK(ItemNames)
+	jr c, .notMachine
+; switch to `TMHM_NAME` if we have a TM/HM
 	ld a, TMHM_NAME
 	ld [wNameListType], a
 	ld a, BANK(tmhmNames)
+.notMachine
 	ld [wPredefBank], a
 	call GetName
-.Finish
+
 	ld de, wcd6d ; pointer to where item name is stored in RAM
 	pop bc
 	pop hl

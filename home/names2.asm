@@ -13,10 +13,19 @@ GetName::
 ; [wd0b5] = which name
 ; [wNameListType] = which list
 ; [wPredefBank] = bank of list
-;
+
 ; returns pointer to name in de
 	ld a, [wd0b5]
 	ld [wd11e], a
+	cp HM01
+	jr c, .notMachine ; not a TM or HM so skip 
+	
+	sub $C3	;need to shift things because tm and hm constants are offset by +$C3 from the first item constant
+	ld [wd0b5], a
+	ld a, TMHM_NAME
+	ld [wNameListType], a
+
+.notMachine
 
 	; TM names are separate from item names.
 	; BUG: This applies to all names instead of just items.
@@ -26,14 +35,6 @@ GetName::
 		"A bug in GetName will get TM/HM names for moves above ${x:HM01}."
 	ASSERT NUM_TRAINERS < HM01, \
 		"A bug in GetName will get TM/HM names for trainers above ${x:HM01}."
-	cp HM01
-	;jp nc, GetMachineName	;joenote - function removed. Handle list-based tm & hm names here.
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-	jr c, .notMachine
-	sub $C3	;need to shift things because tm and hm constants are offset by +$C3 from the first item constant
-	ld [wd0b5], a
-.notMachine
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 	ldh a, [hLoadedROMBank]
 	push af

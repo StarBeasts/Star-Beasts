@@ -141,6 +141,14 @@ DisplayListMenuIDLoop::
 .skipGettingQuantity
 	ld a, [wcf91]
 	ld [wd0b5], a
+;;; (Xillicis) - Change `wNameListType` to account for the two different item types.
+	cp HM01
+	ld a, ITEM_NAME
+	jr c, .notMachine
+	ld a, TMHM_NAME
+.notMachine
+	ld [wNameListType], a
+;;;
 	ld a, BANK(ItemNames)
 	ld [wPredefBank], a
 	call GetName
