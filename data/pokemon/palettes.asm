@@ -152,5 +152,5 @@ MonsterPalettes:
 	db PAL_GREYMON  ; DRAGONITE
 	db PAL_MEWMON    ; MEWTWO
 	db PAL_CYANMON    ; MEW
-	db PAL_GREY    ; SARPAL
+	db PAL_PURPLEANDRED    ; SARPAL
 	assert_table_length NUM_POKEMON + 1

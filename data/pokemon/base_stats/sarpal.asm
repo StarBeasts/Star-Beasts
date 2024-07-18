@@ -1,16 +1,16 @@
 	db DEX_SARPAL ; pokedex id
 
-	db 130,  85,  80,  60,  95
+	db  38,  78,  32,  68,  34
 	;   hp  atk  def  spd  spc
 
-	db WATER, BIRD ; type
-	db 255 ; catch rate
-	db 219 ; base exp
+	db BIRD, BIRD ; type
+	db 45 ; catch rate
+	db 65 ; base exp
 
 	INCBIN "gfx/pokemon/front/sarpal.pic", 0, 1 ; sprite dimensions
 	dw SarpalPicFront, SarpalPicBack
 
-	db WATER_GUN, EMBER, NO_MOVE, NO_MOVE ; level 1 learnset
+	db BARRAGE, ACID, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
