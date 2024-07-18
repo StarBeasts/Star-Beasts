@@ -298,13 +298,23 @@ _TangelaDexEntry::
 	dex
 
 _SarpalDexEntry::
-	text "she is going to"
-	next "kick ass, your"
-	next "ass specifically"
+	text "try to catch try"
+	next "try to catch try"
+	next "ry to catch try to"
 
-	page "because it can"
-	next "and will explode"
-	next "without warning"
+	page "to catch try catch"
+	next "Hurry, get away!"
+	next "makes me itchy"
+	dex
+
+_HelpmeDexEntry::
+	text "the pain... HELP"
+	next "<PLAYER>...  ME"
+	next "it hurts..."
+
+	page "make it stop PLEASE"
+	next "<PLAYER>..."
+	next "please make it stop"
 	dex
 
 _GrowlitheDexEntry::
@@ -475,6 +485,18 @@ _GolemDexEntry::
 	page "guitar, but it"
 	next "usually prefers to"
 	next "just rock out"
+	dex
+
+_PleaseDexEntry::
+	text "AAAAAAAAAAAAAAAAAAAA"
+	next "AAAAAAAAAAAAAAAAAAAA"
+	next "AAAAAAAAAAAAAAAAAAAA"
+
+	page "AAAAAAAAAAAAAAAAAAAA"
+	next "AAAAAAAAAAAAAAAAAAAA"
+	next "AAAAAAAAAAAAAAAAAAAA"
+
+	page ""
 	dex
 
 _MagmarDexEntry::

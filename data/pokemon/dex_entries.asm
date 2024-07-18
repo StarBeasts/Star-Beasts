@@ -31,7 +31,7 @@ PokedexEntryPointers:
 	dw PinsirDexEntry
 	dw TangelaDexEntry
 	dw SarpalDexEntry
-	dw MissingNoDexEntry
+	dw HelpmeDexEntry
 	dw GrowlitheDexEntry
 	dw OnixDexEntry
 	dw FearowDexEntry
@@ -49,7 +49,7 @@ PokedexEntryPointers:
 	dw PsyduckDexEntry
 	dw DrowzeeDexEntry
 	dw GolemDexEntry
-	dw MissingNoDexEntry
+	dw PleaseDexEntry
 	dw MagmarDexEntry
 	dw MissingNoDexEntry
 	dw ElectabuzzDexEntry
@@ -407,10 +407,17 @@ TangelaDexEntry:
 	text_end
 
 SarpalDexEntry:
-	db "ANOMALY@"
-	db 3,7
-	dw 1120
+	db "SILVER@"
+	db 48,49
+	dw 6464
 	text_far _SarpalDexEntry
+	text_end
+
+HelpmeDexEntry:
+	db "<PLAYER>@"
+	db 99,99
+	dw 9999
+	text_far _HelpmeDexEntry
 	text_end
 
 GrowlitheDexEntry:
@@ -530,6 +537,13 @@ GolemDexEntry:
 	db 4,3
 	dw 4360
 	text_far _GolemDexEntry
+	text_end
+
+PleaseDexEntry:
+	db "AAAAAAAAAA@"
+	db 11,11
+	dw 1111
+	text_far _PleaseDexEntry
 	text_end
 
 MagmarDexEntry:

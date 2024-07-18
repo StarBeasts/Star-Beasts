@@ -152,4 +152,6 @@ MonPartyData:
 	nybble ICON_MON       ; Mewtwo
 	nybble ICON_QUADRUPED ; Mew
 	nybble ICON_BUG ; Sarpal
+	nybble ICON_BUG ; Helpme
+	nybble ICON_BUG ; Please
 	end_nybble_array NUM_POKEMON

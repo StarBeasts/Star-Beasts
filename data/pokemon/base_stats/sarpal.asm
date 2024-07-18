@@ -11,20 +11,20 @@
 	dw SarpalPicFront, SarpalPicBack
 
 	db BARRAGE, ACID, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm HURRICANE,   \
+	tmhm FALCON_PUNCH,   HURRICANE,   SWORDS_DANCE, DRAGON_CLAW,    \
 	     TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
-	     COUNTER, \
-	     SOLARBEAM,    DRAGONBREATH,  THUNDERBOLT,  THUNDER,      \
 	      \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
-	     SELFDESTRUCT, FIRE_BLAST,   SWIFT,           \
-	     REST,         THUNDER_WAVE, \
-	     EXPLOSION,    TRI_ATTACK,   SUBSTITUTE,   \
-	     SURF,         STRENGTH,     FLASH
+	     PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, SHADOW_CLAW,         \
+	     DRAGONBREATH,     \
+	     EARTHQUAKE,   FISSURE,      DIG,           \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
+	     EGG_BOMB,     SWIFT,        SKULL_BASH,   \
+	     SOFTBOILED,   SKY_ATTACK,   REST, \
+	     TRI_ATTACK,   SUBSTITUTE,   \
+	     CUT,          FLY,          STRENGTH,     FLASH
 	; end
 
 	db BANK(SarpalPicFront)

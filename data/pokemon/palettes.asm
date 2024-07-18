@@ -153,4 +153,6 @@ MonsterPalettes:
 	db PAL_MEWMON    ; MEWTWO
 	db PAL_CYANMON    ; MEW
 	db PAL_PURPLEANDRED    ; SARPAL
+	db PAL_PURPLEANDRED    ; HELPME
+	db PAL_PURPLEANDRED    ; PLEASE
 	assert_table_length NUM_POKEMON + 1

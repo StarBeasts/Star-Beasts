@@ -34,7 +34,7 @@ EvosMovesPointerTable:
 	dw PinsirEvosMoves
 	dw TangelaEvosMoves
 	dw SarpalEvosMoves
-	dw MissingNo20EvosMoves
+	dw HelpmeEvosMoves
 	dw GrowlitheEvosMoves
 	dw OnixEvosMoves
 	dw FearowEvosMoves
@@ -52,7 +52,7 @@ EvosMovesPointerTable:
 	dw PsyduckEvosMoves
 	dw DrowzeeEvosMoves
 	dw GolemEvosMoves
-	dw MissingNo32EvosMoves
+	dw PleaseEvosMoves
 	dw MagmarEvosMoves
 	dw MissingNo34EvosMoves
 	dw ElectabuzzEvosMoves
@@ -572,19 +572,27 @@ TangelaEvosMoves:
 
 SarpalEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 14, HELPME
 	db 0
 ; Learnset
-	db 28, THUNDER_WAVE
-	db 30, SELFDESTRUCT
-	db 36, THUNDERBOLT
-	db 40, EXPLOSION
-	db 52, FLASH_CANNON
+	db 14, BUG_BITE
+	db 20, CRUNCH
+	db 26, SCREECH
+	db 32, SKY_ATTACK
+	db 38, REST
 	db 0
 
-MissingNo20EvosMoves:
+HelpmeEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 38, PLEASE
 	db 0
 ; Learnset
+	db 14, BUG_BITE
+	db 20, SLUDGE
+	db 26, CRUNCH
+	db 32, SCREECH
+	db 38, SKY_ATTACK
+	db 46, REST
 	db 0
 
 GrowlitheEvosMoves:
@@ -798,11 +806,19 @@ GolemEvosMoves:
 	db 50, ROCK_OUT
 	db 0
 
-MissingNo32EvosMoves:
+PleaseEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 14, BUG_BITE
+	db 20, SLUDGE
+	db 26, CRUNCH
+	db 32, SCREECH
+	db 38, WATER_GUN
+	db 46, SKY_ATTACK
+	db 52, REST
 	db 0
+
 
 MagmarEvosMoves:
 ; Evolutions
