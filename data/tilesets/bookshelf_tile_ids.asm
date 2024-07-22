@@ -15,10 +15,10 @@ BookshelfTileIDs:
 	bookshelf_tile GYM,          $1D, BookOrSculptureText
 	bookshelf_tile DOJO,         $1D, BookOrSculptureText
 	bookshelf_tile GATE,         $22, BookOrSculptureText
-	bookshelf_tile MART,         $54, PokemonStuffText
-	bookshelf_tile MART,         $55, PokemonStuffText
-	bookshelf_tile POKECENTER,   $54, PokemonStuffText
-	bookshelf_tile POKECENTER,   $55, PokemonStuffText
+	bookshelf_tile MART,         $4e, PokemonStuffText
+	bookshelf_tile MART,         $50, PokemonStuffText
+	bookshelf_tile POKECENTER,   $4e, PokemonStuffText
+	bookshelf_tile POKECENTER,   $50, PokemonStuffText
 	bookshelf_tile LOBBY,        $50, PokemonStuffText
 	bookshelf_tile LOBBY,        $52, PokemonStuffText
 	bookshelf_tile SHIP,         $36, BookOrSculptureText
