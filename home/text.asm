@@ -17,11 +17,11 @@ TextBoxBorder::
 	; middle rows
 .next
 	push hl
-	ld a, "│"
+	ld a, "│1"
 	ld [hli], a
 	ld a, " "
 	call .PlaceChars
-	ld [hl], "│"
+	ld [hl], "│2"
 	pop hl
 
 	ld de, SCREEN_WIDTH
@@ -32,7 +32,7 @@ TextBoxBorder::
 	; bottom row
 	ld a, "└"
 	ld [hli], a
-	ld a, "─"
+	ld a, "─2"
 	call .PlaceChars
 	ld [hl], "┘"
 	ret

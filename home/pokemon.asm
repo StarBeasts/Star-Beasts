@@ -1,4 +1,23 @@
-DrawHPBar::
+DrawHPBarHudless::
+; Draw an HP bar d tiles long, and fill it to e pixels.
+; If c is nonzero, show at least a sliver regardless.
+; The right end of the bar changes with [wHPBarType].
+
+	push hl
+	push de
+	push bc
+	push hl
+
+	; Middle
+	ld a, $63 ; empty
+.draw
+	ld [hli], a
+	dec d
+	jr nz, .draw
+
+	jp ContinueDrawingHPBar
+
+DrawEnemyHPBar::
 ; Draw an HP bar d tiles long, and fill it to e pixels.
 ; If c is nonzero, show at least a sliver regardless.
 ; The right end of the bar changes with [wHPBarType].
@@ -8,9 +27,7 @@ DrawHPBar::
 	push bc
 
 	; Left
-	ld a, $71 ; "HP:"
-	ld [hli], a
-	ld a, $62
+	ld a, $cc
 	ld [hli], a
 
 	push hl
@@ -25,12 +42,39 @@ DrawHPBar::
 	; Right
 	ld a, [wHPBarType]
 	dec a
-	ld a, $6d ; status screen and battle
-	jr z, .ok
-	dec a ; pokemon menu
-.ok
+	ld a, $cb ; status screen and battle
+	ld [hl], a
+	jp ContinueDrawingHPBar
+
+DrawHPBar::
+; Draw an HP bar d tiles long, and fill it to e pixels.
+; If c is nonzero, show at least a sliver regardless.
+; The right end of the bar changes with [wHPBarType].
+
+	push hl
+	push de
+	push bc
+
+	; Left
+	ld a, $c9
+	ld [hli], a
+
+	push hl
+
+	; Middle
+	ld a, $63 ; empty
+.draw
+	ld [hli], a
+	dec d
+	jr nz, .draw
+
+	; Right
+	ld a, [wHPBarType]
+	dec a
+	ld a, $ca ; status screen and battle
 	ld [hl], a
 
+ContinueDrawingHPBar::
 	pop hl
 
 	ld a, e

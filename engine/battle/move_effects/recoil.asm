@@ -53,7 +53,7 @@ RecoilEffect_:
 	ld [hli], a
 	ld [hl], a
 .getHPBarCoords
-	hlcoord 10, 9
+	hlcoord 12, 9
 	ldh a, [hWhoseTurn]
 	and a
 	ld a, $1

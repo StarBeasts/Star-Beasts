@@ -90,11 +90,11 @@ StatusScreen:
 	lb bc, BANK(BattleHudTiles1), 3
 	call CopyVideoDataDouble ; ·│ :L and halfarrow line end
 	ld de, BattleHudTiles2
-	ld hl, vChars2 tile $78
+	ld hl, vChars2 tile $6c
 	lb bc, BANK(BattleHudTiles2), 1
 	call CopyVideoDataDouble ; │
 	ld de, BattleHudTiles3
-	ld hl, vChars2 tile $76
+	ld hl, vChars2 tile $75
 	lb bc, BANK(BattleHudTiles3), 2
 	call CopyVideoDataDouble ; ─ ┘
 	ldh a, [hTileAnimations]
@@ -226,14 +226,14 @@ OKText:
 DrawLineBox:
 	ld de, SCREEN_WIDTH ; New line
 .PrintVerticalLine
-	ld [hl], $78 ; │
+	ld [hl], $6c ; │
 	add hl, de
 	dec b
 	jr nz, .PrintVerticalLine
-	ld [hl], $77 ; ┘
+	ld [hl], $76 ; ┘
 	dec hl
 .PrintHorizLine
-	ld [hl], $76 ; ─
+	ld [hl], $75 ; ─
 	dec hl
 	dec c
 	jr nz, .PrintHorizLine
@@ -307,7 +307,7 @@ StatusScreen2:
 	lb bc, 5, 10
 	call ClearScreenArea ; Clear under name
 	hlcoord 19, 3
-	ld [hl], $78
+	ld [hl], $6c
 	hlcoord 0, 8
 	ld b, 8
 	ld c, 18
@@ -426,7 +426,7 @@ StatusScreen2:
 	ldh [hTileAnimations], a
 	ld hl, wd72c
 	res 1, [hl]
-	ld a, $77
+	ld a, $76
 	ldh [rNR50], a
 	call GBPalWhiteOut
 	jp ClearScreen

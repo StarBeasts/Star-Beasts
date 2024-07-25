@@ -373,7 +373,7 @@ AnimateEXPBarAgain:
 	ret nz
 	xor a
 	ld [wEXPBarPixelLength], a
-	coord hl, 17, 11
+	coord hl, 18, 11
 	ld a, $c0
 	ld c, $08
 .loop
@@ -397,7 +397,7 @@ AnimateEXPBar:
 	jr z, .done
 	ld b, a
 	ld c, $08
-	coord hl, 17, 11
+	coord hl, 18, 11
 .loop1
 	ld a, [hl]
 	cp $c8

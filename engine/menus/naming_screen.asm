@@ -405,7 +405,7 @@ PrintNicknameAndUnderscores:
 	ld b, $0
 	hlcoord 10, 3
 	add hl, bc
-	ld [hl], $77 ; raised underscore tile id
+	ld [hl], $d2 ; raised underscore tile id
 	ret
 
 
@@ -439,9 +439,6 @@ PrintNamingText:
 	call GetMonName
 	hlcoord 4, 1
 	call PlaceString
-	ld hl, $1
-	add hl, bc
-	ld [hl], "の" ; leftover from Japanese version; blank tile $c9 in English
 	hlcoord 1, 3
 	ld de, NicknameTextString
 	jr .placeString

@@ -71,7 +71,7 @@ DrainHPEffect_:
 .next
 	ldh a, [hWhoseTurn]
 	and a
-	hlcoord 10, 9
+	hlcoord 12, 9
 	ld a, $1
 	jr z, .next2
 	hlcoord 2, 2

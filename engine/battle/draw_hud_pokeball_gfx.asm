@@ -117,28 +117,28 @@ WritePokeballOAMData:
 	ret
 
 PlacePlayerHUDTiles:
-	ld hl, PlayerBattleHUDGraphicsTiles
-	ld de, wHUDGraphicsTiles
-	ld bc, $3
-	call CopyData
-	hlcoord 18, 10
-	ld de, -1
-	jr PlaceHUDTiles
-
-PlayerBattleHUDGraphicsTiles:
-; The tile numbers for specific parts of the battle display for the player's pokemon
-	db $73 ; unused ($73 is hardcoded into the routine that uses these bytes)
-	db $77 ; lower-right corner tile of the HUD
-	db $6F ; lower-left triangle tile of the HUD
+	ld a, $d4 ; upper left border
+	ldcoord_a 10, 9
+	ld a, $d6 ; upper left border
+	ldcoord_a 17, 9
+	ld a, $d7 ; upper left border
+	ldcoord_a 17, 10
+	hlcoord 11, 9
+	ld de, 1
+	lb bc, $d5, 6
+	jp DrawTileLineBattle ; draw top border
 
 PlaceEnemyHUDTiles:
-	ld hl, EnemyBattleHUDGraphicsTiles
-	ld de, wHUDGraphicsTiles
-	ld bc, $3
-	call CopyData
-	hlcoord 1, 2
-	ld de, $1
-	jr PlaceHUDTiles
+	ld a, $d0 ; upper left border
+	ldcoord_a 02, 02
+	ld a, $d1 ; upper left border
+	ldcoord_a 02, 01
+	ld a, $d3 ; upper left border
+	ldcoord_a 09, 01
+	hlcoord 03, 01
+	ld de, 1
+	lb bc, $d2, 6
+	jp DrawTileLineBattle ; draw top border
 
 EnemyBattleHUDGraphicsTiles:
 ; The tile numbers for specific parts of the battle display for the enemy
@@ -185,6 +185,18 @@ SetupPlayerAndEnemyPokeballs:
 	ld [hl], $68
 	ld hl, wShadowOAMSprite06
 	jp WritePokeballOAMData
+
+DrawTileLineBattle:
+	push bc
+	push de
+.loop
+	ld [hl], b
+	add hl, de
+	dec c
+	jr nz, .loop
+	pop de
+	pop bc
+	ret
 
 ; four tiles: pokeball, black pokeball (status ailment), crossed out pokeball (fainted) and pokeball slot (no mon)
 PokeballTileGraphics::

@@ -676,7 +676,7 @@ HandlePoisonBurnLeechSeed_IncreaseEnemyHP:
 	ret
 
 UpdateCurMonHPBar:
-	hlcoord 10, 9    ; tile pointer to player HP bar
+	hlcoord 12, 9    ; tile pointer to player HP bar
 	ldh a, [hWhoseTurn]
 	and a
 	ld a, $1
@@ -1843,12 +1843,11 @@ DrawPlayerHUDAndHPBar:
 	hlcoord 9, 7
 	lb bc, 5, 11
 	call ClearScreenArea
-	callfar PlacePlayerHUDTiles
 	hlcoord 18, 9
 	ld [hl], $73
 	ld de, wBattleMonNick
 	hlcoord 10, 7
-	call CenterMonName
+;	call CenterMonName
 	call PlaceString
 	call PrintEXPBar
 	ld hl, wBattleMonSpecies
@@ -1859,7 +1858,7 @@ DrawPlayerHUDAndHPBar:
 	ld de, wLoadedMonLevel
 	ld bc, wBattleMonPP - wBattleMonLevel
 	call CopyData
-	hlcoord 14, 8
+	hlcoord 16, 8
 	push hl
 	inc hl
 	ld de, wLoadedMonStatus
@@ -1870,7 +1869,7 @@ DrawPlayerHUDAndHPBar:
 .doNotPrintLevel
 	ld a, [wLoadedMonSpecies]
 	ld [wcf91], a
-	hlcoord 10, 9
+	hlcoord 11, 9
 	predef DrawHP
 	ld a, $1
 	ldh [hAutoBGTransferEnabled], a
@@ -1905,7 +1904,6 @@ DrawEnemyHUDAndHPBar:
 	hlcoord 0, 0
 	lb bc, 4, 12
 	call ClearScreenArea
-	callfar PlaceEnemyHUDTiles
 		;==============================start of caught code
 	push hl
 	ld a, [wEnemyMonSpecies2]
@@ -1922,16 +1920,16 @@ DrawEnemyHUDAndHPBar:
 	ld a, c
 	and a
 	jr z, .notOwned
-	coord hl, 1, 1;horizontal/vertical
-	ld [hl], $7B;replace this with your Poké Ball icon or other character
+	coord hl, 0, 0;horizontal/vertical
+	ld [hl], $cd ;replace this with your Poké Ball icon or other character
 	.notOwned
 	pop hl
 	;==============================end
 	ld de, wEnemyMonNick
 	hlcoord 1, 0
-	call CenterMonName
+;	call CenterMonName
 	call PlaceString
-	hlcoord 4, 1
+	hlcoord 1, 1
 	push hl
 	inc hl
 	ld de, wEnemyMonStatus
@@ -2004,8 +2002,8 @@ DrawEnemyHUDAndHPBar:
 .drawHPBar
 	xor a
 	ld [wHPBarType], a
-	hlcoord 2, 2
-	call DrawHPBar
+	hlcoord 1, 2
+	call DrawEnemyHPBar
 	ld a, $1
 	ldh [hAutoBGTransferEnabled], a
 	ld hl, wEnemyHPBarColor
@@ -5000,7 +4998,7 @@ ApplyDamageToPlayerPokemon:
 	ld [wHPBarMaxHP+1], a
 	ld a, [hl]
 	ld [wHPBarMaxHP], a
-	hlcoord 10, 9
+	hlcoord 12, 9
 	ld a, $01
 	ld [wHPBarType], a
 	predef UpdateHPBar2 ; animate the HP bar shortening
@@ -6667,29 +6665,7 @@ LoadHudAndHpBarAndStatusTilePatterns:
 	call LoadHpBarAndStatusTilePatterns
 
 LoadHudTilePatterns:
-	ldh a, [rLCDC]
-	add a ; is LCD disabled?
-	jr c, .lcdEnabled
-.lcdDisabled
-	ld hl, BattleHudTiles1
-	ld de, vChars2 tile $6d
-	ld bc, BattleHudTiles1End - BattleHudTiles1
-	ld a, BANK(BattleHudTiles1)
-	call FarCopyDataDouble
-	ld hl, BattleHudTiles2
-	ld de, vChars2 tile $73
-	ld bc, BattleHudTiles3End - BattleHudTiles2
-	ld a, BANK(BattleHudTiles2)
-	jp FarCopyDataDouble
-.lcdEnabled
-	ld de, BattleHudTiles1
-	ld hl, vChars2 tile $6d
-	lb bc, BANK(BattleHudTiles1), (BattleHudTiles1End - BattleHudTiles1) / $8
-	call CopyVideoDataDouble
-	ld de, BattleHudTiles2
-	ld hl, vChars2 tile $73
-	lb bc, BANK(BattleHudTiles2), (BattleHudTiles3End - BattleHudTiles2) / $8
-	jp CopyVideoDataDouble
+	ret
 
 PrintEmptyString:
 	ld hl, .emptyString
@@ -7093,13 +7069,17 @@ LoadMonBackPic:
 	jp CopyVideoData
 
 PrintEXPBar:
+	hlcoord 10, 11
+	ld [hl], $62
+	hlcoord 19, 11
+	ld [hl], $6c
 	call CalcEXPBarPixelLength
 	ld a, [hQuotient + 3] ; pixel length
 	ld [wEXPBarPixelLength], a
 	ld b, a
 	ld c, $08
 	ld d, $08
-	coord hl, 17, 11
+	coord hl, 18, 11
 .loop
 	ld a, b
 	sub c
