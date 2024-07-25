@@ -93,7 +93,7 @@ BlkPacket_StatusScreen:
 
 BlkPacket_Pokedex:
 	ATTR_BLK 1
-	ATTR_BLK_DATA %111, 1,1,0, 01,01, 08,08 ; mon: pal 1, everything else: pal 0
+	ATTR_BLK_DATA %111, 1,1,0, 02,01, 08,07 ; mon: pal 1, everything else: pal 0
 	ds 8, 0
 
 ; unused

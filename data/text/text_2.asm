@@ -645,6 +645,12 @@ _LinkCableHelpText1::
 	line "Combat Android"
 	cont "Model 229, Mark I"
 
+	para "Designation:"
+	line "Technical Machine"
+	cont "Artificial"
+	cont "Intelligence,"
+	cont "(TMAI) Mark I"
+
 	para "Equipped with"
 	line "military grade"
 	cont "Technique"

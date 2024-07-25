@@ -16,7 +16,7 @@ _CeladonMansion1Text3::
 	text_end
 
 _CeladonMansion1Text4::
-	text "FLEWNICORN: Neeeigh!@"
+	text "FLEWNICORN: Neigh!@"
 	text_end
 
 _CeladonMansion1Text5::
