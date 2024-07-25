@@ -65,9 +65,9 @@ MonPartyData:
 	nybble ICON_FAIRY     ; Abra
 	nybble ICON_FAIRY     ; Kadabra
 	nybble ICON_FAIRY     ; Alakazam
-	nybble ICON_HELIX     ; Machop
-	nybble ICON_HELIX     ; Machoke
-	nybble ICON_HELIX     ; Machamp
+	nybble ICON_MON       ; Machop
+	nybble ICON_MON       ; Machoke
+	nybble ICON_MON       ; Machamp
 	nybble ICON_GRASS     ; Bellsprout
 	nybble ICON_GRASS     ; Weepinbell
 	nybble ICON_GRASS     ; Victreebel
@@ -89,8 +89,8 @@ MonPartyData:
 	nybble ICON_BALL      ; Dewgong
 	nybble ICON_MON       ; Grimer
 	nybble ICON_MON       ; Muk
-	nybble ICON_HELIX     ; Shellder
-	nybble ICON_HELIX     ; Cloyster
+	nybble ICON_WATER     ; Shellder
+	nybble ICON_WATER     ; Cloyster
 	nybble ICON_MON       ; Gastly
 	nybble ICON_MON       ; Haunter
 	nybble ICON_MON       ; Gengar
