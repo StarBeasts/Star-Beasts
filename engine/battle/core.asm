@@ -4037,6 +4037,7 @@ CheckForDisobedience:
 	ld a, 30
 	jr nz, .next
 	ld a, 15
+	bit BIT_BOULDERBADGE, [hl]
 .next
 	ld b, a
 	ld c, a

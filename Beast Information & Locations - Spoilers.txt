@@ -3325,7 +3325,7 @@ Electric / Dark
 
 HP: 90
 Attack: 90
-Defense: 100
+Defense: 75
 Special: 115
 Speed: 110
 
